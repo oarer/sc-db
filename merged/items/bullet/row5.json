@@ -1,0 +1,217 @@
+{
+  "id": "row5",
+  "category": "bullet",
+  "name": {
+    "type": "translation",
+    "key": "item.amm.12slug.name",
+    "args": {},
+    "lines": {
+      "ru": "Охотничья пуля 12 калибра",
+      "en": "12 Caliber Hunting Round",
+      "es": "Balas de caza del calibre 12",
+      "fr": "Calibre 12 de Chasse"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.bullet",
+            "args": {},
+            "lines": {
+              "ru": "Патроны",
+              "en": "Rounds",
+              "es": "Munición",
+              "fr": "Munitions"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.03,
+          "formatted": {
+            "value": {
+              "ru": "0,03 кг",
+              "en": "0.03 kg",
+              "es": "0,03 kg",
+              "fr": "0,03 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.bullet_type.default",
+            "args": {},
+            "lines": {
+              "ru": "Стандартный патрон",
+              "en": "Standard Round",
+              "es": "Munición estándar",
+              "fr": "Cartouche standard"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.low_penetration",
+            "args": {},
+            "lines": {
+              "ru": "Низкая пробиваемость",
+              "en": "Low penetration",
+              "es": "Penetración baja",
+              "fr": "Faible pénétration"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.distance",
+            "args": {},
+            "lines": {
+              "ru": "Дистанция",
+              "en": "Distance",
+              "es": "Distancia",
+              "fr": "Distance"
+            }
+          },
+          "value": 12.5,
+          "formatted": {
+            "value": {
+              "ru": "+12,5%",
+              "en": "+12.5%",
+              "es": "+12,5 %",
+              "fr": "+12,5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.bleeding",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement"
+            }
+          },
+          "value": 15.000001,
+          "formatted": {
+            "value": {
+              "ru": "+15%",
+              "en": "+15%",
+              "es": "+15 %",
+              "fr": "+15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power",
+              "es": "Poder de parada",
+              "fr": "Pouvoir d'arrêt"
+            }
+          },
+          "value": 50,
+          "formatted": {
+            "value": {
+              "ru": "+50",
+              "en": "+50",
+              "es": "+50",
+              "fr": "+50"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

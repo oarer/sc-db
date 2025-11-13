@@ -1,0 +1,308 @@
+{
+  "id": "dmky5",
+  "category": "medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.clearmind.name",
+    "args": {},
+    "lines": {
+      "ru": "«ClearMind+»",
+      "en": "“ClearMind+”",
+      "es": "\"ClearMind+\"",
+      "fr": "« ClearMind+ »"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.medicine",
+            "args": {},
+            "lines": {
+              "ru": "Медикаменты",
+              "en": "Medicine",
+              "es": "Medicamentos",
+              "fr": "Médicaments"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg",
+              "es": "0,05 kg",
+              "fr": "0,05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose",
+              "es": "Propósito",
+              "fr": "Objectif"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.psi",
+            "args": {},
+            "lines": {
+              "ru": "Вывод пси-излучения",
+              "en": "Psy-Emission Cleansing",
+              "es": "Limpieza de emisiones psy",
+              "fr": "Nettoyage des émissions psychiques"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.priority",
+            "args": {},
+            "lines": {
+              "ru": "Приоритет эффекта",
+              "en": "Effect priority",
+              "es": "Priorización del efecto",
+              "fr": "Priorité de l'effet"
+            }
+          },
+          "value": 8,
+          "formatted": {
+            "value": {
+              "ru": "8",
+              "en": "8",
+              "es": "8",
+              "fr": "8"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Время действия",
+              "en": "Duration",
+              "es": "Duración",
+              "fr": "Durée"
+            }
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison",
+              "es": "Veneno",
+              "fr": "Poison"
+            }
+          },
+          "value": 25,
+          "formatted": {
+            "value": {
+              "ru": "25",
+              "en": "25",
+              "es": "25",
+              "fr": "25"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Сопротивление пси-излучению",
+              "en": "Psy-emission resistance",
+              "es": "Resistencia a la emisión psy",
+              "fr": "Résistance aux émissions psys"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys"
+            }
+          },
+          "value": -75,
+          "formatted": {
+            "value": {
+              "ru": "-75",
+              "en": "-75",
+              "es": "-75",
+              "fr": "-75"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.clearmind.description",
+        "args": {},
+        "lines": {
+          "ru": "Препарат, разработанный зарубежными учеными на основе исследований артефактов, блокирующих пси-излучение. Воздействие препарата оставалось непонятным вплоть до того момента, как его решили применить на одном из пациентов, уже страдающего психическими расстройствами – через некоторое время его поведение больше стало походить на поведение психически здорового человека. Препарат воздействует на разрушенные в недавнем времени клетки головного мозга, восстанавливая их с невообразимой скоростью. Ввиду своих свойств и материалов, необходимых для его создания, быстро попал в Зону, где стал популярен среди сталкеров.",
+          "en": "A drug developed by foreign scientists using research into artifacts that block psy-emissions. The effects of the drug remained unknown until the decision was made to give it to a patient suffering from mental disorders. A little while later, his behavior began to resemble that of a mentally stable person. The drug affects recently damaged brain cells and restores them with unbelievable speed. Due to its effects and the materials required to create it, this drug spread quickly to the Zone, where it became popular among stalkers.",
+          "es": "Un fármaco desarrollado por científicos extranjeros mediante la investigación de artefactos que bloquean las emisiones psy. Los efectos del fármaco fueron desconocidos hasta que se tomó la decisión de administrárselo a un paciente que sufría trastornos mentales. Poco después, su comportamiento empezó a parecerse al de una persona mentalmente estable. El fármaco afecta a las células cerebrales recientemente dañadas y las restaura con una rapidez increíble. Debido a sus efectos y a los materiales necesarios para crearlo, este medicamento se extendió rápidamente a la Zona, donde se hizo popular entre los acechadores.",
+          "fr": "Médicament mis au point par des scientifiques étrangers à partir de recherches sur des artéfacts bloquant les émissions psychiques. Les effets de cette drogue sont restés inconnus jusqu'à ce qu'il soit décidé de l'administrer à un patient souffrant de troubles mentaux. Peu de temps après, son comportement a commencé à ressembler à celui d'une personne mentalement stable. Le médicament affecte les cellules cérébrales récemment endommagées et les restaure à une vitesse incroyable. En raison de ses effets et du matériel nécessaire à sa création, cette drogue s'est rapidement répandue dans la Zone, où elle est devenue populaire parmi les stalkers."
+        }
+      }
+    }
+  ]
+}

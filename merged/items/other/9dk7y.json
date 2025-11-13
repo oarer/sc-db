@@ -1,0 +1,193 @@
+{
+  "id": "9dk7y",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.sever.mining_add.name",
+    "args": {},
+    "lines": {
+      "ru": "Пси-маячок",
+      "en": "Psy-Tracker",
+      "es": "Rastreador psy",
+      "fr": "Traceur-Psy"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg",
+              "fr": "0,15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l'artisanat"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "4200.0"
+            },
+            "lines": {
+              "ru": "4 200 руб.",
+              "en": "4,200 rubles",
+              "es": "4.200 rublos",
+              "fr": "4 200 roubles"
+            }
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.sever.mining_add.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Уцелевший кусочек таинственных разработок из скрытых лабораторий Зоны. Ученые разрабатывали самые разные инструменты воздействия на человеческое сознание. На фоне многих других, этот прибор кажется довольно компактным.",
+          "en": "A surviving scrap of the secret developments made by the Zone’s hidden labs, where scientists developed various tools for affecting human consciousness. When compared with the many other devices, this one seems rather compact.",
+          "es": "Pedazo de chatarra superviviente de los avances secretos realizados por los laboratorios ocultos de la Zona, donde los científicos desarrollaron diversas herramientas para influir en la conciencia humana. En comparación con los demás dispositivos, este parece bastante compacto.",
+          "fr": "Un fragment rescapé des développements secrets réalisés par les laboratoires cachés de la Zone, où les scientifiques ont développé divers outils pour affecter la conscience humaine. Comparé à de nombreux autres appareils, celui-ci semble plutôt compact."
+        }
+      }
+    },
+    {}
+  ]
+}

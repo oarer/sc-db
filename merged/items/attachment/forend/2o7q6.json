@@ -1,0 +1,180 @@
+{
+  "id": "2o7q6",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.att.mount_svt.name",
+    "args": {},
+    "lines": {
+      "ru": "Планка Пикатинни для СВТ",
+      "en": "Picatinny Rail for SVT",
+      "es": "Rail Picatinny para SVT",
+      "fr": "Rail Picatinny pour SVT"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.forend",
+            "args": {},
+            "lines": {
+              "ru": "Цевья и крепления",
+              "en": "Hanguards and Brackets",
+              "es": "Guardamanos y soportes",
+              "fr": "Garde-mains et supports"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.12,
+          "formatted": {
+            "value": {
+              "ru": "0,12 кг",
+              "en": "0.12 kg",
+              "es": "0,12 kg",
+              "fr": "0,12 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.mount_svt.description",
+        "args": {},
+        "lines": {
+          "ru": "Планка Пикатинни для установки прицелов на СВТ",
+          "en": "Picatinny rail for mounting sights on an SVT",
+          "es": "Raíl Picatinny para montar miras en un SVT",
+          "fr": "Rail Picatinny pour le montage de viseurs sur un SVT"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for",
+          "es": "Adecuado para",
+          "fr": "Compatible avec"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svt40_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "АВТ-40",
+              "en": "AVT-40",
+              "es": "AVT-40",
+              "fr": "AVT-40"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.skt40.name",
+            "args": {},
+            "lines": {
+              "ru": "СКТ-40",
+              "en": "SKT-40",
+              "es": "SKT-40",
+              "fr": "SKT-40"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svt40.name",
+            "args": {},
+            "lines": {
+              "ru": "СВТ-40",
+              "en": "SVT-40",
+              "es": "SVT-40",
+              "fr": "SVT-40"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

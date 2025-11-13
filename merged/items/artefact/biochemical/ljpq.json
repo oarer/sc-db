@@ -1,0 +1,466 @@
+{
+  "id": "ljpq",
+  "category": "artefact/biochemical",
+  "name": {
+    "type": "translation",
+    "key": "item.art.kisel_poly.name",
+    "args": {},
+    "lines": {
+      "ru": "Многогранник",
+      "en": "Polyhedron",
+      "es": "Poliedro",
+      "fr": "Polyèdre"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.biochemical",
+            "args": {},
+            "lines": {
+              "ru": "Биохимические",
+              "en": "Biochemical",
+              "es": "Bioquímica",
+              "fr": "Biochimique"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg",
+              "es": "0,05 kg",
+              "fr": "0,05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "27000.0"
+            },
+            "lines": {
+              "ru": "27 000 руб.",
+              "en": "27,000 rubles",
+              "es": "27.000 rublos",
+              "fr": "27 000 roubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "stalker.tooltip.item.lifesaver_sniper",
+            "args": {},
+            "lines": {
+              "ru": "Защищает от прямого урона",
+              "en": "Protects against direct damage",
+              "es": "Protege contra el daño directo",
+              "fr": "Protège contre les dégâts directs"
+            }
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.item.lifesaver_sniper.info.trigger_damage",
+            "args": {},
+            "lines": {
+              "ru": "Срабатывает при",
+              "en": "Triggers when",
+              "es": "Se activa cuando",
+              "fr": "Se déclenche à"
+            }
+          },
+          "min": 90,
+          "max": 90,
+          "formatted": {
+            "value": {
+              "ru": "≥90 ед",
+              "en": "≥90 unit(s)",
+              "es": "≥90 unidad(es)",
+              "fr": "≥90 unité(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.item.lifesaver_sniper.info.blocking_damage",
+            "args": {},
+            "lines": {
+              "ru": "Снижает урон на",
+              "en": "Reduces damage by",
+              "es": "Reduce el daño un",
+              "fr": "Réduit les dégâts de"
+            }
+          },
+          "min": 66.725,
+          "max": 78.5,
+          "formatted": {
+            "value": {
+              "ru": "[67 ед; 78 ед]",
+              "en": "[67 unit(s); 78 unit(s)]",
+              "es": "[67 unidad(es); 78 unidad(es)]",
+              "fr": "[67 unité(s); 78 unité(s)]"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.item.lifesaver.info.recharge",
+            "args": {},
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload",
+              "es": "Recarga",
+              "fr": "Recharger"
+            }
+          },
+          "min": 30,
+          "max": 23.1,
+          "formatted": {
+            "value": {
+              "ru": "[30 с; 23,1 с]",
+              "en": "[30 sec; 23.1 sec]",
+              "es": "[30 s; 23,1 s]",
+              "fr": "[30 s; 23,1 s]"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.item.lifesaver.info.cost",
+            "args": {},
+            "lines": {
+              "ru": "Заряда за активацию",
+              "en": "Charge required to activate",
+              "es": "Carga necesaria para activar",
+              "fr": "Charge requise pour l'activation"
+            }
+          },
+          "min": 5,
+          "max": 2.7,
+          "formatted": {
+            "value": {
+              "ru": "[5%; 2,7%]",
+              "en": "[5%; 2.7%]",
+              "es": "[5 %; 2,7 %]",
+              "fr": "[5%; 2,7%]"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 12.410001,
+          "max": 14.6,
+          "formatted": {
+            "value": {
+              "ru": "[+12,41%; +14,6%]",
+              "en": "[+12.41%; +14.6%]",
+              "es": "[+12,41 %; +14,6 %]",
+              "fr": "[+12,41%; +14,6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course"
+            }
+          },
+          "min": 0.63750005,
+          "max": 0.75,
+          "formatted": {
+            "value": {
+              "ru": "[+0,64%; +0,75%]",
+              "en": "[+0.64%; +0.75%]",
+              "es": "[+0,64 %; +0,75 %]",
+              "fr": "[+0,64%; +0,75%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation"
+            }
+          },
+          "min": 2.125,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+2,12; +2,5]",
+              "en": "[+2.12; +2.5]",
+              "es": "[+2,12; +2,5]",
+              "fr": "[+2,12; +2,5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.kisel_poly.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшой куб с хаотично торчащими формированиями правильной формы. На большинстве граней артефакта имеются зеленые вкрапления,  свидетельствующие о биологической активности.\\n\\n Если верить ученым, то внутренняя структура артефакта выглядит еще интереснее. Внутренняя полость «Многогранника», заполненная зеленоватой люминесцирующей жидкостью, содержит в себе копию артефакта. Подобная «матрешка» повторяется вплоть до масштаба в микрометр. Вероятно, свойства артефакта напрямую связаны с подобной особенностью.",
+          "en": "A small cube with chaotically protruding, regular-shaped formations. Most facets of the artifact feature green inclusions, indicating biological activity.\\n\\n According to scientists, the internal structure of the artifact is even more intriguing. The internal cavity of the Polyhedron, filled with a greenish luminescent liquid, contains a copy of the artifact. This 'nesting doll' effect repeats down to a micrometer scale. The properties of the artifact are likely directly related to this characteristic.",
+          "es": "Pequeño cubo con formaciones caóticamente salientes de forma regular. La mayoría de las caras del artefacto tienen motas verdes que indican actividad biológica.\\n\\n Si hemos de creer a los científicos, la estructura interna del artefacto parece aún más interesante. La cavidad interior de Poliedro, llena de líquido luminiscente verdoso, contiene una copia del artefacto. Una muñeca rusa similar se repite hasta la escala micrométrica. Probablemente, las propiedades del artefacto estén directamente relacionadas con dicha característica.",
+          "fr": "Un petit cube orné de formations régulières aux protubérances chaotiques. La plupart de ses faces présentent des inclusions vertes, signalant une activité biologique.\\n\\n Selon les chercheurs, sa structure interne est encore plus fascinante : la cavité centrale du Polyèdre, remplie d'un liquide verdâtre luminescent, contient une réplique miniature de l'artefact. Cet effet de poupée russe se répète à l'échelle du micromètre. Les propriétés de l'artefact seraient directement liées à cette caractéristique."
+        }
+      }
+    }
+  ]
+}

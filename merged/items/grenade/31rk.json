@@ -1,0 +1,273 @@
+{
+  "id": "31rk",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.m67.name",
+    "args": {},
+    "lines": {
+      "ru": "M67",
+      "en": "M67",
+      "es": "M67",
+      "fr": "M67"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.grenade",
+            "args": {},
+            "lines": {
+              "ru": "Гранаты",
+              "en": "Grenades",
+              "es": "Granadas",
+              "fr": "Grenades"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.39,
+          "formatted": {
+            "value": {
+              "ru": "0,39 кг",
+              "en": "0.39 kg",
+              "es": "0,39 kg",
+              "fr": "0,39 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_strength",
+            "args": {},
+            "lines": {
+              "ru": "Урон в центре",
+              "en": "Damage at center",
+              "es": "Daño en el centro",
+              "fr": "Dégâts au centre"
+            }
+          },
+          "value": 224,
+          "formatted": {
+            "value": {
+              "ru": "224 ед",
+              "en": "224 unit(s)",
+              "es": "224 unidad(es)",
+              "fr": "224 unité(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_strength_min",
+            "args": {},
+            "lines": {
+              "ru": "Минимальный урон",
+              "en": "Minimum damage",
+              "es": "Daño mínimo",
+              "fr": "Dégâts minimums"
+            }
+          },
+          "value": 134,
+          "formatted": {
+            "value": {
+              "ru": "134 ед",
+              "en": "134 unit(s)",
+              "es": "134 unidad(es)",
+              "fr": "134 unité(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power",
+              "es": "Poder de parada",
+              "fr": "Pouvoir d'arrêt"
+            }
+          },
+          "value": 75,
+          "formatted": {
+            "value": {
+              "ru": "75",
+              "en": "75",
+              "es": "75",
+              "fr": "75"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.lifetime",
+            "args": {},
+            "lines": {
+              "ru": "Время до взрыва",
+              "en": "Time until detonation",
+              "es": "Tiempo hasta la detonación",
+              "fr": "Temps avant explosion"
+            }
+          },
+          "value": 3.25,
+          "formatted": {
+            "value": {
+              "ru": "3,25 с",
+              "en": "3.25 sec",
+              "es": "3,25 s",
+              "fr": "3,25 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_size",
+            "args": {},
+            "lines": {
+              "ru": "Радиус поражения",
+              "en": "Damage range",
+              "es": "Alcance del daño",
+              "fr": "Portée des dégâts"
+            }
+          },
+          "value": 9,
+          "formatted": {
+            "value": {
+              "ru": "9 м",
+              "en": "9 m",
+              "es": "9 m",
+              "fr": "9 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.m67.description",
+        "args": {},
+        "lines": {
+          "ru": "Американская ручная осколочная граната",
+          "en": "An American fragmentation hand grenade.",
+          "es": "Una granada de mano de fragmentación estadounidense.",
+          "fr": "Une grenade à fragmentation américaine."
+        }
+      }
+    }
+  ]
+}

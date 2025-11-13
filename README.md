@@ -97,25 +97,17 @@ bun run src/index.ts --force-merge
 ./items/ # базовое бд
 
 ├─ <category>/
-
 │ ├─ weapon_xyz.json
-
 │ └─ _variants/
-
-│ └─ weapon_xyz/
-
-│ ├─ variant1.json
-
-│ └─ variant2.json
-
+│ ├── variant1.json
+│ └── variant2.json
 └─ icons/
 
 
 
-./merged/ # результат работы
+./merged/ # итоговый результат
 
 ├─ <category>/
-
 └─ icons/
 
 

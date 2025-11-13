@@ -1,0 +1,192 @@
+{
+  "id": "rwrkz",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.19812.name",
+    "args": {},
+    "lines": {
+      "ru": "«Накал»",
+      "en": "Incandescent",
+      "es": "Incandescente",
+      "fr": "Incandescent"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.skins",
+            "args": {},
+            "lines": {
+              "ru": "Косметика",
+              "en": "Cosmetics",
+              "es": "Cosméticos",
+              "fr": "Cosmétique"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.lore.skin.all_suitable_targets",
+            "args": {},
+            "lines": {
+              "ru": "Подходит для:",
+              "en": "Suitable for:",
+              "es": "Adecuado para:",
+              "fr": "Compatible avec :"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4.name",
+            "args": {},
+            "lines": {
+              "ru": "M4A1",
+              "en": "M4A1",
+              "es": "M4A1",
+              "fr": "M4A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.abakan.name",
+            "args": {},
+            "lines": {
+              "ru": "АН-94М «Абакан»",
+              "en": "AN-94M Abakan",
+              "es": "AN-94M Abakan",
+              "fr": "AN-94M Abakan"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarl.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-L",
+              "en": "FN SCAR-L",
+              "es": "FN SCAR-L",
+              "fr": "FN SCAR-L"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4_lb.name",
+            "args": {},
+            "lines": {
+              "ru": "M4 LB",
+              "en": "M4 LB",
+              "es": "M4 LB",
+              "fr": "M4 LB"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarssr.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR SSR",
+              "en": "FN SCAR SSR",
+              "es": "FN SCAR SSR",
+              "fr": "FN SCAR SSR"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.storm.name",
+            "args": {},
+            "lines": {
+              "ru": "ОЦ-14М «Ураган»",
+              "en": "OTs-14M Hurricane",
+              "es": "OTs-14M Huracán",
+              "fr": "OTs-14M Ouragan"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.akm.name",
+            "args": {},
+            "lines": {
+              "ru": "АКМ",
+              "en": "AKM",
+              "es": "AKM",
+              "fr": "AKM"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

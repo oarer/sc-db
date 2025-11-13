@@ -1,0 +1,280 @@
+{
+  "id": "g4wlg",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.unique_arm.likvidator.name",
+    "args": {},
+    "lines": {
+      "ru": "«Ликвидатор»",
+      "en": "Liquidator",
+      "es": "Liquidador",
+      "fr": "Liquidateur"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.skins",
+            "args": {},
+            "lines": {
+              "ru": "Косметика",
+              "en": "Cosmetics",
+              "es": "Cosméticos",
+              "fr": "Cosmétique"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.armor_unique_skin.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Уникальная краска для брони",
+          "en": "Unique paint for armor",
+          "es": "Pintura para armadura única",
+          "fr": "Peinture unique pour armure"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.lore.skin.all_suitable_targets",
+            "args": {},
+            "lines": {
+              "ru": "Подходит для:",
+              "en": "Suitable for:",
+              "es": "Adecuado para:",
+              "fr": "Compatible avec :"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.ao5.name",
+            "args": {},
+            "lines": {
+              "ru": "УКАЗ АО-5 «Пилигрим»",
+              "en": "RAPS AH-5 Pilgrim",
+              "es": "TPAR CA-5 Peregrino",
+              "fr": "RAPS AH-5 Pèlerin"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.heavyaltyn.name",
+            "args": {},
+            "lines": {
+              "ru": "Тяжелый бронекостюм «Алтын-Т»",
+              "en": "Altyn-T Heavy Armored Suit",
+              "es": "Traje blindado pesado Altyn-T",
+              "fr": "Combinaison Altyn Blindée Lourde"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.jnec.name",
+            "args": {},
+            "lines": {
+              "ru": "Комбинезон «Жнец»",
+              "en": "REAPER Jumpsuit",
+              "es": "Traje Segador",
+              "fr": "Combinaison FAUCHEUSE"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.zivcas.name",
+            "args": {},
+            "lines": {
+              "ru": "Экзоброня JD ZIVCAS 2A",
+              "en": "JD ZIVCAS 2A Exoarmor",
+              "es": "Exoarmadura JD ZIVCAS 2A",
+              "fr": "JD ZIVCAS 2A Exoarmure"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.gorka.name",
+            "args": {},
+            "lines": {
+              "ru": "Костюм «Горка-3»",
+              "en": "Gorka-3 Suit",
+              "es": "Traje Gorka-3",
+              "fr": "Combinaison Gorka-3"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.seva_dayx.name",
+            "args": {},
+            "lines": {
+              "ru": "«Долгожитель»",
+              "en": "Longevity",
+              "es": "Longevidad",
+              "fr": "Longévité"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.goplit.name",
+            "args": {},
+            "lines": {
+              "ru": "Бронекостюм «Гоплит»",
+              "en": "Hoplite Armored Suit",
+              "es": "Traje blindado Hoplita",
+              "fr": "Combinaison Hoplite Blindée"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.altyn.name",
+            "args": {},
+            "lines": {
+              "ru": "Бронекостюм «Алтын»",
+              "en": "Altyn Armored Suit",
+              "es": "Traje blindado Altyn",
+              "fr": "Combinaison Altyn Blindée"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.seva.name",
+            "args": {},
+            "lines": {
+              "ru": "Комбинезон «Уран»",
+              "en": "Uranus Jumpsuit",
+              "es": "Traje Urano",
+              "fr": "Combinaison Uranus"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.albatros_light.name",
+            "args": {},
+            "lines": {
+              "ru": "Экзоброня «Альбатрос-Лазутчик»",
+              "en": "Albatross Infiltrator Exoarmor",
+              "es": "Exoarmadura Albatros de infiltración",
+              "fr": "Exoarmure Albatros Infiltrateur"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.ao3.name",
+            "args": {},
+            "lines": {
+              "ru": "Костюм АО-3 «Искатель»",
+              "en": "AH-3 Seeker Suit",
+              "es": "Traje CA-3 Buscador",
+              "fr": "Combinaison AH-3 Chercheur"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.magnit.name",
+            "args": {},
+            "lines": {
+              "ru": "Комбинезон «Магнит»",
+              "en": "Magnet Jumpsuit",
+              "es": "Traje Imán",
+              "fr": "Combinaison Magnétique"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

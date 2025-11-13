@@ -1,0 +1,504 @@
+{
+  "id": "g4q1g",
+  "category": "attachment/pistol_handle",
+  "name": {
+    "type": "translation",
+    "key": "item.att.handle_agr43b.name",
+    "args": {},
+    "lines": {
+      "ru": "Рукоять Fab defence AGR-43, черный",
+      "en": "Fab Defense AGR-43 Grip, Black",
+      "es": "Empuñadura Fab Defense AGR-43, negra",
+      "fr": "Poignée Fab Defense AGR-43, noir"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.pistol_handle",
+            "args": {},
+            "lines": {
+              "ru": "Пистолетные рукояти",
+              "en": "Pistol Grips",
+              "es": "Empuñaduras de pistola",
+              "fr": "Poignées de pistolet"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.096,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {
+              "ru": "Нарастание отдачи",
+              "en": "Recoil buildup",
+              "es": "Acumulación de retroceso",
+              "fr": "Accumulation du recul"
+            }
+          },
+          "value": -2.9999971,
+          "formatted": {
+            "value": {
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3 %",
+              "fr": "-3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway",
+              "es": "Oscilación",
+              "fr": "Balancement"
+            }
+          },
+          "value": -1.9999981,
+          "formatted": {
+            "value": {
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for",
+          "es": "Adecuado para",
+          "fr": "Compatible avec"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.tact.name",
+            "args": {},
+            "lines": {
+              "ru": "PSA PA 10 «Такт»",
+              "en": "PSA PA 10 Beat",
+              "es": "PSA PA 10 Compás",
+              "fr": "PSA PA 10 Battement"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a1.name",
+            "args": {},
+            "lines": {
+              "ru": "M16A1",
+              "en": "M16A1",
+              "es": "M16A1",
+              "fr": "M16A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rhythm.name",
+            "args": {},
+            "lines": {
+              "ru": "PSA PA 10 «Ритм»",
+              "en": "PSA PA 10 Rhythm",
+              "es": "PSA PA 10 Ritmo",
+              "fr": "PSA PA 10 Rythme"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4.name",
+            "args": {},
+            "lines": {
+              "ru": "M4A1",
+              "en": "M4A1",
+              "es": "M4A1",
+              "fr": "M4A1"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a3.name",
+            "args": {},
+            "lines": {
+              "ru": "M16A3",
+              "en": "M16A3",
+              "es": "M16A3",
+              "fr": "M16A3"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m4_lb.name",
+            "args": {},
+            "lines": {
+              "ru": "M4 LB",
+              "en": "M4 LB",
+              "es": "M4 LB",
+              "fr": "M4 LB"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a2.name",
+            "args": {},
+            "lines": {
+              "ru": "M16A2",
+              "en": "M16A2",
+              "es": "M16A2",
+              "fr": "M16A2"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pulse.name",
+            "args": {},
+            "lines": {
+              "ru": "PSA 20 STR «Пульс»",
+              "en": "PSA 20 STR Pulse",
+              "es": "PSA 20 STR Pulso",
+              "fr": "PSA 20 STR Pulse"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sig516.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG 516",
+              "en": "SIG 516",
+              "es": "SIG 516",
+              "fr": "SIG 516"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.lr300.name",
+            "args": {},
+            "lines": {
+              "ru": "LR-300",
+              "en": "LR-300",
+              "es": "LR-300",
+              "fr": "LR-300"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarl.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-L",
+              "en": "FN SCAR-L",
+              "es": "FN SCAR-L",
+              "fr": "FN SCAR-L"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hk416.name",
+            "args": {},
+            "lines": {
+              "ru": "HK416",
+              "en": "HK416",
+              "es": "HK416",
+              "fr": "HK416"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarh.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR-H",
+              "en": "FN SCAR-H",
+              "es": "FN SCAR-H",
+              "fr": "FN SCAR-H"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarssr.name",
+            "args": {},
+            "lines": {
+              "ru": "FN SCAR SSR",
+              "en": "FN SCAR SSR",
+              "es": "FN SCAR SSR",
+              "fr": "FN SCAR SSR"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mcmillan.name",
+            "args": {},
+            "lines": {
+              "ru": "McMillan CS5",
+              "en": "McMillan CS5",
+              "es": "McMillan CS5",
+              "fr": "McMillan CS5"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hk417.name",
+            "args": {},
+            "lines": {
+              "ru": "HK417",
+              "en": "HK417",
+              "es": "HK417",
+              "fr": "HK417"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mk12.name",
+            "args": {},
+            "lines": {
+              "ru": "Derya MK-12 AS-103S",
+              "en": "Derya MK-12 AS-103S",
+              "es": "Derya MK-12 AS-103S",
+              "fr": "Derya MK-12 AS-103S"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.scarh_a.name",
+            "args": {},
+            "lines": {
+              "ru": "SCAR-H Арсенала",
+              "en": "Arsenal SCAR-H",
+              "es": "Arsenal SCAR-H",
+              "fr": "SCAR-H d'Arsenal"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hk417_a.name",
+            "args": {},
+            "lines": {
+              "ru": "HK417 Арсенала",
+              "en": "Arsenal HK417",
+              "es": "Arsenal HK417",
+              "fr": "HK417 d'Arsenal"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a3_rune_a.name",
+            "args": {},
+            "lines": {
+              "ru": "«Руна» Арсенала",
+              "en": "Arsenal Rune",
+              "es": "Runa de Arsenal",
+              "fr": "Rune d'Arsenal"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mk12_a.name",
+            "args": {},
+            "lines": {
+              "ru": "Derya MK-12 Арсенала",
+              "en": "Arsenal Derya MK-12",
+              "es": "Arsenal Derya MK-12",
+              "fr": "Derya MK-12 Arsenal"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.hk416_a.name",
+            "args": {},
+            "lines": {
+              "ru": "HK416 Арсенала",
+              "en": "Arsenal HK416",
+              "es": "Arsenal HK416",
+              "fr": "HK416 de l’Arsenal"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

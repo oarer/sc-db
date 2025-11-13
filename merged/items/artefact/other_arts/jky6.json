@@ -1,0 +1,400 @@
+{
+  "id": "jky6",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.inside_izum.name",
+    "args": {},
+    "lines": {
+      "ru": "Изюм",
+      "en": "Raisin",
+      "es": "Pasa",
+      "fr": "Raisin"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg",
+              "fr": "0,15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "81325.0"
+            },
+            "lines": {
+              "ru": "81 325 руб.",
+              "en": "81,325 rubles",
+              "es": "81.325 rublos",
+              "fr": "81 325 roubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 18.36,
+          "max": 21.6,
+          "formatted": {
+            "value": {
+              "ru": "[+18,36%; +21,6%]",
+              "en": "[+18.36%; +21.6%]",
+              "es": "[+18,36 %; +21,6 %]",
+              "fr": "[+18,36%; +21,6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 1.36,
+          "max": 1.6,
+          "formatted": {
+            "value": {
+              "ru": "[+1,36%; +1,6%]",
+              "en": "[+1.36%; +1.6%]",
+              "es": "[+1,36 %; +1,6 %]",
+              "fr": "[+1,36%; +1,6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course"
+            }
+          },
+          "min": 1.8275001,
+          "max": 2.15,
+          "formatted": {
+            "value": {
+              "ru": "[+1,83%; +2,15%]",
+              "en": "[+1.83%; +2.15%]",
+              "es": "[+1,83 %; +2,15 %]",
+              "fr": "[+1,83%; +2,15%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": -29.7,
+          "max": -25.245,
+          "formatted": {
+            "value": {
+              "ru": "[-29,7; -25,24]",
+              "en": "[-29.7; -25.24]",
+              "es": "[-29,7; -25,24]",
+              "fr": "[-29,7; -25,24]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "min": 2.125,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+2,12; +2,5]",
+              "en": "[+2.12; +2.5]",
+              "es": "[+2,12; +2,5]",
+              "fr": "[+2,12; +2,5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.inside_izum.description",
+        "args": {},
+        "lines": {
+          "ru": "Артефакт напоминает гладкий камень, поросший длинными жгутиками, соединяющими между собой наросты в форме глаз, которые являются кристаллическими образованиями, характерными для Изнанки. Свое название получил из-за артефакта-прародителя из ЧЗО — «Ягодки», но которую высушили до твердого и морщинистого состояния. В плов не добавлять!\\n\\n Тонкие ворсинки, которые покрывают жгутики, вырабатывают энергетическое поле, влияющее на проводимость нейронных связей. Поговаривают, что лучше долго не смотреть на наросты в форме глаз, а то без посторонней помощи можно «залипнуть» навечно.\\n\\n Сталкер, не обладающий теоретической базой, может спутать с «Жвачкой».",
+          "en": "The artifact resembles a smooth stone covered with long tendrils connecting the eye-shaped growths, which are crystalline formations characteristic of the Inside Out. It got its name due to its progenitor artifact from the CEZ — Berries, but dried to a hard and wrinkled state. Do not add to pilaf!до твердого и морщинистого состояния. В плов не добавлять!\\n\\n Thin fibers covering the tendrils generate an energetic field affecting the conductivity of neural connections. It's said that it's better not to stare at the eye-shaped growths too long, or without outside help, one might get 'stuck' forever.до твердого и морщинистого состояния. В плов не добавлять!\\n\\n A stalker without a theoretical background might mistake it for Gum.",
+          "es": "El artefacto se asemeja a una piedra lisa cubierta de largos flagelos que conectan crecimientos en forma de ojo, que son formaciones cristalinas características del Reverso. Recibe su nombre del artefacto antecesor de la Zona de exclusión de Chernóbil, Baya, pero que se ha secado hasta alcanzar un estado duro y arrugado. ¡No debe añadirse al pilaf!\\n\\n La fina pelusa que recubre los flagelos produce un campo de energía que afecta a la conductividad de las conexiones neuronales. Se dice que es mejor no mirar los crecimientos en forma de ojos durante mucho tiempo, o sin ayuda, puede atascarse para siempre.\\n\\n Un acechador que no tenga una base teórica puede confundirlo con Chicle.",
+          "fr": "L'artefact ressemble à une pierre lisse, recouverte de longs filaments reliant entre elles des excroissances en forme d'yeux, qui sont des formations cristallines caractéristiques de l'Envers. Son nom provient de l'artefact parent de la Zone d'exclusion - la Baie, mais dans une version desséchée, dure et ridée. Ne pas ajouter au pilaf !\\n\\n Les fines soies recouvrant les filaments génèrent un champ énergétique influençant la conductivité des connexions neuronales. Il est dit qu'il vaut mieux ne pas fixer trop longtemps les excroissances en forme d'yeux, sous peine de rester figé à jamais sans aide extérieure.\\n\\n Un stalker sans base théorique pourrait le confondre avec la Gomme."
+        }
+      }
+    }
+  ]
+}
