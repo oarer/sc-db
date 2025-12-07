@@ -1,0 +1,154 @@
+{
+  "id": "0ry5r",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.unique_arm.skat_blizzard23.name",
+    "args": {},
+    "lines": {
+      "ru": "«Холодная голова»",
+      "en": "Frost Head",
+      "es": "Cabeza gélida",
+      "fr": "Tête Givrée"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.skins",
+            "args": {},
+            "lines": {
+              "ru": "Косметика",
+              "en": "Cosmetics",
+              "es": "Cosméticos",
+              "fr": "Cosmétique"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.armor_unique_skin.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Уникальная краска для брони",
+          "en": "Unique paint for armor",
+          "es": "Pintura para armadura única",
+          "fr": "Peinture unique pour armure"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.lore.skin.all_suitable_targets",
+            "args": {},
+            "lines": {
+              "ru": "Подходит для:",
+              "en": "Suitable for:",
+              "es": "Adecuado para:",
+              "fr": "Compatible avec :"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.skat10.name",
+            "args": {},
+            "lines": {
+              "ru": "Бронекостюм «Скиф-5»",
+              "en": "Scythian-5 Armored Suit",
+              "es": "Traje blindado Escita-5",
+              "fr": "Combinaison Blindée Scythian-5"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.bulat.name",
+            "args": {},
+            "lines": {
+              "ru": "Бронекостюм «Скиф-2м»",
+              "en": "Scythian-2m Armored Suit",
+              "es": "Traje blindado Escita-2m",
+              "fr": "Combinaison Blindée SCYTHIAN-2m"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.arm.skat9m.name",
+            "args": {},
+            "lines": {
+              "ru": "Бронекостюм «Скиф-4»",
+              "en": "Scythian-4 Armored Suit",
+              "es": "Traje blindado Escita-4",
+              "fr": "Combinaison Blindée SCYTHIAN-4"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

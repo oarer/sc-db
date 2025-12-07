@@ -1,0 +1,400 @@
+{
+  "id": "wgwz",
+  "category": "artefact/thermal",
+  "name": {
+    "type": "translation",
+    "key": "item.art.blizzard_fahrenheit.name",
+    "args": {},
+    "lines": {
+      "ru": "Фаренгейт",
+      "en": "Fahrenheit",
+      "es": "Fahrenheit",
+      "fr": "Fahrenheit"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.thermal",
+            "args": {},
+            "lines": {
+              "ru": "Термические",
+              "en": "Thermal",
+              "es": "Térmico",
+              "fr": "Thermique"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "10080.0"
+            },
+            "lines": {
+              "ru": "10 080 руб.",
+              "en": "10,080 rubles",
+              "es": "10.080 rublos",
+              "fr": "10 080 roubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 8.84,
+          "max": 10.4,
+          "formatted": {
+            "value": {
+              "ru": "[+8,84%; +10,4%]",
+              "en": "[+8.84%; +10.4%]",
+              "es": "[+8,84 %; +10,4 %]",
+              "fr": "[+8,84%; +10,4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 7.905,
+          "max": 9.3,
+          "formatted": {
+            "value": {
+              "ru": "[+7,9; +9,3]",
+              "en": "[+7.9; +9.3]",
+              "es": "[+7,9; +9,3]",
+              "fr": "[+7,9; +9,3]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "min": -1.28,
+          "max": -1.088,
+          "formatted": {
+            "value": {
+              "ru": "[-1,28; -1,09]",
+              "en": "[-1.28; -1.09]",
+              "es": "[-1,28; -1,09]",
+              "fr": "[-1,28; -1,09]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.frost_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Холод",
+              "en": "Frost",
+              "es": "Congelación",
+              "fr": "Givre"
+            }
+          },
+          "min": 0.425,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "[+0,42; +0,5]",
+              "en": "[+0.42; +0.5]",
+              "es": "[+0,42; +0,5]",
+              "fr": "[+0,42; +0,5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_tear",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на разрыв",
+              "en": "Reaction to laceration",
+              "es": "Reacción a la laceración",
+              "fr": "Réaction aux lacérations"
+            }
+          },
+          "min": 0.85,
+          "max": 1,
+          "formatted": {
+            "value": {
+              "ru": "[+0,85%; +1%]",
+              "en": "[+0.85%; +1%]",
+              "es": "[+0,85 %; +1 %]",
+              "fr": "[+0,85%; +1%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.blizzard_fahrenheit.description",
+        "args": {},
+        "lines": {
+          "ru": "«Фаренгейт» довольно зауряден в том, что касается внешности, однако структура артефакта вызывает множество вопросов относительно процесса его артефактогенеза.\\n\\n Дистиллированная вода и мельчайшие пузырьки воздуха, из которых полностью состоит «Фаренгейт», служат обоснованием гипотезы о некоем «выталкивании» примесей и замещении их воздухом, происходящем в момент появления артефакта.",
+          "en": "Fahrenheit appears relatively ordinary at first glance; however, the structure of the artifact raises many questions about its formation process.\\n\\n The presence of distilled water and tiny air bubbles that completely constitute Fahrenheit supports the hypothesis of impurities 'displacement' and their replacement with air occurring when the artifact forms.",
+          "es": "Fahrenheit tiene un aspecto bastante corriente, pero su estructura plantea muchos interrogantes sobre el proceso de su artefactogénesis.\\n\\n El agua destilada y las minúsculas burbujas de aire de las que está compuesto Fahrenheit apoyan la hipótesis de algún tipo de expulsión de impurezas y su sustitución por aire, que tuvo lugar en el momento de la aparición del artefacto.",
+          "fr": "À première vue, le Fahrenheit semble relativement ordinaire ; cependant, la structure de l'artefact soulève de nombreuses questions sur son processus de formation.\\n\\n La présence d'eau distillée et de minuscules bulles d'air constituant entièrement le Fahrenheit soutient l'hypothèse d'un déplacement des impuretés et de leur remplacement par de l'air lors de la formation de l'artefact."
+        }
+      }
+    }
+  ]
+}

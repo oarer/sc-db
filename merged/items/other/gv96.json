@@ -1,0 +1,130 @@
+{
+  "id": "gv96",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "go.hideout_laboratory_table.name",
+    "args": {},
+    "lines": {
+      "ru": "Лабораторный стол",
+      "en": "Laboratory Table",
+      "es": "Mesa del laboratorio",
+      "fr": "Table de laboratoire"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.hideout_furniture",
+            "args": {},
+            "lines": {
+              "ru": "Объект для Убежища",
+              "en": "Object for hideout",
+              "es": "Objeto para escondite",
+              "fr": "Objet pour refuge"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "go.hideout_laboratory_table.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Специализированный рабочий стол для выполнения научных и исследовательских задач, обеспечивающий устойчивую и безопасную поверхность для установки лабораторного оборудования и проведения экспериментов.",
+          "en": "A specialized workbench for scientific and research tasks, providing a stable and safe surface for setting up laboratory equipment and conducting experiments.",
+          "es": "Un banco de trabajo especializado para tareas científicas y de investigación. Proporciona una superficie estable y segura para montar el equipamiento de laboratorio y realizar experimentos.",
+          "fr": "Un établi spécialisé pour des tâches scientifiques et de recherche, fournissant une surface stable et sécurisée pour la mise en place d'un équipement de laboratoire et conduire des expérimentations."
+        }
+      }
+    }
+  ]
+}
