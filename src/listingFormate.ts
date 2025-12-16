@@ -28,5 +28,5 @@ export async function processListing(outDir: string) {
         "utf-8"
     );
 
-    console.log("listing.json processed");
+    console.log("[Listing] listing.json processed");
 }

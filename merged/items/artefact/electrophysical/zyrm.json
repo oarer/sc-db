@@ -447,6 +447,87 @@
           "fr": "Selon les scientifiques, l'un des artefacts de Stase les plus fascinants est celui décrit ci-dessous.\\n\\n Fait d'un matériau ressemblant extérieurement à un cadre hexagonal de glace, il concentre les photons en son centre, produisant une vive lueur.\\n\\n Les chercheurs de l'Institut de Recherche 7 estiment que la diffusion de cette lumière crée l'effet de bouclier pour lequel l'artefact est si recherché."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity",
+              "es": "Resistencia a la electricidad",
+              "fr": "Résistance à l'électricité"
+            }
+          },
+          "min": 3.78,
+          "max": 4.6,
+          "formatted": {
+            "value": {
+              "en": "[3.78%; 4.6%]",
+              "ru": "[3.78%; 4.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection",
+              "es": "Protección contra radiación",
+              "fr": "Protection contre les radiations"
+            }
+          },
+          "min": 8.5,
+          "max": 10,
+          "formatted": {
+            "value": {
+              "en": "[8.5; 10]",
+              "ru": "[8.5; 10]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission protection",
+              "es": "Prot contra emisiones psy",
+              "fr": "Protection contre les émissions psys"
+            }
+          },
+          "min": 8.5,
+          "max": 10,
+          "formatted": {
+            "value": {
+              "en": "[8.5; 10]",
+              "ru": "[8.5; 10]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

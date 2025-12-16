@@ -369,6 +369,87 @@
           "fr": "Artefact unique de l'Envers, de même nature que la Clé. Il n'a pas d'analogues ni de parents dans la Zone. Sa forme reconnaissable est due à l'influence fractale de la Distorsion sur l'artefactogenèse. Son nom provient du métal que l'on trouve en dehors de la Zone.\\n\\n Contrairement à son frère structurel, il altère l'état quantique du temps pour les cellules de l'organisme, modifiant les fonctions métaboliques et la réaction des neurones, mais affecte la fatigue des tissus.\\n\\n Les fonctions métaboliques augmentent également chez les bactéries s'accumulant sur la peau, les muqueuses et l'équipement. Il est recommandé d'utiliser l'artefact après désinfection ou douche."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.85,
+          "max": 1,
+          "formatted": {
+            "value": {
+              "en": "[0.85%; 1%]",
+              "ru": "[0.85%; 1%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.recoil_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil",
+              "es": "Retroceso",
+              "fr": "Recul"
+            }
+          },
+          "min": -1.5,
+          "max": -1.275,
+          "formatted": {
+            "value": {
+              "en": "[-1.5%; -1.275%]",
+              "ru": "[-1.5%; -1.275%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.wiggle_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway",
+              "es": "Oscilación",
+              "fr": "Décalage"
+            }
+          },
+          "min": -6.1,
+          "max": -5.185,
+          "formatted": {
+            "value": {
+              "en": "[-6.1%; -5.185%]",
+              "ru": "[-6.1%; -5.185%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

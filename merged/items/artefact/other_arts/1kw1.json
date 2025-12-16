@@ -395,6 +395,87 @@
           "fr": "Formation cristalline que l'on peut rencontrer dans l'Envers. Il constitue un reflet moléculaire de l'artefact Cristal Rouge, jusque dans la disposition des atomes dans le réseau cristallin.\\n\\nIl absorbe les types connus de rayonnements ionisants, les convertissant en un faible champ gravitationnel.\\n\\nEn cas de rupture de l'intégrité du champ, il émet des ondes nocives pour les tissus organiques. Pour des raisons inconnues, il favorise également la prolifération de micro-organismes pathogènes."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 3.74,
+          "max": 4.4,
+          "formatted": {
+            "value": {
+              "en": "[3.74%; 4.4%]",
+              "ru": "[3.74%; 4.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 3.57,
+          "max": 4.2,
+          "formatted": {
+            "value": {
+              "en": "[3.57; 4.2]",
+              "ru": "[3.57; 4.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 2.465,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.465%; 2.9%]",
+              "ru": "[2.465%; 2.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

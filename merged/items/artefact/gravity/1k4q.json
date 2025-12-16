@@ -369,6 +369,87 @@
           "fr": "Un artefact ressemblant extérieurement à un morceau de lard avec des veines de viande. Il n'est pas conseillé d'essayer de le mordre: le Lard est entièrement composé d'un minéral solide, incluant divers métaux.\\n\\n Comme pour la Baie, l'apparence inhabituelle de l'artefact est à l'origine de nombreuses rumeurs, mais la composition du Lard suggère clairement le contraire.\\n\\nUne caractéristique intéressante de l'artefact est que, selon le professeur Kubov, créer une telle structure moléculaire dans des conditions de laboratoire est physiquement impossible."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 7.98,
+          "max": 9.7,
+          "formatted": {
+            "value": {
+              "en": "[7.98%; 9.7%]",
+              "ru": "[7.98%; 9.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.68,
+          "max": 0.8,
+          "formatted": {
+            "value": {
+              "en": "[0.68%; 0.8%]",
+              "ru": "[0.68%; 0.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 1.7,
+          "max": 2,
+          "formatted": {
+            "value": {
+              "en": "[1.7%; 2%]",
+              "ru": "[1.7%; 2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

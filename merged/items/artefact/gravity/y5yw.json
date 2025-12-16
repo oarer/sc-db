@@ -369,6 +369,87 @@
           "fr": "La similitude de l'« Haltère » avec le Kettlebell formé dans l'anomalie électrophysique, comme de nombreux autres artefacts entre eux, a longtemps suscité des débats au sein du département d'artéfactologie de l'Institut de Recherche 7.\\n\\n Le professeur Kubov, chef du département, pense qu'il existe des structures universelles vers lesquelles la plupart des artefacts gravitent. Cependant, ses collègues réfutent cela en citant des artefacts uniques. À leur avis, cela indique que la question ne réside pas dans la universalité, mais dans la plus grande stabilité des structures.\\n\\n Pendant ce temps, l'artefact lui-même, similaire au Kettlebell, est composé de matériaux ferromagnétiques."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 2.465,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.465%; 2.9%]",
+              "ru": "[2.465%; 2.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 5.35,
+          "max": 6.5,
+          "formatted": {
+            "value": {
+              "en": "[5.35; 6.5]",
+              "ru": "[5.35; 6.5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 8.33,
+          "max": 9.8,
+          "formatted": {
+            "value": {
+              "en": "[8.33; 9.8]",
+              "ru": "[8.33; 9.8]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

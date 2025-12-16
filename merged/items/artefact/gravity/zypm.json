@@ -369,6 +369,87 @@
           "fr": "La similitude quasi totale de la structure de la Prima Dorée avec sa version ordinaire, selon le professeur Koyushev, chef du département étudiant la flore et la faune de la Zone à l'Institut de Recherche 7, peut être expliquée par le mécanisme de l'anhydrobiose. Une telle stratégie de survie dans des conditions extrêmes pourrait indiquer une connexion entre la Prima et les invertébrés.\\n\\n Pendant ce temps, le département d'artifactologie est très sceptique quant à cette opinion, considérant que la présence de cellules dans la structure des Primas peut seulement indiquer des composants impliqués dans l'artifactogenèse."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.2,
+          "max": 0.25,
+          "formatted": {
+            "value": {
+              "en": "[0.2%; 0.25%]",
+              "ru": "[0.2%; 0.25%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 3.57,
+          "max": 4.2,
+          "formatted": {
+            "value": {
+              "en": "[3.57; 4.2]",
+              "ru": "[3.57; 4.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 11.05,
+          "max": 13,
+          "formatted": {
+            "value": {
+              "en": "[11.05%; 13%]",
+              "ru": "[11.05%; 13%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

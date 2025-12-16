@@ -369,6 +369,87 @@
           "fr": "Bien que Piquant Gluant ressemble extérieurement à sa version ordinaire, sa structure interne est très différente.\\n\\n Se présentant comme un sporange, cet artefact illustre un mode de reproduction alternatif de l'Ouate, suggérant que la flore anormale possède des caractéristiques à la fois des plantes inférieures et supérieures."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation"
+            }
+          },
+          "min": -0.88,
+          "max": -0.748,
+          "formatted": {
+            "value": {
+              "en": "[-0.88; -0.748]",
+              "ru": "[-0.88; -0.748]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 3.06,
+          "max": 3.6,
+          "formatted": {
+            "value": {
+              "en": "[3.06%; 3.6%]",
+              "ru": "[3.06%; 3.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.12,
+          "max": 0.15,
+          "formatted": {
+            "value": {
+              "en": "[0.12%; 0.15%]",
+              "ru": "[0.12%; 0.15%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

@@ -369,6 +369,87 @@
           "fr": "Artefact biochimique d'apparence assez répugnante, rappelant une larve recroquevillée.\\n\\nBien que les chercheurs du département d'artéfactologie doutent de certaines caractéristiques organiques observées sur l'échantillon, certains membres du département d'étude de la flore et de la faune le considèrent comme une larve en hibernation d'un mutant souterrain inconnu — ce qui, néanmoins, n'explique pas ses propriétés anormales.\\n\\nLes stalkers les plus impressionnables préfèrent ne pas toucher la Larve à mains nues. Selon certaines rumeurs, un contact direct provoquerait l'apparition de petites cavités sur la peau, semblables aux fruits du lotus."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.99,
+          "max": 1.2,
+          "formatted": {
+            "value": {
+              "en": "[0.99%; 1.2%]",
+              "ru": "[0.99%; 1.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 5.11,
+          "max": 6.2,
+          "formatted": {
+            "value": {
+              "en": "[5.11%; 6.2%]",
+              "ru": "[5.11%; 6.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 2.14,
+          "max": 2.6,
+          "formatted": {
+            "value": {
+              "en": "[2.14%; 2.6%]",
+              "ru": "[2.14%; 2.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

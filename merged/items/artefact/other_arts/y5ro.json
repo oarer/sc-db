@@ -343,6 +343,87 @@
           "fr": "L'artefact est une formation figée au cours de l'artefactogenèse de la Croûte sous l'influence de la Distorsion.\\n\\nIl modifie considérablement la configuration des gravitons, conférant au porteur son propre champ gravitationnel, qui peut entrer en conflit avec la gravité de l'espace environnant.\\n\\nUn stalker transportant plusieurs Œufs dans son sac à dos a eu l'imprudence de trébucher et de se briser mortellement en tombant de sa propre hauteur."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 5.525,
+          "max": 6.5,
+          "formatted": {
+            "value": {
+              "en": "[5.525%; 6.5%]",
+              "ru": "[5.525%; 6.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 5.27,
+          "max": 6.2,
+          "formatted": {
+            "value": {
+              "en": "[5.27; 6.2]",
+              "ru": "[5.27; 6.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding Protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements"
+            }
+          },
+          "min": 9.69,
+          "max": 11.4,
+          "formatted": {
+            "value": {
+              "en": "[9.69%; 11.4%]",
+              "ru": "[9.69%; 11.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

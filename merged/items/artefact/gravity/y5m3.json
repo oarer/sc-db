@@ -343,6 +343,87 @@
           "fr": "Les scientifiques de l'Institut de Recherche 7 plaisantent en disant que la formation du Cryogène se produit lorsque quelqu'un du département de recherche fondamentale commet une erreur de signe dans les calculs physiques.\\n\\n Comme l'Ambre, il est recouvert d'un liquide semi-transparent qui réfracte fortement la lumière, apparaissant à la surface du minéral chaud.\\n\\nLe professeur Kubov pense que le mirroring entre les artefacts pourrait être causé par un phénomène de chiralité à un niveau supérieur, non moléculaire."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 0.765,
+          "max": 0.9,
+          "formatted": {
+            "value": {
+              "en": "[0.765%; 0.9%]",
+              "ru": "[0.765%; 0.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 4.59,
+          "max": 5.4,
+          "formatted": {
+            "value": {
+              "en": "[4.59; 5.4]",
+              "ru": "[4.59; 5.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 1.2,
+          "max": 2,
+          "formatted": {
+            "value": {
+              "en": "[1.2; 2]",
+              "ru": "[1.2; 2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

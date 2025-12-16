@@ -369,6 +369,87 @@
           "fr": "La structure spongieuse de cet artefact, rappelant le tissu osseux correspondant, a initialement conduit les chercheurs à la bonne hypothèse concernant la nature de le Veineur.Lorsque l'artefact est arrivé entre les mains du département d'artifactologie de l'Institut de Recherche 7, les scientifiques ont été surpris non seulement par la similitude, mais aussi par la structure identique de l'artefact entièrement métallique à celle du tissu osseux spongieux organique.\\n\\nDe plus, la microscopie des échantillons a confirmé que les molécules de divers métaux reproduisent la structure cellulaire de l'os même au niveau le plus minimal. Bien que l'artefact soit entièrement composé de divers métaux, la masse de le Veineur est à peine perceptible. Selon les scientifiques, cela résulte de la structure de"
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 2.295,
+          "max": 2.7,
+          "formatted": {
+            "value": {
+              "en": "[2.295; 2.7]",
+              "ru": "[2.295; 2.7]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 1.7,
+          "max": 2,
+          "formatted": {
+            "value": {
+              "en": "[1.7%; 2%]",
+              "ru": "[1.7%; 2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 1.785,
+          "max": 2.1,
+          "formatted": {
+            "value": {
+              "en": "[1.785; 2.1]",
+              "ru": "[1.785; 2.1]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

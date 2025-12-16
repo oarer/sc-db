@@ -395,6 +395,87 @@
           "fr": "Formation rocheuse avec des excroissances pseudo-carbonées d'une densité élevée. Elle est basée sur la structure de l'artefact Rose maudite, que l'on trouve dans la Zone d'exclusion. Elle ralentit localement l'interaction des chronons dans les tissus organiques, modifiant ainsi leur élasticité et leur densité. Sous l'effet de l'artefact, le métabolisme cellulaire est perturbé.\\n\\n Une utilisation prolongée peut provoquer des démangeaisons, un malaise, une pâleur de la peau et des nausées."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 3.54,
+          "max": 4.3,
+          "formatted": {
+            "value": {
+              "en": "[3.54%; 4.3%]",
+              "ru": "[3.54%; 4.3%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 3.485,
+          "max": 4.1,
+          "formatted": {
+            "value": {
+              "en": "[3.485; 4.1]",
+              "ru": "[3.485; 4.1]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability",
+              "es": "Estabilidad",
+              "fr": "Stabilité"
+            }
+          },
+          "min": 2.975,
+          "max": 3.5,
+          "formatted": {
+            "value": {
+              "en": "[2.975%; 3.5%]",
+              "ru": "[2.975%; 3.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

@@ -447,6 +447,87 @@
           "fr": "Une phase inhabituelle de glace, appelée glace An, trouvée dans la composition de l'élément central de l'artefact, est, selon des scientifiques indépendants, la cause des propriétés inhabituelles de L'Œil du Cyclone.\\n\\n Néanmoins, les chercheurs de l'Institut de Recherche 7 proposent que la question réside dans la structure spéciale de l'artefact, qui permet non seulement la formation d'un réseau cristallin de glace inhabituel, mais agit également comme un catalyseur pour diverses réactions à proximité."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection",
+              "es": "Protección térmica",
+              "fr": "Protection thermique"
+            }
+          },
+          "min": 8.5,
+          "max": 10,
+          "formatted": {
+            "value": {
+              "en": "[8.5; 10]",
+              "ru": "[8.5; 10]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection protection",
+              "es": "Protección contra bioinfección",
+              "fr": "Protection contre les bio infections"
+            }
+          },
+          "min": 4.25,
+          "max": 10,
+          "formatted": {
+            "value": {
+              "en": "[4.25; 10]",
+              "ru": "[4.25; 10]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.2,
+          "max": 0.25,
+          "formatted": {
+            "value": {
+              "en": "[0.2%; 0.25%]",
+              "ru": "[0.2%; 0.25%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

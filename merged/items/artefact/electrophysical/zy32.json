@@ -395,6 +395,87 @@
           "fr": "La forme inhabituelle et le comportement de la Batterie au repos attirent la curiosité de nombreux stalkers.\\n\\nÀ première vue, les mouvements des broches métalliques de cet artefact ne semblent pas dangereux. Cependant, de nombreux stalkers qui ont perdu des doigts à cause de la Batterie ne seraient probablement pas d'accord avec cela."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity",
+              "es": "Resistencia a la electricidad",
+              "fr": "Résistance à l'électricité"
+            }
+          },
+          "min": 8.81,
+          "max": 10.7,
+          "formatted": {
+            "value": {
+              "en": "[8.81%; 10.7%]",
+              "ru": "[8.81%; 10.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.24,
+          "max": 0.3,
+          "formatted": {
+            "value": {
+              "en": "[0.24%; 0.3%]",
+              "ru": "[0.24%; 0.3%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 3.12,
+          "max": 3.8,
+          "formatted": {
+            "value": {
+              "en": "[3.12%; 3.8%]",
+              "ru": "[3.12%; 3.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

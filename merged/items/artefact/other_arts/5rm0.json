@@ -369,6 +369,87 @@
           "fr": "Artefact unique de l'Envers, de même nature que le Bismuth. Il n'a pas d'analogues ni de parents dans la Zone. Sa forme est due à l'influence fractale de la distorsion sur l'artefactogenèse.\\n\\n Il influence la force des liaisons moléculaires de l'oxyde d'hydrogène dans le sang, modifiant les caractéristiques hydrauliques du liquide et la capacité des muscles à se contracter.\\n\\n Il provoque une faible émission électron-protonique."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 10.37,
+          "max": 12.2,
+          "formatted": {
+            "value": {
+              "en": "[10.37; 12.2]",
+              "ru": "[10.37; 12.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.recoil_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil",
+              "es": "Retroceso",
+              "fr": "Recul"
+            }
+          },
+          "min": -1.5,
+          "max": -1.275,
+          "formatted": {
+            "value": {
+              "en": "[-1.5%; -1.275%]",
+              "ru": "[-1.5%; -1.275%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.wiggle_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway",
+              "es": "Oscilación",
+              "fr": "Décalage"
+            }
+          },
+          "min": -2.1,
+          "max": -1.785,
+          "formatted": {
+            "value": {
+              "en": "[-2.1%; -1.785%]",
+              "ru": "[-2.1%; -1.785%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

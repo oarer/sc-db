@@ -369,6 +369,87 @@
           "fr": "D'après les chercheurs de l'Institut de Recherche 7, la plupart des propriétés de la Gelure apparaissent lorsque l'artefact entre en contact avec certains métaux. Toutefois, le mécanisme derrière cette interaction reste inconnu.\\n\\n Sa plasticité et sa conductivité hors normes devaient être exploitées pour la production de supraconducteurs — mais le projet a été abandonné en raison de l'impossibilité de préserver les propriétés de l'artefact à long terme."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 3.06,
+          "max": 3.6,
+          "formatted": {
+            "value": {
+              "en": "[3.06; 3.6]",
+              "ru": "[3.06; 3.6]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 2.89,
+          "max": 3.4,
+          "formatted": {
+            "value": {
+              "en": "[2.89; 3.4]",
+              "ru": "[2.89; 3.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 6.63,
+          "max": 7.8,
+          "formatted": {
+            "value": {
+              "en": "[6.63; 7.8]",
+              "ru": "[6.63; 7.8]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

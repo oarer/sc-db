@@ -343,6 +343,87 @@
           "fr": "En raison du fait que les objets de la classe IA, auxquels cet artefact avait été attribué, ne manifestaient souvent pas de propriétés anormales évidentes, les Pièges sont longtemps restés entreposés parmi les échantillons sans attirer l'attention des chercheurs de l'Institut de Recherche 7.\\n\\nCependant, les stalkers au regard affûté ont immédiatement remarqué cette nouveauté et ont même découvert par hasard une propriété inhabituelle de l'artefact : tout objet d'une masse exactement égale à 3,14 grammes ne peut pas traverser le champ statique permanent de l'artefact, et se transforme simplement en cendres au contact.\\n\\nD'après les scientifiques, en détruisant les liaisons internes de tels objets, l'artefact puise l'énergie nécessaire pour maintenir son champ statique."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 5.6,
+          "max": 6.8,
+          "formatted": {
+            "value": {
+              "en": "[5.6; 6.8]",
+              "ru": "[5.6; 6.8]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 4.03,
+          "max": 4.9,
+          "formatted": {
+            "value": {
+              "en": "[4.03; 4.9]",
+              "ru": "[4.03; 4.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 2.06,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "en": "[2.06; 2.5]",
+              "ru": "[2.06; 2.5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

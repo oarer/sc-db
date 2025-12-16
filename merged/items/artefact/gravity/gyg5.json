@@ -343,6 +343,87 @@
           "fr": "Les stries rougeâtres et résilientes ressemblant à du tissu musculaire et les mouvements périodiques de l'artefact évoquent fortement certaines espèces d'arthropodes. Peut-être est-ce pourquoi de nombreux stalkers ressentent une forte aversion pour la Crevette.\\n\\n Selon les scientifiques du département d'artifactologie de l'Institut de Recherche 7, la structure de l'artefact est à bien des égards similaire à celle de la Prima, ce qui soutient ceux qui regroupent ces formations ensemble."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 2.04,
+          "max": 2.4,
+          "formatted": {
+            "value": {
+              "en": "[2.04; 2.4]",
+              "ru": "[2.04; 2.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 6.63,
+          "max": 7.8,
+          "formatted": {
+            "value": {
+              "en": "[6.63; 7.8]",
+              "ru": "[6.63; 7.8]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 3.145,
+          "max": 3.7,
+          "formatted": {
+            "value": {
+              "en": "[3.145; 3.7]",
+              "ru": "[3.145; 3.7]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

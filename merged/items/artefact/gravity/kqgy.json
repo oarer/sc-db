@@ -369,6 +369,87 @@
           "fr": "Le Département de Développement Avancé de l'Institut de Recherche 7 s'intéresse vivement à la substance formant le Bracelet. Selon le professeur Orlov, chef du département, la capacité de synthétiser un tel matériau faciliterait grandement le travail sur les coussins magnétiques pour le transport et d'autres projets similaires.\\n\\nMalheureusement pour l'ensemble du département dirigeant le projet, le seul résultat de l'analyse de la structure de la substance a été la réalisation que la formation de telles structures cristallines est impossible dans le cadre de la physique conventionnelle."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 13.77,
+          "max": 16.2,
+          "formatted": {
+            "value": {
+              "en": "[13.77%; 16.2%]",
+              "ru": "[13.77%; 16.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.32,
+          "max": 0.4,
+          "formatted": {
+            "value": {
+              "en": "[0.32%; 0.4%]",
+              "ru": "[0.32%; 0.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 1.02,
+          "max": 1.2,
+          "formatted": {
+            "value": {
+              "en": "[1.02%; 1.2%]",
+              "ru": "[1.02%; 1.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

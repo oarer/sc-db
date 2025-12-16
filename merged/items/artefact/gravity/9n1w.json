@@ -343,6 +343,87 @@
           "fr": "Un artefact brun-rouge d'origine organique, dont la surface est couverte de formations réactives aux sons forts. Les mouvements de ces paupières effraient souvent les stalkers inexpérimentés voyant la Baie pour la première fois.\\n\\nL'apparence et le comportement inhabituels de l'artefact provoquent des rumeurs sur son émergence à partir des restes de ceux qui ont péri dans le Tourbillion, mais les scientifiques n'ont pas pu confirmer la véracité de ces récits de stalkers."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement"
+            }
+          },
+          "min": -0.4,
+          "max": -0.34,
+          "formatted": {
+            "value": {
+              "en": "[-0.4; -0.34]",
+              "ru": "[-0.4; -0.34]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 1.275,
+          "max": 1.5,
+          "formatted": {
+            "value": {
+              "en": "[1.275%; 1.5%]",
+              "ru": "[1.275%; 1.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.255,
+          "max": 0.3,
+          "formatted": {
+            "value": {
+              "en": "[0.255%; 0.3%]",
+              "ru": "[0.255%; 0.3%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

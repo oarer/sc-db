@@ -395,6 +395,87 @@
           "fr": "Il s'agit d'une version pétrifiée et modifiée de l'artefact Branche de Viorne, que l'on peut trouver dans la Zone d'exclusion, mais recouverte de formations cristallines caractéristiques de l'Envers.\\n\\n Elle génère un champ psionique qui déforme les forces atomiques dans les molécules d'hydrure d'oxygène, modifiant ainsi la capacité hydraulique des liquides corporels. Un effet secondaire est un léger tremblement des mains.\\n\\n Elle possède un léger fond psionique. Il est recommandé d'ignorer les images et visions étranges à la périphérie du champ visuel."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 1.36,
+          "max": 1.6,
+          "formatted": {
+            "value": {
+              "en": "[1.36%; 1.6%]",
+              "ru": "[1.36%; 1.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.32,
+          "max": 0.4,
+          "formatted": {
+            "value": {
+              "en": "[0.32%; 0.4%]",
+              "ru": "[0.32%; 0.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 4.08,
+          "max": 4.8,
+          "formatted": {
+            "value": {
+              "en": "[4.08%; 4.8%]",
+              "ru": "[4.08%; 4.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

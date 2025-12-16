@@ -369,6 +369,87 @@
           "fr": "Artefact gravitationnel inquiétant, surnommé Gueule par les stalkers pour sa ressemblance avec un visage humain.\\n\\nLes chercheurs de l'Institut de Recherche 7 ont longtemps tenté d'en déterminer la composition et la structure, sans parvenir à un consensus. Bien que chaque exemplaire de Gueule paraisse presque identique, il peut en réalité être formé de débris totalement différents.\\n\\nLes stalkers ont noté une autre particularité : deux diodes clignotantes s'ajustent au rythme cardiaque du porteur. Cette similitude entre la Gueule et le Cœur a inspiré de nombreuses histoires parmi les habitants de la Zone."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.33,
+          "max": 0.4,
+          "formatted": {
+            "value": {
+              "en": "[0.33%; 0.4%]",
+              "ru": "[0.33%; 0.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 1.65,
+          "max": 2,
+          "formatted": {
+            "value": {
+              "en": "[1.65%; 2%]",
+              "ru": "[1.65%; 2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 3.54,
+          "max": 4.3,
+          "formatted": {
+            "value": {
+              "en": "[3.54; 4.3]",
+              "ru": "[3.54; 4.3]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

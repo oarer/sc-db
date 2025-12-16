@@ -395,6 +395,87 @@
           "fr": "Artefact d'une beauté saisissante, attirant aussi bien les stalkers que les collectionneurs du Continent.\\n\\nBien que cette formation anormale imite presque parfaitement un trou noir, les analyses menées dans les laboratoires de l'Institut de Recherche 7 n'ont révélé aucune propriété structurelle ou interne propre aux artefacts de classe gravitationnelle.\\n\\n\\n\\nSelon le professeur Brussenko, cette confusion de classification pourrait être due à notre compréhension encore imparfaite des lois fondamentales qui régissent le fonctionnement des artefacts et des anomalies."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 2.8,
+          "max": 3.4,
+          "formatted": {
+            "value": {
+              "en": "[2.8; 3.4]",
+              "ru": "[2.8; 3.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 2.97,
+          "max": 3.6,
+          "formatted": {
+            "value": {
+              "en": "[2.97%; 3.6%]",
+              "ru": "[2.97%; 3.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.99,
+          "max": 1.2,
+          "formatted": {
+            "value": {
+              "en": "[0.99%; 1.2%]",
+              "ru": "[0.99%; 1.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

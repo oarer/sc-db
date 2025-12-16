@@ -369,6 +369,87 @@
           "fr": "Artefact trophée obtenu lors des combats contre le Murmure.\\nRessemble à un cocon chitineux orné de structures semi-transparentes, évoquant des organes respiratoires de poissons.\\nCes formations « s'ouvrent » légèrement pour capter l'oxygène ambiant. À proximité d'un organisme vivant, elles sécrètent une substance visqueuse à l'odeur prononcée, immédiatement absorbée par la peau.\\nDes micro-organismes — une colonie bactérienne d'origine inconnue — ont été retrouvés dans cette sécrétion."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 2.72,
+          "max": 3.2,
+          "formatted": {
+            "value": {
+              "en": "[2.72%; 3.2%]",
+              "ru": "[2.72%; 3.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.935,
+          "max": 1.1,
+          "formatted": {
+            "value": {
+              "en": "[0.935%; 1.1%]",
+              "ru": "[0.935%; 1.1%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.425,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "en": "[0.425%; 0.5%]",
+              "ru": "[0.425%; 0.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

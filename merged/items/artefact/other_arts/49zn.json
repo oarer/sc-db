@@ -369,6 +369,87 @@
           "fr": "Artefact trophée obtenu en affrontant le Murmure.\\nBase organique collante et molle, couverte de cordons de tissu conjonctif.\\nAu repos, les excroissances sont prises de spasmes occasionnels. Lors de l'activation, les cordons tentent d'enrouler un membre et de pénétrer l'épiderme, tout en s'allongeant. En même temps, la base organique commence à pulser au rythme des battements du cœur.\\nInjecte dans le sang un cocktail d'hormones et de composés organiques influant sur la circulation et les fonctions cérébrales supérieures."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.2,
+          "max": 0.25,
+          "formatted": {
+            "value": {
+              "en": "[0.2%; 0.25%]",
+              "ru": "[0.2%; 0.25%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 3.145,
+          "max": 3.7,
+          "formatted": {
+            "value": {
+              "en": "[3.145%; 3.7%]",
+              "ru": "[3.145%; 3.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 7.395,
+          "max": 8.7,
+          "formatted": {
+            "value": {
+              "en": "[7.395; 8.7]",
+              "ru": "[7.395; 8.7]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

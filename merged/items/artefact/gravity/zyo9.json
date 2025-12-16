@@ -369,6 +369,87 @@
           "fr": "La composition et la structure mystérieuses de la Pourriture des Marais soulèvent de nombreuses questions chez les scientifiques en raison de ses propriétés adsorbantes. Des essais de préparations à base de Pourriture des Marais sur des rats à l'Institut de Recherche 7, menés par le département des développements avancés, ont montré des résultats dépassant significativement même la dernière génération d'absorbants. Cependant, en raison de la courte durée de conservation en dehors des chambres spéciales, la préparation n'a pas dépassé le stade d'échantillon expérimental.\\n\\n Néanmoins, les stalkers s'intéressent surtout à savoir si l'artefact est fait de pierre devenue bois, ou s'il s'agit d'un simple morceau de bois pétrifié."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique"
+            }
+          },
+          "min": -0.88,
+          "max": -0.748,
+          "formatted": {
+            "value": {
+              "en": "[-0.88; -0.748]",
+              "ru": "[-0.88; -0.748]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 0.65,
+          "max": 0.8,
+          "formatted": {
+            "value": {
+              "en": "[0.65%; 0.8%]",
+              "ru": "[0.65%; 0.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 1.275,
+          "max": 1.5,
+          "formatted": {
+            "value": {
+              "en": "[1.275%; 1.5%]",
+              "ru": "[1.275%; 1.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

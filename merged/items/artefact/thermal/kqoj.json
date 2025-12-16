@@ -395,6 +395,87 @@
           "fr": "Un artefact de Blizzard, ressemblant à un talon inversé, possède une composition et une structure assez inhabituelles pour un artefact qui, à première vue, semble entièrement constitué de glace ordinaire.\\n\\n Comme pour le Fahrenheit, le problème réside dans la teneur en gaz inhabituelle, dont la masse est nettement plus légère que l'air. La structure creuse de l'artefact et les propriétés des gaz à l'intérieur créent un effet particulier, rappelant le comportement d'un jouet culbuto."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 3.7,
+          "max": 4.5,
+          "formatted": {
+            "value": {
+              "en": "[3.7; 4.5]",
+              "ru": "[3.7; 4.5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 14.98,
+          "max": 18.2,
+          "formatted": {
+            "value": {
+              "en": "[14.98; 18.2]",
+              "ru": "[14.98; 18.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 4.675,
+          "max": 5.5,
+          "formatted": {
+            "value": {
+              "en": "[4.675%; 5.5%]",
+              "ru": "[4.675%; 5.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

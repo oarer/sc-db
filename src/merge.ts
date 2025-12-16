@@ -169,7 +169,7 @@ export function mergeOneItem(orig: Item, variants: Item[]) {
 
 export function runMerge(ORIG_DIR: string, OUT_DIR: string) {
     const allFiles = scanFolder(ORIG_DIR);
-    console.log("Found JSON files:", allFiles.length);
+    console.log("[Merge] Found JSON files:", allFiles.length);
 
     for (const f of allFiles) {
         if (f.includes(`${path.sep}_variants${path.sep}`)) continue;
@@ -194,11 +194,10 @@ export function runMerge(ORIG_DIR: string, OUT_DIR: string) {
 
             const merged = mergeOneItem(orig, variants);
             writeJSONSync(outPath, merged);
-            console.log("Merged:", rel, "->", path.relative(".", outPath));
         } catch (e) {
-            console.error("Error processing file", f, e);
+            console.error("[Merge] Error processing file", f, e);
         }
     }
 
-    console.log("Done.");
+    console.log("[Merge] Done.");
 }

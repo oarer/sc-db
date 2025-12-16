@@ -395,6 +395,87 @@
           "fr": "Comme de nombreux artefacts issus de Blizzard, le Givre est partiellement composé de glace. Ce qui intrigue particulièrement, ce sont les petits cristaux qui poussent à la surface de la croûte gelée. À première vue, ils ressemblent à des cristaux de glace ordinaires, mais leur composition soulève encore des questions, en raison de leur plasticité exceptionnelle.\\n\\n Le professeur Kubov suggère que des métaux et sels normalement insolubles participent à la formation de l'artefact, ce qui expliquerait ses propriétés physiques uniques."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 3.74,
+          "max": 4.4,
+          "formatted": {
+            "value": {
+              "en": "[3.74; 4.4]",
+              "ru": "[3.74; 4.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 7.98,
+          "max": 9.7,
+          "formatted": {
+            "value": {
+              "en": "[7.98%; 9.7%]",
+              "ru": "[7.98%; 9.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 1.7,
+          "max": 2,
+          "formatted": {
+            "value": {
+              "en": "[1.7%; 2%]",
+              "ru": "[1.7%; 2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

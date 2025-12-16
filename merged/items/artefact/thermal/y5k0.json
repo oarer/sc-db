@@ -421,6 +421,87 @@
           "fr": "Un artefact inhabituel issu de Blizzard, nommé ainsi en raison de sa forme caractéristique et de sa rotation constante autour de son axe.\\n\\n Selon certains chercheurs, le Tourbillon est en réalité un liquide aux propriétés inhabituelles, enfermé dans une fine enveloppe transparente. La rupture de cette enveloppe entraînant l'évaporation instantanée du liquide mystérieux, les raisons du mouvement constant de l'artefact n'ont pas encore été déterminées."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity",
+              "es": "Resistencia a la electricidad",
+              "fr": "Résistance à l'électricité"
+            }
+          },
+          "min": 3.78,
+          "max": 4.6,
+          "formatted": {
+            "value": {
+              "en": "[3.78%; 4.6%]",
+              "ru": "[3.78%; 4.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion"
+            }
+          },
+          "min": -0.3,
+          "max": -0.24,
+          "formatted": {
+            "value": {
+              "en": "[-0.3; -0.24]",
+              "ru": "[-0.3; -0.24]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.32,
+          "max": 0.4,
+          "formatted": {
+            "value": {
+              "en": "[0.32%; 0.4%]",
+              "ru": "[0.32%; 0.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

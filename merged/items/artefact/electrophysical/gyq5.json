@@ -369,6 +369,87 @@
           "fr": "La forme étonnamment précise de la Spirale attire l'attention de nombreux stalkers et alimente de nombreux mythes.\\n\\n Ainsi, des fouilleurs, en testant l'un de ces récits, ont découvert qu'une Spirale enterrée s'enroule lentement sur elle-même et remonte à la surface.\\n\\n Sur la base de ces expériences, certains scientifiques pensent que l'artefact se forme initialement dans le sol sous l'influence de la Stase, avant de s'en extraire de lui-même."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 2.465,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.465; 2.9]",
+              "ru": "[2.465; 2.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.28,
+          "max": 0.35,
+          "formatted": {
+            "value": {
+              "en": "[0.28%; 0.35%]",
+              "ru": "[0.28%; 0.35%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 6.545,
+          "max": 7.7,
+          "formatted": {
+            "value": {
+              "en": "[6.545%; 7.7%]",
+              "ru": "[6.545%; 7.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

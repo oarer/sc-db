@@ -395,6 +395,87 @@
           "fr": "Objet sphérique avec de petites excroissances et des inclusions cristallines. Légèrement mou au toucher. Son nom provient de l'artefact parent de la Zone d'Exclusion : la Gomme, semblable à une bulle de chewing-gum.\\n\\n Il influence le champ gravitationnel du porteur, déformant les vecteurs de force des objets entrant dans sa zone d'effet.\\n\\n Un stalker sans base théorique pourrait le confondre avec la Baie."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 5.525,
+          "max": 6.5,
+          "formatted": {
+            "value": {
+              "en": "[5.525; 6.5]",
+              "ru": "[5.525; 6.5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 17.17,
+          "max": 20.2,
+          "formatted": {
+            "value": {
+              "en": "[17.17; 20.2]",
+              "ru": "[17.17; 20.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 4.25,
+          "max": 5,
+          "formatted": {
+            "value": {
+              "en": "[4.25; 5]",
+              "ru": "[4.25; 5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

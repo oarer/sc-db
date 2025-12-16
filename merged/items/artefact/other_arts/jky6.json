@@ -395,6 +395,87 @@
           "fr": "L'artefact ressemble à une pierre lisse, recouverte de longs filaments reliant entre elles des excroissances en forme d'yeux, qui sont des formations cristallines caractéristiques de l'Envers. Son nom provient de l'artefact parent de la Zone d'exclusion - la Baie, mais dans une version desséchée, dure et ridée. Ne pas ajouter au pilaf !\\n\\n Les fines soies recouvrant les filaments génèrent un champ énergétique influençant la conductivité des connexions neuronales. Il est dit qu'il vaut mieux ne pas fixer trop longtemps les excroissances en forme d'yeux, sous peine de rester figé à jamais sans aide extérieure.\\n\\n Un stalker sans base théorique pourrait le confondre avec la Gomme."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 6.12,
+          "max": 7.2,
+          "formatted": {
+            "value": {
+              "en": "[6.12%; 7.2%]",
+              "ru": "[6.12%; 7.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.45,
+          "max": 0.55,
+          "formatted": {
+            "value": {
+              "en": "[0.45%; 0.55%]",
+              "ru": "[0.45%; 0.55%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 4.08,
+          "max": 4.8,
+          "formatted": {
+            "value": {
+              "en": "[4.08%; 4.8%]",
+              "ru": "[4.08%; 4.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

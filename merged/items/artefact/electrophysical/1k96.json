@@ -369,6 +369,87 @@
           "fr": "Un représentant de la famille des artefacts électrophysiques, nommé d'après le bruit caractéristique émis par une formation anormale.\\n\\n Parmi les stalkers, il y a des histoires selon lesquelles quelqu'un aurait réussi à séparer les deux parties d'Électrostatique, mais aucune confirmation de ces histoires n'a été enregistrée."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 1.87,
+          "max": 2.2,
+          "formatted": {
+            "value": {
+              "en": "[1.87%; 2.2%]",
+              "ru": "[1.87%; 2.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 3.995,
+          "max": 4.7,
+          "formatted": {
+            "value": {
+              "en": "[3.995%; 4.7%]",
+              "ru": "[3.995%; 4.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.16,
+          "max": 0.2,
+          "formatted": {
+            "value": {
+              "en": "[0.16%; 0.2%]",
+              "ru": "[0.16%; 0.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

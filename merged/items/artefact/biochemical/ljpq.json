@@ -461,6 +461,87 @@
           "fr": "Un petit cube orné de formations régulières aux protubérances chaotiques. La plupart de ses faces présentent des inclusions vertes, signalant une activité biologique.\\n\\n Selon les chercheurs, sa structure interne est encore plus fascinante : la cavité centrale du Polyèdre, remplie d'un liquide verdâtre luminescent, contient une réplique miniature de l'artefact. Cet effet de poupée russe se répète à l'échelle du micromètre. Les propriétés de l'artefact seraient directement liées à cette caractéristique."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 2.72,
+          "max": 3.2,
+          "formatted": {
+            "value": {
+              "en": "[2.72%; 3.2%]",
+              "ru": "[2.72%; 3.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 4.165,
+          "max": 4.9,
+          "formatted": {
+            "value": {
+              "en": "[4.165%; 4.9%]",
+              "ru": "[4.165%; 4.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.618,
+          "max": 0.75,
+          "formatted": {
+            "value": {
+              "en": "[0.618%; 0.75%]",
+              "ru": "[0.618%; 0.75%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

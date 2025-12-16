@@ -369,6 +369,87 @@
           "fr": "Artefact trophée obtenu en affrontant le Murmure.\\nFroid au toucher, recouvert d'une matière organique dense, parcourue de vagues légères évoquant des contractions musculaires. On distingue à l'intérieur les contours d'un autre artefact, suggérant une nature composite.\\nAu contact du corps, la masse dure déclenche dans le sang la formation d'une enzyme polymorphe. Aucune douleur observée durant le processus.\\nL'organisme exposé manifeste une tension capillaire marquée au point le plus proche de l'artefact. Après retrait, une légère inflammation cutanée apparaît, disparaissant rapidement."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 2.38,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.38; 2.9]",
+              "ru": "[2.38; 2.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.98,
+          "max": 1.2,
+          "formatted": {
+            "value": {
+              "en": "[0.98%; 1.2%]",
+              "ru": "[0.98%; 1.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.85,
+          "max": 1,
+          "formatted": {
+            "value": {
+              "en": "[0.85%; 1%]",
+              "ru": "[0.85%; 1%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

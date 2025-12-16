@@ -343,6 +343,87 @@
           "fr": "Petit artefact lumineux, ressemblant à un vortex de feu dont le centre et les bords tournent dans des directions opposées.\\n\\nChez les stalkers expérimentés, une rumeur circule à propos d'un Flamboyant dont la rotation serait entièrement synchronisée — mais les scientifiques du département d'artefactologie de l'Institut de Recherche 7 démentent l'existence d'une telle variante."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "min": -0.88,
+          "max": -0.35,
+          "formatted": {
+            "value": {
+              "en": "[-0.88; -0.35]",
+              "ru": "[-0.88; -0.35]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 0.68,
+          "max": 0.8,
+          "formatted": {
+            "value": {
+              "en": "[0.68%; 0.8%]",
+              "ru": "[0.68%; 0.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.34,
+          "max": 0.4,
+          "formatted": {
+            "value": {
+              "en": "[0.34%; 0.4%]",
+              "ru": "[0.34%; 0.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

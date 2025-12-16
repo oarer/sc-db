@@ -369,6 +369,87 @@
           "fr": "Nommé ainsi en raison de sa ressemblance partielle avec un bulbe d'oignon, cet artefact intrigue les scientifiques étudiant la flore et la faune de la Zone. Des études ont révélé qu'une grande partie de sa structure est composée de cellules vivantes présentant simultanément les caractéristiques de quatre règnes biologiques.\\n\\n Le professeur Salanchak, qui étudie ce phénomène, affirme qu'une telle combinaison anormale de propriétés pourrait représenter un danger potentiel pour toutes les espèces vivantes existantes. Il note également que le principal facteur limitant la propagation de ce nouveau règne est la mort rapide de ces cellules en dehors de la Zone."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 2.04,
+          "max": 2.4,
+          "formatted": {
+            "value": {
+              "en": "[2.04; 2.4]",
+              "ru": "[2.04; 2.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 2.21,
+          "max": 2.6,
+          "formatted": {
+            "value": {
+              "en": "[2.21%; 2.6%]",
+              "ru": "[2.21%; 2.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding Protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements"
+            }
+          },
+          "min": 3.91,
+          "max": 4.6,
+          "formatted": {
+            "value": {
+              "en": "[3.91%; 4.6%]",
+              "ru": "[3.91%; 4.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

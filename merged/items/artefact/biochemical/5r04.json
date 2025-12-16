@@ -343,6 +343,87 @@
           "fr": "Un artefact extrêmement fragile, au toucher rugueux, dont la surface est souvent prise à tort pour du métal. Les scientifiques expliquent que l'apparence du « Mucus » est due à une dégradation de la matière, probablement causée par la destruction complète des liaisons entre les molécules organiques de la substance.\\n\\n À ce jour, le mécanisme exact qui permet à l'artefact de conserver sa structure malgré la destruction de la plupart de ses liaisons moléculaires reste inconnu. Cependant, le département étudiant la flore et la faune de l'Institut de Recherche 7 suppose que ce phénomène pourrait être lié aux processus vitaux de micro-organismes encore inconnus."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement"
+            }
+          },
+          "min": -0.8,
+          "max": -0.68,
+          "formatted": {
+            "value": {
+              "en": "[-0.8; -0.68]",
+              "ru": "[-0.8; -0.68]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding Protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements"
+            }
+          },
+          "min": 1.615,
+          "max": 1.9,
+          "formatted": {
+            "value": {
+              "en": "[1.615%; 1.9%]",
+              "ru": "[1.615%; 1.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 2.38,
+          "max": 2.8,
+          "formatted": {
+            "value": {
+              "en": "[2.38%; 2.8%]",
+              "ru": "[2.38%; 2.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

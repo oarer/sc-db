@@ -343,6 +343,87 @@
           "fr": "Le nom de cet artefact provient d'une histoire racontée par un acheteur qui convainquait ses clients de se débarrasser rapidement de la Rose Maudite, affirmant qu'elle attirait étrangement les malheurs.\\n\\nBien que le marchand ait presque réussi à réaliser cette escroquerie, il fut finalement retrouvé mort. On raconte qu'il serait accidentellement tombé dans les escaliers en tentant de fuir avec les artefacts appartenant à des stalkers mécontents."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 3.315,
+          "max": 3.9,
+          "formatted": {
+            "value": {
+              "en": "[3.315; 3.9]",
+              "ru": "[3.315; 3.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 2.55,
+          "max": 3,
+          "formatted": {
+            "value": {
+              "en": "[2.55; 3]",
+              "ru": "[2.55; 3]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 2.465,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.465%; 2.9%]",
+              "ru": "[2.465%; 2.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

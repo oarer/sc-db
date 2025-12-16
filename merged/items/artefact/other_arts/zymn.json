@@ -395,6 +395,87 @@
           "fr": "Objet composé d'excroissances organiques à l'extrémité et d'une base corporelle entièrement solide. Son apparence indique clairement que sa structure de base est héritée de l'artefact Lard. Le matériau possède à la fois les propriétés des excroissances cristallines de l'Envers et des structures anormales de la Zone d'exclusion.\\n\\nIl est capable d'absorber l'excès de chaleur, émettant une faible radiation qui favorise la division cellulaire.\\n\\nAu contact d'un champ électromagnétique à haute tension, il génère un champ destructeur pour les membranes cellulaires."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.51,
+          "max": 0.6,
+          "formatted": {
+            "value": {
+              "en": "[0.51%; 0.6%]",
+              "ru": "[0.51%; 0.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 3.145,
+          "max": 3.7,
+          "formatted": {
+            "value": {
+              "en": "[3.145%; 3.7%]",
+              "ru": "[3.145%; 3.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 6.12,
+          "max": 7.2,
+          "formatted": {
+            "value": {
+              "en": "[6.12; 7.2]",
+              "ru": "[6.12; 7.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

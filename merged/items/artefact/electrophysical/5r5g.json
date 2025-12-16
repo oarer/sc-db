@@ -369,6 +369,87 @@
           "fr": "Les scientifiques ayant travaillé avec des artefacts similaires affirment que le Hérisson de Glace n'est qu'un Hérisson ordinaire ayant été exposé à une Décharge. Cependant, toutes les tentatives de recréer cet artefact électrophysique dans des conditions contrôlées ont échoué.\\n\\nIl existe néanmoins des hypothèses plus inhabituelles quant à la similitude entre ces artefacts. Selon certaines théories, l'apparition des différents types de Hérissons serait le résultat de colonies d'organismes inconnus utilisant ces artefacts comme vaisseaux, modifiant ainsi leur structure."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 11.05,
+          "max": 13,
+          "formatted": {
+            "value": {
+              "en": "[11.05%; 13%]",
+              "ru": "[11.05%; 13%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.28,
+          "max": 0.35,
+          "formatted": {
+            "value": {
+              "en": "[0.28%; 0.35%]",
+              "ru": "[0.28%; 0.35%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 0.85,
+          "max": 1,
+          "formatted": {
+            "value": {
+              "en": "[0.85%; 1%]",
+              "ru": "[0.85%; 1%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

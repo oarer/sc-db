@@ -343,6 +343,87 @@
           "fr": "Un artefact gravitationnel classé par l'Institut de Recherche 7 dans un groupe distinct de roses en raison de son apparence similaire. Comme d'autres formations de son groupe, cet artefact présente un comportement inhabituel, exprimé par le tremblement chaotique de ses pétales.\\n Les stalkers affirment avoir vu des roses en rouge vif, vert et même jaune, mais il n'existe aucune confirmation fiable de l'existence d'autres artefacts en dehors des trois représentants documentés du groupe."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 2.465,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.465; 2.9]",
+              "ru": "[2.465; 2.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 1.955,
+          "max": 2.3,
+          "formatted": {
+            "value": {
+              "en": "[1.955; 2.3]",
+              "ru": "[1.955; 2.3]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 5.525,
+          "max": 6.5,
+          "formatted": {
+            "value": {
+              "en": "[5.525; 6.5]",
+              "ru": "[5.525; 6.5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

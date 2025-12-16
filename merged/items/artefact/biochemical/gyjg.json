@@ -395,6 +395,85 @@
           "fr": "Une formation anormale semi-transparente de couleur vert salade, qui apparaît généralement près de l'« Aspic ».\\n\\n Sur certaines facettes du « Cristal Acide », de petites formations peuvent être observées, caractéristiques de chaque échantillon d'artefact. Fait intéressant, elles sont situées au même endroit sur tous les échantillons de « Cristal Acide ».\\n\\n Les scientifiques spécialisés en chimie moléculaire estiment qu'un tel phénomène n'est possible que si les structures de tous les échantillons d'artefact coïncident complètement."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.chemical_burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Химзащита",
+              "en": "Resistance to chemicals"
+            }
+          },
+          "min": 6.01,
+          "max": 7.3,
+          "formatted": {
+            "value": {
+              "en": "[6.01; 7.3]",
+              "ru": "[6.01; 7.3]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection protection",
+              "es": "Protección contra bioinfección",
+              "fr": "Protection contre les bio infections"
+            }
+          },
+          "min": 8.5,
+          "max": 10,
+          "formatted": {
+            "value": {
+              "en": "[8.5; 10]",
+              "ru": "[8.5; 10]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.34,
+          "max": 0.4,
+          "formatted": {
+            "value": {
+              "en": "[0.34%; 0.4%]",
+              "ru": "[0.34%; 0.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

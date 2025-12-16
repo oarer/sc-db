@@ -369,6 +369,87 @@
           "fr": "Formation rocheuse rappelant à la fois le « Hérisson » et la « Brosse ». Cependant, contrairement aux autres artefacts, les excroissances du « Hérisson d'Acier » sont immobiles, et sa lueur est nettement plus faible.\\n\\n Il est possible que le « Hérisson d'Acier » représente le stade final de la métamorphose du « Hérisson », lorsque toutes les ressources internes sont épuisées et que l'énergie nécessaire au maintien des processus est générée par la décomposition des sels métalliques présents dans le sol."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 3.74,
+          "max": 4.4,
+          "formatted": {
+            "value": {
+              "en": "[3.74; 4.4]",
+              "ru": "[3.74; 4.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 11.28,
+          "max": 13.7,
+          "formatted": {
+            "value": {
+              "en": "[11.28; 13.7]",
+              "ru": "[11.28; 13.7]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 4.03,
+          "max": 4.9,
+          "formatted": {
+            "value": {
+              "en": "[4.03%; 4.9%]",
+              "ru": "[4.03%; 4.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

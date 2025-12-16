@@ -369,6 +369,87 @@
           "fr": "Contrairement à d'autres artefacts de Blizzard, le Frisquet possède une composition unique. Une grande partie est constituée d'hydrogène métallique, extrêmement résistant et probablement enfermant de l'argon.\\n\\n La présence de ce gaz inerte à l'intérieur de l'enveloppe incassable a été déterminée grâce à la supraconductivité observée à la surface de l'artefact. Lorsque diverses charges électriques y sont appliquées, la luminosité de l'artefact change."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.765,
+          "max": 0.9,
+          "formatted": {
+            "value": {
+              "en": "[0.765%; 0.9%]",
+              "ru": "[0.765%; 0.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion"
+            }
+          },
+          "min": -0.2,
+          "max": -0.17,
+          "formatted": {
+            "value": {
+              "en": "[-0.2; -0.17]",
+              "ru": "[-0.2; -0.17]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 12.665,
+          "max": 14.9,
+          "formatted": {
+            "value": {
+              "en": "[12.665; 14.9]",
+              "ru": "[12.665; 14.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }
