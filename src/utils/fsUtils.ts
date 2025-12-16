@@ -2,7 +2,7 @@ import fs from "fs";
 import { promises as fsPromises } from "fs";
 import path from "path";
 import crypto from "crypto";
-import { SHA_FILE } from "./constants";
+import { SHA_FILE } from "../constants";
 
 export function readJSONSync(p: string) {
     return JSON.parse(fs.readFileSync(p, "utf8"));

@@ -1,5 +1,5 @@
 import { type Item, type InfoElement } from "./types";
-import { scanFolder, readJSONSync, writeJSONSync } from "./fsUtils";
+import { scanFolder, readJSONSync, writeJSONSync } from "./utils/fsUtils";
 import path from "path";
 import fs from "fs";
 

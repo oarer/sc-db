@@ -2,61 +2,42 @@ import fs from "fs";
 import fsPromises from "fs/promises";
 import path from "path";
 import axios from "axios";
+import { PROXY_CONFIG } from "./constants";
 
 const API_URL = "https://sctools.tech/api/exbo/items/?category=artefact";
 
 export async function additionalStatsParse(
     outDir: string,
-    translationsPath = path.join(process.cwd(), "translations.json")
+    proxy: boolean = false
 ) {
     console.log("[AddStats] Fetching artefacts from API…");
 
     let apiItems: any[];
-    const proxyConfig = {
-        protocol: "http",
-        host: "127.0.0.1",
-        port: 10808,
-    };
 
     try {
         const res = await axios.get(API_URL, {
             headers: { accept: "application/json" },
+            proxy: proxy ? PROXY_CONFIG : false,
             timeout: 10000,
-            proxy: proxyConfig,
         });
         apiItems = res.data;
         console.log(
-            `[AddStats] API items received via proxy: ${
+            `[AddStats] API items received directly: ${
                 Array.isArray(apiItems) ? apiItems.length : typeof apiItems
             }`
         );
     } catch (err: any) {
-        console.warn("[AddStats] Proxy failed, trying direct connection...");
-        try {
-            const res = await axios.get(API_URL, {
-                headers: { accept: "application/json" },
-                timeout: 10000,
-                proxy: false,
-            });
-            apiItems = res.data;
-            console.log(
-                `[AddStats] API items received directly: ${
-                    Array.isArray(apiItems) ? apiItems.length : typeof apiItems
-                }`
-            );
-        } catch (err2: any) {
-            console.error(
-                "[AddStats] API fetch failed completely:",
-                err2.message || err2
-            );
-            return;
-        }
+        console.error("[AddStats] API fetch failed:", err.message || err);
+        return;
     }
 
     let translations: Record<string, Record<string, string>> = {};
     try {
-        if (fs.existsSync(translationsPath)) {
-            const trRaw = await fsPromises.readFile(translationsPath, "utf8");
+        if (fs.existsSync("translations.json")) {
+            const trRaw = await fsPromises.readFile(
+                "translations.json",
+                "utf8"
+            );
             translations = JSON.parse(trRaw);
             console.log(
                 `[AddStats] Translations loaded: ${
@@ -64,9 +45,7 @@ export async function additionalStatsParse(
                 } keys`
             );
         } else {
-            console.log(
-                `[AddStats] Translations file not found: ${translationsPath}`
-            );
+            console.log(`[AddStats] Translations file not found`);
         }
     } catch (e: any) {
         console.warn(

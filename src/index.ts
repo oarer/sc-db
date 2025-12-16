@@ -12,25 +12,25 @@ import {
 } from "./constants";
 
 import { downloadZip, extractItemsFromZip } from "./github";
-import { hashFile, loadSavedSha, saveSha, removeDir } from "./fsUtils";
+import { hashFile, loadSavedSha, saveSha, removeDir } from "./utils/fsUtils";
 import { runMerge } from "./merge";
 import { copyIconsToOutput } from "./icons";
 import { processListing } from "./listingFormate";
 import { additionalStatsParse } from "./additionalStatsParse";
 
 async function main() {
+    const useProxy = process.argv.includes("--proxy");
+    const forceMerge = process.argv.includes("--force-merge");
+
     if (CLEAN_ORIG) {
         await removeDir(ORIG_DIR);
         console.log("Cleaned", ORIG_DIR);
     }
 
-    const forceMerge = process.argv.includes("--force-merge");
-
     try {
         if (forceMerge) {
             console.log(
-                "[Merge] Force merge requested. Running merge on local files...",
-                ""
+                "[Merge] Force merge requested. Running merge on local files..."
             );
 
             await removeDir(OUT_DIR);
@@ -38,7 +38,7 @@ async function main() {
             await processListing(OUT_DIR);
             await copyIconsToOutput();
 
-            await additionalStatsParse(OUT_DIR);
+            await additionalStatsParse(OUT_DIR, useProxy);
 
             console.log("Force merge finished.");
             return;
@@ -61,7 +61,7 @@ async function main() {
 
         if (needUpdate) {
             console.log("Downloading ZIP from GitHub...");
-            await downloadZip(zipUrl, zipPath);
+            await downloadZip(zipUrl, zipPath, useProxy);
 
             const sha = hashFile(zipPath);
 
@@ -81,11 +81,13 @@ async function main() {
             await processListing(OUT_DIR);
             await copyIconsToOutput();
 
-            await additionalStatsParse(OUT_DIR);
+            await additionalStatsParse(OUT_DIR, useProxy);
 
             console.log("[Merge] Update merge finished.");
         } else {
-            console.log("[Merge] No update needed — local files are up-to-date.");
+            console.log(
+                "[Merge] No update needed — local files are up-to-date."
+            );
         }
     } catch (e: any) {
         console.warn(

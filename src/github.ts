@@ -1,62 +1,59 @@
 import AdmZip from "adm-zip";
 import path from "path";
 import fs from "fs";
-import { GITHUB_REPO, GITHUB_BRANCH, GITHUB_TOKEN } from "./constants";
+import axios from "axios";
+import { GITHUB_REPO, GITHUB_BRANCH, PROXY_CONFIG } from "./constants";
 
-export async function downloadZip(url: string, dest: string) {
-    console.log("Downloading ZIP from GitHub...");
-
+export async function downloadZip(
+    url: string,
+    dest: string,
+    proxy: boolean = false
+) {
     let totalSize = 0;
+
     try {
-        const headRes = await fetch(url, {
-            method: "HEAD",
-            headers: GITHUB_TOKEN
-                ? { Authorization: `token ${GITHUB_TOKEN}` }
-                : {},
+        const headRes = await axios.head(url, {
+            proxy: proxy ? PROXY_CONFIG : false,
         });
-        totalSize = Number(headRes.headers.get("content-length") || 0);
+        totalSize = Number(headRes.headers["content-length"] || 0);
     } catch {
         console.log("Could not determine file size");
     }
 
-    const res = await fetch(url, {
-        headers: GITHUB_TOKEN ? { Authorization: `token ${GITHUB_TOKEN}` } : {},
+    const response = await axios.get(url, {
+        responseType: "stream",
+        proxy: proxy ? PROXY_CONFIG : false,
     });
-    if (!res.body) throw new Error("No body");
 
     const fileStream = fs.createWriteStream(dest);
-    const reader = res.body.getReader();
-
     let downloaded = 0;
 
-    while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        if (value) {
-            fileStream.write(value);
-            downloaded += value.byteLength;
+    response.data.on("data", (chunk: Buffer) => {
+        fileStream.write(chunk);
+        downloaded += chunk.length;
 
-            if (totalSize) {
-                const perc = ((downloaded / totalSize) * 100).toFixed(1);
-                Bun.stdout.write(
-                    `\rDownloading: ${perc}% [${(
-                        downloaded /
-                        1024 /
-                        1024
-                    ).toFixed(2)} / ${(totalSize / 1024 / 1024).toFixed(2)} MB]`
-                );
-            } else {
-                Bun.stdout.write(
-                    `\rDownloading: ${(downloaded / 1024 / 1024).toFixed(
-                        2
-                    )} MB...`
-                );
-            }
+        if (totalSize) {
+            const perc = ((downloaded / totalSize) * 100).toFixed(1);
+            Bun.stdout.write(
+                `\rDownloading: ${perc}% [${(downloaded / 1024 / 1024).toFixed(
+                    2
+                )} / ${(totalSize / 1024 / 1024).toFixed(2)} MB]`
+            );
+        } else {
+            Bun.stdout.write(
+                `\rDownloading: ${(downloaded / 1024 / 1024).toFixed(2)} MB...`
+            );
         }
-    }
+    });
 
-    await new Promise(resolve => fileStream.end(resolve));
-    console.log("\n✓ Download completed");
+    await new Promise<void>((resolve, reject) => {
+        response.data.on("end", () => {
+            fileStream.end();
+            console.log("\n✓ Download completed");
+            resolve();
+        });
+        response.data.on("error", reject);
+    });
 }
 
 export async function extractItemsFromZip(zipPath: string, targetDir: string) {
@@ -75,10 +72,25 @@ export async function extractItemsFromZip(zipPath: string, targetDir: string) {
         );
         if (!matchedPrefix) continue;
 
-        const relPath = entry.entryName.slice(matchedPrefix.length);
-        const subdir = matchedPrefix.includes("/items/") ? "items" : "icons";
+        let relPath = entry.entryName.slice(matchedPrefix.length);
 
-        const outPath = path.join(targetDir, subdir, relPath);
+        if (!relPath) {
+            if (matchedPrefix.endsWith("listing.json")) {
+                relPath = "listing.json";
+            } else {
+                if (entry.isDirectory) continue;
+            }
+        }
+
+        const subdir = matchedPrefix.includes("/items/")
+            ? "items"
+            : matchedPrefix.includes("/icons/")
+            ? "icons"
+            : "";
+
+        const outPath = subdir
+            ? path.join(targetDir, subdir, relPath)
+            : path.join(targetDir, relPath);
 
         if (entry.isDirectory) {
             fs.mkdirSync(outPath, { recursive: true });
