@@ -18,5 +18,5 @@ export async function copyIconsToOutput() {
 
     await copyDirRecursive(src, dest);
 
-    console.log("[Icons ] Icons copied to", dest);
+    console.log("[Icons] Icons copied to", dest);
 }
