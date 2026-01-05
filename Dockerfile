@@ -7,4 +7,4 @@ RUN bun install
 
 VOLUME ["/app/items", "/app/merged"]
 
-CMD ["bun", "run", "index.ts"]
+CMD ["bun", "run", "src/index.ts"]
