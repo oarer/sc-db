@@ -9,6 +9,7 @@ import {
     GITHUB_BRANCH,
     FORCE_PULL,
     CLEAN_ORIG,
+    UPDATE_COOLDOWN
 } from "./constants";
 
 import { downloadZip, extractItemsFromZip } from "./github";
@@ -97,4 +98,34 @@ async function main() {
     }
 }
 
-await main();
+async function sleep(milliseconds: number) {
+    return new Promise(
+        resolve => setTimeout(resolve, milliseconds)
+    );
+}
+
+async function loop() {
+    while (true) {
+        console.log("[Loop] Starting loop")
+        try {
+            await main();
+        } catch (e: any) {
+            console.error("[Loop] Loop error: ", e)
+        }
+        
+        console.log("[Loop] Sleeping for", UPDATE_COOLDOWN/1000, "seconds\n")
+        await sleep(UPDATE_COOLDOWN)
+    }
+}
+
+process.on("SIGINT", () => {
+    console.log("\nReceived SIGINT, exiting...");
+    process.exit();
+});
+
+process.on("SIGTERM", () => {
+  console.log("Received SIGTERM, exiting...");
+  process.exit();
+});
+
+await loop();
