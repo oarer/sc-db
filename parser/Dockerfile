@@ -2,10 +2,9 @@ FROM oven/bun:latest
 
 WORKDIR /app
 
-COPY bun.lockb package.json ./
+COPY bun.lock package.json ./
 RUN bun install
 
-# код
 COPY src ./src
 
 RUN mkdir -p /data/items /data/merged
