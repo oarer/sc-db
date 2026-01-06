@@ -112,4 +112,25 @@ async function loop() {
     }
 }
 
-await loop();
+const noLoop = process.argv.includes("--no-loop");
+
+if (noLoop) {
+    console.log(
+        "[Main] --no-loop detected — running a single sync then exiting"
+    );
+    try {
+        const updated = await main();
+        if (updated) {
+            console.log("[Main] Changes detected → syncing");
+            await notifySync();
+        } else {
+            console.log("[Main] No changes");
+        }
+        process.exit(0);
+    } catch (e) {
+        console.error("[Main] Error during single run:", e);
+        process.exit(1);
+    }
+} else {
+    await loop();
+}

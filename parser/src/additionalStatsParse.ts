@@ -16,7 +16,11 @@ export async function additionalStatsParse(
 
     try {
         const res = await axios.get(API_URL, {
-            headers: { accept: "application/json" },
+            headers: {
+                accept: "application/json",
+                "User-Agent":
+                    "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0",
+            },
             proxy: proxy ? PROXY_CONFIG : false,
             timeout: 10000,
         });
