@@ -1,0 +1,29 @@
+services:
+    sc-db:
+        build: ./sc-db
+        container_name: sc-db
+        env_file:
+            - .env
+        volumes:
+            - ./sc-db/items:/data/items
+            - ./sc-db/merged:/data/merged
+        networks:
+            - sc-db
+        restart: unless-stopped
+
+    sync:
+        build: ./sync
+        container_name: sync
+        env_file:
+            - .env
+        volumes:
+            - ./sc-db:/sc-db
+        ports:
+            - "3001:3001"
+        networks:
+            - sc-db
+        restart: unless-stopped
+
+networks:
+    sc-db:
+        driver: bridge

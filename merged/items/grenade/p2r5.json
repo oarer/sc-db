@@ -1,0 +1,223 @@
+{
+  "id": "p2r5",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.m84.name",
+    "args": {},
+    "lines": {
+      "ru": "M84",
+      "en": "M84",
+      "es": "M84",
+      "fr": "M84"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.grenade",
+            "args": {},
+            "lines": {
+              "ru": "Гранаты",
+              "en": "Grenades",
+              "es": "Granadas",
+              "fr": "Grenades"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.24,
+          "formatted": {
+            "value": {
+              "ru": "0,24 кг",
+              "en": "0.24 kg",
+              "es": "0,24 kg",
+              "fr": "0,24 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.flash.stats.info.explosion_size",
+            "args": {},
+            "lines": {
+              "ru": "Радиус действия",
+              "en": "Range",
+              "es": "Alcance",
+              "fr": "Portée"
+            }
+          },
+          "value": 12,
+          "formatted": {
+            "value": {
+              "ru": "12 м",
+              "en": "12 m",
+              "es": "12 m",
+              "fr": "12 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.flash.stats.info.flash_time",
+            "args": {},
+            "lines": {
+              "ru": "Макс. длительность ослепления",
+              "en": "Max. blindness duration",
+              "es": "Duración máx. de ceguera",
+              "fr": "Durée maximum d'aveuglement"
+            }
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.flash.stats.info.lifetime",
+            "args": {},
+            "lines": {
+              "ru": "Время до срабатывания",
+              "en": "Time until activation",
+              "es": "Tiempo hasta la activación",
+              "fr": "Délai d'activation"
+            }
+          },
+          "value": 3,
+          "formatted": {
+            "value": {
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.m84.description",
+        "args": {},
+        "lines": {
+          "ru": "Американская светошумовая граната",
+          "en": "An American flashbang grenade.",
+          "es": "Una granada aturdidora estadounidense.",
+          "fr": "Une grenade aveuglante américaine."
+        }
+      }
+    }
+  ]
+}

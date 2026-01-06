@@ -1,0 +1,115 @@
+{
+  "id": "rj63v",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.armsklad.npc_add.name",
+    "args": {},
+    "lines": {
+      "ru": "Барбариска",
+      "en": "Barberry",
+      "es": "Bérbero",
+      "fr": "Épine-vinette"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg",
+              "es": "0,05 kg",
+              "fr": "0,05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.armsklad.npc_add.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Особо крупные экземпляры рачков получают гордое звание «Барбариска». По всему миру «Барбариски» всплывают на закрытых ювелирных аукционах.",
+          "en": "Particularly large examples of “shrimp” have acquired the name “barberry.” Barberries come up all over the world in private jewelry auctions.",
+          "es": "Los ejemplares especialmente grandes de \"gamba\" han adquirido el nombre de \"bérbero\". Los bérberos aparecen en todo el mundo en subastas privadas de joyas.",
+          "fr": "Des exemples particulièrement gros de « crevettes » ont acquis le nom d' « épine-vinette ». Les épines-vinettes sont présentes partout dans le monde dans les ventes aux enchères privées de bijoux."
+        }
+      }
+    }
+  ]
+}

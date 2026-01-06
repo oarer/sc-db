@@ -1,0 +1,115 @@
+{
+  "id": "kr54y",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.armsklad.npc.name",
+    "args": {},
+    "lines": {
+      "ru": "Рачки",
+      "en": "Shrimp",
+      "es": "Gamba",
+      "fr": "Crevette"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.02,
+          "formatted": {
+            "value": {
+              "ru": "0,02 кг",
+              "en": "0.02 kg",
+              "es": "0,02 kg",
+              "fr": "0,02 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.armsklad.npc.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Эти красивые, кроваво-красные минералы, возникшие в местах аномальной активности в Полесском, привлекают частных ювелиров. Местные прозвали их по аналогии с известными конфетами.",
+          "en": "These stunning blood-red minerals, which appeared in places where there was anomalous activity in Polesskoye, attract private jewelers. The locals named them after a well-known candy.",
+          "es": "Estos impresionantes minerales de color rojo sangre, que aparecieron en lugares donde había actividad anómala en Poliske, atraen a joyeros privados. Los lugareños les dieron el nombre de un conocido dulce.",
+          "fr": "Ces superbes minéraux rouge sang, apparus dans des endroits où il y avait une activité anormale à Polesskoye, attirent les bijoutiers privés. Les habitants leur ont donné le nom d'un bonbon bien connu."
+        }
+      }
+    }
+  ]
+}

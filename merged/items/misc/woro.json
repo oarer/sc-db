@@ -1,0 +1,167 @@
+{
+  "id": "woro",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.dead_bladder.name",
+    "args": {},
+    "lines": {
+      "ru": "Опухоль мертвеца",
+      "en": "Corpse Tumor",
+      "es": "Tumor de cadáver",
+      "fr": "Tumeur de cadavre"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l'artisanat"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1710.0"
+            },
+            "lines": {
+              "ru": "1 710 руб.",
+              "en": "1,710 rubles",
+              "es": "1.710 rublos",
+              "fr": "1 710 roubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.dead_bladder.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Болезненного вида аномальное органическое образование. Если взять в руку, можно почувствовать легкую пульсацию. Название получило из-за внешнего сходства с раковой опухолью на четвертой стадии заболевания.",
+          "en": "Painful-looking anomalous organic growth. When held in hand, a slight pulsation can be felt. Named for its resemblance to stage four cancer tumor.",
+          "es": "Crecimiento orgánico anómalo de apariencia dolorosa. Al sostenerlo, se puede percibir una ligera pulsación. Recibe su nombre por su parecido con un tumor canceroso de fase cuatro.",
+          "fr": "Excroissance organise anormale laide et visiblement douloureuse. On la sent légèrement pulser en main. Son nom provient de sa ressemblance à une tumeur cancéreuse de stage quatre."
+        }
+      }
+    },
+    {}
+  ]
+}

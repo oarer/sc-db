@@ -1,0 +1,55 @@
+import http from "http";
+import { execSync } from "child_process";
+import fs from "fs";
+
+const PORT = 3001;
+const TOKEN = process.env.SYNC_TOKEN;
+
+if (!TOKEN) {
+    console.error("[SYNC] SYNC_TOKEN is not set");
+    process.exit(1);
+}
+
+http.createServer((req, res) => {
+    if (req.method !== "POST" || req.url !== "/sync") {
+        res.writeHead(404);
+        return res.end();
+    }
+
+    if (req.headers["x-sync-token"] !== TOKEN) {
+        res.writeHead(403);
+        return res.end("forbidden");
+    }
+
+    const lock = "/tmp/sync.lock";
+
+    if (fs.existsSync(lock)) {
+        res.writeHead(409);
+        return res.end("busy");
+    }
+
+    fs.writeFileSync(lock, "1");
+
+    try {
+        try {
+            execSync("git diff --quiet", { stdio: "ignore" });
+            res.end("no changes");
+            return;
+        } catch {
+            execSync("git add .");
+            execSync(
+                `git commit -m "sync: update @ ${new Date().toISOString()}"`
+            );
+            execSync("git push origin sync/state");
+            res.end("pushed");
+        }
+    } catch (e) {
+        console.error("[SYNC] error:", e);
+        res.writeHead(500);
+        res.end("error");
+    } finally {
+        fs.unlinkSync(lock);
+    }
+}).listen(PORT, () => {
+    console.log("[SYNC] started");
+});
