@@ -5,7 +5,7 @@ services:
         env_file:
             - .env
         volumes:
-            - ./repo:/data
+            - merged_items:/repo
         networks:
             - sc-db
         restart: unless-stopped
@@ -16,13 +16,16 @@ services:
         env_file:
             - .env
         volumes:
-            - ./repo/items:/repo/items
-            - ./repo/merged:/repo/merged
+            - merged_items:/repo
             - ./.git:/repo/.git
         ports:
             - "3001:3001"
         networks:
             - sc-db
+        restart: unless-stopped
+
+volumes:
+    merged_items: {}
 
 networks:
     sc-db:
