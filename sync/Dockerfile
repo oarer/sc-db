@@ -4,11 +4,11 @@ RUN apt-get update \
  && apt-get install -y --no-install-recommends git \
  && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /repo/src
+WORKDIR /repo
 
-COPY ../package.json ../bun.lock ./
+COPY package.json bun.lock ./
 RUN bun install
 
-COPY . ./
+COPY src ./src
 
-CMD ["bun", "index.ts"]
+CMD ["bun", "run", "src/index.ts"]
