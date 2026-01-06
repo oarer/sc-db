@@ -16,8 +16,7 @@ services:
         env_file:
             - .env
         volumes:
-            - ./repo/items:/repo/items
-            - ./repo/merged:/repo/merged
+            - ./repo:/repo
         ports:
             - "3001:3001"
         networks:
