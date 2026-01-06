@@ -38,9 +38,9 @@ http.createServer((req, res) => {
         } catch {
             execSync("git add .");
             execSync(
-                `git commit -m "sync: update @ ${new Date().toISOString()}"`
+                `git commit -m "Auto: update @ ${new Date().toISOString()}"`
             );
-            execSync("git push origin sync/state");
+            execSync("git push origin main");
             res.end("pushed");
         }
     } catch (e) {
