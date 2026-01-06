@@ -16,7 +16,7 @@ services:
         env_file:
             - .env
         volumes:
-            - merged_items:/repo
+            - ./repo/merged:/repo/merged
             - ./.git:/repo/.git
         ports:
             - "3001:3001"
