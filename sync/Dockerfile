@@ -6,7 +6,10 @@ RUN apt-get update \
 
 WORKDIR /repo
 
-COPY package.json bun.lock ./
+COPY bun.lock package.json ./
 RUN bun install
 
-CMD ["bun", "run", "src/index.ts"]
+COPY src ./src
+
+WORKDIR /repo/src
+CMD ["bun", "run", "index.ts"]
