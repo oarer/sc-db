@@ -11,5 +11,5 @@ RUN bun install
 
 COPY src ./src
 
-WORKDIR /repo
-CMD ["sh", "-c", "while true; do bun run src/index.ts || true; sleep 5; done"]
+WORKDIR /repo/src
+CMD ["bun", "run", "index.ts"]

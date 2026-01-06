@@ -18,6 +18,7 @@ services:
         volumes:
             - ./repo/items:/repo/items
             - ./repo/merged:/repo/merged
+            - ./.git:/repo/.git
         ports:
             - "3001:3001"
         networks:
