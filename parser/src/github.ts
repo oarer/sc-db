@@ -4,11 +4,7 @@ import fs from "fs";
 import axios from "axios";
 import { GITHUB_REPO, GITHUB_BRANCH, PROXY_CONFIG } from "./constants";
 
-export async function downloadZip(
-    url: string,
-    dest: string,
-    proxy: boolean = false
-) {
+export async function downloadZip(url: string, dest: string, proxy = false) {
     let totalSize = 0;
 
     try {
@@ -29,9 +25,7 @@ export async function downloadZip(
     let downloaded = 0;
 
     response.data.on("data", (chunk: Buffer) => {
-        fileStream.write(chunk);
         downloaded += chunk.length;
-
         if (totalSize) {
             const perc = ((downloaded / totalSize) * 100).toFixed(1);
             Bun.stdout.write(
@@ -47,12 +41,12 @@ export async function downloadZip(
     });
 
     await new Promise<void>((resolve, reject) => {
-        response.data.on("end", () => {
-            fileStream.end();
+        fileStream.on("finish", () => {
             console.log("\n✓ Download completed");
             resolve();
         });
-        response.data.on("error", reject);
+        fileStream.on("error", reject);
+        response.data.pipe(fileStream);
     });
 }
 
