@@ -1,0 +1,90 @@
+{
+  "id": "00959",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.armsklad.mob_add.name",
+    "args": {},
+    "lines": {
+      "ru": "Дьявольская крапива",
+      "en": "Devil’s Nettle",
+      "es": "Ortiga del diablo",
+      "fr": "Ortie du diable"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.armsklad.mob_add.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Есть байка о том, что лидер одного сталкерского отряда изготовил розги из дьявольской крапивы, чтобы наказывать провинившихся подчиненных. Затея вышла неудачной - люди умирали от болевого шока после первого же удара такими розгами.",
+          "en": "There’s an urban myth that the leader of a certain stalker squad made a cane out of Devil’s Nettles, which he used to punish unruly subordinates. His idea wasn’t particularly successful, however, as the people died of shock after the first blow from his cane.",
+          "es": "Existe la leyenda urbana de que el líder de cierto escuadrón de acechadores fabricaba un bastón con ortigas del diablo que utilizaba para castigar a los subordinados indisciplinados. Sin embargo, su idea no tuvo mucho éxito, ya que la gente moría del susto tras el primer golpe de su bastón.",
+          "fr": "Il existe une légende urbaine selon laquelle le chef d'une certaine équipe de stalkers aurait fabriqué une canne avec des Orties du diable, qu'il utilisait pour punir ses subordonnés indisciplinés. Son idée n'a cependant pas été particulièrement réussie, car les gens sont morts de choc après le premier coup de canne."
+        }
+      }
+    }
+  ]
+}

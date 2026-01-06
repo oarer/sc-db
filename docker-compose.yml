@@ -1,0 +1,33 @@
+services:
+    sc-db:
+        build: ./parser
+        container_name: sc-db
+        env_file:
+            - .env
+        volumes:
+            - parser_items:/repo
+        networks:
+            - sc-db
+        restart: unless-stopped
+
+    sync:
+        build: ./sync
+        container_name: sync
+        env_file:
+            - .env
+        volumes:
+            - parser_items:/repo
+            - ./.git:/repo/.git
+            - ~/.ssh:/root/.ssh:ro
+        ports:
+            - "3001:3001"
+        networks:
+            - sc-db
+        restart: unless-stopped
+
+volumes:
+    parser_items:
+
+networks:
+    sc-db:
+        driver: bridge

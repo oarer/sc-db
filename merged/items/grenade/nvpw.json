@@ -1,0 +1,240 @@
+{
+  "id": "nvpw",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.vspishka.name",
+    "args": {},
+    "lines": {
+      "ru": "СЗГ «Вспышка»",
+      "en": "Flare Grenade",
+      "es": "Granada de destello",
+      "fr": "Grenade Éclairante"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.grenade",
+            "args": {},
+            "lines": {
+              "ru": "Гранаты",
+              "en": "Grenades",
+              "es": "Granadas",
+              "fr": "Grenades"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.17,
+          "formatted": {
+            "value": {
+              "ru": "0,17 кг",
+              "en": "0.17 kg",
+              "es": "0,17 kg",
+              "fr": "0,17 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l'artisanat"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.flash.stats.info.explosion_size",
+            "args": {},
+            "lines": {
+              "ru": "Радиус действия",
+              "en": "Range",
+              "es": "Alcance",
+              "fr": "Portée"
+            }
+          },
+          "value": 9,
+          "formatted": {
+            "value": {
+              "ru": "9 м",
+              "en": "9 m",
+              "es": "9 m",
+              "fr": "9 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.flash.stats.info.flash_time",
+            "args": {},
+            "lines": {
+              "ru": "Макс. длительность ослепления",
+              "en": "Max. blindness duration",
+              "es": "Duración máx. de ceguera",
+              "fr": "Durée maximum d'aveuglement"
+            }
+          },
+          "value": 4,
+          "formatted": {
+            "value": {
+              "ru": "4 с",
+              "en": "4 sec",
+              "es": "4 s",
+              "fr": "4 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.flash.stats.info.lifetime",
+            "args": {},
+            "lines": {
+              "ru": "Время до срабатывания",
+              "en": "Time until activation",
+              "es": "Tiempo hasta la activación",
+              "fr": "Délai d'activation"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 с",
+              "en": "2.5 sec",
+              "es": "2,5 s",
+              "fr": "2,5 s"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.vspishka.description",
+        "args": {},
+        "lines": {
+          "ru": "Светозвуковая граната, производимая в Зоне. Популярна благодаря своей цене и легкости, позволяет пугать мелких мутантов.",
+          "en": "A flash grenade produced in the Zone. It is popular due to its price and lightness, and it allows you to scare small mutants.",
+          "es": "Una granada cegadora producida en la Zona. Es popular por su precio y ligereza y permite asustar a mutantes pequeños.",
+          "fr": "Une grenade éblouissante produite dans la Zone. Elle est populaire de par son prix et sa légèreté, et elle vous permet d'effrayer les petits mutants."
+        }
+      }
+    },
+    {}
+  ]
+}

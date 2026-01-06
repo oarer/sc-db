@@ -1,0 +1,275 @@
+{
+  "id": "q194",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.getter.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Добытчик»",
+      "en": "Forager Container",
+      "es": "Contenedor Recolector",
+      "fr": "Conteneur Fourrageur"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 6.4,
+          "formatted": {
+            "value": {
+              "ru": "6,4 кг",
+              "en": "6.4 kg",
+              "es": "6,4 kg",
+              "fr": "6,4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.container.class.standard",
+        "args": {},
+        "lines": {
+          "ru": "Стандартный контейнер",
+          "en": "Standard Container",
+          "es": "Contenedor estándar",
+          "fr": "Conteneur standard"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection",
+              "es": "Protección interior",
+              "fr": "Protection interne"
+            }
+          },
+          "value": 78.5,
+          "formatted": {
+            "value": {
+              "ru": "78,5%",
+              "en": "78.5%",
+              "es": "78,5 %",
+              "fr": "78,5%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness",
+              "es": "Eficacia",
+              "fr": "Efficacité"
+            }
+          },
+          "value": 110,
+          "formatted": {
+            "value": {
+              "ru": "110%",
+              "en": "110%",
+              "es": "110 %",
+              "fr": "110%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity",
+              "es": "Capacidad",
+              "fr": "Capacité"
+            }
+          },
+          "value": 4,
+          "formatted": {
+            "value": {
+              "ru": "0/4",
+              "en": "0/4",
+              "es": "0/4",
+              "fr": "0/4"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation"
+            }
+          },
+          "value": -1.62,
+          "formatted": {
+            "value": {
+              "ru": "-1,62",
+              "en": "-1.62",
+              "es": "-1,62",
+              "fr": "-1,62"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.getter.description",
+        "args": {},
+        "lines": {
+          "ru": "Кустари Черного Рынка уверяют, что контейнер является полностью их разработкой. Парочка механиков, решивших проверить это заявление на прочность, разобрали «Добытчик», обнаружив в нем почти полный комплект деталей от НИИ-7, пересобранных в не самую тривиальную конструкцию с использованием дополнительной обшивки из аномальных материалов.",
+          "en": "Black Market artisan claim that the container is entirely their development. A couple of mechanics, deciding to test this claim, dismantled Forager and found almost a complete set of parts from Research Institute 7, reassembled into a rather unconventional construction using additional casing made of anomalous materials.",
+          "es": "Los artesanos del Mercado Negro afirman que el contenedor es un desarrollo enteramente suyo. Un par de mecánicos, decididos a poner a prueba esta afirmación, desmontaron Recolector y encontraron un conjunto casi completo de piezas del Instituto de Investigación 7, reensambladas en una construcción bastante poco convencional utilizando una carcasa adicional fabricada con materiales anómalos.",
+          "fr": "Les artisans du Marché Noir assurent que ce conteneur est leur création exclusive. Deux mécanos sceptiques ont décidé d'en avoir le cœur net : en démontant un exemplaire du Fourrageur, ils ont découvert qu'il contenait presque l'intégralité des composants issus de l'Institut de Recherche 7, réassemblés dans une configuration non triviale, avec un blindage supplémentaire fait de matériaux anormaux."
+        }
+      }
+    }
+  ]
+}

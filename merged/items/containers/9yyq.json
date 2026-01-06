@@ -1,0 +1,249 @@
+{
+  "id": "9yyq",
+  "category": "containers",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.kzs1.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «КЗС-1»",
+      "en": "KZS-1 Container",
+      "es": "Contenedor KZS-1",
+      "fr": "Conteneur KZS-1"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.picklock",
+            "args": {},
+            "lines": {
+              "ru": "Отмычка",
+              "en": "Picklock",
+              "es": "Ratero",
+              "fr": "Crocheteur"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.containers",
+            "args": {},
+            "lines": {
+              "ru": "Контейнеры",
+              "en": "Containers",
+              "es": "Contenedores",
+              "fr": "Conteneurs"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 1.4,
+          "formatted": {
+            "value": {
+              "ru": "1,4 кг",
+              "en": "1.4 kg",
+              "es": "1,4 kg",
+              "fr": "1,4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.container.class.compact",
+        "args": {},
+        "lines": {
+          "ru": "Компактный контейнер",
+          "en": "Compact Container",
+          "es": "Contenedor compacto",
+          "fr": "Conteneur compact"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.inner_protection",
+            "args": {},
+            "lines": {
+              "ru": "Внутренняя защита",
+              "en": "Inner protection",
+              "es": "Protección interior",
+              "fr": "Protection interne"
+            }
+          },
+          "value": 95,
+          "formatted": {
+            "value": {
+              "ru": "95%",
+              "en": "95%",
+              "es": "95 %",
+              "fr": "95%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.stat_name.effectiveness",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность",
+              "en": "Effectiveness",
+              "es": "Eficacia",
+              "fr": "Efficacité"
+            }
+          },
+          "value": 150,
+          "formatted": {
+            "value": {
+              "ru": "150%",
+              "en": "150%",
+              "es": "150 %",
+              "fr": "150%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.backpack.info.size",
+            "args": {},
+            "lines": {
+              "ru": "Вместимость",
+              "en": "Capacity",
+              "es": "Capacidad",
+              "fr": "Capacité"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "0/1",
+              "en": "0/1",
+              "es": "0/1",
+              "fr": "0/1"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.kzs1.description",
+        "args": {},
+        "lines": {
+          "ru": "Первый из контейнеров, спроектированных НИИ-7 на основе трофейного образца №3-ВА.\\nБлагодаря компоненту, скопированному с контейнера «шепчущих», значительно увеличивает эффективность использования артефактов.",
+          "en": "The first of the containers designed by Scientific Research Institute 7 based on the trophy sample No. 3-EA.\\nThanks to the component copied from the Murmur container, it significantly increases the efficiency of artifact usage.",
+          "es": "El primero de los contenedores diseñados por el Instituto de Investigación 7 a partir de la muestra de trofeos nº 3-IA.\\nGracias al componente copiado del contenedor de Susurro, aumenta notablemente la eficacia del uso de artefactos.",
+          "fr": "Le premier des conteneurs créés par l'Institut de Recherche 7 sur la base de l'échantillon de trophée n° 3-IA.\\nGrâce au composant copié sur le conteneur de « murmures », il augmente de manière significative l'efficacité de l'utilisation des artefacts."
+        }
+      }
+    }
+  ]
+}
