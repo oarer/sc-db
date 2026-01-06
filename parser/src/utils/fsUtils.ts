@@ -62,6 +62,7 @@ export function saveSha(sha: string) {
     try {
         fs.mkdirSync(path.dirname(SHA_FILE), { recursive: true });
         fs.writeFileSync(SHA_FILE, sha, "utf8");
+        console.log("[SHA] Last sha saved")
     } catch (e) {
         console.warn("Failed to save sha:", e);
     }
