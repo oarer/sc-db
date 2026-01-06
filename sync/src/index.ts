@@ -36,7 +36,7 @@ http.createServer((req, res) => {
             res.end("no changes");
             return;
         } catch {
-            execSync("git add .");
+            execSync("git add items merged");
             execSync(
                 `git commit -m "Auto: update @ ${new Date().toISOString()}"`
             );
