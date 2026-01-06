@@ -7,4 +7,5 @@ RUN bun install
 
 COPY src ./src
 
-CMD ["bun", "run", "src/index.ts"]
+WORKDIR /repo/src
+CMD ["bun", "run", "index.ts"]
