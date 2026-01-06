@@ -1,0 +1,456 @@
+{
+  "id": "qjgr4",
+  "category": "weapon/melee",
+  "name": {
+    "type": "translation",
+    "key": "item.melee.battleaxe.name",
+    "args": {},
+    "lines": {
+      "ru": "Боевой топор Русов",
+      "en": "Slavs Battle axe",
+      "es": "Hacha de batalla de eslavos",
+      "fr": "Hache de Bataille des Slaves"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.melee",
+            "args": {},
+            "lines": {
+              "ru": "Ближний бой",
+              "en": "Melee Weapons",
+              "es": "Armas cuerpo a cuerpo",
+              "fr": "Arme de mêlée"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.type",
+            "args": {},
+            "lines": {
+              "ru": "Тип",
+              "en": "Type",
+              "es": "Tipo",
+              "fr": "Type"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.melee.universal.type",
+            "args": {},
+            "lines": {
+              "ru": "Универсальный",
+              "en": "Multipurpose",
+              "es": "Multiusos",
+              "fr": "Multi-usages"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 1.1,
+          "formatted": {
+            "value": {
+              "ru": "1,1 кг",
+              "en": "1.1 kg",
+              "es": "1,1 kg",
+              "fr": "1,1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "value": 6,
+          "formatted": {
+            "value": {
+              "ru": "6%",
+              "en": "6%",
+              "es": "6 %",
+              "fr": "6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.damage.min.common",
+            "args": {},
+            "lines": {
+              "ru": "Быстрый удар (мин)",
+              "en": "Quick attack (min)",
+              "es": "Ataque rápido (mín.)",
+              "fr": "Attaque rapide (min)"
+            }
+          },
+          "value": 57,
+          "formatted": {
+            "value": {
+              "ru": "57 ед",
+              "en": "57 unit(s)",
+              "es": "57 unidad(es)",
+              "fr": "57 unité(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.damage.max.common",
+            "args": {},
+            "lines": {
+              "ru": "Быстрый удар (макс)",
+              "en": "Quick attack (max)",
+              "es": "Ataque rápido (máx.)",
+              "fr": "Attaque rapide (max)"
+            }
+          },
+          "value": 86,
+          "formatted": {
+            "value": {
+              "ru": "86 ед",
+              "en": "86 unit(s)",
+              "es": "86 unidad(es)",
+              "fr": "86 unité(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.damage.min.strong",
+            "args": {},
+            "lines": {
+              "ru": "Сильный удар (мин)",
+              "en": "Strong attack (min)",
+              "es": "Ataque potente (mín.)",
+              "fr": "Attaque puissante (min)"
+            }
+          },
+          "value": 82,
+          "formatted": {
+            "value": {
+              "ru": "82 ед",
+              "en": "82 unit(s)",
+              "es": "82 unidad(es)",
+              "fr": "82 unité(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.damage.max.strong",
+            "args": {},
+            "lines": {
+              "ru": "Сильный удар (макс)",
+              "en": "Strong attack (max)",
+              "es": "Ataque potente (máx.)",
+              "fr": "Attaque puissante (max)"
+            }
+          },
+          "value": 123,
+          "formatted": {
+            "value": {
+              "ru": "123 ед",
+              "en": "123 unit(s)",
+              "es": "123 unidad(es)",
+              "fr": "123 unité(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.reach.common",
+            "args": {},
+            "lines": {
+              "ru": "Досягаемость (быстр)",
+              "en": "Weapon reach (quick)",
+              "es": "Alcance del arma (rápido)",
+              "fr": "Portée de l'arme (rapide)"
+            }
+          },
+          "value": 2.3,
+          "formatted": {
+            "value": {
+              "ru": "2,3 м",
+              "en": "2.3 m",
+              "es": "2,3 m",
+              "fr": "2,3 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.reach.strong",
+            "args": {},
+            "lines": {
+              "ru": "Досягаемость (сильн)",
+              "en": "Weapon reach (strong)",
+              "es": "Alcance del arma (potente)",
+              "fr": "Portée de l'arme (puissante)"
+            }
+          },
+          "value": 2.3,
+          "formatted": {
+            "value": {
+              "ru": "2,3 м",
+              "en": "2.3 m",
+              "es": "2,3 m",
+              "fr": "2,3 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.stat_name.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Пробиваемость",
+              "en": "Penetration",
+              "es": "Perforación",
+              "fr": "Pénétration"
+            }
+          },
+          "value": 30,
+          "formatted": {
+            "value": {
+              "ru": "30%",
+              "en": "30%",
+              "es": "30 %",
+              "fr": "30%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.stat_name.bloodlust_chance",
+            "args": {},
+            "lines": {
+              "ru": "Шанс глубокого ранения",
+              "en": "Chance for a deep wound",
+              "es": "Probabilidad de herida profunda",
+              "fr": "Chance de blessure profonde"
+            }
+          },
+          "value": 50,
+          "formatted": {
+            "value": {
+              "ru": "50%",
+              "en": "50%",
+              "es": "50 %",
+              "fr": "50%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.melee_weapon.info.feature",
+        "args": {},
+        "lines": {
+          "ru": "Особенности",
+          "en": "Features",
+          "es": "Características",
+          "fr": "Caractéristiques"
+        }
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.critical_hit_mod",
+            "args": {
+              "factor": "1.7"
+            },
+            "lines": {
+              "ru": "Урон со спины: x1,7",
+              "en": "Backstab damage: x1.7",
+              "es": "Daño por puñalada desde atrás: x1,7",
+              "fr": "Dégâts par derrière : x1,7"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.mutant_damage_mod",
+            "args": {
+              "factor": "2.1"
+            },
+            "lines": {
+              "ru": "Урон по мутантам: x2,1",
+              "en": "Damage to mutants: x2.1",
+              "es": "Daño a mutantes: x2,1",
+              "fr": "Dégâts aux mutants : x2,1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.melee.battleaxe.description",
+        "args": {},
+        "lines": {
+          "ru": "В память о походах тех, когда против ящеров храбрые богатыри вставали, топор боевой стал символом несгибаемости и братства воинов, объединённых одной целью – защитить священные воды Байкала от напасти ящерской.",
+          "en": "In memory of the campaigns when brave bogatyrs stood up against the lizards, the battle axe became a symbol of resilience and brotherhood among warriors united with a single purpose – to protect the sacred waters of Baikal from the lizard menace.",
+          "es": "En recuerdo de las campañas en las que los valientes bogatyr se enfrentaron a los lagartos, el hacha de batalla se convirtió en símbolo de resistencia y hermandad entre guerreros unidos con un único propósito: proteger las aguas sagradas del Baikal de la amenaza de los lagartos.",
+          "fr": "En souvenir des campagnes au cours desquelles de courageux bogatyrs se sont dressés contre les lézards, la hache de guerre est devenue un symbole de résilience et de fraternité entre les guerriers unis dans un seul but : protéger les eaux sacrées du Baïkal de la menace des lézards."
+        }
+      }
+    }
+  ]
+}

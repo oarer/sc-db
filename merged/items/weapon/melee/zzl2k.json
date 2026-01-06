@@ -1,0 +1,455 @@
+{
+  "id": "zzl2k",
+  "category": "weapon/melee",
+  "name": {
+    "type": "translation",
+    "key": "item.melee.oc04.name",
+    "args": {},
+    "lines": {
+      "ru": "ОЦ-04",
+      "en": "OTs-04",
+      "es": "OTs-04",
+      "fr": "OTs-04"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.melee",
+            "args": {},
+            "lines": {
+              "ru": "Ближний бой",
+              "en": "Melee Weapons",
+              "es": "Armas cuerpo a cuerpo",
+              "fr": "Arme de mêlée"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.type",
+            "args": {},
+            "lines": {
+              "ru": "Тип",
+              "en": "Type",
+              "es": "Tipo",
+              "fr": "Type"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.melee.fight.type",
+            "args": {},
+            "lines": {
+              "ru": "Боевой",
+              "en": "Combat",
+              "es": "Combate",
+              "fr": "Combat"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.28,
+          "formatted": {
+            "value": {
+              "ru": "0,28 кг",
+              "en": "0.28 kg",
+              "es": "0,28 kg",
+              "fr": "0,28 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "value": 6,
+          "formatted": {
+            "value": {
+              "ru": "6%",
+              "en": "6%",
+              "es": "6 %",
+              "fr": "6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.damage.min.common",
+            "args": {},
+            "lines": {
+              "ru": "Быстрый удар (мин)",
+              "en": "Quick attack (min)",
+              "es": "Ataque rápido (mín.)",
+              "fr": "Attaque rapide (min)"
+            }
+          },
+          "value": 36,
+          "formatted": {
+            "value": {
+              "ru": "36 ед",
+              "en": "36 unit(s)",
+              "es": "36 unidad(es)",
+              "fr": "36 unité(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.damage.max.common",
+            "args": {},
+            "lines": {
+              "ru": "Быстрый удар (макс)",
+              "en": "Quick attack (max)",
+              "es": "Ataque rápido (máx.)",
+              "fr": "Attaque rapide (max)"
+            }
+          },
+          "value": 43,
+          "formatted": {
+            "value": {
+              "ru": "43 ед",
+              "en": "43 unit(s)",
+              "es": "43 unidad(es)",
+              "fr": "43 unité(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.damage.min.strong",
+            "args": {},
+            "lines": {
+              "ru": "Сильный удар (мин)",
+              "en": "Strong attack (min)",
+              "es": "Ataque potente (mín.)",
+              "fr": "Attaque puissante (min)"
+            }
+          },
+          "value": 93,
+          "formatted": {
+            "value": {
+              "ru": "93 ед",
+              "en": "93 unit(s)",
+              "es": "93 unidad(es)",
+              "fr": "93 unité(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.damage.max.strong",
+            "args": {},
+            "lines": {
+              "ru": "Сильный удар (макс)",
+              "en": "Strong attack (max)",
+              "es": "Ataque potente (máx.)",
+              "fr": "Attaque puissante (max)"
+            }
+          },
+          "value": 114,
+          "formatted": {
+            "value": {
+              "ru": "114 ед",
+              "en": "114 unit(s)",
+              "es": "114 unidad(es)",
+              "fr": "114 unité(s)"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.reach.common",
+            "args": {},
+            "lines": {
+              "ru": "Досягаемость (быстр)",
+              "en": "Weapon reach (quick)",
+              "es": "Alcance del arma (rápido)",
+              "fr": "Portée de l'arme (rapide)"
+            }
+          },
+          "value": 2.1,
+          "formatted": {
+            "value": {
+              "ru": "2,1 м",
+              "en": "2.1 m",
+              "es": "2,1 m",
+              "fr": "2,1 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.info.reach.strong",
+            "args": {},
+            "lines": {
+              "ru": "Досягаемость (сильн)",
+              "en": "Weapon reach (strong)",
+              "es": "Alcance del arma (potente)",
+              "fr": "Portée de l'arme (puissante)"
+            }
+          },
+          "value": 2.1,
+          "formatted": {
+            "value": {
+              "ru": "2,1 м",
+              "en": "2.1 m",
+              "es": "2,1 m",
+              "fr": "2,1 m"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.stat_name.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Пробиваемость",
+              "en": "Penetration",
+              "es": "Perforación",
+              "fr": "Pénétration"
+            }
+          },
+          "value": 70,
+          "formatted": {
+            "value": {
+              "ru": "70%",
+              "en": "70%",
+              "es": "70 %",
+              "fr": "70%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.stat_name.bloodlust_chance",
+            "args": {},
+            "lines": {
+              "ru": "Шанс глубокого ранения",
+              "en": "Chance for a deep wound",
+              "es": "Probabilidad de herida profunda",
+              "fr": "Chance de blessure profonde"
+            }
+          },
+          "value": 50,
+          "formatted": {
+            "value": {
+              "ru": "50%",
+              "en": "50%",
+              "es": "50 %",
+              "fr": "50%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.melee_weapon.info.feature",
+        "args": {},
+        "lines": {
+          "ru": "Особенности",
+          "en": "Features",
+          "es": "Características",
+          "fr": "Caractéristiques"
+        }
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.critical_hit_mod",
+            "args": {
+              "factor": "1.7"
+            },
+            "lines": {
+              "ru": "Урон со спины: x1,7",
+              "en": "Backstab damage: x1.7",
+              "es": "Daño por puñalada desde atrás: x1,7",
+              "fr": "Dégâts par derrière : x1,7"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.melee_weapon.mutant_damage_mod",
+            "args": {
+              "factor": "1.35"
+            },
+            "lines": {
+              "ru": "Урон по мутантам: x1,35",
+              "en": "Damage to mutants: x1.35",
+              "es": "Daño a mutantes: x1,35",
+              "fr": "Dégâts aux mutants : x1,35"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.melee.oc04.description",
+        "args": {},
+        "lines": {
+          "ru": "Нож, предназначенный для спецподразделений внутренних войск МВД. Отличается современным агрессивным дизайном. Клинок позволяет наносить мощные колющие удары, рубяще-режущие удары менее эффективны.",
+          "en": "A knife intended for special units of the MIA’s internal troops. It stands out due to its aggressive, contemporary design. This blade allows you to deal substantial stab damage, although slashing strikes are less effective.",
+          "es": "Un cuchillo destinado a las unidades especiales de las tropas internas del MIA. Destaca por su diseño agresivo y contemporáneo. Esta hoja te permite infligir un gran daño de apuñalamiento, aunque los golpes de tajo son menos eficaces.",
+          "fr": "Un couteau conçu pour les unités spéciales des troupes internes du MVD. Il se distingue par son design agressif et contemporain. Cette lame vous permet d'infliger d'importants dégâts à l'arme blanche, mais les coups tranchants sont moins efficaces."
+        }
+      }
+    }
+  ]
+}

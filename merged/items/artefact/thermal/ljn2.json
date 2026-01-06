@@ -1,0 +1,455 @@
+{
+  "id": "ljn2",
+  "category": "artefact/thermal",
+  "name": {
+    "type": "translation",
+    "key": "item.art.blizzard_palantir.name",
+    "args": {},
+    "lines": {
+      "ru": "Морозец",
+      "en": "Chilly",
+      "es": "Fresqui",
+      "fr": "Frisquet"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.thermal",
+            "args": {},
+            "lines": {
+              "ru": "Термические",
+              "en": "Thermal",
+              "es": "Térmico",
+              "fr": "Thermique"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "81325.0"
+            },
+            "lines": {
+              "ru": "81 325 руб.",
+              "en": "81,325 rubles",
+              "es": "81.325 rublos",
+              "fr": "81 325 roubles"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 2.295,
+          "max": 2.7,
+          "formatted": {
+            "value": {
+              "ru": "[+2,3%; +2,7%]",
+              "en": "[+2.3%; +2.7%]",
+              "es": "[+2,3 %; +2,7 %]",
+              "fr": "[+2,3%; +2,7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "min": -0.384,
+          "max": -0.3264,
+          "formatted": {
+            "value": {
+              "ru": "[-0,38; -0,33]",
+              "en": "[-0.38; -0.33]",
+              "es": "[-0,38; -0,33]",
+              "fr": "[-0,38; -0,33]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.frost_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Холод",
+              "en": "Frost",
+              "es": "Congelación",
+              "fr": "Givre"
+            }
+          },
+          "min": 0.85,
+          "max": 1,
+          "formatted": {
+            "value": {
+              "ru": "[+0,85; +1]",
+              "en": "[+0.85; +1]",
+              "es": "[+0,85; +1]",
+              "fr": "[+0,85; +1]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion"
+            }
+          },
+          "min": -0.4,
+          "max": -0.34,
+          "formatted": {
+            "value": {
+              "ru": "[-0,4; -0,34]",
+              "en": "[-0.4; -0.34]",
+              "es": "[-0,4; -0,34]",
+              "fr": "[-0,4; -0,34]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.blizzard_palantir.description",
+        "args": {},
+        "lines": {
+          "ru": "В отличие от других артефактов «Бурана», «Морозец» обладает уникальным составом, значительный процент которого составляет металлический водород невероятной прочности, окружающий, вероятно, аргон.\\n\\n Наличие инертного газа внутри непробиваемой оболочки было установлено благодаря сверхпроводимости поверхности артефакта. При прохождении через нее различных зарядов тока менялась светимость артефакта.",
+          "en": "Unlike other artifacts from Blizzard, Chilly possesses a unique composition. A significant portion of it consists of metallic hydrogen, which is incredibly strong and likely encases argon.\\n\\n The presence of this inert gas within the unbreakable shell was determined through the superconductivity observed on the artifact's surface. When various electric charges were passed through it, the artifact's luminosity changed.",
+          "es": "A diferencia de otros artefactos Ventisca, Fresqui tiene una composición única, un porcentaje significativo de la cual es hidrógeno metálico de increíble resistencia que rodea, probablemente, argón.\\n\\n La presencia del gas inerte en el interior de la coraza impenetrable se estableció gracias a la superconductividad de la superficie del artefacto. Cuando diferentes cargas de corriente pasaban a través de él, la luminosidad del artefacto cambiaba.",
+          "fr": "Contrairement à d'autres artefacts de Blizzard, le Frisquet possède une composition unique. Une grande partie est constituée d'hydrogène métallique, extrêmement résistant et probablement enfermant de l'argon.\\n\\n La présence de ce gaz inerte à l'intérieur de l'enveloppe incassable a été déterminée grâce à la supraconductivité observée à la surface de l'artefact. Lorsque diverses charges électriques y sont appliquées, la luminosité de l'artefact change."
+        }
+      }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.765,
+          "max": 0.9,
+          "formatted": {
+            "value": {
+              "en": "[0.765%; 0.9%]",
+              "ru": "[0.765%; 0.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion"
+            }
+          },
+          "min": -0.2,
+          "max": -0.17,
+          "formatted": {
+            "value": {
+              "en": "[-0.2; -0.17]",
+              "ru": "[-0.2; -0.17]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 12.665,
+          "max": 14.9,
+          "formatted": {
+            "value": {
+              "en": "[12.665; 14.9]",
+              "ru": "[12.665; 14.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

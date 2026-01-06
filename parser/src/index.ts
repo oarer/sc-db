@@ -20,7 +20,8 @@ import { processListing } from "./listingFormate";
 import { additionalStatsParse } from "./additionalStatsParse";
 
 async function main(): Promise<boolean> {
-    const useProxy = process.argv.includes("--proxy");
+    const useProxy =
+        process.argv.includes("--proxy") || process.env.PROXY === "true";
     const forceMerge = process.argv.includes("--force-merge");
 
     let updated = false;
@@ -40,7 +41,7 @@ async function main(): Promise<boolean> {
             await copyIconsToOutput();
             await additionalStatsParse(OUT_DIR, useProxy);
 
-            return true; // ⬅️ изменения точно есть
+            return true;
         }
 
         const zipUrl = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/archive/refs/heads/${GITHUB_BRANCH}.zip`;

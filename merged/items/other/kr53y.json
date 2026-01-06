@@ -1,0 +1,177 @@
+{
+  "id": "kr53y",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.kordon.mob_add.name",
+    "args": {},
+    "lines": {
+      "ru": "Корень-липучка",
+      "en": "Sticky Root",
+      "es": "Raíz pegajosa",
+      "fr": "Racine collante"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.035,
+          "formatted": {
+            "value": {
+              "ru": "0,04 кг",
+              "en": "0.04 kg",
+              "es": "0,04 kg",
+              "fr": "0,04 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1600.0"
+            },
+            "lines": {
+              "ru": "1 600 руб.",
+              "en": "1,600 rubles",
+              "es": "1.600 rublos",
+              "fr": "1 600 roubles"
+            }
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.kordon.mob_add.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Корень-липучка, от своего собрата-вонючки отличается лишь тем, что он действительно способен намертво приклеиться к неосторожному собирателю. Однажды кто-нибудь додумается делать из них гранаты...",
+          "en": "The sticky root differs from its brother, the stink root, in that it is actually capable of sticking to any incautious collectors. One day, someone will suggest making grenades out of it...",
+          "es": "La raíz pegajosa se diferencia de su hermana, la raíz hedionda, en que puede adherirse a cualquier coleccionista incauto. Algún día, alguien sugerirá hacer granadas con ella...",
+          "fr": "La racine collante diffère de sa sœur, la racine puante, en ce sens qu'elle est en fait capable de coller à tout collecteur imprudent. Un jour, quelqu'un proposera d'en faire des grenades…"
+        }
+      }
+    }
+  ]
+}

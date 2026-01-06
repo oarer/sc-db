@@ -1,0 +1,292 @@
+{
+  "id": "g54p",
+  "category": "bullet",
+  "name": {
+    "type": "translation",
+    "key": "item.amm.9exp.name",
+    "args": {},
+    "lines": {
+      "ru": "Патрон 9 мм экспансивный",
+      "en": "9 mm Expanding Round",
+      "es": "Munición expansiva de 9 mm",
+      "fr": "Cartouche 9 mm dum-dum"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.bullet",
+            "args": {},
+            "lines": {
+              "ru": "Патроны",
+              "en": "Rounds",
+              "es": "Munición",
+              "fr": "Munitions"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids"
+            }
+          },
+          "value": 0.008,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.bullet_type.expanding",
+            "args": {},
+            "lines": {
+              "ru": "Экспансивный патрон",
+              "en": "Expanding Round",
+              "es": "Munición expansiva",
+              "fr": "Cartouche dum-dum"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.low_penetration",
+            "args": {},
+            "lines": {
+              "ru": "Низкая пробиваемость",
+              "en": "Low penetration",
+              "es": "Penetración baja",
+              "fr": "Faible pénétration"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.damage",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage",
+              "es": "Daño",
+              "fr": "Dégâts"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%",
+              "es": "+10 %",
+              "fr": "+10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Бронебойность",
+              "en": "Armor-penetration",
+              "es": "Perforante",
+              "fr": "Pénétration d'armure"
+            }
+          },
+          "value": -25,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%",
+              "es": "-25 %",
+              "fr": "-25%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.bleeding",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement"
+            }
+          },
+          "value": 15.000001,
+          "formatted": {
+            "value": {
+              "ru": "+15%",
+              "en": "+15%",
+              "es": "+15 %",
+              "fr": "+15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power",
+              "es": "Poder de parada",
+              "fr": "Pouvoir d'arrêt"
+            }
+          },
+          "value": 60.000004,
+          "formatted": {
+            "value": {
+              "ru": "+60",
+              "en": "+60",
+              "es": "+60",
+              "fr": "+60"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.plate_penetrating",
+            "args": {},
+            "lines": {
+              "ru": "Пробитие пластин",
+              "en": "Plate penetration",
+              "es": "Perforación de placas",
+              "fr": "Perforation des plaques"
+            }
+          },
+          "value": -25,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%",
+              "es": "-25 %",
+              "fr": "-25%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.armor_plate_damage",
+            "args": {},
+            "lines": {
+              "ru": "Урон по прочности пластин",
+              "en": "Plate durability damage",
+              "es": "Daño a la durabilidad de las placas",
+              "fr": "Dégâts à la durabilité des plaques"
+            }
+          },
+          "value": -25,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%",
+              "es": "-25 %",
+              "fr": "-25%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    }
+  ]
+}
