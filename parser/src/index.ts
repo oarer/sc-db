@@ -111,14 +111,4 @@ async function loop() {
     }
 }
 
-process.on("SIGINT", () => {
-    console.log("\nReceived SIGINT, exiting...");
-    process.exit();
-});
-
-process.on("SIGTERM", () => {
-    console.log("Received SIGTERM, exiting...");
-    process.exit();
-});
-
 await loop();
