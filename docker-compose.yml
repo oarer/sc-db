@@ -21,7 +21,6 @@ services:
             - "3001:3001"
         networks:
             - sc-db
-        restart: "no"
 
 networks:
     sc-db:
