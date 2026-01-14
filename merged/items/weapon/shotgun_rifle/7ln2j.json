@@ -185,7 +185,35 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": -1.9999981,
+          "formatted": {
+            "value": {
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -236,22 +264,22 @@
             }
           },
           "value": [
-            400,
-            403.0488,
-            406.09756,
-            409.14636,
-            412.1951,
-            421.34146,
-            425.9146,
-            430.48782,
-            435.06097,
-            439.63412,
-            453.04877,
-            459.7561,
-            466.4634,
-            473.17075,
-            479.87805,
-            500
+            384,
+            386.92685,
+            389.85364,
+            392.78052,
+            395.7073,
+            404.4878,
+            408.87805,
+            413.2683,
+            417.65854,
+            422.04877,
+            434.92682,
+            441.36584,
+            447.80487,
+            454.24393,
+            460.68292,
+            480
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -405,14 +433,14 @@
               "ko": "비조준 사격 탄퍼짐"
             }
           },
-          "value": 2.75,
+          "value": 3,
           "formatted": {
             "value": {
-              "ru": "2,75°",
-              "en": "2.75°",
-              "es": "2,75°",
-              "fr": "2,75°",
-              "ko": "2.75°"
+              "ru": "3°",
+              "en": "3°",
+              "es": "3°",
+              "fr": "3°",
+              "ko": "3°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -599,14 +627,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.mobs_damage_multiplier",
             "args": {
-              "modifier": "1.75"
+              "modifier": "1.9"
             },
             "lines": {
-              "ru": "Урон по мутантам: х1,75",
-              "en": "Damage to mutants: x1.75",
-              "es": "Daño a mutantes: x1,75",
-              "fr": "Dégât au mutants : x1,75",
-              "ko": "돌연변이에게 입히는 피해: x1.75"
+              "ru": "Урон по мутантам: х1,9",
+              "en": "Damage to mutants: x1.9",
+              "es": "Daño a mutantes: x1,9",
+              "fr": "Dégât au mutants : x1,9",
+              "ko": "돌연변이에게 입히는 피해: x1.9"
             }
           }
         }
@@ -646,9 +674,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 400,
+      "startDamage": 384,
       "damageDecreaseStart": 4,
-      "endDamage": 190,
+      "endDamage": 200,
       "damageDecreaseEnd": 11,
       "maxDistance": 85
     },

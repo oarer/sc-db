@@ -264,22 +264,22 @@
             }
           },
           "value": [
-            177.5,
-            178.8529,
-            180.2058,
-            181.5587,
-            182.91158,
-            186.97028,
-            188.99962,
-            191.02898,
-            193.0583,
-            195.08765,
-            201.04039,
-            204.01677,
-            206.99315,
-            209.96953,
-            212.94588,
-            221.875
+            205,
+            206.56252,
+            208.125,
+            209.68752,
+            211.25,
+            215.9375,
+            218.28125,
+            220.62502,
+            222.96875,
+            225.3125,
+            232.18748,
+            235.625,
+            239.0625,
+            242.50002,
+            245.9375,
+            256.25
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -352,14 +352,14 @@
               "ko": "발사 속도"
             }
           },
-          "value": 37,
+          "value": 40,
           "formatted": {
             "value": {
-              "ru": "37 выстр/мин",
-              "en": "37 shots/min",
-              "es": "37 disparos/min",
-              "fr": "37tirs/min",
-              "ko": "분당 37 발"
+              "ru": "40 выстр/мин",
+              "en": "40 shots/min",
+              "es": "40 disparos/min",
+              "fr": "40tirs/min",
+              "ko": "분당 40 발"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -702,14 +702,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.4"
+              "modifier": "1.15"
             },
             "lines": {
-              "ru": "Урон в голову: х1,4",
-              "en": "Headshot damage: x1.4",
-              "es": "Daño por disparo a la cabeza: x1,4",
-              "fr": "Dégât de tir à la tête : x1,4",
-              "ko": "헤드샷 피해: x1.4"
+              "ru": "Урон в голову: х1,15",
+              "en": "Headshot damage: x1.15",
+              "es": "Daño por disparo a la cabeza: x1,15",
+              "fr": "Dégât de tir à la tête : x1,15",
+              "ko": "헤드샷 피해: x1.15"
             }
           }
         },
@@ -784,9 +784,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 177.5,
+      "startDamage": 205,
       "damageDecreaseStart": 20,
-      "endDamage": 177.5,
+      "endDamage": 205,
       "damageDecreaseEnd": 60,
       "maxDistance": 230
     },
