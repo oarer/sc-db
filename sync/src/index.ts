@@ -37,7 +37,7 @@ http.createServer((req, res) => {
             res.end("no changes");
             return;
         } catch {
-            execSync("git add -A merged", { cwd: REPO });
+            execSync("git add -A merged/", { cwd: REPO });
             execSync(
                 `git commit -m "Auto: update @${new Date().toLocaleString()}"`,
                 { cwd: REPO }
