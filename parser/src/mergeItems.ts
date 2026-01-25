@@ -7,11 +7,11 @@ type Options = {
 	pretty?: boolean;
 };
 
-async function ensureDir(dir: string) {
+function ensureDir(dir: string) {
 	await fs.mkdir(dir, { recursive: true });
 }
 
-async function readJsonSafe(filePath: string) {
+function readJsonSafe(filePath: string) {
 	try {
 		return JSON.parse(await fs.readFile(filePath, "utf8"));
 	} catch (_e) {
@@ -20,7 +20,7 @@ async function readJsonSafe(filePath: string) {
 	}
 }
 
-async function collectJsonFiles(dir: string): Promise<string[]> {
+function collectJsonFiles(dir: string): Promise<string[]> {
 	let results: string[] = [];
 	try {
 		const entries = await fs.readdir(dir, { withFileTypes: true });
@@ -36,7 +36,7 @@ async function collectJsonFiles(dir: string): Promise<string[]> {
 	} catch {}
 	return results;
 }
-export async function mergeFolderGroupsToListing(
+export function mergeFolderGroupsToListing(
 	outDir: string,
 	opts: Options,
 ) {
