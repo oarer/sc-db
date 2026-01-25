@@ -32,19 +32,26 @@ http.createServer((req, res) => {
     fs.writeFileSync(lock, "1");
 
     try {
-        try {
-            execSync("git diff --quiet", { cwd: REPO, stdio: "ignore" });
+        
+        const status = execSync("git status --porcelain", { cwd: REPO }).toString().trim();
+
+        if (!status) {
             res.end("no changes");
             return;
-        } catch {
-            execSync("git add -A merged", { cwd: REPO });
-            execSync(
-                `git commit -m "Auto: update @ ${new Date().toLocaleString()}"`,
-                { cwd: REPO }
-            );
-            execSync("git push origin main", { cwd: REPO });
-            res.end("pushed");
         }
+
+        
+        execSync("git add -A merged", { cwd: REPO });
+
+        
+        try {
+            execSync(`git commit -m "Auto: update @ ${new Date().toLocaleString()}"`, { cwd: REPO });
+        } catch (err) {
+            
+        }
+
+        execSync("git push origin main", { cwd: REPO });
+        res.end("pushed");
     } catch (e) {
         console.error("[SYNC] error:", e);
         res.writeHead(500);
