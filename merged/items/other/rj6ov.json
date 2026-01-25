@@ -1,0 +1,122 @@
+{
+  "id": "rj6ov",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.mg.npc.name",
+    "args": {},
+    "lines": {
+      "ru": "Хлорник",
+      "en": "Chlorinex",
+      "es": "Clorinex",
+      "fr": "Chlorinex",
+      "ko": "클로락석"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.02,
+          "formatted": {
+            "value": {
+              "ru": "0,02 кг",
+              "en": "0.02 kg",
+              "es": "0,02 kg",
+              "fr": "0,02 kg",
+              "ko": "0.02 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.mg.npc.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Это соединение с высоким содержанием частиц хлора встречается на севере Зоны и широко используется сталкерами в быту.",
+          "en": "This compound with a high chlorine content is often found in the north of the Zone and is widely used by stalkers in their daily lives.",
+          "es": "Este compuesto con un elevado contenido de cloro se encuentra a menudo en el norte de la Zona y los acechadores lo utilizan mucho en su vida cotidiana.",
+          "fr": "Ce composé à forte teneur en chlore se retrouve souvent au nord de la Zone et est largement utilisé par les stalkers dans leur vie quotidienne.",
+          "ko": "이 높은 염소 함량의 화합물은 주로 구역의 북쪽에서 발견되며 스토커들의 일상생활에서 널리 사용된다."
+        }
+      }
+    }
+  ]
+}

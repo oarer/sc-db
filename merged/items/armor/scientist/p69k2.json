@@ -1,0 +1,660 @@
+{
+  "id": "p69k2",
+  "category": "armor/scientist",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.ganymede.name",
+    "args": {},
+    "lines": {
+      "ru": "Комбинезон «Ганимед»",
+      "en": "Ganymede Jumpsuit",
+      "es": "Traje Ganímedes",
+      "fr": "Combinaison Ganymède",
+      "ko": "가니메데 점프슈트"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.scientist",
+            "args": {},
+            "lines": {
+              "ru": "Научные",
+              "en": "Scientist",
+              "es": "Científico",
+              "fr": "Scientifique",
+              "ko": "과학자"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 15,
+          "formatted": {
+            "value": {
+              "ru": "15 кг",
+              "en": "15 kg",
+              "es": "15 kg",
+              "fr": "15 kg",
+              "ko": "15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "value": 20,
+          "formatted": {
+            "value": {
+              "ru": "+20%",
+              "en": "+20%",
+              "es": "+20 %",
+              "fr": "+20%",
+              "ko": "+20%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": -2,
+          "formatted": {
+            "value": {
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "value": 24,
+          "formatted": {
+            "value": {
+              "ru": "+24",
+              "en": "+24",
+              "es": "+24",
+              "fr": "+24",
+              "ko": "+24"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numericVariants",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 보호율"
+            }
+          },
+          "value": [
+            184,
+            186.60292,
+            189.20584,
+            191.80878,
+            194.4117,
+            202.22049,
+            206.12488,
+            210.02927,
+            213.93365,
+            217.83804,
+            229.29092,
+            235.01736,
+            240.7438,
+            246.47025,
+            252.19669,
+            269.376
+          ],
+          "nameColor": "838383",
+          "valueColor": "EEEEEE"
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations",
+              "ko": "열상 보호율"
+            }
+          },
+          "value": 101,
+          "formatted": {
+            "value": {
+              "ru": "101",
+              "en": "101",
+              "es": "101",
+              "fr": "101",
+              "ko": "101"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions",
+              "ko": "폭발 보호율"
+            }
+          },
+          "value": 106,
+          "formatted": {
+            "value": {
+              "ru": "106",
+              "en": "106",
+              "es": "106",
+              "fr": "106",
+              "ko": "106"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity",
+              "es": "Resistencia a la electricidad",
+              "fr": "Résistance à l'électricité",
+              "ko": "전기 보호율"
+            }
+          },
+          "value": 500,
+          "formatted": {
+            "value": {
+              "ru": "500",
+              "en": "500",
+              "es": "500",
+              "fr": "500",
+              "ko": "500"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от огня",
+              "en": "Resistance to fire",
+              "es": "Resistencia al fuego",
+              "fr": "Résistance au feu",
+              "ko": "화염 보호율"
+            }
+          },
+          "value": 500,
+          "formatted": {
+            "value": {
+              "ru": "500",
+              "en": "500",
+              "es": "500",
+              "fr": "500",
+              "ko": "500"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.chemical_burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Химзащита",
+              "en": "Resistance to chemicals",
+              "es": "Resistencia a los productos químicos",
+              "fr": "Résistance aux produits chimiques",
+              "ko": "화학 화상 보호율"
+            }
+          },
+          "value": 500,
+          "formatted": {
+            "value": {
+              "ru": "500",
+              "en": "500",
+              "es": "500",
+              "fr": "500",
+              "ko": "500"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection",
+              "es": "Protección contra radiación",
+              "fr": "Protection contre les radiations",
+              "ko": "방사능 저항"
+            }
+          },
+          "value": 400,
+          "formatted": {
+            "value": {
+              "ru": "400",
+              "en": "400",
+              "es": "400",
+              "fr": "400",
+              "ko": "400"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection",
+              "es": "Protección térmica",
+              "fr": "Protection thermique",
+              "ko": "열 저항"
+            }
+          },
+          "value": 400,
+          "formatted": {
+            "value": {
+              "ru": "400",
+              "en": "400",
+              "es": "400",
+              "fr": "400",
+              "ko": "400"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection protection",
+              "es": "Protección contra bioinfección",
+              "fr": "Protection contre les bio infections",
+              "ko": "생체 감염 저항"
+            }
+          },
+          "value": 400,
+          "formatted": {
+            "value": {
+              "ru": "400",
+              "en": "400",
+              "es": "400",
+              "fr": "400",
+              "ko": "400"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-emission protection",
+              "es": "Prot contra emisiones psy",
+              "fr": "Protection contre les émissions psys",
+              "ko": "정신파 방사물 저항"
+            }
+          },
+          "value": 400,
+          "formatted": {
+            "value": {
+              "ru": "400",
+              "en": "400",
+              "es": "400",
+              "fr": "400",
+              "ko": "400"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements",
+              "ko": "출혈 저항"
+            }
+          },
+          "value": 30,
+          "formatted": {
+            "value": {
+              "ru": "30%",
+              "en": "30%",
+              "es": "30 %",
+              "fr": "30%",
+              "ko": "30%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "translation",
+        "key": "stalker.lore.armor_artefact.info.compatible_backpacks",
+        "args": {},
+        "lines": {
+          "ru": "Совместимые рюкзаки",
+          "en": "Compatible backpacks",
+          "es": "Mochilas compatibles",
+          "fr": "Sacs à dos compatibles",
+          "ko": "호환 가능한 배낭"
+        }
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.armor.compatibility.backpacks.superheavy",
+        "args": {},
+        "lines": {
+          "ru": "Любые",
+          "en": "Any",
+          "es": "Cualquiera",
+          "fr": "Tous",
+          "ko": "전체"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "translation",
+        "key": "stalker.lore.armor_artefact.info.compatible_containers",
+        "args": {},
+        "lines": {
+          "ru": "Совместимые контейнеры",
+          "en": "Compatible containers",
+          "es": "Contenedores compatibles",
+          "fr": "Conteneurs compatibles",
+          "ko": "호환 가능한 컨테이너"
+        }
+      },
+      "text": {
+        "type": "translation",
+        "key": "general.armor.compatibility.containers.bulky",
+        "args": {},
+        "lines": {
+          "ru": "Любые",
+          "en": "Any",
+          "es": "Cualquiera",
+          "fr": "Tous",
+          "ko": "전체"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.ganymede.description",
+        "args": {},
+        "lines": {
+          "ru": "Экспериментальный образец снаряжения, созданный НИИ-7 специально для своих оперативников, выполняющих задачи в местах с сильным заражением.\\n\\nПроектирование «Ганимеда» проходила параллельно работе над «Антаресом», однако из-за пропавшей летом 2025 года группы инженеров дальнейший процесс разработки затянулся, позволив использовать знания о неудачных решениях в конструкции другого костюма себе на пользу.\\n\\nВ итоге инженерам удалось лучше оптимизировать как работу экзоскелета, так и продумать более аккуратный дизайн, идеально подходящий для работы в аномальных очагах и сбора различных образцов.",
+          "en": "An experimental gear prototype created by Scientific Research Institute 7 specifically for its operatives performing tasks in heavily contaminated areas.\\n\\nThe design of Ganymede went in parallel with the work on Antares. However, due to a group of engineers who disappeared in the summer of 2025, the further development process was delayed. This allowed them to use knowledge of unsuccessful decisions in the design of another suit to their advantage.\\n\\nAs a result, the engineers managed to better optimize the exoskeleton's performance and devise a more precise design, ideally suited for work in anomalous zones and the collection of various samples.",
+          "es": "Un prototipo experimental de equipamiento, creado por el Instituto de Investigación 7 especialmente para sus operarios que realizan tareas en áreas con alta infección.\\n\\nEl diseño de Ganímedes se desarrolló en paralelo con Antares, pero debido a la desaparición del equipo de ingenieros en el verano de 2025, el proceso de desarrollo se prolongó, lo que permitió utilizar el conocimiento de soluciones fallidas en la construcción de otro traje en su beneficio.\\n\\nComo resultado, los ingenieros lograron optimizar mejor tanto el funcionamiento del exoesqueleto como diseñar una apariencia más limpia, ideal para trabajar en focos anómalos y recolectar diversas muestras.",
+          "fr": "Prototype expérimental d'équipement, conçu par l'Institut de Recherche spécifiquement pour ses opérateurs déployés dans les zones fortement contaminées.\\n\\nLa conception du Ganymède s'est déroulée parallèlement aux travaux sur l'Antarès. Toutefois, en raison de la disparition, à l'été 2025, d'un groupe d'ingénieurs, la suite du processus de développement a été retardée — ce qui a permis de tirer profit des enseignements tirés des solutions ratées dans la construction de l'autre combinaison.\\n\\nEn fin de compte, les ingénieurs ont réussi à mieux optimiser à la fois le fonctionnement de l'exosquelette et à concevoir un design plus soigné, parfaitement adapté aux opérations dans les foyers d'anomalies et au prélèvement de divers échantillons.",
+          "ko": "제7연구소가 자사 요원 전용으로 오염이 심한 지역에서 임무를 수행하기 위해 제작한 실험용 장비 프로토타입입니다.\\n\\n가니메데는 안타레스 제작과 동시에 설계를 진행했으나, 2025년 여름 엔지니어 그룹이 실종되면서 개발 일정이 지연되었습니다. 이로 인해 다른 슈트 설계에서의 실패 사례를 활용하여 개발에 이점을 얻을 수 있었습니다.\\n\\n그 결과 엔지니어들은 외골격의 성능을 최적화하고, 이상 구역에서 임무 수행 및 다양한 샘플 수집에 적합한 정교한 디자인을 고안하는 데 성공했습니다."
+        }
+      }
+    }
+  ]
+}

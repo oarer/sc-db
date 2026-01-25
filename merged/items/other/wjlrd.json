@@ -1,0 +1,187 @@
+{
+  "id": "wjlrd",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.upg.tools_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Дешевые инструменты",
+      "en": "Cheap Tools",
+      "es": "Herramientas baratas",
+      "fr": "Outils bon marché",
+      "ko": "값싼 도구"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.01,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg",
+              "ko": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "upgrade_tool.tooltip.info.compatible_levels",
+        "args": {
+          "min_level": "1",
+          "max_level": "5"
+        },
+        "lines": {
+          "ru": "Позволяет повысить параметры снаряжения с 1 по 5 уровень",
+          "en": "Allows you to improve gear stats from level 1 to 5.",
+          "es": "Te permite mejorar los atributos de equipamiento de nivel 1 a 5.",
+          "fr": "Vous permet d'améliorer les statistiques d'équipement du niveau 1 au 5.",
+          "ko": "1레벨부터 5레벨까지 장비 능력치를 향상시킬 수 있습니다."
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "upgrade_tool.tooltip.info.durability_decrease",
+            "args": {},
+            "lines": {
+              "ru": "Снижение прочности при неудаче",
+              "en": "Durability loss on failure",
+              "es": "Pérdida de durabilidad en caso de fracaso",
+              "fr": "Perte de durabilité en cas d'échec",
+              "ko": "실패 시 내구도 감소"
+            }
+          },
+          "value": 10,
+          "formatted": {
+            "value": {
+              "ru": "10%",
+              "en": "10%",
+              "es": "10 %",
+              "fr": "10%",
+              "ko": "10%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    }
+  ]
+}

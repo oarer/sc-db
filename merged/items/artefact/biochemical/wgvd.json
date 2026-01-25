@@ -1,0 +1,472 @@
+{
+  "id": "wgvd",
+  "category": "artefact/biochemical",
+  "name": {
+    "type": "translation",
+    "key": "item.art.kisel_slyda.name",
+    "args": {},
+    "lines": {
+      "ru": "Чернильница",
+      "en": "Inkwell",
+      "es": "Tintero",
+      "fr": "Encrier",
+      "ko": "잉크통"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.biochemical",
+            "args": {},
+            "lines": {
+              "ru": "Биохимические",
+              "en": "Biochemical",
+              "es": "Bioquímica",
+              "fr": "Biochimique",
+              "ko": "생화학"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "6500.0"
+            },
+            "lines": {
+              "ru": "6 500 руб.",
+              "en": "6,500 rubles",
+              "es": "6.500 rublos",
+              "fr": "6 500 roubles",
+              "ko": "6,500 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "min": 2.295,
+          "max": 2.7,
+          "formatted": {
+            "value": {
+              "ru": "[+2,3%; +2,7%]",
+              "en": "[+2.3%; +2.7%]",
+              "es": "[+2,3 %; +2,7 %]",
+              "fr": "[+2,3%; +2,7%]",
+              "ko": "[+2.3%; +2.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations",
+              "ko": "열상 보호율"
+            }
+          },
+          "min": 10.37,
+          "max": 12.2,
+          "formatted": {
+            "value": {
+              "ru": "[+10,37; +12,2]",
+              "en": "[+10.37; +12.2]",
+              "es": "[+10,37; +12,2]",
+              "fr": "[+10,37; +12,2]",
+              "ko": "[+10.37; +12.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique",
+              "ko": "생체 감염"
+            }
+          },
+          "min": 1.0625,
+          "max": 1.25,
+          "formatted": {
+            "value": {
+              "ru": "[+1,06; +1,25]",
+              "en": "[+1.06; +1.25]",
+              "es": "[+1,06; +1,25]",
+              "fr": "[+1,06; +1,25]",
+              "ko": "[+1.06; +1.25]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_tear",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на разрыв",
+              "en": "Reaction to laceration",
+              "es": "Reacción a la laceración",
+              "fr": "Réaction aux lacérations",
+              "ko": "열상에 대항 능력"
+            }
+          },
+          "min": 1.0200001,
+          "max": 1.2,
+          "formatted": {
+            "value": {
+              "ru": "[+1,02%; +1,2%]",
+              "en": "[+1.02%; +1.2%]",
+              "es": "[+1,02 %; +1,2 %]",
+              "fr": "[+1,02%; +1,2%]",
+              "ko": "[+1.02%; +1.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.kisel_slyda.description",
+        "args": {},
+        "lines": {
+          "ru": "Аномальное образование, напоминающее что-то между комом земли и клубком корней. На самом деле, представляет из себя нечто растительной природы, если судить по структуре артефакта.\\n\\n Плотные темные мешочки, за который артефакт и получил свое название, действительно наполнены жидкостью, походящей одновременно на чернила и нефть. Пускай состав раствора до сих пор вызывает вопросы у исследователей, биоактивное вещество пытаются использовать при разработках новейших препаратов.",
+          "en": "An anomalous formation resembling something between a clump of earth and a tangle of roots. In fact, it appears to be of a vegetative nature, judging by the artifact's structure.\\n\\nThe dense dark pouches, which gave the artifact its name, are indeed filled with a liquid that resembles both ink and oil simultaneously. Although the solution's composition still raises questions among researchers, the bioactive substance is being used in the development of new drugs.",
+          "es": "Formación anómala, que parece algo entre un terrón de tierra y un ovillo de raíces. En realidad, es algo de naturaleza vegetal, si se juzga por la estructura del artefacto.\\n\\n Las densas bolsas oscuras, por las cuales el artefacto recibió su nombre, realmente están llenas de un líquido que se asemeja a la vez a tinta y petróleo. Aunque la composición de la solución sigue planteando preguntas a los investigadores, la sustancia bioactiva se está intentando utilizar en el desarrollo de nuevos medicamentos.",
+          "fr": "Formation anormale évoquant un mélange entre une motte de terre et un enchevêtrement de racines. En réalité, il s'agit probablement d'une structure d'origine végétale, si l'on en juge par la texture de l'artefact.\\n\\nLes poches sombres et denses, auxquelles l'artefact doit son nom, sont effectivement remplies d'un liquide étrange, quelque part entre l'encre et le pétrole. Bien que la composition exacte de cette solution reste énigmatique pour les chercheurs, la substance bioactive qu'elle contient est à l'étude pour le développement de nouveaux composés pharmaceutiques.",
+          "ko": "흙덩이와 뒤엉킨 뿌리의 중간쯤 되는 모습의 이상 구조물이다. 실제 아티팩트의 구조를 살펴보면 식물성 구조를 지닌 것으로 보인다.\\n\\n 이 아티팩트의 이름의 유래가 된 짙은 색의 주머니 안에는 잉크와 기름을 동시에 연상시키는 액체가 들어 있다. 그 성분은 여전히 연구자들에게 수수께끼로 남아 있지만, 이 생리 활성 물질은 신약 개발에 활용되고 있다."
+        }
+      }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection"
+            }
+          },
+          "min": 3.37,
+          "max": 4.1,
+          "formatted": {
+            "value": {
+              "en": "[3.37; 4.1]",
+              "ru": "[3.37; 4.1]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration"
+            }
+          },
+          "min": 0.85,
+          "max": 1,
+          "formatted": {
+            "value": {
+              "en": "[0.85%; 1%]",
+              "ru": "[0.85%; 1%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality"
+            }
+          },
+          "min": 1.02,
+          "max": 1.2,
+          "formatted": {
+            "value": {
+              "en": "[1.02%; 1.2%]",
+              "ru": "[1.02%; 1.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

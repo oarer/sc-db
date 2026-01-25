@@ -1,0 +1,137 @@
+{
+  "id": "0qj9",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "go.hideout_kitchen_gauze_filter.name",
+    "args": {},
+    "lines": {
+      "ru": "Фильтр из марли",
+      "en": "Gauze Filter",
+      "es": "Filtro de gasa",
+      "fr": "Filtre à gaz",
+      "ko": "거즈 필터"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.hideout_furniture",
+            "args": {},
+            "lines": {
+              "ru": "Объект для Убежища",
+              "en": "Object for hideout",
+              "es": "Objeto para escondite",
+              "fr": "Objet pour refuge",
+              "ko": "은신처용 오브젝트"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "go.hideout_kitchen_gauze_filter.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Банка, воронка и марля. Самый простой фильтр, который останавливает крупные фракции в барге.",
+          "en": "A jar, funnel, and gauze. The simplest filter that stops large fractions in the barge.",
+          "es": "Un frasco, un embudo y una gasa. El filtro más sencillo para impedir pasar los grumos.",
+          "fr": "Un bocal, un entonnoir et de la gaze. Le filtre le plus simple qui arrête de large fractions dans la barge.",
+          "ko": "병에 깔때기 얹고 거즈 하나 깔면 끝. 바지선에서 덩어리 큰 찌꺼기를 걸러낼 때 쓰는, 가장 간단한 필터죠."
+        }
+      }
+    }
+  ]
+}

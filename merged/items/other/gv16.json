@@ -1,0 +1,137 @@
+{
+  "id": "gv16",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "go.hideout_workshop_electronics_kit.name",
+    "args": {},
+    "lines": {
+      "ru": "Набор для работы с электроникой",
+      "en": "Electronics Kit",
+      "es": "Kit de electrónica",
+      "fr": "Kit d'électronique",
+      "ko": "전자 키트"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.hideout_furniture",
+            "args": {},
+            "lines": {
+              "ru": "Объект для Убежища",
+              "en": "Object for hideout",
+              "es": "Objeto para escondite",
+              "fr": "Objet pour refuge",
+              "ko": "은신처용 오브젝트"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "go.hideout_workshop_electronics_kit.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Набор инструментов для сборки, ремонта и настройки электронных устройств.",
+          "en": "A set of tools for assembling, repairing, and configuring electronic devices.",
+          "es": "Conjunto de herramientas para montar, reparar y configurar dispositivos electrónicos.",
+          "fr": "Un ensemble d'outils pour assembler, réparer et configurer des appareils électroniques.",
+          "ko": "전자 기기를 조립하거나, 수리하거나, 환경 설정할 때 쓰이는 도구 세트입니다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "id": "zyrm",
+  "category": "artefact/electrophysical",
+  "name": {
+    "type": "translation",
+    "key": "item.art.puzir_zerkalo.name",
+    "args": {},
+    "lines": {
+      "ru": "Зеркало",
+      "en": "Mirror",
+      "es": "Espejo",
+      "fr": "Miroir",
+      "ko": "거울"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.electrophysical",
+            "args": {},
+            "lines": {
+              "ru": "Электрофизические",
+              "en": "Electrophysical",
+              "es": "Electrofísica",
+              "fr": "Électrophysique",
+              "ko": "전기물리"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "15000.0"
+            },
+            "lines": {
+              "ru": "15 000 руб.",
+              "en": "15,000 rubles",
+              "es": "15.000 rublos",
+              "fr": "15 000 roubles",
+              "ko": "15,000 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": -8,
+          "max": -6.8,
+          "formatted": {
+            "value": {
+              "ru": "[-8%; -6,8%]",
+              "en": "[-8%; -6.8%]",
+              "es": "[-8 %; -6,8 %]",
+              "fr": "[-8%; -6,8%]",
+              "ko": "[-8%; -6.8%]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity",
+              "es": "Resistencia a la electricidad",
+              "fr": "Résistance à l'électricité",
+              "ko": "전기 보호율"
+            }
+          },
+          "min": 11.645,
+          "max": 13.7,
+          "formatted": {
+            "value": {
+              "ru": "[+11,64; +13,7]",
+              "en": "[+11.64; +13.7]",
+              "es": "[+11,64; +13,7]",
+              "fr": "[+11,64; +13,7]",
+              "ko": "[+11.64; +13.7]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection",
+              "es": "Protección contra radiación",
+              "fr": "Protection contre les radiations",
+              "ko": "방사능 저항"
+            }
+          },
+          "min": 21.25,
+          "max": 25,
+          "formatted": {
+            "value": {
+              "ru": "[+21,25; +25]",
+              "en": "[+21.25; +25]",
+              "es": "[+21,25; +25]",
+              "fr": "[+21,25; +25]",
+              "ko": "[+21.25; +25]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-emission protection",
+              "es": "Prot contra emisiones psy",
+              "fr": "Protection contre les émissions psys",
+              "ko": "정신파 방사물 저항"
+            }
+          },
+          "min": 21.25,
+          "max": 25,
+          "formatted": {
+            "value": {
+              "ru": "[+21,25; +25]",
+              "en": "[+21.25; +25]",
+              "es": "[+21,25; +25]",
+              "fr": "[+21,25; +25]",
+              "ko": "[+21.25; +25]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation",
+              "ko": "방사능"
+            }
+          },
+          "min": -2.16,
+          "max": -1.8360001,
+          "formatted": {
+            "value": {
+              "ru": "[-2,16; -1,84]",
+              "en": "[-2.16; -1.84]",
+              "es": "[-2,16; -1,84]",
+              "fr": "[-2,16; -1,84]",
+              "ko": "[-2.16; -1.84]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys",
+              "ko": "정신파 방사물"
+            }
+          },
+          "min": -2.16,
+          "max": -1.8360001,
+          "formatted": {
+            "value": {
+              "ru": "[-2,16; -1,84]",
+              "en": "[-2.16; -1.84]",
+              "es": "[-2,16; -1,84]",
+              "fr": "[-2,16; -1,84]",
+              "ko": "[-2.16; -1.84]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_electroshock",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на электричество",
+              "en": "Reaction to electricity",
+              "es": "Reacción a la electricidad",
+              "fr": "Réaction à l'électricité",
+              "ko": "전기 대항 능력"
+            }
+          },
+          "min": 1.36,
+          "max": 1.6,
+          "formatted": {
+            "value": {
+              "ru": "[+1,36%; +1,6%]",
+              "en": "[+1.36%; +1.6%]",
+              "es": "[+1,36 %; +1,6 %]",
+              "fr": "[+1,36%; +1,6%]",
+              "ko": "[+1.36%; +1.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.puzir_zerkalo.description",
+        "args": {},
+        "lines": {
+          "ru": "Один из самых интересных с точки зрения ученых артефакт «Застоя».\\n\\n Материал, внешне напоминающий гексагональную рамку изо льда, фокусирует фотоны в центре артефакта, что создает яркое свечение.\\n\\n Исследователи НИИ-7 полагают, что дальнейшее рассеивание этого света и создает эффект экранирования, за который ценится артефакт.",
+          "en": "According to scientists, one of the most interesting Stasis artifacts is the one described below.\\n\\n The material, externally resembling a hexagonal frame of ice, focuses photons at the center of the artifact, creating a bright glow.\\n\\n Scholars at Research Institute 7 believe that the further dispersion of this light creates the shielding effect for which the artifact is valued.",
+          "es": "Uno de los artefactos más interesantes desde el punto de vista de los científicos es el artefacto de Estasis.\\n\\n El material, que parece un marco hexagonal hecho de hielo, concentra los fotones en el centro del artefacto, lo que crea un resplandor brillante.\\n\\n Los investigadores del Instituto de Investigación 7 creen que la dispersión posterior de esta luz crea el efecto de apantallamiento por el que se valora el artefacto.",
+          "fr": "Selon les scientifiques, l'un des artefacts de Stase les plus fascinants est celui décrit ci-dessous.\\n\\n Fait d'un matériau ressemblant extérieurement à un cadre hexagonal de glace, il concentre les photons en son centre, produisant une vive lueur.\\n\\n Les chercheurs de l'Institut de Recherche 7 estiment que la diffusion de cette lumière crée l'effet de bouclier pour lequel l'artefact est si recherché.",
+          "ko": "과학자들에 따르면 가장 흥미로운 무중력 아티팩트 중 하나가 아래에 설명된 아티팩트라고 한다.\\n\\n 육각형 얼음 틀을 닮은 이 물질은 아티팩트 중심에 광자를 집중시켜 밝게 빛난다.\\n\\n 제7연구소의 연구진은 이 빛의 추가 확산이 차폐 효과를 만들어내며, 이로 인해 아티팩트가 높은 가치를 지닌다고 보고 있다."
+        }
+      }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity"
+            }
+          },
+          "min": 3.78,
+          "max": 4.6,
+          "formatted": {
+            "value": {
+              "en": "[3.78%; 4.6%]",
+              "ru": "[3.78%; 4.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection"
+            }
+          },
+          "min": 8.5,
+          "max": 10,
+          "formatted": {
+            "value": {
+              "en": "[8.5; 10]",
+              "ru": "[8.5; 10]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission protection"
+            }
+          },
+          "min": 8.5,
+          "max": 10,
+          "formatted": {
+            "value": {
+              "en": "[8.5; 10]",
+              "ru": "[8.5; 10]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "96kkq",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.raspiska_lipi.name",
+    "args": {},
+    "lines": {
+      "ru": "Расписка от Липы",
+      "en": "IOU from Linden",
+      "es": "Pagaré de Linden",
+      "fr": "Dette de Linden",
+      "ko": "린덴의 채무증서"
+    }
+  },
+  "color": "QUEST_ITEM",
+  "status": {
+    "state": "PERSONAL_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "core.tooltip.quest_item",
+            "args": {},
+            "lines": {
+              "ru": "Используется для задания",
+              "en": "Quest item",
+              "es": "Objeto de misión",
+              "fr": "Objet de quête",
+              "ko": "퀘스트 아이템"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.raspiska_lipi.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Награда за спасение Липы. С помощью расписки, я смогу получить у торговца свое первое оружие.",
+          "en": "Reward for rescuing Linden. I can get my first weapon from a merchant with an IOU.",
+          "es": "Recompensa por rescatar a Linden. Puedo usar el pagaré para conseguir mi primera arma de un mercader.",
+          "fr": "Récompense pour avoir sauvé Linden. Avec cette dette, je peux obtenir ma première arme chez un marchand.",
+          "ko": "린덴을 구하고 받은 보상. 이 채무증서만 있다면, 상인에게 첫 무기를 얻을 수 있다."
+        }
+      }
+    }
+  ]
+}

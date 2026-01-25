@@ -1,0 +1,137 @@
+{
+  "id": "rzpv",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "go.hideout_kitchen_table.name",
+    "args": {},
+    "lines": {
+      "ru": "Кухонный стол",
+      "en": "Kitchen Table",
+      "es": "Mesa de la cocina",
+      "fr": "Table de cuisine",
+      "ko": "주방 테이블"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.hideout_furniture",
+            "args": {},
+            "lines": {
+              "ru": "Объект для Убежища",
+              "en": "Object for hideout",
+              "es": "Objeto para escondite",
+              "fr": "Objet pour refuge",
+              "ko": "은신처용 오브젝트"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "go.hideout_kitchen_table.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Стол для изготовления кулинарных шедевров.",
+          "en": "A table for creating culinary masterpieces.",
+          "es": "Una mesa para crear obras maestras culinarias.",
+          "fr": "Une table pour la création de chef-d'œuvre culinaires.",
+          "ko": "요리의 정점을 원하신다면, 이 테이블이 답입니다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "id": "w4no",
+  "category": "artefact/other_arts",
+  "name": {
+    "type": "translation",
+    "key": "item.art.murmur_rosin.name",
+    "args": {},
+    "lines": {
+      "ru": "Канифоль",
+      "en": "Colophony",
+      "es": "Colofonia",
+      "fr": "Colophane",
+      "ko": "송진"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other_arts",
+            "args": {},
+            "lines": {
+              "ru": "Прочие",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "10080.0"
+            },
+            "lines": {
+              "ru": "10 080 руб.",
+              "en": "10,080 rubles",
+              "es": "10.080 rublos",
+              "fr": "10 080 roubles",
+              "ko": "10,080 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "min": 7.395,
+          "max": 8.7,
+          "formatted": {
+            "value": {
+              "ru": "[+7,4; +8,7]",
+              "en": "[+7.4; +8.7]",
+              "es": "[+7,4; +8,7]",
+              "fr": "[+7,4; +8,7]",
+              "ko": "[+7.4; +8.7]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "min": 2.295,
+          "max": 2.7,
+          "formatted": {
+            "value": {
+              "ru": "[+2,3%; +2,7%]",
+              "en": "[+2.3%; +2.7%]",
+              "es": "[+2,3 %; +2,7 %]",
+              "fr": "[+2,3%; +2,7%]",
+              "ko": "[+2.3%; +2.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "min": 1.105,
+          "max": 1.3,
+          "formatted": {
+            "value": {
+              "ru": "[+1,1%; +1,3%]",
+              "en": "[+1.1%; +1.3%]",
+              "es": "[+1,1 %; +1,3 %]",
+              "fr": "[+1,1%; +1,3%]",
+              "ko": "[+1.1%; +1.3%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique",
+              "ko": "생체 감염"
+            }
+          },
+          "min": 1.0625,
+          "max": 1.25,
+          "formatted": {
+            "value": {
+              "ru": "[+1,06; +1,25]",
+              "en": "[+1.06; +1.25]",
+              "es": "[+1,06; +1,25]",
+              "fr": "[+1,06; +1,25]",
+              "ko": "[+1.06; +1.25]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.murmur_rosin.description",
+        "args": {},
+        "lines": {
+          "ru": "Трофейный артефакт, полученный в боях с «Шепотом».\\nПрохладный на ощупь артефакт, покрытый плотным органическим образованием, по которой периодически проходит легкая рябь, что напоминает сокращение мышц  Внутри можно различить очертания другого артефакта, что дает основание полагать о композитной природе объекта.\\nПри близости с телом твердая масса начинает образовывать в крови полиморфный энзим. Болезненных ощущений в процессе не замечено.\\nУ организма, на который оказывается воздействие, наблюдается значительная капиллярная напряженность в месте, наиболее близко расположенному к артефакту. После удаления артефакта на коже образуется легкое воспаление, которое быстро проходит.",
+          "en": "A trophy artifact obtained from battles with Murmur.\\nA cool-to-touch artifact covered with a dense organic formation over which a slight ripple occasionally passes, resembling muscle contractions. Inside, the silhouette of another artifact can be distinguished, suggesting the object's composite nature. \\nUpon proximity to the body, the hard mass begins to produce a polymorphic enzyme in the blood. No painful sensations were noted during the process.\\nSignificant capillary tension is observed in the organism affected, especially near the artifact. Upon removal, light inflammation appears on the skin, which quickly passes.",
+          "es": "Artefacto trofeo obtenido en las batallas con Susurro.\\nUn artefacto fresco al tacto, cubierto de una formación orgánica densa, por la cual ocasionalmente pasa una ligera ondulación que recuerda a la contracción de los músculos. Dentro se pueden distinguir las siluetas de otro artefacto, lo que sugiere la naturaleza compuesta del objeto.\\nCuando se acerca al cuerpo, la masa sólida comienza a formar una enzima polimórfica en la sangre. No se han observado sensaciones dolorosas durante el proceso.\\nEn el organismo sujeto a la influencia, se observa una tensión capilar significativa en el área más cercana al artefacto. Después de retirar el artefacto, se forma una ligera inflamación en la piel que desaparece rápidamente.",
+          "fr": "Artefact trophée obtenu en affrontant le Murmure.\\nFroid au toucher, recouvert d'une matière organique dense, parcourue de vagues légères évoquant des contractions musculaires. On distingue à l'intérieur les contours d'un autre artefact, suggérant une nature composite.\\nAu contact du corps, la masse dure déclenche dans le sang la formation d'une enzyme polymorphe. Aucune douleur observée durant le processus.\\nL'organisme exposé manifeste une tension capillaire marquée au point le plus proche de l'artefact. Après retrait, une légère inflammation cutanée apparaît, disparaissant rapidement.",
+          "ko": "속삭임과의 전투에서 얻은 트로피 아티팩트. \\n 근수축을 닮은 얕은 잔물결이 촘촘한 유기 형성물 위로 이따금 이는 시원한 촉감의 아티팩트. 복합성 물체라는 사실을 상기시키듯, 내부에는 다른 아티팩트의 윤곽이 비친다. \\n 신체에 가깝게 접근할수록 딱딱한 덩어리가 혈액 속에 다형성 효소를 생성하기 시작한다. 그 과정에서 통증은 느껴지지 않았다. \\n 영향을 받은 신체에는 모세관 장력이 관찰되며, 특히 아티팩트 주변에서 더 확연히 관찰된다. 제거 시, 피부에 가벼운 염증이 나타나며 금방 사라진다."
+        }
+      }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight"
+            }
+          },
+          "min": 2.38,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.38; 2.9]",
+              "ru": "[2.38; 2.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality"
+            }
+          },
+          "min": 0.98,
+          "max": 1.2,
+          "formatted": {
+            "value": {
+              "en": "[0.98%; 1.2%]",
+              "ru": "[0.98%; 1.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration"
+            }
+          },
+          "min": 0.85,
+          "max": 1,
+          "formatted": {
+            "value": {
+              "en": "[0.85%; 1%]",
+              "ru": "[0.85%; 1%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

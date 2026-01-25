@@ -1,0 +1,91 @@
+{
+  "id": "yznk",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "go.hideout_carpet_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Ковер",
+      "en": "Carpet",
+      "es": "Alfombra",
+      "fr": "Tapis",
+      "ko": "카펫"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.hideout_furniture",
+            "args": {},
+            "lines": {
+              "ru": "Объект для Убежища",
+              "en": "Object for hideout",
+              "es": "Objeto para escondite",
+              "fr": "Objet pour refuge",
+              "ko": "은신처용 오브젝트"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {}
+  ]
+}

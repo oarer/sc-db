@@ -1,0 +1,472 @@
+{
+  "id": "zypm",
+  "category": "artefact/gravity",
+  "name": {
+    "type": "translation",
+    "key": "item.art.voronka_goldgravi.name",
+    "args": {},
+    "lines": {
+      "ru": "Золотистая Прима",
+      "en": "Golden Prima",
+      "es": "Primigenia dorada",
+      "fr": "Prima Dorée",
+      "ko": "황금 수석"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.gravity",
+            "args": {},
+            "lines": {
+              "ru": "Гравитационные",
+              "en": "Gravitational",
+              "es": "Gravitacional",
+              "fr": "Gravitationnelle",
+              "ko": "중력"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "6200.0"
+            },
+            "lines": {
+              "ru": "6 200 руб.",
+              "en": "6,200 rubles",
+              "es": "6.200 rublos",
+              "fr": "6 200 roubles",
+              "ko": "6,200 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "min": 0.595,
+          "max": 0.7,
+          "formatted": {
+            "value": {
+              "ru": "[+0,6%; +0,7%]",
+              "en": "[+0.6%; +0.7%]",
+              "es": "[+0,6 %; +0,7 %]",
+              "fr": "[+0,6%; +0,7%]",
+              "ko": "[+0.6%; +0.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "min": 0.8075,
+          "max": 0.95,
+          "formatted": {
+            "value": {
+              "ru": "[+0,81%; +0,95%]",
+              "en": "[+0.81%; +0.95%]",
+              "es": "[+0,81 %; +0,95 %]",
+              "fr": "[+0,81%; +0,95%]",
+              "ko": "[+0.81%; +0.95%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "min": 10.54,
+          "max": 12.4,
+          "formatted": {
+            "value": {
+              "ru": "[+10,54; +12,4]",
+              "en": "[+10.54; +12.4]",
+              "es": "[+10,54; +12,4]",
+              "fr": "[+10,54; +12,4]",
+              "ko": "[+10.54; +12.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation",
+              "ko": "방사능"
+            }
+          },
+          "min": 1.0625,
+          "max": 1.25,
+          "formatted": {
+            "value": {
+              "ru": "[+1,06; +1,25]",
+              "en": "[+1.06; +1.25]",
+              "es": "[+1,06; +1,25]",
+              "fr": "[+1,06; +1,25]",
+              "ko": "[+1.06; +1.25]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.voronka_goldgravi.description",
+        "args": {},
+        "lines": {
+          "ru": "Почти стопроцентное совпадение структуры «Золотистой примы» со своей «обычной версией», как считает профессор Коюшев, руководитель отделения изучения флоры и фауны Зоны при НИИ-7, может объясняться механизмом ангидробиоза. Такой способ выживания в экстремальных условиях может демонстрировать связь между «Примами» и беспозвоночными.\\n\\n В это же время отделение артефактологии относится крайне скептично к такому мнению, считая, что наличие клеток в структуре «Прим» может указывать лишь на компоненты, участвующие в артефактогенезе.",
+          "en": "The nearly one hundred percent similarity in the structure of Golden Prima with its 'ordinary version,' according to Professor Koyushev, head of the the Zone flora and fauna department at Research Institute 7, may be explained by the mechanism of anhydrobiosis. Such a survival strategy in extreme conditions might indicate a connection between Prima and invertebrates.\\n\\n Meanwhile, the artifactology department is highly skeptical of this opinion, considering that the presence of cells in the structure of Primas may only indicate components involved in artifactogenesis.",
+          "es": "La coincidencia casi al cien por cien de la estructura de Primigenia dorada con su versión ordinaria, según el profesor Koyushev, jefe del Departamento de Estudio de la Flora y la Fauna de la Zona en el Instituto de Investigación 7, puede explicarse por el mecanismo de la anhidrobiosis. Esta forma de supervivencia en condiciones extremas puede demostrar la conexión entre Primigenias y los invertebrados.\\n\\n Al mismo tiempo, el Departamento de Artefactología se muestra muy escéptico ante esta opinión, ya que considera que la presencia de células en la estructura de Primigenias sólo puede indicar componentes implicados en la artefactogénesis.",
+          "fr": "La similitude quasi totale de la structure de la Prima Dorée avec sa version ordinaire, selon le professeur Koyushev, chef du département étudiant la flore et la faune de la Zone à l'Institut de Recherche 7, peut être expliquée par le mécanisme de l'anhydrobiose. Une telle stratégie de survie dans des conditions extrêmes pourrait indiquer une connexion entre la Prima et les invertébrés.\\n\\n Pendant ce temps, le département d'artifactologie est très sceptique quant à cette opinion, considérant que la présence de cellules dans la structure des Primas peut seulement indiquer des composants impliqués dans l'artifactogenèse.",
+          "ko": "제7연구소의 동식물부서장 코유셰프 교수에 따르면 황금 프리마와 \"보통 버전\"의 구조가 거의 100퍼센트 유사한 것은 탈수가사 메커니즘으로 설명될 수 있다. 이러한 극한 환경에서의 생존 전략은 프리마와 무척추동물의 연관성을 가리킬 수 있다. \\n\\n 한편 유물학 부서는 프리마 구조 속 세포의 존재는 단지 아티팩트 생성과 관련된 성분을 나타낼 뿐이라며, 이러한 주장에 대해 회의적이다."
+        }
+      }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed"
+            }
+          },
+          "min": 0.2,
+          "max": 0.25,
+          "formatted": {
+            "value": {
+              "en": "[0.2%; 0.25%]",
+              "ru": "[0.2%; 0.25%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight"
+            }
+          },
+          "min": 3.57,
+          "max": 4.2,
+          "formatted": {
+            "value": {
+              "en": "[3.57; 4.2]",
+              "ru": "[3.57; 4.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina"
+            }
+          },
+          "min": 11.05,
+          "max": 13,
+          "formatted": {
+            "value": {
+              "en": "[11.05%; 13%]",
+              "ru": "[11.05%; 13%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

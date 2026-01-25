@@ -1,0 +1,500 @@
+{
+  "id": "zy7y",
+  "category": "artefact/biochemical",
+  "name": {
+    "type": "translation",
+    "key": "item.art.puh_kolobok.name",
+    "args": {},
+    "lines": {
+      "ru": "Ежик",
+      "en": "Hedgehog",
+      "es": "Erizo",
+      "fr": "Hérisson",
+      "ko": "고슴도치"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.biochemical",
+            "args": {},
+            "lines": {
+              "ru": "Биохимические",
+              "en": "Biochemical",
+              "es": "Bioquímica",
+              "fr": "Biochimique",
+              "ko": "생화학"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 кг",
+              "en": "0.4 kg",
+              "es": "0,4 kg",
+              "fr": "0,4 kg",
+              "ko": "0.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "6600.0"
+            },
+            "lines": {
+              "ru": "6 600 руб.",
+              "en": "6,600 rubles",
+              "es": "6.600 rublos",
+              "fr": "6 600 roubles",
+              "ko": "6,600 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": -16,
+          "max": -13.6,
+          "formatted": {
+            "value": {
+              "ru": "[-16%; -13,6%]",
+              "en": "[-16%; -13.6%]",
+              "es": "[-16 %; -13,6 %]",
+              "fr": "[-16%; -13,6%]",
+              "ko": "[-16%; -13.6%]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "min": 8.84,
+          "max": 10.4,
+          "formatted": {
+            "value": {
+              "ru": "[+8,84%; +10,4%]",
+              "en": "[+8.84%; +10.4%]",
+              "es": "[+8,84 %; +10,4 %]",
+              "fr": "[+8,84%; +10,4%]",
+              "ko": "[+8.84%; +10.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection",
+              "es": "Protección contra radiación",
+              "fr": "Protection contre les radiations",
+              "ko": "방사능 저항"
+            }
+          },
+          "min": 38.25,
+          "max": 45,
+          "formatted": {
+            "value": {
+              "ru": "[+38,25; +45]",
+              "en": "[+38.25; +45]",
+              "es": "[+38,25; +45]",
+              "fr": "[+38,25; +45]",
+              "ko": "[+38.25; +45]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation",
+              "ko": "방사능"
+            }
+          },
+          "min": -3.04,
+          "max": -2.584,
+          "formatted": {
+            "value": {
+              "ru": "[-3,04; -2,58]",
+              "en": "[-3.04; -2.58]",
+              "es": "[-3,04; -2,58]",
+              "fr": "[-3,04; -2,58]",
+              "ko": "[-3.04; -2.58]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_tear",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на разрыв",
+              "en": "Reaction to laceration",
+              "es": "Reacción a la laceración",
+              "fr": "Réaction aux lacérations",
+              "ko": "열상에 대항 능력"
+            }
+          },
+          "min": 0.85,
+          "max": 1,
+          "formatted": {
+            "value": {
+              "ru": "[+0,85%; +1%]",
+              "en": "[+0.85%; +1%]",
+              "es": "[+0,85 %; +1 %]",
+              "fr": "[+0,85%; +1%]",
+              "ko": "[+0.85%; +1%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.puh_kolobok.description",
+        "args": {},
+        "lines": {
+          "ru": "Коричневая сфера, покрытая слоем мягких растительных клеток, которую покрывают клювовидные отростки.\\n\\n Как предполагают ученые, движение «клювов» и биолюминесценция питаются за счет хемосинтеза, который проходит внутри «Ежика». Не совсем ясна задача подобных сокращений, однако, по одной из версий, подобным путем артефакт перемещается в поисках благоприятных условий для роста в полноценный побег \"Пуха\".",
+          "en": "A brown sphere covered with a layer of soft plant cells, topped with beak-like protrusions.\\n\\n Scientists theorize that the movement of the 'beaks' and bioluminescence are fueled by chemosynthesis occurring inside the Hedgehog. The purpose of these contractions isn't entirely clear, but one theory suggests that the artifact uses this method to move in search of favorable conditions to grow into a full-fledged Fluff shoot.",
+          "es": "Una esfera marrón recubierta de una capa de células vegetales blandas, que está cubierta por excrecencias en forma de pico.\\n\\n Según suponen los científicos, el movimiento de los picos y la bioluminiscencia se alimentan de la quimiosíntesis, que tiene lugar en el interior de Erizo. No está muy claro el propósito de tales reducciones, sin embargo, según una versión, de forma similar el artefacto se mueve en busca de condiciones favorables para crecer hasta convertirse en un brote de Baba en toda regla.",
+          "fr": "Sphère brune recouverte de cellules végétales douces, ornée d'excroissances en forme de bec.\\n\\n Selon les scientifiques, le mouvement des « becs » et la bioluminescence sont alimentés par la chimiosynthèse se produisant à l'intérieur du Hérisson. Bien que la fonction de ces contractions reste incertaine, une hypothèse suggère que l'artefact se déplace ainsi à la recherche de conditions favorables pour croître en une pousse complète de l'Ouate.",
+          "ko": "부리 같은 돌출부가 있으며 부드러운 식물 세포층으로 덮인 갈색의 구체이다.\\n\\n 과학자들은 \"부리\"의 움직임과 발광의 원인이 고슴도치 내부에서 발생하는 화학 합성으로 인한 것이라는 이론을 세웠다. 구체가 수축되는 이유는 분명하지 않지만, 한 가지 이론에 따르면 이 아티팩트는 이를 통해 완전히 발달한 플러프로 성장하기에 좋은 환경을 찾아 움직인다고 한다."
+        }
+      }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina"
+            }
+          },
+          "min": 2.975,
+          "max": 3.5,
+          "formatted": {
+            "value": {
+              "en": "[2.975%; 3.5%]",
+              "ru": "[2.975%; 3.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection"
+            }
+          },
+          "min": 7.98,
+          "max": 9.7,
+          "formatted": {
+            "value": {
+              "en": "[7.98; 9.7]",
+              "ru": "[7.98; 9.7]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection"
+            }
+          },
+          "min": 17,
+          "max": 20,
+          "formatted": {
+            "value": {
+              "en": "[17; 20]",
+              "ru": "[17; 20]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

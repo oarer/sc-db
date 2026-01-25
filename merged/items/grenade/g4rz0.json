@@ -1,0 +1,208 @@
+{
+  "id": "g4rz0",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.homemade_flashbang.name",
+    "args": {},
+    "lines": {
+      "ru": "Самодельный светошум",
+      "en": "Handmade Flashbang Grenade",
+      "es": "Granada aturdidora hecha a mano",
+      "fr": "Grenade Flashbang Artisanale",
+      "ko": "사제 섬광탄"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.grenade",
+            "args": {},
+            "lines": {
+              "ru": "Гранаты",
+              "en": "Grenades",
+              "es": "Granadas",
+              "fr": "Grenades",
+              "ko": "수류탄"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l'artisanat",
+              "ko": "제작에 사용"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.flash.stats.info.explosion_size",
+            "args": {},
+            "lines": {
+              "ru": "Радиус действия",
+              "en": "Range",
+              "es": "Alcance",
+              "fr": "Portée",
+              "ko": "범위"
+            }
+          },
+          "value": 12,
+          "formatted": {
+            "value": {
+              "ru": "12 м",
+              "en": "12 m",
+              "es": "12 m",
+              "fr": "12 m",
+              "ko": "12 미터"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.flash.stats.info.flash_time",
+            "args": {},
+            "lines": {
+              "ru": "Макс. длительность ослепления",
+              "en": "Max. blindness duration",
+              "es": "Duración máx. de ceguera",
+              "fr": "Durée maximum d'aveuglement",
+              "ko": "최대 실명 지속 시간"
+            }
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s",
+              "ko": "5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.flash.stats.info.lifetime",
+            "args": {},
+            "lines": {
+              "ru": "Время до срабатывания",
+              "en": "Time until activation",
+              "es": "Tiempo hasta la activación",
+              "fr": "Délai d'activation",
+              "ko": "활성화까지 남은 시간"
+            }
+          },
+          "value": 3,
+          "formatted": {
+            "value": {
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {}
+  ]
+}

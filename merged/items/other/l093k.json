@@ -1,0 +1,160 @@
+{
+  "id": "l093k",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.svalka.mob.name",
+    "args": {},
+    "lines": {
+      "ru": "Ржавая плесень",
+      "en": "Rusty Mold",
+      "es": "Moho oxidado",
+      "fr": "Moisissure rouillée",
+      "ko": "녹슨 버섯"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.03,
+          "formatted": {
+            "value": {
+              "ru": "0,03 кг",
+              "en": "0.03 kg",
+              "es": "0,03 kg",
+              "fr": "0,03 kg",
+              "ko": "0.03 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "16.0"
+            },
+            "lines": {
+              "ru": "16 руб.",
+              "en": "16 rubles",
+              "es": "16 rublos",
+              "fr": "16 roubles",
+              "ko": "16 루블"
+            }
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.svalka.mob.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Высокое содержание железа в местной почве приводит к произрастанию этой странной рыжеватой плесени. Применение ей найдут разве что ученые.",
+          "en": "The high iron content in the local soil leads to the growth of this strange rust-colored mold. Maybe scientists can find a use for it.",
+          "es": "El alto contenido en hierro del suelo local favorece el crecimiento de este extraño moho de color óxido. Quizá los científicos puedan encontrarle una utilidad.",
+          "fr": "La forte teneur en fer du sol local entraîne la croissance de cette étrange moisissure de couleur rouille. Peut-être que les scientifiques pourront lui trouver une utilité.",
+          "ko": "현지 토양의 높은 철분 함량으로 인해 기이한 녹슨 색깔의 버섯이 자라났다. 과학자들이 미래에 이를 활용할 방법을 아마 찾을 수 있을 것이다."
+        }
+      }
+    }
+  ]
+}
