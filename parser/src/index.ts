@@ -116,7 +116,7 @@ async function main(): Promise<boolean> {
 						consumables: ["items/food", "items/drink", "items/medicine"],
 						containers: ["items/containers", "items/backpacks"],
 					},
-					asArrayFor: ["consumables"],
+					asArrayFor: ["consumables", "containers"],
 				});
 			}
 		} else {
