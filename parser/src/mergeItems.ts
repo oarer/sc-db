@@ -7,11 +7,11 @@ type Options = {
   pretty?: boolean;
 };
 
-function ensureDirSync(dir: string) {
+function ensureDir(dir: string) {
   fs.mkdirSync(dir, { recursive: true });
 }
 
-function readJsonSafeSync(filePath: string) {
+function readJsonSafe(filePath: string) {
   try {
     return JSON.parse(fs.readFileSync(filePath, "utf8"));
   } catch (_e) {
@@ -20,7 +20,7 @@ function readJsonSafeSync(filePath: string) {
   }
 }
 
-function collectJsonFilesSync(dir: string): string[] {
+function collectJsonFiles(dir: string): string[] {
   let results: string[] = [];
   try {
     const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -29,21 +29,21 @@ function collectJsonFilesSync(dir: string): string[] {
       if (e.isFile() && e.name.endsWith(".json")) {
         results.push(fullPath);
       } else if (e.isDirectory()) {
-        results = results.concat(collectJsonFilesSync(fullPath));
+        results = results.concat(collectJsonFiles(fullPath));
       }
     }
   } catch {}
   return results;
 }
 
-export function mergeFolderGroupsToListingSync(
+export function mergeFolderGroupsToListing(
   outDir: string,
   opts: Options,
 ) {
   const { groups, asArrayFor = [], pretty = true } = opts;
 
   const listingDir = path.join(outDir, "listing");
-  ensureDirSync(listingDir);
+  ensureDir(listingDir);
 
   for (const [outputName, folders] of Object.entries(groups)) {
     const outFile = path.join(listingDir, `${outputName}.json`);
@@ -53,10 +53,10 @@ export function mergeFolderGroupsToListingSync(
 
     for (const folder of folders) {
       const srcDir = path.join(outDir, folder);
-      const files = collectJsonFilesSync(srcDir);
+      const files = collectJsonFiles(srcDir);
 
       for (const filePath of files) {
-        const data = readJsonSafeSync(filePath);
+        const data = readJsonSafe(filePath);
         if (data == null) continue;
 
         if (isArray) {
