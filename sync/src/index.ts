@@ -34,11 +34,11 @@ http
 
 		try {
 			try {
-				execSync("git diff --quiet", { cwd: REPO, stdio: "ignore" });
+				execSync("git diff --quiet -- merged", { cwd: REPO, stdio: "ignore" });
 				res.end("no changes");
 				return;
 			} catch {
-				execSync("git add -A", { cwd: REPO });
+				execSync("git add -A merged/", { cwd: REPO });
 
 				console.log(execSync("git status --short", { cwd: REPO }).toString());
 
@@ -46,6 +46,7 @@ http
 					`git commit -m "Auto: update @${new Date().toLocaleString()}"`,
 					{ cwd: REPO },
 				);
+
 				execSync("git push origin main", { cwd: REPO });
 				res.end("pushed");
 			}
