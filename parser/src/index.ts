@@ -1,136 +1,174 @@
-import path from "path";
-import fs from "fs";
-
+import fs from "node:fs";
+import path from "node:path";
+import { additionalStatsParse } from "./additionalStatsParse";
 import {
-    ORIG_DIR,
-    OUT_DIR,
-    GITHUB_OWNER,
-    GITHUB_REPO,
-    GITHUB_BRANCH,
-    FORCE_PULL,
-    CLEAN_ORIG,
-    UPDATE_COOLDOWN,
+	CLEAN_ORIG,
+	FORCE_PULL,
+	GITHUB_BRANCH,
+	GITHUB_OWNER,
+	GITHUB_REPO,
+	ORIG_DIR,
+	OUT_DIR,
+	UPDATE_COOLDOWN,
 } from "./constants";
-
-import { downloadZip, extractItemsFromZip, notifySync } from "./github";
-import { hashFile, loadSavedSha, saveSha, removeDir } from "./utils/fsUtils";
-import { runMerge } from "./merge";
+import {
+	downloadZip,
+	extractItemsFromZip,
+	getRemoteSha,
+	notifySync,
+} from "./github";
 import { copyIconsToOutput } from "./icons";
 import { processListing } from "./listingFormate";
-import { additionalStatsParse } from "./additionalStatsParse";
+import { runMerge } from "./merge";
+import { mergeFolderGroupsToListing } from "./mergeItems";
+import { hashFile, loadSavedSha, removeDir, saveSha } from "./utils/fsUtils";
 
 async function main(): Promise<boolean> {
-    const useProxy =
-        process.argv.includes("--proxy") || process.env.PROXY === "true";
-    const forceMerge = process.argv.includes("--force-merge");
+	const useProxy =
+		process.argv.includes("--proxy") || process.env.PROXY === "true";
+	const forceMerge = process.argv.includes("--force-merge");
 
-    let updated = false;
+	let updated = false;
 
-    if (CLEAN_ORIG) {
-        await removeDir(ORIG_DIR);
-        console.log("Cleaned", ORIG_DIR);
-    }
+	if (CLEAN_ORIG) {
+		await removeDir(ORIG_DIR);
+		console.log("[Main] Cleaned", ORIG_DIR);
+	}
 
-    try {
-        if (forceMerge) {
-            console.log("[Merge] Force merge requested.");
+	try {
+		if (forceMerge) {
+			console.log("[Merge] Force merge requested.");
 
-            await removeDir(OUT_DIR);
-            await runMerge(ORIG_DIR, OUT_DIR);
-            await processListing(OUT_DIR);
-            await copyIconsToOutput();
-            await additionalStatsParse(OUT_DIR, useProxy);
+			await removeDir(OUT_DIR);
+			await runMerge(ORIG_DIR, OUT_DIR);
+			await processListing(OUT_DIR);
+			await copyIconsToOutput();
+			await additionalStatsParse(OUT_DIR, useProxy);
 
-            return true;
-        }
+			return true;
+		}
 
-        const zipUrl = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/archive/refs/heads/${GITHUB_BRANCH}.zip`;
-        const zipPath = path.join("./", `${GITHUB_REPO}-${GITHUB_BRANCH}.zip`);
+		const zipPath = path.join("./", `${GITHUB_REPO}-${GITHUB_BRANCH}.zip`);
+		const savedSha = loadSavedSha();
+		let needUpdate = FORCE_PULL || !savedSha;
 
-        const savedSha = loadSavedSha();
-        let needUpdate = FORCE_PULL || !savedSha;
+		const remoteSha = await getRemoteSha();
+		console.log("[Main] savedSha =", savedSha, "remoteSha =", remoteSha);
 
-        if (!needUpdate && fs.existsSync(zipPath)) {
-            const localSha = hashFile(zipPath);
-            if (localSha !== savedSha) needUpdate = true;
-        }
+		if (remoteSha) {
+			if (!savedSha || savedSha !== remoteSha) {
+				needUpdate = true;
+			}
+		} else {
+			needUpdate = needUpdate || false;
+		}
 
-        if (needUpdate) {
-            await downloadZip(zipUrl, zipPath, useProxy);
+		if (needUpdate) {
+			console.log("[Main] Updating from GitHub...");
 
-            const sha = hashFile(zipPath);
+			const zipUrl = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/archive/refs/heads/${GITHUB_BRANCH}.zip`;
+			await downloadZip(zipUrl, zipPath, useProxy);
 
-            if (!savedSha || savedSha !== sha || FORCE_PULL) {
-                await removeDir(ORIG_DIR);
-                await extractItemsFromZip(zipPath, ORIG_DIR);
-                saveSha(sha);
+			const zipHash = hashFile(zipPath);
+			console.log("[Main] Zip hash:", zipHash);
 
-                updated = true;
-            }
+			if (remoteSha) {
+				if (!savedSha || savedSha !== remoteSha || FORCE_PULL) {
+					await removeDir(ORIG_DIR);
+					await extractItemsFromZip(zipPath, ORIG_DIR);
 
-            await fs.promises.rm(zipPath, { force: true });
+					saveSha(remoteSha);
+					updated = true;
+					console.log("[Main] Updated using remote commit SHA:", remoteSha);
+				} else {
+					console.log(
+						"[Main] Remote SHA matches saved SHA — no extraction necessary.",
+					);
+				}
+			} else {
+				if (!savedSha || savedSha !== zipHash || FORCE_PULL) {
+					await removeDir(ORIG_DIR);
+					await extractItemsFromZip(zipPath, ORIG_DIR);
 
-            if (updated) {
-                await removeDir(OUT_DIR);
-                await runMerge(ORIG_DIR, OUT_DIR);
-                await processListing(OUT_DIR);
-                await copyIconsToOutput();
-                await additionalStatsParse(OUT_DIR, useProxy);
-            }
-        }
-    } catch (e: any) {
-        console.warn("Sync failed:", e?.message || e);
-    }
+					saveSha(zipHash);
+					updated = true;
+					console.log("[Main] Updated using zip hash (fallback):", zipHash);
+				} else {
+					console.log(
+						"[Main] Zip identical to saved hash — skipping extraction.",
+					);
+				}
+			}
 
-    return updated;
+			await fs.promises.rm(zipPath, { force: true });
+
+			if (updated) {
+				await removeDir(OUT_DIR);
+				await runMerge(ORIG_DIR, OUT_DIR);
+				await processListing(OUT_DIR);
+				await copyIconsToOutput();
+				await additionalStatsParse(OUT_DIR, useProxy);
+				await mergeFolderGroupsToListing(OUT_DIR, {
+					groups: {
+						weapon: ["items/weapon"],
+						armor: ["items/armor"],
+						artefact: ["items/artefact"],
+						consumables: ["items/food", "items/drink", "items/medicine"],
+						containers: ["items/containers", "items/backpacks"],
+					},
+					asArrayFor: ["consumables"],
+				});
+			}
+		} else {
+			console.log("[Main] No updates detected.");
+		}
+	} catch (e: any) {
+		console.warn("[Main] Sync failed:", e?.message || e);
+	}
+
+	return updated;
 }
 
-async function sleep(milliseconds: number) {
-    return new Promise(resolve => setTimeout(resolve, milliseconds));
+async function sleep(ms: number) {
+	return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function loop() {
-    while (true) {
-        console.log("[Loop] Starting loop");
+	while (true) {
+		try {
+			const updated = await main();
 
-        try {
-            const updated = await main();
+			if (updated) {
+				console.log("[Loop] Changes detected → syncing");
+				await notifySync();
+			} else {
+				console.log("[Loop] No changes");
+			}
+		} catch (e) {
+			console.error("[Loop] Loop error:", e);
+		}
 
-            if (updated) {
-                console.log("[Loop] Changes detected → syncing");
-                await notifySync();
-            } else {
-                console.log("[Loop] No changes");
-            }
-        } catch (e) {
-            console.error("[Loop] Loop error:", e);
-        }
-
-        console.log("[Loop] Sleeping for", UPDATE_COOLDOWN / 1000, "seconds\n");
-
-        await sleep(UPDATE_COOLDOWN);
-    }
+		await sleep(UPDATE_COOLDOWN);
+	}
 }
 
 const noLoop = process.argv.includes("--no-loop");
 
 if (noLoop) {
-    console.log(
-        "[Main] --no-loop detected — running a single sync then exiting"
-    );
-    try {
-        const updated = await main();
-        if (updated) {
-            console.log("[Main] Changes detected → syncing");
-            await notifySync();
-        } else {
-            console.log("[Main] No changes");
-        }
-        process.exit(0);
-    } catch (e) {
-        console.error("[Main] Error during single run:", e);
-        process.exit(1);
-    }
+	console.log("[Main] --no-loop detected — running single sync then exiting");
+	try {
+		const updated = await main();
+		if (updated) {
+			console.log("[Main] Changes detected → syncing");
+			await notifySync();
+		} else {
+			console.log("[Main] No changes");
+		}
+		process.exit(0);
+	} catch (e) {
+		console.error("[Main] Error during single run:", e);
+		process.exit(1);
+	}
 } else {
-    await loop();
+	await loop();
 }

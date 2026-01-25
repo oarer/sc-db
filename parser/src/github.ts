@@ -1,113 +1,146 @@
 import AdmZip from "adm-zip";
-import path from "path";
-import fs from "fs";
 import axios from "axios";
-import { GITHUB_REPO, GITHUB_BRANCH, PROXY_CONFIG } from "./constants";
+import fs from "node:fs";
+import path from "node:path";
+import {
+	GITHUB_BRANCH,
+	GITHUB_OWNER,
+	GITHUB_REPO,
+	PROXY_CONFIG,
+} from "./constants";
 
 export async function downloadZip(url: string, dest: string, proxy = false) {
-    let totalSize = 0;
+	let totalSize = 0;
 
-    try {
-        const headRes = await axios.head(url, {
-            proxy: proxy ? PROXY_CONFIG : false,
-        });
-        totalSize = Number(headRes.headers["content-length"] || 0);
-    } catch {
-        console.log("Could not determine file size");
-    }
+	try {
+		const headRes = await axios.head(url, {
+			proxy: proxy ? PROXY_CONFIG : false,
+		});
+		totalSize = Number(headRes.headers["content-length"] || 0);
+	} catch {
+		console.log("Could not determine file size");
+	}
 
-    const response = await axios.get(url, {
-        responseType: "stream",
-        proxy: proxy ? PROXY_CONFIG : false,
-    });
+	const response = await axios.get(url, {
+		responseType: "stream",
+		proxy: proxy ? PROXY_CONFIG : false,
+	});
 
-    const fileStream = fs.createWriteStream(dest);
-    let downloaded = 0;
+	const fileStream = fs.createWriteStream(dest);
+	let downloaded = 0;
 
-    response.data.on("data", (chunk: Buffer) => {
-        downloaded += chunk.length;
-        if (totalSize) {
-            const perc = ((downloaded / totalSize) * 100).toFixed(1);
-            Bun.stdout.write(
-                `\rDownloading: ${perc}% [${(downloaded / 1024 / 1024).toFixed(
-                    2
-                )} / ${(totalSize / 1024 / 1024).toFixed(2)} MB]`
-            );
-        } else {
-            Bun.stdout.write(
-                `\rDownloading: ${(downloaded / 1024 / 1024).toFixed(2)} MB...`
-            );
-        }
-    });
+	response.data.on("data", (chunk: Buffer) => {
+		downloaded += chunk.length;
+		if (totalSize) {
+			const perc = ((downloaded / totalSize) * 100).toFixed(1);
+			Bun.stdout.write(
+				`\rDownloading: ${perc}% [${(downloaded / 1024 / 1024).toFixed(
+					2,
+				)} / ${(totalSize / 1024 / 1024).toFixed(2)} MB]`,
+			);
+		} else {
+			Bun.stdout.write(
+				`\rDownloading: ${(downloaded / 1024 / 1024).toFixed(2)} MB...`,
+			);
+		}
+	});
 
-    await new Promise<void>((resolve, reject) => {
-        fileStream.on("finish", () => {
-            console.log("\n✓ Download completed");
-            resolve();
-        });
-        fileStream.on("error", reject);
-        response.data.pipe(fileStream);
-    });
+	await new Promise<void>((resolve, reject) => {
+		fileStream.on("finish", () => {
+			console.log("\n✓ Download completed");
+			resolve();
+		});
+		fileStream.on("error", reject);
+		response.data.pipe(fileStream);
+	});
 }
 
 export async function extractItemsFromZip(zipPath: string, targetDir: string) {
-    const zip = new AdmZip(zipPath);
-    const entries = zip.getEntries();
+	const zip = new AdmZip(zipPath);
+	const entries = zip.getEntries();
 
-    const prefixes = [
-        `${GITHUB_REPO}-${GITHUB_BRANCH}/ru/items/`,
-        `${GITHUB_REPO}-${GITHUB_BRANCH}/ru/icons/`,
-        `${GITHUB_REPO}-${GITHUB_BRANCH}/ru/listing.json`,
-    ];
+	const prefixes = [
+		`${GITHUB_REPO}-${GITHUB_BRANCH}/ru/items/`,
+		`${GITHUB_REPO}-${GITHUB_BRANCH}/ru/icons/`,
+		`${GITHUB_REPO}-${GITHUB_BRANCH}/ru/listing.json`,
+	];
 
-    for (const entry of entries) {
-        const matchedPrefix = prefixes.find(prefix =>
-            entry.entryName.startsWith(prefix)
-        );
-        if (!matchedPrefix) continue;
+	for (const entry of entries) {
+		const matchedPrefix = prefixes.find((prefix) =>
+			entry.entryName.startsWith(prefix),
+		);
+		if (!matchedPrefix) continue;
 
-        let relPath = entry.entryName.slice(matchedPrefix.length);
+		let relPath = entry.entryName.slice(matchedPrefix.length);
 
-        if (!relPath) {
-            if (matchedPrefix.endsWith("listing.json")) {
-                relPath = "listing.json";
-            } else {
-                if (entry.isDirectory) continue;
-            }
-        }
+		if (!relPath) {
+			if (matchedPrefix.endsWith("listing.json")) {
+				relPath = "listing.json";
+			} else {
+				if (entry.isDirectory) continue;
+			}
+		}
 
-        const subdir = matchedPrefix.includes("/items/")
-            ? "items"
-            : matchedPrefix.includes("/icons/")
-            ? "icons"
-            : "";
+		const subdir = matchedPrefix.includes("/items/")
+			? "items"
+			: matchedPrefix.includes("/icons/")
+				? "icons"
+				: "";
 
-        const outPath = subdir
-            ? path.join(targetDir, subdir, relPath)
-            : path.join(targetDir, relPath);
+		const outPath = subdir
+			? path.join(targetDir, subdir, relPath)
+			: path.join(targetDir, relPath);
 
-        if (entry.isDirectory) {
-            fs.mkdirSync(outPath, { recursive: true });
-        } else {
-            fs.mkdirSync(path.dirname(outPath), { recursive: true });
-            fs.writeFileSync(outPath, entry.getData());
-        }
-    }
+		if (entry.isDirectory) {
+			fs.mkdirSync(outPath, { recursive: true });
+		} else {
+			fs.mkdirSync(path.dirname(outPath), { recursive: true });
+			fs.writeFileSync(outPath, entry.getData());
+		}
+	}
 }
 
 export async function notifySync() {
-    if (!process.env.SYNC_TOKEN) return;
+	if (!process.env.SYNC_TOKEN) return;
 
-    try {
-        await fetch("http://sync:3001/sync", {
-            method: "POST",
-            headers: {
-                "x-sync-token": process.env.SYNC_TOKEN,
-            },
-        });
+	try {
+		await fetch("http://sync:3001/sync", {
+			method: "POST",
+			headers: {
+				"x-sync-token": process.env.SYNC_TOKEN,
+			},
+		});
 
-        console.log("[Sync] sync-server notified");
-    } catch (e) {
-        console.warn("[Sync] failed to notify sync-server:", e);
-    }
+		console.log("[Sync] sync-server notified");
+	} catch (e) {
+		console.warn("[Sync] failed to notify sync-server:", e);
+	}
+}
+
+interface GitHubCommitResponse {
+    sha: string;
+}
+
+export async function getRemoteSha(): Promise<string | null> {
+	try {
+		const res = await axios.get<GitHubCommitResponse>(
+			`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/commits/${GITHUB_BRANCH}`,
+			{
+				headers: {
+					...(process.env.GITHUB_TOKEN && {
+						Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+					}),
+				},
+			},
+		);
+
+		return res.data.sha;
+	} catch (e: any) {
+		console.warn(
+			"[GitHub] Failed to fetch remote sha:",
+			e?.response?.status,
+			e?.response?.data || e.message,
+		);
+		return null;
+	}
 }
