@@ -41,7 +41,7 @@ http.createServer((req, res) => {
         }
 
         
-        execSync("git add -A merged", { cwd: REPO });
+        execSync("git add -A merged/**", { cwd: REPO, shell: true });
 
         
         try {
