@@ -5,7 +5,7 @@ services:
         env_file:
             - .env
         volumes:
-            - parser_items:/repo
+            - ./parser_items:/repo
         networks:
             - sc-db
         restart: unless-stopped
@@ -16,7 +16,7 @@ services:
         env_file:
             - .env
         volumes:
-            - parser_items:/repo
+            - ./parser_items:/repo
             - ./.git:/repo/.git
             - ~/.ssh:/root/.ssh:ro
         ports:
