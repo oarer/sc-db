@@ -1,7 +1,7 @@
-import axios from "axios";
 import fs from "node:fs";
 import fsPromises from "node:fs/promises";
 import path from "node:path";
+import axios from "axios";
 import { PROXY_CONFIG } from "./constants";
 
 const API_URL = "https://sctools.tech/api/exbo/items/?category=artefact";
@@ -37,13 +37,13 @@ export async function additionalStatsParse(
 
 	let translations: Record<string, Record<string, string>> = {};
 	try {
-		if (fs.existsSync("translations.json")) {
-			const trRaw = await fsPromises.readFile("translations.json", "utf8");
+		const translationsPath = path.join(__dirname, "..", "translations.json");
+
+		if (fs.existsSync(translationsPath)) {
+			const trRaw = await fsPromises.readFile(translationsPath, "utf8");
 			translations = JSON.parse(trRaw);
 			console.log(
-				`[AddStats] Translations loaded: ${
-					Object.keys(translations).length
-				} keys`,
+				`[AddStats] Translations loaded: ${Object.keys(translations).length} keys`,
 			);
 		} else {
 			console.log(`[AddStats] Translations file not found`);

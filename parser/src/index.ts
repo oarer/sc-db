@@ -119,8 +119,6 @@ async function main(): Promise<boolean> {
 					asArrayFor: ["consumables", "containers"],
 				});
 			}
-		} else {
-			console.log("[Main] No updates detected.");
 		}
 	} catch (e: any) {
 		console.warn("[Main] Sync failed:", e?.message || e);
