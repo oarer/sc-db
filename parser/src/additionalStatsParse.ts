@@ -37,7 +37,7 @@ export async function additionalStatsParse(
 
 	let translations: Record<string, Record<string, string>> = {};
 	try {
-		const translationsPath = path.join(__dirname, "..", "translations.json");
+		const translationsPath = path.join(__dirname, "translations.json");
 
 		if (fs.existsSync(translationsPath)) {
 			const trRaw = await fsPromises.readFile(translationsPath, "utf8");
