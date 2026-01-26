@@ -49,9 +49,7 @@ http
 					`git commit -m "Auto: update @ ${new Date().toLocaleString()}"`,
 					{ cwd: REPO },
 				);
-			} catch (_err) {
-				console.error("[SYNC] Failed");
-			}
+			} catch (_err) {}
 
 			execSync("git push origin main", { cwd: REPO });
 			res.end("pushed");
