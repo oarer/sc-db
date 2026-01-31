@@ -34,13 +34,13 @@ PROXY=false/true
 
 ```bash
 # Запуск всех сервисов
-docker-compose up -d
+docker compose up -d
 
 # Перезапуск сервисов
-docker-compose restart
+docker compose restart
 
 # Остановка и удаление контейнеров
-docker-compose down
+docker compose down
 ```
 
 ### API синхронизации
@@ -69,6 +69,9 @@ sc-db/
 ├── parser/                    # Модуль обработки данных
 ├── sync/                      # Модуль синхронизации с Git
 ├── merged/                    # Результат обработки
+│   ├── icons/                 # Иконки
+│   ├── listing/               # Листинг предметов (артефакты, контейнеры, броня, оружие, расходники)
+│   └── items/                 # Результат объединения
 ├── items/                     # Официальная база данных
 └── docker-compose.yml         # Docker конфигурация
 ```

@@ -46,7 +46,7 @@ http
 
 			try {
 				execSync(
-					`git commit -m "Auto: update @ ${new Date().toLocaleString()}"`,
+					`git commit -m "Auto: update @${new Date().toLocaleString()}"`,
 					{ cwd: REPO },
 				);
 			} catch (_err) {}

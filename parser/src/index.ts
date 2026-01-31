@@ -55,9 +55,6 @@ async function main(): Promise<boolean> {
 		const remoteSha = await getRemoteSha();
 		console.log("[Main] savedSha =", savedSha, "remoteSha =", remoteSha);
 
-		const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/commits/${GITHUB_BRANCH}`;
-		console.log("[GitHub] URL =", url);
-
 		if (remoteSha) {
 			if (!savedSha || savedSha !== remoteSha) {
 				needUpdate = true;
