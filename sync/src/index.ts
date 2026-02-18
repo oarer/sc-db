@@ -2,7 +2,7 @@ import { execSync } from "node:child_process";
 import fs from "node:fs";
 import http from "node:http";
 
-const PORT = 3001;
+const PORT = 7829;
 const TOKEN = process.env.SYNC_TOKEN;
 const REPO = "/repo";
 
