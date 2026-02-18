@@ -104,7 +104,7 @@ export async function notifySync() {
 	if (!process.env.SYNC_TOKEN) return;
 
 	try {
-		await fetch("http://sync:3001/sync", {
+		await fetch("http://sync:7829/sync", {
 			method: "POST",
 			headers: {
 				"x-sync-token": process.env.SYNC_TOKEN,
