@@ -20,7 +20,7 @@ services:
             - ./.git:/repo/.git
             - ~/.ssh:/root/.ssh:ro
         ports:
-            - "3001:3001"
+            - "7829:7829"
         networks:
             - sc-db
         restart: unless-stopped
