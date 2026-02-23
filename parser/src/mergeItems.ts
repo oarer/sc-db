@@ -63,10 +63,14 @@ export async function mergeFolderGroupsToListing(
 			const files = await collectJsonFiles(srcDir);
 
 			for (const filePath of files) {
-				const relative = path.relative(outDir, filePath).replace(/\\/g, "/");
+				const relativePath = path
+					.relative(outDir, filePath)
+					.replace(/\\/g, "/");
 
 				if (
-					ignoreFolders.some((ignored) => relative.startsWith(`${ignored}/`))
+					ignoreFolders.some((ignored) =>
+						relativePath.startsWith(`${ignored}/`),
+					)
 				) {
 					continue;
 				}
