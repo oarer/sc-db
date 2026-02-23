@@ -111,7 +111,7 @@ async function main(): Promise<boolean> {
 				await mergeFolderGroupsToListing(OUT_DIR, {
 					groups: {
 						weapon: ["items/weapon"],
-						armor: ["items/armor"],
+						armor: ["items/armor/scientist", "items/armor/combat", "items/armor/combined", "items/armor/clothes"],
 						artefact: ["items/artefact"],
 						consumables: ["items/food", "items/drink", "items/medicine"],
 						containers: ["items/containers", "items/backpacks"],
