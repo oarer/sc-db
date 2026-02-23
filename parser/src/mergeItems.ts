@@ -36,6 +36,7 @@ async function collectJsonFiles(dir: string): Promise<string[]> {
 	} catch {}
 	return results;
 }
+
 export async function mergeFolderGroupsToListing(
 	outDir: string,
 	opts: Options,
@@ -45,6 +46,8 @@ export async function mergeFolderGroupsToListing(
 	const listingDir = path.join(outDir, "listing");
 	await ensureDir(listingDir);
 
+	const ignoreFolders = ["items/armor/device"];
+
 	for (const [outputName, folders] of Object.entries(groups)) {
 		const outFile = path.join(listingDir, `${outputName}.json`);
 		const isArray = asArrayFor.includes(outputName);
@@ -52,6 +55,10 @@ export async function mergeFolderGroupsToListing(
 		const result: any = isArray ? [] : {};
 
 		for (const folder of folders) {
+			if (ignoreFolders.includes(folder)) {
+				continue;
+			}
+
 			const srcDir = path.join(outDir, folder);
 			const files = await collectJsonFiles(srcDir);
 
@@ -81,6 +88,8 @@ export async function mergeFolderGroupsToListing(
 			"utf8",
 		);
 
-		console.log(`[merge] ${outputName}.json ← ${folders.join(", ")}`);
+		console.log(
+			`[merge] ${outputName}.json ← ${folders.filter((f) => !ignoreFolders.includes(f)).join(", ")}`,
+		);
 	}
 }
