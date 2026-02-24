@@ -56,6 +56,11 @@ export async function mergeFolderGroupsToListing(
 			const files = await collectJsonFiles(srcDir);
 
 			for (const filePath of files) {
+const normalized = filePath.replace(/\\/g, "/");
+
+	if (normalized.includes("/armor/device/")) {
+		continue;
+	}
 				const data = await readJsonSafe(filePath);
 				if (data == null) continue;
 
