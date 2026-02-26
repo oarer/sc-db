@@ -1,6 +1,6 @@
 import fsPromises from "node:fs/promises";
 import path from "node:path";
-import type { InfoBlock, InfoElement, Item } from "../types";
+import type { InfoBlock, Item } from "../type";
 
 const OUT_DIR = "./merged";
 const OUTPUT_FILE = "./translations.json";
@@ -31,9 +31,10 @@ async function parseAllKeys(dir: string) {
 				const infoBlocks: InfoBlock[] = item.infoBlocks || [];
 
 				for (const block of infoBlocks) {
-					if (!Array.isArray(block.elements)) continue;
+					if (!("elements" in block) || !Array.isArray(block.elements))
+						continue;
 
-					for (const el of block.elements as InfoElement[]) {
+					for (const el of block.elements) {
 						if (
 							el?.type === "range" &&
 							el?.name?.type === "translation" &&
@@ -51,8 +52,10 @@ async function parseAllKeys(dir: string) {
 					}
 				}
 			}
-		} catch (e: any) {
-			console.warn(`Failed to process ${file}: ${e.message || e}`);
+		} catch (e: unknown) {
+			console.warn(
+				`Failed to process ${file}: ${e instanceof Error ? e.message : e}`,
+			);
 		}
 	}
 

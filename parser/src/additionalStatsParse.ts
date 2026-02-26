@@ -3,8 +3,31 @@ import fsPromises from "node:fs/promises";
 import path from "node:path";
 import axios from "axios";
 import { PROXY_CONFIG } from "./constants";
+import type {
+	AddStatBlock,
+	MessageTranslation,
+	NumericRangeElement,
+} from "./type";
 
 const API_URL = "https://sctools.tech/api/exbo/items/?category=artefact";
+
+interface ApiStat {
+	isPositive?: boolean;
+	name?: Record<string, string>;
+	key?: string;
+	minValue?: number;
+	maxValue?: number;
+	formattedValue?: Record<string, string>;
+}
+
+interface ApiItem {
+	id: string;
+	custom_id?: string;
+	key?: string;
+	add_info?: {
+		addStats?: ApiStat[];
+	};
+}
 
 export async function additionalStatsParse(
 	outDir: string,
@@ -12,10 +35,10 @@ export async function additionalStatsParse(
 ) {
 	console.log("[AddStats] Fetching artefacts from API…");
 
-	let apiItems: any[];
+	let apiItems: ApiItem[];
 
 	try {
-		const res = await axios.get(API_URL, {
+		const res = await axios.get<ApiItem[]>(API_URL, {
 			headers: {
 				accept: "application/json",
 				"User-Agent":
@@ -30,8 +53,11 @@ export async function additionalStatsParse(
 				Array.isArray(apiItems) ? apiItems.length : typeof apiItems
 			}`,
 		);
-	} catch (err: any) {
-		console.error("[AddStats] API fetch failed:", err.message || err);
+	} catch (err: unknown) {
+		console.error(
+			"[AddStats] API fetch failed:",
+			err instanceof Error ? err.message : err,
+		);
 		return;
 	}
 
@@ -48,9 +74,9 @@ export async function additionalStatsParse(
 		} else {
 			console.log(`[AddStats] Translations file not found`);
 		}
-	} catch (e: any) {
+	} catch (e: unknown) {
 		console.warn(
-			`[AddStats] Failed to load translations file: ${e.message || e}`,
+			`[AddStats] Failed to load translations file: ${e instanceof Error ? e.message : e}`,
 		);
 		translations = {};
 	}
@@ -89,9 +115,9 @@ export async function additionalStatsParse(
 				if (!index.has(k)) index.set(k, []);
 				index.get(k)?.push(file);
 			}
-		} catch (e) {
+		} catch (e: unknown) {
 			console.warn(
-				`[AddStats] Broken json: ${file} — ${(e as any)?.message || e}`,
+				`[AddStats] Broken json: ${file} — ${e instanceof Error ? e.message : e}`,
 			);
 		}
 	}
@@ -125,7 +151,7 @@ export async function additionalStatsParse(
 
 		matched++;
 
-		const elements = stats.map((stat: any) => {
+		const elements: NumericRangeElement[] = stats.map((stat: ApiStat) => {
 			const { isPositive, name, key, minValue, maxValue, formattedValue } =
 				stat ?? {};
 			const tr = key && translations[key] ? translations[key] : undefined;
@@ -138,14 +164,18 @@ export async function additionalStatsParse(
 					if (!mergedLines[lang]) mergedLines[lang] = String(text);
 				});
 
-			const nameObj: any = {
+			const nameObj: MessageTranslation = {
 				type: "translation",
 				key: key || "",
 				args: {},
 				lines: mergedLines,
 			};
 
-			const formatted: any = {};
+			const formatted: {
+				value?: Record<string, string>;
+				nameColor?: string;
+				valueColor?: string;
+			} = {};
 			if (formattedValue && typeof formattedValue === "object")
 				formatted.value = formattedValue;
 			if (isPositive === true) {
@@ -156,17 +186,17 @@ export async function additionalStatsParse(
 				formatted.valueColor = "FF4D4D";
 			}
 
-			const element: any = {
+			const element: NumericRangeElement = {
 				type: "range",
 				name: nameObj,
-				min: minValue,
-				max: maxValue,
+				min: minValue ?? 0,
+				max: maxValue ?? 0,
 			};
 			if (Object.keys(formatted).length) element.formatted = formatted;
 			return element;
 		});
 
-		const listBlock = {
+		const listBlock: AddStatBlock = {
 			type: "addStat",
 			title: { type: "text", text: "" },
 			elements,
@@ -185,9 +215,9 @@ export async function additionalStatsParse(
 				json[infoBlocksKey].push(listBlock);
 				await fsPromises.writeFile(file, JSON.stringify(json, null, 2), "utf8");
 				modified++;
-			} catch (e: any) {
+			} catch (e: unknown) {
 				console.warn(
-					`[AddStats] Failed to update file ${file}: ${e.message || e}`,
+					`[AddStats] Failed to update file ${file}: ${e instanceof Error ? e.message : e}`,
 				);
 			}
 		}

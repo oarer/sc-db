@@ -1,6 +1,12 @@
 import fs from "node:fs";
 import path from "node:path";
 
+interface ListingItem {
+	name?: { lines?: Record<string, string> } | Record<string, string>;
+	status?: unknown;
+	[key: string]: unknown;
+}
+
 export async function processListing(outDir: string) {
 	const listingPath = path.join(outDir, "listing.json");
 
@@ -12,9 +18,9 @@ export async function processListing(outDir: string) {
 	const raw = await fs.promises.readFile(listingPath, "utf-8");
 	const items = JSON.parse(raw);
 
-	const processed = items.map((item: any) => {
-		if (item.name?.lines) {
-			item.name = item.name.lines;
+	const processed = items.map((item: ListingItem) => {
+		if (item.name && typeof item.name === "object" && "lines" in item.name) {
+			item.name = item.name.lines as Record<string, string>;
 		}
 
 		delete item.status;

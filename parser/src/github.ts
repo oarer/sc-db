@@ -1,7 +1,7 @@
-import AdmZip from "adm-zip";
-import axios from "axios";
 import fs from "node:fs";
 import path from "node:path";
+import AdmZip from "adm-zip";
+import axios from "axios";
 import {
 	GITHUB_BRANCH,
 	GITHUB_OWNER,
@@ -118,7 +118,7 @@ export async function notifySync() {
 }
 
 interface GitHubCommitResponse {
-    sha: string;
+	sha: string;
 }
 
 export async function getRemoteSha(): Promise<string | null> {
@@ -135,11 +135,15 @@ export async function getRemoteSha(): Promise<string | null> {
 		);
 
 		return res.data.sha;
-	} catch (e: any) {
+	} catch (e: unknown) {
+		const err = e as {
+			response?: { status?: number; data?: unknown };
+			message?: string;
+		};
 		console.warn(
 			"[GitHub] Failed to fetch remote sha:",
-			e?.response?.status,
-			e?.response?.data || e.message,
+			err.response?.status,
+			err.response?.data || err.message,
 		);
 		return null;
 	}

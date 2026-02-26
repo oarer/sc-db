@@ -7,7 +7,7 @@ export function readJSONSync(p: string) {
 	return JSON.parse(fs.readFileSync(p, "utf8"));
 }
 
-export function writeJSONSync(p: string, data: any) {
+export function writeJSONSync(p: string, data: unknown) {
 	fs.mkdirSync(path.dirname(p), { recursive: true });
 	fs.writeFileSync(p, JSON.stringify(data, null, 2), "utf8");
 }

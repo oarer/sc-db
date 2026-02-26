@@ -36,6 +36,7 @@ async function collectJsonFiles(dir: string): Promise<string[]> {
 	} catch {}
 	return results;
 }
+
 export async function mergeFolderGroupsToListing(
 	outDir: string,
 	opts: Options,
@@ -45,27 +46,42 @@ export async function mergeFolderGroupsToListing(
 	const listingDir = path.join(outDir, "listing");
 	await ensureDir(listingDir);
 
+	const ignoreFolders = ["items/armor/device"];
+
 	for (const [outputName, folders] of Object.entries(groups)) {
 		const outFile = path.join(listingDir, `${outputName}.json`);
 		const isArray = asArrayFor.includes(outputName);
 
-		const result: any = isArray ? [] : {};
+		const result: Record<string, unknown> | unknown[] = isArray ? [] : {};
 
 		for (const folder of folders) {
+			if (ignoreFolders.includes(folder)) {
+				continue;
+			}
+
 			const srcDir = path.join(outDir, folder);
 			const files = await collectJsonFiles(srcDir);
 
-			for (const filePath of files) {
-const normalized = filePath.replace(/\\/g, "/");
+			console.log(`[merge] Processing folder: ${folder}, found ${files.length} files`);
 
-	if (normalized.includes("/armor/device/")) {
-		continue;
-	}
+			for (const filePath of files) {
+				const relativePath = path
+					.relative(outDir, filePath)
+					.replace(/\\/g, "/");
+
+				const shouldIgnore = ignoreFolders.some((ignored) => {
+					return relativePath === ignored || relativePath.startsWith(ignored + "/");
+				});
+
+				if (shouldIgnore) {
+					console.log(`[merge] Ignoring: ${relativePath}`);
+					continue;
+				}
 				const data = await readJsonSafe(filePath);
 				if (data == null) continue;
 
 				if (isArray) {
-					result.push(data);
+					(result as unknown[]).push(data);
 				} else {
 					const key = path.basename(filePath, ".json");
 
@@ -75,7 +91,7 @@ const normalized = filePath.replace(/\\/g, "/");
 						);
 					}
 
-					result[key] = data;
+					(result as Record<string, unknown>)[key] = data;
 				}
 			}
 		}
@@ -86,6 +102,8 @@ const normalized = filePath.replace(/\\/g, "/");
 			"utf8",
 		);
 
-		console.log(`[merge] ${outputName}.json ← ${folders.join(", ")}`);
+		console.log(
+			`[merge] ${outputName}.json ← ${folders.filter((f) => !ignoreFolders.includes(f)).join(", ")}`,
+		);
 	}
 }

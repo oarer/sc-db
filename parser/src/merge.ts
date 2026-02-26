@@ -1,10 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { InfoElement, Item } from "./types";
+import type { InfoElement, Item } from "./type";
 import { readJSONSync, scanFolder, writeJSONSync } from "./utils/fsUtils";
 
-export function ensureNumberArray(v: any): number[] {
-	if (Array.isArray(v)) return v.filter((x) => typeof x === "number");
+export function ensureNumberArray(v: unknown): number[] {
+	if (Array.isArray(v))
+		return v.filter((x): x is number => typeof x === "number");
 	if (typeof v === "number") return [v];
 	return [];
 }
@@ -19,7 +20,7 @@ export function findNumericElementsByKey(item: Item, key: string) {
 	const results: { el: InfoElement; blockIdx: number; elIdx: number }[] = [];
 	if (!item.infoBlocks) return results;
 	item.infoBlocks.forEach((block, bi) => {
-		if (!block.elements) return;
+		if (!("elements" in block) || !block.elements) return;
 		block.elements.forEach((el, ei) => {
 			if (el?.type === "numeric" || el?.type === "numericVariants") {
 				if (el.name?.type === "translation" && el.name.key === key) {
@@ -38,6 +39,7 @@ export function collectFromVariant(variant: Item, matchKey: string) {
 	if (!variant.infoBlocks) return { numToLocStr, nameColor, valueColor };
 
 	for (const block of variant.infoBlocks) {
+		if (!("title" in block) || !("elements" in block)) continue;
 		const isUpgradeStatsBlock =
 			block.title?.type === "translation" &&
 			block.title.key === "stalker.tooltip.armor_artefact.info.upgrade_stats";
@@ -55,7 +57,7 @@ export function collectFromVariant(variant: Item, matchKey: string) {
 				)
 					continue;
 
-				const vals = ensureNumberArray(el.value);
+				const vals = ensureNumberArray((el as { value?: unknown }).value);
 				const fv = el.formatted?.value;
 
 				vals.forEach((num) => {
@@ -76,10 +78,8 @@ export function collectFromVariant(variant: Item, matchKey: string) {
 				if (!valueColor && el.formatted?.valueColor)
 					valueColor = el.formatted.valueColor;
 
-				if (!nameColor && (el as any).nameColor)
-					nameColor = (el as any).nameColor;
-				if (!valueColor && (el as any).valueColor)
-					valueColor = (el as any).valueColor;
+				if (!nameColor && el.nameColor) nameColor = el.nameColor;
+				if (!valueColor && el.valueColor) valueColor = el.valueColor;
 			}
 		}
 	}
@@ -104,7 +104,8 @@ export function mergeOneItem(orig: Item, variants: Item[]) {
 	let chosenValueColor: string | undefined;
 
 	for (const t of targets) {
-		const origVals = ensureNumberArray(t.el.value);
+		const el = t.el as { value?: unknown };
+		const origVals = ensureNumberArray(el.value);
 		origVals.forEach((n) => {
 			allNums.push(n);
 		});
@@ -122,10 +123,9 @@ export function mergeOneItem(orig: Item, variants: Item[]) {
 			chosenNameColor = t.el.formatted.nameColor;
 		if (!chosenValueColor && t.el.formatted?.valueColor)
 			chosenValueColor = t.el.formatted.valueColor;
-		if (!chosenNameColor && (t.el as any).nameColor)
-			chosenNameColor = (t.el as any).nameColor;
-		if (!chosenValueColor && (t.el as any).valueColor)
-			chosenValueColor = (t.el as any).valueColor;
+		if (!chosenNameColor && t.el.nameColor) chosenNameColor = t.el.nameColor;
+		if (!chosenValueColor && t.el.valueColor)
+			chosenValueColor = t.el.valueColor;
 	}
 
 	for (const v of variants) {
@@ -148,7 +148,13 @@ export function mergeOneItem(orig: Item, variants: Item[]) {
 	const merged = uniqSorted(allNums);
 
 	for (const t of targets) {
-		const el = t.el;
+		const el = t.el as {
+			type: string;
+			value?: number | number[];
+			nameColor?: string;
+			valueColor?: string;
+			formatted?: Record<string, unknown>;
+		};
 		el.type = "numericVariants";
 		el.value = merged;
 		if (!el.nameColor && chosenNameColor) el.nameColor = chosenNameColor;
@@ -221,8 +227,12 @@ export function runMerge(ORIG_DIR: string, OUT_DIR: string) {
 			}
 
 			writeJSONSync(resolvedOut, merged);
-		} catch (e: any) {
-			console.error("[Merge] Error processing file", f, e?.message || e);
+		} catch (e: unknown) {
+			console.error(
+				"[Merge] Error processing file",
+				f,
+				e instanceof Error ? e.message : e,
+			);
 		}
 	}
 
