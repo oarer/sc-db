@@ -1,0 +1,840 @@
+{
+  "id": "4qvpj",
+  "category": "attachment/collimator_sights",
+  "name": {
+    "type": "translation",
+    "key": "item.att.scope_pso3.name",
+    "args": {},
+    "lines": {
+      "ru": "Прицел оптический ПСО",
+      "en": "PSO Optical Sight",
+      "es": "Mira telescópica PSO",
+      "fr": "Viseur optique PSO",
+      "ko": "PSO 광학조준경"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.collimator_sights",
+            "args": {},
+            "lines": {
+              "ru": "Прицелы",
+              "en": "Sights",
+              "es": "Miras",
+              "fr": "Viseurs",
+              "ko": "조준기"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.75,
+          "formatted": {
+            "value": {
+              "ru": "0,75 кг",
+              "en": "0.75 kg",
+              "es": "0,75 kg",
+              "fr": "0,75 kg",
+              "ko": "0.75 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.sight.info.zoom",
+            "args": {},
+            "lines": {
+              "ru": "Увеличение",
+              "en": "Magnification",
+              "es": "Aumento",
+              "fr": "Grossissement",
+              "ko": "배율"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "x4.00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed",
+              "es": "Velocidad de apuntado",
+              "fr": "Vitesse de visée",
+              "ko": "조준 속도"
+            }
+          },
+          "value": 10.000002,
+          "formatted": {
+            "value": {
+              "ru": "-10%",
+              "en": "-10%",
+              "es": "-10 %",
+              "fr": "-10%",
+              "ko": "-10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость доставания",
+              "en": "Draw speed",
+              "es": "Velocidad de desenfundado",
+              "fr": "Vitesse de dégainage",
+              "ko": "무기 꺼내기 속도"
+            }
+          },
+          "value": 4.999995,
+          "formatted": {
+            "value": {
+              "ru": "-5%",
+              "en": "-5%",
+              "es": "-5 %",
+              "fr": "-5%",
+              "ko": "-5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.scope_pso3.description",
+        "args": {},
+        "lines": {
+          "ru": "Модель ПСО-3@Прицел снайперский оптический предназначен для стрельбы по малогабаритным и хорошо замаскированным целям. Устанавливается на стандартное для стран Варшавского договора крепление «ласточкин хвост».",
+          "en": "Model: PSO-3@A sniper optical sight intended for firing at small-sized or well-concealed targets. Installed using the dovetail mount, which is standard in Warsaw Pact countries.",
+          "es": "Modelo: PSO-3@Una mira telescópica de francotirador destinada a disparar contra objetivos de pequeño tamaño o bien ocultos. Se instala utilizando la montura de cola de milano, estándar en los países del Pacto de Varsovia.",
+          "fr": "Modèle : PSO-3@ Un viseur optique de tireur d'élite destiné à tirer sur des cibles de petite taille ou bien dissimulées. Installé à l'aide de la monture à queue d'aronde, qui est standard dans les pays du Pacte de Varsovie.",
+          "ko": "모델: PSO-3@소형이거나 은폐가 잘 된 목표물을 사격하기 위한 저격용 광학조준경. 바르샤바 조약 국가들에서 표준으로 사용하는 더브테일 마운트를 이용하여 장착한다."
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for",
+          "es": "Adecuado para",
+          "fr": "Compatible avec",
+          "ko": "부착 가능"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sr3m.name",
+            "args": {},
+            "lines": {
+              "ru": "СР-3М",
+              "en": "SR-3M",
+              "es": "SR-3M",
+              "fr": "SR-3M",
+              "ko": "SR-3M"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.valm.name",
+            "args": {},
+            "lines": {
+              "ru": "АСМ «Сервал»",
+              "en": "ASM Serval",
+              "es": "ASM Serval",
+              "fr": "ASM Serval",
+              "ko": "ASM 세르발"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.vsk94.name",
+            "args": {},
+            "lines": {
+              "ru": "ВСК-94",
+              "en": "VSK-94",
+              "es": "VSK-94",
+              "fr": "VSK-94",
+              "ko": "VSK-94"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pkp.name",
+            "args": {},
+            "lines": {
+              "ru": "ПКП «Печенег»",
+              "en": "PKP Pecheneg",
+              "es": "PKP Pecheneg",
+              "fr": "PKP Petcheneg",
+              "ko": "PKP 페체네그"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svu_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "«Волна»",
+              "en": "Wave",
+              "es": "Ola",
+              "fr": "Tsunami",
+              "ko": "웨이브"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.vsk94_a.name",
+            "args": {},
+            "lines": {
+              "ru": "ВСК-94 (А)",
+              "en": "VSK-94 (A)",
+              "es": "VSK-94 (A)",
+              "fr": "VSK-94 (A)",
+              "ko": "VSK-94 (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svu_mod_a.name",
+            "args": {},
+            "lines": {
+              "ru": "«Волна» (А)",
+              "en": "Wave (A)",
+              "es": "Ola (A)",
+              "fr": "Vague (A)",
+              "ko": "파도 (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.vssm.name",
+            "args": {},
+            "lines": {
+              "ru": "ВСС-М «Винторез»",
+              "en": "VSS-M Vintorez",
+              "es": "VSS-M Vintorez",
+              "fr": "VSS-M Vintorez",
+              "ko": "VSS-M [빈토레즈]"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svdm.name",
+            "args": {},
+            "lines": {
+              "ru": "СВД-М",
+              "en": "SVD-M",
+              "es": "SVD-M",
+              "fr": "SVD-M",
+              "ko": "SVD-M"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.vityaz_sn.name",
+            "args": {},
+            "lines": {
+              "ru": "«Витязь-СН»",
+              "en": "Vityaz-SN",
+              "es": "Vityaz-SN",
+              "fr": "Vityaz-SN",
+              "ko": "비타즈-SN"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.gornostay.name",
+            "args": {},
+            "lines": {
+              "ru": "АКС-9 «Горностай»",
+              "en": "AKS-9 Stoat",
+              "es": "AKS-9 Armiño",
+              "fr": "AKS-9 Hermine",
+              "ko": "AKS-9 호젓"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.bizon.name",
+            "args": {},
+            "lines": {
+              "ru": "ПП-19 «Бизон-2-01»",
+              "en": "PP-19 Bizon-2-01",
+              "es": "PP-19 Bizon-2-01",
+              "fr": "PP-19 Bizon-2-01",
+              "ko": "PP-19 비존-2-01"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.vityaz.name",
+            "args": {},
+            "lines": {
+              "ru": "ПП-19-01 «Витязь»",
+              "en": "PP-19-01 Vityaz",
+              "es": "PP-19-01 Vityaz",
+              "fr": "PP-19-01 Vityaz",
+              "ko": "PP-19-01 비타즈"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.akmb.name",
+            "args": {},
+            "lines": {
+              "ru": "АКМ «Тишина»",
+              "en": "AKM Tishina",
+              "es": "AKM Tishina",
+              "fr": "AKM Tishina",
+              "ko": "AKM 티시나"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aek973.name",
+            "args": {},
+            "lines": {
+              "ru": "АЕК-973 «Марс»",
+              "en": "AEK-973 Mars",
+              "es": "AEK-973 Marte",
+              "fr": "AEK-973 Mars",
+              "ko": "AEK-973 마르스"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.akm9.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-9М «Койот»",
+              "en": "AK-9M Coyote",
+              "es": "AK-9M Coyote",
+              "fr": "AK-9M Coyote",
+              "ko": "AK-9M 코요테"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.val.name",
+            "args": {},
+            "lines": {
+              "ru": "АС «Вал»",
+              "en": "AS Val",
+              "es": "AS Val",
+              "fr": "AS Val",
+              "ko": "AS Val"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.abakan.name",
+            "args": {},
+            "lines": {
+              "ru": "АН-94М «Абакан»",
+              "en": "AN-94M Abakan",
+              "es": "AN-94M Abakan",
+              "fr": "AN-94M Abakan",
+              "ko": "AN-94M 아바칸"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sr3.name",
+            "args": {},
+            "lines": {
+              "ru": "СР-3 «Вихрь»",
+              "en": "SR-3 Vikhr",
+              "es": "SR-3 Vikhr",
+              "fr": "SR-3 Vikhr",
+              "ko": "SR-3 Vikhr"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak103.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-103",
+              "en": "AK-103",
+              "es": "AK-103",
+              "fr": "AK-103",
+              "ko": "AK-103"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aek971.name",
+            "args": {},
+            "lines": {
+              "ru": "АЕК-971",
+              "en": "AEK-971",
+              "es": "AEK-971",
+              "fr": "AEK-971",
+              "ko": "AEK-971"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rpk.name",
+            "args": {},
+            "lines": {
+              "ru": "РПК",
+              "en": "RPK",
+              "es": "RPK",
+              "fr": "RPK",
+              "ko": "RPK"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.9a91.name",
+            "args": {},
+            "lines": {
+              "ru": "9А-91",
+              "en": "9A-91",
+              "es": "9A-91",
+              "fr": "9A-91",
+              "ko": "9A-91"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.saiga.name",
+            "args": {},
+            "lines": {
+              "ru": "Сайга-12К",
+              "en": "Saiga-12K",
+              "es": "Saiga-12K",
+              "fr": "Saiga-12K",
+              "ko": "사이가-12K"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.rpk74.name",
+            "args": {},
+            "lines": {
+              "ru": "РПК-74",
+              "en": "RPK-74",
+              "es": "RPK-74",
+              "fr": "RPK-74",
+              "ko": "RPK-74"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aks74_mod.name",
+            "args": {},
+            "lines": {
+              "ru": "«Рапира»",
+              "en": "Rapier",
+              "es": "Estoque",
+              "fr": "Rapière",
+              "ko": "레이피어"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svd.name",
+            "args": {},
+            "lines": {
+              "ru": "СВД",
+              "en": "SVD",
+              "es": "SVD",
+              "fr": "SVD",
+              "ko": "SVD"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.vss.name",
+            "args": {},
+            "lines": {
+              "ru": "ВСС «Винторез»",
+              "en": "VSS Vintorez",
+              "es": "VSS Vintorez",
+              "fr": "VSS Vintorez",
+              "ko": "VSS 빈토레즈"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svds.name",
+            "args": {},
+            "lines": {
+              "ru": "СВД-С",
+              "en": "SVD-S",
+              "es": "SVD-S",
+              "fr": "SVD-S",
+              "ko": "SVD-S"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.svu.name",
+            "args": {},
+            "lines": {
+              "ru": "СВУ",
+              "en": "SVU",
+              "es": "SVU",
+              "fr": "SVU",
+              "ko": "SVU"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.akm.name",
+            "args": {},
+            "lines": {
+              "ru": "АКМ",
+              "en": "AKM",
+              "es": "AKM",
+              "fr": "AKM",
+              "ko": "AKM"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.abakan-05.name",
+            "args": {},
+            "lines": {
+              "ru": "АН-94 «Абакан»",
+              "en": "AN-94 Abakan",
+              "es": "AN-94 Abakan",
+              "fr": "AN-94 Abakan",
+              "ko": "AN-94 아바칸"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.wz88.name",
+            "args": {},
+            "lines": {
+              "ru": "Kbk wz. 88 Tantal",
+              "en": "Kbk wz. 88 Tantal",
+              "es": "Kbk wz. 88 Tantal",
+              "fr": "Kbk wz. 88 Tantal",
+              "ko": "FB 탄탈"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.sok94.name",
+            "args": {},
+            "lines": {
+              "ru": "СОК-94",
+              "en": "SOK-94",
+              "es": "SOK-94",
+              "fr": "SOK-94",
+              "ko": "SOK-94"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak105.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-105",
+              "en": "AK-105",
+              "es": "AK-105",
+              "fr": "AK-105",
+              "ko": "AK-105"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.gepard.name",
+            "args": {},
+            "lines": {
+              "ru": "«Гепард»",
+              "en": "Gepard",
+              "es": "Gepard",
+              "fr": "Guépard",
+              "ko": "게파드"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aks74.name",
+            "args": {},
+            "lines": {
+              "ru": "АКС-74",
+              "en": "AKS-74",
+              "es": "AKS-74",
+              "fr": "AKS-74",
+              "ko": "AKS-74"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak74m.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-74М",
+              "en": "AK-74M",
+              "es": "AK-74M",
+              "fr": "AK-74M",
+              "ko": "AK-74M"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aksu.name",
+            "args": {},
+            "lines": {
+              "ru": "АКС-74У",
+              "en": "AKS-74U",
+              "es": "AKS-74U",
+              "fr": "AKS-74U",
+              "ko": "AKS-74U"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

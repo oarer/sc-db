@@ -1,0 +1,176 @@
+{
+  "id": "g0vn",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.canister_petrol.name",
+    "args": {},
+    "lines": {
+      "ru": "Канистра с бензином",
+      "en": "Canister of Gas",
+      "es": "Bidón de gasolina",
+      "fr": "Bidon de gaz",
+      "ko": "가스 통"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 кг",
+              "en": "2.5 kg",
+              "es": "2,5 kg",
+              "fr": "2,5 kg",
+              "ko": "2.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.energy",
+            "args": {},
+            "lines": {
+              "ru": "Энергия",
+              "en": "Energy",
+              "es": "Energía",
+              "fr": "Énergie",
+              "ko": "에너지"
+            }
+          },
+          "value": 2000,
+          "formatted": {
+            "value": {
+              "ru": "2000 ед",
+              "en": "2000 unit(s)",
+              "es": "2000 unidad(es)",
+              "fr": "2000 unité(s)",
+              "ko": "2000 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.canister_petrol.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Стандартное топливо для двигателей на системе ДВС. Обладает высоким октановым числом, поэтому довольно быстро расходуется. Курить рядом с открытой канистрой строго запрещено!",
+          "en": "Standard fuel for ICE engines. Has a high octane rating, so it burns out relatively quickly. Smoking near an open canister is strictly prohibited!",
+          "es": "Combustible estándar para motores de combustión interna. Tiene un octanaje alto, por lo que se consume relativamente rápido. ¡Está terminantemente prohibido fumar cerca de un bidón abierto!",
+          "fr": "Contient de l'essence utilisée pour les moteurs ICE. Son taux d'octane élevé conduit à une combustion assez rapide. Il est déconseillé de fumer près qu'un bidon ouvert.",
+          "ko": "ICE 엔진용 표준 연료로, 옥탄가가 높아 연소 속도가 빠릅니다. 연료통 근처에서 흡연은 절대 금지입니다!"
+        }
+      }
+    }
+  ]
+}

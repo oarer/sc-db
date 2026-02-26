@@ -1,0 +1,214 @@
+{
+  "id": "5dgo",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.balon_propane.name",
+    "args": {},
+    "lines": {
+      "ru": "Баллон с пропаном",
+      "en": "Propane Tank",
+      "es": "Depósito de propano",
+      "fr": "Réservoir à propane",
+      "ko": "프로판 탱크"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5 кг",
+              "en": "5 kg",
+              "es": "5 kg",
+              "fr": "5 kg",
+              "ko": "5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.energy",
+            "args": {},
+            "lines": {
+              "ru": "Энергия",
+              "en": "Energy",
+              "es": "Energía",
+              "fr": "Énergie",
+              "ko": "에너지"
+            }
+          },
+          "value": 2500,
+          "formatted": {
+            "value": {
+              "ru": "2500 ед",
+              "en": "2500 unit(s)",
+              "es": "2500 unidad(es)",
+              "fr": "2500 unité(s)",
+              "ko": "2500 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "2850.0"
+            },
+            "lines": {
+              "ru": "2 850 руб.",
+              "en": "2,850 rubles",
+              "es": "2.850 rublos",
+              "fr": "2 850 roubles",
+              "ko": "2,850 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.balon_propane.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Топливо для газовых двигателей типа ДВС. Обладает меньшим запасом энергии, но благодаря своему составу может храниться в больших количествах на единицу объема. Часто встречается на промышленных объектах и массивных транспортных средствах.",
+          "en": "Gas engine fuel for ICE engines. Has a lower energy reserve but can be stored in larger quantities per unit volume. Often found in industrial sites and massive vehicles.",
+          "es": "Combustible gaseoso para motores de combustión interna. Tiene una menor reserva energética, pero puede almacenarse en mayores cantidades por unidad de volumen. Suele encontrarse en zonas industriales y vehículos de gran tamaño.",
+          "fr": "Contient du propane pour les moteurs ICE. Sa réserve d'énergie plus faible que les autres carburants permet de le stocker en de plus grandes quantités par unité de volume. On le trouve souvent dans des sites industriels et dans des véhicules de très grande taille.",
+          "ko": "ICE 엔진용 가스 연료입니다. 에너지 밀도는 낮지만, 부피당 더 많은 양을 저장할 수 있어 산업 현장과 대형 차량에 널리 사용됩니다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "id": "y5w3",
+  "category": "artefact/electrophysical",
+  "name": {
+    "type": "translation",
+    "key": "item.art.puzir_prisma.name",
+    "args": {},
+    "lines": {
+      "ru": "Призма",
+      "en": "Prism",
+      "es": "Prisma",
+      "fr": "Prisme",
+      "ko": "분광기"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.electrophysical",
+            "args": {},
+            "lines": {
+              "ru": "Электрофизические",
+              "en": "Electrophysical",
+              "es": "Electrofísica",
+              "fr": "Électrophysique",
+              "ko": "전기물리"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "120000.0"
+            },
+            "lines": {
+              "ru": "120 000 руб.",
+              "en": "120,000 rubles",
+              "es": "120.000 rublos",
+              "fr": "120 000 roubles",
+              "ko": "120,000 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 보호율"
+            }
+          },
+          "min": 12.325001,
+          "max": 14.5,
+          "formatted": {
+            "value": {
+              "ru": "[+12,33; +14,5]",
+              "en": "[+12.33; +14.5]",
+              "es": "[+12,33; +14,5]",
+              "fr": "[+12,33; +14,5]",
+              "ko": "[+12.33; +14.5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions",
+              "ko": "폭발 보호율"
+            }
+          },
+          "min": 9.52,
+          "max": 11.2,
+          "formatted": {
+            "value": {
+              "ru": "[+9,52; +11,2]",
+              "en": "[+9.52; +11.2]",
+              "es": "[+9,52; +11,2]",
+              "fr": "[+9,52; +11,2]",
+              "ko": "[+9.52; +11.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability",
+              "es": "Estabilidad",
+              "fr": "Stabilité",
+              "ko": "안정성"
+            }
+          },
+          "min": 2.21,
+          "max": 2.6,
+          "formatted": {
+            "value": {
+              "ru": "[+2,21%; +2,6%]",
+              "en": "[+2.21%; +2.6%]",
+              "es": "[+2,21 %; +2,6 %]",
+              "fr": "[+2,21%; +2,6%]",
+              "ko": "[+2.21%; +2.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys",
+              "ko": "정신파 방사물"
+            }
+          },
+          "min": 2.125,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "[+2,12; +2,5]",
+              "en": "[+2.12; +2.5]",
+              "es": "[+2,12; +2,5]",
+              "fr": "[+2,12; +2,5]",
+              "ko": "[+2.12; +2.5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.puzir_prisma.description",
+        "args": {},
+        "lines": {
+          "ru": "Многие учёные из НИИ-7 до сих пор пытаются понять, как формируется «Призма».\\n\\n Хотя на первый взгляд артефакт кажется простым геометрическим объектом из полупрозрачного материала, его внутренняя структура имеет мельчайшие грани, которые почти незаметны невооружённым глазом.\\n\\n Благодаря этой уникальной огранке «Призма» многократно преломляет световые лучи, создавая захватывающую игру света.",
+          "en": "Many scientists from Research Institute 7 are still trying to understand how Prism is formed.\\n\\n Although at first glance the artifact appears to be a simple geometric object made of translucent material, its internal structure has tiny facets that are almost imperceptible to the naked eye.\\n\\n Thanks to this unique cutting, Prism refracts light rays multiple times, creating a captivating play of light.",
+          "es": "Muchos científicos del Instituto de Investigación 7 siguen intentando comprender cómo se forma Prisma.\\n\\n Aunque a primera vista el artefacto parece un simple objeto geométrico de material translúcido, su estructura interna presenta diminutas facetas casi invisibles a simple vista.\\n\\n Gracias a estas facetas únicas, Prisma refracta los rayos de luz repetidamente, creando un espectacular juego de luces.",
+          "fr": "De nombreux scientifiques de l'Institut de Recherche 7 tentent encore de comprendre la formation du Prisme.\\n\\n Bien qu'il semble au premier abord être un simple objet géométrique en matériau translucide, sa structure interne comporte de minuscules facettes, presque invisibles à l'œil nu.\\n\\n Grâce à cette découpe unique, le Prisme réfracte les rayons lumineux à de multiples reprises, produisant un jeu de lumière captivant.",
+          "ko": "제7연구소의 많은 과학자들이 여전히 프리즘의 형성 과정을 이해하려고 노력한다.\\n\\n 처음 보기에는 반투명한 물질로 된 단순한 기하학적 물체로 보이지만 내부는 맨눈으로 감지할 수 없을 정도의 작은 면으로 구성되어 있다.\\n\\n 그 고유한 절삭 형태 덕분에 프리즘은 여러 차례 광선을 반사시켜 화려한 빛을 낸다."
+        }
+      }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 4.165,
+          "max": 4.9,
+          "formatted": {
+            "value": {
+              "en": "[4.165; 4.9]",
+              "ru": "[4.165; 4.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 3.23,
+          "max": 3.8,
+          "formatted": {
+            "value": {
+              "en": "[3.23; 3.8]",
+              "ru": "[3.23; 3.8]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 3.06,
+          "max": 3.6,
+          "formatted": {
+            "value": {
+              "en": "[3.06%; 3.6%]",
+              "ru": "[3.06%; 3.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

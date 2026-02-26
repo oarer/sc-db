@@ -1,0 +1,779 @@
+{
+  "id": "96kw0",
+  "category": "attachment/other",
+  "name": {
+    "type": "translation",
+    "key": "item.att.launcher_gp25.name",
+    "args": {},
+    "lines": {
+      "ru": "ГП-25 «Костер»",
+      "en": "GP-25 Kostyor",
+      "es": "GP-25 Kostyor",
+      "fr": "GP-25 Kostyor",
+      "ko": "GP-25 코스티어"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_USE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.other",
+            "args": {},
+            "lines": {
+              "ru": "Прочие обвесы",
+              "en": "Other Attachments",
+              "es": "Otros accesorios",
+              "fr": "Autres accessoires",
+              "ko": "기타 부착물"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1.5,
+          "formatted": {
+            "value": {
+              "ru": "1,5 кг",
+              "en": "1.5 kg",
+              "es": "1,5 kg",
+              "fr": "1,5 kg",
+              "ko": "1.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.lore.launcher.suitable_ammo",
+            "args": {},
+            "lines": {
+              "ru": "Подходящие боеприпасы",
+              "en": "Suitable ammo",
+              "es": "Munición adecuada",
+              "fr": "Munitions appropriées",
+              "ko": "호환되는 탄약"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.vog25.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный ВОГ-25",
+              "en": "VOG-25 Grenade Round",
+              "es": "Proyectil de granada VOG-25",
+              "fr": "Cartouche VOG-25",
+              "ko": "VOG-25 유탄"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.vog25p.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный ВОГ-25П «Подкидыш»",
+              "en": "VOG-25 Podkidysh Grenade Round",
+              "es": "Proyectil de granada VOG-25 Podkidysh",
+              "fr": "Cartouche VOG-25 Podkidysh",
+              "ko": "VOG-25 포드키디쉬 유탄"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.asz40.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный АСЗ-40 «Свирель»",
+              "en": "ASZ-40 Svirel Grenade Round",
+              "es": "Proyectil de granada ASZ-40 Svirel",
+              "fr": "Cartouche pour le Lance-Grenade ASZ-40 Svirel",
+              "ko": "ASZ-40 스비렐 유탄"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.m381_ffa_smoke.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный «Завеса»",
+              "en": "Veil grenade launcher shot",
+              "es": "Disparo de lanzagranadas Velo",
+              "fr": "Tir du lance-grenades Voile",
+              "ko": "장막 유탄 발사체"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.m381_ffa_m84qd.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный «Искра»",
+              "en": "Spark grenade launcher shot",
+              "es": "Disparo de lanzagranadas Chispa",
+              "fr": "Tir du lance-grenades Étincelle",
+              "ko": "스파크 유탄 발사체"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.m381_ffa_napalm.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный «Напалм»",
+              "en": "Napalm grenade launcher shot",
+              "es": "Disparo de lanzagranadas Napalm",
+              "fr": "Tir au lance-grenades Napalm",
+              "ko": "네이팜 유탄 발사체"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.m381_ffa_snowstorm.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный «Вьюга»",
+              "en": "Snowstorm grenade launcher shot",
+              "es": "Disparo de lanzagranadas Tormenta de nieve",
+              "fr": "Tir au lance-grenades Tempête de neige",
+              "ko": "폭설 유탄 발사체"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.m381_ffa_stunner.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный «Гудрон»",
+              "en": "Tar grenade launcher shot",
+              "es": "Disparo de lanzagranadas Alquitrán",
+              "fr": "Tir de lance-grenades Goudron",
+              "ko": "타르 유탄 발사체"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.m381_ffa_heal.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный «Подорожник»",
+              "en": "Plantain grenade launcher shot",
+              "es": "Disparo de lanzagranadas Plantago",
+              "fr": "Tir au lance-grenades Plantain",
+              "ko": "플랜테인 유탄 발사체"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.m381_ffa_sickness.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный «Хворь»",
+              "en": "Sickness grenade launcher shot",
+              "es": "Disparo de lanzagranadas Enfermedad",
+              "fr": "Tir de lance-grenades Maladie",
+              "ko": "질병 유탄 발사체"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.m381_ffa_stinker.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный «Вонючка»",
+              "en": "Stinky grenade launcher shot",
+              "es": "Disparo de lanzagranadas Apestoso",
+              "fr": "Tir de lance-grenades Puantes",
+              "ko": "악취 유탄 발사체"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.vog25_crafted.name",
+            "args": {},
+            "lines": {
+              "ru": "Кустарный выстрел ВОГ-25",
+              "en": "Jury-Rigged VOG-25 Round",
+              "es": "Proyectil de VOG-25 improvisado",
+              "fr": "Cartouche VOG-25 de Fortune",
+              "ko": "임시방편용 VOG-25 탄환"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.vog25p_crafted.name",
+            "args": {},
+            "lines": {
+              "ru": "Кустарный выстрел ВОГ-25П «Подкидыш»",
+              "en": "Jury-Rigged VOG-25P Podkidysh Round",
+              "es": "Proyectil de VOG-25P Podkidysh improvisado",
+              "fr": "Cartouche VOG-25 Podkidysh de Fortune",
+              "ko": "임시방편용 VOG-25P 포드키디쉬 유탄"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil",
+              "es": "Retroceso",
+              "fr": "Recul",
+              "ko": "반동"
+            }
+          },
+          "value": -4.2,
+          "formatted": {
+            "value": {
+              "ru": "-4,2%",
+              "en": "-4.2%",
+              "es": "-4,2 %",
+              "fr": "-4,2%",
+              "ko": "-4.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil",
+              "es": "Retroceso horizontal",
+              "fr": "Recul horizontal",
+              "ko": "수평 반동"
+            }
+          },
+          "value": -6,
+          "formatted": {
+            "value": {
+              "ru": "-6%",
+              "en": "-6%",
+              "es": "-6 %",
+              "fr": "-6%",
+              "ko": "-6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {
+              "ru": "Нарастание отдачи",
+              "en": "Recoil buildup",
+              "es": "Acumulación de retroceso",
+              "fr": "Accumulation du recul",
+              "ko": "반동 누적"
+            }
+          },
+          "value": -9.600001,
+          "formatted": {
+            "value": {
+              "ru": "-9,6%",
+              "en": "-9.6%",
+              "es": "-9,6 %",
+              "fr": "-9,6%",
+              "ko": "-9.6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Скорость доставания",
+              "en": "Draw speed",
+              "es": "Velocidad de desenfundado",
+              "fr": "Vitesse de dégainage",
+              "ko": "무기 꺼내기 속도"
+            }
+          },
+          "value": 25,
+          "formatted": {
+            "value": {
+              "ru": "-25%",
+              "en": "-25%",
+              "es": "-25 %",
+              "fr": "-25%",
+              "ko": "-25%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway",
+              "es": "Oscilación",
+              "fr": "Balancement",
+              "ko": "흔들림"
+            }
+          },
+          "value": 20.000004,
+          "formatted": {
+            "value": {
+              "ru": "+20%",
+              "en": "+20%",
+              "es": "+20 %",
+              "fr": "+20%",
+              "ko": "+20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.shoot_factor_decrement",
+            "args": {},
+            "lines": {
+              "ru": "Стабилизация",
+              "en": "Stabilization",
+              "es": "Estabilización",
+              "fr": "Stabilisation",
+              "ko": "안정성"
+            }
+          },
+          "value": 19.199848,
+          "formatted": {
+            "value": {
+              "ru": "+19,2%",
+              "en": "+19.2%",
+              "es": "+19,2 %",
+              "fr": "+19,2%",
+              "ko": "+19.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.launcher_gp25.description",
+        "args": {},
+        "lines": {
+          "ru": "Российский 40-мм подствольный гранатомет",
+          "en": "Russian 40 mm Underbarrel Grenade Launcher",
+          "es": "Lanzagranadas bajo el cañón ruso de 40 mm",
+          "fr": "Lance-grenades russe de 40 mm sous le canon",
+          "ko": "러시아산 40mm 언더배럴 유탄 발사기"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "translation",
+        "key": "weapon.lore.attachment.all_suitable_targets",
+        "args": {},
+        "lines": {
+          "ru": "Подходит для",
+          "en": "Suitable for",
+          "es": "Adecuado para",
+          "fr": "Compatible avec",
+          "ko": "부착 가능"
+        }
+      },
+      "elements": [
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak15.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-15",
+              "en": "AK-15",
+              "es": "AK-15",
+              "fr": "AK-15",
+              "ko": "AK-15"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak308.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-308",
+              "en": "AK-308",
+              "es": "AK-308",
+              "fr": "AK-308",
+              "ko": "AK-308"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak308_a.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-308 (А)",
+              "en": "AK-308 (A)",
+              "es": "AK-308 (A)",
+              "fr": "AK-308 (A)",
+              "ko": "AK-308 (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak12_a.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-12 (А)",
+              "en": "AK-12 (A)",
+              "es": "AK-12 (A)",
+              "fr": "AK-12 (A)",
+              "ko": "AK-12 (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.akmb.name",
+            "args": {},
+            "lines": {
+              "ru": "АКМ «Тишина»",
+              "en": "AKM Tishina",
+              "es": "AKM Tishina",
+              "fr": "AKM Tishina",
+              "ko": "AKM 티시나"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak203.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-203",
+              "en": "AK-203",
+              "es": "AK-203",
+              "fr": "AK-203",
+              "ko": "AK-203"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.abakan.name",
+            "args": {},
+            "lines": {
+              "ru": "АН-94М «Абакан»",
+              "en": "AN-94M Abakan",
+              "es": "AN-94M Abakan",
+              "fr": "AN-94M Abakan",
+              "ko": "AN-94M 아바칸"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.tkb.name",
+            "args": {},
+            "lines": {
+              "ru": "ТКБ-0146М",
+              "en": "TKB-0146M",
+              "es": "TKB-0146M",
+              "fr": "TKB-0146M",
+              "ko": "TKB-0146M"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak12.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-12",
+              "en": "AK-12",
+              "es": "AK-12",
+              "fr": "AK-12",
+              "ko": "AK-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.akm.name",
+            "args": {},
+            "lines": {
+              "ru": "АКМ",
+              "en": "AKM",
+              "es": "AKM",
+              "fr": "AKM",
+              "ko": "AKM"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.abakan-05.name",
+            "args": {},
+            "lines": {
+              "ru": "АН-94 «Абакан»",
+              "en": "AN-94 Abakan",
+              "es": "AN-94 Abakan",
+              "fr": "AN-94 Abakan",
+              "ko": "AN-94 아바칸"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.wz88.name",
+            "args": {},
+            "lines": {
+              "ru": "Kbk wz. 88 Tantal",
+              "en": "Kbk wz. 88 Tantal",
+              "es": "Kbk wz. 88 Tantal",
+              "fr": "Kbk wz. 88 Tantal",
+              "ko": "FB 탄탈"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak105.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-105",
+              "en": "AK-105",
+              "es": "AK-105",
+              "fr": "AK-105",
+              "ko": "AK-105"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.aks74.name",
+            "args": {},
+            "lines": {
+              "ru": "АКС-74",
+              "en": "AKS-74",
+              "es": "AKS-74",
+              "fr": "AKS-74",
+              "ko": "AKS-74"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.ak74m.name",
+            "args": {},
+            "lines": {
+              "ru": "АК-74М",
+              "en": "AK-74M",
+              "es": "AK-74M",
+              "fr": "AK-74M",
+              "ko": "AK-74M"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

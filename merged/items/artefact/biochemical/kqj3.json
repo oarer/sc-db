@@ -1,0 +1,450 @@
+{
+  "id": "kqj3",
+  "category": "artefact/biochemical",
+  "name": {
+    "type": "translation",
+    "key": "item.art.kisel_ulitka.name",
+    "args": {},
+    "lines": {
+      "ru": "Улитка",
+      "en": "Snail",
+      "es": "Caracol",
+      "fr": "Escargot",
+      "ko": "달팽이"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.biochemical",
+            "args": {},
+            "lines": {
+              "ru": "Биохимические",
+              "en": "Biochemical",
+              "es": "Bioquímica",
+              "fr": "Biochimique",
+              "ko": "생화학"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "7200.0"
+            },
+            "lines": {
+              "ru": "7 200 руб.",
+              "en": "7,200 rubles",
+              "es": "7.200 rublos",
+              "fr": "7 200 roubles",
+              "ko": "7,200 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "min": 10.54,
+          "max": 12.4,
+          "formatted": {
+            "value": {
+              "ru": "[+10,54%; +12,4%]",
+              "en": "[+10.54%; +12.4%]",
+              "es": "[+10,54 %; +12,4 %]",
+              "fr": "[+10,54%; +12,4%]",
+              "ko": "[+10.54%; +12.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "min": 1.105,
+          "max": 1.3,
+          "formatted": {
+            "value": {
+              "ru": "[+1,1%; +1,3%]",
+              "en": "[+1.1%; +1.3%]",
+              "es": "[+1,1 %; +1,3 %]",
+              "fr": "[+1,1%; +1,3%]",
+              "ko": "[+1.1%; +1.3%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique",
+              "ko": "생체 감염"
+            }
+          },
+          "min": -3.04,
+          "max": -2.584,
+          "formatted": {
+            "value": {
+              "ru": "[-3,04; -2,58]",
+              "en": "[-3.04; -2.58]",
+              "es": "[-3,04; -2,58]",
+              "fr": "[-3,04; -2,58]",
+              "ko": "[-3.04; -2.58]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.kisel_ulitka.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшое округлое образование, напоминающее панцирь улитки. Эта своеобразная оболочка, однако, мало связана с живой природой, ведь полностью состоит из меди.\\n\\n Жидкость, заполняющая полость трубки, больше всего интересует ученых. Несмотря на полную герметичность оболочки, раствор периодически просачивается наружу. По словам профессора Науменко, внутреннее содержимое артефакта обладает свойствами сверхтекучести при нормальных условиях, что полностью противоречит привычным законам физики.",
+          "en": "A small rounded formation resembling a snail shell. This peculiar shell, however, has little to do with living nature as it is entirely composed of copper.\\n\\n The liquid filling the tube's cavity interests scientists the most. Despite the complete hermetic sealing of the shell, the solution periodically seeps out. According to Professor Naumenko, the internal content of the artifact exhibits superfluid properties under normal conditions, a phenomenon that entirely contradicts conventional physical laws.",
+          "es": "Pequeña formación redondeada parecida a la concha de un caracol. Esta peculiar concha, sin embargo, tiene poco que ver con la naturaleza viva, ya que está compuesta enteramente de cobre.\\n\\n Lo que más interesa a los científicos es el líquido que llena la cavidad del tubo. A pesar de la total hermeticidad de la concha, la solución se filtra periódicamente. Según el profesor Naumenko, el contenido interno del artefacto tiene las propiedades de la superfluidez en condiciones normales, lo que contradice por completo las leyes habituales de la física.",
+          "fr": "Une petite formation arrondie évoquant une coquille d'escargot. Cette coquille particulière, cependant, n'a que peu de lien avec le monde vivant, car elle est entièrement composée de cuivre.\\n\\n Le liquide contenu dans la cavité du tube intrigue particulièrement les scientifiques. Malgré l'étanchéité totale de la coquille, la solution suinte parfois. Selon le professeur Naumenko, le contenu interne de l'artefact manifeste des propriétés de superfluidité à température ambiante, un phénomène qui contredit entièrement les lois physiques conventionnelles.",
+          "ko": "달팽이 껍질을 연상시키는 작고 동그란 모양을 하고 있다. 하지만 온전히 구리 성분으로 되어 있기에 생명체와는 전혀 관련이 없다.\\n\\n 관의 내부를 채우고 있는 액체에 과학자들은 가장 큰 관심을 보인다. 껍질이 완전히 밀폐되어 있음에도 불구하고 이 액체는 주기적으로 스며나온다. 나우멘코 교수에 따르면 아티팩트 내부의 물질은 일반적인 조건에서 초유동체의 특성을 보인다고 하는데, 이는 기존의 물리 법칙과 완전히 모순되는 현상이다."
+        }
+      }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding Protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements"
+            }
+          },
+          "min": 4.335,
+          "max": 5.1,
+          "formatted": {
+            "value": {
+              "en": "[4.335%; 5.1%]",
+              "ru": "[4.335%; 5.1%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 3.57,
+          "max": 4.2,
+          "formatted": {
+            "value": {
+              "en": "[3.57%; 4.2%]",
+              "ru": "[3.57%; 4.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.425,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "en": "[0.425%; 0.5%]",
+              "ru": "[0.425%; 0.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

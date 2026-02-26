@@ -1,0 +1,203 @@
+{
+  "id": "400j",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.emerald_minerals.name",
+    "args": {},
+    "lines": {
+      "ru": "Изумрудные минералы",
+      "en": "Emerald Minerals",
+      "es": "Minerales esmeralda",
+      "fr": "Minéraux Émeraude",
+      "ko": "에메랄드 광물"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.015,
+          "formatted": {
+            "value": {
+              "ru": "0,02 кг",
+              "en": "0.02 kg",
+              "es": "0,02 kg",
+              "fr": "0,02 kg",
+              "ko": "0.02 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l'artisanat",
+              "ko": "제작에 사용"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "35.0"
+            },
+            "lines": {
+              "ru": "35 руб.",
+              "en": "35 rubles",
+              "es": "35 rublos",
+              "fr": "35 roubles",
+              "ko": "35 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.emerald_minerals.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Минерал естественного вулканического происхождения, найти который можно только в зараженных участках. Получил свое название из-за цвета полицинкового соединения, которое скапливается в узоры на поверхности.",
+          "en": "A mineral of natural volcanic origin, found only in affected areas. It got its name due to the polychrome compounds that accumulate in patterns on the surface.",
+          "es": "Mineral de origen volcánico natural que solo se encuentra en las zonas afectadas. Debe su nombre a los compuestos policromos que se acumulan en forma de patrones en la superficie.",
+          "fr": "Un minéral d'origine volcanique uniquement trouvable dans les régions affectées. Son nom provient des composés polychromes qui forment des motifs à sa surface.",
+          "ko": "영향을 받은 지역에서만 발견되는 천연 화산성 광물. 표면에 다양한 색조의 화합물이 무늬를 이루며 축적되기 때문에, 이러한 이름이 붙었다."
+        }
+      }
+    },
+    {}
+  ]
+}

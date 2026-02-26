@@ -4,7 +4,7 @@ import http from "node:http";
 
 const PORT = 7829;
 const TOKEN = process.env.SYNC_TOKEN;
-const REPO = "/repo";
+const REPO = "/merged";
 
 if (!TOKEN) {
 	console.error("[SYNC] SYNC_TOKEN is not set");

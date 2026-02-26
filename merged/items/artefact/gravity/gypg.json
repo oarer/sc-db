@@ -1,0 +1,534 @@
+{
+  "id": "gypg",
+  "category": "artefact/gravity",
+  "name": {
+    "type": "translation",
+    "key": "item.art.karousel_jelch.name",
+    "args": {},
+    "lines": {
+      "ru": "Плод",
+      "en": "Embryo",
+      "es": "Embrión",
+      "fr": "Embryon",
+      "ko": "엠브리오"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.gravity",
+            "args": {},
+            "lines": {
+              "ru": "Гравитационные",
+              "en": "Gravitational",
+              "es": "Gravitacional",
+              "fr": "Gravitationnelle",
+              "ko": "중력"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1900.0"
+            },
+            "lines": {
+              "ru": "1 900 руб.",
+              "en": "1,900 rubles",
+              "es": "1.900 rublos",
+              "fr": "1 900 roubles",
+              "ko": "1,900 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "min": 0.2975,
+          "max": 0.35,
+          "formatted": {
+            "value": {
+              "ru": "[+0,3%; +0,35%]",
+              "en": "[+0.3%; +0.35%]",
+              "es": "[+0,3 %; +0,35 %]",
+              "fr": "[+0,3%; +0,35%]",
+              "ko": "[+0.3%; +0.35%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "min": 1.2750001,
+          "max": 1.5,
+          "formatted": {
+            "value": {
+              "ru": "[+1,28%; +1,5%]",
+              "en": "[+1.28%; +1.5%]",
+              "es": "[+1,28 %; +1,5 %]",
+              "fr": "[+1,28%; +1,5%]",
+              "ko": "[+1.28%; +1.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation",
+              "ko": "방사능"
+            }
+          },
+          "min": 0.425,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "[+0,42; +0,5]",
+              "en": "[+0.42; +0.5]",
+              "es": "[+0,42; +0,5]",
+              "fr": "[+0,42; +0,5]",
+              "ko": "[+0.42; +0.5]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique",
+              "ko": "생체 감염"
+            }
+          },
+          "min": -2.16,
+          "max": -1.8360001,
+          "formatted": {
+            "value": {
+              "ru": "[-2,16; -1,84]",
+              "en": "[-2.16; -1.84]",
+              "es": "[-2,16; -1,84]",
+              "fr": "[-2,16; -1,84]",
+              "ko": "[-2.16; -1.84]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "min": -0.7,
+          "max": -0.595,
+          "formatted": {
+            "value": {
+              "ru": "[-0,7; -0,6]",
+              "en": "[-0.7; -0.6]",
+              "es": "[-0,7; -0,6]",
+              "fr": "[-0,7; -0,6]",
+              "ko": "[-0.7; -0.6]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_chemical_burn",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на хим. ожог",
+              "en": "Reaction to chemical burns",
+              "es": "Reacción a quemaduras químicas",
+              "fr": "Réaction aux brûlures chimiques",
+              "ko": "화학 화상 대항 능력"
+            }
+          },
+          "min": 0.595,
+          "max": 0.7,
+          "formatted": {
+            "value": {
+              "ru": "[+0,6%; +0,7%]",
+              "en": "[+0.6%; +0.7%]",
+              "es": "[+0,6 %; +0,7 %]",
+              "fr": "[+0,6%; +0,7%]",
+              "ko": "[+0.6%; +0.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.karousel_jelch.description",
+        "args": {},
+        "lines": {
+          "ru": "Многие сталкеры полагают, что аномальное образование появляется буквально вследствие попадания какого-либо плода в «Волчок», однако возникновение артефакта даже в аномалиях, отдаленных от любой растительности, значительно бьет по такой гипотезе.\\n\\n Отделение артефактологии НИИ-7 считает, что возникновение «Плода» может происходить из-за неопределенного воздействия аномалии на эндемические микроорганизмы, находящиеся в почве или атмосфере ЧЗО.",
+          "en": "Many stalkers believe that the anomalous formation literally appears due to some fruit falling into Blender, but the occurrence of the artifact even in anomalies remote from any vegetation significantly undermines this hypothesis.\\n\\n The artifactology department of the Research Institute 7 believes that the emergence of the Embryo may result from an unspecified impact of the anomaly on endemic microorganisms found in the soil or atmosphere of the CEZ.",
+          "es": "Muchos acechadores creen que la formación anómala aparece literalmente como resultado de la caída de algún producto en Remolino, pero la aparición del artefacto incluso en anomalías alejadas de cualquier vegetación desmiente significativamente tal hipótesis.\\n\\n El Departamento de Artifactología del Instituto de Investigación 7 cree que la aparición de Embrión puede deberse al efecto indeterminado de la anomalía sobre los microorganismos endémicos del suelo o la atmósfera de la Zona de exclusión de Chernóbil.",
+          "fr": "De nombreux stalkers pensent que la formation anormale apparaît littéralement en raison de la chute d'un fruit dans le Tourbillion, mais l'apparition de l'artefact même dans des anomalies éloignées de toute végétation remet sérieusement en question cette hypothèse.\\n\\nLe département d'artéfactologie de l'Institut de Recherche 7 estime que l'émergence de l'Embryon pourrait résulter d'un impact non spécifié de l'anomalie sur des micro-organismes endémiques présents dans le sol ou l'atmosphère de la Zone d'exclusion de Tchernobyl.",
+          "ko": "많은 스토커들은 해당 이상 구조물이 몇몇 열매가 블렌더로 떨어지면서 생겨났다고 믿는다. 하지만 식물이 자라는 곳과 멀리 떨어진 이상현상 속에서도 이 아티팩트가 발견되기 때문에, 그 가설의 신빙성은 낮다.\\n\\n 제7연구소의 유물학부는 체르노빌 제외 구역의 토양이나 대기 중에서 발견된 토착 미생물에 대한 불특정한 이상현상 효과로 인해 엠브리오가 형성된 것이라고 보고 있다."
+        }
+      }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 0.425,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "en": "[0.425%; 0.5%]",
+              "ru": "[0.425%; 0.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement"
+            }
+          },
+          "min": -0.3,
+          "max": -0.24,
+          "formatted": {
+            "value": {
+              "en": "[-0.3; -0.24]",
+              "ru": "[-0.3; -0.24]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.28,
+          "max": 0.35,
+          "formatted": {
+            "value": {
+              "en": "[0.28%; 0.35%]",
+              "ru": "[0.28%; 0.35%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

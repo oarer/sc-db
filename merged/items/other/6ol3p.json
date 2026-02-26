@@ -1,0 +1,186 @@
+{
+  "id": "6ol3p",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.brt.pd.mob.name",
+    "args": {},
+    "lines": {
+      "ru": "Северный мох",
+      "en": "Northern Moss",
+      "es": "Musgo del norte",
+      "fr": "Mousse du nord",
+      "ko": "북부 이끼"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.01,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg",
+              "ko": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "32.0"
+            },
+            "lines": {
+              "ru": "32 руб.",
+              "en": "32 rubles",
+              "es": "32 rublos",
+              "fr": "32 roubles",
+              "ko": "32 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.brt.pd.mob.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Этот синеватый мох на экспериментальной основе используется парой немецких компаний при производстве новейших антибиотиков. Следовательно, он крайне ценен.",
+          "en": "This bluish moss is being used on an experimental basis by a couple of German companies for the production of new antibiotics. As a result, it is extremely valuable.",
+          "es": "Un par de empresas alemanas están utilizando este musgo azulado con carácter experimental para la producción de nuevos antibióticos. Por lo tanto, es valiosísimo.",
+          "fr": "Cette mousse bleuâtre est utilisée à titre expérimental par quelques entreprises Allemandes pour la production de nouveaux antibiotiques. En conséquence, il est extrêmement précieux.",
+          "ko": "이 푸른빛 이끼는 독일의 몇몇 회사들이 새로운 항생제 생산을 위해 실험적으로 사용되고 있다. 그런 관계로, 이것은 매우 귀중하게 여겨진다."
+        }
+      }
+    }
+  ]
+}

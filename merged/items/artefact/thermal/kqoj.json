@@ -1,0 +1,506 @@
+{
+  "id": "kqoj",
+  "category": "artefact/thermal",
+  "name": {
+    "type": "translation",
+    "key": "item.art.blizzard_heel.name",
+    "args": {},
+    "lines": {
+      "ru": "Каблук",
+      "en": "Heel",
+      "es": "Tacón",
+      "fr": "Talon",
+      "ko": "수정 구두"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.thermal",
+            "args": {},
+            "lines": {
+              "ru": "Термические",
+              "en": "Thermal",
+              "es": "Térmico",
+              "fr": "Thermique",
+              "ko": "열"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "19900.0"
+            },
+            "lines": {
+              "ru": "19 900 руб.",
+              "en": "19,900 rubles",
+              "es": "19.900 rublos",
+              "fr": "19 900 roubles",
+              "ko": "19,900 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins",
+              "ko": "치유 효율"
+            }
+          },
+          "min": 13.005,
+          "max": 15.3,
+          "formatted": {
+            "value": {
+              "ru": "[+13%; +15,3%]",
+              "en": "[+13%; +15.3%]",
+              "es": "[+13 %; +15,3 %]",
+              "fr": "[+13%; +15,3%]",
+              "ko": "[+13%; +15.3%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions",
+              "ko": "폭발 보호율"
+            }
+          },
+          "min": 11.39,
+          "max": 13.4,
+          "formatted": {
+            "value": {
+              "ru": "[+11,39; +13,4]",
+              "en": "[+11.39; +13.4]",
+              "es": "[+11,39; +13,4]",
+              "fr": "[+11,39; +13,4]",
+              "ko": "[+11.39; +13.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température",
+              "ko": "열"
+            }
+          },
+          "min": -0.384,
+          "max": -0.3264,
+          "formatted": {
+            "value": {
+              "ru": "[-0,38; -0,33]",
+              "en": "[-0.38; -0.33]",
+              "es": "[-0,38; -0,33]",
+              "fr": "[-0,38; -0,33]",
+              "ko": "[-0.38; -0.33]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.frost_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Холод",
+              "en": "Frost",
+              "es": "Congelación",
+              "fr": "Givre",
+              "ko": "서리"
+            }
+          },
+          "min": 0.85,
+          "max": 1,
+          "formatted": {
+            "value": {
+              "ru": "[+0,85; +1]",
+              "en": "[+0.85; +1]",
+              "es": "[+0,85; +1]",
+              "fr": "[+0,85; +1]",
+              "ko": "[+0.85; +1]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.reaction_to_burn",
+            "args": {},
+            "lines": {
+              "ru": "Реакция на ожог",
+              "en": "Reaction to burns",
+              "es": "Reacción a las quemaduras",
+              "fr": "Réaction aux brûlures",
+              "ko": "발화 대항 능력"
+            }
+          },
+          "min": 1.2750001,
+          "max": 1.5,
+          "formatted": {
+            "value": {
+              "ru": "[+1,28%; +1,5%]",
+              "en": "[+1.28%; +1.5%]",
+              "es": "[+1,28 %; +1,5 %]",
+              "fr": "[+1,28%; +1,5%]",
+              "ko": "[+1.28%; +1.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.blizzard_heel.description",
+        "args": {},
+        "lines": {
+          "ru": "Артефакт Бурана, напоминающий перевернутый каблук, имеет довольно необычный состав и структуру для артефакта, на первый взгляд полностью состоящего из обыкновенного льда.\\n\\n Как и в случае с «Фаренгейтом», дело заключается в необычном содержании газов, чья масса значительно ниже веса воздуха. Полая структура артефакта и свойства газов внутри него создают необычный эффект, напоминающий поведение куклы-неваляшки.",
+          "en": "A Blizzard artifact, resembling an inverted heel, has quite an unusual composition and structure for an artifact that, at first glance, seems to consist entirely of ordinary ice.\\n\\n Similar to Fahrenheit, the issue lies in the unusual gas content, whose mass is significantly lighter than air. The hollow structure of the artifact and the properties of the gases inside create a peculiar effect, reminiscent of the behavior of a roly-poly toy.",
+          "es": "El artefacto de Ventisca, parecido a un talón invertido, tiene una composición y una estructura bastante inusuales para un artefacto, a primera vista enteramente compuesto de hielo ordinario.\\n\\n Como en el caso de Fahrenheit, esto se debe al inusual contenido de gases cuya masa es muy inferior al peso del aire. La estructura hueca del artefacto y las propiedades de los gases que contiene crean un efecto inusual que recuerda al comportamiento de un tentetieso.",
+          "fr": "Un artefact de Blizzard, ressemblant à un talon inversé, possède une composition et une structure assez inhabituelles pour un artefact qui, à première vue, semble entièrement constitué de glace ordinaire.\\n\\n Comme pour le Fahrenheit, le problème réside dans la teneur en gaz inhabituelle, dont la masse est nettement plus légère que l'air. La structure creuse de l'artefact et les propriétés des gaz à l'intérieur créent un effet particulier, rappelant le comportement d'un jouet culbuto.",
+          "ko": "뒤집어진 구두를 닮은 눈보라 아티팩트는 얼핏 보기엔 평범한 얼음으로만 구성된 듯하지만, 비정상적인 성분과 구조를 특징으로 한다.\\n\\n 화씨와 마찬가지로 공기보다 훨씬 가벼운 특이한 기체 성분에 문제가 있다. 아티팩트의 공동 구조와 그 안에 있는 기체의 특성이 특이한 효과를 만들어 오뚝이와 비슷한 성질을 보여준다."
+        }
+      }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 3.7,
+          "max": 4.5,
+          "formatted": {
+            "value": {
+              "en": "[3.7; 4.5]",
+              "ru": "[3.7; 4.5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 14.98,
+          "max": 18.2,
+          "formatted": {
+            "value": {
+              "en": "[14.98; 18.2]",
+              "ru": "[14.98; 18.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 4.335,
+          "max": 5.1,
+          "formatted": {
+            "value": {
+              "en": "[4.335%; 5.1%]",
+              "ru": "[4.335%; 5.1%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

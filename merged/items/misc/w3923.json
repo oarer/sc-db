@@ -1,0 +1,230 @@
+{
+  "id": "w3923",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.npc_7.name",
+    "args": {},
+    "lines": {
+      "ru": "Сменный аккумулятор",
+      "en": "Replacement Battery",
+      "es": "Batería de recambio",
+      "fr": "Batterie de rechange",
+      "ko": "교체용 배터리"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "0,5 кг",
+              "en": "0.5 kg",
+              "es": "0,5 kg",
+              "fr": "0,5 kg",
+              "ko": "0.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l'artisanat",
+              "ko": "제작에 사용"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.energy",
+            "args": {},
+            "lines": {
+              "ru": "Энергия",
+              "en": "Energy",
+              "es": "Energía",
+              "fr": "Énergie",
+              "ko": "에너지"
+            }
+          },
+          "value": 1000,
+          "formatted": {
+            "value": {
+              "ru": "1000 ед",
+              "en": "1000 unit(s)",
+              "es": "1000 unidad(es)",
+              "fr": "1000 unité(s)",
+              "ko": "1000 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "1200.0"
+            },
+            "lines": {
+              "ru": "1 200 руб.",
+              "en": "1,200 rubles",
+              "es": "1.200 rublos",
+              "fr": "1 200 roubles",
+              "ko": "1,200 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.filler.npc_7.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Говорят, некоторые сталкеры из Европы уже вовсю пользуются ПДА на солнечных батареях, но большинство исследователей Зоны довольствуется старыми моделями, которым необходимы сменные аккумуляторы.",
+          "en": "They say that some stalkers from Europe use PDAs that run off solar batteries, but most researchers in the Zone make do with the old models that take replaceable batteries.",
+          "es": "Dicen que algunos acechadores de Europa utilizan PDA que funcionan con baterías solares, pero la mayoría de los investigadores de la Zona se las apañan con los modelos antiguos que funcionan con pilas de recambio.",
+          "fr": "On dit que certains stalkers en Europe utilisent des PDA qui marchent aux batteries solaires, mais la plupart des chercheurs dans la Zone font avec les vieux modèles à batterie changeable.",
+          "ko": "유럽에서 온 몇몇 스토커들은 태양 에너지로 작동하는 PDA를 사용한다고 하지만, 대부분의 구역 연구자들은 교체 배터리를 사용하는 구모델에 만족한다."
+        }
+      }
+    },
+    {}
+  ]
+}

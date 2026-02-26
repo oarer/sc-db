@@ -1,0 +1,231 @@
+{
+  "id": "7l127",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.anomal_dust.name",
+    "args": {},
+    "lines": {
+      "ru": "Аномальная пыль",
+      "en": "Anomalous Dust",
+      "es": "Polvo anómalo",
+      "fr": "Poussière anormale",
+      "ko": "이상 먼지"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.01,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg",
+              "ko": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l'artisanat",
+              "ko": "제작에 사용"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.energy",
+            "args": {},
+            "lines": {
+              "ru": "Энергия",
+              "en": "Energy",
+              "es": "Energía",
+              "fr": "Énergie",
+              "ko": "에너지"
+            }
+          },
+          "value": 50,
+          "formatted": {
+            "value": {
+              "ru": "50 ед",
+              "en": "50 unit(s)",
+              "es": "50 unidad(es)",
+              "fr": "50 unité(s)",
+              "ko": "50 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "250.0"
+            },
+            "lines": {
+              "ru": "250 руб.",
+              "en": "250 rubles",
+              "es": "250 rublos",
+              "fr": "250 roubles",
+              "ko": "250 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.anomal_dust.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Наименьшие частицы, полученные в процессе формирования протоартефактов, способны накапливать аномальную энергию.",
+          "en": "The smallest particles that are obtained during the process of forming protoartifacts. They are capable of accumulating anomalous energy.",
+          "es": "Las partículas más pequeñas que se obtienen durante el proceso de formación de protoartefactos. Pueden acumular energía anómala.",
+          "fr": "Les plus petites particules obtenues lors du processus de formation de proto-artefacts. Elles sont capables d'accumuler une énergie anormale.",
+          "ko": "원시아티팩트가 형성되는 과정에서 얻어지는 아주 작은 입자들이다. 이상 에너지를 저장할 수 있는 능력이 있습니다."
+        }
+      }
+    },
+    {}
+  ]
+}

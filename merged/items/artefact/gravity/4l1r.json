@@ -1,0 +1,450 @@
+{
+  "id": "4l1r",
+  "category": "artefact/gravity",
+  "name": {
+    "type": "translation",
+    "key": "item.art.trampoline_protomeduza.name",
+    "args": {},
+    "lines": {
+      "ru": "Протоцибуля",
+      "en": "Proto-Onion",
+      "es": "Proto-Cebolla",
+      "fr": "Proto-Oignon",
+      "ko": "원시양파"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.gravity",
+            "args": {},
+            "lines": {
+              "ru": "Гравитационные",
+              "en": "Gravitational",
+              "es": "Gravitacional",
+              "fr": "Gravitationnelle",
+              "ko": "중력"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "7300.0"
+            },
+            "lines": {
+              "ru": "7 300 руб.",
+              "en": "7,300 rubles",
+              "es": "7.300 rublos",
+              "fr": "7 300 roubles",
+              "ko": "7,300 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.quality.common",
+            "args": {},
+            "lines": {
+              "ru": "Обычный",
+              "en": "Common",
+              "es": "Común",
+              "fr": "Commun",
+              "ko": "일반"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.not_probed",
+            "args": {},
+            "lines": {
+              "ru": "Не исследовано",
+              "en": "Not studied",
+              "es": "No estudiado",
+              "fr": "Non étudié",
+              "ko": "연구되지 않음"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.freshness",
+            "args": {},
+            "lines": {
+              "ru": "Свежесть",
+              "en": "Freshness",
+              "es": "Frescura",
+              "fr": "Fraîcheur",
+              "ko": "품질"
+            }
+          },
+          "value": {
+            "type": "text",
+            "text": "III"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. заряд",
+              "en": "Max. charge",
+              "es": "Carga máx.",
+              "fr": "Charge maximale",
+              "ko": "최대 충전량"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "min": 2.295,
+          "max": 2.7,
+          "formatted": {
+            "value": {
+              "ru": "[+2,3%; +2,7%]",
+              "en": "[+2.3%; +2.7%]",
+              "es": "[+2,3 %; +2,7 %]",
+              "fr": "[+2,3%; +2,7%]",
+              "ko": "[+2.3%; +2.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins",
+              "ko": "치유 효율"
+            }
+          },
+          "min": 4.0800004,
+          "max": 4.8,
+          "formatted": {
+            "value": {
+              "ru": "[+4,08%; +4,8%]",
+              "en": "[+4.08%; +4.8%]",
+              "es": "[+4,08 %; +4,8 %]",
+              "fr": "[+4,08%; +4,8%]",
+              "ko": "[+4.08%; +4.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation",
+              "ko": "방사능"
+            }
+          },
+          "min": -3.04,
+          "max": -2.584,
+          "formatted": {
+            "value": {
+              "ru": "[-3,04; -2,58]",
+              "en": "[-3.04; -2.58]",
+              "es": "[-3,04; -2,58]",
+              "fr": "[-3,04; -2,58]",
+              "ko": "[-3.04; -2.58]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.art.trampoline_protomeduza.description",
+        "args": {},
+        "lines": {
+          "ru": "Как и «Цибуля», этот артефакт состоит из различных живых клеток, которые можно отнести почти к каждому царству. Ботаники, занимающиеся растительностью Зоны, считают, что «Протоцибуля» может являться своеобразным плодом, в то время как обычная «Цибуля» является скорее семечком. В то же время зоологи считают, что артефакт может представлять из себя личиночную стадию развития какого-то животного.\\n\\n К большому сожалению ученых, что ломают головы над природой этих двух артефактов, достоверно установить, являются ли они живыми в той мере, в какой это понятие существовало до появления аномальной Зоны, так и не удалось из-за множества расхождений их природы с классической биологией.",
+          "en": "Like Onion, this artifact consists of various living cells that can be attributed to almost every kingdom. Botanists studying the Zone's vegetation believe that the Proto-Onion might be a kind of fruit, whereas the regular Onion is more like a seed. At the same time, zoologists think that the artifact might represent the larval stage of some animal's development.\\n\\n Unfortunately, for scientists struggling to understand the nature of these two artifacts, it has not been possible to determine whether they are alive to the extent understood before the Zone's anomaly appeared, due to the many discrepancies of their nature with classical biology.",
+          "es": "Al igual que Cebolla, este artefacto está formado por diversas células vivas que pueden atribuirse a casi todos los reinos. Los botánicos que se ocupan de la vegetación de la Zona creen que Proto-Cebolla puede ser una especie de fruta, mientras que la habitual Cebolla es más bien una semilla. Al mismo tiempo, los zoólogos creen que el artefacto puede representar la fase larvaria de desarrollo de algún animal.\\n\\n Para gran pesar de los científicos que se rompen la cabeza sobre la naturaleza de estos dos artefactos, para establecer de forma fiable si están vivos en la medida en que este concepto existía antes de la aparición de la Zona anómala, no ha sido capaz debido a las muchas discrepancias en su naturaleza con la biología clásica.",
+          "fr": "Semblable à l'Oignon, cet artefact est constitué de diverses cellules vivantes pouvant être attribuées à presque tous les règnes. Les botanistes étudiant la végétation de la Zone pensent que le Proto-Oignon pourrait être une sorte de fruit, tandis que l'Oignon ordinaire ressemblerait davantage à une graine. En même temps, les zoologistes estiment que l'artefact pourrait représenter le stade larvaire du développement d'un animal.\\n\\n Malheureusement, pour les scientifiques cherchant à comprendre la nature de ces deux artefacts, il n'a pas été possible de déterminer s'ils sont vivants dans la mesure comprise avant l'apparition de l'anomalie de la Zone, en raison des nombreuses divergences de leur nature avec la biologie classique.",
+          "ko": "양파와 같이, 이 아티팩트는 거의 모든 생물 계의 특성을 동시에 지닌 살아있는 세포로 이루어져 있다. 구역의 초목을 연구하는 식물학자들은 일반적인 양파가 씨앗에 가까운 것과 달리, 원시양파는 과일의 일종이라고 생각한다. 동시에, 동물학자들은 해당 아티팩트가 동물의 성장 과정 중 유년기 단계일 수도 있다고 생각한다. \\n\\n두 아티팩트의 생리를 이해하기 위한 과학자들의 노력에도 불구하고, 구역의 이상현상이 발생하기 전 수준의 척도를 적용했을 때 이 아티팩트들이 생물로 간주될 수 있는지 결정하기는 어려웠다. 고전 생물학의 생리와 불합치하는 부분이 많기 때문이다."
+        }
+      }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 1.07,
+          "max": 1.3,
+          "formatted": {
+            "value": {
+              "en": "[1.07%; 1.3%]",
+              "ru": "[1.07%; 1.3%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 0.765,
+          "max": 0.9,
+          "formatted": {
+            "value": {
+              "en": "[0.765%; 0.9%]",
+              "ru": "[0.765%; 0.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 1.36,
+          "max": 1.6,
+          "formatted": {
+            "value": {
+              "en": "[1.36%; 1.6%]",
+              "ru": "[1.36%; 1.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

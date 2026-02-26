@@ -1,0 +1,347 @@
+{
+  "id": "qmjk",
+  "category": "bullet",
+  "name": {
+    "type": "translation",
+    "key": "item.amm.12inc.name",
+    "args": {},
+    "lines": {
+      "ru": "Зажигательные 12 калибра",
+      "en": "12 Caliber Incendiary",
+      "es": "Incendiaria del calibre 12",
+      "fr": "Incendiaire de calibre 12",
+      "ko": "12구경 소이탄"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.bullet",
+            "args": {},
+            "lines": {
+              "ru": "Патроны",
+              "en": "Rounds",
+              "es": "Munición",
+              "fr": "Munitions",
+              "ko": "탄환"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.025,
+          "formatted": {
+            "value": {
+              "ru": "0,02 кг",
+              "en": "0.02 kg",
+              "es": "0,02 kg",
+              "fr": "0,02 kg",
+              "ko": "0.02 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.bullet_type.incendiary",
+            "args": {},
+            "lines": {
+              "ru": "Зажигательный патрон",
+              "en": "Incendiary Round",
+              "es": "Munición incendiaria",
+              "fr": "Cartouche incendiaire",
+              "ko": "소이탄"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.low_penetration",
+            "args": {},
+            "lines": {
+              "ru": "Низкая пробиваемость",
+              "en": "Low penetration",
+              "es": "Penetración baja",
+              "fr": "Faible pénétration",
+              "ko": "낮은 관통력"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.info.num_bullets",
+            "args": {},
+            "lines": {
+              "ru": "Число поражающих эл-тов",
+              "en": "Number of projectiles",
+              "es": "Número de proyectiles",
+              "fr": "Nombre de projectiles",
+              "ko": "발사체 수"
+            }
+          },
+          "value": 12,
+          "formatted": {
+            "value": {
+              "ru": "12",
+              "en": "12",
+              "es": "12",
+              "fr": "12",
+              "ko": "12"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.damage",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage",
+              "es": "Daño",
+              "fr": "Dégâts",
+              "ko": "피해"
+            }
+          },
+          "value": 10.000038,
+          "formatted": {
+            "value": {
+              "ru": "+10%",
+              "en": "+10%",
+              "es": "+10 %",
+              "fr": "+10%",
+              "ko": "+10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.bleeding",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": -100,
+          "formatted": {
+            "value": {
+              "ru": "-100%",
+              "en": "-100%",
+              "es": "-100 %",
+              "fr": "-100%",
+              "ko": "-100%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.combustion",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion",
+              "ko": "발화"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "+100%",
+              "en": "+100%",
+              "es": "+100 %",
+              "fr": "+100%",
+              "ko": "+100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread",
+              "es": "Dispersión",
+              "fr": "Dispersion",
+              "ko": "탄퍼짐"
+            }
+          },
+          "value": 200,
+          "formatted": {
+            "value": {
+              "ru": "+200%",
+              "en": "+200%",
+              "es": "+200 %",
+              "fr": "+200%",
+              "ko": "+200%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.bullet.stat_name.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power",
+              "es": "Poder de parada",
+              "fr": "Pouvoir d'arrêt",
+              "ko": "저지력"
+            }
+          },
+          "value": 69.99999,
+          "formatted": {
+            "value": {
+              "ru": "+70",
+              "en": "+70",
+              "es": "+70",
+              "fr": "+70",
+              "ko": "+70"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.mobs_damage_multiplier",
+            "args": {},
+            "lines": {
+              "ru": "Модификатор урона по мутантам",
+              "en": "Damage modifier on mutants",
+              "es": "Modificador de daño a mutantes",
+              "fr": "Modificateur des dégâts sur les mutants",
+              "ko": "돌연변이에게 입히는 피해 보정치"
+            }
+          },
+          "value": 50,
+          "formatted": {
+            "value": {
+              "ru": "+50%",
+              "en": "+50%",
+              "es": "+50 %",
+              "fr": "+50%",
+              "ko": "+50%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

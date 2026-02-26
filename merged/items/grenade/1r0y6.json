@@ -1,0 +1,281 @@
+{
+  "id": "1r0y6",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.kustarnik.name",
+    "args": {},
+    "lines": {
+      "ru": "Ручная граната «Кустарник-1»",
+      "en": "Shrub-1 Hand Grenade",
+      "es": "Granada de mano Arbusto-1",
+      "fr": "Grenade à main Arbuste-1",
+      "ko": "Shrub-1 수류탄"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.grenade",
+            "args": {},
+            "lines": {
+              "ru": "Гранаты",
+              "en": "Grenades",
+              "es": "Granadas",
+              "fr": "Grenades",
+              "ko": "수류탄"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 кг",
+              "en": "0.25 kg",
+              "es": "0,25 kg",
+              "fr": "0,25 kg",
+              "ko": "0.25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l'artisanat",
+              "ko": "제작에 사용"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "weapon.grenade.frag.stats.explosion_on_collide",
+        "args": {},
+        "lines": {
+          "ru": "Взрыв при контакте",
+          "en": "Detonation on contact",
+          "es": "Detonación por contacto",
+          "fr": "Explosion au contact",
+          "ko": "충돌 시 즉시 폭발"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_strength",
+            "args": {},
+            "lines": {
+              "ru": "Урон в центре",
+              "en": "Damage at center",
+              "es": "Daño en el centro",
+              "fr": "Dégâts au centre",
+              "ko": "중심부 피해"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100 ед",
+              "en": "100 unit(s)",
+              "es": "100 unidad(es)",
+              "fr": "100 unité(s)",
+              "ko": "100 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_strength_min",
+            "args": {},
+            "lines": {
+              "ru": "Минимальный урон",
+              "en": "Minimum damage",
+              "es": "Daño mínimo",
+              "fr": "Dégâts minimums",
+              "ko": "최소 피해"
+            }
+          },
+          "value": 65,
+          "formatted": {
+            "value": {
+              "ru": "65 ед",
+              "en": "65 unit(s)",
+              "es": "65 unidad(es)",
+              "fr": "65 unité(s)",
+              "ko": "65 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power",
+              "es": "Poder de parada",
+              "fr": "Pouvoir d'arrêt",
+              "ko": "저지력"
+            }
+          },
+          "value": 75,
+          "formatted": {
+            "value": {
+              "ru": "75",
+              "en": "75",
+              "es": "75",
+              "fr": "75",
+              "ko": "75"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.lifetime",
+            "args": {},
+            "lines": {
+              "ru": "Время до взрыва",
+              "en": "Time until detonation",
+              "es": "Tiempo hasta la detonación",
+              "fr": "Temps avant explosion",
+              "ko": "폭발까지 남은 시간"
+            }
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s",
+              "ko": "5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.grenade.frag.stats.info.explosion_size",
+            "args": {},
+            "lines": {
+              "ru": "Радиус поражения",
+              "en": "Damage range",
+              "es": "Alcance del daño",
+              "fr": "Portée des dégâts",
+              "ko": "피해 범위"
+            }
+          },
+          "value": 6,
+          "formatted": {
+            "value": {
+              "ru": "6 м",
+              "en": "6 m",
+              "es": "6 m",
+              "fr": "6 m",
+              "ko": "6 미터"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {}
+  ]
+}

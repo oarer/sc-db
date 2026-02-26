@@ -1,0 +1,137 @@
+{
+  "id": "0ql9",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "go.hideout_storage_emergency_ration.name",
+    "args": {},
+    "lines": {
+      "ru": "Неприкосновенный запас",
+      "en": "Emergency Rations",
+      "es": "Raciones de emergencia",
+      "fr": "Rations d'urgence",
+      "ko": "비상 식량"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.undefined",
+            "args": {},
+            "lines": {
+              "ru": "Прочее",
+              "en": "Other",
+              "es": "Otros",
+              "fr": "Autre",
+              "ko": "기타"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.hideout_furniture",
+            "args": {},
+            "lines": {
+              "ru": "Объект для Убежища",
+              "en": "Object for hideout",
+              "es": "Objeto para escondite",
+              "fr": "Objet pour refuge",
+              "ko": "은신처용 오브젝트"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "go.hideout_storage_emergency_ration.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Запас, который трогать нельзя. Даже на новый год!",
+          "en": "A reserve not to be touched. Not even for the New Year!",
+          "es": "Una reserva que no se toca. ¡Ni siquiera en Año Nuevo!",
+          "fr": "Une réserve à ne pas toucher. Même pas pour le Nouvel An !",
+          "ko": "손대서는 안 되는 비상 식량입니다. 새해에도 예외는 없습니다!"
+        }
+      }
+    }
+  ]
+}

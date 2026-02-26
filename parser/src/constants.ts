@@ -1,7 +1,7 @@
 import path from "node:path";
 
 export const ORIG_DIR = "./items";
-export const OUT_DIR = "/repo/merged";
+export const OUT_DIR = "merged";
 export const SHA_FILE = path.join(ORIG_DIR, ".last_sha");
 
 export const GITHUB_OWNER = "EXBO-Studio";
