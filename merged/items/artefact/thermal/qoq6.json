@@ -392,6 +392,87 @@
           "ko": "이 아티팩트는 정체 불명의 용융 물질로 이루어져 있으며, 그 중심에는 뚜렷하게 더 차가운 핵이 존재한다.\\n\\n 이 구체는 매우 얇은 중력장으로 둘러싸여 있어 형태를 유지하며 내부 물질이 흘러나오는 것을 방지한다. 동시에 이 중력장은 과학자들이 내부를 조사하지 못하도록 막는 역할도 한다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.595,
+          "max": 0.7,
+          "formatted": {
+            "value": {
+              "en": "[0.595%; 0.7%]",
+              "ru": "[0.595%; 0.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding Protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements"
+            }
+          },
+          "min": 5.27,
+          "max": 6.4,
+          "formatted": {
+            "value": {
+              "en": "[5.27%; 6.4%]",
+              "ru": "[5.27%; 6.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.595,
+          "max": 0.7,
+          "formatted": {
+            "value": {
+              "en": "[0.595%; 0.7%]",
+              "ru": "[0.595%; 0.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

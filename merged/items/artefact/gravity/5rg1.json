@@ -364,6 +364,87 @@
           "ko": "해당 아티팩트의 이름은 고객들이 \"불행을 가져오는\" 저주받은 장미를 한시 바삐 처분할 것을 요구했던 구매자에 대한 전설과 연관이 있다. \\n\\n상인의 간단한 속임수가 성공적인 듯 했으나, 이 불행한 사내는 결국 죽고 말았다. 그는 아티팩트들을 챙겨 성난 스토커들로부터 도망치다 계단에서 넘어졌다고 전해진다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 3.315,
+          "max": 3.9,
+          "formatted": {
+            "value": {
+              "en": "[3.315; 3.9]",
+              "ru": "[3.315; 3.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 2.55,
+          "max": 3,
+          "formatted": {
+            "value": {
+              "en": "[2.55; 3]",
+              "ru": "[2.55; 3]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 2.465,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.465%; 2.9%]",
+              "ru": "[2.465%; 2.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

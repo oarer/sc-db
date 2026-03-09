@@ -420,6 +420,87 @@
           "ko": "눈보라에서 비롯된 많은 아티팩트와 마찬가지로 서리는 부분적으로는 얼음으로 구성되어 있지만, 흥미롭게도 얼음으로 된 껍질에 빛나는 작은 결정체가 있다. 언뜻 보기엔 보통의 얼음 결정과 비슷하지만 실제로 그 성분은 특이한 가소성으로 인해 과학자들 사이에서 많은 의문을 낳는다.\\n\\n 쿠보프 교수는 일반적인 환경에서 불용성 금속과 염분이 아티팩트의 형성에 영향을 미치고, 이것이 서리의 물리적 특성을 설명한다고 주장한다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 3.74,
+          "max": 4.4,
+          "formatted": {
+            "value": {
+              "en": "[3.74; 4.4]",
+              "ru": "[3.74; 4.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 7.98,
+          "max": 9.7,
+          "formatted": {
+            "value": {
+              "en": "[7.98%; 9.7%]",
+              "ru": "[7.98%; 9.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 1.48,
+          "max": 1.8,
+          "formatted": {
+            "value": {
+              "en": "[1.48%; 1.8%]",
+              "ru": "[1.48%; 1.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

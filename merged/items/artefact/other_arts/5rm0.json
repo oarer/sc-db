@@ -392,6 +392,87 @@
           "ko": "뒤집힌 세계 내부에서 고유하게 발견되는 아티팩트로, 비스무트와 본질적으로 동일한 성질을 가진다. 구역 내에서 이와 비슷하거나 선조격의 아티팩트는 전혀 존재하지 않는다. 왜곡의 프랙탈적 영향이 아티팩트 형성에 작용하여 현재의 형태를 갖추게 되었다.\\n\\n 이 아티팩트는 혈액 내 산화수소 분자의 결합력을 변화시켜, 체액의 유압적 특성 및 근육의 수축 능력에 영향을 준다.\\n\\n 또한 약한 전자-양성자 방사물을 유도한다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 10.37,
+          "max": 12.2,
+          "formatted": {
+            "value": {
+              "en": "[10.37; 12.2]",
+              "ru": "[10.37; 12.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.recoil_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil",
+              "es": "Retroceso",
+              "fr": "Recul"
+            }
+          },
+          "min": -1.5,
+          "max": -1.275,
+          "formatted": {
+            "value": {
+              "en": "[-1.5%; -1.275%]",
+              "ru": "[-1.5%; -1.275%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.wiggle_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway",
+              "es": "Oscilación",
+              "fr": "Décalage"
+            }
+          },
+          "min": -2.1,
+          "max": -1.785,
+          "formatted": {
+            "value": {
+              "en": "[-2.1%; -1.785%]",
+              "ru": "[-2.1%; -1.785%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

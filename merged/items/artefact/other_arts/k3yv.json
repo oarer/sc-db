@@ -364,6 +364,87 @@
           "ko": "속삭임과의 전투에서 얻은 트로피 아티팩트. \\n균사류의 유기 세포로 덮여 있으며, 기원을 알 수 없는 나선형 모양의 단단한 이상 구조물이다. \\n피부에 닿으면 미세 융모로 덮여 있으며 균사체를 닮은 얇고 하얀 실을 뽑아내어 접촉 부위의 팔과 다리를 휘감는다. 침투성 여부는 아직 밝혀진 바 없다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 2.55,
+          "max": 3.1,
+          "formatted": {
+            "value": {
+              "en": "[2.55; 3.1]",
+              "ru": "[2.55; 3.1]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 12.02,
+          "max": 14.6,
+          "formatted": {
+            "value": {
+              "en": "[12.02%; 14.6%]",
+              "ru": "[12.02%; 14.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.82,
+          "max": 1,
+          "formatted": {
+            "value": {
+              "en": "[0.82%; 1%]",
+              "ru": "[0.82%; 1%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

@@ -364,6 +364,87 @@
           "ko": "근육조직을 연상시키는 불그스름하고 탄력있는 줄무늬와 아티팩트의 주기적인 움직임은 절지동물을 강하게 연상시킨다. 아마도 이러한 이유로 많은 스토커들이 새우에 강렬한 거부감을 느끼는 것일 테다.\\n\\n 제7연구소의 유물학 부서 연구원들에 따르면, 아티팩트의 구조가 군락을 이루는 개체를 지탱하는 프리마의 그것과 매우 흡사하다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 2.04,
+          "max": 2.4,
+          "formatted": {
+            "value": {
+              "en": "[2.04; 2.4]",
+              "ru": "[2.04; 2.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 6.63,
+          "max": 7.8,
+          "formatted": {
+            "value": {
+              "en": "[6.63; 7.8]",
+              "ru": "[6.63; 7.8]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 3.145,
+          "max": 3.7,
+          "formatted": {
+            "value": {
+              "en": "[3.145; 3.7]",
+              "ru": "[3.145; 3.7]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

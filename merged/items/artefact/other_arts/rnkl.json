@@ -420,6 +420,87 @@
           "ko": "이 아티팩트가 속한 EA 계통 물체들은 이상 속성이 나타나지 않는 일이 잦았기 때문에 덫은 제7연구소 직원들의 관심을 받지 못한 채 샘플 저장고에 오랜 시간 남겨졌었다.\\n\\n하지만 예리한 눈을 가진 스토커들은 새로운 유물을 즉시 알아채고, 우연히 아티팩트의 예사롭지 않은 특성까지 발견했다. 무게가 정확히 3.14 그램인 물체는 아티팩트의 영구 자기장을 통과할 수 없으며, 자기장에 닿으면 재가 된다는 사실을 말이다.\\n\\n과학자들은 아티팩트가 이러한 물체의 내부 결합을 파괴하면서 에너지를 얻어 자기장을 유지한다고 믿는다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.206,
+          "max": 0.25,
+          "formatted": {
+            "value": {
+              "en": "[0.206%; 0.25%]",
+              "ru": "[0.206%; 0.25%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 1.56,
+          "max": 1.9,
+          "formatted": {
+            "value": {
+              "en": "[1.56%; 1.9%]",
+              "ru": "[1.56%; 1.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 4.78,
+          "max": 5.8,
+          "formatted": {
+            "value": {
+              "en": "[4.78; 5.8]",
+              "ru": "[4.78; 5.8]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

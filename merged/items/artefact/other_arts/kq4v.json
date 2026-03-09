@@ -420,6 +420,87 @@
           "ko": "이것은 체르노빌 불입 구역에서 발견되는 아티팩트 산분꽃나무 가지가 화석화되고 변형된 형태로, 뒤집힌 세계의 특징적인 결정 구조가 표면에 자라 있다.\\n\\n 이 아티팩트는 사이오닉 장을 형성하여 산소수소화합물 분자 내의 원자력 구조를 왜곡하며, 그 결과 체액의 유압적 특성에 변화를 일으킨다. 부작용으로 손에 가벼운 떨림이 생길 수 있다.\\n\\n약한 정신파를 방출하므로, 시야 주변부에 이상한 형상이나 환영이 보이더라도 무시할 것을 권장한다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 1.24,
+          "max": 1.5,
+          "formatted": {
+            "value": {
+              "en": "[1.24%; 1.5%]",
+              "ru": "[1.24%; 1.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.95,
+          "max": 1.15,
+          "formatted": {
+            "value": {
+              "en": "[0.95%; 1.15%]",
+              "ru": "[0.95%; 1.15%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 1.32,
+          "max": 1.6,
+          "formatted": {
+            "value": {
+              "en": "[1.32%; 1.6%]",
+              "ru": "[1.32%; 1.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

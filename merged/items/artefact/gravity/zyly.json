@@ -392,6 +392,87 @@
           "ko": "양파 구근과 비슷하게 생겨 양파라 불리게 된 이 아티팩트는 구역의 동식물을 연구하는 과학자들의 관심을 끈다. 아티팩트 구조에 대한 연구에 따르면 양파의 대부분이 4가지 생물 계의 특성을 동시에 지닌 살아있는 세포로 이루어져있다.\\n\\n 해당 주제에 대해 연구하는 살란차크 교수는 이러한 특성의 이상 조합은 모든 살아있는 생물체에 위협이 될 우려가 았다고 확신한다. 또한 그는 \"새로운 계\"가 퍼지는 데 방해되는 초기 요인으로 이러한 세포들은 구역 외부에서 빨리 사멸한다는 사실을 꼽았다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 2.04,
+          "max": 2.4,
+          "formatted": {
+            "value": {
+              "en": "[2.04; 2.4]",
+              "ru": "[2.04; 2.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 2.21,
+          "max": 2.6,
+          "formatted": {
+            "value": {
+              "en": "[2.21%; 2.6%]",
+              "ru": "[2.21%; 2.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding Protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements"
+            }
+          },
+          "min": 3.91,
+          "max": 4.6,
+          "formatted": {
+            "value": {
+              "en": "[3.91%; 4.6%]",
+              "ru": "[3.91%; 4.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

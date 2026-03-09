@@ -392,6 +392,87 @@
           "ko": "흙덩이와 뒤엉킨 뿌리의 중간쯤 되는 모습의 이상 구조물이다. 실제 아티팩트의 구조를 살펴보면 식물성 구조를 지닌 것으로 보인다.\\n\\n 이 아티팩트의 이름의 유래가 된 짙은 색의 주머니 안에는 잉크와 기름을 동시에 연상시키는 액체가 들어 있다. 그 성분은 여전히 연구자들에게 수수께끼로 남아 있지만, 이 생리 활성 물질은 신약 개발에 활용되고 있다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 3.37,
+          "max": 4.1,
+          "formatted": {
+            "value": {
+              "en": "[3.37; 4.1]",
+              "ru": "[3.37; 4.1]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.765,
+          "max": 0.9,
+          "formatted": {
+            "value": {
+              "en": "[0.765%; 0.9%]",
+              "ru": "[0.765%; 0.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 1.02,
+          "max": 1.2,
+          "formatted": {
+            "value": {
+              "en": "[1.02%; 1.2%]",
+              "ru": "[1.02%; 1.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

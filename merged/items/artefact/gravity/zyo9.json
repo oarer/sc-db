@@ -392,6 +392,87 @@
           "ko": "늪지 부패는 그 구조와 구성이 기이하고 특유의 흡착성 때문에 많은 과학자들의 궁금증을 낳고 있다. 첨단개발부가 제7연구소의 쥐들을 대상으로 실시한 늪지 부패 기반 약물 실험에 따르면 최신 흡착제보다 효과가 훨씬 뛰어났다. 하지만 특별 설계된 공간 외부에서는 그 수명이 짧기에 실험용 샘플보다 많은 양을 만들어 낼 수는 없었다.\\n\\n 그럼에도 스토커들은 이 아티팩트가 나무가 되어버린 돌에서 탄생했는지, 아니면 석화된 나무에서 만들어졌는지에 대해 관심이 많다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique"
+            }
+          },
+          "min": -0.88,
+          "max": -0.748,
+          "formatted": {
+            "value": {
+              "en": "[-0.88; -0.748]",
+              "ru": "[-0.88; -0.748]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 0.65,
+          "max": 0.8,
+          "formatted": {
+            "value": {
+              "en": "[0.65%; 0.8%]",
+              "ru": "[0.65%; 0.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 1.15,
+          "max": 1.4,
+          "formatted": {
+            "value": {
+              "en": "[1.15%; 1.4%]",
+              "ru": "[1.15%; 1.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

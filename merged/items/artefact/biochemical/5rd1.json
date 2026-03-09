@@ -392,6 +392,87 @@
           "ko": "돌을 연상시키는 형태로 고슴도치 및 가시복과 비슷하다. 하지만 다른 아티팩트와 달리 강철 고슴도치에는 움직이는 돌출부가 없고 빛도 확연히 희미하다.\\n\\n 강철 고슴도치는 고슴도치 변형의 최종 단계로서 내부에 비축한 모든 자원이 소진되는 대신, 활동을 유지하기 위한 에너지는 토양에서 금속이 포함된 소금의 분해로 얻기 시작한다고 추측할 수 있다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 3.74,
+          "max": 4.4,
+          "formatted": {
+            "value": {
+              "en": "[3.74; 4.4]",
+              "ru": "[3.74; 4.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 11.28,
+          "max": 13.7,
+          "formatted": {
+            "value": {
+              "en": "[11.28; 13.7]",
+              "ru": "[11.28; 13.7]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 4.03,
+          "max": 4.9,
+          "formatted": {
+            "value": {
+              "en": "[4.03%; 4.9%]",
+              "ru": "[4.03%; 4.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

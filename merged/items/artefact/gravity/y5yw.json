@@ -392,6 +392,87 @@
           "ko": "전자 물리적 이상현상으로 형성된 케틀벨과 덤벨의 유사성으로 인해 제7연구소의 유물학부 내에서는 많은 토론이 오갔다.\\n\\n 부서장 쿠보프 교수는 대부분의 아티팩트가 이끌리는 보편적인 구조가 있다고 생각한다. 하지만 다른 교수들은 고유한 아티팩트를 언급하면서 이 의견에 반박했다. 이들의 주장에 따르면 해당 사례에서는 \"보편성\"이 아닌 구조의 뛰어난 안정성이 중요한 역할을 했다는 것이다.\\n\\n 한편 케틀벨과 유사한 이 아티팩트는 강자성체로 구성되어 있다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 3.21,
+          "max": 3.9,
+          "formatted": {
+            "value": {
+              "en": "[3.21%; 3.9%]",
+              "ru": "[3.21%; 3.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 3.79,
+          "max": 4.6,
+          "formatted": {
+            "value": {
+              "en": "[3.79; 4.6]",
+              "ru": "[3.79; 4.6]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 8.33,
+          "max": 9.8,
+          "formatted": {
+            "value": {
+              "en": "[8.33; 9.8]",
+              "ru": "[8.33; 9.8]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

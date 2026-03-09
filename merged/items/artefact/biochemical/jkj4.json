@@ -420,6 +420,85 @@
           "ko": "많은 스토커들은 개구리밥의 독특한 점은 실험실 환경에서 아티팩트를 만들어 내는 것에 있다고 생각하지만 이는 이 아티팩트의 가치를 낮추려는 상인이 퍼뜨린 소문에 불과하다.\\n\\n 사실 개구리밥은 조금 더 믿기 힘든 이유로 흥미로운 아티팩트다. 코유셰프의 팀이 이 아티팩트를 현미경으로 관찰한 결과 원시 지질층의 구조와 흡사한 비정상적인 실리콘 형태를 확인할 수 있었다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.chemical_burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Химзащита",
+              "en": "Resistance to chemicals"
+            }
+          },
+          "min": 7.98,
+          "max": 9.7,
+          "formatted": {
+            "value": {
+              "en": "[7.98; 9.7]",
+              "ru": "[7.98; 9.7]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.425,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "en": "[0.425%; 0.5%]",
+              "ru": "[0.425%; 0.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection protection",
+              "es": "Protección contra bioinfección",
+              "fr": "Protection contre les bio infections"
+            }
+          },
+          "min": 17,
+          "max": 20,
+          "formatted": {
+            "value": {
+              "en": "[17; 20]",
+              "ru": "[17; 20]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

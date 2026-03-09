@@ -392,6 +392,87 @@
           "ko": "눈보라에서 비롯된 다른 아티팩트와 달리 한기에는 독특한 부분이 있다. 많은 부분이 금속성 수소로 이루어져 있어 아주 단단하고, 아르곤이 담겨 있을 가능성도 높다.\\n\\n 깨지지 않는 껍질 속에 이러한 비활성 기체가 존재한다는 것이 아티팩트 표면의 초전도성 관찰을 통해 확인되었다. 다양한 전하를 통과시키자 아티팩트의 광도가 변했기 때문이다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.765,
+          "max": 0.9,
+          "formatted": {
+            "value": {
+              "en": "[0.765%; 0.9%]",
+              "ru": "[0.765%; 0.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion"
+            }
+          },
+          "min": -0.2,
+          "max": -0.17,
+          "formatted": {
+            "value": {
+              "en": "[-0.2; -0.17]",
+              "ru": "[-0.2; -0.17]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 12.665,
+          "max": 14.9,
+          "formatted": {
+            "value": {
+              "en": "[12.665; 14.9]",
+              "ru": "[12.665; 14.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

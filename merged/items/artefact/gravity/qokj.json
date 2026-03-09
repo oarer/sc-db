@@ -364,6 +364,87 @@
           "ko": "호박 아티팩트는 야생 북부 지역의 중력 이상현상 근처에서 형성된다.\\n호박의 기묘하게 규칙적인 기하학적 형태는 과학자들로 하여금 다면체와의 관련성을 추정하게 했으나, 다양한 분석을 통해 뚜렷한 유사점은 발견되지 않았다. 쿠보프 교수는 호박의 존재가 자신의 보편 구조 가설을 뒷받침한다고 본다.\\n보통 고차원 물질에는 관심이 없는 스토커들은 아티팩트 형태의 규칙성에서 특별한 점을 발견하지 못했으며, 특징적인 줄무늬 때문에 이를 호박이라 부르게 되었다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.82,
+          "max": 1,
+          "formatted": {
+            "value": {
+              "en": "[0.82%; 1%]",
+              "ru": "[0.82%; 1%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 2.06,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "en": "[2.06; 2.5]",
+              "ru": "[2.06; 2.5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 0.99,
+          "max": 1.2,
+          "formatted": {
+            "value": {
+              "en": "[0.99%; 1.2%]",
+              "ru": "[0.99%; 1.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

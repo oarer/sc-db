@@ -420,6 +420,87 @@
           "ko": "뒤집힌 세계에서 발견되는 결정 구조물이다. 붉은 수정 아티팩트를 분자 단계에서 반영할 뿐만 아니라, 원자 격자 구조까지 동일하다.\\n\\n 이 아티팩트는 알려진 유형의 방사선을 흡수하여 약한 중력장으로 변환하는 특성을 지닌다.\\n\\n 그러나 형성된 중력장의 무결성이 손상되면 유기 조직에 유해한 파동을 방출하며, 불명확한 이유로 병원성 미생물의 증식을 촉진하기도 한다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 3.74,
+          "max": 4.4,
+          "formatted": {
+            "value": {
+              "en": "[3.74%; 4.4%]",
+              "ru": "[3.74%; 4.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 3.57,
+          "max": 4.2,
+          "formatted": {
+            "value": {
+              "en": "[3.57; 4.2]",
+              "ru": "[3.57; 4.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 2.465,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.465%; 2.9%]",
+              "ru": "[2.465%; 2.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }
