@@ -122,14 +122,14 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "7200.0"
+              "cost": "7500.0"
             },
             "lines": {
-              "ru": "7 200 руб.",
-              "en": "7,200 rubles",
-              "es": "7.200 rublos",
-              "fr": "7 200 roubles",
-              "ko": "7,200 루블"
+              "ru": "7 500 руб.",
+              "en": "7,500 rubles",
+              "es": "7.500 rublos",
+              "fr": "7 500 roubles",
+              "ko": "7,500 루블"
             }
           }
         }
@@ -292,25 +292,25 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l'endurance",
-              "ko": "스태미나 재생"
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
             }
           },
-          "min": 1.955,
-          "max": 2.3,
+          "min": 5.9500003,
+          "max": 7,
           "formatted": {
             "value": {
-              "ru": "[+1,96%; +2,3%]",
-              "en": "[+1.96%; +2.3%]",
-              "es": "[+1,96 %; +2,3 %]",
-              "fr": "[+1,96%; +2,3%]",
-              "ko": "[+1.96%; +2.3%]"
+              "ru": "[+5,95; +7]",
+              "en": "[+5.95; +7]",
+              "es": "[+5,95; +7]",
+              "fr": "[+5,95; +7]",
+              "ko": "[+5.95; +7]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -432,21 +432,21 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
-              "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l'endurance"
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
             }
           },
-          "min": 0.68,
-          "max": 0.8,
+          "min": 1.98,
+          "max": 2.4,
           "formatted": {
             "value": {
-              "en": "[0.68%; 0.8%]",
-              "ru": "[0.68%; 0.8%]"
+              "en": "[1.98; 2.4]",
+              "ru": "[1.98; 2.4]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -465,12 +465,12 @@
               "fr": "Protection contre les émissions psys"
             }
           },
-          "min": 17,
+          "min": 16.47,
           "max": 20,
           "formatted": {
             "value": {
-              "en": "[17; 20]",
-              "ru": "[17; 20]"
+              "en": "[16.47; 20]",
+              "ru": "[16.47; 20]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -489,12 +489,12 @@
               "fr": "Résistance à l'électricité"
             }
           },
-          "min": 7.98,
+          "min": 7.99,
           "max": 9.7,
           "formatted": {
             "value": {
-              "en": "[7.98%; 9.7%]",
-              "ru": "[7.98%; 9.7%]"
+              "en": "[7.99%; 9.7%]",
+              "ru": "[7.99%; 9.7%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

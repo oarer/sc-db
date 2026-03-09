@@ -264,22 +264,22 @@
             }
           },
           "value": [
-            49,
-            49.373478,
-            49.746952,
-            50.12043,
-            50.4939,
-            51.61433,
-            52.17454,
-            52.734756,
-            53.29497,
-            53.855183,
-            55.498474,
-            56.32012,
-            57.14177,
-            57.963417,
-            58.78506,
-            61.25
+            44.2,
+            44.536892,
+            44.87378,
+            45.210674,
+            45.54756,
+            46.55823,
+            47.06357,
+            47.568905,
+            48.074238,
+            48.57957,
+            50.06189,
+            50.803047,
+            51.54421,
+            52.28537,
+            53.026524,
+            55.25
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -647,14 +647,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.4"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25",
-              "ko": "헤드샷 피해: x1.25"
+              "ru": "Урон в голову: х1,4",
+              "en": "Headshot damage: x1.4",
+              "es": "Daño por disparo a la cabeza: x1,4",
+              "fr": "Dégât de tir à la tête : x1,4",
+              "ko": "헤드샷 피해: x1.4"
             }
           }
         },
@@ -664,14 +664,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.75"
+              "modifier": "0.85"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,75",
-              "en": "Limb damage: x0.75",
-              "es": "Daño a extremidades: x0,75",
-              "fr": "Dégât aux membres : x0,75",
-              "ko": "사지 피해: x0.75"
+              "ru": "Урон по конечностям: х0,85",
+              "en": "Limb damage: x0.85",
+              "es": "Daño a extremidades: x0,85",
+              "fr": "Dégât aux membres : x0,85",
+              "ko": "사지 피해: x0.85"
             }
           }
         }
@@ -721,9 +721,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 49,
+      "startDamage": 44.2,
       "damageDecreaseStart": 12,
-      "endDamage": 34.5,
+      "endDamage": 30.8,
       "damageDecreaseEnd": 55,
       "maxDistance": 155
     },

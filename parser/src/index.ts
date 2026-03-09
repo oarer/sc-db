@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { additionalStatsParse } from "./additionalStatsParse";
+import { applyModelsMap } from "./applyModelsMap";
 import {
 	CLEAN_ORIG,
 	FORCE_PULL,
@@ -59,6 +60,8 @@ async function main(): Promise<boolean> {
 				},
 				asArrayFor: ["consumables", "containers"],
 			});
+
+			await applyModelsMap();
 
 			return true;
 		}
@@ -138,6 +141,8 @@ async function main(): Promise<boolean> {
 					},
 					asArrayFor: ["consumables", "containers"],
 				});
+
+				await applyModelsMap();
 			}
 		}
 	} catch (e: any) {

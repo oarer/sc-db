@@ -3192,6 +3192,18 @@
     "color": "DEFAULT"
   },
   {
+    "data": "/items/artefact/electrophysical/lj0j.json",
+    "icon": "/icons/artefact/electrophysical/lj0j.png",
+    "name": {
+      "ru": "Катушка",
+      "en": "Coil",
+      "es": "Bobina",
+      "fr": "Bobine",
+      "ko": "코일"
+    },
+    "color": "DEFAULT"
+  },
+  {
     "data": "/items/artefact/thermal/gy10.json",
     "icon": "/icons/artefact/thermal/gy10.png",
     "name": {
@@ -3288,6 +3300,18 @@
     "color": "DEFAULT"
   },
   {
+    "data": "/items/artefact/thermal/jkq7.json",
+    "icon": "/icons/artefact/thermal/jkq7.png",
+    "name": {
+      "ru": "Магма",
+      "en": "Magma",
+      "es": "Magma",
+      "fr": "Magma",
+      "ko": "마그마"
+    },
+    "color": "DEFAULT"
+  },
+  {
     "data": "/items/artefact/thermal/ljrj.json",
     "icon": "/icons/artefact/thermal/ljrj.png",
     "name": {
@@ -3296,6 +3320,18 @@
       "es": "Radiador",
       "fr": "Radiateur",
       "ko": "방열기"
+    },
+    "color": "DEFAULT"
+  },
+  {
+    "data": "/items/artefact/thermal/rnvg.json",
+    "icon": "/icons/artefact/thermal/rnvg.png",
+    "name": {
+      "ru": "Шишка",
+      "en": "Cone",
+      "es": "Estróbilo",
+      "fr": "Pomme de pin",
+      "ko": "구과"
     },
     "color": "DEFAULT"
   },
@@ -3504,6 +3540,30 @@
     "color": "DEFAULT"
   },
   {
+    "data": "/items/artefact/other_arts/rnkl.json",
+    "icon": "/icons/artefact/other_arts/rnkl.png",
+    "name": {
+      "ru": "Силки",
+      "en": "Snares",
+      "es": "Cepos",
+      "fr": "Pièges",
+      "ko": "덫"
+    },
+    "color": "DEFAULT"
+  },
+  {
+    "data": "/items/artefact/biochemical/04yr.json",
+    "icon": "/icons/artefact/biochemical/04yr.png",
+    "name": {
+      "ru": "Виток",
+      "en": "Loop",
+      "es": "Bucle",
+      "fr": "Boucle",
+      "ko": "루프"
+    },
+    "color": "DEFAULT"
+  },
+  {
     "data": "/items/artefact/biochemical/9nml.json",
     "icon": "/icons/artefact/biochemical/9nml.png",
     "name": {
@@ -3648,6 +3708,18 @@
     "color": "DEFAULT"
   },
   {
+    "data": "/items/artefact/gravity/qokj.json",
+    "icon": "/icons/artefact/gravity/qokj.png",
+    "name": {
+      "ru": "Тыква",
+      "en": "Pumpkin",
+      "es": "Calabaza",
+      "fr": "Citrouille",
+      "ko": "호박"
+    },
+    "color": "DEFAULT"
+  },
+  {
     "data": "/items/artefact/gravity/9nvy.json",
     "icon": "/icons/artefact/gravity/9nvy.png",
     "name": {
@@ -3728,6 +3800,18 @@
       "es": "Cristal oscuro",
       "fr": "Cristal Sombre",
       "ko": "암흑 수정"
+    },
+    "color": "DEFAULT"
+  },
+  {
+    "data": "/items/artefact/gravity/4lpo.json",
+    "icon": "/icons/artefact/gravity/4lpo.png",
+    "name": {
+      "ru": "Статик",
+      "en": "Static",
+      "es": "Estática",
+      "fr": "Statique",
+      "ko": "스태틱"
     },
     "color": "DEFAULT"
   },
@@ -4104,14 +4188,14 @@
     "color": "DEFAULT"
   },
   {
-    "data": "/items/artefact/other_arts/g34p.json",
-    "icon": "/icons/artefact/other_arts/g34p.png",
+    "data": "/items/artefact/biochemical/g34p.json",
+    "icon": "/icons/artefact/biochemical/g34p.png",
     "name": {
-      "ru": "Силки",
-      "en": "Snares",
-      "es": "Cepos",
-      "fr": "Pièges",
-      "ko": "덫"
+      "ru": "Юла",
+      "en": "Peg-Top",
+      "es": "Peonza",
+      "fr": "Toupie",
+      "ko": "팽이"
     },
     "color": "DEFAULT"
   },
@@ -7533,7 +7617,7 @@
       "fr": "Catalyseur",
       "ko": "촉매제"
     },
-    "color": "DEFAULT"
+    "color": "RANK_STALKER"
   },
   {
     "data": "/items/other/1rlw2.json",
@@ -7620,8 +7704,572 @@
     "color": "RANK_VETERAN"
   },
   {
-    "data": "/items/armor_style/skins/96krw.json",
-    "icon": "/icons/armor_style/skins/96krw.png",
+    "data": "/items/other/96klw.json",
+    "icon": "/icons/other/96klw.png",
+    "name": {
+      "ru": "«Отступник»",
+      "en": "Defector",
+      "es": "Desertor",
+      "fr": "Déserteur",
+      "ko": "탈주자"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/1r1zq.json",
+    "icon": "/icons/other/1r1zq.png",
+    "name": {
+      "ru": "«Хозяин вьюги»",
+      "en": "Master of the Snowstorm",
+      "es": "Maestro de la Tormenta de Nieve",
+      "fr": "Maître de la tempête de neige",
+      "ko": "폭설 장인"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/g49qg.json",
+    "icon": "/icons/other/g49qg.png",
+    "name": {
+      "ru": "«Укротитель Бурана»",
+      "en": "Blizzard Tamer",
+      "es": "Domador de ventiscas",
+      "fr": "Dompteur de blizzard",
+      "ko": "눈보라 정복자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/zz0r9.json",
+    "icon": "/icons/other/zz0r9.png",
+    "name": {
+      "ru": "«Страж» группы «Норд»",
+      "en": "Nord Group Guard",
+      "es": "Guardia del Grupo Nord",
+      "fr": "Garde du groupe Nord",
+      "ko": "노르드 그룹 경호원단"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/5l644.json",
+    "icon": "/icons/other/5l644.png",
+    "name": {
+      "ru": "«Страж» группы «Норд-22»",
+      "en": "Nord-22 Group Guard",
+      "es": "Guardia del Grupo Nord-22",
+      "fr": "Garde du Groupe du Nord-22",
+      "ko": "노르드-22 그룹 경호원단"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/y30lw.json",
+    "icon": "/icons/other/y30lw.png",
+    "name": {
+      "ru": "«Хранитель» группы «Норд»",
+      "en": "Nord Group Guardian",
+      "es": "Guardián del Grupo Nord",
+      "fr": "Garde du Groupe Nord",
+      "ko": "노르드 그룹 가디언"
+    },
+    "color": "RANK_LEGEND"
+  },
+  {
+    "data": "/items/other/wj0qd.json",
+    "icon": "/icons/other/wj0qd.png",
+    "name": {
+      "ru": "«Хранитель» группы «Норд-22»",
+      "en": "Nord-22 Group Guardian",
+      "es": "Guardián del Grupo Nord-22",
+      "fr": "Garde du Groupe Nord-22.",
+      "ko": "노르드-22 그룹 가디언"
+    },
+    "color": "RANK_LEGEND"
+  },
+  {
+    "data": "/items/other/4q5wl.json",
+    "icon": "/icons/other/4q5wl.png",
+    "name": {
+      "ru": "«Идущий» группы «Норд-22»",
+      "en": "Marching Nord-22 Group",
+      "es": "Grupo Marching Nord-22",
+      "fr": "Groupe Nord-22 en marche",
+      "ko": "진군하는 노르드-22 그룹"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/kn503.json",
+    "icon": "/icons/other/kn503.png",
+    "name": {
+      "ru": "«Разведчик» группы «Хорс»",
+      "en": "Khors Group Scout",
+      "es": "Explorador del Grupo Khors",
+      "fr": "Éclaireur du Groupe Khors",
+      "ko": "코르스 그룹 정찰병"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/qj3z9.json",
+    "icon": "/icons/other/qj3z9.png",
+    "name": {
+      "ru": "«Танк» группы «Хорс»",
+      "en": "Khors Group Tank",
+      "es": "Tanque del Grupo Khors",
+      "fr": "Tank du Groupe Khors",
+      "ko": "코르스 그룹 전투전차"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/j5zr4.json",
+    "icon": "/icons/other/j5zr4.png",
+    "name": {
+      "ru": "«Экспедиция-23»",
+      "en": "Expedition-23",
+      "es": "Expedición-23",
+      "fr": "Expédition-23",
+      "ko": "익스페디션-23"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/ly9mq.json",
+    "icon": "/icons/other/ly9mq.png",
+    "name": {
+      "ru": "«Любимчик толпы»",
+      "en": "Audience Favorite",
+      "es": "Favorito del público",
+      "fr": "Le favori du public",
+      "ko": "인기투표 우승자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/rw6dl.json",
+    "icon": "/icons/other/rw6dl.png",
+    "name": {
+      "ru": "«Дрессировщик Арены»",
+      "en": "Arena Tamer",
+      "es": "Domador de la Arena",
+      "fr": "Dompteur d'Arène",
+      "ko": "투기장 조련사"
+    },
+    "color": "RANK_STALKER"
+  },
+  {
+    "data": "/items/other/0r91r.json",
+    "icon": "/icons/other/0r91r.png",
+    "name": {
+      "ru": "«Боевой зверь»",
+      "en": "Combat Beast",
+      "es": "Bestia de combate",
+      "fr": "Bête de combat",
+      "ko": "전투 야수"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/m01dr.json",
+    "icon": "/icons/other/m01dr.png",
+    "name": {
+      "ru": "«Подрывник»",
+      "en": "Bomber",
+      "es": "Dinamitero",
+      "fr": "Bombardier",
+      "ko": "봄버"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/okz24.json",
+    "icon": "/icons/other/okz24.png",
+    "name": {
+      "ru": "«Выживший»",
+      "en": "Survivor",
+      "es": "Superviviente",
+      "fr": "Survivant",
+      "ko": "생존자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/n4gdw.json",
+    "icon": "/icons/other/n4gdw.png",
+    "name": {
+      "ru": "«Полый охотник»",
+      "en": "Hollow Hunter",
+      "es": "Cazador de huecos",
+      "fr": "Chasseur de trous",
+      "ko": "공허 사냥꾼"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/p65d5.json",
+    "icon": "/icons/other/p65d5.png",
+    "name": {
+      "ru": "«Претендент»",
+      "en": "Contender",
+      "es": "Contendiente",
+      "fr": "Concurrent",
+      "ko": "유력 선수"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/vj0zg.json",
+    "icon": "/icons/other/vj0zg.png",
+    "name": {
+      "ru": "«Ледокол»",
+      "en": "Icebreaker",
+      "es": "Rompehielos",
+      "fr": "Brise-Glaces",
+      "ko": "쇄빙선"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/dm6d9.json",
+    "icon": "/icons/other/dm6d9.png",
+    "name": {
+      "ru": "«Хозяин Зимнего леса»",
+      "en": "Master of the Winter Forest",
+      "es": "Maestro del Bosque invernal",
+      "fr": "Maître de la Forêt Hivernale",
+      "ko": "겨울 숲 장인"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/2ogzm.json",
+    "icon": "/icons/other/2ogzm.png",
+    "name": {
+      "ru": "«Зимний солдат»",
+      "en": "Winter Soldier",
+      "es": "Soldado de invierno",
+      "fr": "Soldat de l'Hiver",
+      "ko": "겨울 병사"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/7lokr.json",
+    "icon": "/icons/other/7lokr.png",
+    "name": {
+      "ru": "«Последний богатырь»",
+      "en": "The Last Bogatyr",
+      "es": "El último bogatyr",
+      "fr": "Le Dernier Bogatyr",
+      "ko": "최후의 보가티르"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/6wl46.json",
+    "icon": "/icons/other/6wl46.png",
+    "name": {
+      "ru": "«Мудрейший»",
+      "en": "The Wisest",
+      "es": "El más sabio",
+      "fr": "Le Sage",
+      "ko": "대현자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/96kjw.json",
+    "icon": "/icons/other/96kjw.png",
+    "name": {
+      "ru": "«Шатун»",
+      "en": "Medved",
+      "es": "Medved",
+      "fr": "Ours",
+      "ko": "배회하는 곰"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/1r1gq.json",
+    "icon": "/icons/other/1r1gq.png",
+    "name": {
+      "ru": "ZIVCAS «Citadel»",
+      "en": "ZIVCAS Citadel",
+      "es": "Ciudadela ZIVCAS",
+      "fr": "Citadelle ZIVCAS",
+      "ko": "지브카스 시타델"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/g49dg.json",
+    "icon": "/icons/other/g49dg.png",
+    "name": {
+      "ru": "ZIVCAS «Spectre»",
+      "en": "ZIVCAS Spectre",
+      "es": "Espectro ZIVCAS",
+      "fr": "Spectre ZIVCAS",
+      "ko": "지브카스 스펙터"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/zz049.json",
+    "icon": "/icons/other/zz049.png",
+    "name": {
+      "ru": "ZIVCAS «Heritage»",
+      "en": "ZIVCAS Heritage",
+      "es": "Patrimonio ZIVCAS",
+      "fr": "Héritage ZIVCAS",
+      "ko": "지브카스 유산"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/5l6w4.json",
+    "icon": "/icons/other/5l6w4.png",
+    "name": {
+      "ru": "«Обскур»",
+      "en": "Obscurus",
+      "es": "Obscurus",
+      "fr": "Obscur",
+      "ko": "옵스큐러스"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/y30ww.json",
+    "icon": "/icons/other/y30ww.png",
+    "name": {
+      "ru": "«Посредник»",
+      "en": "Mediator",
+      "es": "Mediador",
+      "fr": "Médiateur",
+      "ko": "조정관"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/wj05d.json",
+    "icon": "/icons/other/wj05d.png",
+    "name": {
+      "ru": "«Крысиный король»",
+      "en": "The Rat King",
+      "es": "Rey Rata",
+      "fr": "Le Roi des Rats",
+      "ko": "들쥐들의 왕"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/4q5yl.json",
+    "icon": "/icons/other/4q5yl.png",
+    "name": {
+      "ru": "Оперативник Черного Рынка",
+      "en": "Black Market Operative",
+      "es": "Operario del Mercado Negro",
+      "fr": "Opérateur du Marché Noir",
+      "ko": "블랙 마켓 운영자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/kn5d3.json",
+    "icon": "/icons/other/kn5d3.png",
+    "name": {
+      "ru": "Барыга Черного Рынка",
+      "en": "Black Market Hustler",
+      "es": "Embaucador del Mercado Negro",
+      "fr": "Arnaqueur du Marché noir",
+      "ko": "블랙 마켓 사기꾼"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/qj369.json",
+    "icon": "/icons/other/qj369.png",
+    "name": {
+      "ru": "С.К.И.Ф.",
+      "en": "S.C.Y.T.H.I.A.N.",
+      "es": "E.S.C.I.T.A.",
+      "fr": "S.C.Y.T.H.I.A.N.",
+      "ko": "스.키.티.아.인."
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/j5zd4.json",
+    "icon": "/icons/other/j5zd4.png",
+    "name": {
+      "ru": "Экзокостюм «Tejat Core-2»",
+      "en": "Tejat Core-2 Exoarmor",
+      "es": "Exotraje Tejat Core-2",
+      "fr": "Exo-armure Tejat Core-2",
+      "ko": "테잣 코어-2 강화전투갑주"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/ly9dq.json",
+    "icon": "/icons/other/ly9dq.png",
+    "name": {
+      "ru": "Бронекостюм «Бурав»",
+      "en": "Drill Armored Suit",
+      "es": "Traje blindado Taladro",
+      "fr": "Combinaison Blindée de Forage",
+      "ko": "드릴 장갑 슈트"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/rw67l.json",
+    "icon": "/icons/other/rw67l.png",
+    "name": {
+      "ru": "Экзокостюм «Sirius G-12»",
+      "en": "Sirius G-12 Exosuit",
+      "es": "Exotraje Sirius G-12",
+      "fr": "Exotenue Sirius G-12",
+      "ko": "시리우스 G-12 강화전투복"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/0r9zr.json",
+    "icon": "/icons/other/0r9zr.png",
+    "name": {
+      "ru": "«Снегоступ»",
+      "en": "\"Snowshoe\"",
+      "es": "Raqueta de nieve",
+      "fr": "« Raquette à neige »",
+      "ko": "[눈신]"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/m017r.json",
+    "icon": "/icons/other/m017r.png",
+    "name": {
+      "ru": "Блаженный Диггер",
+      "en": "Blessed Digger",
+      "es": "Excavador Bendecido",
+      "fr": "Fouilleur béni",
+      "ko": "축복 받은 자 광부"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/okz74.json",
+    "icon": "/icons/other/okz74.png",
+    "name": {
+      "ru": "Фрактал",
+      "en": "Fractal",
+      "es": "Fractal",
+      "fr": "Fractale",
+      "ko": "프랙탈"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/n4g7w.json",
+    "icon": "/icons/other/n4g7w.png",
+    "name": {
+      "ru": "«Ликвидатор»",
+      "en": "Liquidator",
+      "es": "Liquidador",
+      "fr": "Liquidateur",
+      "ko": "말소자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/p6575.json",
+    "icon": "/icons/other/p6575.png",
+    "name": {
+      "ru": "«Забытый гренадер»",
+      "en": "Forgotten Grenadier",
+      "es": "Granadero olvidado",
+      "fr": "Grenadier Oublié",
+      "ko": "잊혀진 척탄병"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/vj07g.json",
+    "icon": "/icons/other/vj07g.png",
+    "name": {
+      "ru": "«Затерянный путник»",
+      "en": "Forgotten Traveler",
+      "es": "El viajero perdido",
+      "fr": "Voyageur Oublié",
+      "ko": "잊혀진 여행자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/dm679.json",
+    "icon": "/icons/other/dm679.png",
+    "name": {
+      "ru": "«Отпечаток Изнанки»",
+      "en": "Inside Out Imprint",
+      "es": "Estampado del Reverso",
+      "fr": "Marque de l'Envers",
+      "ko": "뒤집힌 세계 각인"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/2ogym.json",
+    "icon": "/icons/other/2ogym.png",
+    "name": {
+      "ru": "«Белый шум»",
+      "en": "White noise",
+      "es": "Ruido blanco",
+      "fr": "Bruit blanc",
+      "ko": "백색 소음"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/3gzwk.json",
+    "icon": "/icons/other/3gzwk.png",
+    "name": {
+      "ru": "«Диапазон»",
+      "en": "Diapason",
+      "es": "Diapasón",
+      "fr": "Écart",
+      "ko": "소리굽쇠"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/7lojr.json",
+    "icon": "/icons/other/7lojr.png",
+    "name": {
+      "ru": "«Следящий»",
+      "en": "Observer",
+      "es": "Rastreo",
+      "fr": "Observateur",
+      "ko": "감시자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/6wlq6.json",
+    "icon": "/icons/other/6wlq6.png",
+    "name": {
+      "ru": "«Погонщик»",
+      "en": "Herdsman",
+      "es": "Arreador",
+      "fr": "Conducteur",
+      "ko": "목동"
+    },
+    "color": "RANK_LEGEND"
+  },
+  {
+    "data": "/items/other/skins/96krw.json",
+    "icon": "/icons/other/skins/96krw.png",
     "name": {
       "ru": "ZIVCAS 3.0 «Expanse»",
       "en": "ZIVCAS 3.0 «Expanse»",
@@ -7632,8 +8280,1004 @@
     "color": "RANK_LEGEND"
   },
   {
-    "data": "/items/weapon_style/skins/0rj21.json",
-    "icon": "/icons/weapon_style/skins/0rj21.png",
+    "data": "/items/other/1r15q.json",
+    "icon": "/icons/other/1r15q.png",
+    "name": {
+      "ru": "«Одеяние Охотника»",
+      "en": "Hunter's Attire",
+      "es": "Vestidura del Cazador",
+      "fr": "Tenue du Chasseur",
+      "ko": "사냥꾼의 복장"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/g496g.json",
+    "icon": "/icons/other/g496g.png",
+    "name": {
+      "ru": "«Подражание»",
+      "en": "Mimicry",
+      "es": "Mimetismo",
+      "fr": "Mimétisme",
+      "ko": "모방"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/zz0d9.json",
+    "icon": "/icons/other/zz0d9.png",
+    "name": {
+      "ru": "«Освоение»",
+      "en": "Development",
+      "es": "Exploración",
+      "fr": "Assimilation",
+      "ko": "개척"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/5l6k4.json",
+    "icon": "/icons/other/5l6k4.png",
+    "name": {
+      "ru": "Плащ рассказчика",
+      "en": "Storyteller's Cloak",
+      "es": "Capa de narrador",
+      "fr": "Cape du narrateur",
+      "ko": "이야기꾼의 망토"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/y30dw.json",
+    "icon": "/icons/other/y30dw.png",
+    "name": {
+      "ru": "Плащ художника",
+      "en": "Artist's Cloak",
+      "es": "Capa de artista",
+      "fr": "Cape de l'artiste",
+      "ko": "예술가의 망토"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/wj0dd.json",
+    "icon": "/icons/other/wj0dd.png",
+    "name": {
+      "ru": "«Косатка»",
+      "en": "Orca",
+      "es": "Orca",
+      "fr": "Orque",
+      "ko": "오르카"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/4q54l.json",
+    "icon": "/icons/other/4q54l.png",
+    "name": {
+      "ru": "«Соболь»",
+      "en": "Sable",
+      "es": "Sable",
+      "fr": "Zibeline",
+      "ko": "세이블"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/kn573.json",
+    "icon": "/icons/other/kn573.png",
+    "name": {
+      "ru": "«Кореш»",
+      "en": "Dude",
+      "es": "Amigo",
+      "fr": "Pote",
+      "ko": "친구"
+    },
+    "color": "RANK_LEGEND"
+  },
+  {
+    "data": "/items/other/qj379.json",
+    "icon": "/icons/other/qj379.png",
+    "name": {
+      "ru": "«Контуженный»",
+      "en": "Concussed",
+      "es": "Contusionado",
+      "fr": "Sonné",
+      "ko": "뇌진탕"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/j5z74.json",
+    "icon": "/icons/other/j5z74.png",
+    "name": {
+      "ru": "«Миротворец»",
+      "en": "Peacemaker",
+      "es": "Pacificador",
+      "fr": "Pacificateur",
+      "ko": "평화 유지자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/ly97q.json",
+    "icon": "/icons/other/ly97q.png",
+    "name": {
+      "ru": "«Улыбака»",
+      "en": "Grinner",
+      "es": "Sonriendo",
+      "fr": "Souriant",
+      "ko": "살벌한 웃음"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/g4956.json",
+    "icon": "/icons/other/g4956.png",
+    "name": {
+      "ru": "«Клюв Ворона»",
+      "en": "Crow Beak",
+      "es": "Pico de cuervo",
+      "fr": "Bec de corbeau",
+      "ko": "까마귀 부리"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/zz01y.json",
+    "icon": "/icons/other/zz01y.png",
+    "name": {
+      "ru": "/seppuku",
+      "en": "/seppuku",
+      "es": "/seppuku",
+      "fr": "/seppuku",
+      "ko": "/할복"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/5l621.json",
+    "icon": "/icons/other/5l621.png",
+    "name": {
+      "ru": "Укус Обращенного",
+      "en": "Convert’s Bite",
+      "es": "Mordedura del converso",
+      "fr": "Morsure de converti",
+      "ko": "감염자의 이빨"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/y309k.json",
+    "icon": "/icons/other/y309k.png",
+    "name": {
+      "ru": "«Джомолунгма»",
+      "en": "Chomolungma",
+      "es": "Chomolungma",
+      "fr": "Chomolungma",
+      "ko": "초모랑마"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/wj022.json",
+    "icon": "/icons/other/wj022.png",
+    "name": {
+      "ru": "«ВЕДАЕТ»",
+      "en": "VEDAYET",
+      "es": "VEDAYET",
+      "fr": "VEDAYET",
+      "ko": "베다예트"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/4q5dr.json",
+    "icon": "/icons/other/4q5dr.png",
+    "name": {
+      "ru": "ZIVCAS «Gurkhas»",
+      "en": "ZIVCAS Gurkhas",
+      "es": "Gurkhas ZIVCAS",
+      "fr": "Gurkhas ZIVCAS",
+      "ko": "지브카스 구르카"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/kn54y.json",
+    "icon": "/icons/other/kn54y.png",
+    "name": {
+      "ru": "ZIVCAS «Razor»",
+      "en": "ZIVCAS «Razor»",
+      "es": "Razor ZIVCAS",
+      "fr": "« Razor » ZIVCAS",
+      "ko": "지브카스 «칼날»"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/qj3dj.json",
+    "icon": "/icons/other/qj3dj.png",
+    "name": {
+      "ru": "«Черное перо»",
+      "en": "Black feather",
+      "es": "Pluma negra",
+      "fr": "Plume noire",
+      "ko": "검은 깃털"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/j5zy0.json",
+    "icon": "/icons/other/j5zy0.png",
+    "name": {
+      "ru": "«Честная конкуренция»",
+      "en": "Fair competition",
+      "es": "Competición justa",
+      "fr": "Compétition équitable",
+      "ko": "공정 경쟁"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/ly9qk.json",
+    "icon": "/icons/other/ly9qk.png",
+    "name": {
+      "ru": "«Циркуль»",
+      "en": "Corkscrew",
+      "es": "Sacacorchos",
+      "fr": "Tire-bouchon",
+      "ko": "코르크 스크루"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/rw63v.json",
+    "icon": "/icons/other/rw63v.png",
+    "name": {
+      "ru": "«Стальной оберег»",
+      "en": "Steel Talisman",
+      "es": "Talismán de Acero",
+      "fr": "Talisman d'Acier",
+      "ko": "[강철 부적]"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/0r959.json",
+    "icon": "/icons/other/0r959.png",
+    "name": {
+      "ru": "«Опустошитель»",
+      "en": "Ravager",
+      "es": "Devastador",
+      "fr": "Ravageur",
+      "ko": "말살자"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/m01ly.json",
+    "icon": "/icons/other/m01ly.png",
+    "name": {
+      "ru": "«Фантомное лезвие»",
+      "en": "Phantom Blade",
+      "es": "Hoja fantasma",
+      "fr": "Épée de Fantôme",
+      "ko": "팬텀 칼날"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/okzo6.json",
+    "icon": "/icons/other/okzo6.png",
+    "name": {
+      "ru": "«Взмах»",
+      "en": "Swish",
+      "es": "Brazada",
+      "fr": "Percée",
+      "ko": "휘두르기"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/n4g01.json",
+    "icon": "/icons/other/n4g01.png",
+    "name": {
+      "ru": "«Падальщик»",
+      "en": "Scavenger",
+      "es": "Carroñero",
+      "fr": "Charognard",
+      "ko": "시체 청소부"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/p65pw.json",
+    "icon": "/icons/other/p65pw.png",
+    "name": {
+      "ru": "«Зубец»",
+      "en": "Notch",
+      "es": "Diente",
+      "fr": "Dent",
+      "ko": "노치"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/g4pn5.json",
+    "icon": "/icons/other/g4pn5.png",
+    "name": {
+      "ru": "«Собиратель душ»",
+      "en": "Soul Collector",
+      "es": "Recolector de almas",
+      "fr": "Collecteur d'âmes",
+      "ko": "영혼 수집자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/zzo3m.json",
+    "icon": "/icons/other/zzo3m.png",
+    "name": {
+      "ru": "«Ларец Пандоры»",
+      "en": "Pandora's Casket",
+      "es": "Cofre de Pandora",
+      "fr": "Coffret de Pandore",
+      "ko": "판도라의 관"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/9612z.json",
+    "icon": "/icons/other/9612z.png",
+    "name": {
+      "ru": "«Морозная кость»",
+      "en": "Frost Bone",
+      "es": "Hueso Gélido",
+      "fr": "Os de givre",
+      "ko": "서리 뼈"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/1r461.json",
+    "icon": "/icons/other/1r461.png",
+    "name": {
+      "ru": "«Непоколебимый»",
+      "en": "Unshakable",
+      "es": "Impertérrito",
+      "fr": "Inébranlable",
+      "ko": "흔들리지 않는"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/g4pwp.json",
+    "icon": "/icons/other/g4pwp.png",
+    "name": {
+      "ru": "Новогодний FAMAS",
+      "en": "New Year FAMAS",
+      "es": "FAMAS de Año Nuevo",
+      "fr": "FAMAS Nouvelle Année",
+      "ko": "새해 FAMAS"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/zzo6n.json",
+    "icon": "/icons/other/zzo6n.png",
+    "name": {
+      "ru": "«Жребий гладиатора»",
+      "en": "Gladiator’s Lot",
+      "es": "Papeleta de gladiador",
+      "fr": "Lot du gladiateur",
+      "ko": "검투사의 운명"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/5l370.json",
+    "icon": "/icons/other/5l370.png",
+    "name": {
+      "ru": "«Железная рука»",
+      "en": "Iron Hand",
+      "es": "Mano de hierro",
+      "fr": "Main de fer",
+      "ko": "아이언 핸드"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/y3yoo.json",
+    "icon": "/icons/other/y3yoo.png",
+    "name": {
+      "ru": "«JFG»",
+      "en": "ZFG",
+      "es": "JFG",
+      "fr": "ZFG",
+      "ko": "ZFG"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/wjzmo.json",
+    "icon": "/icons/other/wjzmo.png",
+    "name": {
+      "ru": "«Горохострел»",
+      "en": "Peashooter",
+      "es": "Lanzaguisantes",
+      "fr": "Tireur de pois",
+      "ko": "장난감 총"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/4q32n.json",
+    "icon": "/icons/other/4q32n.png",
+    "name": {
+      "ru": "«Проклятое ружье»",
+      "en": "Cursed sawed-Off",
+      "es": "Recortada maldita",
+      "fr": "Maudite sciée",
+      "ko": "저주받은 소드오프"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/knz1v.json",
+    "icon": "/icons/other/knz1v.png",
+    "name": {
+      "ru": "«Морозный перевал»",
+      "en": "Frosty Pass",
+      "es": "Pase gélido",
+      "fr": "Pass Givré",
+      "ko": "얼어붙은 통행증"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/qjn4k.json",
+    "icon": "/icons/other/qjn4k.png",
+    "name": {
+      "ru": "«Таежный ветер»",
+      "en": "Taiga Wind",
+      "es": "Viento de Taiga",
+      "fr": "Vent de la taïga",
+      "ko": "타이가의 바람"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/j5g96.json",
+    "icon": "/icons/other/j5g96.png",
+    "name": {
+      "ru": "«Ящеробой»",
+      "en": "Lizardbane",
+      "es": "Perdición de lagartos",
+      "fr": "Fléau des Lézards",
+      "ko": "도마뱀 학살자"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/ly5g1.json",
+    "icon": "/icons/other/ly5g1.png",
+    "name": {
+      "ru": "Новогодний Glock",
+      "en": "New Year Glock",
+      "es": "Glock de Año Nuevo",
+      "fr": "Glock Nouvelle Année",
+      "ko": "새해 글록"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/m0yz7.json",
+    "icon": "/icons/other/m0yz7.png",
+    "name": {
+      "ru": "«Хранитель Байкала»",
+      "en": "Keeper of Baikal",
+      "es": "Guardián del Baikal",
+      "fr": "Gardien du Baïkal",
+      "ko": "바이칼의 수호자"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/okny0.json",
+    "icon": "/icons/other/okny0.png",
+    "name": {
+      "ru": "«Мощнейший ствол ящеров»",
+      "en": "The mightiest lizard gun",
+      "es": "El arma lagarto más potente",
+      "fr": "Le pistolet-lézard le plus puissant",
+      "ko": "최강의 도마뱀 총"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/n4n53.json",
+    "icon": "/icons/other/n4n53.png",
+    "name": {
+      "ru": "«Мудрость Перуна»",
+      "en": "Perun's Wisdom",
+      "es": "Sabiduría de Perún",
+      "fr": "La sagesse de Perun",
+      "ko": "페룬의 지혜"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/p6nw2.json",
+    "icon": "/icons/other/p6nw2.png",
+    "name": {
+      "ru": "«Гнев Перуна»",
+      "en": "Perun's Wrath",
+      "es": "Ira de Perún",
+      "fr": "Colère de Perun",
+      "ko": "페룬의 진노"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/vjgmd.json",
+    "icon": "/icons/other/vjgmd.png",
+    "name": {
+      "ru": "«Коварство Чемпиона»",
+      "en": "Champion's Cunning",
+      "es": "Astucia del campeón",
+      "fr": "Ruse du Champion",
+      "ko": "챔피언의 교활함"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/dmpzn.json",
+    "icon": "/icons/other/dmpzn.png",
+    "name": {
+      "ru": "«Громовержец»",
+      "en": "Thunderer",
+      "es": "Tonante",
+      "fr": "Foudroyeur",
+      "ko": "천둥의 신"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/2o3d6.json",
+    "icon": "/icons/other/2o3d6.png",
+    "name": {
+      "ru": "ZIVCAS «Vortex»",
+      "en": "ZIVCAS «Vortex»",
+      "es": "Vórtice ZIVCAS",
+      "fr": "« Vortex » ZIVCAS",
+      "ko": "지브카스 «소용돌이»"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/3g3rg.json",
+    "icon": "/icons/other/3g3rg.png",
+    "name": {
+      "ru": "ZIVCAS «Sting»",
+      "en": "ZIVCAS «Sting»",
+      "es": "\"Picadura\" ZIVCAS",
+      "fr": "« Sting » ZIVCAS",
+      "ko": "지브카스 기업 «스팅»"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/7l3r7.json",
+    "icon": "/icons/other/7l3r7.png",
+    "name": {
+      "ru": "ZIVCAS «Wasp»",
+      "en": "ZIVCAS «Wasp»",
+      "es": "\"Avispa\" ZIVCAS",
+      "fr": "« Guêpe » ZIVCAS",
+      "ko": "지브카스 기업 «말벌»"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/6w7ry.json",
+    "icon": "/icons/other/6w7ry.png",
+    "name": {
+      "ru": "ZIVCAS «Hornet»",
+      "en": "ZIVCAS «Hornet»",
+      "es": "\"Avispón\" ZIVCAS",
+      "fr": "« Frelon » ZIVCAS",
+      "ko": "지브카스 «호넷»"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/961mz.json",
+    "icon": "/icons/other/961mz.png",
+    "name": {
+      "ru": "ZIVCAS «Judge»",
+      "en": "ZIVCAS «Judge»",
+      "es": "\"Juez\" ZIVCAS",
+      "fr": "« Juge » ZIVCAS",
+      "ko": "지브카스 «판사»"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/1r4d1.json",
+    "icon": "/icons/other/1r4d1.png",
+    "name": {
+      "ru": "ZIVCAS «Supremacy»",
+      "en": "ZIVCAS «Supremacy»",
+      "es": "\"Supremacía\" ZIVCAS",
+      "fr": "« Supremacy » ZIVCAS",
+      "ko": "지브카스 «최강자»"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/wjzoo.json",
+    "icon": "/icons/other/wjzoo.png",
+    "name": {
+      "ru": "СР-1-10мм Черного Рынка",
+      "en": "Black market SR-1-10mm",
+      "es": "SR-1 de 10 mm del Mercado Negro",
+      "fr": "Marché noir SR-1-10mm",
+      "ko": "블랙 마켓 SR-1-10mm"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/4q30n.json",
+    "icon": "/icons/other/4q30n.png",
+    "name": {
+      "ru": "«Крепкий орешек»",
+      "en": "Tough Nut",
+      "es": "Nut Enrolles",
+      "fr": "Noix Robuste",
+      "ko": "강한 놈"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/knzlv.json",
+    "icon": "/icons/other/knzlv.png",
+    "name": {
+      "ru": "«Теневой вектор»",
+      "en": "Shady vector",
+      "es": "Vector de sombra",
+      "fr": "Vecteur sombre",
+      "ko": "수상한 벡터"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/qjnvk.json",
+    "icon": "/icons/other/qjnvk.png",
+    "name": {
+      "ru": "«Деловой подход»",
+      "en": "Business Approach",
+      "es": "Enfoque empresarial",
+      "fr": "Approche Commerciale",
+      "ko": "사업적 접근"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/j5gl6.json",
+    "icon": "/icons/other/j5gl6.png",
+    "name": {
+      "ru": "«ШАК Рынка»",
+      "en": "Market's ShAK",
+      "es": "ShAK del Mercado",
+      "fr": "ShAK du marché",
+      "ko": "마켓의 ShAK"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/ly5l1.json",
+    "icon": "/icons/other/ly5l1.png",
+    "name": {
+      "ru": "«Вопль»",
+      "en": "Scream",
+      "es": "Grito",
+      "fr": "Crier",
+      "ko": "비명"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/rwpr5.json",
+    "icon": "/icons/other/rwpr5.png",
+    "name": {
+      "ru": "Шустрый АК-15",
+      "en": "Nimble AK-15",
+      "es": "AK-15 Ágil",
+      "fr": "AK-15 Véloce",
+      "ko": "민첩한 AK-15"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/0rj31.json",
+    "icon": "/icons/other/0rj31.png",
+    "name": {
+      "ru": "Пернач Майора",
+      "en": "Major's Pernach",
+      "es": "Pernach del mayor",
+      "fr": "Pernach du Major",
+      "ko": "소령의 페르나흐"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/m0y27.json",
+    "icon": "/icons/other/m0y27.png",
+    "name": {
+      "ru": "Контрабандный Арсенал",
+      "en": "Contraband Arsenal",
+      "es": "Arsenal de contrabando",
+      "fr": "Arsenal de contrebande",
+      "ko": "밀수 무기고"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/oknv0.json",
+    "icon": "/icons/other/oknv0.png",
+    "name": {
+      "ru": "«Castor F2N»",
+      "en": "Castor F2N",
+      "es": "Castor F2N",
+      "fr": "Castor F2N",
+      "ko": "캐스터 F2N"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/n4np3.json",
+    "icon": "/icons/other/n4np3.png",
+    "name": {
+      "ru": "«Антициклон»",
+      "en": "Anticyclone",
+      "es": "Anticiclón",
+      "fr": "Anticyclonique",
+      "ko": "[안티싸이클론]"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/p6nr2.json",
+    "icon": "/icons/other/p6nr2.png",
+    "name": {
+      "ru": "«Дедал»",
+      "en": "Daedalus",
+      "es": "Dédalo",
+      "fr": "Dédale",
+      "ko": "[다이달로스]"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/dmpqn.json",
+    "icon": "/icons/other/dmpqn.png",
+    "name": {
+      "ru": "«Подснежник»",
+      "en": "\"Snowdrop\"",
+      "es": "Campanilla de invierno",
+      "fr": "« Perce-neige »",
+      "ko": "[설화]"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/2o3n6.json",
+    "icon": "/icons/other/2o3n6.png",
+    "name": {
+      "ru": "«Холодный FAL»",
+      "en": "\"Cold FAL\"",
+      "es": "FAL Frío",
+      "fr": "« FAL de givre »",
+      "ko": "[차가운 FAL]"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/3g3ng.json",
+    "icon": "/icons/other/3g3ng.png",
+    "name": {
+      "ru": "Обр. №47",
+      "en": "Model No. 47",
+      "es": "Modelo n.° 47",
+      "fr": "Modèle No. 47",
+      "ko": "모델 번호 47"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/7l3n7.json",
+    "icon": "/icons/other/7l3n7.png",
+    "name": {
+      "ru": "«Винт»",
+      "en": "Vint",
+      "es": "Perno",
+      "fr": "Vis",
+      "ko": "빈트"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/6w76y.json",
+    "icon": "/icons/other/6w76y.png",
+    "name": {
+      "ru": "«Отголосок Изнанки»",
+      "en": "Trace of the Inside Out",
+      "es": "Eco del Reverso",
+      "fr": "Piste de l'Envers",
+      "ko": "뒤집힌 세계의 흔적"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/9619z.json",
+    "icon": "/icons/other/9619z.png",
+    "name": {
+      "ru": "«Возглас Изнанки»",
+      "en": "Cry of the Inside Out",
+      "es": "El grito del Reverso",
+      "fr": "Cri de l'Envers",
+      "ko": "뒤집힌 세계의 울부짖음"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/1r471.json",
+    "icon": "/icons/other/1r471.png",
+    "name": {
+      "ru": "«Стрекот Изнанки»",
+      "en": "Flutter of the Inside Out",
+      "es": "Chirrido del Reverso",
+      "fr": "Battement de l'Envers",
+      "ko": "뒤집힌 세계의 날갯짓"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/g4pmp.json",
+    "icon": "/icons/other/g4pmp.png",
+    "name": {
+      "ru": "«Прорыв Изнанки»",
+      "en": "Inside Out Breach",
+      "es": "Ruptura del Reverso",
+      "fr": "Faille de l'Envers",
+      "ko": "뒤집힌 세계 돌파"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/zzo2n.json",
+    "icon": "/icons/other/zzo2n.png",
+    "name": {
+      "ru": "«Деконструктор»",
+      "en": "Deconstructor",
+      "es": "Deconstructor",
+      "fr": "Déconstructeur",
+      "ko": "해체자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/5l3n0.json",
+    "icon": "/icons/other/5l3n0.png",
+    "name": {
+      "ru": "«Пролом»",
+      "en": "Break-through",
+      "es": "Brecha",
+      "fr": "Percée",
+      "ko": "돌파구"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/y3y2o.json",
+    "icon": "/icons/other/y3y2o.png",
+    "name": {
+      "ru": "«Душегуб»",
+      "en": "Soulreaper",
+      "es": "Homicida",
+      "fr": "Exécuteur",
+      "ko": "소울리퍼"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/wjz7o.json",
+    "icon": "/icons/other/wjz7o.png",
+    "name": {
+      "ru": "«Рык»",
+      "en": "Roar",
+      "es": "Gruñido",
+      "fr": "Grondement",
+      "ko": "포효"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/4q3nn.json",
+    "icon": "/icons/other/4q3nn.png",
+    "name": {
+      "ru": "«Инфразвук»",
+      "en": "Infrasound",
+      "es": "Infrasonido",
+      "fr": "Infrason",
+      "ko": "초저주파"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/knzmv.json",
+    "icon": "/icons/other/knzmv.png",
+    "name": {
+      "ru": "«Крик»",
+      "en": "Shout",
+      "es": "Clamor",
+      "fr": "Hurlement",
+      "ko": "비명"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/qjn2k.json",
+    "icon": "/icons/other/qjn2k.png",
+    "name": {
+      "ru": "«Сколопендра»",
+      "en": "Centipede",
+      "es": "Escolopendra",
+      "fr": "Scolopendre",
+      "ko": "지네"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/j5go6.json",
+    "icon": "/icons/other/j5go6.png",
+    "name": {
+      "ru": "«Гордыня»",
+      "en": "Hubris",
+      "es": "Soberbia",
+      "fr": "Orgueil",
+      "ko": "휴브리스"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/ly521.json",
+    "icon": "/icons/other/ly521.png",
+    "name": {
+      "ru": "«Хорда»",
+      "en": "Notochord",
+      "es": "Notocorda",
+      "fr": "Chorde",
+      "ko": "척삭"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/rwp25.json",
+    "icon": "/icons/other/rwp25.png",
+    "name": {
+      "ru": "«Живодер»",
+      "en": "Knacker",
+      "es": "Matarife",
+      "fr": "Écorcheur",
+      "ko": "도살자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/skins/0rj21.json",
+    "icon": "/icons/other/skins/0rj21.png",
     "name": {
       "ru": "EMR-65 «Spark»",
       "en": "EMR-65 «Spark»",
@@ -7642,6 +9286,42 @@
       "ko": "EMR-65 «스파크»"
     },
     "color": "RANK_LEGEND"
+  },
+  {
+    "data": "/items/other/m0ym7.json",
+    "icon": "/icons/other/m0ym7.png",
+    "name": {
+      "ru": "«Промерзшая сталь»",
+      "en": "Frozen Steel",
+      "es": "Acero congelado",
+      "fr": "Acier gelé",
+      "ko": "얼어붙은 강철"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/oknm0.json",
+    "icon": "/icons/other/oknm0.png",
+    "name": {
+      "ru": "«Точка нуля»",
+      "en": "Zero Point",
+      "es": "Punto cero",
+      "fr": "Point zéro",
+      "ko": "영점"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/n4nm3.json",
+    "icon": "/icons/other/n4nm3.png",
+    "name": {
+      "ru": "«Спецзаказ»",
+      "en": "Special Order",
+      "es": "Orden especial",
+      "fr": "Commande spéciale",
+      "ko": "특별 의뢰"
+    },
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/96o1q.json",
@@ -10689,7 +12369,7 @@
       "fr": "BULLDOZER",
       "ko": "불도저"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/1r6pq.json",
@@ -10701,7 +12381,7 @@
       "fr": "Prototype",
       "ko": "프로토타입"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/g4w3g.json",
@@ -10713,7 +12393,7 @@
       "fr": "Pompier",
       "ko": "소방관"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/zz6j9.json",
@@ -10725,7 +12405,7 @@
       "fr": "Mécatroniques",
       "ko": "메카트로니카"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/5l714.json",
@@ -10737,7 +12417,7 @@
       "fr": "Demi-Vie",
       "ko": "반감기"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/y3oqw.json",
@@ -10749,7 +12429,7 @@
       "fr": "Mark V",
       "ko": "마크 V"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/wjm4d.json",
@@ -10761,7 +12441,7 @@
       "fr": "Ferraille métallique",
       "ko": "금속 고철"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/4q29l.json",
@@ -10773,7 +12453,7 @@
       "fr": "PAIX",
       "ko": "피스"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/kn133.json",
@@ -10785,7 +12465,7 @@
       "fr": "ABS380",
       "ko": "ABS380"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/qj419.json",
@@ -10797,7 +12477,7 @@
       "fr": "Full Metal",
       "ko": "풀 메탈"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/j5934.json",
@@ -10809,7 +12489,7 @@
       "fr": "USS-01",
       "ko": "USS-01"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/lyg3q.json",
@@ -10821,7 +12501,7 @@
       "fr": "Légende",
       "ko": "전설"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/rwk1l.json",
@@ -10833,7 +12513,7 @@
       "fr": "Guerrier Magma",
       "ko": "마그마 전사"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/0rydr.json",
@@ -10845,7 +12525,7 @@
       "fr": "Aumônier",
       "ko": "목사"
     },
-    "color": "DEFAULT"
+    "color": "RANK_STALKER"
   },
   {
     "data": "/items/other/m0zpr.json",
@@ -10857,7 +12537,7 @@
       "fr": "Explosion de Couleurs",
       "ko": "색채 폭발"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/okyd4.json",
@@ -10869,7 +12549,7 @@
       "fr": "Four",
       "ko": "스토브"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/n45vw.json",
@@ -10881,7 +12561,7 @@
       "fr": "Psycho",
       "ko": "사이코"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/p6w25.json",
@@ -10893,7 +12573,7 @@
       "fr": "HABOLOG",
       "ko": "HABOLOG"
     },
-    "color": "DEFAULT"
+    "color": "RANK_STALKER"
   },
   {
     "data": "/items/other/vjmyg.json",
@@ -10905,7 +12585,7 @@
       "fr": "Spectre",
       "ko": "스펙터"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/dmzk9.json",
@@ -10917,7 +12597,7 @@
       "fr": "Pêcheur",
       "ko": "죄인"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/2o49m.json",
@@ -10929,7 +12609,7 @@
       "fr": "Agent",
       "ko": "요원"
     },
-    "color": "DEFAULT"
+    "color": "RANK_STALKER"
   },
   {
     "data": "/items/other/3gk1k.json",
@@ -10941,7 +12621,7 @@
       "fr": "Odin",
       "ko": "오딘"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/7l2yr.json",
@@ -10953,7 +12633,7 @@
       "fr": "Archange",
       "ko": "대천사"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/6w256.json",
@@ -10965,7 +12645,7 @@
       "fr": "Lancelot",
       "ko": "랜슬롯"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/9624w.json",
@@ -10977,7 +12657,7 @@
       "fr": "Carrie",
       "ko": "캐리"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/1r62q.json",
@@ -10989,7 +12669,7 @@
       "fr": "Anarchiste Mort",
       "ko": "죽은 무정부주의자"
     },
-    "color": "DEFAULT"
+    "color": "RANK_STALKER"
   },
   {
     "data": "/items/other/g4wlg.json",
@@ -11001,7 +12681,7 @@
       "fr": "Liquidateur",
       "ko": "말소자"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/zz6q9.json",
@@ -11013,7 +12693,7 @@
       "fr": "Hell Rider",
       "ko": "헬 라이더"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/5l7z4.json",
@@ -11025,7 +12705,7 @@
       "fr": "Joe le Borgne",
       "ko": "외눈박이 조"
     },
-    "color": "DEFAULT"
+    "color": "RANK_STALKER"
   },
   {
     "data": "/items/other/y3okw.json",
@@ -11037,7 +12717,7 @@
       "fr": "Mercure",
       "ko": "머큐리"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/wjmwd.json",
@@ -11049,7 +12729,7 @@
       "fr": "Maître des Runes",
       "ko": "룬 마스터"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/4q2gl.json",
@@ -11061,7 +12741,7 @@
       "fr": "Hors-la-loi",
       "ko": "무법자"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/kn1o3.json",
@@ -11073,7 +12753,7 @@
       "fr": "Abandonné",
       "ko": "버림받은 자"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/qj499.json",
@@ -11085,7 +12765,7 @@
       "fr": "Anarchiste",
       "ko": "무정부주의자"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/j59m4.json",
@@ -11097,7 +12777,7 @@
       "fr": "Modification 47",
       "ko": "개조 47"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/lygnq.json",
@@ -11109,7 +12789,7 @@
       "fr": "Gardien",
       "ko": "수호자"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/rwkol.json",
@@ -11121,7 +12801,7 @@
       "fr": "Leshy",
       "ko": "레쉬"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/0ryor.json",
@@ -11133,7 +12813,7 @@
       "fr": "Tortionnaire",
       "ko": "고문관"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/m0zjr.json",
@@ -11145,7 +12825,7 @@
       "fr": "Gardien de l'Oasis",
       "ko": "오아시스 수호자"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/n45lw.json",
@@ -11157,7 +12837,7 @@
       "fr": "SecureOps",
       "ko": "시큐어옵스"
     },
-    "color": "DEFAULT"
+    "color": "RANK_STALKER"
   },
   {
     "data": "/items/other/p6w05.json",
@@ -11169,7 +12849,7 @@
       "fr": "SecureOps",
       "ko": "시큐어옵스"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/vjmdg.json",
@@ -11181,7 +12861,7 @@
       "fr": "Prophète",
       "ko": "예언자"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/dmz19.json",
@@ -11193,7 +12873,7 @@
       "fr": "Arctique",
       "ko": "아크티카"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/7l29r.json",
@@ -11205,7 +12885,7 @@
       "fr": "Voyou",
       "ko": "불한당"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/6w236.json",
@@ -11217,7 +12897,7 @@
       "fr": "Raider",
       "ko": "습격자"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/962gw.json",
@@ -11229,7 +12909,19 @@
       "fr": "Combattant de givre",
       "ko": "서리 전사"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/1r6nq.json",
+    "icon": "/icons/other/1r6nq.png",
+    "name": {
+      "ru": "«ССОП»",
+      "en": "SSPP",
+      "es": "SSPE",
+      "fr": "SSPP",
+      "ko": "SSPP"
+    },
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/wjm2d.json",
@@ -11241,7 +12933,7 @@
       "fr": "Supersonique",
       "ko": "초음속"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/4q2dl.json",
@@ -11253,7 +12945,7 @@
       "fr": "III-B",
       "ko": "III-B"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/kn1k3.json",
@@ -11265,7 +12957,7 @@
       "fr": "Machines Spéciales",
       "ko": "특수 장비"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/qj4m9.json",
@@ -11277,7 +12969,7 @@
       "fr": "Chasseur d'Acier",
       "ko": "강철 사냥꾼"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/j5944.json",
@@ -11289,7 +12981,7 @@
       "fr": "Renaître",
       "ko": "리본"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/lyg6q.json",
@@ -11301,7 +12993,7 @@
       "fr": "Liche",
       "ko": "리치"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/rwk3l.json",
@@ -11313,7 +13005,7 @@
       "fr": "Fuite Cryogénique",
       "ko": "극저온 누출"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/0ry5r.json",
@@ -11325,7 +13017,7 @@
       "fr": "Tête Givrée",
       "ko": "서리 머리"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/m0zlr.json",
@@ -11337,7 +13029,7 @@
       "fr": "Forgé dans la Bataille",
       "ko": "산전수전"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/okyo4.json",
@@ -11349,7 +13041,7 @@
       "fr": "Le favori de l'Entraîneur",
       "ko": "코치의 애호"
     },
-    "color": "DEFAULT"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/other/n450w.json",
@@ -11361,7 +13053,223 @@
       "fr": "Marathonien",
       "ko": "마라토너"
     },
-    "color": "DEFAULT"
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/vjmwg.json",
+    "icon": "/icons/other/vjmwg.png",
+    "name": {
+      "ru": "Серия «Наследие Империи»",
+      "en": "Empire Legacy Series",
+      "es": "Serie Legado del Imperio",
+      "fr": "Série Héritage de l'Empire",
+      "ko": "임페리얼 레거시 시리즈"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/dmzn9.json",
+    "icon": "/icons/other/dmzn9.png",
+    "name": {
+      "ru": "Серия «Цельнометаллический»",
+      "en": "Full Metal Series",
+      "es": "Serie Metal total",
+      "fr": "Série Full Metal",
+      "ko": "풀 메탈 시리즈"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/2o4km.json",
+    "icon": "/icons/other/2o4km.png",
+    "name": {
+      "ru": "«Опаленный»",
+      "en": "Scorched",
+      "es": "Chamuscado",
+      "fr": "Roussi",
+      "ko": "스코치드"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/3gkjk.json",
+    "icon": "/icons/other/3gkjk.png",
+    "name": {
+      "ru": "«Мученик»",
+      "en": "Martyr",
+      "es": "Mártir",
+      "fr": "Martyr",
+      "ko": "순교자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/7l2vr.json",
+    "icon": "/icons/other/7l2vr.png",
+    "name": {
+      "ru": "«Стервятник»",
+      "en": "Vulture",
+      "es": "Buitre",
+      "fr": "Vautour",
+      "ko": "독수리"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/6w2n6.json",
+    "icon": "/icons/other/6w2n6.png",
+    "name": {
+      "ru": "«Хоккеист»",
+      "en": "Hockey player",
+      "es": "Jugador de Hockey",
+      "fr": "Hockeyeur",
+      "ko": "하키 선수"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/9627w.json",
+    "icon": "/icons/other/9627w.png",
+    "name": {
+      "ru": "«Горнило»",
+      "en": "Crucible",
+      "es": "Crisol",
+      "fr": "Creuset",
+      "ko": "크루서블"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/1r6wq.json",
+    "icon": "/icons/other/1r6wq.png",
+    "name": {
+      "ru": "ZIVCAS Prototype 71790",
+      "en": "ZIVCAS Prototype 71790",
+      "es": "ZIVCAS Prototype 71790",
+      "fr": "Prototype ZIVCAS 71790",
+      "ko": "ZIVCAS 프로토타입 71790"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/g4w7g.json",
+    "icon": "/icons/other/g4w7g.png",
+    "name": {
+      "ru": "«Уцелевший»",
+      "en": "Survivor",
+      "es": "Superviviente",
+      "fr": "Survivant",
+      "ko": "생존자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/zz6m9.json",
+    "icon": "/icons/other/zz6m9.png",
+    "name": {
+      "ru": "«Опричник»",
+      "en": "Oprichnik",
+      "es": "Oprichnik",
+      "fr": "Opritchnik",
+      "ko": "오프리츠니크"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/5l7m4.json",
+    "icon": "/icons/other/5l7m4.png",
+    "name": {
+      "ru": "«Гвоздодер»",
+      "en": "Claw Hammer",
+      "es": "Barreta",
+      "fr": "Pied-de-biche",
+      "ko": "갈고리 망치"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/y3orw.json",
+    "icon": "/icons/other/y3orw.png",
+    "name": {
+      "ru": "«Сотник»",
+      "en": "Sotnik",
+      "es": "Sótnik",
+      "fr": "Sotnik",
+      "ko": "소트니크"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/wjmkd.json",
+    "icon": "/icons/other/wjmkd.png",
+    "name": {
+      "ru": "«Дунай»",
+      "en": "Danube",
+      "es": "Danubio",
+      "fr": "Danube",
+      "ko": "다뉴브"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/4q2rl.json",
+    "icon": "/icons/other/4q2rl.png",
+    "name": {
+      "ru": "«Первопроходец»",
+      "en": "Trailblazer",
+      "es": "Pionero",
+      "fr": "Le Pionnier",
+      "ko": "개척자"
+    },
+    "color": "RANK_LEGEND"
+  },
+  {
+    "data": "/items/other/kn143.json",
+    "icon": "/icons/other/kn143.png",
+    "name": {
+      "ru": "«Колебание»",
+      "en": "Oscillation",
+      "es": "Oscilación",
+      "fr": "Oscillation",
+      "ko": "진동"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/0r3wr.json",
+    "icon": "/icons/other/0r3wr.png",
+    "name": {
+      "ru": "«Изверг»",
+      "en": "Tormentor",
+      "es": "Monstruo",
+      "fr": "Monstre",
+      "ko": "고통을 주는 자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/m02wr.json",
+    "icon": "/icons/other/m02wr.png",
+    "name": {
+      "ru": "«Сбой»",
+      "en": "Malfunction",
+      "es": "Fracaso",
+      "fr": "Échec",
+      "ko": "오작동"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/okvq4.json",
+    "icon": "/icons/other/okvq4.png",
+    "name": {
+      "ru": "«Тронутый»",
+      "en": "Wacky",
+      "es": "Chiflado",
+      "fr": "Fou à lier",
+      "ko": "웨키"
+    },
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/96m2q.json",
@@ -11484,74 +13392,14 @@
     "color": "DEFAULT"
   },
   {
-    "data": "/items/other/vjrm7.json",
-    "icon": "/icons/other/vjrm7.png",
-    "name": {
-      "ru": "«УЗ»",
-      "en": "UZ",
-      "es": "UZ",
-      "fr": "UZ",
-      "ko": "UZ"
-    },
-    "color": "DEFAULT"
-  },
-  {
-    "data": "/items/other/dmqzg.json",
-    "icon": "/icons/other/dmqzg.png",
-    "name": {
-      "ru": "«Износ»",
-      "en": "Deterioration",
-      "es": "Deterioro",
-      "fr": "Détérioration",
-      "ko": "열화"
-    },
-    "color": "DEFAULT"
-  },
-  {
     "data": "/items/other/2od4v.json",
     "icon": "/icons/other/2od4v.png",
     "name": {
-      "ru": "«Тестовый образец» ОЦ-33",
-      "en": "Test Prototype OTs-33",
-      "es": "Prototipo de prueba OTs-33",
-      "fr": "Prototype d'essai OTs-33",
-      "ko": "시험용 프로토타입 OTs-33"
-    },
-    "color": "DEFAULT"
-  },
-  {
-    "data": "/items/other/3grk1.json",
-    "icon": "/icons/other/3grk1.png",
-    "name": {
-      "ru": "«Тестовый образец» РМО-93",
-      "en": "Test Prototype RMO-93",
-      "es": "Prototipo de prueba RMO-93",
-      "fr": "Prototype d'essai RMO-93",
-      "ko": "시험용 프로토타입 RMO-93"
-    },
-    "color": "DEFAULT"
-  },
-  {
-    "data": "/items/other/7lr29.json",
-    "icon": "/icons/other/7lr29.png",
-    "name": {
-      "ru": "«Тестовый образец» ТКБ-0146М",
-      "en": "Test Prototype TKB-0146M",
-      "es": "Prototipo de prueba TKB-0146M",
-      "fr": "Prototype d'Essai TKB-0146M",
-      "ko": "시험용 프로토타입 TKB-0146M"
-    },
-    "color": "DEFAULT"
-  },
-  {
-    "data": "/items/other/6wr2n.json",
-    "icon": "/icons/other/6wr2n.png",
-    "name": {
-      "ru": "«Тестовый образец» РПК-16",
-      "en": "Test Prototype RPK-16",
-      "es": "Prototipo de prueba RPK-16",
-      "fr": "Prototype d'essai RPK-16",
-      "ko": "시험용 프로토타입 RPK-16"
+      "ru": "«Тестовый образец»",
+      "en": "Test Prototype",
+      "es": "Prototipo de prueba",
+      "fr": "Prototype d'essai",
+      "ko": "시험용 프로토타입"
     },
     "color": "DEFAULT"
   },
@@ -11559,23 +13407,23 @@
     "data": "/items/other/1rddr.json",
     "icon": "/icons/other/1rddr.png",
     "name": {
-      "ru": "«Головорез» ОТЛ-3",
-      "en": "OTL-3 Thug",
-      "es": "OTL-3 Matón",
-      "fr": "OTL-3 Voyou",
-      "ko": "OTL-3 불한당"
+      "ru": "«Головорез»",
+      "en": "Thug",
+      "es": "Matón",
+      "fr": "Voyou",
+      "ko": "불한당"
     },
     "color": "DEFAULT"
   },
   {
-    "data": "/items/other/g400n.json",
-    "icon": "/icons/other/g400n.png",
+    "data": "/items/other/zz77k.json",
+    "icon": "/icons/other/zz77k.png",
     "name": {
-      "ru": "«Головорез» ОЦ-62",
-      "en": "OTs-62 Thug",
-      "es": "OTs-62 Matón",
-      "fr": "OTs-62 Voyou",
-      "ko": "OTs-62 불한당"
+      "ru": "«Ржавчина»",
+      "en": "Rust",
+      "es": "Oxidación",
+      "fr": "Rouille",
+      "ko": "러스트"
     },
     "color": "DEFAULT"
   },
@@ -11583,11 +13431,11 @@
     "data": "/items/other/5lddo.json",
     "icon": "/icons/other/5lddo.png",
     "name": {
-      "ru": "«Морозный tigor» ОЦ-33",
-      "en": "OTs-33 Frost Tigor",
-      "es": "OTs-33 Tigor gélido",
-      "fr": "OTs-33 Tigor Gelé",
-      "ko": "OTs-33 서리 티거"
+      "ru": "«Морозный tigor»",
+      "en": "Frost tigor",
+      "es": "Tigor helado",
+      "fr": "tigor du froid",
+      "ko": "빙결의 호랑이"
     },
     "color": "DEFAULT"
   },
@@ -11604,18 +13452,6 @@
     "color": "DEFAULT"
   },
   {
-    "data": "/items/other/wjooz.json",
-    "icon": "/icons/other/wjooz.png",
-    "name": {
-      "ru": "«Хренострел»",
-      "en": "Crapfire",
-      "es": "Llamarada cadáver",
-      "fr": "Feu de Poubelle",
-      "ko": "쓰레기 불길"
-    },
-    "color": "DEFAULT"
-  },
-  {
     "data": "/items/other/4q00j.json",
     "icon": "/icons/other/4q00j.png",
     "name": {
@@ -11626,6 +13462,474 @@
       "ko": "독소"
     },
     "color": "DEFAULT"
+  },
+  {
+    "data": "/items/other/knllj.json",
+    "icon": "/icons/other/knllj.png",
+    "name": {
+      "ru": "«Морозная сталь»",
+      "en": "Frost Steel",
+      "es": "Acero gélido",
+      "fr": "Acier de Givre",
+      "ko": "서리 강철"
+    },
+    "color": "DEFAULT"
+  },
+  {
+    "data": "/items/other/qjvv4.json",
+    "icon": "/icons/other/qjvv4.png",
+    "name": {
+      "ru": "«Ствол Большого Мальчика»",
+      "en": "Big Boy Gun",
+      "es": "Pistola de Grandullón",
+      "fr": "Pistolet Big Boy",
+      "ko": "사나이를 위한 총"
+    },
+    "color": "DEFAULT"
+  },
+  {
+    "data": "/items/other/rwrrz.json",
+    "icon": "/icons/other/rwrrz.png",
+    "name": {
+      "ru": "Материалы «Шепота»",
+      "en": "Murmur Materials",
+      "es": "Materiales de Susurro",
+      "fr": "Matériaux du Murmure",
+      "ko": "속삭임 재료"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/0r33k.json",
+    "icon": "/icons/other/0r33k.png",
+    "name": {
+      "ru": "«Молодчик»",
+      "en": "Hotshot",
+      "es": "Muchacho",
+      "fr": "Petit gars",
+      "ko": "핫샷"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/m022k.json",
+    "icon": "/icons/other/m022k.png",
+    "name": {
+      "ru": "«Мастак»",
+      "en": "Virtuoso",
+      "es": "Experto",
+      "fr": "Maître",
+      "ko": "버추어소"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/okvv5.json",
+    "icon": "/icons/other/okvv5.png",
+    "name": {
+      "ru": "«Танцор»",
+      "en": "Dancer",
+      "es": "Bailarín",
+      "fr": "Danseur",
+      "ko": "댄서"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/n4pp9.json",
+    "icon": "/icons/other/n4pp9.png",
+    "name": {
+      "ru": "«Саламандра»",
+      "en": "Salamander",
+      "es": "Salamandra",
+      "fr": "Salamandre",
+      "ko": "샐러맨더"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/p6rrd.json",
+    "icon": "/icons/other/p6rrd.png",
+    "name": {
+      "ru": "«Забойщик»",
+      "en": "Steakmaker",
+      "es": "Carnicero",
+      "fr": "Abatteur",
+      "ko": "스테이크메이커"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/vjrr7.json",
+    "icon": "/icons/other/vjrr7.png",
+    "name": {
+      "ru": "«Дагон»",
+      "en": "Dagon",
+      "es": "Dagón",
+      "fr": "Dagon",
+      "ko": "데이건"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/dmqqg.json",
+    "icon": "/icons/other/dmqqg.png",
+    "name": {
+      "ru": "«Презренный»",
+      "en": "Contempt",
+      "es": "Despreciado",
+      "fr": "Méprisable",
+      "ko": "컨템트"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/2oddv.json",
+    "icon": "/icons/other/2oddv.png",
+    "name": {
+      "ru": "«Образец S110»",
+      "en": "Model S110",
+      "es": "Modelo S110",
+      "fr": "Prototype S110",
+      "ko": "모델 S110"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/3grr1.json",
+    "icon": "/icons/other/3grr1.png",
+    "name": {
+      "ru": "«Легат»",
+      "en": "Legate",
+      "es": "Legado",
+      "fr": "Légataire",
+      "ko": "사절"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/7lrr9.json",
+    "icon": "/icons/other/7lrr9.png",
+    "name": {
+      "ru": "«Грех»",
+      "en": "Sin",
+      "es": "Pecado",
+      "fr": "Péché",
+      "ko": "씬"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/6wrrn.json",
+    "icon": "/icons/other/6wrrn.png",
+    "name": {
+      "ru": "«Посейдон»",
+      "en": "Poseidon",
+      "es": "Poseidón",
+      "fr": "Poséidon",
+      "ko": "포세이돈"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/96m9q.json",
+    "icon": "/icons/other/96m9q.png",
+    "name": {
+      "ru": "«Родной двор»",
+      "en": "Home turf",
+      "es": "Césped doméstico",
+      "fr": "Cour d'enfance",
+      "ko": "홈 터프"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/1rd7r.json",
+    "icon": "/icons/other/1rd7r.png",
+    "name": {
+      "ru": "«Житница»",
+      "en": "Pastoral",
+      "es": "Pastoral",
+      "fr": "Pastoral",
+      "ko": "패스토럴"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/g40mn.json",
+    "icon": "/icons/other/g40mn.png",
+    "name": {
+      "ru": "Серия «Служивый»",
+      "en": "Series: Bravo",
+      "es": "Serie: Bravo",
+      "fr": "Série : Réglo",
+      "ko": "시리즈: 브라보"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/zz72k.json",
+    "icon": "/icons/other/zz72k.png",
+    "name": {
+      "ru": "Серия «Прозрение»",
+      "en": "Series: Insight",
+      "es": "Serie: Epifanía",
+      "fr": "Série «Clarté»",
+      "ko": "시리즈: 인사이트"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/5ldno.json",
+    "icon": "/icons/other/5ldno.png",
+    "name": {
+      "ru": "«Блаженный» АКС-74У",
+      "en": "Blessed AKS-74U",
+      "es": "AKS-74U Bendecido",
+      "fr": "AKS-74U Béni",
+      "ko": "축복 받은 자의 AKS-74U"
+    },
+    "color": "DEFAULT"
+  },
+  {
+    "data": "/items/other/y3720.json",
+    "icon": "/icons/other/y3720.png",
+    "name": {
+      "ru": "АКС чистильщика",
+      "en": "Cleaner’s AKS",
+      "es": "AKS de Limpiador",
+      "fr": "AKS du nettoyeur",
+      "ko": "청소부의 AKS"
+    },
+    "color": "RANK_NEWBIE"
+  },
+  {
+    "data": "/items/other/wjo7z.json",
+    "icon": "/icons/other/wjo7z.png",
+    "name": {
+      "ru": "«Искусство Арсенала»",
+      "en": "Art of Arsenal",
+      "es": "Arte de Arsenal",
+      "fr": "Art de l’Arsenal",
+      "ko": "아트 오브 아스널"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/4q0nj.json",
+    "icon": "/icons/other/4q0nj.png",
+    "name": {
+      "ru": "«Догхантер»",
+      "en": "Doghunter",
+      "es": "Cazador de perros",
+      "fr": "Chasseur de chien",
+      "ko": "독헌터"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/knlmj.json",
+    "icon": "/icons/other/knlmj.png",
+    "name": {
+      "ru": "«Грех»",
+      "en": "Sin",
+      "es": "Pecado",
+      "fr": "Péché",
+      "ko": "죄"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/qjv24.json",
+    "icon": "/icons/other/qjv24.png",
+    "name": {
+      "ru": "«Запах напалма»",
+      "en": "Smell of Napalm",
+      "es": "Olor del napalm",
+      "fr": "L'odeur du napalm",
+      "ko": "네이팜의 냄새"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/j5lol.json",
+    "icon": "/icons/other/j5lol.png",
+    "name": {
+      "ru": "«Уникальная снежинка»",
+      "en": "Special Snowflake",
+      "es": "Copo de nieve único",
+      "fr": "Flocon unique",
+      "ko": "특급 눈송이"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/lyl22.json",
+    "icon": "/icons/other/lyl22.png",
+    "name": {
+      "ru": "«Погоня»",
+      "en": "Chase",
+      "es": "Persecución",
+      "fr": "Poursuite",
+      "ko": "추격"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/rwr2z.json",
+    "icon": "/icons/other/rwr2z.png",
+    "name": {
+      "ru": "«Чужая улица»",
+      "en": "Other's Street",
+      "es": "Calle ajena",
+      "fr": "Rue étrangère",
+      "ko": "타인의 거리"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/0r32k.json",
+    "icon": "/icons/other/0r32k.png",
+    "name": {
+      "ru": "«Взгляд хищника»",
+      "en": "Predator Gaze",
+      "es": "Mirada del depredador",
+      "fr": "Regard de prédateur",
+      "ko": "포식자의 시선"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/m02mk.json",
+    "icon": "/icons/other/m02mk.png",
+    "name": {
+      "ru": "«Гад»",
+      "en": "Adder",
+      "es": "Rastrero",
+      "fr": "Couleuvre",
+      "ko": "애더"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/okvm5.json",
+    "icon": "/icons/other/okvm5.png",
+    "name": {
+      "ru": "«Ночная охота»",
+      "en": "Night Hunt",
+      "es": "Caza nocturna",
+      "fr": "Chasse nocturne",
+      "ko": "야간 사냥"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/n4pm9.json",
+    "icon": "/icons/other/n4pm9.png",
+    "name": {
+      "ru": "«Блаженная жатва»",
+      "en": "Blessed Harvest",
+      "es": "Cosecha bendecida",
+      "fr": "Moisson bienheureuse",
+      "ko": "블레스드 수확"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/p6r3d.json",
+    "icon": "/icons/other/p6r3d.png",
+    "name": {
+      "ru": "«Излишки»",
+      "en": "Surpluses",
+      "es": "Excedentes",
+      "fr": "Surplus",
+      "ko": "잉여분"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/vjr27.json",
+    "icon": "/icons/other/vjr27.png",
+    "name": {
+      "ru": "«Служба»",
+      "en": "Duty",
+      "es": "Servicio",
+      "fr": "Service",
+      "ko": "의무"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/dmqjg.json",
+    "icon": "/icons/other/dmqjg.png",
+    "name": {
+      "ru": "«Elbrick»",
+      "en": "Elbrick",
+      "es": "Elbrick",
+      "fr": "Elbrick",
+      "ko": "엘브릭"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/2odnv.json",
+    "icon": "/icons/other/2odnv.png",
+    "name": {
+      "ru": "«Плейбой»",
+      "en": "Playboy",
+      "es": "Playboy",
+      "fr": "Playboy",
+      "ko": "플레이보이"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/3grn1.json",
+    "icon": "/icons/other/3grn1.png",
+    "name": {
+      "ru": "«Спасатель»",
+      "en": "Rescuer",
+      "es": "Rescatista",
+      "fr": "Sauveteur",
+      "ko": "구조자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/7lrn9.json",
+    "icon": "/icons/other/7lrn9.png",
+    "name": {
+      "ru": "«Турист»",
+      "en": "Tourist",
+      "es": "Turista",
+      "fr": "Touriste",
+      "ko": "관광객"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/6wr6n.json",
+    "icon": "/icons/other/6wr6n.png",
+    "name": {
+      "ru": "«Мирняк»",
+      "en": "Civvy",
+      "es": "Contingente de paz",
+      "fr": "Pacifiste",
+      "ko": "비전투원"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/96mwq.json",
+    "icon": "/icons/other/96mwq.png",
+    "name": {
+      "ru": "«Счастливый билет»",
+      "en": "Lucky Ticket",
+      "es": "Billete afortunado",
+      "fr": "Ticket gagnant",
+      "ko": "행운권"
+    },
+    "color": "RANK_MASTER"
   },
   {
     "data": "/items/other/skins/knlgv.json",
@@ -12672,6 +14976,18 @@
     "color": "RANK_MASTER"
   },
   {
+    "data": "/items/weapon/machine_gun/qj2l9.json",
+    "icon": "/icons/weapon/machine_gun/qj2l9.png",
+    "name": {
+      "ru": "M60E4",
+      "en": "M60E4",
+      "es": "M60E4",
+      "fr": "M60E4",
+      "ko": "M60E4"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
     "data": "/items/weapon/sniper_rifle/1r7rg.json",
     "icon": "/icons/weapon/sniper_rifle/1r7rg.png",
     "name": {
@@ -13101,7 +15417,7 @@
       "fr": "BM-16",
       "ko": "BM-16"
     },
-    "color": "DEFAULT"
+    "color": "RANK_NEWBIE"
   },
   {
     "data": "/items/weapon/shotgun_rifle/zz2om.json",
@@ -13116,6 +15432,18 @@
     "color": "RANK_NEWBIE"
   },
   {
+    "data": "/items/weapon/shotgun_rifle/5lnjq.json",
+    "icon": "/icons/weapon/shotgun_rifle/5lnjq.png",
+    "name": {
+      "ru": "ИЖ-81",
+      "en": "IZh-81",
+      "es": "IZh-81",
+      "fr": "IZH-81",
+      "ko": "IZh-81"
+    },
+    "color": "RANK_STALKER"
+  },
+  {
     "data": "/items/weapon/shotgun_rifle/g4mz5.json",
     "icon": "/icons/weapon/shotgun_rifle/g4mz5.png",
     "name": {
@@ -13125,7 +15453,7 @@
       "fr": "TOZ-34",
       "ko": "TOZ-34"
     },
-    "color": "RANK_NEWBIE"
+    "color": "RANK_STALKER"
   },
   {
     "data": "/items/weapon/shotgun_rifle/zz2nm.json",
@@ -13161,7 +15489,7 @@
       "fr": "MP-133",
       "ko": "MP-133"
     },
-    "color": "RANK_NEWBIE"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/weapon/shotgun_rifle/wj7v3.json",
@@ -13184,6 +15512,30 @@
       "es": "Chiappa Triple Crown",
       "fr": "Chiappa Triple Crown",
       "ko": "키아파 트리플 크라운"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/weapon/shotgun_rifle/rw2yy.json",
+    "icon": "/icons/weapon/shotgun_rifle/rw2yy.png",
+    "name": {
+      "ru": "ТОЗ-55",
+      "en": "TOZ-55",
+      "es": "TOZ-55",
+      "fr": "TOZ-55",
+      "ko": "TOZ-55"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/weapon/shotgun_rifle/0r2my.json",
+    "icon": "/icons/weapon/shotgun_rifle/0r2my.png",
+    "name": {
+      "ru": "ТОЗ-57",
+      "en": "TOZ-57",
+      "es": "TOZ-57",
+      "fr": "TOZ-57",
+      "ko": "TOZ-57"
     },
     "color": "RANK_VETERAN"
   },
@@ -13221,7 +15573,7 @@
       "fr": "MP-153",
       "ko": "MP-153"
     },
-    "color": "RANK_STALKER"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/weapon/shotgun_rifle/4qn2o.json",
@@ -13340,6 +15692,42 @@
       "es": "AEK-965",
       "fr": "AEK-965",
       "ko": "AEK-965"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/weapon/shotgun_rifle/6w620.json",
+    "icon": "/icons/weapon/shotgun_rifle/6w620.png",
+    "name": {
+      "ru": "ТОЗ-84",
+      "en": "TOZ-84",
+      "es": "TOZ-84",
+      "fr": "TOZ-84",
+      "ko": "TOZ-84"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/weapon/shotgun_rifle/9692y.json",
+    "icon": "/icons/weapon/shotgun_rifle/9692y.png",
+    "name": {
+      "ru": "МР-155 Ultima",
+      "en": "MP-155 Ultima",
+      "es": "MP-155 Ultima",
+      "fr": "MR-155 Ultima",
+      "ko": "МР-155 Ultima"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/weapon/shotgun_rifle/1r762.json",
+    "icon": "/icons/weapon/shotgun_rifle/1r762.png",
+    "name": {
+      "ru": "Сайга-12",
+      "en": "Saiga-12",
+      "es": "Saiga-12",
+      "fr": "Saiga-12",
+      "ko": "SAIGA 12"
     },
     "color": "RANK_MASTER"
   },
@@ -15612,18 +18000,6 @@
     "color": "RANK_VETERAN"
   },
   {
-    "data": "/items/attachment/forend/ly4ok.json",
-    "icon": "/icons/attachment/forend/ly4ok.png",
-    "name": {
-      "ru": "Цевье для Сайга-12К",
-      "en": "Handguard for Saiga-12K",
-      "es": "Guardamanos para Saiga-12K",
-      "fr": "Garde-main Saiga-12K",
-      "ko": "사이가-12K용 총열덮개"
-    },
-    "color": "RANK_VETERAN"
-  },
-  {
     "data": "/items/attachment/forend/rw09v.json",
     "icon": "/icons/attachment/forend/rw09v.png",
     "name": {
@@ -16104,6 +18480,18 @@
     "color": "RANK_VETERAN"
   },
   {
+    "data": "/items/attachment/collimator_sights/rw0qz.json",
+    "icon": "/icons/attachment/collimator_sights/rw0qz.png",
+    "name": {
+      "ru": "Прицел оптический NcStar VISM",
+      "en": "NcStar VISM Optical Sight",
+      "es": "Mira telescópica NcStar VISM",
+      "fr": "Viseur optique NcStar VISM",
+      "ko": "NcStar VISM 광학조준경"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
     "data": "/items/attachment/collimator_sights/0rvkk.json",
     "icon": "/icons/attachment/collimator_sights/0rvkk.png",
     "name": {
@@ -16112,6 +18500,30 @@
       "es": "Mira telescópica Trijicon ACOG 2x40",
       "fr": "Viseur optique « Trijicon ACOG 2x40 »",
       "ko": "트리지콘 ACOG 2x40 광학조준경"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/attachment/collimator_sights/m0k5k.json",
+    "icon": "/icons/attachment/collimator_sights/m0k5k.png",
+    "name": {
+      "ru": "Прицел оптический «Апогей»",
+      "en": "Apogee Optical Sight",
+      "es": "Mira telescópica Apogeo",
+      "fr": "Viseur optique Apogée",
+      "ko": "광학 조준경 아포지"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/attachment/collimator_sights/okjw5.json",
+    "icon": "/icons/attachment/collimator_sights/okjw5.png",
+    "name": {
+      "ru": "Прицел оптический «Азимут»",
+      "en": "Azimut Optical Sight",
+      "es": "Mira telescópica Acimut",
+      "fr": "Viseur optique Azimut",
+      "ko": "광학 조준경 아지무트"
     },
     "color": "RANK_MASTER"
   },
@@ -17840,6 +20252,18 @@
       "es": "Cargador ergonómico para 5.56",
       "fr": "Chargeur ergonomique 5,56",
       "ko": "인체공학 탄창 5.56"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/attachment/mag/zz92m.json",
+    "icon": "/icons/attachment/mag/zz92m.png",
+    "name": {
+      "ru": "Барабанный магазин Сайга-12",
+      "en": "Saiga-12 Drum Magazine",
+      "es": "Cargador de tambor Saiga-12",
+      "fr": "Chargeur tambour Saiga-12",
+      "ko": "SAIGA 12 드럼 탄창"
     },
     "color": "RANK_MASTER"
   },
@@ -20481,7 +22905,7 @@
       "fr": "Trousse de premiers secours militaire",
       "ko": "군용 구급상자"
     },
-    "color": "DEFAULT"
+    "color": "RANK_NEWBIE"
   },
   {
     "data": "/items/medicine/zzqk2.json",
@@ -20541,18 +22965,6 @@
       "fr": "Antirad B-393",
       "ko": "항방사능제 B-393"
     },
-    "color": "RANK_VETERAN"
-  },
-  {
-    "data": "/items/medicine/kno60.json",
-    "icon": "/icons/medicine/kno60.png",
-    "name": {
-      "ru": "Пси-блок «Нейрон-22»",
-      "en": "Neuron-22 PsyBlock",
-      "es": "Bloqueo psy Neuron-22",
-      "fr": "BloquePsy Neuro-22",
-      "ko": "뉴런-22 사이블록"
-    },
     "color": "RANK_STALKER"
   },
   {
@@ -20564,18 +22976,6 @@
       "es": "Antídoto de 2.ª clase",
       "fr": "Antidote de 2e classe",
       "ko": "2급 해독제"
-    },
-    "color": "RANK_STALKER"
-  },
-  {
-    "data": "/items/medicine/j5mn7.json",
-    "icon": "/icons/medicine/j5mn7.png",
-    "name": {
-      "ru": "«Термобарьер» второго класса",
-      "en": "2nd Class ThermoBlock",
-      "es": "Inhibidor térmico de 2.ª clase",
-      "fr": "ThermoBloc de 2ème classe",
-      "ko": "2급 열 보호제"
     },
     "color": "RANK_STALKER"
   },
@@ -20602,42 +23002,6 @@
       "ko": "아르니 토닉"
     },
     "color": "RANK_STALKER"
-  },
-  {
-    "data": "/items/medicine/0rd7d.json",
-    "icon": "/icons/medicine/0rd7d.png",
-    "name": {
-      "ru": "Радиопротектор первого класса",
-      "en": "1st Class Radioprotectant",
-      "es": "Radioprotector de 1.ª clase",
-      "fr": "Radioprotecteur de 1ère Classe",
-      "ko": "1급 방사능 보호제"
-    },
-    "color": "DEFAULT"
-  },
-  {
-    "data": "/items/medicine/m0p4j.json",
-    "icon": "/icons/medicine/m0p4j.png",
-    "name": {
-      "ru": "Радиопротектор второго класса",
-      "en": "2nd Class Radioprotectant",
-      "es": "Radioprotector de 2.ª clase",
-      "fr": "Radioprotecteur de 2e Classe",
-      "ko": "2등급 방사능 보호제"
-    },
-    "color": "RANK_STALKER"
-  },
-  {
-    "data": "/items/medicine/okd4o.json",
-    "icon": "/icons/medicine/okd4o.png",
-    "name": {
-      "ru": "Радиопротектор третьего класса",
-      "en": "3rd Class Radioprotectant",
-      "es": "Radioprotector de 3.ª clase",
-      "fr": "Radioprotecteur de 3e classe",
-      "ko": "3등급 방사능 보호제"
-    },
-    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/medicine/n4vw6.json",
@@ -20676,18 +23040,6 @@
     "color": "RANK_VETERAN"
   },
   {
-    "data": "/items/medicine/dmky5.json",
-    "icon": "/icons/medicine/dmky5.png",
-    "name": {
-      "ru": "«ClearMind+»",
-      "en": "“ClearMind+”",
-      "es": "\"ClearMind+\"",
-      "fr": "« ClearMind+ »",
-      "ko": "[정신정화+]"
-    },
-    "color": "RANK_VETERAN"
-  },
-  {
     "data": "/items/drink/2o900.json",
     "icon": "/icons/drink/2o900.png",
     "name": {
@@ -20721,7 +23073,7 @@
       "fr": "Trousse de Premiers Soins du Guide",
       "ko": "길잡이의 구급상자"
     },
-    "color": "RANK_VETERAN"
+    "color": "RANK_STALKER"
   },
   {
     "data": "/items/medicine/6w59j.json",
@@ -20733,7 +23085,7 @@
       "fr": "STRIKE",
       "ko": "STRIKE 각성제"
     },
-    "color": "RANK_VETERAN"
+    "color": "RANK_STALKER"
   },
   {
     "data": "/items/drink/964z0.json",
@@ -20796,18 +23148,6 @@
     "color": "RANK_STALKER"
   },
   {
-    "data": "/items/medicine/qj9q6.json",
-    "icon": "/icons/medicine/qj9q6.png",
-    "name": {
-      "ru": "Пси-блок «Нейрон-33»",
-      "en": "Neuron-33 PsyBlock",
-      "es": "Bloqueo psy Neuron-33",
-      "fr": "BloquePsy Neuro-33",
-      "ko": "뉴런-33 사이블록"
-    },
-    "color": "RANK_VETERAN"
-  },
-  {
     "data": "/items/medicine/j5mq7.json",
     "icon": "/icons/medicine/j5mq7.png",
     "name": {
@@ -20829,43 +23169,7 @@
       "fr": "Antidote de 3ème classe",
       "ko": "3급 해독제"
     },
-    "color": "RANK_VETERAN"
-  },
-  {
-    "data": "/items/medicine/rw1vg.json",
-    "icon": "/icons/medicine/rw1vg.png",
-    "name": {
-      "ru": "«Термобарьер» первого класса",
-      "en": "1st Class ThermoBlock",
-      "es": "Inhibidor térmico de 1.ª clase",
-      "fr": "ThermoBloc de 1ère classe",
-      "ko": "1급 열 보호제"
-    },
-    "color": "DEFAULT"
-  },
-  {
-    "data": "/items/medicine/0rdld.json",
-    "icon": "/icons/medicine/0rdld.png",
-    "name": {
-      "ru": "«Термобарьер» третьего класса",
-      "en": "3rd Class ThermoBlock",
-      "es": "Inhibidor térmico de 3.ª clase",
-      "fr": "ThermoBloc de 3ème classe",
-      "ko": "3급 열 보호제"
-    },
-    "color": "RANK_VETERAN"
-  },
-  {
-    "data": "/items/medicine/m0pqj.json",
-    "icon": "/icons/medicine/m0pqj.png",
-    "name": {
-      "ru": "Пси-блок «Нейрон-11»",
-      "en": "Neuron-11 PsyBlock",
-      "es": "Bloqueo psy Neuron-11",
-      "fr": "BloquePsy Neuro-11",
-      "ko": "뉴런-11 사이블록"
-    },
-    "color": "DEFAULT"
+    "color": "RANK_STALKER"
   },
   {
     "data": "/items/drink/okdpo.json",
@@ -20901,7 +23205,7 @@
       "fr": "Panacée",
       "ko": "만병통치약"
     },
-    "color": "RANK_MASTER"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/drink/vjy0n.json",
@@ -20997,7 +23301,7 @@
       "fr": "PIÉTINEMENT",
       "ko": "STOMP 자극제"
     },
-    "color": "RANK_MASTER"
+    "color": "RANK_VETERAN"
   },
   {
     "data": "/items/food/1r246.json",
@@ -21948,6 +24252,54 @@
     "color": "RANK_VETERAN"
   },
   {
+    "data": "/items/other/00w01.json",
+    "icon": "/icons/other/00w01.png",
+    "name": {
+      "ru": "Схрон ветерана",
+      "en": "Veteran stash",
+      "es": "Alijo de veterano",
+      "fr": "Cachette de Vétéran",
+      "ko": "베테랑 은닉품"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/mrwr7.json",
+    "icon": "/icons/other/mrwr7.png",
+    "name": {
+      "ru": "Схрон мастера",
+      "en": "Master stash",
+      "es": "Alijo de maestro",
+      "fr": "Cachette de Maître",
+      "ko": "마스터 은닉품"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/pjkj2.json",
+    "icon": "/icons/other/pjkj2.png",
+    "name": {
+      "ru": "Экранированный схрон ветерана",
+      "en": "Veteran shielded cache",
+      "es": "Alijo blindado de veterano",
+      "fr": "Cachette protégée de Vétéran",
+      "ko": "베테랑 밀폐 은닉 물자"
+    },
+    "color": "RANK_VETERAN"
+  },
+  {
+    "data": "/items/other/vnqnd.json",
+    "icon": "/icons/other/vnqnd.png",
+    "name": {
+      "ru": "Экранированный схрон мастера",
+      "en": "Master shielded cache",
+      "es": "Alijo blindado de maestro",
+      "fr": "Cachette protégée de Maître",
+      "ko": "마스터 밀폐 은닉 문자"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
     "data": "/items/drink/drmwj.json",
     "icon": "/icons/drink/drmwj.png",
     "name": {
@@ -22164,14 +24516,62 @@
     "color": "DEFAULT"
   },
   {
+    "data": "/items/misc/vn3n7.json",
+    "icon": "/icons/misc/vn3n7.png",
+    "name": {
+      "ru": "Прототипы «Шепота»",
+      "en": "Murmur Prototypes",
+      "es": "Prototipos de Susurro",
+      "fr": "Prototypes du Murmure",
+      "ko": "속삭임 프로토타입"
+    },
+    "color": "DEFAULT"
+  },
+  {
+    "data": "/items/misc/pjqvd.json",
+    "icon": "/icons/misc/pjqvd.png",
+    "name": {
+      "ru": "Композит «Шепота»",
+      "en": "Murmur Composite",
+      "es": "Composite de Susurro",
+      "fr": "Composite du Murmure",
+      "ko": "속삭임 합성체"
+    },
+    "color": "DEFAULT"
+  },
+  {
+    "data": "/items/misc/dry5g.json",
+    "icon": "/icons/misc/dry5g.png",
+    "name": {
+      "ru": "Микросхема «Шепота»",
+      "en": "Murmur Microcircuit",
+      "es": "Microchip de Susurro",
+      "fr": "Micro-puce du Murmure",
+      "ko": "속삭임 마이크로칩"
+    },
+    "color": "DEFAULT"
+  },
+  {
+    "data": "/items/misc/210rv.json",
+    "icon": "/icons/misc/210rv.png",
+    "name": {
+      "ru": "Пси-излучатель «Шепота»",
+      "en": "Murmur Psy-Emitter",
+      "es": "Emisor psy de Susurro",
+      "fr": "Émetteur psy du Murmure",
+      "ko": "속삭임 사이킥 방출기"
+    },
+    "color": "DEFAULT"
+  },
+  {
     "data": "/items/other/9dz1z.json",
     "icon": "/icons/other/9dz1z.png",
     "name": {
-      "ru": "item.filler.mob_wnorth_1.name",
-      "en": "item.filler.mob_wnorth_1.name",
-      "es": "item.filler.mob_wnorth_1.name",
-      "fr": "item.filler.mob_wnorth_1.name",
-      "ko": "item.filler.mob_wnorth_1.name"
+      "ru": "Светящаяся слизь",
+      "en": "Glowing Phlegm",
+      "es": "Mucosidad brillante",
+      "fr": "Mucus luminescent",
+      "ko": "빛나는 가래"
     },
     "color": "DEFAULT"
   },
@@ -23636,6 +26036,30 @@
       "es": "Esquema: AEK-965",
       "fr": "Partie du schéma : AEK-965",
       "ko": "도면: AEK-965"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/misc/q0p34.json",
+    "icon": "/icons/misc/q0p34.png",
+    "name": {
+      "ru": "Часть «Азимут»",
+      "en": "Azimuth Part",
+      "es": "Pieza Azimut",
+      "fr": "Plan du Azimut",
+      "ko": "아지무트 부분"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/misc/j0wzl.json",
+    "icon": "/icons/misc/j0wzl.png",
+    "name": {
+      "ru": "Часть «Апогей»",
+      "en": "Apogee Part",
+      "es": "Pieza Apogeo",
+      "fr": "Plan du Apogée",
+      "ko": "아포게이 부분"
     },
     "color": "RANK_MASTER"
   },

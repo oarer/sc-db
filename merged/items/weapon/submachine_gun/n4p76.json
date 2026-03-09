@@ -235,22 +235,22 @@
             }
           },
           "value": [
-            38.5,
-            38.793446,
-            39.08689,
-            39.380337,
-            39.67378,
-            40.554115,
-            40.99428,
-            41.434452,
-            41.87462,
-            42.314785,
-            43.60594,
-            44.251522,
-            44.897106,
-            45.542686,
-            46.188263,
-            48.125
+            35.7,
+            35.972107,
+            36.24421,
+            36.51631,
+            36.788414,
+            37.604725,
+            38.012882,
+            38.42104,
+            38.829193,
+            39.237347,
+            40.4346,
+            41.033234,
+            41.631863,
+            42.23049,
+            42.829117,
+            44.625
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -566,14 +566,14 @@
               "ko": "조준 시간"
             }
           },
-          "value": 0.2,
+          "value": 0.15,
           "formatted": {
             "value": {
-              "ru": "0,2 с",
-              "en": "0.2 sec",
-              "es": "0,2 s",
-              "fr": "0,2 s",
-              "ko": "0.2초"
+              "ru": "0,15 с",
+              "en": "0.15 sec",
+              "es": "0,15 s",
+              "fr": "0,15 s",
+              "ko": "0.15초"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -618,14 +618,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.4"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25",
-              "ko": "헤드샷 피해: x1.25"
+              "ru": "Урон в голову: х1,4",
+              "en": "Headshot damage: x1.4",
+              "es": "Daño por disparo a la cabeza: x1,4",
+              "fr": "Dégât de tir à la tête : x1,4",
+              "ko": "헤드샷 피해: x1.4"
             }
           }
         },
@@ -635,14 +635,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.7"
+              "modifier": "0.8"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,7",
-              "en": "Limb damage: x0.7",
-              "es": "Daño a extremidades: x0,7",
-              "fr": "Dégât aux membres : x0,7",
-              "ko": "사지 피해: x0.7"
+              "ru": "Урон по конечностям: х0,8",
+              "en": "Limb damage: x0.8",
+              "es": "Daño a extremidades: x0,8",
+              "fr": "Dégât aux membres : x0,8",
+              "ko": "사지 피해: x0.8"
             }
           }
         }
@@ -692,9 +692,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 38.5,
+      "startDamage": 35.7,
       "damageDecreaseStart": 8,
-      "endDamage": 23.9,
+      "endDamage": 21.3,
       "damageDecreaseEnd": 40,
       "maxDistance": 115
     }

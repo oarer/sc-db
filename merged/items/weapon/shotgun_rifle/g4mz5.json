@@ -13,7 +13,7 @@
       "ko": "TOZ-34"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie",
-              "es": "Novato",
-              "fr": "Débutant",
-              "ko": "초보자"
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
             }
           }
         },
@@ -235,22 +235,22 @@
             }
           },
           "value": [
-            128,
-            128.97562,
-            129.95122,
-            130.92683,
-            131.90244,
-            134.82927,
-            136.29268,
-            137.7561,
-            139.21951,
-            140.68292,
-            144.9756,
-            147.12195,
-            149.2683,
-            151.41464,
-            153.56097,
-            160
+            181,
+            182.37958,
+            183.75914,
+            185.13873,
+            186.51828,
+            190.65701,
+            192.72636,
+            194.79575,
+            196.8651,
+            198.93445,
+            205.00456,
+            208.03963,
+            211.07469,
+            214.10977,
+            217.14482,
+            226.25
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -323,14 +323,14 @@
               "ko": "발사 속도"
             }
           },
-          "value": 240,
+          "value": 150,
           "formatted": {
             "value": {
-              "ru": "240 выстр/мин",
-              "en": "240 shots/min",
-              "es": "240 disparos/min",
-              "fr": "240tirs/min",
-              "ko": "분당 240 발"
+              "ru": "150 выстр/мин",
+              "en": "150 shots/min",
+              "es": "150 disparos/min",
+              "fr": "150tirs/min",
+              "ko": "분당 150 발"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -635,14 +635,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "1.0"
+              "modifier": "0.9"
             },
             "lines": {
-              "ru": "Урон по конечностям: х1",
-              "en": "Limb damage: x1",
-              "es": "Daño a extremidades: x1",
-              "fr": "Dégât aux membres : x1",
-              "ko": "사지 피해: x1"
+              "ru": "Урон по конечностям: х0,9",
+              "en": "Limb damage: x0.9",
+              "es": "Daño a extremidades: x0,9",
+              "fr": "Dégât aux membres : x0,9",
+              "ko": "사지 피해: x0.9"
             }
           }
         },
@@ -683,9 +683,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 128,
+      "startDamage": 181,
       "damageDecreaseStart": 9,
-      "endDamage": 44.8,
+      "endDamage": 81.5,
       "damageDecreaseEnd": 58,
       "maxDistance": 80
     },

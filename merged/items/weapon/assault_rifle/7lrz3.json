@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            36.3,
-            36.57668,
-            36.85335,
-            37.13003,
-            37.406704,
-            38.236736,
-            38.651752,
-            39.06677,
-            39.481785,
-            39.896797,
-            41.114174,
-            41.722862,
-            42.331554,
-            42.940247,
-            43.54893,
-            45.375
+            32.6,
+            32.848476,
+            33.09695,
+            33.345425,
+            33.5939,
+            34.33933,
+            34.71204,
+            35.084755,
+            35.45747,
+            35.83018,
+            36.923473,
+            37.47012,
+            38.016766,
+            38.563416,
+            39.110058,
+            40.75
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -513,14 +513,14 @@
               "ko": "수직 반동"
             }
           },
-          "value": 0.9,
+          "value": 0.85,
           "formatted": {
             "value": {
-              "ru": "0,9°",
-              "en": "0.9°",
-              "es": "0,9°",
-              "fr": "0,9°",
-              "ko": "0.9°"
+              "ru": "0,85°",
+              "en": "0.85°",
+              "es": "0,85°",
+              "fr": "0,85°",
+              "ko": "0.85°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -540,14 +540,14 @@
               "ko": "수평 반동"
             }
           },
-          "value": 0.21,
+          "value": 0.2,
           "formatted": {
             "value": {
-              "ru": "0,21°",
-              "en": "0.21°",
-              "es": "0,21°",
-              "fr": "0,21°",
-              "ko": "0.21°"
+              "ru": "0,2°",
+              "en": "0.2°",
+              "es": "0,2°",
+              "fr": "0,2°",
+              "ko": "0.2°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -646,14 +646,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.4"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25",
-              "ko": "헤드샷 피해: x1.25"
+              "ru": "Урон в голову: х1,4",
+              "en": "Headshot damage: x1.4",
+              "es": "Daño por disparo a la cabeza: x1,4",
+              "fr": "Dégât de tir à la tête : x1,4",
+              "ko": "헤드샷 피해: x1.4"
             }
           }
         },
@@ -663,14 +663,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.75"
+              "modifier": "0.85"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,75",
-              "en": "Limb damage: x0.75",
-              "es": "Daño a extremidades: x0,75",
-              "fr": "Dégât aux membres : x0,75",
-              "ko": "사지 피해: x0.75"
+              "ru": "Урон по конечностям: х0,85",
+              "en": "Limb damage: x0.85",
+              "es": "Daño a extremidades: x0,85",
+              "fr": "Dégât aux membres : x0,85",
+              "ko": "사지 피해: x0.85"
             }
           }
         }
@@ -720,9 +720,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 36.3,
+      "startDamage": 32.6,
       "damageDecreaseStart": 12,
-      "endDamage": 24.3,
+      "endDamage": 21.7,
       "damageDecreaseEnd": 56,
       "maxDistance": 155
     },

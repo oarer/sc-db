@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            84,
-            84.64025,
-            85.28049,
-            85.92074,
-            86.560974,
-            88.481705,
-            89.44207,
-            90.40244,
-            91.36281,
-            92.323166,
-            95.140236,
-            96.54878,
-            97.95732,
-            99.36586,
-            100.77439,
-            105
+            76.6,
+            77.183846,
+            77.76768,
+            78.351524,
+            78.93536,
+            80.68689,
+            81.562645,
+            82.438416,
+            83.31418,
+            84.18993,
+            86.758835,
+            88.04329,
+            89.32774,
+            90.6122,
+            91.896645,
+            95.75
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -646,14 +646,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.4"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25",
-              "ko": "헤드샷 피해: x1.25"
+              "ru": "Урон в голову: х1,4",
+              "en": "Headshot damage: x1.4",
+              "es": "Daño por disparo a la cabeza: x1,4",
+              "fr": "Dégât de tir à la tête : x1,4",
+              "ko": "헤드샷 피해: x1.4"
             }
           }
         },
@@ -694,9 +694,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 84,
+      "startDamage": 76.6,
       "damageDecreaseStart": 30,
-      "endDamage": 81.5,
+      "endDamage": 72.8,
       "damageDecreaseEnd": 80,
       "maxDistance": 190
     },
