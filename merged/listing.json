@@ -4248,6 +4248,30 @@
     "color": "DEFAULT"
   },
   {
+    "data": "/items/artefact/other_arts/7z77.json",
+    "icon": "/icons/artefact/other_arts/7z77.png",
+    "name": {
+      "ru": "Желе",
+      "en": "Jelly",
+      "es": "Gelatina",
+      "fr": "Gelée",
+      "ko": "젤리"
+    },
+    "color": "DEFAULT"
+  },
+  {
+    "data": "/items/artefact/other_arts/6goy.json",
+    "icon": "/icons/artefact/other_arts/6goy.png",
+    "name": {
+      "ru": "Петля",
+      "en": "Noose",
+      "es": "Bucle",
+      "fr": "Boucle",
+      "ko": "루프"
+    },
+    "color": "DEFAULT"
+  },
+  {
     "data": "/items/weapon_modules/weapon_module_core/9yow.json",
     "icon": "/icons/weapon_modules/weapon_module_core/9yow.png",
     "name": {
@@ -7437,7 +7461,7 @@
       "fr": "Sacoche de trousses de premiers secours du guide",
       "ko": "길잡이의 구급상자 파우치"
     },
-    "color": "RANK_VETERAN"
+    "color": "RANK_STALKER"
   },
   {
     "data": "/items/medicine/96zjw.json",
@@ -7461,7 +7485,7 @@
       "fr": "Sacoche de trousses de premiers secours militaire",
       "ko": "군용 구급상자 파우치"
     },
-    "color": "DEFAULT"
+    "color": "RANK_NEWBIE"
   },
   {
     "data": "/items/bullet/4q7yl.json",
@@ -8600,6 +8624,18 @@
       "es": "Diente",
       "fr": "Dent",
       "ko": "노치"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/2ogkl.json",
+    "icon": "/icons/other/2ogkl.png",
+    "name": {
+      "ru": "«Волнорез»",
+      "en": "Breakwater",
+      "es": "Rompeolas",
+      "fr": "Brise-lames",
+      "ko": "방파제"
     },
     "color": "RANK_MASTER"
   },
@@ -13272,6 +13308,78 @@
     "color": "RANK_MASTER"
   },
   {
+    "data": "/items/other/vjrqg.json",
+    "icon": "/icons/other/vjrqg.png",
+    "name": {
+      "ru": "«Фриц»",
+      "en": "Kraut",
+      "es": "Fritz",
+      "fr": "Fritz",
+      "ko": "프리츠"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/dmql9.json",
+    "icon": "/icons/other/dmql9.png",
+    "name": {
+      "ru": "«Матрос»",
+      "en": "Seaman",
+      "es": "Marinero",
+      "fr": "Matelot",
+      "ko": "수병"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/2od6m.json",
+    "icon": "/icons/other/2od6m.png",
+    "name": {
+      "ru": "«Сквид»",
+      "en": "Squid",
+      "es": "Squid",
+      "fr": "Calmar",
+      "ko": "오징어"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/3gr0k.json",
+    "icon": "/icons/other/3gr0k.png",
+    "name": {
+      "ru": "«Капитанский»",
+      "en": "Captain's",
+      "es": "Del capitán",
+      "fr": "Capitaine",
+      "ko": "선장용"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/armor_motif/7lr4r.json",
+    "icon": "/icons/other/armor_motif/7lr4r.png",
+    "name": {
+      "ru": "Фракционный покрас",
+      "en": "Fractional Coloring",
+      "es": "Pintura de la facción",
+      "fr": "Coloration fractionnée",
+      "ko": "세력 도색"
+    },
+    "color": "DEFAULT"
+  },
+  {
+    "data": "/items/other/6wrm6.json",
+    "icon": "/icons/other/6wrm6.png",
+    "name": {
+      "ru": "«Непотопляемый»",
+      "en": "Unsinkable",
+      "es": "Insumergible",
+      "fr": "Insubmersible",
+      "ko": "침몰하지 않는 배"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
     "data": "/items/other/96m2q.json",
     "icon": "/icons/other/96m2q.png",
     "name": {
@@ -13928,6 +14036,78 @@
       "es": "Billete afortunado",
       "fr": "Ticket gagnant",
       "ko": "행운권"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/1rdjr.json",
+    "icon": "/icons/other/1rdjr.png",
+    "name": {
+      "ru": "«Якорь»",
+      "en": "Anchor",
+      "es": "Ancla",
+      "fr": "Ancre",
+      "ko": "닻"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/g40vn.json",
+    "icon": "/icons/other/g40vn.png",
+    "name": {
+      "ru": "«Торпедист»",
+      "en": "Torpedoist",
+      "es": "Torpedista",
+      "fr": "Torpilleur",
+      "ko": "어뢰병"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/5ldgo.json",
+    "icon": "/icons/other/5ldgo.png",
+    "name": {
+      "ru": "«Буксир»",
+      "en": "Tugboat",
+      "es": "Remolcador",
+      "fr": "Remorqueur",
+      "ko": "예인선"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/y37j0.json",
+    "icon": "/icons/other/y37j0.png",
+    "name": {
+      "ru": "«Касатка-1»",
+      "en": "Orca-1",
+      "es": "Orca-1",
+      "fr": "Orque-1",
+      "ko": "범고래-1"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/wjo6z.json",
+    "icon": "/icons/other/wjo6z.png",
+    "name": {
+      "ru": "«Адмирал»",
+      "en": "Admiral",
+      "es": "Almirante",
+      "fr": "Amiral",
+      "ko": "제독"
+    },
+    "color": "RANK_MASTER"
+  },
+  {
+    "data": "/items/other/4q01j.json",
+    "icon": "/icons/other/4q01j.png",
+    "name": {
+      "ru": "«Посудина»",
+      "en": "Vessel",
+      "es": "Balde",
+      "fr": "Vessel",
+      "ko": "선박"
     },
     "color": "RANK_MASTER"
   },
@@ -21951,11 +22131,11 @@
     "data": "/items/armor/clothes/7lmpj.json",
     "icon": "/icons/armor/clothes/7lmpj.png",
     "name": {
-      "ru": "ЗК-1 «Отмычка»",
-      "en": "PS-1 Picklock",
-      "es": "TP-1 Ratero",
-      "fr": "PS-1 Passe-Partout",
-      "ko": "PS-1 도둑"
+      "ru": "Костюм «Хулиган»",
+      "en": "Hooligan Suit",
+      "es": "Traje de camorrista",
+      "fr": "Combinaison Hooligan",
+      "ko": "불량배 슈트"
     },
     "color": "DEFAULT"
   },
@@ -23061,7 +23241,7 @@
       "fr": "Vodka",
       "ko": "보드카"
     },
-    "color": "DEFAULT"
+    "color": "RANK_NEWBIE"
   },
   {
     "data": "/items/medicine/7ly13.json",
@@ -26044,7 +26224,7 @@
     "icon": "/icons/misc/q0p34.png",
     "name": {
       "ru": "Часть «Азимут»",
-      "en": "Azimuth Part",
+      "en": "Azimut Part",
       "es": "Pieza Azimut",
       "fr": "Plan du Azimut",
       "ko": "아지무트 부분"
