@@ -138,6 +138,8 @@ async function main(): Promise<boolean> {
 						artefact: ["items/artefact"],
 						consumables: ["items/food", "items/drink", "items/medicine"],
 						containers: ["items/containers", "items/backpacks"],
+						weapons: ["items/weapon"],
+						ammo: ["items/bullet"],
 					},
 					asArrayFor: ["consumables", "containers"],
 				});
