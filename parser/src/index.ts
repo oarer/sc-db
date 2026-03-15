@@ -47,7 +47,6 @@ async function main(): Promise<boolean> {
 			await additionalStatsParse(OUT_DIR, useProxy);
 			await mergeFolderGroupsToListing(OUT_DIR, {
 				groups: {
-					weapon: ["items/weapon"],
 					armor: [
 						"items/armor/scientist",
 						"items/armor/combat",
@@ -57,6 +56,8 @@ async function main(): Promise<boolean> {
 					artefact: ["items/artefact"],
 					consumables: ["items/food", "items/drink", "items/medicine"],
 					containers: ["items/containers", "items/backpacks"],
+					weapons: ["items/weapon"],
+					ammo: ["items/bullet"],
 				},
 				asArrayFor: ["consumables", "containers"],
 			});
@@ -128,7 +129,6 @@ async function main(): Promise<boolean> {
 				await additionalStatsParse(OUT_DIR, useProxy);
 				await mergeFolderGroupsToListing(OUT_DIR, {
 					groups: {
-						weapon: ["items/weapon"],
 						armor: [
 							"items/armor/scientist",
 							"items/armor/combat",
