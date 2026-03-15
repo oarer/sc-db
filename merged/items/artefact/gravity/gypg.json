@@ -448,6 +448,87 @@
           "ko": "많은 스토커들은 해당 이상 구조물이 몇몇 열매가 블렌더로 떨어지면서 생겨났다고 믿는다. 하지만 식물이 자라는 곳과 멀리 떨어진 이상현상 속에서도 이 아티팩트가 발견되기 때문에, 그 가설의 신빙성은 낮다.\\n\\n 제7연구소의 유물학부는 체르노빌 제외 구역의 토양이나 대기 중에서 발견된 토착 미생물에 대한 불특정한 이상현상 효과로 인해 엠브리오가 형성된 것이라고 보고 있다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 0.425,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "en": "[0.425%; 0.5%]",
+              "ru": "[0.425%; 0.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement"
+            }
+          },
+          "min": -0.3,
+          "max": -0.24,
+          "formatted": {
+            "value": {
+              "en": "[-0.3; -0.24]",
+              "ru": "[-0.3; -0.24]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.28,
+          "max": 0.35,
+          "formatted": {
+            "value": {
+              "en": "[0.28%; 0.35%]",
+              "ru": "[0.28%; 0.35%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

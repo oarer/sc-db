@@ -392,6 +392,87 @@
           "ko": "저주받은 장미의 설명할 수 없는 특성에 얽힌 전설이 있는 것과 마찬가지로, 흰 장미도 용병 장교와 관련된 기록되지 않은 이야기가 있다. \\n\\n 광신도에 의해 오랫동안 포획되어 있던 그는 많은 성약자 모집책과 설교자가 이런 아티팩트를 한두 개 지니고 다니려는 것을 발견했는데, 흰 장미가 착용자의 말에 더 많은 설득력을 준다고 믿는 것 같았다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys"
+            }
+          },
+          "min": -0.88,
+          "max": -0.748,
+          "formatted": {
+            "value": {
+              "en": "[-0.88; -0.748]",
+              "ru": "[-0.88; -0.748]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 2.14,
+          "max": 2.6,
+          "formatted": {
+            "value": {
+              "en": "[2.14%; 2.6%]",
+              "ru": "[2.14%; 2.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 2.125,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "en": "[2.125; 2.5]",
+              "ru": "[2.125; 2.5]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

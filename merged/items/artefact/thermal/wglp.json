@@ -364,6 +364,87 @@
           "ko": "유기적 성질을 지닌 아티팩트로, 끈적이며 생물학적으로 활성화된 액체를 담고 있는 다수의 구형 돌기들로 덮여 있다.\\n\\n 구역의 거주자 중 누군가는 이 아티팩트에 헬민스라는 별명을 붙이려 했으나, 정착되지는 못했다. 스토커들은 그런 이름의 아티팩트를 장비에 넣고 다니는 건 썩 내키지 않는 일이라 여겼기 때문이다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 13.77,
+          "max": 16.2,
+          "formatted": {
+            "value": {
+              "en": "[13.77%; 16.2%]",
+              "ru": "[13.77%; 16.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 3.54,
+          "max": 4.3,
+          "formatted": {
+            "value": {
+              "en": "[3.54%; 4.3%]",
+              "ru": "[3.54%; 4.3%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.425,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "en": "[0.425%; 0.5%]",
+              "ru": "[0.425%; 0.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

@@ -420,6 +420,87 @@
           "ko": "전기물리학적 아티팩트로, 탄력 있으면서도 밀도가 높은 젤 형태의 물질로 구성되어 있으며 내부 구조가 뚜렷하게 드러난다.\\n\\n 변압기의 특성은 여전히 과학자들 사이에서 논의 중이다. 이 아티팩트의 소재는 구조적 변형을 스스로 원래 상태로 복원할 뿐 아니라, 독립적으로 미약한 전하를 생성하는 능력까지 지니고 있다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 3.995,
+          "max": 4.7,
+          "formatted": {
+            "value": {
+              "en": "[3.995%; 4.7%]",
+              "ru": "[3.995%; 4.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 1.87,
+          "max": 2.2,
+          "formatted": {
+            "value": {
+              "en": "[1.87; 2.2]",
+              "ru": "[1.87; 2.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys"
+            }
+          },
+          "min": -0.88,
+          "max": -0.748,
+          "formatted": {
+            "value": {
+              "en": "[-0.88; -0.748]",
+              "ru": "[-0.88; -0.748]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

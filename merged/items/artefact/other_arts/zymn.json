@@ -420,6 +420,87 @@
           "ko": "끝부분에 유기적 돌기가 자라난 형태로, 완전히 단단한 기반 몸통을 가진 아티팩트다. 외형으로 보아 기본 구조가 아티팩트 라드에서 유래되었다고 명확히 단정할 수 있다. 구성 물질은 뒤집힌 세계에서 특징적으로 발견되는 결정성 돌기와 체르노빌 불입 구역의 이상 구조물의 특성이 모두 나타나 있다.\\n\\n이 아티팩트는 초과량 열을 흡수하며, 그 과정에서 세포 분열에 긍정적인 영향을 주는 미약한 방사선을 방출한다.\\n\\n그러나 고전압 전자기장과 접촉할 경우, 세포막을 파괴하는 장을 생성한다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.51,
+          "max": 0.6,
+          "formatted": {
+            "value": {
+              "en": "[0.51%; 0.6%]",
+              "ru": "[0.51%; 0.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 2.89,
+          "max": 3.4,
+          "formatted": {
+            "value": {
+              "en": "[2.89%; 3.4%]",
+              "ru": "[2.89%; 3.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 6.12,
+          "max": 7.2,
+          "formatted": {
+            "value": {
+              "en": "[6.12; 7.2]",
+              "ru": "[6.12; 7.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

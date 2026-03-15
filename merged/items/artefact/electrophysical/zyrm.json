@@ -504,6 +504,87 @@
           "ko": "과학자들에 따르면 가장 흥미로운 무중력 아티팩트 중 하나가 아래에 설명된 아티팩트라고 한다.\\n\\n 육각형 얼음 틀을 닮은 이 물질은 아티팩트 중심에 광자를 집중시켜 밝게 빛난다.\\n\\n 제7연구소의 연구진은 이 빛의 추가 확산이 차폐 효과를 만들어내며, 이로 인해 아티팩트가 높은 가치를 지닌다고 보고 있다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.207,
+          "max": 0.252,
+          "formatted": {
+            "value": {
+              "en": "[0.207%; 0.252%]",
+              "ru": "[0.207%; 0.252%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection",
+              "es": "Protección contra radiación",
+              "fr": "Protection contre les radiations"
+            }
+          },
+          "min": 16.47,
+          "max": 20,
+          "formatted": {
+            "value": {
+              "en": "[16.47; 20]",
+              "ru": "[16.47; 20]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-Emission protection",
+              "es": "Prot contra emisiones psy",
+              "fr": "Protection contre les émissions psys"
+            }
+          },
+          "min": 16.47,
+          "max": 20,
+          "formatted": {
+            "value": {
+              "en": "[16.47; 20]",
+              "ru": "[16.47; 20]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

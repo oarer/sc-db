@@ -504,6 +504,87 @@
           "ko": "아티팩트 중심 요소의 구성에서 발견된 독특한 형태의 얼음인 얼음 An은 독립 과학자들에 따르면 폭풍의 눈이 가진 비정상적인 특성의 원인이다.\\n\\n 그러나 제7연구소의 연구원들은 이 물질의 특이한 결정격자를 형성할 뿐만 아니라 주변의 다양한 반응을 촉진하는 촉매 역할을 하는 아티팩트의 특수한 구조에 그 이유가 있다고 제안한다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection",
+              "es": "Protección térmica",
+              "fr": "Protection thermique"
+            }
+          },
+          "min": 8.5,
+          "max": 10,
+          "formatted": {
+            "value": {
+              "en": "[8.5; 10]",
+              "ru": "[8.5; 10]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection protection",
+              "es": "Protección contra bioinfección",
+              "fr": "Protection contre les bio infections"
+            }
+          },
+          "min": 4.25,
+          "max": 10,
+          "formatted": {
+            "value": {
+              "en": "[4.25; 10]",
+              "ru": "[4.25; 10]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.2,
+          "max": 0.25,
+          "formatted": {
+            "value": {
+              "en": "[0.2%; 0.25%]",
+              "ru": "[0.2%; 0.25%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

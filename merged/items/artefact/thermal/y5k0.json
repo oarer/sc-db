@@ -448,6 +448,87 @@
           "ko": "눈보라에서 비롯된 흔하지 않은 아티팩트로, 특징적인 형태와 축을 따라 일정하게 회전하는 것에서 이름을 따왔다.\\n\\n 일부 과학자들의 보고에 따르면 회오리는 실제로 얇고 투명한 껍질로 둘러싸인 특이한 특성의 액체이다. 껍질이 깨지면 즉시 이 수수께끼의 액체는 증발하고, 아티팩트가 일정하게 움직이는 이유 역시 아직 확인되지 않았다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity",
+              "es": "Resistencia a la electricidad",
+              "fr": "Résistance à l'électricité"
+            }
+          },
+          "min": 3.78,
+          "max": 4.6,
+          "formatted": {
+            "value": {
+              "en": "[3.78%; 4.6%]",
+              "ru": "[3.78%; 4.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion"
+            }
+          },
+          "min": -0.3,
+          "max": -0.24,
+          "formatted": {
+            "value": {
+              "en": "[-0.3; -0.24]",
+              "ru": "[-0.3; -0.24]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.32,
+          "max": 0.4,
+          "formatted": {
+            "value": {
+              "en": "[0.32%; 0.4%]",
+              "ru": "[0.32%; 0.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

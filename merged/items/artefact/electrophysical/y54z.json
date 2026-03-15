@@ -420,6 +420,87 @@
           "ko": "경험이 부족한 스토커들은 그 기이한 외형 때문에 이 희귀한 발견물을 미지의 생물체로 착각하곤 한다. 이 아티팩트는 움직이는 돌기와 녹빛의 성장체로 연결된 두 개의 부분으로 구성되어 있다.\\n\\n 그러나 최신 연구에 따르면, 이러한 독특한 형태는 아티팩트의 일부를 구성하는 강자성 물질 간의 반응으로 인해 나타나는 현상이다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от огня",
+              "en": "Resistance to fire",
+              "es": "Resistencia al fuego",
+              "fr": "Résistance au feu"
+            }
+          },
+          "min": 7.98,
+          "max": 9.7,
+          "formatted": {
+            "value": {
+              "en": "[7.98; 9.7]",
+              "ru": "[7.98; 9.7]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.16,
+          "max": 0.2,
+          "formatted": {
+            "value": {
+              "en": "[0.16%; 0.2%]",
+              "ru": "[0.16%; 0.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection",
+              "es": "Protección térmica",
+              "fr": "Protection thermique"
+            }
+          },
+          "min": 17,
+          "max": 20,
+          "formatted": {
+            "value": {
+              "en": "[17; 20]",
+              "ru": "[17; 20]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

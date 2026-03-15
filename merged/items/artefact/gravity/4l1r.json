@@ -364,6 +364,87 @@
           "ko": "양파와 같이, 이 아티팩트는 거의 모든 생물 계의 특성을 동시에 지닌 살아있는 세포로 이루어져 있다. 구역의 초목을 연구하는 식물학자들은 일반적인 양파가 씨앗에 가까운 것과 달리, 원시양파는 과일의 일종이라고 생각한다. 동시에, 동물학자들은 해당 아티팩트가 동물의 성장 과정 중 유년기 단계일 수도 있다고 생각한다. \\n\\n두 아티팩트의 생리를 이해하기 위한 과학자들의 노력에도 불구하고, 구역의 이상현상이 발생하기 전 수준의 척도를 적용했을 때 이 아티팩트들이 생물로 간주될 수 있는지 결정하기는 어려웠다. 고전 생물학의 생리와 불합치하는 부분이 많기 때문이다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 1.07,
+          "max": 1.3,
+          "formatted": {
+            "value": {
+              "en": "[1.07%; 1.3%]",
+              "ru": "[1.07%; 1.3%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 0.765,
+          "max": 0.9,
+          "formatted": {
+            "value": {
+              "en": "[0.765%; 0.9%]",
+              "ru": "[0.765%; 0.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 1.36,
+          "max": 1.6,
+          "formatted": {
+            "value": {
+              "en": "[1.36%; 1.6%]",
+              "ru": "[1.36%; 1.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

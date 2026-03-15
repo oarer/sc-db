@@ -392,6 +392,87 @@
           "ko": "특이한 아티팩트로, 끊임없이 순환하는 물줄기가 닫힌 원을 따라 흐르는 형태이다.\\n\\n루프는 액체로 이루어져 있지만, 손으로 잡는 것이 가능하다 — 중요한 것은 흐르는 줄기를 놓치지 않는 것이다. 손에서 흘러나갈 수 있기 때문이다.\\n\\n전해지기로는 몇몇 스토커들이 아티팩트를 가지고 실험을 시도했으나, 흐름을 막으려 해도 물줄기는 더 크게 굽어 원래의 흐름 패턴으로 돌아갔다.\\n\\n현재 바에서는 이 아티팩트가 용기 내부를 잘 청소한다는 소문이 돌지만, 아직 확인된 바는 없다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.33,
+          "max": 0.4,
+          "formatted": {
+            "value": {
+              "en": "[0.33%; 0.4%]",
+              "ru": "[0.33%; 0.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement"
+            }
+          },
+          "min": -1,
+          "max": -0.82,
+          "formatted": {
+            "value": {
+              "en": "[-1; -0.82]",
+              "ru": "[-1; -0.82]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.recoil_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil",
+              "es": "Retroceso",
+              "fr": "Recul"
+            }
+          },
+          "min": -0.9,
+          "max": -0.74,
+          "formatted": {
+            "value": {
+              "en": "[-0.9%; -0.74%]",
+              "ru": "[-0.9%; -0.74%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

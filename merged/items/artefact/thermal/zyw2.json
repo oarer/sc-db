@@ -364,6 +364,87 @@
           "ko": "작고 밝게 빛나는 아티팩트로, 겉보기에는 불꽃의 소용돌이를 닮았으며 중심부와 가장자리가 서로 반대 방향으로 회전하는 독특한 특징을 가지고 있다.\\n\\n 숙련된 스토커들 사이에서는 중심과 가장자리의 회전이 완벽히 동기화된 형태의 촛불이 존재한다는 소문이 있으나, 제7연구소의 아티팩톨로지 부서 과학자들은 그러한 형태의 촛불이 존재한다는 주장에 대해 부정적인 입장을 보이고 있다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Температура",
+              "en": "Temperature",
+              "es": "Temperatura",
+              "fr": "Température"
+            }
+          },
+          "min": -0.88,
+          "max": -0.35,
+          "formatted": {
+            "value": {
+              "en": "[-0.88; -0.35]",
+              "ru": "[-0.88; -0.35]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 0.68,
+          "max": 0.8,
+          "formatted": {
+            "value": {
+              "en": "[0.68%; 0.8%]",
+              "ru": "[0.68%; 0.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.34,
+          "max": 0.4,
+          "formatted": {
+            "value": {
+              "en": "[0.34%; 0.4%]",
+              "ru": "[0.34%; 0.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

@@ -392,6 +392,87 @@
           "ko": "소름 끼치는 중력 아티팩트 머그는 사람의 얼굴과\\n흡사한 생김새 덕분에 스토커들 사이에서 그런 이름을 얻게 되었다. \\n\\n제7연구소의 연구원들은 머그의 구조와 성분을 알아내려 오랜 시간 고군분투하였으나, 견해차를 좁히지 못하고 있다. 머그 샘플들은 거의 비슷하게 생겼으나 제각각 다른 파편들로 이루어졌을 수 있다. \\n\\n스토커들은 또 다른 특성도 알아냈는데, 두 개의 다이오드가 지니고 있는 자의 심장 박동에 맞춰 반짝인다는 것이다. 이러한 머그와 심장의 유사성은 구역의 주민들 사이에 많은 소문을 뿌렸다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.33,
+          "max": 0.4,
+          "formatted": {
+            "value": {
+              "en": "[0.33%; 0.4%]",
+              "ru": "[0.33%; 0.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 1.615,
+          "max": 1.9,
+          "formatted": {
+            "value": {
+              "en": "[1.615%; 1.9%]",
+              "ru": "[1.615%; 1.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 3.54,
+          "max": 4.3,
+          "formatted": {
+            "value": {
+              "en": "[3.54; 4.3]",
+              "ru": "[3.54; 4.3]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

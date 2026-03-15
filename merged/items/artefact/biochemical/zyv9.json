@@ -420,6 +420,87 @@
           "ko": "실리콘과 유사한 탄성 물질이다. 제7연구소의 막대 사탕 구조 분석에 따르면 이 아티팩트는 대체로 유기 침전물로 구성되어 있다.\\n\\n 생물학과 유물학 부서 사이에서 이 실험용 샘플을 두고 다툼이 있기에 연구소 관리진들은 주기적으로 이 갈등을 중재해야 한다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 1.72,
+          "max": 2.1,
+          "formatted": {
+            "value": {
+              "en": "[1.72; 2.1]",
+              "ru": "[1.72; 2.1]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 0.595,
+          "max": 0.7,
+          "formatted": {
+            "value": {
+              "en": "[0.595%; 0.7%]",
+              "ru": "[0.595%; 0.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.51,
+          "max": 0.6,
+          "formatted": {
+            "value": {
+              "en": "[0.51%; 0.6%]",
+              "ru": "[0.51%; 0.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

@@ -392,6 +392,87 @@
           "ko": "혜성은 첫인상만으로는 오해를 불러일으키기 쉬운 아티팩트 중 하나라고 할 수 있따. 반투명한 폴리머 돌출부는 일반인들에게 흔히 불꽃처럼 여겨지기 쉽다.\\n\\n 혜성의 가장 흥미로운 점은 그 복합적인 구조에 있다. 형성 실험 결과, 가지 모양의 기저부와 폴리머 돌출부를 분리하면 아티팩트는 빠르게 고유 특성을 잃을 뿐 아니라, 금속 성분이 섞인 플라스틱성 비정형 구조로 급격히 변형되는 것이 확인되었다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 2.125,
+          "max": 2.5,
+          "formatted": {
+            "value": {
+              "en": "[2.125%; 2.5%]",
+              "ru": "[2.125%; 2.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 4.59,
+          "max": 5.4,
+          "formatted": {
+            "value": {
+              "en": "[4.59%; 5.4%]",
+              "ru": "[4.59%; 5.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.16,
+          "max": 0.2,
+          "formatted": {
+            "value": {
+              "en": "[0.16%; 0.2%]",
+              "ru": "[0.16%; 0.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

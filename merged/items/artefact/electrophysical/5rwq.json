@@ -364,6 +364,87 @@
           "ko": "겉으로 볼 때 단순해 보이기에 경험이 부족한 스토커들은 파편을 중요치 않은 것으로 여기지만 경험 많은 아티팩트 사냥꾼들 사이에서는 가치가 높은 것으로 취급된다. 그 비밀은 고유한 구조에 있는데, 원자 수준에서도 불규칙성 없이 거의 완벽하게 부드러운 표면을 이룬다는 점에 있다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.595,
+          "max": 0.7,
+          "formatted": {
+            "value": {
+              "en": "[0.595%; 0.7%]",
+              "ru": "[0.595%; 0.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 2.72,
+          "max": 3.2,
+          "formatted": {
+            "value": {
+              "en": "[2.72%; 3.2%]",
+              "ru": "[2.72%; 3.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 2.295,
+          "max": 2.7,
+          "formatted": {
+            "value": {
+              "en": "[2.295%; 2.7%]",
+              "ru": "[2.295%; 2.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

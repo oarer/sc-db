@@ -392,6 +392,87 @@
           "ko": "제7연구소의 과학자들에 따르면 라임의 특징 대부분이 특정 금속과 접촉할 때 발생하는 특성과 관련이 있다고 한다. 하지만 이러한 특성이 발생하는 원리는 여전히 알려져 있지 않다.\\n\\n이 아티팩트는 가소성과 전도성이 비정상적이어서 초전도체 생산에 활용되었다. 하지만 장시간 이러한 특성을 유지할 수가 없어 생산은 중단되었다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations"
+            }
+          },
+          "min": 3.06,
+          "max": 3.6,
+          "formatted": {
+            "value": {
+              "en": "[3.06; 3.6]",
+              "ru": "[3.06; 3.6]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles"
+            }
+          },
+          "min": 2.89,
+          "max": 3.4,
+          "formatted": {
+            "value": {
+              "en": "[2.89; 3.4]",
+              "ru": "[2.89; 3.4]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions"
+            }
+          },
+          "min": 6.63,
+          "max": 7.8,
+          "formatted": {
+            "value": {
+              "en": "[6.63; 7.8]",
+              "ru": "[6.63; 7.8]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

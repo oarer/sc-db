@@ -392,6 +392,87 @@
           "ko": "이 아티팩트는 겉으로는 고기의 핏줄이 있는 라드 덩어리와 닮았지만 맛을 볼 생각은 하지 않는 편이 좋다. 라드는 다양한 금속이 포함된 고체 광물로 구성되어 있다.\\n\\n 산딸기와 마찬가지로 비정상적인 생김새로 인해 많은 소문이 퍼져 있지만 라드의 구성상 소문과는 전혀 다를 것이다.\\n\\n 다만 흥미롭게도 쿠보프 교수에 따르면 실험실 환경에서 이런 분자 구조를 형성하는 것은 물리적으로 불가능하다고 한다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 7.98,
+          "max": 9.7,
+          "formatted": {
+            "value": {
+              "en": "[7.98%; 9.7%]",
+              "ru": "[7.98%; 9.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.58,
+          "max": 0.7,
+          "formatted": {
+            "value": {
+              "en": "[0.58%; 0.7%]",
+              "ru": "[0.58%; 0.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 1.48,
+          "max": 1.8,
+          "formatted": {
+            "value": {
+              "en": "[1.48%; 1.8%]",
+              "ru": "[1.48%; 1.8%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

@@ -504,6 +504,87 @@
           "ko": "특이한 모양 때문에 닭신이라는 별명이 붙었지만 이 아티팩트는 \"동류\" 아티팩트처럼 행운을 가져다 주는 것은 아니며, 많은 과학자들을 당황하게 만드는 여러 특성을 지니고 있다.\\n 예를 들어 이 아티팩트는 단단한 얼음 결정체와 비슷하게 보이지만 고무를 연상시킬 정도로 탄성이 뛰어난 물질로, 유기물과 다양하게 반응한다.\\n\\n 닭신이 제7연구소의 과학자들의 손에 넘어오게 되는 경우가 많기는 하지만, 유물학 부서에서는 여전히 이 아티팩트가 유기물과 접촉 시 얼마나 많은 종류의 반응을 거칠 수 있는지 확실히 알지 못한다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.49,
+          "max": 0.6,
+          "formatted": {
+            "value": {
+              "en": "[0.49%; 0.6%]",
+              "ru": "[0.49%; 0.6%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 2.465,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.465; 2.9]",
+              "ru": "[2.465; 2.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance"
+            }
+          },
+          "min": 2.465,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.465%; 2.9%]",
+              "ru": "[2.465%; 2.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

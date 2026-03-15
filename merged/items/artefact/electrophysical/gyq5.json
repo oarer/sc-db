@@ -392,6 +392,87 @@
           "ko": "나선의 비정상적으로 정밀한 형태는 많은 스토커의 관심을 끌고 아티팩트에 관한 무성한 소문을 낳는다.\\n\\n 예를 들어 광부들은 전설 중 하나를 파헤치던 중 땅속에 묻혀 있을 때 나선이 천천히 꼬이면서 지면으로 나오는 것을 발견했다.\\n\\n 실험을 통해 몇몇 과학자들은 이 아티팩트가 무중력의 영향을 받는 토양에서 형성되고 이후 표면 위로 튀어나온다고 결론을 내렸다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 2.465,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.465; 2.9]",
+              "ru": "[2.465; 2.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.28,
+          "max": 0.35,
+          "formatted": {
+            "value": {
+              "en": "[0.28%; 0.35%]",
+              "ru": "[0.28%; 0.35%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 6.12,
+          "max": 7.2,
+          "formatted": {
+            "value": {
+              "en": "[6.12%; 7.2%]",
+              "ru": "[6.12%; 7.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }
