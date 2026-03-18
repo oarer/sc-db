@@ -54,15 +54,19 @@ export async function mergeFolderGroupsToListing(
 
 		const result: Record<string, unknown> | unknown[] = isArray ? [] : {};
 
-		for (const folder of folders) {
-			if (ignoreFolders.includes(folder)) {
+		for (const entry of folders) {
+			const fullPath = path.join(outDir, entry);
+			const isFile = entry.endsWith(".json");
+
+			const files = isFile ? [fullPath] : await collectJsonFiles(fullPath);
+
+			console.log(
+				`[merge] Processing ${isFile ? "file" : "folder"}: ${entry}, found ${files.length} files`,
+			);
+
+			if (!isFile && ignoreFolders.includes(entry)) {
 				continue;
 			}
-
-			const srcDir = path.join(outDir, folder);
-			const files = await collectJsonFiles(srcDir);
-
-			console.log(`[merge] Processing folder: ${folder}, found ${files.length} files`);
 
 			for (const filePath of files) {
 				const relativePath = path
@@ -70,13 +74,16 @@ export async function mergeFolderGroupsToListing(
 					.replace(/\\/g, "/");
 
 				const shouldIgnore = ignoreFolders.some((ignored) => {
-					return relativePath === ignored || relativePath.startsWith(ignored + "/");
+					return (
+						relativePath === ignored || relativePath.startsWith(`${ignored}/`)
+					);
 				});
 
 				if (shouldIgnore) {
 					console.log(`[merge] Ignoring: ${relativePath}`);
 					continue;
 				}
+
 				const data = await readJsonSafe(filePath);
 				if (data == null) continue;
 
@@ -87,7 +94,7 @@ export async function mergeFolderGroupsToListing(
 
 					if (key in result) {
 						console.warn(
-							`[merge] Key collision "${key}" in ${outputName}.json (from ${folder})`,
+							`[merge] Key collision "${key}" in ${outputName}.json (from ${entry})`,
 						);
 					}
 
