@@ -1,269 +1,5 @@
 [
   {
-    "id": "n3v9",
-    "category": "containers",
-    "name": {
-      "type": "translation",
-      "key": "item.cont.apiary.name",
-      "args": {},
-      "lines": {
-        "ru": "Контейнер «Пасека»",
-        "en": "Apiary Container",
-        "es": "Contenedor Apiario",
-        "fr": "Conteneur pour Ruchers",
-        "ko": "벌꿀집 보관함"
-      }
-    },
-    "color": "RANK_LEGEND",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    },
-    "infoBlocks": [
-      {
-        "type": "list",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "elements": [
-          {
-            "type": "key-value",
-            "key": {
-              "type": "translation",
-              "key": "core.tooltip.info.rank",
-              "args": {},
-              "lines": {
-                "ru": "Ранг",
-                "en": "Rank",
-                "es": "Rango",
-                "fr": "Rang",
-                "ko": "등급"
-              }
-            },
-            "value": {
-              "type": "translation",
-              "key": "core.rank.legend",
-              "args": {},
-              "lines": {
-                "ru": "Легенда",
-                "en": "Legend",
-                "es": "Leyenda",
-                "fr": "Légende",
-                "ko": "전설"
-              }
-            }
-          },
-          {
-            "type": "key-value",
-            "key": {
-              "type": "translation",
-              "key": "core.tooltip.info.category",
-              "args": {},
-              "lines": {
-                "ru": "Класс",
-                "en": "Class",
-                "es": "Clase",
-                "fr": "Classe",
-                "ko": "등급"
-              }
-            },
-            "value": {
-              "type": "translation",
-              "key": "core.handbook.category.containers",
-              "args": {},
-              "lines": {
-                "ru": "Контейнеры",
-                "en": "Containers",
-                "es": "Contenedores",
-                "fr": "Conteneurs",
-                "ko": "컨테이너"
-              }
-            }
-          },
-          {
-            "type": "numeric",
-            "name": {
-              "type": "translation",
-              "key": "core.tooltip.info.weight",
-              "args": {},
-              "lines": {
-                "ru": "Вес",
-                "en": "Weight",
-                "es": "Peso",
-                "fr": "Poids",
-                "ko": "무게"
-              }
-            },
-            "value": 8,
-            "formatted": {
-              "value": {
-                "ru": "8 кг",
-                "en": "8 kg",
-                "es": "8 kg",
-                "fr": "8 kg",
-                "ko": "8 kg"
-              },
-              "nameColor": "838383",
-              "valueColor": "838383"
-            }
-          }
-        ]
-      },
-      {
-        "type": "list",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "elements": []
-      },
-      {
-        "type": "list",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "elements": []
-      },
-      {
-        "type": "text",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "text": {
-          "type": "translation",
-          "key": "general.container.class.standard",
-          "args": {},
-          "lines": {
-            "ru": "Стандартный контейнер",
-            "en": "Standard Container",
-            "es": "Contenedor estándar",
-            "fr": "Conteneur standard",
-            "ko": "표준 컨테이너"
-          }
-        }
-      },
-      {
-        "type": "list",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "elements": [
-          {
-            "type": "numeric",
-            "name": {
-              "type": "translation",
-              "key": "stalker.tooltip.backpack.stat_name.inner_protection",
-              "args": {},
-              "lines": {
-                "ru": "Внутренняя защита",
-                "en": "Inner protection",
-                "es": "Protección interior",
-                "fr": "Protection interne",
-                "ko": "내부 보호"
-              }
-            },
-            "value": 89.5,
-            "formatted": {
-              "value": {
-                "ru": "89,5%",
-                "en": "89.5%",
-                "es": "89,5 %",
-                "fr": "89,5%",
-                "ko": "89.5%"
-              },
-              "nameColor": "838383",
-              "valueColor": "EEEEEE"
-            }
-          },
-          {
-            "type": "numeric",
-            "name": {
-              "type": "translation",
-              "key": "stalker.tooltip.backpack.stat_name.effectiveness",
-              "args": {},
-              "lines": {
-                "ru": "Эффективность",
-                "en": "Effectiveness",
-                "es": "Eficacia",
-                "fr": "Efficacité",
-                "ko": "효율성"
-              }
-            },
-            "value": 120.00001,
-            "formatted": {
-              "value": {
-                "ru": "120%",
-                "en": "120%",
-                "es": "120 %",
-                "fr": "120%",
-                "ko": "120%"
-              },
-              "nameColor": "838383",
-              "valueColor": "EEEEEE"
-            }
-          },
-          {
-            "type": "numeric",
-            "name": {
-              "type": "translation",
-              "key": "stalker.tooltip.backpack.info.size",
-              "args": {},
-              "lines": {
-                "ru": "Вместимость",
-                "en": "Capacity",
-                "es": "Capacidad",
-                "fr": "Capacité",
-                "ko": "용량"
-              }
-            },
-            "value": 5,
-            "formatted": {
-              "value": {
-                "ru": "0/5",
-                "en": "0/5",
-                "es": "0/5",
-                "fr": "0/5",
-                "ko": "0/5"
-              },
-              "nameColor": "838383",
-              "valueColor": "EEEEEE"
-            }
-          }
-        ]
-      },
-      {
-        "type": "list",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "elements": []
-      },
-      {
-        "type": "text",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "text": {
-          "type": "translation",
-          "key": "item.cont.apiary.description",
-          "args": {},
-          "lines": {
-            "ru": "Один из шедевров НИИ-7, разработанный в качестве продолжения серии «КЗК», сохранивший идею совмещения компактности и объема.\\nКак и «Берлога-6У», «КЗК-4» был снабжен модифицированным вариантом компонента на основе образца №3-ВА, что улучшило эффективность контейнера.\\nСталкеры, не долго думая, решили дать разработке института название, соответствующее прочим контейнерам серии.",
-            "en": "One of Research Institute 7's masterpieces, developed as a continuation of the KZK series, retaining the idea of combining compactness and volume.\\nLike the Berloga-6U, KZK-4 was equipped with a modified component based on sample No. 3-EA, which improved the container's efficiency.\\nStalkers, not thinking long, decided to give the institute's development a name consistent with other containers in the series.",
-            "es": "Una de las obras maestras del Instituto de Investigación 7, desarrollada como continuación de la serie de KZK, conservando la idea de combinar compacidad y volumen.\\nAl igual que el Berloga-6u, KZK-4 estaba equipado con una versión modificada de un componente basado en la muestra nº 3-IA, que mejoraba la eficiencia del contenedor.\\nAcechadores, sin pensarlo lo suficiente, decidió dar al desarrollo del Instituto un nombre correspondiente a los demás contenedores de la serie.",
-            "fr": "L'un des chefs-d'œuvre de l'Institut de Recherche 7, développé comme une continuation de la série « KZK », conservant l'idée d'allier compacité et capacité.\\nComme le Berloga-6U, le « KZK-4 » a été équipé d'une version modifiée du composant basé sur l'échantillon n°3-IA, ce qui a amélioré l'efficacité du conteneur.\\nSans trop réfléchir, les Stalkers ont décidé de donner à ce développement un nom correspondant aux autres conteneurs de la série.",
-            "ko": "제7연구소가 KZK 시리즈의 연장선으로 개발한 걸작 중 하나로, 콤팩트함과 용적을 동시에 추구한 발상을 그대로 유지한 모델입니다.\\n베를로가-6U와 마찬가지로 KZK-4 역시 표본 3호-EA 기반 구성 요소의 개조판이 탑재되었고, 그 덕에 해당 컨테이너의 효율이 올랐습니다.\\n스토커들은 고민할 것도 없이, 이 시리즈의 다른 컨테이너들과 일관된 이름을 연구소의 개발품에 붙이기로 결정했습니다."
-          }
-        }
-      }
-    ]
-  },
-  {
     "id": "2v9v",
     "category": "containers",
     "name": {
@@ -328,7 +64,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -576,7 +312,7 @@
             "en": "Taking on features of the Fridge container, the Shiver uses a special cooling agent that emits toxic gases for improved efficiency. Unfortunately, these jury-rigged systems are prone to leakages.",
             "es": "Basándose en la funcionalidad básica de Nevera, Frigorífico utiliza un agente refrigerante especial que emite gases tóxicos para aumentar la eficiencia del sistema. Lamentablemente, debido a las condiciones artesanales de producción, son frecuentes los casos de fugas del sistema.",
             "fr": "En se basant sur les fonctionnalités de base du Frigo, le Frisson utilise, pour améliorer l’efficacité du système, un agent réfrigérant spécial qui dégage des gaz toxiques. Malheureusement, en raison des conditions artisanales de production, des fuites de ce système sont fréquentes.",
-            "ko": "냉장고 컨테이너의 특성을 계승한 냉동 보관함은, 높은 효율성을 위해 유독성 가스를 방출하는 특수 냉각제를 사용한다. 불행히도 급조된 설계 구조 탓에 누출이 잦다는 것이 단점이다."
+            "ko": "냉장고 컨테이너의 기본 구조를 바탕으로 설계된 냉동 보관함은, 시스템 효율을 극대화하기 위해 독성 가스를 배출하는 특수 냉각제를 사용합니다. 불행히도 조잡한 제조 공정 탓에 시스템에서 냉각제가 새어 나오는 유출 사고가 빈번하게 발생하곤 합니다."
           }
         }
       }
@@ -647,7 +383,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -892,7 +628,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -968,7 +704,7 @@
             "en": "Bulky Container",
             "es": "Contenedor voluminoso",
             "fr": "Conteneur encombrant",
-            "ko": "묵직한 컨테이너"
+            "ko": "대형 컨테이너"
           }
         }
       },
@@ -1156,7 +892,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -1347,14 +1083,14 @@
                 "ko": "치유 효율"
               }
             },
-            "value": 33.3,
+            "value": 28.3,
             "formatted": {
               "value": {
-                "ru": "33,3%",
-                "en": "33.3%",
-                "es": "33,3 %",
-                "fr": "33,3%",
-                "ko": "33.3%"
+                "ru": "28,3%",
+                "en": "28.3%",
+                "es": "28,3 %",
+                "fr": "28,3%",
+                "ko": "28.3%"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -1448,7 +1184,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -1524,7 +1260,7 @@
             "en": "Bulky Container",
             "es": "Contenedor voluminoso",
             "fr": "Conteneur encombrant",
-            "ko": "묵직한 컨테이너"
+            "ko": "대형 컨테이너"
           }
         }
       },
@@ -1638,7 +1374,7 @@
           "args": {},
           "lines": {
             "ru": "Укрепленный вариант контейнера, получившего народное название «Бидон».\\nБлагодаря работе ученых, удалось частично оптимизировать конструкцию, что повысило технические характеристики контейнера «КЗР».",
-            "en": "A reinforced version of the container known by the folk name \"Canister.\"\\nThanks to the work of scientists, the design was partially optimized, improving the technical characteristics of the KZR container.",
+            "en": "A reinforced version of the container popularly known as the \"Canister.\"\\nThanks to the work of scientists, the design was partially optimized, improving the technical properties of the KZR container.",
             "es": "Una versión reforzada del contenedor, conocido popularmente como Bidón.\\nGracias al trabajo de los científicos, fue posible optimizar parcialmente el diseño, lo que aumentó las características técnicas del contenedor KZR.",
             "fr": "Version renforcée d'un conteneur connu sous le nom populaire de Bidon.\\nGrâce aux travaux des scientifiques, la structure a pu être partiellement optimisée, ce qui a amélioré les caractéristiques techniques du conteneur « KZR ».",
             "ko": "대중적으로 \"금속통\"이라고 불린 컨테이너의 강화 버전이다.\\n과학자들의 연구 덕분에 설계를 부분적으로 최적화하는 데 성공했고, 덕분에 KZR 컨테이너의 기술적 특성이 개선되었다."
@@ -1697,7 +1433,7 @@
                 "en": "Picklock",
                 "es": "Ratero",
                 "fr": "Crocheteur",
-                "ko": "도둑"
+                "ko": "신입"
               }
             }
           },
@@ -1712,7 +1448,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -1905,7 +1641,7 @@
             "en": "The first of the containers designed by Scientific Research Institute 7 based on the trophy sample No. 3-EA.\\nThanks to the component copied from the Murmur container, it significantly increases the efficiency of artifact usage.",
             "es": "El primero de los contenedores diseñados por el Instituto de Investigación 7 a partir de la muestra de trofeos nº 3-IA.\\nGracias al componente copiado del contenedor de Susurro, aumenta notablemente la eficacia del uso de artefactos.",
             "fr": "Le premier des conteneurs créés par l'Institut de Recherche 7 sur la base de l'échantillon de trophée n° 3-IA.\\nGrâce au composant copié sur le conteneur de « murmures », il augmente de manière significative l'efficacité de l'utilisation des artefacts.",
-            "ko": "제7연구소가 전리품 표본 3호-EA를 기반으로 설계한 첫 번째 컨테이너.\\n속삭임 컨테이너에서 복제해 온 구성 요소 덕분에 아티팩트 활용 효율을 크게 향상한다."
+            "ko": "제 7 연구소가 전리품 표본 3호-EA를 기반으로 설계한 첫 번째 컨테이너.\\n속삭임 컨테이너에서 복제해 온 구성 요소 덕분에 아티팩트 활용 효율을 크게 향상한다."
           }
         }
       }
@@ -1976,7 +1712,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -2166,7 +1902,7 @@
           "args": {},
           "lines": {
             "ru": "Комплект из двух контейнеров «КЗС» заводского производства.\\nХотя общий объем контейнера увеличился, технические ограничения снижают эффективность использования каждого артефакта, что было решено компенсировать дополнительной защитой от вредоносного воздействия артефактов.",
-            "en": "A factory-produced set of two KZS containers.\\nAlthough the overall volume of the container has increased, technical limitations reduce the effectiveness of each artifact's usage, which was determined  by providing additional protection against the harmful effects of artifacts.",
+            "en": "A factory-produced set of two KZS containers.\\nAlthough the overall volume of the container has increased, technical limitations reduce the effectiveness of each artifact. This was addressed by incorporating additional protection against the harmful effects of artifacts.",
             "es": "Un conjunto de dos contenedores KZS hechos en fábrica.\\nAunque el volumen total del contenedor ha aumentado, las limitaciones técnicas reducen la eficacia de cada artefacto, lo que se decidió compensar con una protección adicional contra los efectos malintencionados de los artefactos.",
             "fr": "Ensemble de deux conteneurs « KZS » de fabrication industrielle.\\nBien que le volume total du conteneur ait augmenté, des contraintes techniques réduisent l'efficacité de chaque artefact. Ce défaut a été partiellement compensé par une protection supplémentaire contre les effets néfastes des artefacts.",
             "ko": "공장에서 생산된 2개의 KZS 컨테이너 세트입니다.\\n컨테이너의 전체적인 부피는 증가했지만, 기술적 한계로 인해 각 아티팩트의 이용 효과는 감소했습니다. 이는 아티팩트의 해로운 효과에 대한 추가적인 보호가 이루어졌기 때문입니다."
@@ -2240,7 +1976,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -2504,7 +2240,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -2580,7 +2316,7 @@
             "en": "Bulky Container",
             "es": "Contenedor voluminoso",
             "fr": "Conteneur encombrant",
-            "ko": "묵직한 컨테이너"
+            "ko": "대형 컨테이너"
           }
         }
       },
@@ -2768,7 +2504,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -3013,10 +2749,10 @@
           "args": {},
           "lines": {
             "ru": "Когда Барон подмял под себя кустаря, создавшего кустарные контейнеры по типу «Холодильника» и «Колотуна», первым делом он поднял вопрос создания более «бюджетной» версии снаряжения для тех сталкеров, что только начинают покорять Зону. Так на рынке ЧЗО и появился «Холодок».",
-            "en": "When the Baron took control over the artisan who had created artisanal containers like Fridge and Shiver, the first thing he did was raise the issue of creating a more 'budget-friendly' version of equipment for those stalkers who are just beginning to conquer the Zone. This is how the Icy appeared on the CEZ market.",
+            "en": "When Baron got his hands on the craftsman behind artisanal containers like the Fridge and the Shiver, the first thing he did was raise the issue of creating a more “budget-friendly” version of gear aimed at stalkers just starting to conquer the Zone. This is how the Cool appeared on the CEZ market.",
             "es": "Cuando Barón subordinó al improvisado artesano que había creado contenedores improvisados del tipo Nevera y Frigorífico, lo primero que hizo fue plantear la cuestión de crear una versión más \"económica\" del equipamiento para aquellos acechadores que recién comienzan a conquistar la Zona. Así apareció en el mercado de la ZEC Frescor.",
             "fr": "Lorsque le Baron mit la main sur l'artisan à l'origine des conteneurs artisanaux comme le Frigo et le Frisson, sa première exigence fut la création d'une version plus économique de l'équipement, destinée aux stalkers débutants dans la conquête de la Zone. C'est ainsi qu'est né le Congélateur sur le marché de la ZET.",
-            "ko": "바론은 냉장 보관함, 냉동 보관함 같은 장인 컨테이너를 만들던 그 장인을 자기 아래에 두자마자, 구역 정복을 막 시작하는 스토커들을 위한 보다 \"저예산형\" 장비를 만드는 문제부터 거론했다. 그렇게 해서 체르노빌 제외 구역 시장에 등장한 것이 바로 \"서리\"다."
+            "ko": "바론은 냉장 보관함, 냉동 보관함 같은 장인 컨테이너를 만들던 그 장인을 자기 아래에 두자마자, 구역 정복을 막 시작하는 스토커들을 위한 보다 \"저예산형\" 장비를 만드는 문제부터 거론했다. 그렇게 해서 체르노빌 금지 구역 시장에 등장한 것이 바로 \"서리\"다."
           }
         }
       }
@@ -3087,7 +2823,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -3322,11 +3058,11 @@
       "key": "item.cont.bear4u.name",
       "args": {},
       "lines": {
-        "ru": "Контейнер «Берлога-4у»",
-        "en": "Berloga-4u Container",
-        "es": "Contenedor Berloga-4u",
-        "fr": "Conteneur Berloga-4u",
-        "ko": "베를로가-4u 컨테이너"
+        "ru": "Контейнер «Берлога-4У»",
+        "en": "Berloga-4U Container",
+        "es": "Contenedor Berloga-4U",
+        "fr": "Conteneur Berloga-4U",
+        "ko": "베를로가-4U 컨테이너"
       }
     },
     "color": "RANK_STALKER",
@@ -3379,7 +3115,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -3643,7 +3379,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -3907,7 +3643,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -4092,10 +3828,10 @@
               "args": {},
               "lines": {
                 "ru": "Пси-излучение",
-                "en": "Psy-emissions",
+                "en": "Psyonics",
                 "es": "Emisiones psy",
                 "fr": "Émissions psys",
-                "ko": "정신파 방사물"
+                "ko": "정신파 에미션"
               }
             },
             "value": 0.5,
@@ -4170,10 +3906,10 @@
       "args": {},
       "lines": {
         "ru": "Контейнер «Берлога-5»",
-        "en": "Berloga—5  Container",
+        "en": "Berloga-5 Container",
         "es": "Contenedor Berloga-5",
         "fr": "Conteneur Berloga-5",
-        "ko": "베를로가—5 컨테이너"
+        "ko": "베를로가-5 컨테이너"
       }
     },
     "color": "RANK_STALKER",
@@ -4226,7 +3962,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -4416,7 +4152,7 @@
           "args": {},
           "lines": {
             "ru": "Пускай «Берлога-4» и «Берлога-6» стали крайне популярными среди сталкеров, однако контейнер этой серии, предусмотренный для пяти артефактов, остался в их тени, не получив такой любви, как две других «Берлоги».\\nКак считают некоторые сталкеры, причиной тому стали поставщики снаряжения, долгое время не решавшиеся закупать «промежуточное решение», которое, по их мнению, представляло из себя «ни рыбу ни мясо».",
-            "en": "Although Berloga-4 and Berloga-6 became extremely popular among stalkers, the container in this series designed for five artifacts remained overshadowed, not receiving the same affection as the other two \"Berlogas.\"\\nSome stalkers believe that the reason was the equipment suppliers, who were hesitant for a long time to purchase the \"intermediate solution,\" which they felt was \"neither fish nor fowl.\"",
+            "en": "Because Berloga-4 and Berloga-6 were so popular among stalkers, the five-artifact container in the same series remained forever in their shadow, never receiving the same love.\\nSome stalkers blamed gear suppliers, who were long hesitant to purchase the \"intermediate solution,\" which they felt was \"neither fish nor fowl.\"",
             "es": "Aunque Berloga-4 y Berloga-6 se hicieron extremadamente populares entre los acechadores, pero el contenedor de esta serie, previsto para cinco artefactos, permaneció a su sombra, sin recibir tanto amor como los otros dos Berlogas.\\nSegún algunos acechadores, la razón fueron los proveedores de equipos, que durante mucho tiempo no se atrevieron a comprar una solución intermedia que, en su opinión, no era ni fu ni fa.",
             "fr": "Bien que les modèles Berloga-4 et Berloga-6 soient devenus extrêmement populaires parmi les Stalkers, le conteneur de cette série prévu pour cinq artefacts est resté dans l'ombre, n'ayant jamais gagné l'affection accordée aux deux autres Berlogas.\\nSCertains Stalkers pensent que cela est dû aux fournisseurs d'équipement, qui ont longtemps hésité à acheter cette solution intermédiaire, qu'ils considéraient comme ni chair ni poisson.",
             "ko": "베를로가-4와 베를로가-6은 스토커들 사이에서 엄청난 인기를 끌었지만, 다섯 개의 아티팩트를 담도록 만들어진 이 시리즈의 컨테이너는 여전히 다른 두 \"베를로가\"의 그늘에 가려 같은 관심을 받지 못했다.\\n일부 스토커들은 그 이유가 장비 공급업자들에게 있다고 본다. 공급업자들은 오랫동안 이런 \"절충형 솔루션\"을 구매하기를 주저했는데, 그들 눈엔 \"이도 저도 아닌 물건\"이라고 느껴졌기 때문이다."
@@ -4490,7 +4226,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -4680,7 +4416,7 @@
           "args": {},
           "lines": {
             "ru": "Укрепленный вариант контейнера «КЗК-1», известного также как «Кокон».\\nПо старой традиции, НИИ-7 решила продолжить практику создания укрепленных и более дорогостоящих контейнеров для своих оперативников в Зоне.",
-            "en": "A reinforced version of the KZK-1 container, also known as Cocoonl.\\nFollowing their old tradition, Research Institute 7 decided to continue the practice of creating reinforced and more expensive containers for their operatives in the Zone.",
+            "en": "A reinforced version of the KZK-1 container, also known as Cocoon.\\nFollowing their old tradition, Research Institute 7 decided to continue the practice of creating reinforced and more expensive containers for their operatives in the Zone.",
             "es": "Una versión fortificada del contenedor KZK-1, también conocido como Capullo.\\nSiguiendo una vieja tradición, el Instituto de Investigación 7 decidió continuar con la práctica de crear contenedores fortificados y más caros para sus operativos en la Zona.",
             "fr": "Version renforcée du conteneur « KZK-1 », également connu sous le nom de Cocon.\\nSelon l’ancienne tradition, l’Institut de Recherche 7 a décidé de poursuivre la pratique de création de conteneurs renforcés et plus coûteux pour ses agents dans la Zone.",
             "ko": "KZK-1 컨테이너의 강화판으로, 별칭은 마찬가지로 '알집'입니다.\\n제7연구소는 전통대로, 구역 내 자사 요원들을 위해 강화된 고가형 컨테이너를 만드는 관행을 이어가기로 했습니다."
@@ -4754,7 +4490,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -4947,7 +4683,7 @@
             "en": "A reinforced version of the second container in the KZK series.\\nDuring the development of the reinforced version, Research Institute 7 intended to significantly modify the component based on sample No. 3-EA. However, the work was delayed, resulting in the KZK-2U being released without significant improvements.",
             "es": "Versión fortificada del segundo contenedor de la serie de KZK.\\nAl desarrollar la versión fortificada, el Instituto de Investigación 7 tenía la intención de modificar significativamente el componente sobre la base de la muestra nº 3-IA, pero el trabajo se retrasó, por lo que el KZK-2U salió al mercado sin mejoras significativas.",
             "fr": "Version renforcée du deuxième conteneur de la série « KZK ».\\nLors du développement de la version renforcée, l’Institut de Recherche 7 avait l’intention d’apporter une modification significative du composant sur la base de l’échantillon n° 3-IA, mais le travail a traîné, de sorte que le « KZK-2U » est sorti sans améliorations notables.",
-            "ko": "KZK 시리즈 두 번째 컨테이너의 강화 버전입니다.\\n개발 당시 제7연구소는 표본 3호-EA를 기반으로 한 구성 요소를 대규모로 개조할 계획이었지만, 작업이 지연되면서 KZK-2U는 큰 개선 없이 출시되었습니다."
+            "ko": "KZK 시리즈 두 번째 컨테이너의 강화 버전입니다.\\n개발 당시 제 7 연구소는 표본 3호-EA를 기반으로 한 구성 요소를 대규모로 개조할 계획이었지만, 작업이 지연되면서 KZK-2U는 큰 개선 없이 출시되었습니다."
           }
         }
       }
@@ -5018,7 +4754,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -5208,7 +4944,7 @@
           "args": {},
           "lines": {
             "ru": "После начала работ над сериями «КЗС» и «КЗР» возникла идея создания более компактной конструкции для защитного контейнера, что позволило бы повысить комфортность использования снаряжения.\\n«КЗК-1», получивший среди сталкеров наименование «Кокон», стал первым успешным прототипом в серии, на основе которого разрабатывались дальнейшие контейнеры типа «КЗК».",
-            "en": "After starting work on the KZS and KZR series, the idea arose to create a more compact design for a protective container to enhance equipment usability.\\nKZK-1, named 'Cocoon' by stalkers due to its characteristic surface pattern, became the first successful prototype in the series, serving as the basis for developing future KZK type containers.",
+            "en": "When work began on the KZS and KZR series, the idea arose to design a more compact protective container to enhance gear usability.\\nKZK-1, nicknamed \"Cocoon\" by stalkers, became the first successful prototype in the series and the basis for all subsequent KZK containers.",
             "es": "Tras el inicio de los trabajos en las series KZS y KZR, surgió la idea de crear un diseño más compacto para el contenedor de protección, que aumentara la comodidad de uso del equipo.\\nKZK-1, llamado Capullo entre los acechadores por su característico dibujo en la superficie, fue el primer prototipo exitoso de la serie, sobre cuya base se desarrollaron otros contenedores del tipo KZK.",
             "fr": "Lors du développement des séries « KZS » et « KZR », l'idée d'une structure plus compacte pour un conteneur de protection a vu le jour, dans le but d'améliorer le confort d'utilisation de l'équipement.\\nLe « KZK-1 », surnommé « Rayon » par les Stalkers à cause du motif caractéristique sur sa surface, a été le premier prototype réussi de la série, sur la base duquel les autres conteneurs de type « KZK » ont été conçus.",
             "ko": "KZS 및 KZR 시리즈 개발이 시작된 이후, 장비 사용 편의성을 높이기 위해 더 컴팩트한 디자인의 보호용 컨테이너를 만들자는 아이디어가 나왔습니다.\\n스토커들 사이에서 '알집'이라 불린 KZK-1은 이 시리즈의 첫 성공 프로토타입이 되었고, 이후 KZK 계열 컨테이너들의 기반이 되었습니다."
@@ -5225,11 +4961,11 @@
       "key": "item.cont.kzs1u.name",
       "args": {},
       "lines": {
-        "ru": "Контейнер «КЗС-1у»",
-        "en": "KZS-1u Container",
-        "es": "Contenedor KZS-1u",
-        "fr": "Conteneur KZS-1u",
-        "ko": "KZS-1u 컨테이너"
+        "ru": "Контейнер «КЗС-1У»",
+        "en": "KZS-1U Container",
+        "es": "Contenedor KZS-1U",
+        "fr": "Conteneur KZS-1U",
+        "ko": "KZS-1U 컨테이너"
       }
     },
     "color": "DEFAULT",
@@ -5267,7 +5003,7 @@
                 "en": "Picklock",
                 "es": "Ratero",
                 "fr": "Crocheteur",
-                "ko": "도둑"
+                "ko": "신입"
               }
             }
           },
@@ -5282,7 +5018,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -5546,7 +5282,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -5739,271 +5475,7 @@
             "en": "A factory-produced set of two KZS-U containers.\\nDespite reinforcing the original containers, Research Institute 7 engineers were unable to solve the issue of reduced overall effectiveness.",
             "es": "Un conjunto de dos contenedores KZS-U hechos en fábrica.\\nA pesar del refuerzo de los contenedores originales, los ingenieros del Instituto de Investigación 7 no consiguieron resolver el problema de la disminución de la eficiencia total de la producción.",
             "fr": "Ensemble de deux conteneurs « KZS-U » de fabrication industrielle.\\nMalgré le renforcement des conteneurs d'origine, les ingénieurs de l'Institut de Recherche 7 n'ont pas réussi à résoudre le problème de la baisse d’efficacité globale.",
-            "ko": "공장에서 생산된 KZS-U 컨테이너 2개 세트입니다.\\n원래 컨테이너를 보강했음에도 불구하고, 제7연구소 엔지니어들은 전체 효율 저하 문제를 해결하지 못했습니다."
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": "q1m4",
-    "category": "containers",
-    "name": {
-      "type": "translation",
-      "key": "item.cont.bear6u.name",
-      "args": {},
-      "lines": {
-        "ru": "Контейнер «Берлога-6у»",
-        "en": "Berloga — 6u Container",
-        "es": "Contenedor Berloga-6u",
-        "fr": "Conteneur Berloga-6u",
-        "ko": "베를로가 — 6u 컨테이너"
-      }
-    },
-    "color": "RANK_LEGEND",
-    "status": {
-      "state": "PERSONAL_ON_USE"
-    },
-    "infoBlocks": [
-      {
-        "type": "list",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "elements": [
-          {
-            "type": "key-value",
-            "key": {
-              "type": "translation",
-              "key": "core.tooltip.info.rank",
-              "args": {},
-              "lines": {
-                "ru": "Ранг",
-                "en": "Rank",
-                "es": "Rango",
-                "fr": "Rang",
-                "ko": "등급"
-              }
-            },
-            "value": {
-              "type": "translation",
-              "key": "core.rank.legend",
-              "args": {},
-              "lines": {
-                "ru": "Легенда",
-                "en": "Legend",
-                "es": "Leyenda",
-                "fr": "Légende",
-                "ko": "전설"
-              }
-            }
-          },
-          {
-            "type": "key-value",
-            "key": {
-              "type": "translation",
-              "key": "core.tooltip.info.category",
-              "args": {},
-              "lines": {
-                "ru": "Класс",
-                "en": "Class",
-                "es": "Clase",
-                "fr": "Classe",
-                "ko": "등급"
-              }
-            },
-            "value": {
-              "type": "translation",
-              "key": "core.handbook.category.containers",
-              "args": {},
-              "lines": {
-                "ru": "Контейнеры",
-                "en": "Containers",
-                "es": "Contenedores",
-                "fr": "Conteneurs",
-                "ko": "컨테이너"
-              }
-            }
-          },
-          {
-            "type": "numeric",
-            "name": {
-              "type": "translation",
-              "key": "core.tooltip.info.weight",
-              "args": {},
-              "lines": {
-                "ru": "Вес",
-                "en": "Weight",
-                "es": "Peso",
-                "fr": "Poids",
-                "ko": "무게"
-              }
-            },
-            "value": 9.5,
-            "formatted": {
-              "value": {
-                "ru": "9,5 кг",
-                "en": "9.5 kg",
-                "es": "9,5 kg",
-                "fr": "9,5 kg",
-                "ko": "9.5 kg"
-              },
-              "nameColor": "838383",
-              "valueColor": "838383"
-            }
-          }
-        ]
-      },
-      {
-        "type": "list",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "elements": []
-      },
-      {
-        "type": "list",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "elements": []
-      },
-      {
-        "type": "text",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "text": {
-          "type": "translation",
-          "key": "general.container.class.spacious",
-          "args": {},
-          "lines": {
-            "ru": "Вместительный контейнер",
-            "en": "Capacious Container",
-            "es": "Contenedor espacioso",
-            "fr": "Conteneur spacieux",
-            "ko": "넉넉한 컨테이너"
-          }
-        }
-      },
-      {
-        "type": "list",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "elements": [
-          {
-            "type": "numeric",
-            "name": {
-              "type": "translation",
-              "key": "stalker.tooltip.backpack.stat_name.inner_protection",
-              "args": {},
-              "lines": {
-                "ru": "Внутренняя защита",
-                "en": "Inner protection",
-                "es": "Protección interior",
-                "fr": "Protection interne",
-                "ko": "내부 보호"
-              }
-            },
-            "value": 78.5,
-            "formatted": {
-              "value": {
-                "ru": "78,5%",
-                "en": "78.5%",
-                "es": "78,5 %",
-                "fr": "78,5%",
-                "ko": "78.5%"
-              },
-              "nameColor": "838383",
-              "valueColor": "EEEEEE"
-            }
-          },
-          {
-            "type": "numeric",
-            "name": {
-              "type": "translation",
-              "key": "stalker.tooltip.backpack.stat_name.effectiveness",
-              "args": {},
-              "lines": {
-                "ru": "Эффективность",
-                "en": "Effectiveness",
-                "es": "Eficacia",
-                "fr": "Efficacité",
-                "ko": "효율성"
-              }
-            },
-            "value": 114,
-            "formatted": {
-              "value": {
-                "ru": "114%",
-                "en": "114%",
-                "es": "114 %",
-                "fr": "114%",
-                "ko": "114%"
-              },
-              "nameColor": "838383",
-              "valueColor": "EEEEEE"
-            }
-          },
-          {
-            "type": "numeric",
-            "name": {
-              "type": "translation",
-              "key": "stalker.tooltip.backpack.info.size",
-              "args": {},
-              "lines": {
-                "ru": "Вместимость",
-                "en": "Capacity",
-                "es": "Capacidad",
-                "fr": "Capacité",
-                "ko": "용량"
-              }
-            },
-            "value": 6,
-            "formatted": {
-              "value": {
-                "ru": "0/6",
-                "en": "0/6",
-                "es": "0/6",
-                "fr": "0/6",
-                "ko": "0/6"
-              },
-              "nameColor": "838383",
-              "valueColor": "EEEEEE"
-            }
-          }
-        ]
-      },
-      {
-        "type": "list",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "elements": []
-      },
-      {
-        "type": "text",
-        "title": {
-          "type": "text",
-          "text": ""
-        },
-        "text": {
-          "type": "translation",
-          "key": "item.cont.bear6u.description",
-          "args": {},
-          "lines": {
-            "ru": "Новейший контейнер из серии «Берлог», созданный специально для оперативников НИИ-7.\\nМодификация компонента на основе образца №3-ВА, начавшаяся при разработке «КЗК-2У», была успешно завершена. Подобное улучшение системы контейнера значительно повысило эффективность контейнера на фоне остальных, за что он крайне ценится среди сталкеров.",
-            "en": "The newest container from the Berloga series, created specifically for Research Institute 7 operatives.\\nThe modification of the component based on sample No. 3-EA, which began during the development of the KZK-2U, was successfully completed. This improvement significantly enhanced the container's effectiveness compared to others, making it highly valued among stalkers.",
-            "es": "El contenedor más nuevo de la serie de Berloga, diseñado específicamente para los operativos del Instituto de Investigación 7.\\nLa modificación del componente sobre la base de la muestra nº 3-IA, que se inició durante el desarrollo del KZK-2U, se completó con éxito. Tal mejora del sistema del contenedor aumentó significativamente su eficacia frente al resto, por lo que es muy apreciado entre los acechadores.",
-            "fr": "Conteneur de la dernière génération de la série « Berloga », conçu spécialement pour les agents de l'Institut de Recherche 7.\\nLa modification du composant basée sur l'échantillon n°3-IA, entamée lors du développement du « KZK-2U », a été menée à bien. Cette amélioration du système du conteneur a considérablement accru son efficacité par rapport aux autres modèles, ce qui le rend extrêmement prisé parmi les Stalkers.",
-            "ko": "베를로가 시리즈 중 최신형 컨테이너로, 제7연구소 요원 전용으로 만들어졌습니다.\\nKZK-2U 개발 때 시작된 표본 3호-EA 기반 구성 요소 개조가 성공적으로 완료되었고, 이 개선 덕에 다른 컨테이너 대비 효율이 크게 상승하여 스토커들 사이에서도 높은 가치를 가지게 되었습니다."
+            "ko": "공장에서 생산된 KZS-U 컨테이너 2개 세트입니다.\\n원래 컨테이너를 보강했음에도 불구하고, 제 7 연구소 엔지니어들은 전체 효율 저하 문제를 해결하지 못했습니다."
           }
         }
       }
@@ -6018,7 +5490,7 @@
       "args": {},
       "lines": {
         "ru": "Контейнер «Берлога-6»",
-        "en": "Berloga — 6 Container",
+        "en": "Berloga-6 Container",
         "es": "Contenedor Berloga-6",
         "fr": "Conteneur Berloga-6",
         "ko": "베를로가-6 보관함"
@@ -6074,7 +5546,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -6282,7 +5754,7 @@
       "args": {},
       "lines": {
         "ru": "Контейнер «Берлога-5У»",
-        "en": "Berloga — 5U Container",
+        "en": "Berloga-5u Container",
         "es": "Contenedor Berloga-5U",
         "fr": "Conteneur Berloga-5u",
         "ko": "베를로가 — 5U 컨테이너"
@@ -6338,7 +5810,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -6528,7 +6000,7 @@
           "args": {},
           "lines": {
             "ru": "Как и прочие укрепленные контейнеры серии, получил большую популярность среди военных и военсталов ССОП.\\nПо слухам, которые проникают в Зону со стороны Ч-4 и Периметра, военсталы получают «Берлогу-5У» за десяток успешно выполненных задач!",
-            "en": "Like other reinforced containers in the series, it gained great popularity among the military and SSPP military stalkers.\\nAccording to rumors coming into the Zone from Ch-4  and the Perimeter, military stalkers receive the Berloga-5U for successfully completing a dozen missions!",
+            "en": "Like other reinforced containers in the series, it gained great popularity among the military and SSPP military stalkers.\\nAccording to rumors coming into the Zone from Ch-4 and the Perimeter, military stalkers receive the Berloga-5U for completing a dozen missions!",
             "es": "Al igual que otros contenedores fortificados de la serie, es muy popular entre los militares y los acechadores militares de SSPE.\\nSegún los rumores, que corren por la Zona desde los lados Ch-4 y el Perímetro, ¡el personal militar recibe Berloga-5U por una docena de tareas completadas con éxito!",
             "fr": "Comme les autres modèles renforcés de la série, il a gagné une grande popularité parmi les militaires et les Stalkers affiliés aux forces spéciales du SSPP.\\nSelon des rumeurs circulant depuis le secteur C-4 et le Périmètre, certains soldats recevraient une Berloga-5U après une dizaine de missions réussies !",
             "ko": "시리즈 내 다른 강화 컨테이너와 마찬가지로 군과 SSPP 군 소속 스토커들 사이에서 큰 인기를 얻었습니다.\\nCh-4와 경계선 쪽에서 구역으로 흘러들어오는 소문에 따르면, 군 소속 스토커들은 임무 10개를 성공시키면 베를로가-5U를 받는다고 합니다!"
@@ -6602,7 +6074,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -6866,7 +6338,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -6942,7 +6414,7 @@
             "en": "Bulky Container",
             "es": "Contenedor voluminoso",
             "fr": "Conteneur encombrant",
-            "ko": "묵직한 컨테이너"
+            "ko": "대형 컨테이너"
           }
         }
       },
@@ -7087,7 +6559,7 @@
             "en": "A unique container, found while studying the Trailblazers' equipment warehouses in the lab under the Radar, nicknamed Sheaf by stalkers.\\n\\nAs the most experienced stalkers say, during the arrival of Knyazev's group in the Zone, Scientific Research Institute 7 produced only a few containers from the KZS and Canister series. It seems Sheaf is the result of the Trailblazers' group's efforts, likely drawing certain knowledge from the lab where the group settled.",
             "es": "Contenedor único, encontrado durante el estudio de los almacenes con el equipamiento de los Pioneros en el laboratorio bajo el Radar, llamado Haz por los acechadores.\\n\\nSegún los acechadores más experimentados, cuando el grupo de Princeton llegó a la Zona, el Instituto de Investigación 7 solo había fabricado unos pocos contenedores de la serie KZS y Bidón. Al parecer, Haz es el resultado del trabajo del propio grupo de los Pioneros, que probablemente obtuvieron ciertos conocimientos del laboratorio donde se instaló el grupo.",
             "fr": "Un conteneur unique, découvert lors de l'étude des entrepôts avec l'équipement des Pionniers dans le laboratoire sous le Radar, surnommé par les stalkers — Fagot.\\n\\nSelon les stalkers les plus expérimentés, au moment de l'arrivée du groupe de Knyazev dans la Zone, l'Institut de Recherche 7 ne produisait que quelques conteneurs des séries KZS et Bidon. Il semblerait que le Fagot soit le résultat du travail du groupe même des Pionniers, qui aurait probablement puisé certaines connaissances dans le laboratoire ou s'était établi le groupe.",
-            "ko": "레이더 아래 연구소에서, 개척자들의 장비 창고를 조사하던 중 발견된 독특한 컨테이너로, 스토커들은 이를 \"층\"이라고 부른다.\\n\\n노련한 스토커들 말에 따르면, 크냐제프 일행이 구역에 도착할 당시 제7연구소가 만들던 것은 KZS 시리즈와 금속통 시리즈의 컨테이너 몇 개 정도였다고 한다. 층은 아마도 개척자 그룹이 만든 결과물이며, 그들이 둥지를 튼 연구소에서 특정 지식을 얻어 제작한 것으로 보인다."
+            "ko": "레이더 아래 연구소에서, 개척자들의 장비 창고를 조사하던 중 발견된 독특한 컨테이너로, 스토커들은 이를 \"층\"이라고 부른다.\\n\\n노련한 스토커들 말에 따르면, 크냐제프 일행이 구역에 도착할 당시 제 7 연구소가 만들던 것은 KZS 시리즈와 금속통 시리즈의 컨테이너 몇 개 정도였다고 한다. 층은 아마도 개척자 그룹이 만든 결과물이며, 그들이 둥지를 튼 연구소에서 특정 지식을 얻어 제작한 것으로 보인다."
           }
         }
       }
@@ -7158,7 +6630,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -7376,10 +6848,10 @@
           "args": {},
           "lines": {
             "ru": "Кустари Черного Рынка уверяют, что контейнер является полностью их разработкой. Парочка механиков, решивших проверить это заявление на прочность, разобрали «Добытчик», обнаружив в нем почти полный комплект деталей от НИИ-7, пересобранных в не самую тривиальную конструкцию с использованием дополнительной обшивки из аномальных материалов.",
-            "en": "Black Market artisan claim that the container is entirely their development. A couple of mechanics, deciding to test this claim, dismantled Forager and found almost a complete set of parts from Research Institute 7, reassembled into a rather unconventional construction using additional casing made of anomalous materials.",
+            "en": "Black Market artisans claim that the container is entirely their own development. A couple of mechanics, deciding to test this claim, dismantled a Forager and found almost a complete set of parts from Research Institute 7, reassembled into a rather unconventional construction with additional casing made of anomalous materials.",
             "es": "Los artesanos del Mercado Negro afirman que el contenedor es un desarrollo enteramente suyo. Un par de mecánicos, decididos a poner a prueba esta afirmación, desmontaron Recolector y encontraron un conjunto casi completo de piezas del Instituto de Investigación 7, reensambladas en una construcción bastante poco convencional utilizando una carcasa adicional fabricada con materiales anómalos.",
             "fr": "Les artisans du Marché Noir assurent que ce conteneur est leur création exclusive. Deux mécanos sceptiques ont décidé d'en avoir le cœur net : en démontant un exemplaire du Fourrageur, ils ont découvert qu'il contenait presque l'intégralité des composants issus de l'Institut de Recherche 7, réassemblés dans une configuration non triviale, avec un blindage supplémentaire fait de matériaux anormaux.",
-            "ko": "블랙 마켓 장인들은 이 컨테이너가 자신들의 순수 창작물이라고 주장합니다. 하지만 몇몇 정비공이 이 주장을 검증해보기 위해 포레저를 분해해 보니, 내부에는 제7연구소 부품 세트를 거의 그대로 가져와 특이한 구조로 재조립한 흔적과, 그 위에 이상현상적 재질로 된 외피가 덧씌워져 있었습니다."
+            "ko": "블랙 마켓 장인들은 이 컨테이너가 자신들의 순수 창작물이라고 주장합니다. 하지만 몇몇 정비공이 이 주장을 검증해보기 위해 포레저를 분해해 보니, 내부에는 제 7 연구소 부품 세트를 거의 그대로 가져와 특이한 구조로 재조립한 흔적과, 그 위에 이상현상적 재질로 된 외피가 덧씌워져 있었습니다."
           }
         }
       }
@@ -7450,7 +6922,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -7640,7 +7112,7 @@
           "args": {},
           "lines": {
             "ru": "Продолжение серии «КЗК», сохраняющее идею одновременного комфорта использования и объема контейнера.\\nХарактерный узор на поверхности корпуса значительно поспособствовал тому, что прозвище «Сота» основательно закрепилось за контейнером.",
-            "en": "A continuation of the KZK series, maintaining the idea of simultaneous comfort of use and container capacity.\\nA distinctive pattern on the surface of the body greatly contributed to the nickname \"Cell\" becoming firmly attached to the container.",
+            "en": "A continuation of the KZK series, maintaining the idea of simultaneous ease of use and container capacity.\\nThe distinctive pattern on the surface of the body played a large part in the nickname \"Cell\" becoming firmly attached to the container.",
             "es": "Una continuación de la serie de KZK, conservando la idea de simultanear comodidad de uso y volumen del contenedor.\\nEl característico patrón de la superficie del cuerpo contribuyó en gran medida a que el apodo Panal se afianzara definitivamente en el contenedor.",
             "fr": "Une continuation de la série « KZK » qui conserve l'idée d’un compromis entre confort d'utilisation et volume du conteneur.\\nLe motif caractéristique sur la surface de la coque a largement contribué à ce que le surnom Rayon.",
             "ko": "KZK 시리즈의 연장선으로, 사용 편의성과 컨테이너 용량을 동시에 유지하자는 발상을 그대로 이어간다.\\n외피 표면의 특징적인 패턴은 이 컨테이너에는 \"세포\"라는 별명이 굳게 자리 잡는 데 지대한 영향을 미쳤다."
@@ -7714,7 +7186,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -7959,7 +7431,7 @@
           "args": {},
           "lines": {
             "ru": "Пускай Черный Рынок прибегает к не самым культурным методам для привлечения «новых кадров» в ряды своих мастеров, он также дает им ресурсы и возможности, которые нельзя получить, будучи Кулибиным-одиночкой.\\n\\nБлагодаря такому «сотрудничеству» смог появиться новый контейнер из серии кустарных контейнеров, как и прочие, имеющий определенные ограничения по использованию, но хорошо показывающий себя в деле использования некоторых артефактов.",
-            "en": "Although the Black Market resorts to less than refined methods to attract \"new talent\" into the ranks of its masters, it also provides them with resources and opportunities that cannot be obtained by being a lone Franklin.\\n\\nThanks to such “collaboration,” a new container from the series of artisanal containers has emerged, just like others, having certain usage limitations but proving effective when used with certain artefacts.",
+            "en": "Although the Black Market resorts to less than refined methods to attract “new talent” into its ranks, it also provides them with resources and opportunities that cannot be obtained by being a lone Franklin.\\n\\nThanks to such “collaboration,” a new container from the series of artisanal containers has emerged, just like others, having certain usage limitations but proving effective when used with certain artefacts.",
             "es": "Aunque el Mercado Negro recurre a métodos no muy cultos para atraer \"nuevos integrantes\" a las filas de sus maestros, también les brinda recursos y oportunidades que no se pueden obtener siendo un Quevedo solitario.\\n\\nGracias a esta \"colaboración\" pudo surgir un nuevo contenedor de la serie de contenedores improvisada; como los demás, tiene ciertas limitaciones de uso, pero se desempeña bien en el manejo de algunos artefactos.",
             "fr": "Le Marché Noir, bien que peu regardant sur les méthodes employées pour recruter de nouveaux talents parmi les artisans, leur offre des ressources et des opportunités inaccessibles à un bricoleur solitaire.\\n\\nGrâce à cette collaboration, un nouveau conteneur a vu le jour dans la série des conteneurs artisanaux. Comme les autres, il présente certaines limites d'utilisation, mais s'avère très efficace pour manipuler certains artefacts.",
             "ko": "블랙 마켓이 \"신규 인력\"을 자기 장인 라인으로 끌어들이는 과정에서 그리 우아하지 않은 방법을 쓰긴 하지만, 동시에 혼자서 뚝딱거리며 사는 개인으로서는 절대 얻을 수 없는 자원과 기회를 제공해 주기도 한다.\\n\\n이런 \"협업\" 덕분에 장인 컨테이너 시리즈의 새로운 컨테이너가 등장했는데, 기존 제품과 마찬가지로 특정 사용 제한은 존재하지만 특정 아티팩트와 함께 쓰면 좋은 효과를 보여준다."
@@ -8033,7 +7505,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -8241,10 +7713,10 @@
       "args": {},
       "lines": {
         "ru": "Контейнер «Берлога-4»",
-        "en": "Berloga — 4 Container",
+        "en": "Berloga-4 Container",
         "es": "Contenedor Berloga-4",
         "fr": "Conteneur Berloga-4",
-        "ko": "베를로가 — 4 보관함"
+        "ko": "베를로가-4 보관함"
       }
     },
     "color": "RANK_NEWBIE",
@@ -8297,7 +7769,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -8561,7 +8033,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -8750,7 +8222,7 @@
                 "en": "Bullet resistance",
                 "es": "Resistencia a las balas",
                 "fr": "Résistance aux balles",
-                "ko": "총탄 보호율"
+                "ko": "총탄 저항율"
               }
             },
             "value": 23,
@@ -8777,7 +8249,7 @@
                 "en": "Laceration protection",
                 "es": "Protección contra laceración",
                 "fr": "Protection contre les lacérations",
-                "ko": "열상 보호율"
+                "ko": "열상 저항율"
               }
             },
             "value": 46,
@@ -8881,7 +8353,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -8957,7 +8429,7 @@
             "en": "Bulky Container",
             "es": "Contenedor voluminoso",
             "fr": "Conteneur encombrant",
-            "ko": "묵직한 컨테이너"
+            "ko": "대형 컨테이너"
           }
         }
       },
@@ -9074,7 +8546,7 @@
             "en": "Numerous attempts by the engineers at Research Institute 7 to increase capacity by expanding the internal volume through more compact assembly yielded no results, necessitating not only the enlargement of the container itself but also the layer of protective coating. \\n\\nThe result was a bulky yet spacious container, nicknamed Kega by stalkers due to its external resemblance.",
             "es": "Los numerosos intentos de los ingenieros del Instituto de Investigación 7 por aumentar la capacidad mediante la ampliación del volumen interior con un montaje más compacto no dieron resultado, por lo que hubo que aumentar no solo el contenedor en sí, sino también la capa de revestimiento protector. \\n\\nEl resultado fue un contenedor voluminoso, pero espacioso, apodado Barril por los acechadores debido a su parecido externo.",
             "fr": "Les nombreuses tentatives des ingénieurs de l’Institut de Recherche 7 pour augmenter la capacité en élargissant le volume interne via un assemblage plus compact ont échoué, ce qui a obligé à augmenter non seulement le conteneur lui-même, mais aussi la couche de protection.\\n\\nLe résultat fut un conteneur volumineux mais spacieux, surnommé par les stalkers « Fût » en raison de sa ressemblance extérieure.",
-            "ko": "제7연구소 엔지니어들은 더 촘촘한 조립 방식으로 내부 용적을 넓혀 용량을 늘리려 수많은 시도를 했지만 실패했고, 결국 컨테이너 자체와 보호 코팅층을 모두 키울 수밖에 없었다. \\n\\n그 결과 크기는 커졌지만 매우 넉넉한 수납 기능을 가진 컨테이너가 되었고, 외형적 유사성 때문에 스토커들은 이를 \"케가\"라고 부르게 되었다."
+            "ko": "제 7 연구소 엔지니어들은 더 촘촘한 조립 방식으로 내부 용적을 넓혀 용량을 늘리려 수많은 시도를 했지만 실패했고, 결국 컨테이너 자체와 보호 코팅층을 모두 키울 수밖에 없었다. \\n\\n그 결과 크기는 커졌지만 매우 넉넉한 수납 기능을 가진 컨테이너가 되었고, 외형적 유사성 때문에 스토커들은 이를 \"케가\"라고 부르게 되었다."
           }
         }
       }
@@ -9145,7 +8617,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -9221,7 +8693,7 @@
             "en": "Bulky Container",
             "es": "Contenedor voluminoso",
             "fr": "Conteneur encombrant",
-            "ko": "묵직한 컨테이너"
+            "ko": "대형 컨테이너"
           }
         }
       },
@@ -9353,7 +8825,7 @@
       "args": {},
       "lines": {
         "ru": "Марафонская сумка",
-        "en": "Marathon bag",
+        "en": "Marathon Bag",
         "es": "Bolsa de maratón",
         "fr": "Sac de Marathon",
         "ko": "마라톤 가방"
@@ -9409,7 +8881,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -9755,7 +9227,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -10101,7 +9573,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -10374,7 +9846,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -10594,7 +10066,7 @@
         "en": "Chitin Backpack",
         "es": "Mochila Quitina",
         "fr": "Sac à Dos Chitine",
-        "ko": "[키틴질] 배낭"
+        "ko": "키틴질 배낭"
       }
     },
     "color": "RANK_LEGEND",
@@ -10647,7 +10119,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -10940,7 +10412,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -11185,7 +10657,7 @@
           "args": {},
           "lines": {
             "ru": "Данный предмет имеет ВРЕМЕННУЮ модель, которая будет заменена.",
-            "en": "This item has a TEMPORARY model, which will be replaced.",
+            "en": "This item currently uses a TEMPORARY model that will be replaced.",
             "es": "Este objeto tiene un modelo TEMPORAL que será sustituido.",
             "fr": "Cet objet possède un modèle TEMPORAIRE, qui sera remplacé.",
             "ko": "해당 아이템은 임시 모델로 제공되었으며, 향후 교체될 것입니다."
@@ -11259,7 +10731,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -11536,7 +11008,7 @@
                 "en": "Picklock",
                 "es": "Ratero",
                 "fr": "Crocheteur",
-                "ko": "도둑"
+                "ko": "신입"
               }
             }
           },
@@ -11551,7 +11023,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -11798,7 +11270,7 @@
         "en": "Pouch Black Eagle B-33",
         "es": "Zurrón Black Eagle B-33",
         "fr": "Sacoche Black Eagle B-33",
-        "ko": "파우치 검은 독수리 B-33"
+        "ko": "검은 독수리 B-33 파우치"
       }
     },
     "color": "RANK_STALKER",
@@ -11851,7 +11323,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -12096,7 +11568,7 @@
           "args": {},
           "lines": {
             "ru": "Данный предмет имеет ВРЕМЕННУЮ модель, которая будет заменена.",
-            "en": "This item has a TEMPORARY model, which will be replaced.",
+            "en": "This item currently uses a TEMPORARY model that will be replaced.",
             "es": "Este objeto tiene un modelo TEMPORAL que será sustituido.",
             "fr": "Cet objet possède un modèle TEMPORAIRE, qui sera remplacé.",
             "ko": "해당 아이템은 임시 모델로 제공되었으며, 향후 교체될 것입니다."
@@ -12170,7 +11642,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -12470,7 +11942,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -12743,7 +12215,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -13016,7 +12488,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -13289,7 +12761,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -13507,7 +12979,7 @@
           "args": {},
           "lines": {
             "ru": "Данный предмет имеет ВРЕМЕННУЮ модель, которая будет заменена.",
-            "en": "This item has a TEMPORARY model, which will be replaced.",
+            "en": "This item currently uses a TEMPORARY model that will be replaced.",
             "es": "Este objeto tiene un modelo TEMPORAL que será sustituido.",
             "fr": "Cet objet possède un modèle TEMPORAIRE, qui sera remplacé.",
             "ko": "해당 아이템은 임시 모델로 제공되었으며, 향후 교체될 것입니다."
@@ -13525,7 +12997,7 @@
       "args": {},
       "lines": {
         "ru": "Разгрузка ADR-WRBT",
-        "en": "Utility vest ADR-WRBT",
+        "en": "Utility Vest ADR-WRBT",
         "es": "Cinturón ADR-WRBT",
         "fr": "Gilet utilitaire ADR-WRBT",
         "ko": "유틸리티 조끼 ADR-WRBT"
@@ -13581,7 +13053,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -13826,7 +13298,7 @@
           "args": {},
           "lines": {
             "ru": "Данный предмет имеет ВРЕМЕННУЮ модель, которая будет заменена.",
-            "en": "This item has a TEMPORARY model, which will be replaced.",
+            "en": "This item currently uses a TEMPORARY model that will be replaced.",
             "es": "Este objeto tiene un modelo TEMPORAL que será sustituido.",
             "fr": "Cet objet possède un modèle TEMPORAIRE, qui sera remplacé.",
             "ko": "해당 아이템은 임시 모델로 제공되었으며, 향후 교체될 것입니다."
@@ -13900,7 +13372,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -14136,7 +13608,7 @@
       "args": {},
       "lines": {
         "ru": "Разгрузка Black Eagle Y-73",
-        "en": "Utility vest Black Eagle Y-73",
+        "en": "Utility Vest Black Eagle Y-73",
         "es": "Cinturón Black Eagle Y-73",
         "fr": "Gilet utilitaire Black Eagle Y-73",
         "ko": "유틸리티 조끼 검은 독수리 Y-73"
@@ -14192,7 +13664,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -14437,7 +13909,7 @@
           "args": {},
           "lines": {
             "ru": "Данный предмет имеет ВРЕМЕННУЮ модель, которая будет заменена.",
-            "en": "This item has a TEMPORARY model, which will be replaced.",
+            "en": "This item currently uses a TEMPORARY model that will be replaced.",
             "es": "Este objeto tiene un modelo TEMPORAL que será sustituido.",
             "fr": "Cet objet possède un modèle TEMPORAIRE, qui sera remplacé.",
             "ko": "해당 아이템은 임시 모델로 제공되었으며, 향후 교체될 것입니다."
@@ -14496,7 +13968,7 @@
                 "en": "Picklock",
                 "es": "Ratero",
                 "fr": "Crocheteur",
-                "ko": "도둑"
+                "ko": "신입"
               }
             }
           },
@@ -14511,7 +13983,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -14784,7 +14256,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {
@@ -15002,7 +14474,7 @@
           "args": {},
           "lines": {
             "ru": "Данный предмет имеет ВРЕМЕННУЮ модель, которая будет заменена.",
-            "en": "This item has a TEMPORARY model, which will be replaced.",
+            "en": "This item currently uses a TEMPORARY model that will be replaced.",
             "es": "Este objeto tiene un modelo TEMPORAL que será sustituido.",
             "fr": "Cet objet possède un modèle TEMPORAIRE, qui sera remplacé.",
             "ko": "해당 아이템은 임시 모델로 제공되었으며, 향후 교체될 것입니다."
@@ -15076,7 +14548,7 @@
                 "en": "Class",
                 "es": "Clase",
                 "fr": "Classe",
-                "ko": "등급"
+                "ko": "클래스"
               }
             },
             "value": {

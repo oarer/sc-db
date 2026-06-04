@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -173,14 +173,14 @@
               "ko": "안정성"
             }
           },
-          "value": 10.000467,
+          "value": 4.9996376,
           "formatted": {
             "value": {
-              "ru": "+10%",
-              "en": "+10%",
-              "es": "+10 %",
-              "fr": "+10%",
-              "ko": "+10%"
+              "ru": "+5%",
+              "en": "+5%",
+              "es": "+5 %",
+              "fr": "+5%",
+              "ko": "+5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -263,7 +263,7 @@
               "en": "TDI KRISS Vector",
               "es": "TDI KRISS Vector",
               "fr": "TDI KRISS Vector",
-              "ko": "TDI KRISS Vector"
+              "ko": "TDI KRISS 벡터"
             }
           }
         },
@@ -339,6 +339,21 @@
               "es": "Scorpion EVO III",
               "fr": "Scorpion EVO III",
               "ko": "스콜피온 EVO III"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mpx.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG MPX",
+              "en": "SIG MPX",
+              "es": "SIG MPX",
+              "fr": "SIG MPX",
+              "ko": "SIG MPX"
             }
           }
         },
@@ -504,6 +519,21 @@
               "es": "HK MP7A2",
               "fr": "HK MP7A2",
               "ko": "HK MP7A2"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.honeybadger.name",
+            "args": {},
+            "lines": {
+              "ru": "AAC Honey Badger",
+              "en": "AAC Honey Badger",
+              "es": "Honey Badger",
+              "fr": "AAC Honey Badger",
+              "ko": "AAC Honey Badger"
             }
           }
         },
@@ -818,7 +848,7 @@
               "en": "Saiga-12",
               "es": "Saiga-12",
               "fr": "Saiga-12",
-              "ko": "SAIGA 12"
+              "ko": "사이가-12"
             }
           }
         },
@@ -1160,10 +1190,10 @@
             "args": {},
             "lines": {
               "ru": "ОТЛ-03 «Карбач»",
-              "en": "Karbach OTL-03",
-              "es": "Karbach OTL-03",
-              "fr": "Karbach OTL-03",
-              "ko": "카르바흐 OTL-03"
+              "en": "OTL-03 Karbach",
+              "es": "OTL-03 Karbach",
+              "fr": "OTL-03 Karbach",
+              "ko": "OTL-03 카르바흐"
             }
           }
         },
@@ -1253,7 +1283,22 @@
               "en": "CheyTac M200 Intervention",
               "es": "CheyTac M200 Intervention",
               "fr": "CheyTac M200 Intervention",
-              "ko": "CheyTac M200 Intervention"
+              "ko": "샤이텍 M200 인터벤션"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pzb38.name",
+            "args": {},
+            "lines": {
+              "ru": "PzB 38",
+              "en": "PzB 38",
+              "es": "PzB 38",
+              "fr": "PzB 38",
+              "ko": "PzB 38"
             }
           }
         },
@@ -1486,21 +1531,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.mpx.name",
-            "args": {},
-            "lines": {
-              "ru": "SIG MPX",
-              "en": "SIG MPX",
-              "es": "SIG MPX",
-              "fr": "SIG MPX",
-              "ko": "SIG MPX"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.aug9xs.name",
             "args": {},
             "lines": {
@@ -1628,7 +1658,7 @@
               "en": "Steyr AUG A3",
               "es": "Steyr AUG A3",
               "fr": "Steyr AUG A3",
-              "ko": "Steyr AUG A3"
+              "ko": "슈타이어 AUG A3"
             }
           }
         },
@@ -1658,7 +1688,7 @@
               "en": "SIG SG 550 Sniper",
               "es": "Francotirador SIG SG 550",
               "fr": "SIG SG 550 Sniper",
-              "ko": "SIG SG 550 저격수"
+              "ko": "SIG SG 550 스나이퍼"
             }
           }
         },
@@ -1779,6 +1809,36 @@
               "es": "RPD",
               "fr": "RPD",
               "ko": "RPD"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.bren.name",
+            "args": {},
+            "lines": {
+              "ru": "Bren",
+              "en": "Bren",
+              "es": "Bren",
+              "fr": "Bren",
+              "ko": "브렌"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mg34.name",
+            "args": {},
+            "lines": {
+              "ru": "MG-34",
+              "en": "MG-34",
+              "es": "MG-34",
+              "fr": "MG-34",
+              "ko": "MG-34"
             }
           }
         },
@@ -1981,6 +2041,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.att.mount_mauser.name",
+            "args": {},
+            "lines": {
+              "ru": "Планка Пикатинни для Mauser 98k",
+              "en": "Picatinny Rail for Mauser 98k",
+              "es": "Raíl Picatinny para Mauser 98k",
+              "fr": "Rail Picatinny pour Mauser 98k",
+              "ko": "마우저 98k용 피카티니 레일"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.m16a3.name",
             "args": {},
             "lines": {
@@ -2049,21 +2124,6 @@
               "es": "Guía RIS para escopeta",
               "fr": "Guide RIS pour fusil de chasse",
               "ko": "산탄총용 유도 RIS"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.mount_mauser.name",
-            "args": {},
-            "lines": {
-              "ru": "Планка Пикатинни для Mauser 98k",
-              "en": "Picatinny Rail for Mauser 98k",
-              "es": "Raíl Picatinny para Mauser 98k",
-              "fr": "Rail Picatinny pour Mauser 98k",
-              "ko": "마우저 98k용 피카티니 레일"
             }
           }
         },

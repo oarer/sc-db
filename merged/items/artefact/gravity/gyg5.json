@@ -10,7 +10,7 @@
       "en": "Shrimp",
       "es": "Gamba",
       "fr": "Crevette",
-      "ko": "가재비"
+      "ko": "새우"
     }
   },
   "color": "DEFAULT",
@@ -36,7 +36,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -264,6 +264,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": -0.5,
+          "max": -0.425,
+          "formatted": {
+            "value": {
+              "ru": "[-0,5%; -0,42%]",
+              "en": "[-0.5%; -0.42%]",
+              "es": "[-0,5 %; -0,42 %]",
+              "fr": "[-0,5%; -0,42%]",
+              "ko": "[-0.5%; -0.42%]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
@@ -299,7 +327,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 보호율"
+              "ko": "총탄 저항율"
             }
           },
           "min": 6.0350003,
@@ -324,10 +352,10 @@
             "args": {},
             "lines": {
               "ru": "Пси-излучение",
-              "en": "Psy-emissions",
+              "en": "Psyonics",
               "es": "Emisiones psy",
               "fr": "Émissions psys",
-              "ko": "정신파 방사물"
+              "ko": "정신파 에미션"
             }
           },
           "min": 1.0625,
@@ -361,7 +389,7 @@
           "en": "The reddish resilient streaks resembling muscle tissue and the periodic movements of the artifact evoke a strong association with certain arthropods. Perhaps this is why many stalkers feel a strong aversion to the Shrimp.\\n\\n According to scientists in the artifactology department of Research Institute 7, the structure of the artifact is in many ways similar to that of Prima, which supports those who group these formations together.",
           "es": "Las venas elásticas rojizas que recuerdan al tejido muscular y los movimientos periódicos del artefacto provocan asociaciones persistentes con algunos artrópodos. Al parecer, esta es la razón por la que muchos acechadores sienten una aversión persistente hacia Gamba.\\n\\n Según los científicos del Departamento de Artefactología del Instituto de Investigación 7, la estructura del artefacto es muy similar a la de Primigenia, lo que juega a favor de las personas que combinan estas formaciones en un solo grupo.",
           "fr": "Les stries rougeâtres et résilientes ressemblant à du tissu musculaire et les mouvements périodiques de l'artefact évoquent fortement certaines espèces d'arthropodes. Peut-être est-ce pourquoi de nombreux stalkers ressentent une forte aversion pour la Crevette.\\n\\n Selon les scientifiques du département d'artifactologie de l'Institut de Recherche 7, la structure de l'artefact est à bien des égards similaire à celle de la Prima, ce qui soutient ceux qui regroupent ces formations ensemble.",
-          "ko": "근육조직을 연상시키는 불그스름하고 탄력있는 줄무늬와 아티팩트의 주기적인 움직임은 절지동물을 강하게 연상시킨다. 아마도 이러한 이유로 많은 스토커들이 새우에 강렬한 거부감을 느끼는 것일 테다.\\n\\n 제7연구소의 유물학 부서 연구원들에 따르면, 아티팩트의 구조가 군락을 이루는 개체를 지탱하는 프리마의 그것과 매우 흡사하다."
+          "ko": "근육조직을 연상시키는 불그스름하고 탄력있는 줄무늬와 아티팩트의 주기적인 움직임은 절지동물을 강하게 연상시킨다. 아마도 이러한 이유로 많은 스토커들이 새우에 강렬한 거부감을 느끼는 것일 테다.\\n\\n 제 7 연구소의 유물학 부서 연구원들에 따르면, 아티팩트의 구조가 군락을 이루는 개체를 지탱하는 프리마의 그것과 매우 흡사하다."
         }
       }
     },

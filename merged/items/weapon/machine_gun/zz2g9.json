@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -6,
+          "value": -5.000001,
           "formatted": {
             "value": {
-              "ru": "-6%",
-              "en": "-6%",
-              "es": "-6 %",
-              "fr": "-6%",
-              "ko": "-6%"
+              "ru": "-5%",
+              "en": "-5%",
+              "es": "-5 %",
+              "fr": "-5%",
+              "ko": "-5%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            44.2,
-            44.536892,
-            44.87378,
-            45.210674,
-            45.54756,
-            46.55823,
-            47.06357,
-            47.568905,
-            48.074238,
-            48.57957,
-            50.06189,
-            50.803047,
-            51.54421,
-            52.28537,
-            53.026524,
-            55.25
+            45,
+            45.34299,
+            45.685974,
+            46.028965,
+            46.37195,
+            47.400913,
+            47.915394,
+            48.42988,
+            48.94436,
+            49.45884,
+            50.967983,
+            51.72256,
+            52.477135,
+            53.23171,
+            53.98628,
+            56.25
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -321,7 +321,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 180,
@@ -348,7 +348,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 650,
@@ -399,7 +399,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -426,7 +426,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -459,14 +459,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.4000001,
+          "value": 0.3499999,
           "formatted": {
             "value": {
-              "ru": "0,4°",
-              "en": "0.4°",
-              "es": "0,4°",
-              "fr": "0,4°",
-              "ko": "0.4°"
+              "ru": "0,35°",
+              "en": "0.35°",
+              "es": "0,35°",
+              "fr": "0,35°",
+              "ko": "0.35°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -693,10 +693,10 @@
             },
             "lines": {
               "ru": "Перегрев через 150 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 150 shots of continuous fire",
+              "en": "Overheats after 150 consecutive shots",
               "es": "Se sobrecalienta tras 150 disparos de fuego continuo",
               "fr": "Surchauffe après 150 coups en feu continu",
-              "ko": "연속된 발포로 150발 후 과열"
+              "ko": "150발 연속 발포 후 과열"
             }
           }
         }
@@ -736,10 +736,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 44.2,
-      "damageDecreaseStart": 15,
-      "endDamage": 32.1,
-      "damageDecreaseEnd": 60,
+      "startDamage": 45,
+      "damageDecreaseStart": 25,
+      "endDamage": 35.3,
+      "damageDecreaseEnd": 80,
       "maxDistance": 180
     },
     {

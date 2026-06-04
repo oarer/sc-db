@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -328,7 +328,7 @@
               "en": "TDI KRISS Vector",
               "es": "TDI KRISS Vector",
               "fr": "TDI KRISS Vector",
-              "ko": "TDI KRISS Vector"
+              "ko": "TDI KRISS 벡터"
             }
           }
         },
@@ -344,6 +344,21 @@
               "es": "Scorpion EVO III",
               "fr": "Scorpion EVO III",
               "ko": "스콜피온 EVO III"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mpx.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG MPX",
+              "en": "SIG MPX",
+              "es": "SIG MPX",
+              "fr": "SIG MPX",
+              "ko": "SIG MPX"
             }
           }
         },
@@ -531,21 +546,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.mpx.name",
-            "args": {},
-            "lines": {
-              "ru": "SIG MPX",
-              "en": "SIG MPX",
-              "es": "SIG MPX",
-              "fr": "SIG MPX",
-              "ko": "SIG MPX"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.aug9xs.name",
             "args": {},
             "lines": {
@@ -580,9 +580,9 @@
             "args": {},
             "lines": {
               "ru": "Steyr AUG 9mm",
-              "en": "Steyr AUG 9 mm",
-              "es": "Steyr AUG 9 mm",
-              "fr": "Steyr AUG 9 mm",
+              "en": "Steyr AUG 9mm",
+              "es": "Steyr AUG 9mm",
+              "fr": "Steyr AUG 9mm",
               "ko": "슈타이어 AUG 9mm"
             }
           }
@@ -655,10 +655,10 @@
             "args": {},
             "lines": {
               "ru": "СР-1-10",
-              "en": "SR-1-10mm",
-              "es": "SR-1 de 10 mm",
-              "fr": "SR-1-10 mm",
-              "ko": "SR-1-10mm"
+              "en": "SR-1-10",
+              "es": "SR-1-10",
+              "fr": "SR-1-10",
+              "ko": "SR-1-10"
             }
           }
         },
@@ -1014,11 +1014,11 @@
             "key": "item.wpn.vz68.name",
             "args": {},
             "lines": {
-              "ru": "Vz.68 Scorpion",
-              "en": "Vz.68 Škorpion",
-              "es": "Vz.68 Scorpion",
-              "fr": "Vz.68 Scorpion",
-              "ko": "Vz.68 스콜피온"
+              "ru": "Vz.68 Škorpion",
+              "en": "Vz.68 Scorpion",
+              "es": "Vz.68 Škorpion",
+              "fr": "Vz.68 Škorpion",
+              "ko": "Vz.68 Škorpion"
             }
           }
         },

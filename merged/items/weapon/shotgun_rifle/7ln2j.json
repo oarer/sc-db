@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -264,22 +264,22 @@
             }
           },
           "value": [
-            360,
-            362.74393,
-            365.4878,
-            368.23172,
-            370.9756,
-            379.2073,
-            383.32315,
-            387.43903,
-            391.55487,
-            395.67072,
-            407.74387,
-            413.7805,
-            419.81708,
-            425.85367,
-            431.89023,
-            450
+            288,
+            290.19513,
+            292.39023,
+            294.5854,
+            296.7805,
+            303.36584,
+            306.65854,
+            309.95123,
+            313.2439,
+            316.53656,
+            326.1951,
+            331.02438,
+            335.85367,
+            340.68295,
+            345.5122,
+            360
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -322,7 +322,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 125,
@@ -349,7 +349,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 60,
@@ -373,7 +373,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -593,14 +593,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.0"
+              "modifier": "1.25"
             },
             "lines": {
-              "ru": "Урон в голову: х1",
-              "en": "Headshot damage: x1",
-              "es": "Daño por disparo a la cabeza: x1",
-              "fr": "Dégât de tir à la tête : x1",
-              "ko": "헤드샷 피해: x1"
+              "ru": "Урон в голову: х1,25",
+              "en": "Headshot damage: x1.25",
+              "es": "Daño por disparo a la cabeza: x1,25",
+              "fr": "Dégât de tir à la tête : x1,25",
+              "ko": "헤드샷 피해: x1.25"
             }
           }
         },
@@ -718,9 +718,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 360,
+      "startDamage": 288,
       "damageDecreaseStart": 7,
-      "endDamage": 192,
+      "endDamage": 153.6,
       "damageDecreaseEnd": 36,
       "maxDistance": 125
     },

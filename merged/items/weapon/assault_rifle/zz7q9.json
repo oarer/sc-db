@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -264,22 +264,22 @@
             }
           },
           "value": [
-            38.8,
-            39.095734,
-            39.39146,
-            39.687195,
-            39.982925,
-            40.87012,
-            41.313717,
-            41.757317,
-            42.200912,
-            42.64451,
-            43.94573,
-            44.59634,
-            45.246952,
-            45.897564,
-            46.54817,
-            48.5
+            38.3,
+            38.591923,
+            38.88384,
+            39.175762,
+            39.46768,
+            40.343445,
+            40.781322,
+            41.219208,
+            41.65709,
+            42.094967,
+            43.379417,
+            44.021645,
+            44.66387,
+            45.3061,
+            45.948322,
+            47.875
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -322,7 +322,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 140,
@@ -349,7 +349,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 750,
@@ -400,7 +400,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -427,7 +427,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -460,14 +460,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.45000005,
+          "value": 0.39999998,
           "formatted": {
             "value": {
-              "ru": "0,45°",
-              "en": "0.45°",
-              "es": "0,45°",
-              "fr": "0,45°",
-              "ko": "0.45°"
+              "ru": "0,4°",
+              "en": "0.4°",
+              "es": "0,4°",
+              "fr": "0,4°",
+              "ko": "0.4°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -738,10 +738,10 @@
             },
             "lines": {
               "ru": "Перегрев через 51 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 51 shots of continuous fire",
+              "en": "Overheats after 51 consecutive shots",
               "es": "Se sobrecalienta tras 51 disparos de fuego continuo",
               "fr": "Surchauffe après 51 coups en feu continu",
-              "ko": "연속된 발포로 51발 후 과열"
+              "ko": "51발 연속 발포 후 과열"
             }
           }
         }
@@ -765,10 +765,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 38.8,
-      "damageDecreaseStart": 8,
-      "endDamage": 24.6,
-      "damageDecreaseEnd": 44,
+      "startDamage": 38.3,
+      "damageDecreaseStart": 14,
+      "endDamage": 27.1,
+      "damageDecreaseEnd": 64,
       "maxDistance": 140
     },
     {
@@ -783,7 +783,7 @@
         "args": {},
         "lines": {
           "ru": "В основе этой штурмовой винтовки калибра 9х39 лежит оружие, позаимствованное Черным Рынком у «Шепота». Весьма грозное оружие, которое достойно покажет себя в бою на средней дистанции.",
-          "en": "Based on the weapon that Black Market borrowed from the Murmur, this 9x39 assault rifle is a formidable weapon that excels in mid-range combat.",
+          "en": "Based on a gun that the Black Market obtained from the Murmur, this 9x39 mm assault rifle is a formidable weapon that excels in mid-range combat.",
           "es": "Este fusil de asalto 9x39 está basado en el arma prestada por el Mercado Negro a Susurro. Es un arma muy formidable que rendirá bien en combates a media distancia.",
           "fr": "Basé sur l'arme que le Marché Noir a emprunté au Murmure, ce fusil d'assaut chambré en 9x39 est une arme incroyable qui excelle en combat à moyenne distance.",
           "ko": "블랙 마켓이 속삭임으로부터 빌려온 무기를 기반으로 만든 9x39 돌격 소총이다. 중거리 전투에서 무시무시한 위력을 발휘한다."
