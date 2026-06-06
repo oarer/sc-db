@@ -432,21 +432,21 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Электрозащита",
-              "en": "Resistance to electricity",
-              "es": "Resistencia a la electricidad",
-              "fr": "Résistance à l'électricité"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
             }
           },
-          "min": 6.67,
-          "max": 8.1,
+          "min": 0.37,
+          "max": 0.45,
           "formatted": {
             "value": {
-              "en": "[6.67%; 8.1%]",
-              "ru": "[6.67%; 8.1%]"
+              "en": "[0.37%; 0.45%]",
+              "ru": "[0.37%; 0.45%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

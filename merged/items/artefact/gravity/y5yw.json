@@ -469,12 +469,12 @@
               "fr": "Efficacité des soins"
             }
           },
-          "min": 3.21,
-          "max": 3.9,
+          "min": 2.805,
+          "max": 3.3,
           "formatted": {
             "value": {
-              "en": "[3.21%; 3.9%]",
-              "ru": "[3.21%; 3.9%]"
+              "en": "[2.805%; 3.3%]",
+              "ru": "[2.805%; 3.3%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -508,21 +508,21 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
             "args": {},
             "lines": {
-              "ru": "Переносимый вес",
-              "en": "Carry weight",
-              "es": "Peso de carga",
-              "fr": "Poids maximum supporté"
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
             }
           },
-          "min": 8.33,
-          "max": 9.8,
+          "min": 0.62,
+          "max": 0.75,
           "formatted": {
             "value": {
-              "en": "[8.33; 9.8]",
-              "ru": "[8.33; 9.8]"
+              "en": "[0.62%; 0.75%]",
+              "ru": "[0.62%; 0.75%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

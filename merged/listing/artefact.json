@@ -2429,21 +2429,21 @@
             "type": "range",
             "name": {
               "type": "translation",
-              "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+              "key": "stalker.artefact_properties.factor.speed_modifier",
               "args": {},
               "lines": {
-                "ru": "Электрозащита",
-                "en": "Resistance to electricity",
-                "es": "Resistencia a la electricidad",
-                "fr": "Résistance à l'électricité"
+                "ru": "Скорость передвижения",
+                "en": "Movement speed",
+                "es": "Velocidad de movimiento",
+                "fr": "Vitesse de déplacement"
               }
             },
-            "min": 6.67,
-            "max": 8.1,
+            "min": 0.37,
+            "max": 0.45,
             "formatted": {
               "value": {
-                "en": "[6.67%; 8.1%]",
-                "ru": "[6.67%; 8.1%]"
+                "en": "[0.37%; 0.45%]",
+                "ru": "[0.37%; 0.45%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -5606,12 +5606,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.57,
-            "max": 0.7,
+            "min": 0.51,
+            "max": 0.6,
             "formatted": {
               "value": {
-                "en": "[0.57%; 0.7%]",
-                "ru": "[0.57%; 0.7%]"
+                "en": "[0.51%; 0.6%]",
+                "ru": "[0.51%; 0.6%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -6112,12 +6112,12 @@
                 "fr": "Protection contre les saignements"
               }
             },
-            "min": 5.85,
-            "max": 7.1,
+            "min": 3.54,
+            "max": 4.3,
             "formatted": {
               "value": {
-                "en": "[5.85%; 7.1%]",
-                "ru": "[5.85%; 7.1%]"
+                "en": "[3.54%; 4.3%]",
+                "ru": "[3.54%; 4.3%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -8080,12 +8080,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 2.295,
-            "max": 2.7,
+            "min": 1.955,
+            "max": 2.3,
             "formatted": {
               "value": {
-                "en": "[2.295%; 2.7%]",
-                "ru": "[2.295%; 2.7%]"
+                "en": "[1.955%; 2.3%]",
+                "ru": "[1.955%; 2.3%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -8988,12 +8988,12 @@
                 "fr": "Résistance aux balles"
               }
             },
-            "min": 2.295,
-            "max": 2.7,
+            "min": 1.615,
+            "max": 1.9,
             "formatted": {
               "value": {
-                "en": "[2.295; 2.7]",
-                "ru": "[2.295; 2.7]"
+                "en": "[1.615; 1.9]",
+                "ru": "[1.615; 1.9]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -9036,12 +9036,12 @@
                 "fr": "Poids maximum supporté"
               }
             },
-            "min": 1.785,
-            "max": 2.1,
+            "min": 2.465,
+            "max": 2.9,
             "formatted": {
               "value": {
-                "en": "[1.785; 2.1]",
-                "ru": "[1.785; 2.1]"
+                "en": "[2.465; 2.9]",
+                "ru": "[2.465; 2.9]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -9466,12 +9466,12 @@
                 "fr": "Résistance aux balles"
               }
             },
-            "min": 2.04,
-            "max": 2.4,
+            "min": 1.4,
+            "max": 1.7,
             "formatted": {
               "value": {
-                "en": "[2.04; 2.4]",
-                "ru": "[2.04; 2.4]"
+                "en": "[1.4; 1.7]",
+                "ru": "[1.4; 1.7]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -9490,12 +9490,12 @@
                 "fr": "Endurance"
               }
             },
-            "min": 2.21,
-            "max": 2.6,
+            "min": 3.05,
+            "max": 3.7,
             "formatted": {
               "value": {
-                "en": "[2.21%; 2.6%]",
-                "ru": "[2.21%; 2.6%]"
+                "en": "[3.05%; 3.7%]",
+                "ru": "[3.05%; 3.7%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -9514,12 +9514,12 @@
                 "fr": "Protection contre les saignements"
               }
             },
-            "min": 3.91,
-            "max": 4.6,
+            "min": 1.72,
+            "max": 2.1,
             "formatted": {
               "value": {
-                "en": "[3.91%; 4.6%]",
-                "ru": "[3.91%; 4.6%]"
+                "en": "[1.72%; 2.1%]",
+                "ru": "[1.72%; 2.1%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -10470,12 +10470,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 1.15,
-            "max": 1.4,
+            "min": 0.9,
+            "max": 1.1,
             "formatted": {
               "value": {
-                "en": "[1.15%; 1.4%]",
-                "ru": "[1.15%; 1.4%]"
+                "en": "[0.9%; 1.1%]",
+                "ru": "[0.9%; 1.1%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -11406,12 +11406,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 3.21,
-            "max": 3.9,
+            "min": 2.805,
+            "max": 3.3,
             "formatted": {
               "value": {
-                "en": "[3.21%; 3.9%]",
-                "ru": "[3.21%; 3.9%]"
+                "en": "[2.805%; 3.3%]",
+                "ru": "[2.805%; 3.3%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -11445,21 +11445,21 @@
             "type": "range",
             "name": {
               "type": "translation",
-              "key": "stalker.artefact_properties.factor.max_weight_bonus",
+              "key": "stalker.artefact_properties.factor.speed_modifier",
               "args": {},
               "lines": {
-                "ru": "Переносимый вес",
-                "en": "Carry weight",
-                "es": "Peso de carga",
-                "fr": "Poids maximum supporté"
+                "ru": "Скорость передвижения",
+                "en": "Movement speed",
+                "es": "Velocidad de movimiento",
+                "fr": "Vitesse de déplacement"
               }
             },
-            "min": 8.33,
-            "max": 9.8,
+            "min": 0.62,
+            "max": 0.75,
             "formatted": {
               "value": {
-                "en": "[8.33; 9.8]",
-                "ru": "[8.33; 9.8]"
+                "en": "[0.62%; 0.75%]",
+                "ru": "[0.62%; 0.75%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -12362,12 +12362,12 @@
                 "fr": "Saignement"
               }
             },
-            "min": -0.4,
-            "max": -0.34,
+            "min": -0.2,
+            "max": -0.17,
             "formatted": {
               "value": {
-                "en": "[-0.4; -0.34]",
-                "ru": "[-0.4; -0.34]"
+                "en": "[-0.2; -0.17]",
+                "ru": "[-0.2; -0.17]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -12386,12 +12386,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 1.15,
-            "max": 1.4,
+            "min": 0.91,
+            "max": 1.1,
             "formatted": {
               "value": {
-                "en": "[1.15%; 1.4%]",
-                "ru": "[1.15%; 1.4%]"
+                "en": "[0.91%; 1.1%]",
+                "ru": "[0.91%; 1.1%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -12410,12 +12410,12 @@
                 "fr": "Vitalité"
               }
             },
-            "min": 0.255,
-            "max": 0.3,
+            "min": 0.425,
+            "max": 0.5,
             "formatted": {
               "value": {
-                "en": "[0.255%; 0.3%]",
-                "ru": "[0.255%; 0.3%]"
+                "en": "[0.425%; 0.5%]",
+                "ru": "[0.425%; 0.5%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -13740,12 +13740,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 1.07,
-            "max": 1.3,
+            "min": 0.82,
+            "max": 1,
             "formatted": {
               "value": {
-                "en": "[1.07%; 1.3%]",
-                "ru": "[1.07%; 1.3%]"
+                "en": "[0.82%; 1%]",
+                "ru": "[0.82%; 1%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -13788,12 +13788,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 1.36,
-            "max": 1.6,
+            "min": 1.15,
+            "max": 1.4,
             "formatted": {
               "value": {
-                "en": "[1.36%; 1.6%]",
-                "ru": "[1.36%; 1.6%]"
+                "en": "[1.15%; 1.4%]",
+                "ru": "[1.15%; 1.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -15672,12 +15672,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 1.15,
-            "max": 1.4,
+            "min": 1.02,
+            "max": 1.2,
             "formatted": {
               "value": {
-                "en": "[1.15%; 1.4%]",
-                "ru": "[1.15%; 1.4%]"
+                "en": "[1.02%; 1.2%]",
+                "ru": "[1.02%; 1.2%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -16126,12 +16126,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.58,
-            "max": 0.7,
+            "min": 0.425,
+            "max": 0.5,
             "formatted": {
               "value": {
-                "en": "[0.58%; 0.7%]",
-                "ru": "[0.58%; 0.7%]"
+                "en": "[0.425%; 0.5%]",
+                "ru": "[0.425%; 0.5%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -16150,12 +16150,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 1.48,
-            "max": 1.8,
+            "min": 1.36,
+            "max": 1.6,
             "formatted": {
               "value": {
-                "en": "[1.48%; 1.8%]",
-                "ru": "[1.48%; 1.8%]"
+                "en": "[1.36%; 1.6%]",
+                "ru": "[1.36%; 1.6%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -17118,7 +17118,7 @@
             "en": "Many stalkers believe that the anomalous formation literally appears due to some fruit falling into Blender, but the occurrence of the artifact even in anomalies remote from any vegetation significantly undermines this hypothesis.\\n\\n The artifactology department of the Research Institute 7 believes that the emergence of the Embryo may result from an unspecified impact of the anomaly on endemic microorganisms found in the soil or atmosphere of the CEZ.",
             "es": "Muchos acechadores creen que la formación anómala aparece literalmente como resultado de la caída de algún producto en Remolino, pero la aparición del artefacto incluso en anomalías alejadas de cualquier vegetación desmiente significativamente tal hipótesis.\\n\\n El Departamento de Artifactología del Instituto de Investigación 7 cree que la aparición de Embrión puede deberse al efecto indeterminado de la anomalía sobre los microorganismos endémicos del suelo o la atmósfera de la Zona de exclusión de Chernóbil.",
             "fr": "De nombreux stalkers pensent que la formation anormale apparaît littéralement en raison de la chute d'un fruit dans le Tourbillion, mais l'apparition de l'artefact même dans des anomalies éloignées de toute végétation remet sérieusement en question cette hypothèse.\\n\\nLe département d'artéfactologie de l'Institut de Recherche 7 estime que l'émergence de l'Embryon pourrait résulter d'un impact non spécifié de l'anomalie sur des micro-organismes endémiques présents dans le sol ou l'atmosphère de la Zone d'exclusion de Tchernobyl.",
-            "ko": "많은 스토커들은 해당 이상 구조물이 몇몇 열매가 블렌더로 떨어지면서 생겨났다고 믿는다. 하지만 식물이 자라는 곳과 멀리 떨어진 이상현상 속에서도 이 아티팩트가 발견되기 때문에, 그 가설의 신빙성은 낮다.\\n\\n 제 7 연구소의 유물학부는 체르노빌 제외 구역의 토양이나 대기 중에서 발견된 토착 미생물에 대한 불특정한 이상현상 효과로 인해 엠브리오가 형성된 것이라고 보고 있다."
+            "ko": "많은 스토커들은 해당 이상 구조물이 몇몇 열매가 블렌더로 떨어지면서 생겨났다고 믿는다. 하지만 식물이 자라는 곳과 멀리 떨어진 이상현상 속에서도 이 아티팩트가 발견되기 때문에, 그 가설의 신빙성은 낮다.\\n\\n 제 7 연구소의 유물학부는 체르노빌 금지 구역의 토양이나 대기 중에서 발견된 토착 미생물에 대한 불특정한 이상현상 효과로 인해 엠브리오가 형성된 것이라고 보고 있다."
           }
         }
       },
@@ -19669,11 +19669,11 @@
               }
             },
             "min": 0.41,
-            "max": 0.5,
+            "max": 0.4,
             "formatted": {
               "value": {
-                "en": "[0.41%; 0.5%]",
-                "ru": "[0.41%; 0.5%]"
+                "en": "[0.41%; 0.4%]",
+                "ru": "[0.41%; 0.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -20146,12 +20146,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 3.54,
-            "max": 4.3,
+            "min": 3.05,
+            "max": 3.7,
             "formatted": {
               "value": {
-                "en": "[3.54%; 4.3%]",
-                "ru": "[3.54%; 4.3%]"
+                "en": "[3.05%; 3.7%]",
+                "ru": "[3.05%; 3.7%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -21182,12 +21182,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 4.335,
-            "max": 5.1,
+            "min": 3.74,
+            "max": 4.4,
             "formatted": {
               "value": {
-                "en": "[4.335%; 5.1%]",
-                "ru": "[4.335%; 5.1%]"
+                "en": "[3.74%; 4.4%]",
+                "ru": "[3.74%; 4.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -21688,12 +21688,12 @@
                 "fr": "Stabilité"
               }
             },
-            "min": 6.67,
-            "max": 8.1,
+            "min": 5.35,
+            "max": 6.5,
             "formatted": {
               "value": {
-                "en": "[6.67%; 8.1%]",
-                "ru": "[6.67%; 8.1%]"
+                "en": "[5.35%; 6.5%]",
+                "ru": "[5.35%; 6.5%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -24700,12 +24700,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 4.94,
-            "max": 6,
+            "min": 4.2,
+            "max": 5.1,
             "formatted": {
               "value": {
-                "en": "[4.94%; 6%]",
-                "ru": "[4.94%; 6%]"
+                "en": "[4.2%; 5.1%]",
+                "ru": "[4.2%; 5.1%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -25154,12 +25154,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.595,
-            "max": 0.7,
+            "min": 0.51,
+            "max": 0.6,
             "formatted": {
               "value": {
-                "en": "[0.595%; 0.7%]",
-                "ru": "[0.595%; 0.7%]"
+                "en": "[0.51%; 0.6%]",
+                "ru": "[0.51%; 0.6%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -25178,12 +25178,12 @@
                 "fr": "Protection contre les saignements"
               }
             },
-            "min": 5.27,
-            "max": 6.4,
+            "min": 3.315,
+            "max": 3.9,
             "formatted": {
               "value": {
-                "en": "[5.27%; 6.4%]",
-                "ru": "[5.27%; 6.4%]"
+                "en": "[3.315%; 3.9%]",
+                "ru": "[3.315%; 3.9%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -25736,12 +25736,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 1.48,
-            "max": 1.8,
+            "min": 1.36,
+            "max": 1.6,
             "formatted": {
               "value": {
-                "en": "[1.48%; 1.8%]",
-                "ru": "[1.48%; 1.8%]"
+                "en": "[1.36%; 1.6%]",
+                "ru": "[1.36%; 1.6%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -26214,12 +26214,12 @@
                 "fr": "Stabilité"
               }
             },
-            "min": 1.73,
-            "max": 2.1,
+            "min": 1.4,
+            "max": 1.7,
             "formatted": {
               "value": {
-                "en": "[1.73%; 2.1%]",
-                "ru": "[1.73%; 2.1%]"
+                "en": "[1.4%; 1.7%]",
+                "ru": "[1.4%; 1.7%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -27174,12 +27174,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.595,
-            "max": 0.7,
+            "min": 0.425,
+            "max": 0.5,
             "formatted": {
               "value": {
-                "en": "[0.595%; 0.7%]",
-                "ru": "[0.595%; 0.7%]"
+                "en": "[0.425%; 0.5%]",
+                "ru": "[0.425%; 0.5%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -27198,12 +27198,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 2.89,
-            "max": 3.4,
+            "min": 2.465,
+            "max": 2.9,
             "formatted": {
               "value": {
-                "en": "[2.89%; 3.4%]",
-                "ru": "[2.89%; 3.4%]"
+                "en": "[2.465%; 2.9%]",
+                "ru": "[2.465%; 2.9%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -27676,12 +27676,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.34,
-            "max": 0.4,
+            "min": 0.24,
+            "max": 0.3,
             "formatted": {
               "value": {
-                "en": "[0.34%; 0.4%]",
-                "ru": "[0.34%; 0.4%]"
+                "en": "[0.24%; 0.3%]",
+                "ru": "[0.24%; 0.3%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -28182,12 +28182,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 1.275,
-            "max": 1.5,
+            "min": 1.02,
+            "max": 1.2,
             "formatted": {
               "value": {
-                "en": "[1.275%; 1.5%]",
-                "ru": "[1.275%; 1.5%]"
+                "en": "[1.02%; 1.2%]",
+                "ru": "[1.02%; 1.2%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -31674,12 +31674,12 @@
                 "fr": "Protection contre les saignements"
               }
             },
-            "min": 4.335,
-            "max": 5.1,
+            "min": 1.955,
+            "max": 2.3,
             "formatted": {
               "value": {
-                "en": "[4.335%; 5.1%]",
-                "ru": "[4.335%; 5.1%]"
+                "en": "[1.955%; 2.3%]",
+                "ru": "[1.955%; 2.3%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -31722,12 +31722,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.425,
-            "max": 0.5,
+            "min": 0.34,
+            "max": 0.4,
             "formatted": {
               "value": {
-                "en": "[0.425%; 0.5%]",
-                "ru": "[0.425%; 0.5%]"
+                "en": "[0.34%; 0.4%]",
+                "ru": "[0.34%; 0.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -32204,12 +32204,12 @@
                 "fr": "Protection contre les saignements"
               }
             },
-            "min": 1.615,
-            "max": 1.9,
+            "min": 0.765,
+            "max": 0.9,
             "formatted": {
               "value": {
-                "en": "[1.615%; 1.9%]",
-                "ru": "[1.615%; 1.9%]"
+                "en": "[0.765%; 0.9%]",
+                "ru": "[0.765%; 0.9%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -32228,12 +32228,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 2.14,
-            "max": 2.6,
+            "min": 1.87,
+            "max": 2.2,
             "formatted": {
               "value": {
-                "en": "[2.14%; 2.6%]",
-                "ru": "[2.14%; 2.6%]"
+                "en": "[1.87%; 2.2%]",
+                "ru": "[1.87%; 2.2%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -34299,12 +34299,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.425,
-            "max": 0.5,
+            "min": 0.34,
+            "max": 0.4,
             "formatted": {
               "value": {
-                "en": "[0.425%; 0.5%]",
-                "ru": "[0.425%; 0.5%]"
+                "en": "[0.34%; 0.4%]",
+                "ru": "[0.34%; 0.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -34753,12 +34753,12 @@
                 "fr": "Protection contre les lacérations"
               }
             },
-            "min": 3.37,
-            "max": 4.1,
+            "min": 10.37,
+            "max": 12.2,
             "formatted": {
               "value": {
-                "en": "[3.37; 4.1]",
-                "ru": "[3.37; 4.1]"
+                "en": "[10.37; 12.2]",
+                "ru": "[10.37; 12.2]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -34777,12 +34777,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.765,
-            "max": 0.9,
+            "min": 0.58,
+            "max": 0.7,
             "formatted": {
               "value": {
-                "en": "[0.765%; 0.9%]",
-                "ru": "[0.765%; 0.9%]"
+                "en": "[0.58%; 0.7%]",
+                "ru": "[0.58%; 0.7%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -34801,12 +34801,12 @@
                 "fr": "Vitalité"
               }
             },
-            "min": 1.02,
-            "max": 1.2,
+            "min": 0.34,
+            "max": 0.4,
             "formatted": {
               "value": {
-                "en": "[1.02%; 1.2%]",
-                "ru": "[1.02%; 1.2%]"
+                "en": "[0.34%; 0.4%]",
+                "ru": "[0.34%; 0.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -35811,12 +35811,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.34,
-            "max": 0.4,
+            "min": 0.24,
+            "max": 0.3,
             "formatted": {
               "value": {
-                "en": "[0.34%; 0.4%]",
-                "ru": "[0.34%; 0.4%]"
+                "en": "[0.24%; 0.3%]",
+                "ru": "[0.24%; 0.3%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -36265,12 +36265,12 @@
                 "fr": "Protection contre les saignements"
               }
             },
-            "min": 4.845,
-            "max": 5.7,
+            "min": 2.14,
+            "max": 2.6,
             "formatted": {
               "value": {
-                "en": "[4.845%; 5.7%]",
-                "ru": "[4.845%; 5.7%]"
+                "en": "[2.14%; 2.6%]",
+                "ru": "[2.14%; 2.6%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -36289,12 +36289,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.58,
-            "max": 0.7,
+            "min": 0.425,
+            "max": 0.5,
             "formatted": {
               "value": {
-                "en": "[0.58%; 0.7%]",
-                "ru": "[0.58%; 0.7%]"
+                "en": "[0.425%; 0.5%]",
+                "ru": "[0.425%; 0.5%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -36715,12 +36715,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 1.32,
-            "max": 1.6,
+            "min": 0.99,
+            "max": 1.2,
             "formatted": {
               "value": {
-                "en": "[1.32%; 1.6%]",
-                "ru": "[1.32%; 1.6%]"
+                "en": "[0.99%; 1.2%]",
+                "ru": "[0.99%; 1.2%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -37751,12 +37751,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 1.48,
-            "max": 1.8,
+            "min": 1.36,
+            "max": 1.6,
             "formatted": {
               "value": {
-                "en": "[1.48%; 1.8%]",
-                "ru": "[1.48%; 1.8%]"
+                "en": "[1.36%; 1.6%]",
+                "ru": "[1.36%; 1.6%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -38687,12 +38687,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 1.615,
-            "max": 1.9,
+            "min": 1.15,
+            "max": 1.4,
             "formatted": {
               "value": {
-                "en": "[1.615%; 1.9%]",
-                "ru": "[1.615%; 1.9%]"
+                "en": "[1.15%; 1.4%]",
+                "ru": "[1.15%; 1.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -39747,12 +39747,12 @@
                 "fr": "Stabilité"
               }
             },
-            "min": 2.975,
-            "max": 3.5,
+            "min": 2.31,
+            "max": 2.8,
             "formatted": {
               "value": {
-                "en": "[2.975%; 3.5%]",
-                "ru": "[2.975%; 3.5%]"
+                "en": "[2.31%; 2.8%]",
+                "ru": "[2.31%; 2.8%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -41211,12 +41211,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 2.89,
-            "max": 3.4,
+            "min": 2.465,
+            "max": 2.9,
             "formatted": {
               "value": {
-                "en": "[2.89%; 3.4%]",
-                "ru": "[2.89%; 3.4%]"
+                "en": "[2.465%; 2.9%]",
+                "ru": "[2.465%; 2.9%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -41689,12 +41689,12 @@
                 "fr": "Endurance"
               }
             },
-            "min": 5.11,
-            "max": 6.2,
+            "min": 3.62,
+            "max": 4.4,
             "formatted": {
               "value": {
-                "en": "[5.11%; 6.2%]",
-                "ru": "[5.11%; 6.2%]"
+                "en": "[3.62%; 4.4%]",
+                "ru": "[3.62%; 4.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -41713,12 +41713,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 2.04,
-            "max": 2.4,
+            "min": 2.39,
+            "max": 2.9,
             "formatted": {
               "value": {
-                "en": "[2.04%; 2.4%]",
-                "ru": "[2.04%; 2.4%]"
+                "en": "[2.39%; 2.9%]",
+                "ru": "[2.39%; 2.9%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -42171,12 +42171,12 @@
                 "fr": "Vitalité"
               }
             },
-            "min": 0.33,
+            "min": 0.32,
             "max": 0.4,
             "formatted": {
               "value": {
-                "en": "[0.33%; 0.4%]",
-                "ru": "[0.33%; 0.4%]"
+                "en": "[0.32%; 0.4%]",
+                "ru": "[0.32%; 0.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -42195,12 +42195,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 1.615,
-            "max": 1.9,
+            "min": 1.15,
+            "max": 1.4,
             "formatted": {
               "value": {
-                "en": "[1.615%; 1.9%]",
-                "ru": "[1.615%; 1.9%]"
+                "en": "[1.15%; 1.4%]",
+                "ru": "[1.15%; 1.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -42697,12 +42697,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.765,
-            "max": 0.9,
+            "min": 0.58,
+            "max": 0.7,
             "formatted": {
               "value": {
-                "en": "[0.765%; 0.9%]",
-                "ru": "[0.765%; 0.9%]"
+                "en": "[0.58%; 0.7%]",
+                "ru": "[0.58%; 0.7%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -43159,7 +43159,7 @@
             "en": "Despite its stone base and solid horn-like tissue growths, it has a completely organic origin, as its progenitor is Snake Eye, found in the CEZ.\\n\\n Essentially, it represents a distorted version of some organism feeding on bacterial and toxic environments.\\n\\n It releases a polyhormonal composition into the carrier's blood, fully compatible with the body. When exposed to high temperatures, the composition loses its stability.\\n\\n An increased background of accompanying neurotransmitters slightly lowers neuronal resistance.",
             "es": "A pesar de su base de piedra y sus duras excrecencias córneas, es de origen totalmente orgánico, ya que su progenitor es Ojo de serpiente que se encuentra en la Zona de exclusión de Chernóbil.\\n\\n Es esencialmente una versión distorsionada de algún tipo de organismo que se alimenta de un entorno bacteriano y tóxico.\\n\\n Libera un compuesto polihormonal en el torrente sanguíneo del huésped que es totalmente compatible con el organismo. Cuando se expone a altas temperaturas, el compuesto pierde su estabilidad.\\n\\n El aumento del fondo de neurotransmisores asociados disminuye ligeramente la resistencia neuronal.",
             "fr": "Bien qu'elle ait une base rocheuse et un tissu corné dur pour ses excroissances, elle est d'origine entièrement organique, car son parent est l'Œil de serpent, que l'on trouve dans la Zone d'exclusion.\\n\\nEn essence, il s'agit d'une version déformée d'un organisme se nourrissant d'environnements bactériens et toxiques.\\n\\nElle libère dans le sang du porteur une composition polihormonale entièrement compatible avec l'organisme. Sous l'effet de températures élevées, cette composition perd sa stabilité.\\n\\nUn fond accru de neurotransmetteurs associés réduit légèrement la résistance neuronale.",
-            "ko": "돌로 이루어진 기반 조직과 단단한 뿔 조직을 가지고 있지만, 완전한 유기체의 기원을 가지고 있다. 선조 아티팩트가 체르노빌 불입 구역에서 발견되는 뱀눈이기 때문이다.\\n\\n 본질적으로 박테리아와 독성 환경에서 번성하는 유기체가 왜곡된 형태로 나타난 것이다.\\n\\n이 아티팩트는 숙주의 혈류로 다수의 호르몬 복합물을 방출하며, 이는 인체와 완벽히 호환된다. 다만 고온에 노출될 경우 해당 복합물의 안정성은 저하된다.\\n\\n 이에 동반하여 분비되는 추가 신경전달물질 수치로 인해, 신경 저항성이 다소 낮아진다."
+            "ko": "돌로 이루어진 기반 조직과 단단한 뿔 조직을 가지고 있지만, 완전한 유기체의 기원을 가지고 있다. 선조 아티팩트가 체르노빌 금지 구역에서 발견되는 뱀눈이기 때문이다.\\n\\n 본질적으로 박테리아와 독성 환경에서 번성하는 유기체가 왜곡된 형태로 나타난 것이다.\\n\\n이 아티팩트는 숙주의 혈류로 다수의 호르몬 복합물을 방출하며, 이는 인체와 완벽히 호환된다. 다만 고온에 노출될 경우 해당 복합물의 안정성은 저하된다.\\n\\n 이에 동반하여 분비되는 추가 신경전달물질 수치로 인해, 신경 저항성이 다소 낮아진다."
           }
         }
       },
@@ -43737,12 +43737,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 1.89,
-            "max": 2.3,
+            "min": 1.48,
+            "max": 1.8,
             "formatted": {
               "value": {
-                "en": "[1.89%; 2.3%]",
-                "ru": "[1.89%; 2.3%]"
+                "en": "[1.48%; 1.8%]",
+                "ru": "[1.48%; 1.8%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -44665,12 +44665,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.82,
-            "max": 1,
+            "min": 0.68,
+            "max": 0.8,
             "formatted": {
               "value": {
-                "en": "[0.82%; 1%]",
-                "ru": "[0.82%; 1%]"
+                "en": "[0.68%; 0.8%]",
+                "ru": "[0.68%; 0.8%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -45119,12 +45119,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.82,
-            "max": 1,
+            "min": 0.68,
+            "max": 0.8,
             "formatted": {
               "value": {
-                "en": "[0.82%; 1%]",
-                "ru": "[0.82%; 1%]"
+                "en": "[0.68%; 0.8%]",
+                "ru": "[0.68%; 0.8%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -46665,12 +46665,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 1.56,
-            "max": 1.9,
+            "min": 1.15,
+            "max": 1.4,
             "formatted": {
               "value": {
-                "en": "[1.56%; 1.9%]",
-                "ru": "[1.56%; 1.9%]"
+                "en": "[1.15%; 1.4%]",
+                "ru": "[1.15%; 1.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -47095,7 +47095,7 @@
             "en": "An object consisting of organic growths on the terminal side and a completely solid body base. Its appearance clearly indicates that the basic structure is inherited from Lard artifact. The material has the properties of both the crystalline growths of the Inside Out and the anomalous structures of the CEZ.\\n\\n It can absorb excess heat, causing light radiation that positively affects cell division.\\n\\n Upon contact with a high-voltage electromagnetic field, it forms a field that destroys cell membranes.",
             "es": "Un objeto formado por crecimientos orgánicos de la parte final y una base de cuerpo totalmente macizo. Por su aspecto, podemos afirmar con seguridad que la estructura de la base es heredada del artefacto Manteca. El material tiene las propiedades tanto de los crecimientos cristalinos del Reverso como de las estructuras anómalas de la Zona de exclusión de Chernóbil.\\n\\n Es capaz de absorber el exceso de calor, provocando una radiación luminosa, que tiene un efecto positivo en la división celular.\\n\\n En contacto con un campo electromagnético de alto voltaje, forma un campo que destruye las membranas celulares.",
             "fr": "Objet composé d'excroissances organiques à l'extrémité et d'une base corporelle entièrement solide. Son apparence indique clairement que sa structure de base est héritée de l'artefact Lard. Le matériau possède à la fois les propriétés des excroissances cristallines de l'Envers et des structures anormales de la Zone d'exclusion.\\n\\nIl est capable d'absorber l'excès de chaleur, émettant une faible radiation qui favorise la division cellulaire.\\n\\nAu contact d'un champ électromagnétique à haute tension, il génère un champ destructeur pour les membranes cellulaires.",
-            "ko": "끝부분에 유기적 돌기가 자라난 형태로, 완전히 단단한 기반 몸통을 가진 아티팩트다. 외형으로 보아 기본 구조가 아티팩트 라드에서 유래되었다고 명확히 단정할 수 있다. 구성 물질은 뒤집힌 세계에서 특징적으로 발견되는 결정성 돌기와 체르노빌 불입 구역의 이상 구조물의 특성이 모두 나타나 있다.\\n\\n이 아티팩트는 초과량 열을 흡수하며, 그 과정에서 세포 분열에 긍정적인 영향을 주는 미약한 방사선을 방출한다.\\n\\n그러나 고전압 전자기장과 접촉할 경우, 세포막을 파괴하는 장을 생성한다."
+            "ko": "끝부분에 유기적 돌기가 자라난 형태로, 완전히 단단한 기반 몸통을 가진 아티팩트다. 외형으로 보아 기본 구조가 아티팩트 라드에서 유래되었다고 명확히 단정할 수 있다. 구성 물질은 뒤집힌 세계에서 특징적으로 발견되는 결정성 돌기와 체르노빌 금지 구역의 이상 구조물의 특성이 모두 나타나 있다.\\n\\n이 아티팩트는 초과량 열을 흡수하며, 그 과정에서 세포 분열에 긍정적인 영향을 주는 미약한 방사선을 방출한다.\\n\\n그러나 고전압 전자기장과 접촉할 경우, 세포막을 파괴하는 장을 생성한다."
           }
         }
       },
@@ -47119,12 +47119,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.51,
-            "max": 0.6,
+            "min": 0.41,
+            "max": 0.5,
             "formatted": {
               "value": {
-                "en": "[0.51%; 0.6%]",
-                "ru": "[0.51%; 0.6%]"
+                "en": "[0.41%; 0.5%]",
+                "ru": "[0.41%; 0.5%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -47143,12 +47143,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 2.89,
-            "max": 3.4,
+            "min": 2.465,
+            "max": 2.9,
             "formatted": {
               "value": {
-                "en": "[2.89%; 3.4%]",
-                "ru": "[2.89%; 3.4%]"
+                "en": "[2.465%; 2.9%]",
+                "ru": "[2.465%; 2.9%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -47617,12 +47617,12 @@
                 "fr": "Protection contre les saignements"
               }
             },
-            "min": 9.69,
-            "max": 11.4,
+            "min": 4.335,
+            "max": 5.1,
             "formatted": {
               "value": {
-                "en": "[9.69%; 11.4%]",
-                "ru": "[9.69%; 11.4%]"
+                "en": "[4.335%; 5.1%]",
+                "ru": "[4.335%; 5.1%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -48517,12 +48517,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 1.89,
-            "max": 2.3,
+            "min": 1.48,
+            "max": 1.8,
             "formatted": {
               "value": {
-                "en": "[1.89%; 2.3%]",
-                "ru": "[1.89%; 2.3%]"
+                "en": "[1.48%; 1.8%]",
+                "ru": "[1.48%; 1.8%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -49096,12 +49096,12 @@
                 "fr": "Protection contre les saignements"
               }
             },
-            "min": 4,
-            "max": 7.6,
+            "min": 2.8,
+            "max": 3.4,
             "formatted": {
               "value": {
-                "en": "[4%; 7.6%]",
-                "ru": "[4%; 7.6%]"
+                "en": "[2.8%; 3.4%]",
+                "ru": "[2.8%; 3.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -49288,12 +49288,12 @@
                 "fr": "Efficacité des soins"
               }
             },
-            "min": 6.12,
+            "min": 5.93,
             "max": 7.2,
             "formatted": {
               "value": {
-                "en": "[6.12%; 7.2%]",
-                "ru": "[6.12%; 7.2%]"
+                "en": "[5.93%; 7.2%]",
+                "ru": "[5.93%; 7.2%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -49336,12 +49336,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 1.615,
-            "max": 1.9,
+            "min": 1.15,
+            "max": 1.4,
             "formatted": {
               "value": {
-                "en": "[1.615%; 1.9%]",
-                "ru": "[1.615%; 1.9%]"
+                "en": "[1.15%; 1.4%]",
+                "ru": "[1.15%; 1.4%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -50292,12 +50292,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 1.24,
-            "max": 1.5,
+            "min": 0.91,
+            "max": 1.1,
             "formatted": {
               "value": {
-                "en": "[1.24%; 1.5%]",
-                "ru": "[1.24%; 1.5%]"
+                "en": "[0.91%; 1.1%]",
+                "ru": "[0.91%; 1.1%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -50742,12 +50742,12 @@
                 "fr": "Régénération de la santé"
               }
             },
-            "min": 0.85,
-            "max": 1,
+            "min": 0.595,
+            "max": 0.7,
             "formatted": {
               "value": {
-                "en": "[0.85%; 1%]",
-                "ru": "[0.85%; 1%]"
+                "en": "[0.595%; 0.7%]",
+                "ru": "[0.595%; 0.7%]"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
