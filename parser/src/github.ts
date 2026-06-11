@@ -63,6 +63,7 @@ export async function extractItemsFromZip(zipPath: string, targetDir: string) {
 		`${GITHUB_REPO}-${GITHUB_BRANCH}/ru/items/`,
 		`${GITHUB_REPO}-${GITHUB_BRANCH}/ru/icons/`,
 		`${GITHUB_REPO}-${GITHUB_BRANCH}/ru/listing.json`,
+		`${GITHUB_REPO}-${GITHUB_BRANCH}/ru/hideout_recipes.json`,
 	];
 
 	for (const entry of entries) {
@@ -74,8 +75,11 @@ export async function extractItemsFromZip(zipPath: string, targetDir: string) {
 		let relPath = entry.entryName.slice(matchedPrefix.length);
 
 		if (!relPath) {
-			if (matchedPrefix.endsWith("listing.json")) {
-				relPath = "listing.json";
+			if (
+				matchedPrefix.endsWith("listing.json") ||
+				matchedPrefix.endsWith("hideout_recipes.json")
+			) {
+				relPath = path.basename(matchedPrefix);
 			} else {
 				if (entry.isDirectory) continue;
 			}

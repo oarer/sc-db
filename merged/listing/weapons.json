@@ -29052,14 +29052,14 @@
                 "ko": "이동 속도"
               }
             },
-            "value": -2.9999971,
+            "value": -1.9999981,
             "formatted": {
               "value": {
-                "ru": "-3%",
-                "en": "-3%",
-                "es": "-3 %",
-                "fr": "-3%",
-                "ko": "-3%"
+                "ru": "-2%",
+                "en": "-2%",
+                "es": "-2 %",
+                "fr": "-2%",
+                "ko": "-2%"
               },
               "nameColor": "C15252",
               "valueColor": "C15252"
@@ -58458,7 +58458,7 @@
         "en": "QBZ-191 Thunderbird",
         "es": "QBZ-191 Petrel",
         "fr": "QBZ-191 L'Oiseau-Tonnerre",
-        "ko": "QBZ-191 [부레베스트니크]"
+        "ko": "QBZ-191 부레베스트니크"
       }
     },
     "color": "RANK_MASTER",
@@ -63255,14 +63255,14 @@
                 "ko": "이동 속도"
               }
             },
-            "value": -2.9999971,
+            "value": -1.9999981,
             "formatted": {
               "value": {
-                "ru": "-3%",
-                "en": "-3%",
-                "es": "-3 %",
-                "fr": "-3%",
-                "ko": "-3%"
+                "ru": "-2%",
+                "en": "-2%",
+                "es": "-2 %",
+                "fr": "-2%",
+                "ko": "-2%"
               },
               "nameColor": "C15252",
               "valueColor": "C15252"
@@ -103520,23 +103520,7 @@
             "ko": "특징"
           }
         },
-        "elements": [
-          {
-            "type": "text",
-            "text": {
-              "type": "translation",
-              "key": "item.gauss.features",
-              "args": {},
-              "lines": {
-                "ru": "Игнорирует защиту пластин",
-                "en": "Ignores plates",
-                "es": "Ignora las placas",
-                "fr": "Ignore les plaques",
-                "ko": "방어판 무시"
-              }
-            }
-          }
-        ]
+        "elements": []
       },
       {
         "type": "damage",
@@ -108209,7 +108193,7 @@
         "en": "VSS-M Vintorez",
         "es": "VSS-M Vintorez",
         "fr": "VSS-M Vintorez",
-        "ko": "VSS-M [빈토레즈]"
+        "ko": "VSS-M 빈토레즈"
       }
     },
     "color": "RANK_MASTER",
@@ -194144,7 +194128,23 @@
             "ko": "특징"
           }
         },
-        "elements": []
+        "elements": [
+          {
+            "type": "text",
+            "text": {
+              "type": "translation",
+              "key": "item.gauss.features",
+              "args": {},
+              "lines": {
+                "ru": "Игнорирует защиту пластин",
+                "en": "Ignores plates",
+                "es": "Ignora las placas",
+                "fr": "Ignore les plaques",
+                "ko": "방어판 무시"
+              }
+            }
+          }
+        ]
       },
       {
         "type": "damage",
