@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -192,11 +192,11 @@
             "key": "weapon.stat_factor.recoil",
             "args": {},
             "lines": {
-              "ru": "Верт. отдача",
-              "en": "Vertical recoil",
-              "es": "Retroceso vertical",
-              "fr": "Recul vertical",
-              "ko": "수직 반동"
+              "ru": "Отдача",
+              "en": "Recoil",
+              "es": "Retroceso",
+              "fr": "Recul",
+              "ko": "반동"
             }
           },
           "value": 1.4999986,
@@ -226,14 +226,14 @@
               "ko": "안정성"
             }
           },
-          "value": 8.000135,
+          "value": 16.00027,
           "formatted": {
             "value": {
-              "ru": "+8%",
-              "en": "+8%",
-              "es": "+8 %",
-              "fr": "+8%",
-              "ko": "+8%"
+              "ru": "+16%",
+              "en": "+16%",
+              "es": "+16 %",
+              "fr": "+16%",
+              "ko": "+16%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -282,7 +282,7 @@
               "en": "TDI KRISS Vector",
               "es": "TDI KRISS Vector",
               "fr": "TDI KRISS Vector",
-              "ko": "TDI KRISS 벡터"
+              "ko": "TDI KRISS Vector"
             }
           }
         },
@@ -298,21 +298,6 @@
               "es": "Scorpion EVO III",
               "fr": "Scorpion EVO III",
               "ko": "스콜피온 EVO III"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.mpx.name",
-            "args": {},
-            "lines": {
-              "ru": "SIG MPX",
-              "en": "SIG MPX",
-              "es": "SIG MPX",
-              "fr": "SIG MPX",
-              "ko": "SIG MPX"
             }
           }
         },
@@ -500,6 +485,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.mpx.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG MPX",
+              "en": "SIG MPX",
+              "es": "SIG MPX",
+              "fr": "SIG MPX",
+              "ko": "SIG MPX"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.aug9xs.name",
             "args": {},
             "lines": {
@@ -534,9 +534,9 @@
             "args": {},
             "lines": {
               "ru": "Steyr AUG 9mm",
-              "en": "Steyr AUG 9mm",
-              "es": "Steyr AUG 9mm",
-              "fr": "Steyr AUG 9mm",
+              "en": "Steyr AUG 9 mm",
+              "es": "Steyr AUG 9 mm",
+              "fr": "Steyr AUG 9 mm",
               "ko": "슈타이어 AUG 9mm"
             }
           }
@@ -609,10 +609,10 @@
             "args": {},
             "lines": {
               "ru": "СР-1-10",
-              "en": "SR-1-10",
-              "es": "SR-1-10",
-              "fr": "SR-1-10",
-              "ko": "SR-1-10"
+              "en": "SR-1-10mm",
+              "es": "SR-1 de 10 mm",
+              "fr": "SR-1-10 mm",
+              "ko": "SR-1-10mm"
             }
           }
         },
@@ -968,11 +968,11 @@
             "key": "item.wpn.vz68.name",
             "args": {},
             "lines": {
-              "ru": "Vz.68 Škorpion",
-              "en": "Vz.68 Scorpion",
-              "es": "Vz.68 Škorpion",
-              "fr": "Vz.68 Škorpion",
-              "ko": "Vz.68 Škorpion"
+              "ru": "Vz.68 Scorpion",
+              "en": "Vz.68 Škorpion",
+              "es": "Vz.68 Scorpion",
+              "fr": "Vz.68 Scorpion",
+              "ko": "Vz.68 스콜피온"
             }
           }
         },

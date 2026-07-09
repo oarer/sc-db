@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -1.9999981,
+          "value": -2.9999971,
           "formatted": {
             "value": {
-              "ru": "-2%",
-              "en": "-2%",
-              "es": "-2 %",
-              "fr": "-2%",
-              "ko": "-2%"
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3 %",
+              "fr": "-3%",
+              "ko": "-3%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            26.3,
-            26.500458,
-            26.700914,
-            26.901373,
-            27.101828,
-            27.703201,
-            28.003885,
-            28.304573,
-            28.605259,
-            28.905943,
-            29.787954,
-            30.228962,
-            30.66997,
-            31.110977,
-            31.551981,
-            32.875
+            29.4,
+            29.624086,
+            29.84817,
+            30.072256,
+            30.29634,
+            30.968597,
+            31.304724,
+            31.640854,
+            31.976982,
+            32.313107,
+            33.299084,
+            33.792072,
+            34.28506,
+            34.77805,
+            35.271034,
+            36.75
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -321,7 +321,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 유효 사거리"
+              "ko": "최대 사거리"
             }
           },
           "value": 150,
@@ -348,7 +348,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "연사 속도"
+              "ko": "발사 속도"
             }
           },
           "value": 700,
@@ -399,7 +399,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical reload",
+              "en": "Tactical Reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -426,7 +426,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon ergonomics",
+              "en": "Weapon Ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -459,14 +459,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.4000001,
+          "value": 0.45000005,
           "formatted": {
             "value": {
-              "ru": "0,4°",
-              "en": "0.4°",
-              "es": "0,4°",
-              "fr": "0,4°",
-              "ko": "0.4°"
+              "ru": "0,45°",
+              "en": "0.45°",
+              "es": "0,45°",
+              "fr": "0,45°",
+              "ko": "0.45°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -646,14 +646,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.4"
+              "modifier": "1.25"
             },
             "lines": {
-              "ru": "Урон в голову: х1,4",
-              "en": "Headshot damage: x1.4",
-              "es": "Daño por disparo a la cabeza: x1,4",
-              "fr": "Dégât de tir à la tête : x1,4",
-              "ko": "헤드샷 피해: x1.4"
+              "ru": "Урон в голову: х1,25",
+              "en": "Headshot damage: x1.25",
+              "es": "Daño por disparo a la cabeza: x1,25",
+              "fr": "Dégât de tir à la tête : x1,25",
+              "ko": "헤드샷 피해: x1.25"
             }
           }
         },
@@ -663,14 +663,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.8"
+              "modifier": "0.7"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,8",
-              "en": "Limb damage: x0.8",
-              "es": "Daño a extremidades: x0,8",
-              "fr": "Dégât aux membres : x0,8",
-              "ko": "사지 피해: x0.8"
+              "ru": "Урон по конечностям: х0,7",
+              "en": "Limb damage: x0.7",
+              "es": "Daño a extremidades: x0,7",
+              "fr": "Dégât aux membres : x0,7",
+              "ko": "사지 피해: x0.7"
             }
           }
         }
@@ -693,10 +693,10 @@
             },
             "lines": {
               "ru": "Перегрев через 56 выстрелов непрерывной стрельбы",
-              "en": "Overheats after 56 consecutive shots",
+              "en": "Overheat after 56 shots of continuous fire",
               "es": "Se sobrecalienta tras 56 disparos de fuego continuo",
               "fr": "Surchauffe après 56 coups en feu continu",
-              "ko": "56발 연속 발포 후 과열"
+              "ko": "연속된 발포로 56발 후 과열"
             }
           }
         }
@@ -736,10 +736,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 26.3,
-      "damageDecreaseStart": 18,
-      "endDamage": 20.5,
-      "damageDecreaseEnd": 72,
+      "startDamage": 29.4,
+      "damageDecreaseStart": 10,
+      "endDamage": 20.8,
+      "damageDecreaseEnd": 52,
       "maxDistance": 150
     },
     {
@@ -754,7 +754,7 @@
         "args": {},
         "lines": {
           "ru": "Современный автомат, разработанный на замену устаревающему АК-74. Одна из главных особенностей - возможность ведения огня очередями по 2 патрона с высокой точностью (на расстоянии ста метров обе пули ложатся в одну точку). Это существенно увеличивает шансы поразить цель благодаря совокупному останавливающему и пробивающему действию пуль.",
-          "en": "A modern assault rifle developed to replace the aging AK-74. One of its main features is the ability to fire bursts of two shots with high accuracy (at a range of 100 meters, both bullets hit the same point). This substantially increases the chances of taking down a target thanks to the combined penetrative and stopping power of the bullets.",
+          "en": "A modern assault rifle developed to replace the then-aging AK-74. One of its main features is the ability to fire bursts of two shots with high accuracy (at a range of 100 meters, both bullets hit the same point). This substantially increases the chances of taking down a target thanks to the combined penetrative and stopping power of the bullets.",
           "es": "Un moderno fusil de asalto desarrollado para sustituir al entonces anticuado AK-74. Una de sus principales características es la capacidad de efectuar ráfagas de dos disparos con gran precisión (a una distancia de 100 metros, ambas balas impactan en el mismo punto). Esto aumenta sustancialmente las posibilidades de abatir a un objetivo gracias al poder combinado de penetración y parada de las balas.",
           "fr": "Il s'agit d'un fusil d'assaut moderne conçu pour remplacer l'AK-74, alors vieillissant. L'une de ses principales caractéristiques est la possibilité de tirer des rafales de deux coups avec une grande précision (à une distance de 100 mètres, les deux balles atteignent le même point). Cela augmente considérablement les chances d'abattre une cible grâce à la puissance de pénétration et d'arrêt combinée des balles.",
           "ko": "오래된 AK-74를 대체하기 위해 개발된 현대적 돌격 소총으로, 주요 특징 중 하나는 100미터 거리에서 두 발의 탄환을 정확하게 같은 지점에 명중시킬 수 있는 점발 사격 기능이다(2점발 사격). 이는 탄환의 관통력과 저지력을 결합하여 표적을 제압할 확률을 크게 증가시킨다."

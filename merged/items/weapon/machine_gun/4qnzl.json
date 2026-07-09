@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            68.3,
-            68.82059,
-            69.34116,
-            69.86174,
-            70.38232,
-            71.94406,
-            72.72492,
-            73.5058,
-            74.28667,
-            75.06753,
-            77.35808,
-            78.50336,
-            79.648636,
-            80.79391,
-            81.93918,
-            85.375
+            76.5,
+            77.083084,
+            77.66616,
+            78.24924,
+            78.83231,
+            80.58156,
+            81.45617,
+            82.330795,
+            83.205414,
+            84.080025,
+            86.64558,
+            87.92835,
+            89.21113,
+            90.493904,
+            91.77667,
+            95.625
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -321,7 +321,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 유효 사거리"
+              "ko": "최대 사거리"
             }
           },
           "value": 170,
@@ -348,7 +348,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "연사 속도"
+              "ko": "발사 속도"
             }
           },
           "value": 400,
@@ -399,7 +399,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical reload",
+              "en": "Tactical Reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -426,7 +426,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon ergonomics",
+              "en": "Weapon Ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -459,14 +459,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.3399999,
+          "value": 0.38999987,
           "formatted": {
             "value": {
-              "ru": "0,34°",
-              "en": "0.34°",
-              "es": "0,34°",
-              "fr": "0,34°",
-              "ko": "0.34°"
+              "ru": "0,39°",
+              "en": "0.39°",
+              "es": "0,39°",
+              "fr": "0,39°",
+              "ko": "0.39°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -646,14 +646,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.4"
+              "modifier": "1.25"
             },
             "lines": {
-              "ru": "Урон в голову: х1,4",
-              "en": "Headshot damage: x1.4",
-              "es": "Daño por disparo a la cabeza: x1,4",
-              "fr": "Dégât de tir à la tête : x1,4",
-              "ko": "헤드샷 피해: x1.4"
+              "ru": "Урон в голову: х1,25",
+              "en": "Headshot damage: x1.25",
+              "es": "Daño por disparo a la cabeza: x1,25",
+              "fr": "Dégât de tir à la tête : x1,25",
+              "ko": "헤드샷 피해: x1.25"
             }
           }
         },
@@ -663,14 +663,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.9"
+              "modifier": "0.8"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,9",
-              "en": "Limb damage: x0.9",
-              "es": "Daño a extremidades: x0,9",
-              "fr": "Dégât aux membres : x0,9",
-              "ko": "사지 피해: x0.9"
+              "ru": "Урон по конечностям: х0,8",
+              "en": "Limb damage: x0.8",
+              "es": "Daño a extremidades: x0,8",
+              "fr": "Dégât aux membres : x0,8",
+              "ko": "사지 피해: x0.8"
             }
           }
         }
@@ -693,10 +693,10 @@
             },
             "lines": {
               "ru": "Перегрев через 75 выстрелов непрерывной стрельбы",
-              "en": "Overheats after 75 consecutive shots",
+              "en": "Overheat after 75 shots of continuous fire",
               "es": "Se sobrecalienta tras 75 disparos de fuego continuo",
               "fr": "Surchauffe après 75 coups en feu continu",
-              "ko": "75발 연속 발포 후 과열"
+              "ko": "연속된 발포로 75발 후 과열"
             }
           }
         }
@@ -736,10 +736,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 68.3,
-      "damageDecreaseStart": 24,
-      "endDamage": 53.6,
-      "damageDecreaseEnd": 80,
+      "startDamage": 76.5,
+      "damageDecreaseStart": 14,
+      "endDamage": 60,
+      "damageDecreaseEnd": 60,
       "maxDistance": 170
     },
     {

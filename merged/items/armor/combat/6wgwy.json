@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/armor/ronin/ronin.glb",
-    "diff": "models/armor/ronin/ronin_diff.dds",
-    "nrm": "models/armor/ronin/ronin_nrm.dds",
-    "emi": "models/armor/ronin/ronin_emi.dds",
-    "spek": "models/armor/ronin/ronin_spek.dds"
-  },
   "id": "6wgwy",
   "category": "armor/combat",
   "name": {
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -272,33 +265,6 @@
             "nameColor": "53C353",
             "valueColor": "53C353"
           }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.stopping_protection",
-            "args": {},
-            "lines": {
-              "ru": "Стойкость",
-              "en": "Stability",
-              "es": "Estabilidad",
-              "fr": "Stabilité",
-              "ko": "안정성"
-            }
-          },
-          "value": 10,
-          "formatted": {
-            "value": {
-              "ru": "+10%",
-              "en": "+10%",
-              "es": "+10 %",
-              "fr": "+10%",
-              "ko": "+10%"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
         }
       ]
     },
@@ -320,7 +286,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
+              "ko": "총탄 보호율"
             }
           },
           "value": [
@@ -355,7 +321,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
+              "ko": "열상 보호율"
             }
           },
           "value": 252,
@@ -382,7 +348,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 저항율"
+              "ko": "폭발 보호율"
             }
           },
           "value": 175,
@@ -406,10 +372,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Electricity resistance",
+              "en": "Resistance to electricity",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 저항율"
+              "ko": "전기 보호율"
             }
           },
           "value": 50,
@@ -433,10 +399,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Fire resistance",
+              "en": "Resistance to fire",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 저항율"
+              "ko": "화염 보호율"
             }
           },
           "value": 50,
@@ -460,7 +426,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Chemical resistance",
+              "en": "Resistance to chemicals",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -490,7 +456,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 보호"
+              "ko": "방사능 저항"
             }
           },
           "value": 200,
@@ -517,7 +483,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 보호"
+              "ko": "열 저항"
             }
           },
           "value": 100,
@@ -544,7 +510,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 보호"
+              "ko": "생체 감염 저항"
             }
           },
           "value": 200,
@@ -571,7 +537,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 에미션 보호"
+              "ko": "정신파 방사물 저항"
             }
           },
           "value": 200,
@@ -598,7 +564,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 보호"
+              "ko": "출혈 저항"
             }
           },
           "value": 60,
@@ -682,7 +648,7 @@
         "args": {},
         "lines": {
           "ru": "Данный костюм имеет ВРЕМЕННУЮ модель, которая будет заменена.",
-          "en": "This suit currently uses a TEMPORARY model that will be replaced.",
+          "en": "The given suit has a TEMPORARY model that will be replaced.",
           "es": "Este traje tiene un modelo TEMPORAL que será sustituido.",
           "fr": "La tenue donnée dispose d'un modèle TEMPORAIRE qui sera remplacé.",
           "ko": "해당 슈트는 임시 모델이며 추후 교체될 예정입니다."
@@ -701,7 +667,7 @@
         "args": {},
         "lines": {
           "ru": "RS-41 «Ronin» — бронекостюм, созданный специально под нужды Наемников. Он предназначен для опытных бойцов, приоритетом которых является участие в огневых контактах. Удерживать позиции в напряженных перестрелках или прорываться через перекрестный огонь — Наемники в этой броне готовы к любому приказу.",
-          "en": "RS-41 Ronin is an armored suit specifically designed to meet the needs of Mercenaries. It is intended for experienced fighters whose priority is engaging in firefights. Whether holding positions in intense gunfights or breaking through crossfire, Mercenaries in this armor are ready for any command.",
+          "en": "RS-41 \"Ronin\" is an armored suit specifically designed to meet the needs of Mercenaries. It is intended for experienced fighters whose priority is engaging in firefights. Whether holding positions in intense gunfights or breaking through crossfire, Mercenaries in this armor are ready for any command.",
           "es": "RS-41 Ronin es un traje blindado diseñado específicamente para las necesidades de los Mercenarios. Está pensado para combatientes experimentados cuya prioridad es la lucha contra el fuego. Ya sea manteniendo posiciones en intensos tiroteos o abriéndose paso a través del fuego cruzado; los Mercenarios con este blindaje están preparados para cualquier orden.",
           "fr": "Le RS-41 « Ronin » est une armure conçue spécifiquement pour les besoins des Mercenaires.\\nDestinée aux combattants expérimentés, elle met l'accent sur la résistance lors des affrontements intenses.\\nTenir une position sous un feu nourri ou percer une ligne ennemie — les Mercenaires équipés de cette armure sont prêts à exécuter n'importe quel ordre.",
           "ko": "RS-41 \"로닌\"은 용병의 요구를 충족시키기 위해 특별히 설계된 장갑 슈트입니다. 격렬한 총격전에서 거점을 지키거나 교차 화력 속을 돌파하든, 이 장갑을 입은 용병들은 어떤 명령에도 즉시 대응할 준비가 되어 있습니다."

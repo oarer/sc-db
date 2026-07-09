@@ -36,7 +36,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -122,14 +122,14 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "29200.0"
+              "cost": "27000.0"
             },
             "lines": {
-              "ru": "29 200 руб.",
-              "en": "29,200 rubles",
-              "es": "29.200 rublos",
-              "fr": "29 200 roubles",
-              "ko": "29,200 루블"
+              "ru": "27 000 руб.",
+              "en": "27,000 rubles",
+              "es": "27.000 rublos",
+              "fr": "27 000 roubles",
+              "ko": "27,000 루블"
             }
           }
         }
@@ -292,34 +292,6 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.heal_efficiency",
-            "args": {},
-            "lines": {
-              "ru": "Эффективность лечения",
-              "en": "Healing effectiveness",
-              "es": "Eficacia de curación",
-              "fr": "Efficacité des soins",
-              "ko": "치유 효율"
-            }
-          },
-          "min": 2.5500002,
-          "max": 3,
-          "formatted": {
-            "value": {
-              "ru": "[+2,55%; +3%]",
-              "en": "[+2.55%; +3%]",
-              "es": "[+2,55 %; +3 %]",
-              "fr": "[+2,55%; +3%]",
-              "ko": "[+2.55%; +3%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
             "args": {},
             "lines": {
@@ -327,7 +299,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
+              "ko": "총탄 보호율"
             }
           },
           "min": 11.05,
@@ -352,10 +324,10 @@
             "args": {},
             "lines": {
               "ru": "Пси-излучение",
-              "en": "Psyonics",
+              "en": "Psy-emissions",
               "es": "Emisiones psy",
               "fr": "Émissions psys",
-              "ko": "정신파 에미션"
+              "ko": "정신파 방사물"
             }
           },
           "min": 2.125,
@@ -383,7 +355,7 @@
               "en": "Reaction to laceration",
               "es": "Reacción a la laceración",
               "fr": "Réaction aux lacérations",
-              "ko": "열상 대항"
+              "ko": "열상에 대항 능력"
             }
           },
           "min": 1.105,

@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/armor/bover/bover_balon.glb",
-    "diff": "models/armor/bover/bover_diff.dds",
-    "nrm": "models/armor/bover/bover_nrm.dds",
-    "emi": "models/armor/bover/bover_emi.dds",
-    "spek": "models/armor/bover/bover_spek.dds"
-  },
   "id": "m06my",
   "category": "armor/combined",
   "name": {
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -266,7 +259,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
+              "ko": "총탄 보호율"
             }
           },
           "value": [
@@ -300,7 +293,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
+              "ko": "열상 보호율"
             }
           },
           "value": 37,
@@ -327,7 +320,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 저항율"
+              "ko": "폭발 보호율"
             }
           },
           "value": 20,
@@ -351,10 +344,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Electricity resistance",
+              "en": "Resistance to electricity",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 저항율"
+              "ko": "전기 보호율"
             }
           },
           "value": 15,
@@ -378,10 +371,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Fire resistance",
+              "en": "Resistance to fire",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 저항율"
+              "ko": "화염 보호율"
             }
           },
           "value": 15,
@@ -405,7 +398,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Chemical resistance",
+              "en": "Resistance to chemicals",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -435,7 +428,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 보호"
+              "ko": "방사능 저항"
             }
           },
           "value": 50,
@@ -462,7 +455,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 보호"
+              "ko": "열 저항"
             }
           },
           "value": 30,
@@ -489,7 +482,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 보호"
+              "ko": "생체 감염 저항"
             }
           },
           "value": 50,
@@ -516,7 +509,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 에미션 보호"
+              "ko": "정신파 방사물 저항"
             }
           },
           "value": 0,
@@ -543,7 +536,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 보호"
+              "ko": "출혈 저항"
             }
           },
           "value": 25,
@@ -627,7 +620,7 @@
         "args": {},
         "lines": {
           "ru": "Дешевая модификация RS-32, сделанная для тех бандитов, что предпочитают караулить зеленых сталкеров в самых неожиданных местах.\\n\\n Конечно, добиться значительного преимущества по характеристикам в сравнении со сталкерским аналогом не удалось, но зато цена вполне приемлемая!",
-          "en": "A cheap modification of the RS-32, made for bandits who like to ambush green stalkers in the most unexpected places.\\n\\n It might not have any significant advantage in performance over the stalker variant, but the price is more than reasonable!",
+          "en": "modification of the RS-32, made for those bandits who prefer to ambush green stalkers in the most unexpected places.\\n\\n Of course, achieving a significant advantage in performance compared to the stalker version was not possible, but the price is quite reasonable!",
           "es": "Una modificación barata de TR-32, hecha para esos bandidos que prefieren acechar a los acechadores novatos en los lugares más inesperados.\\n\\n Por supuesto, no se logró una ventaja significativa en características en comparación con el análogo de los acechadores, ¡pero el precio es bastante razonable!",
           "fr": "Modification bon marché du RS-32, conçue pour ces bandits qui préfèrent tendre une embuscade aux stalkers débutants dans les endroits les plus inattendus.\\n\\n  Bien sûr, elle n'offre pas d'avantage majeur en termes de performances par rapport à son équivalent stalker, mais son prix reste tout à fait raisonnable.",
           "ko": "RS-32의 개조형으로, 초보 스토커들을 가장 예상치 못한 장소에서 기습하기를 선호하는 밴디트들을 위해 제작되었습니다.\\n\\n 물론 스토커용 버전보다 성능 면에서 큰 우위를 차지하지는 못했지만 가격이 꽤 합리적입니다!"

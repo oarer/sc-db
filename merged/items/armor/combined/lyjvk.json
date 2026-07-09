@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/armor/ao3/ao3.glb",
-    "diff": "models/armor/ao3/ao3_diff.dds",
-    "nrm": "models/armor/ao3/ao3_nrm.dds",
-    "emi": "models/armor/ao3/ao3_emi.dds",
-    "spek": "models/armor/ao3/ao3_spek.dds"
-  },
   "id": "lyjvk",
   "category": "armor/combined",
   "name": {
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -347,7 +340,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
+              "ko": "총탄 보호율"
             }
           },
           "value": [
@@ -382,7 +375,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
+              "ko": "열상 보호율"
             }
           },
           "value": 68,
@@ -409,7 +402,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 저항율"
+              "ko": "폭발 보호율"
             }
           },
           "value": 60,
@@ -433,10 +426,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Electricity resistance",
+              "en": "Resistance to electricity",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 저항율"
+              "ko": "전기 보호율"
             }
           },
           "value": 165,
@@ -460,10 +453,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Fire resistance",
+              "en": "Resistance to fire",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 저항율"
+              "ko": "화염 보호율"
             }
           },
           "value": 165,
@@ -487,7 +480,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Chemical resistance",
+              "en": "Resistance to chemicals",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -517,7 +510,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 보호"
+              "ko": "방사능 저항"
             }
           },
           "value": 200,
@@ -544,7 +537,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 보호"
+              "ko": "열 저항"
             }
           },
           "value": 70,
@@ -571,7 +564,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 보호"
+              "ko": "생체 감염 저항"
             }
           },
           "value": 200,
@@ -598,7 +591,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 에미션 보호"
+              "ko": "정신파 방사물 저항"
             }
           },
           "value": 120,
@@ -625,7 +618,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 보호"
+              "ko": "출혈 저항"
             }
           },
           "value": 40,
@@ -712,7 +705,7 @@
           "en": "Further development of the Artifact Hunter series.\\n\\n This version was created using lightweight composite materials and some of the latest developments from Research Institute 7, allowing for progress in creating armor that combines decent protective characteristics against all threats in the Zone.\\n\\n Although Seeker achieved a certain level of success, the staff at the Horizon were not completely satisfied with the outcome, which led them to immediately start working on the next suit in the series.",
           "es": "La evolución de la línea de Cazadores de artefactos.\\n\\n Esta versión fue creada utilizando materiales compuestos ligeros y algunos de los últimos desarrollos del Instituto de Investigación 7, lo que permitió avanzar en la creación de una armadura que combina buenas características de protección para todas las amenazas de la Zona.\\n\\n Aunque Buscador alcanzó cierto éxito, los empleados de Horizonte no quedaron completamente satisfechos con el resultado del trabajo, por lo que inmediatamente comenzaron a trabajar en el siguiente traje de la serie.",
           "fr": "Nouvelle étape du développement de la série des Arthunters.\\n\\n Cette version, utilisant des matériaux composites légers et plusieurs innovations techniques de l'Institut de Recherche 7, marque un réel progrès dans la création d'armures polyvalentes offrant une protection efficace contre toutes les menaces de la Zone.\\n\\n Malgré le succès de le Chercheur, les ingénieurs d'Horizon restèrent insatisfaits du résultat et se mirent immédiatement à concevoir la combinaison suivante de la série.",
-          "ko": "아티팩트 헌터 시리즈의 후속 개발 모델입니다.\\n\\n 이 버전은 경량 복합 재료와 제 7 연구소의 최신 기술 일부를 활용해 제작되어, 구역 내 모든 위협에 대해 적절한 보호 성능을 갖춘 장갑 개발에 진전을 이루었습니다.\\n\\n 시커가 일정 수준의 성과를 거두었지만, 호라이즌 직원들은 결과에 완전히 만족하지 못했고, 즉시 다음 버전의 개발에 착수하게 되었습니다."
+          "ko": "아티팩트 헌터 시리즈의 후속 개발 모델입니다.\\n\\n 이 버전은 경량 복합 재료와 연구소 7의 최신 기술 일부를 활용해 제작되어, 구역 내 모든 위협에 대해 적절한 보호 성능을 갖춘 장갑 개발에 진전을 이루었습니다.\\n\\n 시커가 일정 수준의 성과를 거두었지만, 호라이즌 직원들은 결과에 완전히 만족하지 못했고, 즉시 시리즈의 다음 슈트 개발에 착수하게 되었습니다."
         }
       }
     }

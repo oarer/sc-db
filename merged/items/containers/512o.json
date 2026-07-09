@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/backpacks/cont_zivcas/zivcas.glb",
-    "diff": "models/backpacks/cont_zivcas/zivcas_diff.dds",
-    "nrm": "models/backpacks/cont_zivcas/zivcas_nrm.dds",
-    "emi": "models/backpacks/cont_zivcas/zivcas_emi.dds",
-    "spek": "models/backpacks/cont_zivcas/zivcas_spek.dds"
-  },
   "id": "512o",
   "category": "containers",
   "name": {
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -198,14 +191,14 @@
               "ko": "효율성"
             }
           },
-          "value": 102.5,
+          "value": 100,
           "formatted": {
             "value": {
-              "ru": "102,5%",
-              "en": "102.5%",
-              "es": "102,5 %",
-              "fr": "102,5%",
-              "ko": "102.5%"
+              "ru": "100%",
+              "en": "100%",
+              "es": "100 %",
+              "fr": "100%",
+              "ko": "100%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -255,10 +248,10 @@
             "args": {},
             "lines": {
               "ru": "Пси-излучение",
-              "en": "Psyonics",
+              "en": "Psy-emissions",
               "es": "Emisiones psy",
               "fr": "Émissions psys",
-              "ko": "정신파 에미션"
+              "ko": "정신파 방사물"
             }
           },
           "value": 0.5,

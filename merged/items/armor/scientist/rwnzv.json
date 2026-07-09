@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/armor/kim_topaz/kim_topaz.glb",
-    "diff": "models/armor/kim_topaz/kim_topaz_diff.dds",
-    "nrm": "models/armor/kim_topaz/kim_topaz_nrm.dds",
-    "emi": "models/armor/kim_topaz/kim_topaz_emi.dds",
-    "spek": "models/armor/kim_topaz/kim_topaz_spek.dds"
-  },
   "id": "rwnzv",
   "category": "armor/scientist",
   "name": {
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -239,7 +232,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
+              "ko": "총탄 보호율"
             }
           },
           "value": [
@@ -274,7 +267,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
+              "ko": "열상 보호율"
             }
           },
           "value": 51,
@@ -301,7 +294,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 저항율"
+              "ko": "폭발 보호율"
             }
           },
           "value": 60,
@@ -325,10 +318,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Electricity resistance",
+              "en": "Resistance to electricity",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 저항율"
+              "ko": "전기 보호율"
             }
           },
           "value": 650,
@@ -352,10 +345,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Fire resistance",
+              "en": "Resistance to fire",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 저항율"
+              "ko": "화염 보호율"
             }
           },
           "value": 1000,
@@ -379,7 +372,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Chemical resistance",
+              "en": "Resistance to chemicals",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -409,7 +402,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 보호"
+              "ko": "방사능 저항"
             }
           },
           "value": 320,
@@ -436,7 +429,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 보호"
+              "ko": "열 저항"
             }
           },
           "value": 400,
@@ -463,7 +456,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 보호"
+              "ko": "생체 감염 저항"
             }
           },
           "value": 320,
@@ -490,7 +483,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 에미션 보호"
+              "ko": "정신파 방사물 저항"
             }
           },
           "value": 250,
@@ -517,7 +510,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 보호"
+              "ko": "출혈 저항"
             }
           },
           "value": 30,
@@ -601,10 +594,10 @@
         "args": {},
         "lines": {
           "ru": "Научный комбинезон производства НИИ-7, предназначенный для работы в аномальных очагах с повышенной температурой.\\n\\n Один из ранних образцов снаряжения исследовательского института, предназначенного для защиты от конкретных аномальных угроз. Несмотря на заточенность под конкретные задачи, многие сталкеры считают подобные комбинезоны неплохим решением. По крайней мере, на первое время.",
-          "en": "Scientific suit manufactured by Research Institute 7, designed for work in anomalous zones with high temperatures.\\n\\n One of the early prototypes of equipment from the research institute, intended to protect against specific anomalous threats. Despite being tailored for particular tasks, many stalkers consider such suits a decent solution, at least for the early period.",
+          "en": "Scientific suit manufactured by Reseacrh Institute 7, designed for work in anomalous zones with high temperatures.\\n\\n One of the early prototypes of equipment from the research institute, intended to protect against specific anomalous threats. Despite being tailored for particular tasks, many stalkers consider such suits a decent solution, at least for the early period.",
           "es": "Traje científico del Instituto de Investigación 7, diseñado para trabajar en focos anómalos con alta temperatura.\\n\\n Uno de los primeros modelos de equipamiento del instituto de investigación, destinado a la protección contra amenazas anómalas específicas. A pesar de estar diseñado para tareas concretas, muchos acechadores consideran estos trajes una solución razonable. Al menos, para empezar.",
           "fr": "Combinaison scientifique produite par l'Institut de Recherche 7, conçue pour travailler dans des foyers anormaux à haute température.\\n\\n L'un des premiers modèles de l'institut, destiné à protéger contre des menaces spécifiques.\\nBien qu'il soit conçu pour des tâches précises, de nombreux stalkers estiment que ce type d'équipement est une bonne option, du moins pour débuter.",
-          "ko": "제 7 연구소에서 제작한 과학용 슈트로, 고온 이상 구역에서의 작업을 위해 설계되었습니다.\\n\\n 연구소 초기 장비 프로토타입 중 하나로, 특정 이상 현상 위협으로부터 보호하도록 만들어졌습니다. 특정 작업에 맞춰 제작되었음에도 불구하고, 많은 스토커들은 초기 시기에는 충분히 쓸만한 선택지로 여깁니다."
+          "ko": "연구소 7에서 제작한 과학용 슈트로, 고온 이상 구역에서의 작업을 위해 설계되었습니다.\\n\\n 연구소 초기 장비 프로토타입 중 하나로, 특정 이상 현상 위협으로부터 보호하도록 만들어졌습니다. 특정 작업에 맞춰 제작되었음에도 불구하고, 많은 스토커들은 초기 시기에는 충분히 쓸만한 선택지로 여깁니다."
         }
       }
     }

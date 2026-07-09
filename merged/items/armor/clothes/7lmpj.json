@@ -1,23 +1,16 @@
 {
-  "model": {
-    "model": "models/armor/picklock/picklock.glb",
-    "diff": "models/armor/picklock/picklock_diff.dds",
-    "nrm": "models/armor/picklock/picklock_nrm.dds",
-    "emi": "models/armor/picklock/picklock_emi.dds",
-    "spek": "models/armor/picklock/picklock_spek.dds"
-  },
   "id": "7lmpj",
   "category": "armor/clothes",
   "name": {
     "type": "translation",
-    "key": "item.arm.bully.name",
+    "key": "item.arm.old_picklock.name",
     "args": {},
     "lines": {
-      "ru": "Костюм «Хулиган»",
-      "en": "Hooligan Suit",
-      "es": "Traje de camorrista",
-      "fr": "Combinaison Hooligan",
-      "ko": "불량배 슈트"
+      "ru": "ЗК-1 «Отмычка»",
+      "en": "PS-1 Picklock",
+      "es": "TP-1 Ratero",
+      "fr": "PS-1 Passe-Partout",
+      "ko": "PS-1 도둑"
     }
   },
   "color": "DEFAULT",
@@ -36,33 +29,6 @@
           "type": "key-value",
           "key": {
             "type": "translation",
-            "key": "core.tooltip.info.rank",
-            "args": {},
-            "lines": {
-              "ru": "Ранг",
-              "en": "Rank",
-              "es": "Rango",
-              "fr": "Rang",
-              "ko": "등급"
-            }
-          },
-          "value": {
-            "type": "translation",
-            "key": "core.rank.picklock",
-            "args": {},
-            "lines": {
-              "ru": "Отмычка",
-              "en": "Picklock",
-              "es": "Ratero",
-              "fr": "Crocheteur",
-              "ko": "신입"
-            }
-          }
-        },
-        {
-          "type": "key-value",
-          "key": {
-            "type": "translation",
             "key": "core.tooltip.info.category",
             "args": {},
             "lines": {
@@ -70,7 +36,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -100,14 +66,14 @@
               "ko": "무게"
             }
           },
-          "value": 1.5,
+          "value": 4,
           "formatted": {
             "value": {
-              "ru": "1,5 кг",
-              "en": "1.5 kg",
-              "es": "1,5 kg",
-              "fr": "1,5 kg",
-              "ko": "1.5 kg"
+              "ru": "4 кг",
+              "en": "4 kg",
+              "es": "4 kg",
+              "fr": "4 kg",
+              "ko": "4 kg"
             },
             "nameColor": "838383",
             "valueColor": "838383"
@@ -196,14 +162,41 @@
           "type": "numeric",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "value": 4,
+          "formatted": {
+            "value": {
+              "ru": "+4",
+              "en": "+4",
+              "es": "+4",
+              "fr": "+4",
+              "ko": "+4"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.frost_protection",
             "args": {},
             "lines": {
               "ru": "Защита от холода",
-              "en": "Frost Protection",
+              "en": "Frost protection",
               "es": "Protección contra congelación",
               "fr": "Protection contre le gel",
-              "ko": "서리 보호"
+              "ko": "냉기 저항"
             }
           },
           "value": 20,
@@ -239,13 +232,25 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
+              "ko": "총탄 보호율"
             }
           },
           "value": [
-            1,
-            1.9237804,
-            2
+            29,
+            30.180336,
+            31.36067,
+            32.541008,
+            33.72134,
+            37.26235,
+            39.032852,
+            40.803356,
+            42.573856,
+            44.344357,
+            49.53783,
+            52.13457,
+            54.731308,
+            57.32805,
+            58
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -261,17 +266,17 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
+              "ko": "열상 보호율"
             }
           },
-          "value": 0,
+          "value": 37,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0",
-              "es": "0",
-              "fr": "0",
-              "ko": "0"
+              "ru": "37",
+              "en": "37",
+              "es": "37",
+              "fr": "37",
+              "ko": "37"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -288,17 +293,17 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 저항율"
+              "ko": "폭발 보호율"
             }
           },
-          "value": 0,
+          "value": 20,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0",
-              "es": "0",
-              "fr": "0",
-              "ko": "0"
+              "ru": "20",
+              "en": "20",
+              "es": "20",
+              "fr": "20",
+              "ko": "20"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -312,20 +317,20 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Electricity resistance",
+              "en": "Resistance to electricity",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 저항율"
+              "ko": "전기 보호율"
             }
           },
-          "value": 30,
+          "value": 40,
           "formatted": {
             "value": {
-              "ru": "30",
-              "en": "30",
-              "es": "30",
-              "fr": "30",
-              "ko": "30"
+              "ru": "40",
+              "en": "40",
+              "es": "40",
+              "fr": "40",
+              "ko": "40"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -339,20 +344,20 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Fire resistance",
+              "en": "Resistance to fire",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 저항율"
+              "ko": "화염 보호율"
             }
           },
-          "value": 30,
+          "value": 40,
           "formatted": {
             "value": {
-              "ru": "30",
-              "en": "30",
-              "es": "30",
-              "fr": "30",
-              "ko": "30"
+              "ru": "40",
+              "en": "40",
+              "es": "40",
+              "fr": "40",
+              "ko": "40"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -366,20 +371,20 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Chemical resistance",
+              "en": "Resistance to chemicals",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
             }
           },
-          "value": 30,
+          "value": 40,
           "formatted": {
             "value": {
-              "ru": "30",
-              "en": "30",
-              "es": "30",
-              "fr": "30",
-              "ko": "30"
+              "ru": "40",
+              "en": "40",
+              "es": "40",
+              "fr": "40",
+              "ko": "40"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -396,17 +401,17 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 보호"
+              "ko": "방사능 저항"
             }
           },
-          "value": 60,
+          "value": 100,
           "formatted": {
             "value": {
-              "ru": "60",
-              "en": "60",
-              "es": "60",
-              "fr": "60",
-              "ko": "60"
+              "ru": "100",
+              "en": "100",
+              "es": "100",
+              "fr": "100",
+              "ko": "100"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -423,17 +428,17 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 보호"
+              "ko": "열 저항"
             }
           },
-          "value": 50,
+          "value": 30,
           "formatted": {
             "value": {
-              "ru": "50",
-              "en": "50",
-              "es": "50",
-              "fr": "50",
-              "ko": "50"
+              "ru": "30",
+              "en": "30",
+              "es": "30",
+              "fr": "30",
+              "ko": "30"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -450,17 +455,17 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 보호"
+              "ko": "생체 감염 저항"
             }
           },
-          "value": 50,
+          "value": 100,
           "formatted": {
             "value": {
-              "ru": "50",
-              "en": "50",
-              "es": "50",
-              "fr": "50",
-              "ko": "50"
+              "ru": "100",
+              "en": "100",
+              "es": "100",
+              "fr": "100",
+              "ko": "100"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -477,7 +482,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 에미션 보호"
+              "ko": "정신파 방사물 저항"
             }
           },
           "value": 0,
@@ -504,17 +509,17 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 보호"
+              "ko": "출혈 저항"
             }
           },
-          "value": 0,
+          "value": 30,
           "formatted": {
             "value": {
-              "ru": "0%",
-              "en": "0%",
-              "es": "0 %",
-              "fr": "0%",
-              "ko": "0%"
+              "ru": "30%",
+              "en": "30%",
+              "es": "30 %",
+              "fr": "30%",
+              "ko": "30%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"

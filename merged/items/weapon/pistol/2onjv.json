@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -236,22 +236,22 @@
             }
           },
           "value": [
-            53.6,
-            54.008537,
-            54.417072,
-            54.82561,
-            55.234142,
-            56.459755,
-            57.07256,
-            57.685368,
-            58.29817,
-            58.910973,
-            60.70853,
-            61.607315,
-            62.506096,
-            63.40488,
-            64.30366,
-            67
+            60,
+            60.45732,
+            60.914635,
+            61.371952,
+            61.829266,
+            63.20122,
+            63.88719,
+            64.57317,
+            65.25915,
+            65.94512,
+            67.95731,
+            68.96341,
+            69.96951,
+            70.97562,
+            71.981705,
+            75
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -294,7 +294,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 유효 사거리"
+              "ko": "최대 사거리"
             }
           },
           "value": 62,
@@ -321,7 +321,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "연사 속도"
+              "ko": "발사 속도"
             }
           },
           "value": 400,
@@ -372,7 +372,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical reload",
+              "en": "Tactical Reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -399,7 +399,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon ergonomics",
+              "en": "Weapon Ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -619,14 +619,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.4"
+              "modifier": "1.25"
             },
             "lines": {
-              "ru": "Урон в голову: х1,4",
-              "en": "Headshot damage: x1.4",
-              "es": "Daño por disparo a la cabeza: x1,4",
-              "fr": "Dégât de tir à la tête : x1,4",
-              "ko": "헤드샷 피해: x1.4"
+              "ru": "Урон в голову: х1,25",
+              "en": "Headshot damage: x1.25",
+              "es": "Daño por disparo a la cabeza: x1,25",
+              "fr": "Dégât de tir à la tête : x1,25",
+              "ko": "헤드샷 피해: x1.25"
             }
           }
         },
@@ -636,14 +636,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.8"
+              "modifier": "0.7"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,8",
-              "en": "Limb damage: x0.8",
-              "es": "Daño a extremidades: x0,8",
-              "fr": "Dégât aux membres : x0,8",
-              "ko": "사지 피해: x0.8"
+              "ru": "Урон по конечностям: х0,7",
+              "en": "Limb damage: x0.7",
+              "es": "Daño a extremidades: x0,7",
+              "fr": "Dégât aux membres : x0,7",
+              "ko": "사지 피해: x0.7"
             }
           }
         }
@@ -666,10 +666,10 @@
             },
             "lines": {
               "ru": "Перегрев через 48 выстрелов непрерывной стрельбы",
-              "en": "Overheats after 48 consecutive shots",
+              "en": "Overheat after 48 shots of continuous fire",
               "es": "Se sobrecalienta tras 48 disparos de fuego continuo",
               "fr": "Surchauffe après 48 coups en feu continu",
-              "ko": "48발 연속 발포 후 과열"
+              "ko": "연속된 발포로 48발 후 과열"
             }
           }
         }
@@ -709,9 +709,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 53.6,
+      "startDamage": 60,
       "damageDecreaseStart": 7,
-      "endDamage": 34.8,
+      "endDamage": 39,
       "damageDecreaseEnd": 36,
       "maxDistance": 62
     },
@@ -727,7 +727,7 @@
         "args": {},
         "lines": {
           "ru": "Tec-DC9 — компактный пистолет-пулемёт калибра 9 мм. Разработан в США как дешёвый клон шведского MP-9, стреляет со свободного затвора и выглядит так, будто его сварили в гараже — но работает. Стал символом дешёвого, но чертовски опасного оружия. Был запрещён в США и теперь в основном распространяется через чёрный рынок.",
-          "en": "Tec-DC9 is a compact 9 mm caliber submachine gun. Developed in the USA as a cheap clone of the Swedish MP-9, it operates with a blowback action and looks like something welded together in a garage—but it works. It became a symbol of inexpensive, yet brutally dangerous weaponry. It was banned in the USA and is now primarily distributed through the Black Market.",
+          "en": "Tec-DC9 is a compact 9mm caliber submachine gun. Developed in the USA as a cheap clone of the Swedish MP-9, it operates with a blowback action and looks as if it was welded together in a garage—but it works. It became a symbol of inexpensive, yet dangerously effective weaponry. It was banned in the USA and is now primarily distributed through the black market.",
           "es": "Tec-DC9 es un subfusil compacto de 9 mm. Desarrollada en EE.UU. como un clon barato de la MP-9 sueca, dispara con un cerrojo suelto y parece soldada en un garaje, pero funciona. Se convirtió en el símbolo de un arma barata pero condenadamente peligrosa. Fue prohibida en EE.UU. y ahora se distribuye principalmente a través del mercado negro.",
           "fr": "Le Tec-DC9 est un pistolet mitrailleur compact de calibre 9mm. Développé aux USA comme une copie bon marché du MP-9 suédois, il possède un système à recul direct et a l'air fabriqué de manière artisanale dans un garage... mais il fonctionne. Il est devenu un véritable symbole pour les armes aussi peu coûteuses que dangereusement efficaces. L'arme a été bannie aux USA et est désormais principalement distribuée via le marché noir.",
           "ko": "테크-DC9은 소형 9mm 기관단총이다. 미국에서 스웨덴의 MP-9을 저렴하게 모방한 제품으로, 블로우백 방식이고, 차고에서 조잡하게 용접된 듯한 모양새이지만 문제 없이 작동한다. 덕분에 저렴하지만 위험한 무기의 대명사가 되었다. 미국에서 금지되었고 현재는 주로 블랙 마켓을 통해 유통된다."

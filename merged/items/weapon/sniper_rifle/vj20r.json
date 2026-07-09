@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -5.000001,
+          "value": -2.9999971,
           "formatted": {
             "value": {
-              "ru": "-5%",
-              "en": "-5%",
-              "es": "-5 %",
-              "fr": "-5%",
-              "ko": "-5%"
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3 %",
+              "fr": "-3%",
+              "ko": "-3%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            93.8,
-            94.514946,
-            95.22988,
-            95.944824,
-            96.65976,
-            98.80458,
-            99.87698,
-            100.949394,
-            102.021805,
-            103.09421,
-            106.23994,
-            107.812805,
-            109.38567,
-            110.95855,
-            112.5314,
-            117.25
+            105,
+            105.80031,
+            106.60061,
+            107.40092,
+            108.20122,
+            110.602135,
+            111.80259,
+            113.00305,
+            114.20351,
+            115.40396,
+            118.9253,
+            120.685974,
+            122.44665,
+            124.20732,
+            125.96799,
+            131.25
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -321,7 +321,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 유효 사거리"
+              "ko": "최대 사거리"
             }
           },
           "value": 210,
@@ -348,7 +348,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "연사 속도"
+              "ko": "발사 속도"
             }
           },
           "value": 200,
@@ -399,7 +399,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical reload",
+              "en": "Tactical Reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -426,7 +426,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon ergonomics",
+              "en": "Weapon Ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -646,14 +646,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.4"
+              "modifier": "1.25"
             },
             "lines": {
-              "ru": "Урон в голову: х1,4",
-              "en": "Headshot damage: x1.4",
-              "es": "Daño por disparo a la cabeza: x1,4",
-              "fr": "Dégât de tir à la tête : x1,4",
-              "ko": "헤드샷 피해: x1.4"
+              "ru": "Урон в голову: х1,25",
+              "en": "Headshot damage: x1.25",
+              "es": "Daño por disparo a la cabeza: x1,25",
+              "fr": "Dégât de tir à la tête : x1,25",
+              "ko": "헤드샷 피해: x1.25"
             }
           }
         },
@@ -693,10 +693,10 @@
             },
             "lines": {
               "ru": "Перегрев через 21 выстрелов непрерывной стрельбы",
-              "en": "Overheats after 21 consecutive shots",
+              "en": "Overheat after 21 shots of continuous fire",
               "es": "Se sobrecalienta tras 21 disparos de fuego continuo",
               "fr": "Surchauffe après 21 coups en feu continu",
-              "ko": "21발 연속 발포 후 과열"
+              "ko": "연속된 발포로 21발 후 과열"
             }
           }
         }
@@ -720,10 +720,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 93.8,
-      "damageDecreaseStart": 40,
-      "endDamage": 93.8,
-      "damageDecreaseEnd": 80,
+      "startDamage": 105,
+      "damageDecreaseStart": 30,
+      "endDamage": 103.5,
+      "damageDecreaseEnd": 90,
       "maxDistance": 210
     }
   ]

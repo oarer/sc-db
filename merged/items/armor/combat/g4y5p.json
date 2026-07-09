@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/armor/kz3a/kz3a.glb",
-    "diff": "models/armor/kz3a/kz3a_diff.dds",
-    "nrm": "models/armor/kz3a/kz3a_nrm.dds",
-    "emi": "models/armor/kz3a/kz3a_emi.dds",
-    "spek": "models/armor/kz3a/kz3a_spek.dds"
-  },
   "id": "g4y5p",
   "category": "armor/combat",
   "name": {
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -266,7 +259,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
+              "ko": "총탄 보호율"
             }
           },
           "value": [
@@ -301,7 +294,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
+              "ko": "열상 보호율"
             }
           },
           "value": 156,
@@ -328,7 +321,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 저항율"
+              "ko": "폭발 보호율"
             }
           },
           "value": 116,
@@ -352,10 +345,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Electricity resistance",
+              "en": "Resistance to electricity",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 저항율"
+              "ko": "전기 보호율"
             }
           },
           "value": 90,
@@ -379,10 +372,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Fire resistance",
+              "en": "Resistance to fire",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 저항율"
+              "ko": "화염 보호율"
             }
           },
           "value": 90,
@@ -406,7 +399,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Chemical resistance",
+              "en": "Resistance to chemicals",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -436,7 +429,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 보호"
+              "ko": "방사능 저항"
             }
           },
           "value": 160,
@@ -463,7 +456,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 보호"
+              "ko": "열 저항"
             }
           },
           "value": 60,
@@ -490,7 +483,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 보호"
+              "ko": "생체 감염 저항"
             }
           },
           "value": 150,
@@ -517,7 +510,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 에미션 보호"
+              "ko": "정신파 방사물 저항"
             }
           },
           "value": 60,
@@ -544,7 +537,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 보호"
+              "ko": "출혈 저항"
             }
           },
           "value": 55,
@@ -628,7 +621,7 @@
         "args": {},
         "lines": {
           "ru": "«КЗ-3а» — костюм третьего поколения серии «КЗ», совместивший в себе все необходимое для начинающего сталкера. Повышенная аномальная защита вкупе с неплохим уровнем бронирования и проработанной эргономикой делает этот костюм одним из лучших в своем ценовом сегменте.",
-          "en": "CD-3a is a third-generation suit from the CD series that combines everything a newbie stalker needs. Increased anomalous protection combined with a decent level of armor and refined ergonomics makes this suit one of the best in its price range.",
+          "en": "CD-3a is the third generation suit from the CD series, combining everything necessary for a newbie stalker. Increased anomalous protection combined with a decent level of armor and well-developed ergonomics makes this suit one of the best in its price range.",
           "es": "DC-3a es un traje de tercera generación de la serie DC, que combina todo lo necesario para un acechador principiante. La protección anómala mejorada junto con un buen nivel de blindaje y ergonomía bien diseñada hace de este traje uno de los mejores en su rango de precios.",
           "fr": "CP-3a — la troisième génération de la série CP. Cette combinaison offre tout le nécessaire pour un stalker débutant : une bonne protection contre les anomalies, un blindage correct et une ergonomie travaillée, faisant d'elle l'une des meilleures options dans sa catégorie.",
           "ko": "CD-3a는 CD 시리즈의 3세대 슈트로, 초보 스토커에게 필요한 모든 요소를 결합했습니다. 향상된 이상 현상 보호력과 충분한 장갑 수준, 잘 갖춰진 인체공학적 설계가 더해져, 이 슈트는 동급 가격대에서 최고의 선택 중 하나로 평가됩니다."

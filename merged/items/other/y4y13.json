@@ -13,7 +13,7 @@
       "ko": "디감마 조의 추적 장치"
     }
   },
-  "color": "RANK_MASTER",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_DROP_ON_GET"
   },
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.master",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Мастер",
-              "en": "Master",
-              "es": "Maestro",
-              "fr": "Maître",
-              "ko": "마스터"
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
             }
           }
         },
@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -75,7 +75,7 @@
               "en": "Other",
               "es": "Otros",
               "fr": "Autre",
-              "ko": "분류 없음"
+              "ko": "기타"
             }
           }
         },
@@ -179,7 +179,7 @@
           "en": "Digamma Group tracker, left behind at the site of an anomalous signal.",
           "es": "Rastreador del grupo digamma abandonado en la ubicación de una señal anómala.",
           "fr": "Traceur du Groupe Digamma, laissé sur le site d'un signal anormal.",
-          "ko": "이상 신호가 있는 현장에 남겨진 디감마 조의 추적 장치이다."
+          "ko": "이상 신호가 있는 현장에 남겨진 디감마 편조의 추적 장치이다."
         }
       }
     }

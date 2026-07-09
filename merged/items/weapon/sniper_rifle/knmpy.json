@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            35.5,
-            35.77058,
-            36.041157,
-            36.31174,
-            36.582317,
-            37.394054,
-            37.799923,
-            38.205795,
-            38.61166,
-            39.01753,
-            40.208076,
-            40.803352,
-            41.39863,
-            41.993904,
-            42.589176,
-            44.375
+            34.5,
+            34.76296,
+            35.025913,
+            35.28887,
+            35.551826,
+            36.340702,
+            36.735138,
+            37.129574,
+            37.52401,
+            37.918446,
+            39.075455,
+            39.65396,
+            40.23247,
+            40.810978,
+            41.38948,
+            43.125
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -321,7 +321,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 유효 사거리"
+              "ko": "최대 사거리"
             }
           },
           "value": 170,
@@ -348,7 +348,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "연사 속도"
+              "ko": "발사 속도"
             }
           },
           "value": 600,
@@ -399,7 +399,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical reload",
+              "en": "Tactical Reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -426,7 +426,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon ergonomics",
+              "en": "Weapon Ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -486,14 +486,14 @@
               "ko": "비조준 사격 탄퍼짐"
             }
           },
-          "value": 3,
+          "value": 4,
           "formatted": {
             "value": {
-              "ru": "3°",
-              "en": "3°",
-              "es": "3°",
-              "fr": "3°",
-              "ko": "3°"
+              "ru": "4°",
+              "en": "4°",
+              "es": "4°",
+              "fr": "4°",
+              "ko": "4°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -693,10 +693,10 @@
             },
             "lines": {
               "ru": "Перегрев через 51 выстрелов непрерывной стрельбы",
-              "en": "Overheats after 51 consecutive shots",
+              "en": "Overheat after 51 shots of continuous fire",
               "es": "Se sobrecalienta tras 51 disparos de fuego continuo",
               "fr": "Surchauffe après 51 coups en feu continu",
-              "ko": "51발 연속 발포 후 과열"
+              "ko": "연속된 발포로 51발 후 과열"
             }
           }
         }
@@ -720,10 +720,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 35.5,
+      "startDamage": 34.5,
       "damageDecreaseStart": 30,
       "endDamage": 32.8,
-      "damageDecreaseEnd": 80,
+      "damageDecreaseEnd": 70,
       "maxDistance": 170
     },
     {

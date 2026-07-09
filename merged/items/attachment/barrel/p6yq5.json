@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -293,7 +293,7 @@
               "en": "TDI KRISS Vector",
               "es": "TDI KRISS Vector",
               "fr": "TDI KRISS Vector",
-              "ko": "TDI KRISS 벡터"
+              "ko": "TDI KRISS Vector"
             }
           }
         },
@@ -361,21 +361,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.mpx.name",
-            "args": {},
-            "lines": {
-              "ru": "SIG MPX",
-              "en": "SIG MPX",
-              "es": "SIG MPX",
-              "fr": "SIG MPX",
-              "ko": "SIG MPX"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.ak15.name",
             "args": {},
             "lines": {
@@ -398,7 +383,7 @@
               "en": "QBZ-191 Thunderbird",
               "es": "QBZ-191 Petrel",
               "fr": "QBZ-191 L'Oiseau-Tonnerre",
-              "ko": "QBZ-191 부레베스트니크"
+              "ko": "QBZ-191 [부레베스트니크]"
             }
           }
         },
@@ -489,21 +474,6 @@
               "es": "HK MP7A2",
               "fr": "HK MP7A2",
               "ko": "HK MP7A2"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.honeybadger.name",
-            "args": {},
-            "lines": {
-              "ru": "AAC Honey Badger",
-              "en": "AAC Honey Badger",
-              "es": "Honey Badger",
-              "fr": "AAC Honey Badger",
-              "ko": "AAC Honey Badger"
             }
           }
         },
@@ -729,21 +699,6 @@
               "es": "DSA RPD",
               "fr": "DSA RPD",
               "ko": "DSA RPD"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.m60.name",
-            "args": {},
-            "lines": {
-              "ru": "M60E4",
-              "en": "M60E4",
-              "es": "M60E4",
-              "fr": "M60E4",
-              "ko": "M60E4"
             }
           }
         },
@@ -1073,7 +1028,7 @@
               "en": "CheyTac M200 Intervention",
               "es": "CheyTac M200 Intervention",
               "fr": "CheyTac M200 Intervention",
-              "ko": "샤이텍 M200 인터벤션"
+              "ko": "CheyTac M200 Intervention"
             }
           }
         },
@@ -1441,6 +1396,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.mpx.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG MPX",
+              "en": "SIG MPX",
+              "es": "SIG MPX",
+              "fr": "SIG MPX",
+              "ko": "SIG MPX"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.aug9xs.name",
             "args": {},
             "lines": {
@@ -1464,21 +1434,6 @@
               "es": "SIG 516",
               "fr": "SIG 516",
               "ko": "SIG 516"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.stg44.name",
-            "args": {},
-            "lines": {
-              "ru": "STG-44",
-              "en": "STG-44",
-              "es": "STG-44",
-              "fr": "STG-44",
-              "ko": "STG-44"
             }
           }
         },
@@ -1550,9 +1505,9 @@
             "args": {},
             "lines": {
               "ru": "Steyr AUG 9mm",
-              "en": "Steyr AUG 9mm",
-              "es": "Steyr AUG 9mm",
-              "fr": "Steyr AUG 9mm",
+              "en": "Steyr AUG 9 mm",
+              "es": "Steyr AUG 9 mm",
+              "fr": "Steyr AUG 9 mm",
               "ko": "슈타이어 AUG 9mm"
             }
           }
@@ -1643,7 +1598,7 @@
               "en": "Steyr AUG A3",
               "es": "Steyr AUG A3",
               "fr": "Steyr AUG A3",
-              "ko": "슈타이어 AUG A3"
+              "ko": "Steyr AUG A3"
             }
           }
         },
@@ -1673,7 +1628,7 @@
               "en": "SIG SG 550 Sniper",
               "es": "Francotirador SIG SG 550",
               "fr": "SIG SG 550 Sniper",
-              "ko": "SIG SG 550 스나이퍼"
+              "ko": "SIG SG 550 저격수"
             }
           }
         },
@@ -1835,10 +1790,10 @@
             "args": {},
             "lines": {
               "ru": "СР-1-10",
-              "en": "SR-1-10",
-              "es": "SR-1-10",
-              "fr": "SR-1-10",
-              "ko": "SR-1-10"
+              "en": "SR-1-10mm",
+              "es": "SR-1 de 10 mm",
+              "fr": "SR-1-10 mm",
+              "ko": "SR-1-10mm"
             }
           }
         },
@@ -2419,11 +2374,11 @@
             "key": "item.wpn.vz68.name",
             "args": {},
             "lines": {
-              "ru": "Vz.68 Škorpion",
-              "en": "Vz.68 Scorpion",
-              "es": "Vz.68 Škorpion",
-              "fr": "Vz.68 Škorpion",
-              "ko": "Vz.68 Škorpion"
+              "ru": "Vz.68 Scorpion",
+              "en": "Vz.68 Škorpion",
+              "es": "Vz.68 Scorpion",
+              "fr": "Vz.68 Scorpion",
+              "ko": "Vz.68 스콜피온"
             }
           }
         },

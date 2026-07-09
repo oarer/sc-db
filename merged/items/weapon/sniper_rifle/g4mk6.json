@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -5.000001,
+          "value": -2.9999971,
           "formatted": {
             "value": {
-              "ru": "-5%",
-              "en": "-5%",
-              "es": "-5 %",
-              "fr": "-5%",
-              "ko": "-5%"
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3 %",
+              "fr": "-3%",
+              "ko": "-3%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            69.2,
-            69.72744,
-            70.254875,
-            70.78232,
-            71.30975,
-            72.89207,
-            73.68323,
-            74.47439,
-            75.26555,
-            76.0567,
-            78.37743,
-            79.537796,
-            80.698166,
-            81.858536,
-            83.0189,
-            86.5
+            77.5,
+            78.090706,
+            78.681404,
+            79.27211,
+            79.8628,
+            81.63491,
+            82.52096,
+            83.40701,
+            84.29307,
+            85.179115,
+            87.7782,
+            89.07774,
+            90.37729,
+            91.676834,
+            92.97637,
+            96.875
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -321,7 +321,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 유효 사거리"
+              "ko": "최대 사거리"
             }
           },
           "value": 180,
@@ -348,7 +348,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "연사 속도"
+              "ko": "발사 속도"
             }
           },
           "value": 200,
@@ -399,7 +399,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical reload",
+              "en": "Tactical Reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -426,7 +426,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon ergonomics",
+              "en": "Weapon Ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -646,14 +646,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.4"
+              "modifier": "1.25"
             },
             "lines": {
-              "ru": "Урон в голову: х1,4",
-              "en": "Headshot damage: x1.4",
-              "es": "Daño por disparo a la cabeza: x1,4",
-              "fr": "Dégât de tir à la tête : x1,4",
-              "ko": "헤드샷 피해: x1.4"
+              "ru": "Урон в голову: х1,25",
+              "en": "Headshot damage: x1.25",
+              "es": "Daño por disparo a la cabeza: x1,25",
+              "fr": "Dégât de tir à la tête : x1,25",
+              "ko": "헤드샷 피해: x1.25"
             }
           }
         },
@@ -693,10 +693,10 @@
             },
             "lines": {
               "ru": "Перегрев через 21 выстрелов непрерывной стрельбы",
-              "en": "Overheats after 21 consecutive shots",
+              "en": "Overheat after 21 shots of continuous fire",
               "es": "Se sobrecalienta tras 21 disparos de fuego continuo",
               "fr": "Surchauffe après 21 coups en feu continu",
-              "ko": "21발 연속 발포 후 과열"
+              "ko": "연속된 발포로 21발 후 과열"
             }
           }
         }
@@ -720,10 +720,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 69.2,
-      "damageDecreaseStart": 40,
-      "endDamage": 69.2,
-      "damageDecreaseEnd": 80,
+      "startDamage": 77.5,
+      "damageDecreaseStart": 30,
+      "endDamage": 76.3,
+      "damageDecreaseEnd": 90,
       "maxDistance": 180
     },
     {
@@ -738,10 +738,10 @@
         "args": {},
         "lines": {
           "ru": "Данный тип снайперской винтовки находится на рынке вооружений вот уже добрых полвека и за это время успел зарекомендовать себя как исключительно надежное и удобное в обращении оружие. В войсках она служит в основном для поражения удаленных целей, которые невозможно поразить из автомата, но сталкеры оценили СВД во многом за то, что пуля из нее позволяет пробить даже самую толстую шкуру мутанта или бронежилет.",
-          "en": "This sniper rifle has been on the arms market for a good half a century, establishing itself as an extremely reliable and easy-to-use weapon. In the military, it is used mainly to engage targets at distances beyond the effective range of an assault rifle. However, stalkers value the SVD primarily for its ability to penetrate even the thickest mutant skin or the toughest body armor.",
+          "en": "This type of sniper rifle has been on the arms market for a good half a century, and in that time it has established itself as an extremely reliable and easy-to-use weapon. In the military, it is used mainly for attacking distant targets that cannot be hit by an assault rifle. However, stalkers value the SVD primarily because bullets shot from it can penetrate even the thickest of mutant’s skin or the toughest body armor.",
           "es": "Este tipo de fusil de francotirador lleva en el mercado armamentístico más de medio siglo, y en ese tiempo se ha consolidado como un arma extremadamente fiable y fácil de usar. En el ejército, se utiliza principalmente para atacar objetivos distantes que no pueden ser alcanzados por un fusil de asalto. Sin embargo, los acechadores valoran el SVD sobre todo porque las balas disparadas con él pueden penetrar incluso la piel más gruesa de los mutantes o el chaleco antibalas más resistente.",
           "fr": "Ce type de fusil de précision est présent sur le marché de l'armement depuis un bon demi-siècle et s'est imposé au cours de cette période comme une arme extrêmement fiable et facile à utiliser. Dans l'armée, il est principalement utilisé pour attaquer des cibles lointaines qui ne peuvent pas être touchées par un fusil d'assaut. Cependant, les stalkers apprécient le SVD principalement parce que les balles tirées peuvent pénétrer même la peau la plus épaisse des mutants ou le gilet pare-balles le plus résistant.",
-          "ko": "무기 시장에서 반세기 동안 신뢰도와 그 편의성을 인정받아 왔다. 군에서는 돌격 소총으로 닿지 않는 원거리 목표물을 제거할 때 주로 쓰인다. 스토커들이 이 무기를 진짜로 아끼는 이유는 따로 있다. SVD의 탄환은 돌연변이의 두꺼운 가죽이든, 인간의 강철 방어구든 그대로 꿰뚫어버리기 때문이다."
+          "ko": "무기 시장에서 반세기 동안 신뢰도와 그 편의성을 인정받아 왔다. 군에서는 돌격 소총으로 닿지 않는 원거리 목표물을 제거할 때 주로 쓰인다. 스토커들이 이 무기를 진짜로 아끼는 이유는 따로 있다. SVD의 탄환은 돌연변이체의 두꺼운 가죽이든, 인간의 강철 방어구든 그대로 꿰뚫어버리기 때문이다."
         }
       }
     }

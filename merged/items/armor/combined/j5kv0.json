@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/armor/ao2/ao2.glb",
-    "diff": "models/armor/ao2/ao2_diff.dds",
-    "nrm": "models/armor/ao2/ao2_nrm.dds",
-    "emi": "models/armor/ao2/ao2_emi.dds",
-    "spek": "models/armor/ao2/ao2_spek.dds"
-  },
   "id": "j5kv0",
   "category": "armor/combined",
   "name": {
@@ -14,9 +7,9 @@
     "args": {},
     "lines": {
       "ru": "Костюм АО-2 «Странник»",
-      "en": "AH-2 Rover Suit",
-      "es": "Traje CA-2 Errante",
-      "fr": "Combinaison AH-2 Pèlerin",
+      "en": "AH-2 Nomad Suit",
+      "es": "Traje CA-2 Nómada",
+      "fr": "Combinaison AH-2 Nomade",
       "ko": "AH-2 방랑자 슈트"
     }
   },
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -320,7 +313,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
+              "ko": "총탄 보호율"
             }
           },
           "value": [
@@ -355,7 +348,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
+              "ko": "열상 보호율"
             }
           },
           "value": 45,
@@ -382,7 +375,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 저항율"
+              "ko": "폭발 보호율"
             }
           },
           "value": 37,
@@ -406,10 +399,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Electricity resistance",
+              "en": "Resistance to electricity",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 저항율"
+              "ko": "전기 보호율"
             }
           },
           "value": 90,
@@ -433,10 +426,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Fire resistance",
+              "en": "Resistance to fire",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 저항율"
+              "ko": "화염 보호율"
             }
           },
           "value": 90,
@@ -460,7 +453,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Chemical resistance",
+              "en": "Resistance to chemicals",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -490,7 +483,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 보호"
+              "ko": "방사능 저항"
             }
           },
           "value": 140,
@@ -517,7 +510,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 보호"
+              "ko": "열 저항"
             }
           },
           "value": 40,
@@ -544,7 +537,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 보호"
+              "ko": "생체 감염 저항"
             }
           },
           "value": 100,
@@ -571,7 +564,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 에미션 보호"
+              "ko": "정신파 방사물 저항"
             }
           },
           "value": 70,
@@ -598,7 +591,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 보호"
+              "ko": "출혈 저항"
             }
           },
           "value": 40,
@@ -685,7 +678,7 @@
           "en": "Further development of the suit series created by Research Institute 7 in collaboration with its subsidiary atelier.\\n\\n Like its predecessor, it combines the convenience needed by any stalker with decent protective features for its price segment.\\n\\n As can be easily noticed, Nomad would be more appropriately called a modification rather than full-fledged armor, which is why the AH-1 quickly disappeared from the market, being replaced by the next suit in the series.",
           "es": "La evolución de la serie de trajes creada por el Instituto de Investigación 7 en colaboración con su taller subsidiario.\\n\\n Al igual que su predecesor, combina la comodidad necesaria para cualquier acechador con buenas características de protección para su segmento de precio.\\n\\n Como se puede notar fácilmente, sería más apropiado llamar a Nómada una modificación más que una armadura completa, lo que llevó a que CA-1 rápidamente desapareciera del mercado, siendo desplazado por el siguiente traje de la serie.",
           "fr": "Développement ultérieur de la série de combinaisons conçue par l'Institut de Recherche 7 en coopération avec son atelier Horizon.\\n\\n Comme son prédécesseur, le  Nomade allie confort, essentiel pour tout stalker, et de bonnes caractéristiques de protection pour sa catégorie de prix.\\n\\n Cependant, il serait plus juste de qualifier le modèle AH-1 de modification que de véritable armure, ce qui explique pourquoi il disparut rapidement du marché, supplanté par le costume suivant de la série.",
-          "ko": "제 7 연구소이 자회사 작업장과 협력하여 만든 슈트 시리즈의 후속 개발 모델입니다.\\n\\n 전작과 마찬가지로, 모든 스토커에게 필요한 편리함과 가격대에 맞는 적절한 보호 기능을 결합했습니다.\\n\\n 쉽게 알 수 있듯, 노마드는 정식 장갑이라기보다 개조형이라고 부르는 것이 더 적절하며, 이 때문에 AH-1은 빠르게 시장에서 사라지고 시리즈의 다음 슈트로 대체되었습니다."
+          "ko": "연구소 7이 자회사 작업장과 협력하여 만든 슈트 시리즈의 후속 개발 모델입니다.\\n\\n 전작과 마찬가지로, 모든 스토커에게 필요한 편리함과 가격대에 맞는 적절한 보호 기능을 결합했습니다.\\n\\n 쉽게 알 수 있듯, 노마드는 정식 장갑이라기보다 개조형이라고 부르는 것이 더 적절하며, 이 때문에 AH-1은 빠르게 시장에서 사라지고 시리즈의 다음 슈트로 대체되었습니다."
         }
       }
     }

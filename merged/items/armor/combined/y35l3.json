@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/armor/spanner/spanner.glb",
-    "diff": "models/armor/spanner/spanner_diff.dds",
-    "nrm": "models/armor/spanner/spanner_nrm.dds",
-    "emi": "models/armor/spanner/spanner_emi.dds",
-    "spek": "models/armor/spanner/spanner_spek.dds"
-  },
   "id": "y35l3",
   "category": "armor/combined",
   "name": {
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -206,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -5,
+          "value": -6,
           "formatted": {
             "value": {
-              "ru": "-5%",
-              "en": "-5%",
-              "es": "-5 %",
-              "fr": "-5%",
-              "ko": "-5%"
+              "ru": "-6%",
+              "en": "-6%",
+              "es": "-6 %",
+              "fr": "-6%",
+              "ko": "-6%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -347,26 +340,26 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
+              "ko": "총탄 보호율"
             }
           },
           "value": [
-            183,
-            185.58878,
-            188.17755,
-            190.76633,
-            193.35512,
-            201.12148,
-            205.00464,
-            208.8878,
-            212.77097,
-            216.65413,
-            228.04477,
-            233.7401,
-            239.43542,
-            245.13074,
-            250.82607,
-            267.912
+            161,
+            163.39046,
+            165.78091,
+            168.17137,
+            170.56181,
+            177.73318,
+            181.31888,
+            184.90457,
+            188.49025,
+            192.07593,
+            202.59395,
+            207.85297,
+            213.11197,
+            218.37097,
+            223.62999,
+            239.407
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -382,17 +375,17 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
+              "ko": "열상 보호율"
             }
           },
-          "value": 131,
+          "value": 125,
           "formatted": {
             "value": {
-              "ru": "131",
-              "en": "131",
-              "es": "131",
-              "fr": "131",
-              "ko": "131"
+              "ru": "125",
+              "en": "125",
+              "es": "125",
+              "fr": "125",
+              "ko": "125"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -409,7 +402,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 저항율"
+              "ko": "폭발 보호율"
             }
           },
           "value": 121,
@@ -433,10 +426,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Electricity resistance",
+              "en": "Resistance to electricity",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 저항율"
+              "ko": "전기 보호율"
             }
           },
           "value": 570,
@@ -460,20 +453,20 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Fire resistance",
+              "en": "Resistance to fire",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 저항율"
+              "ko": "화염 보호율"
             }
           },
-          "value": 383,
+          "value": 225,
           "formatted": {
             "value": {
-              "ru": "383",
-              "en": "383",
-              "es": "383",
-              "fr": "383",
-              "ko": "383"
+              "ru": "225",
+              "en": "225",
+              "es": "225",
+              "fr": "225",
+              "ko": "225"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -487,20 +480,20 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Chemical resistance",
+              "en": "Resistance to chemicals",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
             }
           },
-          "value": 383,
+          "value": 225,
           "formatted": {
             "value": {
-              "ru": "383",
-              "en": "383",
-              "es": "383",
-              "fr": "383",
-              "ko": "383"
+              "ru": "225",
+              "en": "225",
+              "es": "225",
+              "fr": "225",
+              "ko": "225"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -517,7 +510,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 보호"
+              "ko": "방사능 저항"
             }
           },
           "value": 300,
@@ -544,7 +537,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 보호"
+              "ko": "열 저항"
             }
           },
           "value": 200,
@@ -571,7 +564,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 보호"
+              "ko": "생체 감염 저항"
             }
           },
           "value": 300,
@@ -598,17 +591,17 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 에미션 보호"
+              "ko": "정신파 방사물 저항"
             }
           },
-          "value": 260,
+          "value": 240,
           "formatted": {
             "value": {
-              "ru": "260",
-              "en": "260",
-              "es": "260",
-              "fr": "260",
-              "ko": "260"
+              "ru": "240",
+              "en": "240",
+              "es": "240",
+              "fr": "240",
+              "ko": "240"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -625,7 +618,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 보호"
+              "ko": "출혈 저항"
             }
           },
           "value": 40,
@@ -712,7 +705,7 @@
           "en": "Artisanal modification of AH-4, crafted by the craftsmen of the Black Market.\\n\\n The reinforced anomalous protection suit can be considered one of the experiments by the Zone's masters, created by some inexplicable intuition.\\n\\n No one can say for sure why the Baron's mechanics decided to focus so much on protection against electricity. However, due to a makeshift protective system working on the principle of a Faraday cage, it provides an extremely high level of protection against electric discharges. Nonetheless, this kind of protection required sacrificing the suit's mobility, which is why Spanner did not gain much popularity.",
           "es": "Una modificación artesanal del CA-4 realizada por los artesanos del Mercado Negro.\\nEl traje reforzado de protección contra anomalías puede considerarse uno de los experimentos de los maestros de la Zona, creado por alguna inspiración inexplicable.\\nNadie puede decir con certeza por qué los mecánicos de Barón decidieron enfocarse tanto en la protección contra la electricidad, pero gracias a un sistema de protección hecho en casa, que funciona según el principio de la jaula de Faraday, se logra un nivel de protección extremadamente alto contra descargas eléctricas. Sin embargo, por esta protección, el traje sacrificó su movilidad, por lo que Llave inglesa no ganó mucha popularidad.",
           "fr": "Modification artisanale du modèle AH-4, réalisée par les techniciens du Marché Noir.\\n\\nCe costume renforcé de protection anormale est l'un des curieux essais des artisans de la Zone, conçu selon une inspiration difficile à expliquer.\\n\\nPersonne ne sait vraiment pourquoi les mécaniciens de Baron ont mis l'accent sur la protection contre l'électricité, mais grâce à un système artisanal basé sur le principe de la cage de Faraday, la Clé offre une excellente résistance aux décharges. Cependant, cette protection accrue s'est faite au détriment de la mobilité, ce qui explique la popularité limitée du modèle.",
-          "ko": "블랙 마켓의 장인들이 제작한 AH-4의 수공예 개조형.\\n\\n 강화된 이 이상 보호 슈트는 구역의 장인들이 불가사의한 직관에 따라 만들어낸 실험적 산물 중 하나로 평가됩니다.\\n\\n 바론의 기술자들이 왜 전기 방호에 그렇게 집중했는지는 아무도 정확히 알지 못합니다. 그러나 임시로 구성된 파라데이 케이지 원리 기반의 보호 시스템 덕분에, 이 슈트는 전기 방전에 대해 매우 높은 수준의 방호력을 제공합니다. 다만 이러한 방호 성능을 위해 기동성을 희생해야 했기에, 스패너는 큰 인기를 얻지 못했습니다."
+          "ko": "블랙 마켓의 장인들이 제작한 AH-4의 수공 개조형.\\n\\n 강화된 이 이상 보호 슈트는 구역의 장인들이 불가사의한 직관에 따라 만들어낸 실험적 산물 중 하나로 평가됩니다.\\n\\n 바론의 기술자들이 왜 전기 방호에 그렇게 집중했는지는 아무도 정확히 알지 못합니다. 그러나 임시로 구성된 파라데이 케이지 원리 기반의 보호 시스템 덕분에, 이 슈트는 전기 방전에 대해 매우 높은 수준의 방호력을 제공합니다. 다만 이러한 방호 성능을 위해 기동성을 희생해야 했기에, 스패너는 큰 인기를 얻지 못했습니다."
         }
       }
     }

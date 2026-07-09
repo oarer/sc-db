@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/backpacks/bag_placeholders/light4.glb",
-    "diff": "models/backpacks/bag_placeholders/sack_diff.dds",
-    "nrm": "models/backpacks/bag_placeholders/sack_nrm.dds",
-    "emi": "models/backpacks/bag_placeholders/sack_emi.dds",
-    "spek": "models/backpacks/bag_placeholders/sack_spek.dds"
-  },
   "id": "dkln",
   "category": "backpacks",
   "name": {
@@ -14,7 +7,7 @@
     "args": {},
     "lines": {
       "ru": "Разгрузка ADR-WRBT",
-      "en": "Utility Vest ADR-WRBT",
+      "en": "Utility vest ADR-WRBT",
       "es": "Cinturón ADR-WRBT",
       "fr": "Gilet utilitaire ADR-WRBT",
       "ko": "유틸리티 조끼 ADR-WRBT"
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -261,14 +254,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": 6.2,
+          "value": 5.7,
           "formatted": {
             "value": {
-              "ru": "6,2%",
-              "en": "6.2%",
-              "es": "6,2 %",
-              "fr": "6,2%",
-              "ko": "6.2%"
+              "ru": "5,7%",
+              "en": "5.7%",
+              "es": "5,7 %",
+              "fr": "5,7%",
+              "ko": "5.7%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -288,14 +281,14 @@
               "ko": "최대 운반 무게"
             }
           },
-          "value": 40,
+          "value": 35,
           "formatted": {
             "value": {
-              "ru": "40",
-              "en": "40",
-              "es": "40",
-              "fr": "40",
-              "ko": "40"
+              "ru": "35",
+              "en": "35",
+              "es": "35",
+              "fr": "35",
+              "ko": "35"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -315,7 +308,7 @@
         "args": {},
         "lines": {
           "ru": "Данный предмет имеет ВРЕМЕННУЮ модель, которая будет заменена.",
-          "en": "This item currently uses a TEMPORARY model that will be replaced.",
+          "en": "This item has a TEMPORARY model, which will be replaced.",
           "es": "Este objeto tiene un modelo TEMPORAL que será sustituido.",
           "fr": "Cet objet possède un modèle TEMPORAIRE, qui sera remplacé.",
           "ko": "해당 아이템은 임시 모델로 제공되었으며, 향후 교체될 것입니다."

@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -1.9999981,
+          "value": -2.9999971,
           "formatted": {
             "value": {
-              "ru": "-2%",
-              "en": "-2%",
-              "es": "-2 %",
-              "fr": "-2%",
-              "ko": "-2%"
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3 %",
+              "fr": "-3%",
+              "ko": "-3%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            40.6,
-            40.90945,
-            41.2189,
-            41.528355,
-            41.837803,
-            42.76616,
-            43.23033,
-            43.69451,
-            44.158688,
-            44.622864,
-            45.984447,
-            46.66524,
-            47.346035,
-            48.02683,
-            48.70762,
-            50.75
+            43.9,
+            44.234608,
+            44.56921,
+            44.903812,
+            45.238415,
+            46.24223,
+            46.744133,
+            47.24604,
+            47.747944,
+            48.249847,
+            49.722103,
+            50.458233,
+            51.194363,
+            51.930492,
+            52.66662,
+            54.875
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -321,7 +321,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 유효 사거리"
+              "ko": "최대 사거리"
             }
           },
           "value": 180,
@@ -348,7 +348,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "연사 속도"
+              "ko": "발사 속도"
             }
           },
           "value": 600,
@@ -399,7 +399,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical reload",
+              "en": "Tactical Reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -426,7 +426,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon ergonomics",
+              "en": "Weapon Ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -459,14 +459,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.3499999,
+          "value": 0.4000001,
           "formatted": {
             "value": {
-              "ru": "0,35°",
-              "en": "0.35°",
-              "es": "0,35°",
-              "fr": "0,35°",
-              "ko": "0.35°"
+              "ru": "0,4°",
+              "en": "0.4°",
+              "es": "0,4°",
+              "fr": "0,4°",
+              "ko": "0.4°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -646,14 +646,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.4"
+              "modifier": "1.25"
             },
             "lines": {
-              "ru": "Урон в голову: х1,4",
-              "en": "Headshot damage: x1.4",
-              "es": "Daño por disparo a la cabeza: x1,4",
-              "fr": "Dégât de tir à la tête : x1,4",
-              "ko": "헤드샷 피해: x1.4"
+              "ru": "Урон в голову: х1,25",
+              "en": "Headshot damage: x1.25",
+              "es": "Daño por disparo a la cabeza: x1,25",
+              "fr": "Dégât de tir à la tête : x1,25",
+              "ko": "헤드샷 피해: x1.25"
             }
           }
         },
@@ -663,14 +663,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.9"
+              "modifier": "0.8"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,9",
-              "en": "Limb damage: x0.9",
-              "es": "Daño a extremidades: x0,9",
-              "fr": "Dégât aux membres : x0,9",
-              "ko": "사지 피해: x0.9"
+              "ru": "Урон по конечностям: х0,8",
+              "en": "Limb damage: x0.8",
+              "es": "Daño a extremidades: x0,8",
+              "fr": "Dégât aux membres : x0,8",
+              "ko": "사지 피해: x0.8"
             }
           }
         }
@@ -693,10 +693,10 @@
             },
             "lines": {
               "ru": "Перегрев через 36 выстрелов непрерывной стрельбы",
-              "en": "Overheats after 36 consecutive shots",
+              "en": "Overheat after 36 shots of continuous fire",
               "es": "Se sobrecalienta tras 36 disparos de fuego continuo",
               "fr": "Surchauffe après 36 coups en feu continu",
-              "ko": "36발 연속 발포 후 과열"
+              "ko": "연속된 발포로 36발 후 과열"
             }
           }
         }
@@ -720,10 +720,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 40.6,
-      "damageDecreaseStart": 28,
-      "endDamage": 34.1,
-      "damageDecreaseEnd": 82,
+      "startDamage": 43.9,
+      "damageDecreaseStart": 18,
+      "endDamage": 34.2,
+      "damageDecreaseEnd": 62,
       "maxDistance": 180
     },
     {
@@ -738,7 +738,7 @@
         "args": {},
         "lines": {
           "ru": "Немецкая автоматическая винтовка, принятая на вооружение армией ФРГ в 1959 году.",
-          "en": "An assault rifle that entered into service in the Federal Republic of Germany in 1959.",
+          "en": "A German assault rifle entered into service by the Federal Republic of Germany in 1959.",
           "es": "Un fusil de asalto alemán puesto en servicio por la República Federal de Alemania en 1959.",
           "fr": "Fusil d'assaut allemand mis en service par la République fédérale d'Allemagne en 1959.",
           "ko": "1959년 서독에 의해 실전 투입된 독일산 돌격 소총이다."

@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/armor/polar/polar.glb",
-    "diff": "models/armor/polar/polar_diff.dds",
-    "nrm": "models/armor/polar/polar_nrm.dds",
-    "emi": "models/armor/polar/polar_emi.dds",
-    "spek": "models/armor/polar/polar_spek.dds"
-  },
   "id": "96npy",
   "category": "armor/combined",
   "name": {
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -254,10 +247,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от холода",
-              "en": "Frost Protection",
+              "en": "Frost protection",
               "es": "Protección contra congelación",
               "fr": "Protection contre le gel",
-              "ko": "서리 보호"
+              "ko": "냉기 저항"
             }
           },
           "value": 40,
@@ -293,7 +286,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
+              "ko": "총탄 보호율"
             }
           },
           "value": [
@@ -327,7 +320,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
+              "ko": "열상 보호율"
             }
           },
           "value": 37,
@@ -354,7 +347,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 저항율"
+              "ko": "폭발 보호율"
             }
           },
           "value": 20,
@@ -378,10 +371,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Electricity resistance",
+              "en": "Resistance to electricity",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 저항율"
+              "ko": "전기 보호율"
             }
           },
           "value": 15,
@@ -405,10 +398,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Fire resistance",
+              "en": "Resistance to fire",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 저항율"
+              "ko": "화염 보호율"
             }
           },
           "value": 15,
@@ -432,7 +425,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Chemical resistance",
+              "en": "Resistance to chemicals",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -462,7 +455,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 보호"
+              "ko": "방사능 저항"
             }
           },
           "value": 50,
@@ -489,7 +482,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 보호"
+              "ko": "열 저항"
             }
           },
           "value": 30,
@@ -516,7 +509,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 보호"
+              "ko": "생체 감염 저항"
             }
           },
           "value": 50,
@@ -543,7 +536,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 에미션 보호"
+              "ko": "정신파 방사물 저항"
             }
           },
           "value": 0,
@@ -570,7 +563,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 보호"
+              "ko": "출혈 저항"
             }
           },
           "value": 25,
@@ -654,10 +647,10 @@
         "args": {},
         "lines": {
           "ru": "Многие сталкеры и бандиты терпеть не могут зиму в Зоне из-за ее резких смен температуры и Буранов, периодически накрывающий территорию ЧЗО в зимнее время года.\\n\\n И хотя обыкновенный пуховик вряд ли решит проблему обморожения, утепленный дополнительным слоем синтепона «Полярник» позволит хотя бы не замерзнуть в первые секунды за дверьми Бара.",
-          "en": "Many stalkers and bandits cannot stand winter in the Zone due to brutal temperature changes and Blizzards that periodically sweep across the CEZ.\\n\\nAnd although an ordinary down jacket is unlikely to solve the frostbite problem, the Arctic Explorer, padded with an extra layer of synthetic insulation, will at least keep you from freezing the moment you step outside the Bar.",
+          "en": "Many stalkers and bandits cannot stand winter in the Zone due to its sharp temperature changes and Blizzrds that periodically cover the CEZ during the winter season.\\n\\n And although an ordinary down jacket is unlikely to solve the problem of frostbite, Arctic Explorer, insulated with an additional layer of synthetic padding, will at least prevent freezing in the first moments outside the Bar's doors.",
           "es": "Muchos acechadores y bandidos no soportan el invierno en la Zona debido a sus cambios bruscos de temperatura y a las ventiscas que ocasionalmente cubren la ZEC en invierno.\\n\\n Y aunque un abrigo de plumas normal probablemente no resuelva el problema de congelación, Explorador ártico con una capa adicional de acolchado permite al menos no congelarse en los primeros segundos al salir del Bar.",
           "fr": "Nombre de stalkers et de bandits détestent l'hiver dans la Zone, à cause de ses brusques changements de température et des tempêtes de blizzards qui balaient périodiquement le territoire du Périmètre.\\n\\nBien qu'une simple doudoune ne suffise pas à éviter les engelures, l'Explorateur polaire, renforcé d'une couche supplémentaire de ouate synthétique, permet au moins de ne pas geler dès les premières secondes hors du Bar.",
-          "ko": "급격한 기온 변화와 주기적으로 체르노빌 금지 구역을 덮치는 눈보라 때문에, 많은 스토커와 밴디트들이 구역의 겨울을 끔찍이도 싫어합니다.\\n\\n 평범한 패딩 점퍼 따위로는 동상을 막기에 역부족이겠지만, 합성 솜을 한 겹 더 껴넣은 '극지 탐험가'라면 최소한 술집의 문을 나서는 순간 얼어 죽는 일은 면하게 해줄 것입니다."
+          "ko": "많은 스토커와 밴디트들은 겨울철 구역의 급격한 기온 변화와 주기적으로 불어닥치는 눈보라 때문에 그곳의 겨울을 견디지 못한다.\\n\\n 보통의 패딩 점퍼로는 동상을 막기 어렵지만, 추가 합성 보온층으로 단열된 극지 탐험가는 적어도 술집 문을 나서는 첫 순간의 혹한으로부터는 몸을 얼지 않게 지켜줄 것이다."
         }
       }
     }

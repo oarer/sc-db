@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -199,7 +199,7 @@
             "args": {},
             "lines": {
               "ru": "Выстрел гранатометный «Завеса»",
-              "en": "Veil Grenade Round",
+              "en": "Veil grenade launcher shot",
               "es": "Disparo de lanzagranadas Velo",
               "fr": "Tir du lance-grenades Voile",
               "ko": "장막 유탄 발사체"
@@ -214,7 +214,7 @@
             "args": {},
             "lines": {
               "ru": "Выстрел гранатометный «Искра»",
-              "en": "Spark Grenade Round",
+              "en": "Spark grenade launcher shot",
               "es": "Disparo de lanzagranadas Chispa",
               "fr": "Tir du lance-grenades Étincelle",
               "ko": "스파크 유탄 발사체"
@@ -229,10 +229,40 @@
             "args": {},
             "lines": {
               "ru": "Выстрел гранатометный «Напалм»",
-              "en": "Napalm Grenade Round",
+              "en": "Napalm grenade launcher shot",
               "es": "Disparo de lanzagranadas Napalm",
               "fr": "Tir au lance-grenades Napalm",
               "ko": "네이팜 유탄 발사체"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.m381_ffa_snowstorm.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный «Вьюга»",
+              "en": "Snowstorm grenade launcher shot",
+              "es": "Disparo de lanzagranadas Tormenta de nieve",
+              "fr": "Tir au lance-grenades Tempête de neige",
+              "ko": "폭설 유탄 발사체"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.m381_ffa_stunner.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный «Гудрон»",
+              "en": "Tar grenade launcher shot",
+              "es": "Disparo de lanzagranadas Alquitrán",
+              "fr": "Tir de lance-grenades Goudron",
+              "ko": "타르 유탄 발사체"
             }
           }
         },
@@ -244,10 +274,25 @@
             "args": {},
             "lines": {
               "ru": "Выстрел гранатометный «Подорожник»",
-              "en": "Plantain Grenade Round",
+              "en": "Plantain grenade launcher shot",
               "es": "Disparo de lanzagranadas Plantago",
               "fr": "Tir au lance-grenades Plantain",
               "ko": "플랜테인 유탄 발사체"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "item.exp.m381_ffa_sickness.name",
+            "args": {},
+            "lines": {
+              "ru": "Выстрел гранатометный «Хворь»",
+              "en": "Sickness grenade launcher shot",
+              "es": "Disparo de lanzagranadas Enfermedad",
+              "fr": "Tir de lance-grenades Maladie",
+              "ko": "질병 유탄 발사체"
             }
           }
         },
@@ -259,7 +304,7 @@
             "args": {},
             "lines": {
               "ru": "Выстрел гранатометный «Вонючка»",
-              "en": "Stinky Grenade Round",
+              "en": "Stinky grenade launcher shot",
               "es": "Disparo de lanzagranadas Apestoso",
               "fr": "Tir de lance-grenades Puantes",
               "ko": "악취 유탄 발사체"
@@ -312,11 +357,11 @@
             "key": "weapon.stat_factor.recoil",
             "args": {},
             "lines": {
-              "ru": "Верт. отдача",
-              "en": "Vertical recoil",
-              "es": "Retroceso vertical",
-              "fr": "Recul vertical",
-              "ko": "수직 반동"
+              "ru": "Отдача",
+              "en": "Recoil",
+              "es": "Retroceso",
+              "fr": "Recul",
+              "ko": "반동"
             }
           },
           "value": -4.2,
@@ -454,14 +499,14 @@
               "ko": "안정성"
             }
           },
-          "value": 9.599924,
+          "value": 19.199848,
           "formatted": {
             "value": {
-              "ru": "+9,6%",
-              "en": "+9.6%",
-              "es": "+9,6 %",
-              "fr": "+9,6%",
-              "ko": "+9.6%"
+              "ru": "+19,2%",
+              "en": "+19.2%",
+              "es": "+19,2 %",
+              "fr": "+19,2%",
+              "ko": "+19.2%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

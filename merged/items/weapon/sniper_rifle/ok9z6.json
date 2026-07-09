@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -200,14 +200,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -5.000001,
+          "value": -2.9999971,
           "formatted": {
             "value": {
-              "ru": "-5%",
-              "en": "-5%",
-              "es": "-5 %",
-              "fr": "-5%",
-              "ko": "-5%"
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3 %",
+              "fr": "-3%",
+              "ko": "-3%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -264,22 +264,22 @@
             }
           },
           "value": [
-            81.3,
-            81.91967,
-            82.53933,
-            83.159,
-            83.778656,
-            85.63766,
-            86.56715,
-            87.49665,
-            88.42615,
-            89.355644,
-            92.08216,
-            93.44543,
-            94.80869,
-            96.17196,
-            97.53522,
-            101.625
+            90,
+            90.68598,
+            91.37195,
+            92.05793,
+            92.7439,
+            94.80183,
+            95.83079,
+            96.85976,
+            97.88872,
+            98.91768,
+            101.93597,
+            103.44512,
+            104.95427,
+            106.46342,
+            107.97256,
+            112.5
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -322,7 +322,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 유효 사거리"
+              "ko": "최대 사거리"
             }
           },
           "value": 210,
@@ -349,7 +349,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "연사 속도"
+              "ko": "발사 속도"
             }
           },
           "value": 250,
@@ -400,7 +400,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical reload",
+              "en": "Tactical Reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -427,7 +427,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon ergonomics",
+              "en": "Weapon Ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -647,14 +647,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.4"
+              "modifier": "1.25"
             },
             "lines": {
-              "ru": "Урон в голову: х1,4",
-              "en": "Headshot damage: x1.4",
-              "es": "Daño por disparo a la cabeza: x1,4",
-              "fr": "Dégât de tir à la tête : x1,4",
-              "ko": "헤드샷 피해: x1.4"
+              "ru": "Урон в голову: х1,25",
+              "en": "Headshot damage: x1.25",
+              "es": "Daño por disparo a la cabeza: x1,25",
+              "fr": "Dégât de tir à la tête : x1,25",
+              "ko": "헤드샷 피해: x1.25"
             }
           }
         },
@@ -694,10 +694,10 @@
             },
             "lines": {
               "ru": "Перегрев через 21 выстрелов непрерывной стрельбы",
-              "en": "Overheats after 21 consecutive shots",
+              "en": "Overheat after 21 shots of continuous fire",
               "es": "Se sobrecalienta tras 21 disparos de fuego continuo",
               "fr": "Surchauffe après 21 coups en feu continu",
-              "ko": "21발 연속 발포 후 과열"
+              "ko": "연속된 발포로 21발 후 과열"
             }
           }
         }
@@ -721,10 +721,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 81.3,
-      "damageDecreaseStart": 40,
-      "endDamage": 81.3,
-      "damageDecreaseEnd": 80,
+      "startDamage": 90,
+      "damageDecreaseStart": 30,
+      "endDamage": 85,
+      "damageDecreaseEnd": 90,
       "maxDistance": 210
     },
     {
@@ -739,7 +739,7 @@
         "args": {},
         "lines": {
           "ru": "Оружие улучшено в мастерской Арсенала",
-          "en": "Weapon upgraded in the Arsenal Workshop",
+          "en": "Weapon improved in the Arsenals Workshop",
           "es": "Weapon improved in the Arsenals Workshop",
           "fr": "Arme améliorée dans l'Atelier d'Arsenal",
           "ko": "아스널 작업장에서 개량된 무기"
@@ -761,7 +761,7 @@
           "en": "A self-loading sniper rifle developed by a well-known arms company. The rifle's design takes into account modern ergonomic requirements for weapons of this class, accommodating individual shooters' characteristics and their ability to use a wide range of combat gear.",
           "es": "Un fusil de francotirador semiautomático, desarrollado por un conocido fabricante de armas. El diseño del rifle se ha creado teniendo en cuenta los requisitos modernos de la ergonomía para armas de esta clase, lo que permite considerar las características individuales de los tiradores, así como sus posibilidades de utilizar una amplia gama de equipo de combate.",
           "fr": "Fusil de précision semi-automatique, conçu par le célèbre consortium d'armement. Sa conception prend en compte les exigences modernes d’ergonomie pour ce type d'arme, permettant de s'adapter aux préférences individuelles des tireurs et à une large gamme d’équipements de combat.",
-          "ko": "유명 무기 제조사에서 만든 자동 장전식 저격소총이다. 현대의 인체공학적 요건을 고려한 설계로 스나이퍼 개인의 특징과 역량에 맞춰 다양한 장비와 활용할 수 있다."
+          "ko": "유명 무기 제조사에서 만든 자동 장전식 저격소총이다. 현대의 인체공학적 요건을 고려한 설계로 저격수 개인의 특징과 역량에 맞춰 다양한 장비와 활용할 수 있다."
         }
       }
     }

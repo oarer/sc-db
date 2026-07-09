@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/backpacks/cont_getter/getter.glb",
-    "diff": "models/backpacks/cont_getter/getter_diff.dds",
-    "nrm": "models/backpacks/cont_getter/getter_nrm.dds",
-    "emi": "models/backpacks/cont_getter/getter_emi.dds",
-    "spek": "models/backpacks/cont_getter/getter_spek.dds"
-  },
   "id": "q194",
   "category": "containers",
   "name": {
@@ -17,7 +10,7 @@
       "en": "Forager Container",
       "es": "Contenedor Recolector",
       "fr": "Conteneur Fourrageur",
-      "ko": "약초꾼 컨테이너"
+      "ko": "약초꾼 보관함"
     }
   },
   "color": "RANK_VETERAN",
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -198,14 +191,14 @@
               "ko": "효율성"
             }
           },
-          "value": 113,
+          "value": 110,
           "formatted": {
             "value": {
-              "ru": "113%",
-              "en": "113%",
-              "es": "113 %",
-              "fr": "113%",
-              "ko": "113%"
+              "ru": "110%",
+              "en": "110%",
+              "es": "110 %",
+              "fr": "110%",
+              "ko": "110%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -288,10 +281,10 @@
         "args": {},
         "lines": {
           "ru": "Кустари Черного Рынка уверяют, что контейнер является полностью их разработкой. Парочка механиков, решивших проверить это заявление на прочность, разобрали «Добытчик», обнаружив в нем почти полный комплект деталей от НИИ-7, пересобранных в не самую тривиальную конструкцию с использованием дополнительной обшивки из аномальных материалов.",
-          "en": "Black Market artisans claim that the container is entirely their own development. A couple of mechanics, deciding to test this claim, dismantled a Forager and found almost a complete set of parts from Research Institute 7, reassembled into a rather unconventional construction with additional casing made of anomalous materials.",
+          "en": "Black Market artisan claim that the container is entirely their development. A couple of mechanics, deciding to test this claim, dismantled Forager and found almost a complete set of parts from Research Institute 7, reassembled into a rather unconventional construction using additional casing made of anomalous materials.",
           "es": "Los artesanos del Mercado Negro afirman que el contenedor es un desarrollo enteramente suyo. Un par de mecánicos, decididos a poner a prueba esta afirmación, desmontaron Recolector y encontraron un conjunto casi completo de piezas del Instituto de Investigación 7, reensambladas en una construcción bastante poco convencional utilizando una carcasa adicional fabricada con materiales anómalos.",
           "fr": "Les artisans du Marché Noir assurent que ce conteneur est leur création exclusive. Deux mécanos sceptiques ont décidé d'en avoir le cœur net : en démontant un exemplaire du Fourrageur, ils ont découvert qu'il contenait presque l'intégralité des composants issus de l'Institut de Recherche 7, réassemblés dans une configuration non triviale, avec un blindage supplémentaire fait de matériaux anormaux.",
-          "ko": "블랙 마켓 장인들은 이 컨테이너가 자신들의 순수 창작물이라고 주장합니다. 하지만 몇몇 정비공이 이 주장을 검증해보기 위해 포레저를 분해해 보니, 내부에는 제 7 연구소 부품 세트를 거의 그대로 가져와 특이한 구조로 재조립한 흔적과, 그 위에 이상현상적 재질로 된 외피가 덧씌워져 있었습니다."
+          "ko": "블랙 마켓 장인들은 이 컨테이너가 자신들의 순수 창작물이라고 주장합니다. 하지만 몇몇 정비공이 이 주장을 검증해보기 위해 포레저를 분해해 보니, 내부에는 제7연구소 부품 세트를 거의 그대로 가져와 특이한 구조로 재조립한 흔적과, 그 위에 이상현상적 재질로 된 외피가 덧씌워져 있었습니다."
         }
       }
     }

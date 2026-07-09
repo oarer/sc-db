@@ -36,7 +36,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -274,43 +274,15 @@
               "ko": "치유 효율"
             }
           },
-          "min": 3.91,
-          "max": 4.6,
+          "min": 4.59,
+          "max": 5.4,
           "formatted": {
             "value": {
-              "ru": "[+3,91%; +4,6%]",
-              "en": "[+3.91%; +4.6%]",
-              "es": "[+3,91 %; +4,6 %]",
-              "fr": "[+3,91%; +4,6%]",
-              "ko": "[+3.91%; +4.6%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Пулестойкость",
-              "en": "Bullet resistance",
-              "es": "Resistencia a las balas",
-              "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
-            }
-          },
-          "min": 2.21,
-          "max": 2.6,
-          "formatted": {
-            "value": {
-              "ru": "[+2,21; +2,6]",
-              "en": "[+2.21; +2.6]",
-              "es": "[+2,21; +2,6]",
-              "fr": "[+2,21; +2,6]",
-              "ko": "[+2.21; +2.6]"
+              "ru": "[+4,59%; +5,4%]",
+              "en": "[+4.59%; +5.4%]",
+              "es": "[+4,59 %; +5,4 %]",
+              "fr": "[+4,59%; +5,4%]",
+              "ko": "[+4.59%; +5.4%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -327,7 +299,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
+              "ko": "열상 보호율"
             }
           },
           "min": 11.05,
@@ -411,7 +383,7 @@
               "en": "Reaction to laceration",
               "es": "Reacción a la laceración",
               "fr": "Réaction aux lacérations",
-              "ko": "열상 대항"
+              "ko": "열상에 대항 능력"
             }
           },
           "min": 0.765,
@@ -517,12 +489,12 @@
               "fr": "Efficacité des soins"
             }
           },
-          "min": 1.36,
-          "max": 1.6,
+          "min": 1.48,
+          "max": 1.8,
           "formatted": {
             "value": {
-              "en": "[1.36%; 1.6%]",
-              "ru": "[1.36%; 1.6%]"
+              "en": "[1.48%; 1.8%]",
+              "ru": "[1.48%; 1.8%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/armor/kim_ametist/kim_ametist.glb",
-    "diff": "models/armor/kim_ametist/kim_ametist_diff.dds",
-    "nrm": "models/armor/kim_ametist/kim_ametist_nrm.dds",
-    "emi": "models/armor/kim_ametist/kim_ametist_emi.dds",
-    "spek": "models/armor/kim_ametist/kim_ametist_spek.dds"
-  },
   "id": "ok096",
   "category": "armor/scientist",
   "name": {
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -239,7 +232,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
+              "ko": "총탄 보호율"
             }
           },
           "value": [
@@ -274,7 +267,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
+              "ko": "열상 보호율"
             }
           },
           "value": 60,
@@ -301,7 +294,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 저항율"
+              "ko": "폭발 보호율"
             }
           },
           "value": 60,
@@ -325,10 +318,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Electricity resistance",
+              "en": "Resistance to electricity",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 저항율"
+              "ko": "전기 보호율"
             }
           },
           "value": 800,
@@ -352,10 +345,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Fire resistance",
+              "en": "Resistance to fire",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 저항율"
+              "ko": "화염 보호율"
             }
           },
           "value": 800,
@@ -379,7 +372,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Chemical resistance",
+              "en": "Resistance to chemicals",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -409,7 +402,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 보호"
+              "ko": "방사능 저항"
             }
           },
           "value": 395,
@@ -436,7 +429,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 보호"
+              "ko": "열 저항"
             }
           },
           "value": 380,
@@ -463,7 +456,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 보호"
+              "ko": "생체 감염 저항"
             }
           },
           "value": 395,
@@ -490,7 +483,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 에미션 보호"
+              "ko": "정신파 방사물 저항"
             }
           },
           "value": 400,
@@ -517,7 +510,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 보호"
+              "ko": "출혈 저항"
             }
           },
           "value": 30,
@@ -601,7 +594,7 @@
         "args": {},
         "lines": {
           "ru": "Одна из последних работ в серии «пакетов», созданный в попытке обеспечить носителя наибольшей возможной защитой от аномального воздействия.\\n\\n Как и прочие КИМы, «Аметист» сложно назвать хорошей броней для боестолкновения, но показатели аномальной защиты костюма вместе с дешевой сборкой позволяют комфортно исследовать любую архианомалию!",
-          "en": "One of the latest works in the \"foil\" series, created in an attempt to provide the wearer with the maximum possible protection against anomalous effects.\\n\\n Like other MISs, the Amethyst is hardly a good armor for combat encounters, but its anomalous protection ratings combined with an affordable build make it a comfortable choice for exploring any archianomaly!",
+          "en": "One of the latest works in the \"foil\" series, created in an attempt to provide the wearer with the maximum possible protection against anomalous effects.\\n\\n Like other MISs, Amethyst is hardly a good armor for combat encounters, but the suit's anomalous protection ratings, along with its low-cost assembly, allow for comfortable exploration of any archianomaly!",
           "es": "Uno de los últimos trabajos en la serie NBQ creado en un intento de proporcionar al usuario la mayor protección posible contra el impacto anómalo.\\n\\n Al igual que otros TMA, Amatista es difícil de considerar una buena armadura para combates, pero los índices de protección anómala del traje, junto con su ensamblaje económico, permiten explorar cualquier archianomalía con comodidad.",
           "fr": "L'un des derniers modèles de la série des « sachets », créé dans le but d'offrir au porteur la meilleure protection possible contre les effets anormaux.\\n\\n Comme les autres MIS, l'Améthyste n'est pas faite pour les combats directs, mais son excellente résistance aux anomalies et son faible coût de fabrication en font un compagnon idéal pour explorer les zones les plus instables de la Zone.",
           "ko": "\"포일\" 시리즈의 최신 작품 중 하나로, 착용자에게 이상 현상으로부터 가능한 최대한의 보호를 제공하기 위해 제작되었습니다.\\n\\n 다른 MIS 슈트들처럼, 자수정은 전투용으로는 적합하지 않지만, 이상 현상 방어력과 저렴한 제작 비용 덕분에 어떤 아키아노말리 탐사도 편안하게 수행할 수 있습니다!"

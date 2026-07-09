@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -235,22 +235,22 @@
             }
           },
           "value": [
-            32.6,
-            32.848476,
-            33.09695,
-            33.345425,
-            33.5939,
-            34.33933,
-            34.71204,
-            35.084755,
-            35.45747,
-            35.83018,
-            36.923473,
-            37.47012,
-            38.016766,
-            38.563416,
-            39.110058,
-            40.75
+            36.5,
+            36.778202,
+            37.0564,
+            37.334606,
+            37.612804,
+            38.44741,
+            38.864708,
+            39.282013,
+            39.699314,
+            40.116615,
+            41.3407,
+            41.952744,
+            42.56479,
+            43.17683,
+            43.78887,
+            45.625
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -293,7 +293,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 유효 사거리"
+              "ko": "최대 사거리"
             }
           },
           "value": 125,
@@ -320,7 +320,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "연사 속도"
+              "ko": "발사 속도"
             }
           },
           "value": 680,
@@ -371,7 +371,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical reload",
+              "en": "Tactical Reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -398,7 +398,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon ergonomics",
+              "en": "Weapon Ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -618,14 +618,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.4"
+              "modifier": "1.25"
             },
             "lines": {
-              "ru": "Урон в голову: х1,4",
-              "en": "Headshot damage: x1.4",
-              "es": "Daño por disparo a la cabeza: x1,4",
-              "fr": "Dégât de tir à la tête : x1,4",
-              "ko": "헤드샷 피해: x1.4"
+              "ru": "Урон в голову: х1,25",
+              "en": "Headshot damage: x1.25",
+              "es": "Daño por disparo a la cabeza: x1,25",
+              "fr": "Dégât de tir à la tête : x1,25",
+              "ko": "헤드샷 피해: x1.25"
             }
           }
         },
@@ -635,14 +635,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.8"
+              "modifier": "0.7"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,8",
-              "en": "Limb damage: x0.8",
-              "es": "Daño a extremidades: x0,8",
-              "fr": "Dégât aux membres : x0,8",
-              "ko": "사지 피해: x0.8"
+              "ru": "Урон по конечностям: х0,7",
+              "en": "Limb damage: x0.7",
+              "es": "Daño a extremidades: x0,7",
+              "fr": "Dégât aux membres : x0,7",
+              "ko": "사지 피해: x0.7"
             }
           }
         }
@@ -665,10 +665,10 @@
             },
             "lines": {
               "ru": "Перегрев через 54 выстрелов непрерывной стрельбы",
-              "en": "Overheats after 54 consecutive shots",
+              "en": "Overheat after 54 shots of continuous fire",
               "es": "Se sobrecalienta tras 54 disparos de fuego continuo",
               "fr": "Surchauffe après 54 coups en feu continu",
-              "ko": "54발 연속 발포 후 과열"
+              "ko": "연속된 발포로 54발 후 과열"
             }
           }
         }
@@ -692,10 +692,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 32.6,
-      "damageDecreaseStart": 16,
-      "endDamage": 21.4,
-      "damageDecreaseEnd": 54,
+      "startDamage": 36.5,
+      "damageDecreaseStart": 8,
+      "endDamage": 24,
+      "damageDecreaseEnd": 44,
       "maxDistance": 125
     },
     {

@@ -13,7 +13,7 @@
       "ko": "군용 구급상자 파우치"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "DEFAULT",
   "status": {
     "state": "NON_DROP"
   },
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.picklock",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie",
-              "es": "Novato",
-              "fr": "Débutant",
-              "ko": "초보자"
+              "ru": "Отмычка",
+              "en": "Picklock",
+              "es": "Ratero",
+              "fr": "Crocheteur",
+              "ko": "도둑"
             }
           }
         },
@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {

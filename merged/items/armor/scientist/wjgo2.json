@@ -1,11 +1,4 @@
 {
-  "model": {
-    "model": "models/armor/ip4m/ip4m.glb",
-    "diff": "models/armor/ip4m/ip4m_diff.dds",
-    "nrm": "models/armor/ip4m/ip4m_nrm.dds",
-    "emi": "models/armor/ip4m/ip4m_emi.dds",
-    "spek": "models/armor/ip4m/ip4m_spek.dds"
-  },
   "id": "wjgo2",
   "category": "armor/scientist",
   "name": {
@@ -55,7 +48,7 @@
               "en": "Picklock",
               "es": "Ratero",
               "fr": "Crocheteur",
-              "ko": "신입"
+              "ko": "도둑"
             }
           }
         },
@@ -70,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
@@ -239,7 +232,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 저항율"
+              "ko": "총탄 보호율"
             }
           },
           "value": [
@@ -269,7 +262,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 저항율"
+              "ko": "열상 보호율"
             }
           },
           "value": 10,
@@ -296,7 +289,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 저항율"
+              "ko": "폭발 보호율"
             }
           },
           "value": 0,
@@ -320,10 +313,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Electricity resistance",
+              "en": "Resistance to electricity",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 저항율"
+              "ko": "전기 보호율"
             }
           },
           "value": 50,
@@ -347,10 +340,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Fire resistance",
+              "en": "Resistance to fire",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 저항율"
+              "ko": "화염 보호율"
             }
           },
           "value": 50,
@@ -374,7 +367,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Chemical resistance",
+              "en": "Resistance to chemicals",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -404,7 +397,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 보호"
+              "ko": "방사능 저항"
             }
           },
           "value": 160,
@@ -431,17 +424,17 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 보호"
+              "ko": "열 저항"
             }
           },
-          "value": 120,
+          "value": 95,
           "formatted": {
             "value": {
-              "ru": "120",
-              "en": "120",
-              "es": "120",
-              "fr": "120",
-              "ko": "120"
+              "ru": "95",
+              "en": "95",
+              "es": "95",
+              "fr": "95",
+              "ko": "95"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -458,7 +451,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 보호"
+              "ko": "생체 감염 저항"
             }
           },
           "value": 100,
@@ -485,17 +478,17 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 에미션 보호"
+              "ko": "정신파 방사물 저항"
             }
           },
-          "value": 20,
+          "value": 10,
           "formatted": {
             "value": {
-              "ru": "20",
-              "en": "20",
-              "es": "20",
-              "fr": "20",
-              "ko": "20"
+              "ru": "10",
+              "en": "10",
+              "es": "10",
+              "fr": "10",
+              "ko": "10"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -512,17 +505,17 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 보호"
+              "ko": "출혈 저항"
             }
           },
-          "value": 0,
+          "value": 25,
           "formatted": {
             "value": {
-              "ru": "0%",
-              "en": "0%",
-              "es": "0 %",
-              "fr": "0%",
-              "ko": "0%"
+              "ru": "25%",
+              "en": "25%",
+              "es": "25 %",
+              "fr": "25%",
+              "ko": "25%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -599,7 +592,7 @@
           "en": "The IP-4M closed-circuit breathing gas mask, which comes with a reinforced cloak, is popular among green stalkers.\\n\\n Although Reseacrh Institute 7 is a leading manufacturer of protective equipment against anomalies, many inhabitants of the Zone prefer artisanal products due to their affordability.",
           "es": "Máscara antigás con sistema de respiración cerrado IP-4M, que viene en conjunto con una capa reforzada, popular entre los acechadores novatos.\\n\\n Aunque el Instituto de Investigación 7 es el principal productor de equipos de protección contra anomalías, muchos habitantes de la Zona prefieren los productos artesanales debido a su bajo costo.",
           "fr": "Masque à gaz à circuit respiratoire fermé IP-4M, livré avec un manteau renforcé — très populaire parmi les stalkers novices.\\n\\n Bien que l'Institut de Recherche 7 soit le principal fabricant de matériel de protection contre les anomalies, de nombreux habitants de la Zone préfèrent les produits artisanaux, bien moins coûteux.",
-          "ko": "IP-4M 폐회로 방독면과 보강된 망토가 결합된 장비로, 초보 스토커들에게 인기가 많습니다.\\n\\n 제 7 연구소가 이상 현상 방어 장비의 선도적인 제조업체임에도, 많은 구역 주민들은 저렴한 장인 제작 제품을 선호합니다."
+          "ko": "IP-4M 폐회로 방독면과 보강된 망토가 결합된 장비로, 초보 스토커들에게 인기가 많습니다.\\n\\n 제7연구소가 이상 현상 방어 장비의 선도적인 제조업체임에도, 많은 구역 주민들은 저렴한 장인 제작 제품을 선호합니다."
         }
       }
     }

@@ -1,0 +1,356 @@
+{
+  "id": "drmwj",
+  "category": "drink",
+  "name": {
+    "type": "translation",
+    "key": "item.med.spirt.name",
+    "args": {},
+    "lines": {
+      "ru": "Технический спирт",
+      "en": "Industrial Alcohol",
+      "es": "Alcohol industrial",
+      "fr": "Alcool Industriel",
+      "ko": "공업용 알코올"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.picklock",
+            "args": {},
+            "lines": {
+              "ru": "Отмычка",
+              "en": "Picklock",
+              "es": "Ratero",
+              "fr": "Crocheteur",
+              "ko": "도둑"
+            }
+          }
+        },
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.category",
+            "args": {},
+            "lines": {
+              "ru": "Класс",
+              "en": "Class",
+              "es": "Clase",
+              "fr": "Classe",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.handbook.category.drink",
+            "args": {},
+            "lines": {
+              "ru": "Напитки",
+              "en": "Beverages",
+              "es": "Bebidas",
+              "fr": "Boissons",
+              "ko": "음료"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "usage",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.used_in_crafts",
+            "args": {},
+            "lines": {
+              "ru": "Используется для крафтов",
+              "en": "Used for crafting",
+              "es": "Se utiliza para crear",
+              "fr": "Utilisé pour l'artisanat",
+              "ko": "제작에 사용"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": []
+    },
+    {},
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.base_price",
+            "args": {},
+            "lines": {
+              "ru": "Базовая цена продажи",
+              "en": "Base selling price",
+              "es": "Precio de venta base",
+              "fr": "Prix de vente de base",
+              "ko": "기본 판매 가격"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.tooltip.info.rubles",
+            "args": {
+              "cost": "38.0"
+            },
+            "lines": {
+              "ru": "38 руб.",
+              "en": "38 rubles",
+              "es": "38 rublos",
+              "fr": "38 roubles",
+              "ko": "38 루블"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.effect_type",
+            "args": {},
+            "lines": {
+              "ru": "Назначение",
+              "en": "Purpose",
+              "es": "Propósito",
+              "fr": "Objectif",
+              "ko": "용도"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.effects.effect_type.antirad",
+            "args": {},
+            "lines": {
+              "ru": "Вывод радиации",
+              "en": "Radiation Cleansing",
+              "es": "Limpieza radiológica",
+              "fr": "Nettoyage des radiations",
+              "ko": "방사능 정화"
+            }
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.priority",
+            "args": {},
+            "lines": {
+              "ru": "Приоритет эффекта",
+              "en": "Effect priority",
+              "es": "Priorización del efecto",
+              "fr": "Priorité de l'effet",
+              "ko": "효과 우선순위"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1",
+              "en": "1",
+              "es": "1",
+              "fr": "1",
+              "ko": "1"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.duration",
+            "args": {},
+            "lines": {
+              "ru": "Время действия",
+              "en": "Duration",
+              "es": "Duración",
+              "fr": "Durée",
+              "ko": "지속 시간"
+            }
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s",
+              "ko": "5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison",
+              "es": "Veneno",
+              "fr": "Poison",
+              "ko": "독성"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100",
+              "en": "100",
+              "es": "100",
+              "fr": "100",
+              "ko": "100"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation",
+              "ko": "방사능"
+            }
+          },
+          "value": -5,
+          "formatted": {
+            "value": {
+              "ru": "-5",
+              "en": "-5",
+              "es": "-5",
+              "fr": "-5",
+              "ko": "-5"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.spirt.description",
+        "args": {},
+        "lines": {
+          "ru": "Бутылочка технического спирта. Как известно, спирт полезен в хозяйстве...",
+          "en": "A bottle of industrial alcohol. As everyone knows, alcohol is always useful to have with you...",
+          "es": "Una botella de alcohol industrial. Como todo el mundo sabe, siempre es útil llevar alcohol encima...",
+          "fr": "Une bouteille d'alcool industriel. Comme chacun sait, l'alcool est toujours utile à avoir sur soi…",
+          "ko": "공업용 알코올 한 병. 모두가 알다시피, 알코올은 항상 가지고 있으면 유용하다..."
+        }
+      }
+    },
+    {}
+  ]
+}

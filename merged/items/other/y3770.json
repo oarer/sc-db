@@ -36,19 +36,19 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "클래스"
+              "ko": "등급"
             }
           },
           "value": {
             "type": "translation",
-            "key": "core.handbook.category.weapon_motif",
+            "key": "core.handbook.category.skins",
             "args": {},
             "lines": {
-              "ru": "Мотив оружия",
-              "en": "Weapon motif",
-              "es": "Motivo para arma",
-              "fr": "Motif d'arme",
-              "ko": "무기 장식"
+              "ru": "Косметика",
+              "en": "Cosmetics",
+              "es": "Cosméticos",
+              "fr": "Cosmétique",
+              "ko": "꾸미기"
             }
           }
         }
@@ -89,6 +89,44 @@
         }
       }
     },
-    {}
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": {
+            "type": "translation",
+            "key": "weapon.lore.skin.all_suitable_targets",
+            "args": {},
+            "lines": {
+              "ru": "Подходит для:",
+              "en": "Suitable for:",
+              "es": "Adecuado para:",
+              "fr": "Compatible avec :",
+              "ko": "적용 가능:"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.flamepistol.name",
+            "args": {},
+            "lines": {
+              "ru": "«Огниво»",
+              "en": "Tinderbox",
+              "es": "Polvorín",
+              "fr": "Poudrière",
+              "ko": "신기전"
+            }
+          }
+        }
+      ]
+    }
   ]
 }
