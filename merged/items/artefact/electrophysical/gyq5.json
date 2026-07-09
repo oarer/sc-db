@@ -36,7 +36,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -122,14 +122,14 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "19200.0"
+              "cost": "8600.0"
             },
             "lines": {
-              "ru": "19 200 руб.",
-              "en": "19,200 rubles",
-              "es": "19.200 rublos",
-              "fr": "19 200 roubles",
-              "ko": "19,200 루블"
+              "ru": "8 600 руб.",
+              "en": "8,600 rubles",
+              "es": "8.600 rublos",
+              "fr": "8 600 roubles",
+              "ko": "8,600 루블"
             }
           }
         }
@@ -260,6 +260,34 @@
         "text": ""
       },
       "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": -0.5,
+          "max": -0.425,
+          "formatted": {
+            "value": {
+              "ru": "[-0,5%; -0,42%]",
+              "en": "[-0.5%; -0.42%]",
+              "es": "[-0,5 %; -0,42 %]",
+              "fr": "[-0,5%; -0,42%]",
+              "ko": "[-0.5%; -0.42%]"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
         {
           "type": "range",
           "name": {

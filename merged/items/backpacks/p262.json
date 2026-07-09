@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/backpacks/bag_placeholders/heavy1.glb",
+    "diff": "models/backpacks/bag_placeholders/sack_diff.dds",
+    "nrm": "models/backpacks/bag_placeholders/sack_nrm.dds",
+    "emi": "models/backpacks/bag_placeholders/sack_emi.dds",
+    "spek": "models/backpacks/bag_placeholders/sack_spek.dds"
+  },
   "id": "p262",
   "category": "backpacks",
   "name": {
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -254,14 +261,14 @@
               "ko": "최대 운반 무게"
             }
           },
-          "value": 35,
+          "value": 40,
           "formatted": {
             "value": {
-              "ru": "35",
-              "en": "35",
-              "es": "35",
-              "fr": "35",
-              "ko": "35"
+              "ru": "40",
+              "en": "40",
+              "es": "40",
+              "fr": "40",
+              "ko": "40"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -281,7 +288,7 @@
         "args": {},
         "lines": {
           "ru": "Данный предмет имеет ВРЕМЕННУЮ модель, которая будет заменена.",
-          "en": "This item has a TEMPORARY model, which will be replaced.",
+          "en": "This item currently uses a TEMPORARY model that will be replaced.",
           "es": "Este objeto tiene un modelo TEMPORAL que será sustituido.",
           "fr": "Cet objet possède un modèle TEMPORAIRE, qui sera remplacé.",
           "ko": "해당 아이템은 임시 모델로 제공되었으며, 향후 교체될 것입니다."

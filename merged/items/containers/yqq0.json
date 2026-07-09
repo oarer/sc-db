@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/backpacks/cont_kzs1/kzs1.glb",
+    "diff": "models/backpacks/cont_kzs1/kzs1_diff.dds",
+    "nrm": "models/backpacks/cont_kzs1/kzs1_nrm.dds",
+    "emi": "models/backpacks/cont_kzs1/kzs1_emi.dds",
+    "spek": "models/backpacks/kzs1/kzs1_spek.dds"
+  },
   "id": "yqq0",
   "category": "containers",
   "name": {
@@ -6,11 +13,11 @@
     "key": "item.cont.kzs1u.name",
     "args": {},
     "lines": {
-      "ru": "Контейнер «КЗС-1у»",
-      "en": "KZS-1u Container",
-      "es": "Contenedor KZS-1u",
-      "fr": "Conteneur KZS-1u",
-      "ko": "KZS-1u 컨테이너"
+      "ru": "Контейнер «КЗС-1У»",
+      "en": "KZS-1U Container",
+      "es": "Contenedor KZS-1U",
+      "fr": "Conteneur KZS-1U",
+      "ko": "KZS-1U 컨테이너"
     }
   },
   "color": "DEFAULT",
@@ -48,7 +55,7 @@
               "en": "Picklock",
               "es": "Ratero",
               "fr": "Crocheteur",
-              "ko": "도둑"
+              "ko": "신입"
             }
           }
         },
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {

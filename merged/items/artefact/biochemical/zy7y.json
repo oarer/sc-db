@@ -36,7 +36,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -122,14 +122,14 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "6600.0"
+              "cost": "14100.0"
             },
             "lines": {
-              "ru": "6 600 руб.",
-              "en": "6,600 rubles",
-              "es": "6.600 rublos",
-              "fr": "6 600 roubles",
-              "ko": "6,600 루블"
+              "ru": "14 100 руб.",
+              "en": "14,100 rubles",
+              "es": "14.100 rublos",
+              "fr": "14 100 roubles",
+              "ko": "14,100 루블"
             }
           }
         }
@@ -292,25 +292,25 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
             "args": {},
             "lines": {
-              "ru": "Выносливость",
-              "en": "Stamina",
-              "es": "Aguante",
-              "fr": "Endurance",
-              "ko": "스태미나"
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
             }
           },
-          "min": 8.84,
-          "max": 10.4,
+          "min": 5.9500003,
+          "max": 7,
           "formatted": {
             "value": {
-              "ru": "[+8,84%; +10,4%]",
-              "en": "[+8.84%; +10.4%]",
-              "es": "[+8,84 %; +10,4 %]",
-              "fr": "[+8,84%; +10,4%]",
-              "ko": "[+8.84%; +10.4%]"
+              "ru": "[+5,95; +7]",
+              "en": "[+5.95; +7]",
+              "es": "[+5,95; +7]",
+              "fr": "[+5,95; +7]",
+              "ko": "[+5.95; +7]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -327,7 +327,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 저항"
+              "ko": "방사능 보호"
             }
           },
           "min": 38.25,
@@ -383,7 +383,7 @@
               "en": "Reaction to laceration",
               "es": "Reacción a la laceración",
               "fr": "Réaction aux lacérations",
-              "ko": "열상에 대항 능력"
+              "ko": "열상 대항"
             }
           },
           "min": 0.85,
@@ -414,7 +414,7 @@
         "args": {},
         "lines": {
           "ru": "Коричневая сфера, покрытая слоем мягких растительных клеток, которую покрывают клювовидные отростки.\\n\\n Как предполагают ученые, движение «клювов» и биолюминесценция питаются за счет хемосинтеза, который проходит внутри «Ежика». Не совсем ясна задача подобных сокращений, однако, по одной из версий, подобным путем артефакт перемещается в поисках благоприятных условий для роста в полноценный побег \"Пуха\".",
-          "en": "A brown sphere covered with a layer of soft plant cells, topped with beak-like protrusions.\\n\\n Scientists theorize that the movement of the 'beaks' and bioluminescence are fueled by chemosynthesis occurring inside the Hedgehog. The purpose of these contractions isn't entirely clear, but one theory suggests that the artifact uses this method to move in search of favorable conditions to grow into a full-fledged Fluff shoot.",
+          "en": "A brown sphere covered with a layer of soft plant cells, topped with beak-like protrusions.\\n\\n Scientists theorize that the movement of the “beaks” and bioluminescence are fueled by chemosynthesis occurring inside the Hedgehog. The purpose of these contractions isn't entirely clear, but one theory suggests that the artifact uses this method to move in search of favorable conditions to grow into a full-fledged Fluff shoot.",
           "es": "Una esfera marrón recubierta de una capa de células vegetales blandas, que está cubierta por excrecencias en forma de pico.\\n\\n Según suponen los científicos, el movimiento de los picos y la bioluminiscencia se alimentan de la quimiosíntesis, que tiene lugar en el interior de Erizo. No está muy claro el propósito de tales reducciones, sin embargo, según una versión, de forma similar el artefacto se mueve en busca de condiciones favorables para crecer hasta convertirse en un brote de Baba en toda regla.",
           "fr": "Sphère brune recouverte de cellules végétales douces, ornée d'excroissances en forme de bec.\\n\\n Selon les scientifiques, le mouvement des « becs » et la bioluminescence sont alimentés par la chimiosynthèse se produisant à l'intérieur du Hérisson. Bien que la fonction de ces contractions reste incertaine, une hypothèse suggère que l'artefact se déplace ainsi à la recherche de conditions favorables pour croître en une pousse complète de l'Ouate.",
           "ko": "부리 같은 돌출부가 있으며 부드러운 식물 세포층으로 덮인 갈색의 구체이다.\\n\\n 과학자들은 \"부리\"의 움직임과 발광의 원인이 고슴도치 내부에서 발생하는 화학 합성으로 인한 것이라는 이론을 세웠다. 구체가 수축되는 이유는 분명하지 않지만, 한 가지 이론에 따르면 이 아티팩트는 이를 통해 완전히 발달한 플러프로 성장하기에 좋은 환경을 찾아 움직인다고 한다."

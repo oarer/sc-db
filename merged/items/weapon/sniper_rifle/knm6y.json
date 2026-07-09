@@ -13,7 +13,7 @@
       "ko": "마우저 98k"
     }
   },
-  "color": "RANK_NEWBIE",
+  "color": "RANK_STALKER",
   "status": {
     "state": "PERSONAL_ON_USE"
   },
@@ -41,14 +41,14 @@
           },
           "value": {
             "type": "translation",
-            "key": "core.rank.newbie",
+            "key": "core.rank.stalker",
             "args": {},
             "lines": {
-              "ru": "Новичок",
-              "en": "Newbie",
-              "es": "Novato",
-              "fr": "Débutant",
-              "ko": "초보자"
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
             }
           }
         },
@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -199,14 +199,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -4.000002,
+          "value": -6,
           "formatted": {
             "value": {
-              "ru": "-4%",
-              "en": "-4%",
-              "es": "-4 %",
-              "fr": "-4%",
-              "ko": "-4%"
+              "ru": "-6%",
+              "en": "-6%",
+              "es": "-6 %",
+              "fr": "-6%",
+              "ko": "-6%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            70,
-            70.53354,
-            71.06707,
-            71.60061,
-            72.13415,
-            73.73476,
-            74.53506,
-            75.33537,
-            76.13567,
-            76.935974,
-            79.28353,
-            80.45731,
-            81.631096,
-            82.804886,
-            83.97866,
-            87.5
+            91,
+            91.6936,
+            92.38719,
+            93.080795,
+            93.77439,
+            95.85519,
+            96.89558,
+            97.93598,
+            98.97637,
+            100.01676,
+            103.06859,
+            104.59451,
+            106.12043,
+            107.64635,
+            109.17226,
+            113.75
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -321,7 +321,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 165,
@@ -348,7 +348,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 40,
@@ -372,7 +372,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -405,14 +405,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.07999992,
+          "value": 0.099999905,
           "formatted": {
             "value": {
-              "ru": "0,08°",
-              "en": "0.08°",
-              "es": "0,08°",
-              "fr": "0,08°",
-              "ko": "0.08°"
+              "ru": "0,1°",
+              "en": "0.1°",
+              "es": "0,1°",
+              "fr": "0,1°",
+              "ko": "0.1°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -540,14 +540,14 @@
               "ko": "조준 시간"
             }
           },
-          "value": 0.35,
+          "value": 0.4,
           "formatted": {
             "value": {
-              "ru": "0,35 с",
-              "en": "0.35 sec",
-              "es": "0,35 s",
-              "fr": "0,35 s",
-              "ko": "0.35초"
+              "ru": "0,4 с",
+              "en": "0.4 sec",
+              "es": "0,4 s",
+              "fr": "0,4 s",
+              "ko": "0.4초"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -611,14 +611,14 @@
               "ko": "저지력"
             }
           },
-          "value": 170,
+          "value": 165,
           "formatted": {
             "value": {
-              "ru": "170",
-              "en": "170",
-              "es": "170",
-              "fr": "170",
-              "ko": "170"
+              "ru": "165",
+              "en": "165",
+              "es": "165",
+              "fr": "165",
+              "ko": "165"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -695,9 +695,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 70,
+      "startDamage": 91,
       "damageDecreaseStart": 20,
-      "endDamage": 70,
+      "endDamage": 91,
       "damageDecreaseEnd": 70,
       "maxDistance": 165
     },
@@ -713,7 +713,7 @@
         "args": {},
         "lines": {
           "ru": "Немецкая магазинная винтовка, официально принятая на вооружение в 1935 году.",
-          "en": "A German magazine-fed rifle, officially was entered into service in 1935.",
+          "en": "A German magazine-fed rifle officially adopted in 1935.",
           "es": "Un fusil con cargador alemán. Comenzó a emplearse en el servicio oficial en 1935.",
           "fr": "Fusil allemand à chargeur, officiellement entré en service en 1935.",
           "ko": "독일제 탄창식 소총으로, 1935년에 정식으로 군에 투입되었다."

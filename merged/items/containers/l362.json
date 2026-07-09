@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/backpacks/cont_krab/krab.glb",
+    "diff": "models/backpacks/cont_krab/krab_diff.dds",
+    "nrm": "models/backpacks/cont_krab/krab_nrm.dds",
+    "emi": "models/backpacks/cont_krab/krab_emi.dds",
+    "spek": "models/backpacks/cont_krab/krab_spek.dds"
+  },
   "id": "l362",
   "category": "containers",
   "name": {
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -252,17 +259,17 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 보호율"
+              "ko": "총탄 저항율"
             }
           },
-          "value": 20,
+          "value": 23,
           "formatted": {
             "value": {
-              "ru": "20",
-              "en": "20",
-              "es": "20",
-              "fr": "20",
-              "ko": "20"
+              "ru": "23",
+              "en": "23",
+              "es": "23",
+              "fr": "23",
+              "ko": "23"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -279,17 +286,17 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 보호율"
+              "ko": "열상 저항율"
             }
           },
-          "value": 40,
+          "value": 46,
           "formatted": {
             "value": {
-              "ru": "40",
-              "en": "40",
-              "es": "40",
-              "fr": "40",
-              "ko": "40"
+              "ru": "46",
+              "en": "46",
+              "es": "46",
+              "fr": "46",
+              "ko": "46"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

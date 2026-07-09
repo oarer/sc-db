@@ -36,7 +36,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -122,14 +122,14 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "6500.0"
+              "cost": "9300.0"
             },
             "lines": {
-              "ru": "6 500 руб.",
-              "en": "6,500 rubles",
-              "es": "6.500 rublos",
-              "fr": "6 500 roubles",
-              "ko": "6,500 루블"
+              "ru": "9 300 руб.",
+              "en": "9,300 rubles",
+              "es": "9.300 rublos",
+              "fr": "9 300 roubles",
+              "ko": "9,300 루블"
             }
           }
         }
@@ -264,6 +264,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "min": 1.0200001,
+          "max": 1.2,
+          "formatted": {
+            "value": {
+              "ru": "[+1,02%; +1,2%]",
+              "en": "[+1.02%; +1.2%]",
+              "es": "[+1,02 %; +1,2 %]",
+              "fr": "[+1,02%; +1,2%]",
+              "ko": "[+1.02%; +1.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.regeneration_bonus",
             "args": {},
             "lines": {
@@ -274,43 +302,15 @@
               "ko": "체력 회복력"
             }
           },
-          "min": 2.295,
-          "max": 2.7,
+          "min": 1.7,
+          "max": 2,
           "formatted": {
             "value": {
-              "ru": "[+2,3%; +2,7%]",
-              "en": "[+2.3%; +2.7%]",
-              "es": "[+2,3 %; +2,7 %]",
-              "fr": "[+2,3%; +2,7%]",
-              "ko": "[+2.3%; +2.7%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
-            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
-            "args": {},
-            "lines": {
-              "ru": "Защита от разрыва",
-              "en": "Laceration protection",
-              "es": "Protección contra laceración",
-              "fr": "Protection contre les lacérations",
-              "ko": "열상 보호율"
-            }
-          },
-          "min": 10.37,
-          "max": 12.2,
-          "formatted": {
-            "value": {
-              "ru": "[+10,37; +12,2]",
-              "en": "[+10.37; +12.2]",
-              "es": "[+10,37; +12,2]",
-              "fr": "[+10,37; +12,2]",
-              "ko": "[+10.37; +12.2]"
+              "ru": "[+1,7%; +2%]",
+              "en": "[+1.7%; +2%]",
+              "es": "[+1,7 %; +2 %]",
+              "fr": "[+1,7%; +2%]",
+              "ko": "[+1.7%; +2%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -355,7 +355,7 @@
               "en": "Reaction to laceration",
               "es": "Reacción a la laceración",
               "fr": "Réaction aux lacérations",
-              "ko": "열상에 대항 능력"
+              "ko": "열상 대항"
             }
           },
           "min": 1.0200001,
@@ -413,12 +413,12 @@
               "fr": "Protection contre les lacérations"
             }
           },
-          "min": 3.37,
-          "max": 4.1,
+          "min": 10.37,
+          "max": 12.2,
           "formatted": {
             "value": {
-              "en": "[3.37; 4.1]",
-              "ru": "[3.37; 4.1]"
+              "en": "[10.37; 12.2]",
+              "ru": "[10.37; 12.2]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -437,12 +437,12 @@
               "fr": "Régénération de la santé"
             }
           },
-          "min": 0.765,
-          "max": 0.9,
+          "min": 0.58,
+          "max": 0.7,
           "formatted": {
             "value": {
-              "en": "[0.765%; 0.9%]",
-              "ru": "[0.765%; 0.9%]"
+              "en": "[0.58%; 0.7%]",
+              "ru": "[0.58%; 0.7%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -461,12 +461,12 @@
               "fr": "Vitalité"
             }
           },
-          "min": 1.02,
-          "max": 1.2,
+          "min": 0.34,
+          "max": 0.4,
           "formatted": {
             "value": {
-              "en": "[1.02%; 1.2%]",
-              "ru": "[1.02%; 1.2%]"
+              "en": "[0.34%; 0.4%]",
+              "ru": "[0.34%; 0.4%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

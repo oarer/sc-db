@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/armor/atlas/atlas.glb",
+    "diff": "models/armor/atlas/atlas_diff.dds",
+    "nrm": "models/armor/atlas/atlas_nrm.dds",
+    "emi": "models/armor/atlas/atlas_emi.dds",
+    "spek": "models/armor/atlas/atlas_spek.dds"
+  },
   "id": "n4r21",
   "category": "armor/scientist",
   "name": {
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -259,7 +266,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 보호율"
+              "ko": "총탄 저항율"
             }
           },
           "value": [
@@ -294,7 +301,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 보호율"
+              "ko": "열상 저항율"
             }
           },
           "value": 101,
@@ -321,7 +328,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 보호율"
+              "ko": "폭발 저항율"
             }
           },
           "value": 109,
@@ -345,10 +352,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Resistance to electricity",
+              "en": "Electricity resistance",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 보호율"
+              "ko": "전기 저항율"
             }
           },
           "value": 675,
@@ -372,10 +379,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Resistance to fire",
+              "en": "Fire resistance",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 보호율"
+              "ko": "화염 저항율"
             }
           },
           "value": 675,
@@ -399,7 +406,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Resistance to chemicals",
+              "en": "Chemical resistance",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -429,7 +436,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 저항"
+              "ko": "방사능 보호"
             }
           },
           "value": 385,
@@ -456,7 +463,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 저항"
+              "ko": "열 보호"
             }
           },
           "value": 385,
@@ -483,17 +490,17 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 저항"
+              "ko": "생체 감염 보호"
             }
           },
-          "value": 385,
+          "value": 400,
           "formatted": {
             "value": {
-              "ru": "385",
-              "en": "385",
-              "es": "385",
-              "fr": "385",
-              "ko": "385"
+              "ru": "400",
+              "en": "400",
+              "es": "400",
+              "fr": "400",
+              "ko": "400"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -510,7 +517,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 방사물 저항"
+              "ko": "정신파 에미션 보호"
             }
           },
           "value": 385,
@@ -537,7 +544,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 저항"
+              "ko": "출혈 보호"
             }
           },
           "value": 35,
@@ -620,11 +627,11 @@
         "key": "item.arm.atlas.description",
         "args": {},
         "lines": {
-          "ru": "Работа над серией «КИМ» не останавливалась, даже пока шла разработка «Артефактного Охотника». Она шла в фоновом режиме, но не прекращалась.\\n\\n Благодаря значительным техническим достижениям в исследовании Зоны и большому опыту создания подобных костюмов, НИИ-7 создал почти идеальный научный комбинезон. Он предназначен для исследований в Зоне.\\n\\n Поговаривают, что элементы защиты для «Атласа», как и для 85Д, были найдены, а не созданы с нуля. По словам особо болтливых сталкеров, именно из-за того, что никто полностью не понимает, как они работают, костюм получился с недостатками.",
-          "en": "The work on the MIS series did not stop even during the development of the Artifact Hunter. It continued in the background but did not cease.\\n\\n Thanks to significant technological advancements in the Zone's research and extensive experience in creating such suits, Research Institute 7 developed an almost perfect scientific suit. It is intended for research in the Zone.\\n\\n Rumor has it that the protection elements for Atlas, as well as for the 85D, were found rather than created from scratch. According to some particularly talkative stalkers, because no one completely understands how they work, the suit ended up with flaws.",
-          "es": "El trabajo en la serie TMA no se detuvo, incluso mientras estaba en desarrollo Cazador de artefactos. Se llevó a cabo en segundo plano, pero no se interrumpió.\\n\\n Gracias a significativos logros técnicos en la investigación de la Zona y la vasta experiencia en la creación de tales trajes, el Instituto de Investigación 7 creó un casi perfecto traje científico para investigaciones en la Zona.\\n\\n Se rumorea que los elementos de protección para Atlas, al igual que para 85D, fueron encontrados y no creados desde cero. Según los acechadores más habladores, precisamente porque nadie entiende completamente cómo funcionan, el traje presenta deficiencias.",
+          "ru": "Работа над серией «КИМ» не останавливалась, даже пока шла разработка «Артефактного Охотника». Она шла в фоновом режиме, но не прекращалась.\\n\\nБлагодаря значительным техническим достижениям в исследовании Зоны и большому опыту создания подобных костюмов, НИИ-7 создал почти идеальный научный комбинезон. Он предназначен для исследований в Зоне.\\n\\nПоговаривают, что элементы защиты для «Атласа», как и для 85Д, были найдены, а не созданы с нуля. По словам особо болтливых сталкеров, именно из-за того, что никто полностью не понимает, как они работают, костюм получился с недостатками.",
+          "en": "Work on the MIS series did not stop, even while the Artifact Hunter was being developed. It continued in the background, but never ceased.\\n\\nThanks to significant technical advances in Zone research and extensive experience creating similar suits, Research Institute-7 created an almost perfect scientific suit. It is intended for research in the Zone.\\n\\nRumor has it that the protective elements for the Atlas, just like for the 85D, were found rather than created from scratch. According to particularly talkative stalkers, it is precisely because no one fully understands how they work that the suit ended up with flaws.",
+          "es": "El trabajo en la serie TMA no se detuvo, incluso mientras estaba en desarrollo Cazador de artefactos. Se llevó a cabo en segundo plano, pero no se interrumpió.\\n\\nGracias a significativos logros técnicos en la investigación de la Zona y la vasta experiencia en la creación de tales trajes, el Instituto de Investigación 7 creó un casi perfecto traje científico para investigaciones en la Zona.\\n\\nSe rumorea que los elementos de protección para Atlas, al igual que para 85D, fueron encontrados y no creados desde cero. Según los acechadores más habladores, precisamente porque nadie entiende completamente cómo funcionan, el traje presenta deficiencias.",
           "fr": "Le développement de la série MIS ne s'est jamais arrêté, même pendant la conception des Arthunters. Il avançait en arrière-plan, mais sans interruption.\\n\\n Grâce aux progrès techniques considérables dans l'étude de la Zone et à une vaste expérience dans la création d'équipements similaires, l'Institut de Recherche 7 a fini par mettre au point une combinaison scientifique presque parfaite, conçue pour les missions de recherche dans la Zone.\\n\\n On raconte que certains éléments de protection de l'Atlas, tout comme ceux du 85D, n'ont pas été créés mais découverts. Selon les stalkers les plus bavards, c'est précisément parce que personne ne comprend complètement leur fonctionnement que la combinaison présente encore quelques défauts.",
-          "ko": "아티팩트 헌터 개발 중에도 MIS 시리즈에 대한 작업은 중단되지 않고, 배경에서 계속 진행되었습니다.\\n\\n 구역 연구 분야에서의 중대한 기술적 진보와 이러한 슈트 제작에 대한 풍부한 경험 덕분에, 제7연구소는 거의 완벽한 과학용 슈트를 개발했습니다. 이 슈트는 구역 내 연구용으로 설계되었습니다.\\n\\n 소문에 따르면, 아틀라스와 85D의 보호 요소는 처음부터 제작된 것이 아니라 발견된 것이라고 합니다. 특히 말 많은 일부 스토커들은 작동 방식을 아무도 완전히 이해하지 못했기 때문에 슈트에 결함이 남게 되었다고 전합니다."
+          "ko": "아티팩트 헌터 개발 중에도 MIS 시리즈에 대한 작업은 중단되지 않고, 배경에서 계속 진행되었습니다.\\n\\n구역 연구 분야에서의 중대한 기술적 진보와 이러한 슈트 제작에 대한 풍부한 경험 덕분에, 제7연구소는 거의 완벽한 과학용 슈트를 개발했습니다. 이 슈트는 구역 내 연구용으로 설계되었습니다.\\n\\n소문에 따르면, 아틀라스와 85D의 보호 요소는 처음부터 제작된 것이 아니라 발견된 것이라고 합니다. 특히 말 많은 일부 스토커들은 작동 방식을 아무도 완전히 이해하지 못했기 때문에 슈트에 결함이 남게 되었다고 전합니다."
         }
       }
     }

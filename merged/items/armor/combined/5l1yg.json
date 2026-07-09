@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/armor/ao6/ao6.glb",
+    "diff": "models/armor/ao6/ao6_diff.dds",
+    "nrm": "models/armor/ao6/ao6_nrm.dds",
+    "emi": "models/armor/ao6/ao6_emi.dds",
+    "spek": "models/armor/ao6/ao6_spek.dds"
+  },
   "id": "5l1yg",
   "category": "armor/combined",
   "name": {
@@ -10,7 +17,7 @@
       "en": "RAPS AH-6 Nomad",
       "es": "TPAR CA-6 Nómada",
       "fr": "RAPS AH-6 Nomade",
-      "ko": "RAPS AH-6 방랑자"
+      "ko": "RAPS AH-6 유목민"
     }
   },
   "color": "RANK_MASTER",
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -199,14 +206,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -4,
+          "value": -3,
           "formatted": {
             "value": {
-              "ru": "-4%",
-              "en": "-4%",
-              "es": "-4 %",
-              "fr": "-4%",
-              "ko": "-4%"
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3 %",
+              "fr": "-3%",
+              "ko": "-3%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -340,7 +347,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 보호율"
+              "ko": "총탄 저항율"
             }
           },
           "value": [
@@ -375,7 +382,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 보호율"
+              "ko": "열상 저항율"
             }
           },
           "value": 140,
@@ -402,7 +409,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 보호율"
+              "ko": "폭발 저항율"
             }
           },
           "value": 136,
@@ -426,10 +433,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Resistance to electricity",
+              "en": "Electricity resistance",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 보호율"
+              "ko": "전기 저항율"
             }
           },
           "value": 300,
@@ -453,10 +460,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Resistance to fire",
+              "en": "Fire resistance",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 보호율"
+              "ko": "화염 저항율"
             }
           },
           "value": 300,
@@ -480,7 +487,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Resistance to chemicals",
+              "en": "Chemical resistance",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -510,7 +517,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 저항"
+              "ko": "방사능 보호"
             }
           },
           "value": 300,
@@ -537,7 +544,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 저항"
+              "ko": "열 보호"
             }
           },
           "value": 200,
@@ -564,7 +571,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 저항"
+              "ko": "생체 감염 보호"
             }
           },
           "value": 300,
@@ -591,7 +598,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 방사물 저항"
+              "ko": "정신파 에미션 보호"
             }
           },
           "value": 300,
@@ -618,7 +625,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 저항"
+              "ko": "출혈 보호"
             }
           },
           "value": 40,
@@ -705,7 +712,7 @@
           "en": "Advanced version of the suit from the Artifact Hunter series.\\n\\n The advanced life support system, developed by the employees of Research Institute 7, eliminates the need to worry about extra medical supplies, while good protection against external threats soften all other troubles.\\n\\n Despite intentions for further development of the series, the institute's engineers faced the limitation of the current level of technology, which necessitated the suspension of work on new suits in the line.",
           "es": "Versión avanzada del traje de la serie Cazador de Artefactos..\\n\\n El sistema de soporte vital avanzado, creado por el personal del Instituto de Investigación 7, permite no preocuparse por medicamentos adicionales, y la buena protección contra las amenazas externas: por el resto de peligros..\\n\\n A pesar de las intenciones de desarrollar aún más la serie, los ingenieros del instituto se encontraron con el problema de la limitación del nivel de las tecnologías modernas, lo que obligó a suspender el trabajo en nuevos trajes de la línea.",
           "fr": "Version avancée de la série Arthunters.\\n\\n Un système de survie de pointe, développé par l'Institut de Recherche 7, réduit la dépendance aux médicaments, tandis qu'une protection efficace contre les menaces externes protège des autres dangers.\\n\\n Malgré l'intention de poursuivre le développement de la série, les ingénieurs se heurtèrent aux limites technologiques actuelles, ce qui força la mise en pause de nouveaux projets.",
-          "ko": "아티팩트 헌터 시리즈 슈트의 고급형 버전입니다.\\n\\n 연구소 7 직원들이 개발한 고급 생명 유지 장치 덕분에 추가 의약품에 대한 걱정이 필요 없으며, 외부 위협에 대한 우수한 보호력이 다른 문제들을 완화시켜줍니다.\\n\\n 시리즈의 추가 개발 의도가 있었음에도 불구하고, 연구소 엔지니어들은 현 기술 수준의 한계에 직면하여, 라인 내 새로운 슈트 개발 작업을 중단할 수밖에 없었습니다."
+          "ko": "아티팩트 헌터 시리즈 슈트의 고급형 버전입니다.\\n\\n 제 7 연구소 직원들이 개발한 고급 생명 유지 장치 덕분에 추가 의약품에 대한 걱정이 필요 없으며, 외부 위협에 대한 우수한 보호력이 다른 문제들을 완화시켜줍니다.\\n\\n 시리즈의 추가 개발 의도가 있었음에도 불구하고, 연구소 엔지니어들은 현 기술 수준의 한계에 직면하여, 라인 내 새로운 슈트 개발 작업을 중단할 수밖에 없었습니다."
         }
       }
     }

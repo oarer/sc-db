@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/backpacks/bag_errand/errand.glb",
+    "diff": "models/backpacks/bag_errand/errand_diff.dds",
+    "nrm": "models/backpacks/bag_errand/errand_nrm.dds",
+    "emi": "models/backpacks/bag_errand/errand_emi.dds",
+    "spek": "models/backpacks/bag_errand/errand_spek.dds"
+  },
   "id": "12r1",
   "category": "backpacks",
   "name": {
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -254,14 +261,14 @@
               "ko": "최대 운반 무게"
             }
           },
-          "value": 34,
+          "value": 35,
           "formatted": {
             "value": {
-              "ru": "34",
-              "en": "34",
-              "es": "34",
-              "fr": "34",
-              "ko": "34"
+              "ru": "35",
+              "en": "35",
+              "es": "35",
+              "fr": "35",
+              "ko": "35"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

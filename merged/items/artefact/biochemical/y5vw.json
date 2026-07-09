@@ -36,7 +36,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -122,14 +122,14 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "2500.0"
+              "cost": "2100.0"
             },
             "lines": {
-              "ru": "2 500 руб.",
-              "en": "2,500 rubles",
-              "es": "2.500 rublos",
-              "fr": "2 500 roubles",
-              "ko": "2,500 루블"
+              "ru": "2 100 руб.",
+              "en": "2,100 rubles",
+              "es": "2.100 rublos",
+              "fr": "2 100 roubles",
+              "ko": "2,100 루블"
             }
           }
         }
@@ -274,15 +274,43 @@
               "ko": "체력 회복력"
             }
           },
-          "min": 1.7,
-          "max": 2,
+          "min": 1.2750001,
+          "max": 1.5,
           "formatted": {
             "value": {
-              "ru": "[+1,7%; +2%]",
-              "en": "[+1.7%; +2%]",
-              "es": "[+1,7 %; +2 %]",
-              "fr": "[+1,7%; +2%]",
-              "ko": "[+1.7%; +2%]"
+              "ru": "[+1,28%; +1,5%]",
+              "en": "[+1.28%; +1.5%]",
+              "es": "[+1,28 %; +1,5 %]",
+              "fr": "[+1,28%; +1,5%]",
+              "ko": "[+1.28%; +1.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 저항율"
+            }
+          },
+          "min": 2.21,
+          "max": 2.6,
+          "formatted": {
+            "value": {
+              "ru": "[+2,21; +2,6]",
+              "en": "[+2.21; +2.6]",
+              "es": "[+2,21; +2,6]",
+              "fr": "[+2,21; +2,6]",
+              "ko": "[+2.21; +2.6]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -409,12 +437,12 @@
               "fr": "Protection contre les saignements"
             }
           },
-          "min": 4.845,
-          "max": 5.7,
+          "min": 2.14,
+          "max": 2.6,
           "formatted": {
             "value": {
-              "en": "[4.845%; 5.7%]",
-              "ru": "[4.845%; 5.7%]"
+              "en": "[2.14%; 2.6%]",
+              "ru": "[2.14%; 2.6%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -433,12 +461,12 @@
               "fr": "Régénération de la santé"
             }
           },
-          "min": 0.58,
-          "max": 0.7,
+          "min": 0.425,
+          "max": 0.5,
           "formatted": {
             "value": {
-              "en": "[0.58%; 0.7%]",
-              "ru": "[0.58%; 0.7%]"
+              "en": "[0.425%; 0.5%]",
+              "ru": "[0.425%; 0.5%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

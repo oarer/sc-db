@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/backpacks/bag_placeholders/light3.glb",
+    "diff": "models/backpacks/bag_placeholders/sack_diff.dds",
+    "nrm": "models/backpacks/bag_placeholders/sack_nrm.dds",
+    "emi": "models/backpacks/bag_placeholders/sack_emi.dds",
+    "spek": "models/backpacks/bag_placeholders/sack_spek.dds"
+  },
   "id": "vyqd",
   "category": "backpacks",
   "name": {
@@ -7,7 +14,7 @@
     "args": {},
     "lines": {
       "ru": "Разгрузка Black Eagle Y-73",
-      "en": "Utility vest Black Eagle Y-73",
+      "en": "Utility Vest Black Eagle Y-73",
       "es": "Cinturón Black Eagle Y-73",
       "fr": "Gilet utilitaire Black Eagle Y-73",
       "ko": "유틸리티 조끼 검은 독수리 Y-73"
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -254,14 +261,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": 5.2,
+          "value": 5.7,
           "formatted": {
             "value": {
-              "ru": "5,2%",
-              "en": "5.2%",
-              "es": "5,2 %",
-              "fr": "5,2%",
-              "ko": "5.2%"
+              "ru": "5,7%",
+              "en": "5.7%",
+              "es": "5,7 %",
+              "fr": "5,7%",
+              "ko": "5.7%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -281,14 +288,14 @@
               "ko": "최대 운반 무게"
             }
           },
-          "value": 32,
+          "value": 37,
           "formatted": {
             "value": {
-              "ru": "32",
-              "en": "32",
-              "es": "32",
-              "fr": "32",
-              "ko": "32"
+              "ru": "37",
+              "en": "37",
+              "es": "37",
+              "fr": "37",
+              "ko": "37"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -308,7 +315,7 @@
         "args": {},
         "lines": {
           "ru": "Данный предмет имеет ВРЕМЕННУЮ модель, которая будет заменена.",
-          "en": "This item has a TEMPORARY model, which will be replaced.",
+          "en": "This item currently uses a TEMPORARY model that will be replaced.",
           "es": "Este objeto tiene un modelo TEMPORAL que será sustituido.",
           "fr": "Cet objet possède un modèle TEMPORAIRE, qui sera remplacé.",
           "ko": "해당 아이템은 임시 모델로 제공되었으며, 향후 교체될 것입니다."

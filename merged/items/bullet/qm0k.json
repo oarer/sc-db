@@ -36,7 +36,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -48,7 +48,7 @@
               "en": "Rounds",
               "es": "Munición",
               "fr": "Munitions",
-              "ko": "탄환"
+              "ko": "탄약"
             }
           }
         },
@@ -112,7 +112,7 @@
             "args": {},
             "lines": {
               "ru": "Бронебойный патрон",
-              "en": "Armor-piercing Round",
+              "en": "Armor-Piercing Round",
               "es": "Munición perforante",
               "fr": "Cartouche perforante",
               "ko": "철갑탄"
@@ -132,33 +132,6 @@
               "fr": "Forte pénétration",
               "ko": "높은 관통력"
             }
-          }
-        },
-        {
-          "type": "numeric",
-          "name": {
-            "type": "translation",
-            "key": "core.tooltip.stat_name.damage_type.burn",
-            "args": {},
-            "lines": {
-              "ru": "Огненный урон",
-              "en": "Fire damage",
-              "es": "Daño de fuego",
-              "fr": "Dégâts de feu",
-              "ko": "화염 피해량"
-            }
-          },
-          "value": 11.5,
-          "formatted": {
-            "value": {
-              "ru": "11,5%",
-              "en": "11.5%",
-              "es": "11,5 %",
-              "fr": "11,5%",
-              "ko": "11.5%"
-            },
-            "nameColor": "F1AA21",
-            "valueColor": "F1AA21"
           }
         }
       ]

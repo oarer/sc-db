@@ -36,7 +36,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -122,14 +122,14 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "7200.0"
+              "cost": "9300.0"
             },
             "lines": {
-              "ru": "7 200 руб.",
-              "en": "7,200 rubles",
-              "es": "7.200 rublos",
-              "fr": "7 200 roubles",
-              "ko": "7,200 루블"
+              "ru": "9 300 руб.",
+              "en": "9,300 rubles",
+              "es": "9.300 rublos",
+              "fr": "9 300 roubles",
+              "ko": "9,300 루블"
             }
           }
         }
@@ -302,15 +302,15 @@
               "ko": "체력 회복력"
             }
           },
-          "min": 1.105,
-          "max": 1.3,
+          "min": 0.85,
+          "max": 1,
           "formatted": {
             "value": {
-              "ru": "[+1,1%; +1,3%]",
-              "en": "[+1.1%; +1.3%]",
-              "es": "[+1,1 %; +1,3 %]",
-              "fr": "[+1,1%; +1,3%]",
-              "ko": "[+1.1%; +1.3%]"
+              "ru": "[+0,85%; +1%]",
+              "en": "[+0.85%; +1%]",
+              "es": "[+0,85 %; +1 %]",
+              "fr": "[+0,85%; +1%]",
+              "ko": "[+0.85%; +1%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -339,6 +339,34 @@
               "es": "[-3,04; -2,58]",
               "fr": "[-3,04; -2,58]",
               "ko": "[-3.04; -2.58]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "min": -0.3,
+          "max": -0.25500003,
+          "formatted": {
+            "value": {
+              "ru": "[-0,3; -0,26]",
+              "en": "[-0.3; -0.26]",
+              "es": "[-0,3; -0,26]",
+              "fr": "[-0,3; -0,26]",
+              "ko": "[-0.3; -0.26]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -385,12 +413,12 @@
               "fr": "Protection contre les saignements"
             }
           },
-          "min": 4.335,
-          "max": 5.1,
+          "min": 1.955,
+          "max": 2.3,
           "formatted": {
             "value": {
-              "en": "[4.335%; 5.1%]",
-              "ru": "[4.335%; 5.1%]"
+              "en": "[1.955%; 2.3%]",
+              "ru": "[1.955%; 2.3%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -433,12 +461,12 @@
               "fr": "Régénération de la santé"
             }
           },
-          "min": 0.425,
-          "max": 0.5,
+          "min": 0.34,
+          "max": 0.4,
           "formatted": {
             "value": {
-              "en": "[0.425%; 0.5%]",
-              "ru": "[0.425%; 0.5%]"
+              "en": "[0.34%; 0.4%]",
+              "ru": "[0.34%; 0.4%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/armor/tonga/tonga.glb",
+    "diff": "models/armor/tonga/tonga_diff.dds",
+    "nrm": "models/armor/tonga/tonga_nrm.dds",
+    "emi": "models/armor/tonga/tonga_emi.dds",
+    "spek": "models/armor/tonga/tonga_spek.dds"
+  },
   "id": "4qldn",
   "category": "armor/scientist",
   "name": {
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -313,7 +320,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 보호율"
+              "ko": "총탄 저항율"
             }
           },
           "value": [
@@ -348,7 +355,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 보호율"
+              "ko": "열상 저항율"
             }
           },
           "value": 69,
@@ -375,7 +382,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 보호율"
+              "ko": "폭발 저항율"
             }
           },
           "value": 80,
@@ -399,10 +406,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Resistance to electricity",
+              "en": "Electricity resistance",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 보호율"
+              "ko": "전기 저항율"
             }
           },
           "value": 400,
@@ -426,10 +433,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Resistance to fire",
+              "en": "Fire resistance",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 보호율"
+              "ko": "화염 저항율"
             }
           },
           "value": 400,
@@ -453,7 +460,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Resistance to chemicals",
+              "en": "Chemical resistance",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -483,7 +490,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 저항"
+              "ko": "방사능 보호"
             }
           },
           "value": 360,
@@ -510,7 +517,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 저항"
+              "ko": "열 보호"
             }
           },
           "value": 340,
@@ -537,7 +544,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 저항"
+              "ko": "생체 감염 보호"
             }
           },
           "value": 360,
@@ -564,7 +571,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 방사물 저항"
+              "ko": "정신파 에미션 보호"
             }
           },
           "value": 280,
@@ -591,7 +598,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 저항"
+              "ko": "출혈 보호"
             }
           },
           "value": 35,
@@ -678,7 +685,7 @@
           "en": "The early version of Uranus, released by Research Institute 7 shortly before work began on the AH series.\\n\\n Although the anomalous protection metrics of Tonga do not reach the best in its class, the suit more than compensates for its shortcomings with high-quality servomotors and a reliable life support system, which were the focus during the development of the suit.",
           "es": "Una versión temprana de Urano, lanzada por Urano poco antes de comenzar a trabajar en la serie CA.\\n\\n Aunque las características de protección anómala de Tonga no se comparan con las de los mejores en su clase, el traje compensa con creces sus deficiencias con servomotores de calidad y un sistema de soporte vital confiable, en los cuales se hizo hincapié durante el desarrollo del traje.",
           "fr": "Une première version de l'Uranus, lancée par l'Institut de Recherche 7 peu avant le début des travaux sur la série AH.\\n\\nBien que les performances de protection anormale de Tonga ne soient pas à la hauteur des meilleurs représentants de sa catégorie, la combinaison compense largement ses défauts par des servomoteurs de qualité et un système de survie fiable, sur lesquels l'accent a été mis lors de la conception de la combinaison.",
-          "ko": "제7연구소에서 AH 시리즈 작업 시작 직전에 출시된 우라누스 초기 버전입니다.\\n\\n 통가의 이상 현상 보호 지표가 동급 최고 수준은 아니지만, 고품질 서보모터와 신뢰할 수 있는 생명 유지 장치 덕분에 단점을 충분히 보완하며, 이는 슈트 개발 시 핵심적인 요소로 고려되었습니다."
+          "ko": "제 7 연구소에서 AH 시리즈 작업 시작 직전에 출시된 우라누스 초기 버전입니다.\\n\\n 통가의 이상 현상 보호 지표가 동급 최고 수준은 아니지만, 고품질 서보모터와 신뢰할 수 있는 생명 유지 장치 덕분에 단점을 충분히 보완하며, 이는 슈트 개발 시 핵심적인 요소로 고려되었습니다."
         }
       }
     }

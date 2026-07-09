@@ -36,7 +36,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -122,14 +122,14 @@
             "type": "translation",
             "key": "core.tooltip.info.rubles",
             "args": {
-              "cost": "24000.0"
+              "cost": "22800.0"
             },
             "lines": {
-              "ru": "24 000 руб.",
-              "en": "24,000 rubles",
-              "es": "24.000 rublos",
-              "fr": "24 000 roubles",
-              "ko": "24,000 루블"
+              "ru": "22 800 руб.",
+              "en": "22,800 rubles",
+              "es": "22.800 rublos",
+              "fr": "22 800 roubles",
+              "ko": "22,800 루블"
             }
           }
         }
@@ -292,6 +292,34 @@
           "type": "range",
           "name": {
             "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "min": 0.595,
+          "max": 0.7,
+          "formatted": {
+            "value": {
+              "ru": "[+0,6%; +0,7%]",
+              "en": "[+0.6%; +0.7%]",
+              "es": "[+0,6 %; +0,7 %]",
+              "fr": "[+0,6%; +0,7%]",
+              "ko": "[+0.6%; +0.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
             "key": "stalker.artefact_properties.factor.heal_efficiency",
             "args": {},
             "lines": {
@@ -302,15 +330,15 @@
               "ko": "치유 효율"
             }
           },
-          "min": 6.8850007,
-          "max": 8.1,
+          "min": 5.8650002,
+          "max": 6.9,
           "formatted": {
             "value": {
-              "ru": "[+6,89%; +8,1%]",
-              "en": "[+6.89%; +8.1%]",
-              "es": "[+6,89 %; +8,1 %]",
-              "fr": "[+6,89%; +8,1%]",
-              "ko": "[+6.89%; +8.1%]"
+              "ru": "[+5,87%; +6,9%]",
+              "en": "[+5.87%; +6.9%]",
+              "es": "[+5,87 %; +6,9 %]",
+              "fr": "[+5,87%; +6,9%]",
+              "ko": "[+5.87%; +6.9%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -433,12 +461,12 @@
               "fr": "Efficacité des soins"
             }
           },
-          "min": 2.295,
-          "max": 2.7,
+          "min": 1.955,
+          "max": 2.3,
           "formatted": {
             "value": {
-              "en": "[2.295%; 2.7%]",
-              "ru": "[2.295%; 2.7%]"
+              "en": "[1.955%; 2.3%]",
+              "ru": "[1.955%; 2.3%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

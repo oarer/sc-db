@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/armor/zivcas/zivcas.glb",
+    "diff": "models/armor/zivcas/zivcas_diff.dds",
+    "nrm": "models/armor/zivcas/zivcas_nrm.dds",
+    "emi": "models/armor/zivcas/zivcas_emi.dds",
+    "spek": "models/armor/zivcas/zivcas_spek.dds"
+  },
   "id": "g43rp",
   "category": "armor/combined",
   "name": {
@@ -10,7 +17,7 @@
       "en": "JD ZIVCAS 2A Exoarmor",
       "es": "Exoarmadura JD ZIVCAS 2A",
       "fr": "JD ZIVCAS 2A Exoarmure",
-      "ko": "JD 지브카스 2A 강화전투갑주"
+      "ko": "JD 지브카스 2A 강화전투복"
     }
   },
   "color": "RANK_MASTER",
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -259,7 +266,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 보호율"
+              "ko": "총탄 저항율"
             }
           },
           "value": [
@@ -294,7 +301,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 보호율"
+              "ko": "열상 저항율"
             }
           },
           "value": 127,
@@ -321,7 +328,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 보호율"
+              "ko": "폭발 저항율"
             }
           },
           "value": 122,
@@ -345,10 +352,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Resistance to electricity",
+              "en": "Electricity resistance",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 보호율"
+              "ko": "전기 저항율"
             }
           },
           "value": 300,
@@ -372,10 +379,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Resistance to fire",
+              "en": "Fire resistance",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 보호율"
+              "ko": "화염 저항율"
             }
           },
           "value": 300,
@@ -399,7 +406,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Resistance to chemicals",
+              "en": "Chemical resistance",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -429,7 +436,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 저항"
+              "ko": "방사능 보호"
             }
           },
           "value": 300,
@@ -456,7 +463,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 저항"
+              "ko": "열 보호"
             }
           },
           "value": 200,
@@ -483,7 +490,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 저항"
+              "ko": "생체 감염 보호"
             }
           },
           "value": 300,
@@ -510,7 +517,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 방사물 저항"
+              "ko": "정신파 에미션 보호"
             }
           },
           "value": 300,
@@ -537,7 +544,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 저항"
+              "ko": "출혈 보호"
             }
           },
           "value": 40,
@@ -621,7 +628,7 @@
         "args": {},
         "lines": {
           "ru": "Одна из легендарных разработок ZIVCAS, ставшая на долгие годы эталоном экзоброни с комбинированной защитой от угроз Зоны.\\n\\n Воплощает в себе преимущества последних моделей научных костюмов и армейской экзоброни.\\n\\n Благодаря продуманной системе сервоприводов и передовой системе жизнеобеспечения по-прежнему сохраняет свои позиции на рынке снаряжения для Зоны.",
-          "en": "One of the legendary developments by ZIVCAS, which for many years has become a standard of exoarmor with combined protection against Zone threats.\\n\\n It embodies the advantages of the latest models of scientific suits and military exoskeleton armor.\\n\\n Thanks to a well-designed servo system and advanced life support system, it still maintains its position in the Zone equipment market.",
+          "en": "One of ZIVCAS's legendary designs, which for years set the standard of exoarmor with combined protection against the Zone's threats.\\n\\n It embodies the advantages of the latest models of research suits and military exoskeleton armor.\\n\\n Thanks to a well-designed servo system and an advanced life support system, it still holds its position in the Zone's equipment market.",
           "es": "Una de las legendarias creaciones de ZIVCAS, que ha sido durante muchos años el estándar de la exoarmadura con protección combinada contra las amenazas de la Zona.\\n\\n Encarna las ventajas de los últimos modelos de trajes científicos y exoarmadura militar.\\n\\n Gracias a un sistema bien diseñado de servomotores y un sistema avanzado de soporte vital, sigue manteniendo su posición en el mercado de equipamiento para la Zona.",
           "fr": "L'un des développements légendaires de ZIVCAS, qui demeura pendant des années la référence des exo-armures à protection combinée contre les menaces de la Zone.\\n\\nIl conjugue les atouts des derniers combinaisons scientifiques et des exo-armures militaires.\\n\\nGrâce à un système de servomoteurs bien pensé et à une survie embarquée de pointe, il conserve sa place sur le marché de l'équipement pour la Zone.",
           "ko": "지브카스의 전설적인 개발품 중 하나로, 수년간 구역 내 위협에 대한 복합 보호 기능을 갖춘 외골격 장비의 표준이 되었습니다.\\n\\n 최신 과학 슈트와 군용 외골격 장갑의 장점을 모두 구현했으며, 잘 설계된 서보 시스템과 첨단 생명 유지 장치 덕분에 여전히 구역 장비 시장에서 높은 위치를 유지하고 있습니다."

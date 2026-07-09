@@ -7,10 +7,10 @@
     "args": {},
     "lines": {
       "ru": "Эргономичный магазин 5.56",
-      "en": "Ergonomic magazine 5.56",
+      "en": "Ergonomic Magazine 5.56",
       "es": "Cargador ergonómico para 5.56",
       "fr": "Chargeur ergonomique 5,56",
-      "ko": "인체공학 탄창 5.56"
+      "ko": "인체공학 5.56mm 탄창"
     }
   },
   "color": "RANK_MASTER",
@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -193,7 +193,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -368,6 +368,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.honeybadger.name",
+            "args": {},
+            "lines": {
+              "ru": "AAC Honey Badger",
+              "en": "AAC Honey Badger",
+              "es": "Honey Badger",
+              "fr": "AAC Honey Badger",
+              "ko": "AAC Honey Badger"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.lr300.name",
             "args": {},
             "lines": {
@@ -421,6 +436,21 @@
               "es": "X95 (A)",
               "fr": "X95 (A)",
               "ko": "X95 (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m16a3_rune_a.name",
+            "args": {},
+            "lines": {
+              "ru": "«Руна» (А)",
+              "en": "Rune (A)",
+              "es": "Runa (A)",
+              "fr": "Rune (A)",
+              "ko": "룬 (A)"
             }
           }
         },
@@ -600,7 +630,7 @@
               "en": "Steyr AUG A3",
               "es": "Steyr AUG A3",
               "fr": "Steyr AUG A3",
-              "ko": "Steyr AUG A3"
+              "ko": "슈타이어 AUG A3"
             }
           }
         },

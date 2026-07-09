@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -184,6 +184,33 @@
             "nameColor": "53C353",
             "valueColor": "53C353"
           }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.shoot_factor_decrement",
+            "args": {},
+            "lines": {
+              "ru": "Стабилизация",
+              "en": "Stabilization",
+              "es": "Estabilización",
+              "fr": "Stabilisation",
+              "ko": "안정성"
+            }
+          },
+          "value": 4.800558,
+          "formatted": {
+            "value": {
+              "ru": "+4,8%",
+              "en": "+4.8%",
+              "es": "+4,8 %",
+              "fr": "+4,8%",
+              "ko": "+4.8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         }
       ]
     },
@@ -243,7 +270,7 @@
               "en": "QBZ-191 Thunderbird",
               "es": "QBZ-191 Petrel",
               "fr": "QBZ-191 L'Oiseau-Tonnerre",
-              "ko": "QBZ-191 [부레베스트니크]"
+              "ko": "QBZ-191 부레베스트니크"
             }
           }
         },

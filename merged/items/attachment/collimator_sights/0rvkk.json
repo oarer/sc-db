@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -173,14 +173,14 @@
               "ko": "안정성"
             }
           },
-          "value": 10.000467,
+          "value": 4.9996376,
           "formatted": {
             "value": {
-              "ru": "+10%",
-              "en": "+10%",
-              "es": "+10 %",
-              "fr": "+10%",
-              "ko": "+10%"
+              "ru": "+5%",
+              "en": "+5%",
+              "es": "+5 %",
+              "fr": "+5%",
+              "ko": "+5%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -200,7 +200,7 @@
         "args": {},
         "lines": {
           "ru": "Модель: TA02@Оптический прицел для ведения огня из стрелкового оружия на среднюю дальность. Производится американской корпорацией Trijicon, предлагается в широком ассортименте вариантов.",
-          "en": "Model: TA02@Optical sight for mid-range firing. Produced by the American company, Trijicon, and comes in a wide range of options.",
+          "en": "Model: TA02@Optical sight for mid-range firing. Manufactured by the American corporation Trijicon, with a wide range of options.",
           "es": "Modelo: TA02@Mira telescópica para armas cortas a media distancia. Fabricada por la empresa americana Trijicon Corporation, disponible en una amplia gama de variantes.",
           "fr": "Modèle : TA02@Viseur optique pour le tir à moyenne distance. Produit par la société américaine Trijicon, et il est disponible dans une large gamme d'options.",
           "ko": "모델: TA02@중거리 사격을 위한 양안조준경. 미국 기업 트리지콘이 제작하였으며, 다양한 옵션과 사양으로 제공된다."
@@ -293,7 +293,7 @@
               "en": "TDI KRISS Vector",
               "es": "TDI KRISS Vector",
               "fr": "TDI KRISS Vector",
-              "ko": "TDI KRISS Vector"
+              "ko": "TDI KRISS 벡터"
             }
           }
         },
@@ -376,6 +376,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.mpx.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG MPX",
+              "en": "SIG MPX",
+              "es": "SIG MPX",
+              "fr": "SIG MPX",
+              "ko": "SIG MPX"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.amb17.name",
             "args": {},
             "lines": {
@@ -413,7 +428,7 @@
               "en": "QBZ-191 Thunderbird",
               "es": "QBZ-191 Petrel",
               "fr": "QBZ-191 L'Oiseau-Tonnerre",
-              "ko": "QBZ-191 [부레베스트니크]"
+              "ko": "QBZ-191 부레베스트니크"
             }
           }
         },
@@ -534,6 +549,21 @@
               "es": "HK MP7A2",
               "fr": "HK MP7A2",
               "ko": "HK MP7A2"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.honeybadger.name",
+            "args": {},
+            "lines": {
+              "ru": "AAC Honey Badger",
+              "en": "AAC Honey Badger",
+              "es": "Honey Badger",
+              "fr": "AAC Honey Badger",
+              "ko": "AAC Honey Badger"
             }
           }
         },
@@ -826,6 +856,51 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.toz84.name",
+            "args": {},
+            "lines": {
+              "ru": "ТОЗ-84",
+              "en": "TOZ-84",
+              "es": "TOZ-84",
+              "fr": "TOZ-84",
+              "ko": "TOZ-84"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mr155_ultima.name",
+            "args": {},
+            "lines": {
+              "ru": "МР-155 Ultima",
+              "en": "MP-155 Ultima",
+              "es": "MP-155 Ultima",
+              "fr": "MP-155 Ultima",
+              "ko": "МР-155 Ultima"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.saiga12.name",
+            "args": {},
+            "lines": {
+              "ru": "Сайга-12",
+              "en": "Saiga-12",
+              "es": "Saiga-12",
+              "fr": "Saiga-12",
+              "ko": "사이가-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.pkp.name",
             "args": {},
             "lines": {
@@ -894,6 +969,21 @@
               "es": "DSA RPD",
               "fr": "DSA RPD",
               "ko": "DSA RPD"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m60.name",
+            "args": {},
+            "lines": {
+              "ru": "M60E4",
+              "en": "M60E4",
+              "es": "M60E4",
+              "fr": "M60E4",
+              "ko": "M60E4"
             }
           }
         },
@@ -1133,7 +1223,7 @@
               "en": "VSS-M Vintorez",
               "es": "VSS-M Vintorez",
               "fr": "VSS-M Vintorez",
-              "ko": "VSS-M [빈토레즈]"
+              "ko": "VSS-M 빈토레즈"
             }
           }
         },
@@ -1190,10 +1280,10 @@
             "args": {},
             "lines": {
               "ru": "ОТЛ-03 «Карбач»",
-              "en": "Karbach OTL-03",
-              "es": "Karbach OTL-03",
-              "fr": "Karbach OTL-03",
-              "ko": "카르바흐 OTL-03"
+              "en": "OTL-03 Karbach",
+              "es": "OTL-03 Karbach",
+              "fr": "OTL-03 Karbach",
+              "ko": "OTL-03 카르바흐"
             }
           }
         },
@@ -1283,7 +1373,22 @@
               "en": "CheyTac M200 Intervention",
               "es": "CheyTac M200 Intervention",
               "fr": "CheyTac M200 Intervention",
-              "ko": "CheyTac M200 Intervention"
+              "ko": "샤이텍 M200 인터벤션"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.pzb38.name",
+            "args": {},
+            "lines": {
+              "ru": "PzB 38",
+              "en": "PzB 38",
+              "es": "PzB 38",
+              "fr": "PzB 38",
+              "ko": "PzB 38"
             }
           }
         },
@@ -1576,21 +1681,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.mpx.name",
-            "args": {},
-            "lines": {
-              "ru": "SIG MPX",
-              "en": "SIG MPX",
-              "es": "SIG MPX",
-              "fr": "SIG MPX",
-              "ko": "SIG MPX"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.aug9xs.name",
             "args": {},
             "lines": {
@@ -1733,7 +1823,7 @@
               "en": "Steyr AUG A3",
               "es": "Steyr AUG A3",
               "fr": "Steyr AUG A3",
-              "ko": "Steyr AUG A3"
+              "ko": "슈타이어 AUG A3"
             }
           }
         },
@@ -1763,7 +1853,7 @@
               "en": "SIG SG 550 Sniper",
               "es": "Francotirador SIG SG 550",
               "fr": "SIG SG 550 Sniper",
-              "ko": "SIG SG 550 저격수"
+              "ko": "SIG SG 550 스나이퍼"
             }
           }
         },
@@ -1816,6 +1906,36 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.toz55.name",
+            "args": {},
+            "lines": {
+              "ru": "ТОЗ-55",
+              "en": "TOZ-55",
+              "es": "TOZ-55",
+              "fr": "TOZ-55",
+              "ko": "TOZ-55"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.toz57.name",
+            "args": {},
+            "lines": {
+              "ru": "ТОЗ-57",
+              "en": "TOZ-57",
+              "es": "TOZ-57",
+              "fr": "TOZ-57",
+              "ko": "TOZ-57"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.m1014_breacher.name",
             "args": {},
             "lines": {
@@ -1854,6 +1974,36 @@
               "es": "RPD",
               "fr": "RPD",
               "ko": "RPD"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.bren.name",
+            "args": {},
+            "lines": {
+              "ru": "Bren",
+              "en": "Bren",
+              "es": "Bren",
+              "fr": "Bren",
+              "ko": "브렌"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mg34.name",
+            "args": {},
+            "lines": {
+              "ru": "MG-34",
+              "en": "MG-34",
+              "es": "MG-34",
+              "fr": "MG-34",
+              "ko": "MG-34"
             }
           }
         },
@@ -2026,6 +2176,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.izh81.name",
+            "args": {},
+            "lines": {
+              "ru": "ИЖ-81",
+              "en": "IZh-81",
+              "es": "IZh-81",
+              "fr": "IZH-81",
+              "ko": "IZh-81"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.winchester.name",
             "args": {},
             "lines": {
@@ -2109,6 +2274,21 @@
               "es": "Raíl RIS de aumento",
               "fr": "Augmentation du rail SIF",
               "ko": "높이 증가 RIS 레일"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.att.mount_mauser.name",
+            "args": {},
+            "lines": {
+              "ru": "Планка Пикатинни для Mauser 98k",
+              "en": "Picatinny Rail for Mauser 98k",
+              "es": "Raíl Picatinny para Mauser 98k",
+              "fr": "Rail Picatinny pour Mauser 98k",
+              "ko": "마우저 98k용 피카티니 레일"
             }
           }
         },
@@ -2214,21 +2394,6 @@
               "es": "Soporte de mira para M16A2",
               "fr": "Support de viseur pour M16A2",
               "ko": "M16A2용 조준경 마운트"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.mount_mauser.name",
-            "args": {},
-            "lines": {
-              "ru": "Планка Пикатинни для Mauser 98k",
-              "en": "Picatinny Rail for Mauser 98k",
-              "es": "Raíl Picatinny para Mauser 98k",
-              "fr": "Rail Picatinny pour Mauser 98k",
-              "ko": "마우저 98k용 피카티니 레일"
             }
           }
         },

@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -165,11 +165,11 @@
             "key": "weapon.stat_factor.recoil",
             "args": {},
             "lines": {
-              "ru": "Отдача",
-              "en": "Recoil",
-              "es": "Retroceso",
-              "fr": "Recul",
-              "ko": "반동"
+              "ru": "Верт. отдача",
+              "en": "Vertical recoil",
+              "es": "Retroceso vertical",
+              "fr": "Recul vertical",
+              "ko": "수직 반동"
             }
           },
           "value": -12,
@@ -408,6 +408,36 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.mr155_ultima.name",
+            "args": {},
+            "lines": {
+              "ru": "МР-155 Ultima",
+              "en": "MP-155 Ultima",
+              "es": "MP-155 Ultima",
+              "fr": "MP-155 Ultima",
+              "ko": "МР-155 Ultima"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.saiga12.name",
+            "args": {},
+            "lines": {
+              "ru": "Сайга-12",
+              "en": "Saiga-12",
+              "es": "Saiga-12",
+              "fr": "Saiga-12",
+              "ko": "사이가-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.mk12_a.name",
             "args": {},
             "lines": {
@@ -416,6 +446,21 @@
               "es": "Derya MK-12 (A)",
               "fr": "Derya MK-12 (A)",
               "ko": "데리아 MK-12 (A)"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mr133.name",
+            "args": {},
+            "lines": {
+              "ru": "МР-133",
+              "en": "MP-133",
+              "es": "MP-133",
+              "fr": "MP-133",
+              "ko": "MP-133"
             }
           }
         },
@@ -445,37 +490,7 @@
               "en": "Saiga-12K",
               "es": "Saiga-12K",
               "fr": "Saiga-12K",
-              "ko": "사이가-12K"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.terminator.name",
-            "args": {},
-            "lines": {
-              "ru": "Cobray Terminator",
-              "en": "Cobray Terminator",
-              "es": "Cobray Terminator",
-              "fr": "Cobray Terminator",
-              "ko": "코브레이 터미네이터"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.wpn.mossberg.name",
-            "args": {},
-            "lines": {
-              "ru": "Mossberg 590A1",
-              "en": "Mossberg 590A1",
-              "es": "Mossberg 590A1",
-              "fr": "Mossberg 590A1",
-              "ko": "모스버그 590A1"
+              "ko": "Saiga-12K"
             }
           }
         },
@@ -498,14 +513,44 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.mr133.name",
+            "key": "item.wpn.terminator.name",
             "args": {},
             "lines": {
-              "ru": "МР-133",
-              "en": "MP-133",
-              "es": "MP-133",
-              "fr": "MP-133",
-              "ko": "MP-133"
+              "ru": "Cobray Terminator",
+              "en": "Cobray Terminator",
+              "es": "Cobray Terminator",
+              "fr": "Cobray Terminator",
+              "ko": "코브레이 터미네이터"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.izh81.name",
+            "args": {},
+            "lines": {
+              "ru": "ИЖ-81",
+              "en": "IZh-81",
+              "es": "IZh-81",
+              "fr": "IZH-81",
+              "ko": "IZh-81"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mossberg.name",
+            "args": {},
+            "lines": {
+              "ru": "Mossberg 590A1",
+              "en": "Mossberg 590A1",
+              "es": "Mossberg 590A1",
+              "fr": "Mossberg 590A1",
+              "ko": "모스버그 590A1"
             }
           }
         }

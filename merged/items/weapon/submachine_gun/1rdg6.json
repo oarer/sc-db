@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -235,22 +235,22 @@
             }
           },
           "value": [
-            38.5,
-            38.793446,
-            39.08689,
-            39.380337,
-            39.67378,
-            40.554115,
-            40.99428,
-            41.434452,
-            41.87462,
-            42.314785,
-            43.60594,
-            44.251522,
-            44.897106,
-            45.542686,
-            46.188263,
-            48.125
+            34.4,
+            34.662197,
+            34.924393,
+            35.18659,
+            35.44878,
+            36.235367,
+            36.62866,
+            37.021954,
+            37.415245,
+            37.808537,
+            38.962196,
+            39.539024,
+            40.115856,
+            40.692688,
+            41.269512,
+            43
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -293,7 +293,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 120,
@@ -320,7 +320,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 800,
@@ -371,7 +371,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -398,7 +398,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -618,14 +618,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.4"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25",
-              "ko": "헤드샷 피해: x1.25"
+              "ru": "Урон в голову: х1,4",
+              "en": "Headshot damage: x1.4",
+              "es": "Daño por disparo a la cabeza: x1,4",
+              "fr": "Dégât de tir à la tête : x1,4",
+              "ko": "헤드샷 피해: x1.4"
             }
           }
         },
@@ -635,14 +635,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.7"
+              "modifier": "0.8"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,7",
-              "en": "Limb damage: x0.7",
-              "es": "Daño a extremidades: x0,7",
-              "fr": "Dégât aux membres : x0,7",
-              "ko": "사지 피해: x0.7"
+              "ru": "Урон по конечностям: х0,8",
+              "en": "Limb damage: x0.8",
+              "es": "Daño a extremidades: x0,8",
+              "fr": "Dégât aux membres : x0,8",
+              "ko": "사지 피해: x0.8"
             }
           }
         }
@@ -665,10 +665,10 @@
             },
             "lines": {
               "ru": "Перегрев через 51 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 51 shots of continuous fire",
+              "en": "Overheats after 51 consecutive shots",
               "es": "Se sobrecalienta tras 51 disparos de fuego continuo",
               "fr": "Surchauffe après 51 coups en feu continu",
-              "ko": "연속된 발포로 51발 후 과열"
+              "ko": "51발 연속 발포 후 과열"
             }
           }
         }
@@ -692,10 +692,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 38.5,
-      "damageDecreaseStart": 8,
-      "endDamage": 22.4,
-      "damageDecreaseEnd": 36,
+      "startDamage": 34.4,
+      "damageDecreaseStart": 14,
+      "endDamage": 20,
+      "damageDecreaseEnd": 46,
       "maxDistance": 120
     },
     {
@@ -710,7 +710,7 @@
         "args": {},
         "lines": {
           "ru": "Данный пистолет-пулемет заслуженно пользуется огромной популярностью благодаря надежности, удобству в обращении и высокой точности стрельбы. Принятый на вооружение армейских и полицейских подразделений многих стран, он появился на черном рынке, таким образом добравшись и до Зоны.",
-          "en": "This submachine gun is extremely popular thanks to its reliability, ease of use and high firing accuracy. The military and police departments of many countries are armed with this gun, which eventually appeared on the black market and made it to the Zone.",
+          "en": "This submachine gun is extremely popular thanks to its reliability, ease of use and high firing accuracy. The military and police departments of many countries are armed with this gun, which eventually appeared on the Black Market and made it to the Zone.",
           "es": "Este subfusil es extremadamente popular gracias a su fiabilidad, facilidad de uso y gran precisión de disparo. Los departamentos militares y policiales de muchos países cuentan en su arsenal con esta arma, que con el tiempo apareció en el mercado negro y llegó a la Zona.",
           "fr": "Cette mitraillette est extrêmement populaire en raison de sa fiabilité, de sa facilité d'utilisation et de sa grande précision de tir. Les militaires et les services de police de nombreux pays utilisent cette arme, qui a fini par apparaître sur le marché noir et s'est retrouvée dans la Zone.",
           "ko": "이 기관단총은 신뢰성, 사용 용이성, 그리고 높은 사격 정확도로 인해 매우 인기가 많다. 여러 나라의 군대와 경찰 부서에서 이 총을 사용하고 있으며, 결국에는 블랙 마켓에 나타나서 구역으로 유입되었다."

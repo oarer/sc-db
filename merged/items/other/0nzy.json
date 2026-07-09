@@ -36,7 +36,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -48,7 +48,7 @@
               "en": "Other",
               "es": "Otros",
               "fr": "Autre",
-              "ko": "기타"
+              "ko": "분류 없음"
             }
           }
         },
@@ -169,7 +169,7 @@
               "en": "Condition",
               "es": "Estado",
               "fr": "Condition",
-              "ko": "내구도"
+              "ko": "상태"
             }
           },
           "value": 100,
@@ -235,14 +235,14 @@
               "ko": "피해 흡수율"
             }
           },
-          "value": 25,
+          "value": 15.000001,
           "formatted": {
             "value": {
-              "ru": "25%",
-              "en": "25%",
-              "es": "25 %",
-              "fr": "25%",
-              "ko": "25%"
+              "ru": "15%",
+              "en": "15%",
+              "es": "15 %",
+              "fr": "15%",
+              "ko": "15%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -265,10 +265,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от холода",
-              "en": "Frost protection",
+              "en": "Frost Protection",
               "es": "Protección contra congelación",
               "fr": "Protection contre le gel",
-              "ko": "냉기 저항"
+              "ko": "서리 보호"
             }
           },
           "value": 50,

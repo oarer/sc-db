@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -165,11 +165,11 @@
             "key": "weapon.stat_factor.recoil",
             "args": {},
             "lines": {
-              "ru": "Отдача",
-              "en": "Recoil",
-              "es": "Retroceso",
-              "fr": "Recul",
-              "ko": "반동"
+              "ru": "Верт. отдача",
+              "en": "Vertical recoil",
+              "es": "Retroceso vertical",
+              "fr": "Recul vertical",
+              "ko": "수직 반동"
             }
           },
           "value": 1.4999986,
@@ -426,6 +426,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.m60.name",
+            "args": {},
+            "lines": {
+              "ru": "M60E4",
+              "en": "M60E4",
+              "es": "M60E4",
+              "fr": "M60E4",
+              "ko": "M60E4"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.fal_a.name",
             "args": {},
             "lines": {
@@ -553,7 +568,7 @@
               "en": "CheyTac M200 Intervention",
               "es": "CheyTac M200 Intervention",
               "fr": "CheyTac M200 Intervention",
-              "ko": "CheyTac M200 Intervention"
+              "ko": "샤이텍 M200 인터벤션"
             }
           }
         },

@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -200,14 +200,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": -2.9999971,
+          "value": -1.9999981,
           "formatted": {
             "value": {
-              "ru": "-3%",
-              "en": "-3%",
-              "es": "-3 %",
-              "fr": "-3%",
-              "ko": "-3%"
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2 %",
+              "fr": "-2%",
+              "ko": "-2%"
             },
             "nameColor": "C15252",
             "valueColor": "C15252"
@@ -264,22 +264,22 @@
             }
           },
           "value": [
-            44,
-            44.33537,
-            44.67073,
-            45.0061,
-            45.34146,
-            46.34756,
-            46.85061,
-            47.35366,
-            47.85671,
-            48.359756,
-            49.83536,
-            50.57317,
-            51.310978,
-            52.048782,
-            52.786583,
-            55
+            40.5,
+            40.808693,
+            41.11738,
+            41.426067,
+            41.734756,
+            42.660824,
+            43.123856,
+            43.58689,
+            44.049923,
+            44.512955,
+            45.871185,
+            46.550304,
+            47.22942,
+            47.90854,
+            48.58765,
+            50.625
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -322,7 +322,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 175,
@@ -349,7 +349,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 750,
@@ -400,7 +400,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -427,7 +427,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -460,14 +460,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.41999996,
+          "value": 0.37,
           "formatted": {
             "value": {
-              "ru": "0,42°",
-              "en": "0.42°",
-              "es": "0,42°",
-              "fr": "0,42°",
-              "ko": "0.42°"
+              "ru": "0,37°",
+              "en": "0.37°",
+              "es": "0,37°",
+              "fr": "0,37°",
+              "ko": "0.37°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -647,14 +647,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.4"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25",
-              "ko": "헤드샷 피해: x1.25"
+              "ru": "Урон в голову: х1,4",
+              "en": "Headshot damage: x1.4",
+              "es": "Daño por disparo a la cabeza: x1,4",
+              "fr": "Dégât de tir à la tête : x1,4",
+              "ko": "헤드샷 피해: x1.4"
             }
           }
         },
@@ -664,14 +664,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.7"
+              "modifier": "0.8"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,7",
-              "en": "Limb damage: x0.7",
-              "es": "Daño a extremidades: x0,7",
-              "fr": "Dégât aux membres : x0,7",
-              "ko": "사지 피해: x0.7"
+              "ru": "Урон по конечностям: х0,8",
+              "en": "Limb damage: x0.8",
+              "es": "Daño a extremidades: x0,8",
+              "fr": "Dégât aux membres : x0,8",
+              "ko": "사지 피해: x0.8"
             }
           }
         }
@@ -738,10 +738,10 @@
             },
             "lines": {
               "ru": "Перегрев через 56 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 56 shots of continuous fire",
+              "en": "Overheats after 56 consecutive shots",
               "es": "Se sobrecalienta tras 56 disparos de fuego continuo",
               "fr": "Surchauffe après 56 coups en feu continu",
-              "ko": "연속된 발포로 56발 후 과열"
+              "ko": "56발 연속 발포 후 과열"
             }
           }
         }
@@ -765,10 +765,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 44,
-      "damageDecreaseStart": 18,
-      "endDamage": 35,
-      "damageDecreaseEnd": 62,
+      "startDamage": 40.5,
+      "damageDecreaseStart": 28,
+      "endDamage": 35.2,
+      "damageDecreaseEnd": 82,
       "maxDistance": 175
     },
     {
@@ -783,7 +783,7 @@
         "args": {},
         "lines": {
           "ru": "Оружие улучшено в мастерской Арсенала",
-          "en": "Weapon improved in the Arsenals Workshop",
+          "en": "Weapon upgraded in the Arsenal Workshop",
           "es": "Weapon improved in the Arsenals Workshop",
           "fr": "Arme améliorée dans l'Atelier d'Arsenal",
           "ko": "아스널 작업장에서 개량된 무기"

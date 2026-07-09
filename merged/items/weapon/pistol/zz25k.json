@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -235,22 +235,22 @@
             }
           },
           "value": [
-            73.3,
-            73.858696,
-            74.41738,
-            74.976074,
-            75.53476,
-            77.21083,
-            78.04886,
-            78.886894,
-            79.72493,
-            80.56296,
-            83.02119,
-            84.250305,
-            85.47942,
-            86.70854,
-            87.93765,
-            91.625
+            65.4,
+            65.89848,
+            66.39695,
+            66.89543,
+            67.393906,
+            68.88933,
+            69.63704,
+            70.38476,
+            71.13247,
+            71.88018,
+            74.07347,
+            75.17012,
+            76.26677,
+            77.36342,
+            78.46006,
+            81.75
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -293,7 +293,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 65,
@@ -320,7 +320,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 350,
@@ -371,7 +371,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -398,7 +398,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -618,14 +618,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.4"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25",
-              "ko": "헤드샷 피해: x1.25"
+              "ru": "Урон в голову: х1,4",
+              "en": "Headshot damage: x1.4",
+              "es": "Daño por disparo a la cabeza: x1,4",
+              "fr": "Dégât de tir à la tête : x1,4",
+              "ko": "헤드샷 피해: x1.4"
             }
           }
         },
@@ -635,14 +635,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.7"
+              "modifier": "0.8"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,7",
-              "en": "Limb damage: x0.7",
-              "es": "Daño a extremidades: x0,7",
-              "fr": "Dégât aux membres : x0,7",
-              "ko": "사지 피해: x0.7"
+              "ru": "Урон по конечностям: х0,8",
+              "en": "Limb damage: x0.8",
+              "es": "Daño a extremidades: x0,8",
+              "fr": "Dégât aux membres : x0,8",
+              "ko": "사지 피해: x0.8"
             }
           }
         }
@@ -665,10 +665,10 @@
             },
             "lines": {
               "ru": "Перегрев через 11 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 11 shots of continuous fire",
+              "en": "Overheats after 11 consecutive shots",
               "es": "Se sobrecalienta tras 11 disparos de fuego continuo",
               "fr": "Surchauffe après 11 coups en feu continu",
-              "ko": "연속된 발포로 11발 후 과열"
+              "ko": "11발 연속 발포 후 과열"
             }
           }
         }
@@ -692,9 +692,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 73.3,
+      "startDamage": 65.4,
       "damageDecreaseStart": 4,
-      "endDamage": 42,
+      "endDamage": 37.5,
       "damageDecreaseEnd": 30,
       "maxDistance": 65
     },
@@ -710,7 +710,7 @@
         "args": {},
         "lines": {
           "ru": "Усовершенствованная модель пистолета, который стал классикой автоматического оружия и с честью прошел все вооруженные конфликты XX века. Как в исходном, так и в модифицированном варианте он до сих пор выпускается десятками, если не сотнями производителей. Единственным недостатком можно считать невысокую емкость магазина, но это в определенной степени компенсируется мощным патроном.",
-          "en": "An improved model of the M1911, this pistol became a classic automatic weapon and endured all military conflicts of the 20th century with flying colors. As with its predecessor, this modified version is manufactured by the dozens, if not the hundred, to this very day. Its limited magazine capacity might be regarded as its only shortcoming, however this is offset to some extent by its powerful rounds.",
+          "en": "An improved model of the M1911, this pistol became a true classic of automatic firearms and endured all military conflicts of the 20th century with flying colors. Both the original and the modified versions are still produced today by dozens, if not hundreds, of manufacturers. Its only notable shortcoming is the limited magazine capacity, though this is offset to some extent by its powerful rounds.",
           "es": "Esta pistola es un modelo mejorado de la M1911 y se convirtió en un arma automática clásica que soportó con nota todos los conflictos militares del siglo XX. Al igual que su predecesora, esta versión modificada se fabrica por docenas, si no por centenas, hasta el día de hoy. Su limitada capacidad de cargador podría considerarse su único defecto; sin embargo, esto se ve compensado en cierta medida por su potente munición.",
           "fr": "Modèle amélioré du M1911, ce pistolet est devenu une arme automatique classique et a enduré haut la main tous les conflits militaires du XXe siècle. Comme son prédécesseur, cette version modifiée est encore aujourd'hui fabriquée par dizaines, voire par centaines. Sa capacité limitée de chargeur pourrait être considérée comme son seul défaut, mais cela est compensé dans une certaine mesure par ses cartouches puissantes.",
           "ko": "M1911의 개량형으로, 고전적인 자동 권총으로 자리잡았다. 20세기의 모든 군사 분쟁을 겪으며 평판을 쌓았다. 전작과 마찬가지로, 이 모델 역시 지금도 수십 개, 아니 수백 개 단위로 꾸준히 생산되고 있다. 탄창 용량이 적다는 점이 유일한 단점으로 지적되긴 하지만, 강력한 탄약 덕분에 어느 정도 상쇄된다."

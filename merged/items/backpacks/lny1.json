@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/backpacks/bag_trizip/trizip.glb",
+    "diff": "models/backpacks/bag_trizip/trizip_diff.dds",
+    "nrm": "models/backpacks/bag_trizip/trizip_nrm.dds",
+    "emi": "models/backpacks/bag_trizip/trizip_emi.dds",
+    "spek": "models/backpacks/bag_trizip/trizip_spek.dds"
+  },
   "id": "lny1",
   "category": "backpacks",
   "name": {
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -254,14 +261,14 @@
               "ko": "최대 운반 무게"
             }
           },
-          "value": 51,
+          "value": 56,
           "formatted": {
             "value": {
-              "ru": "51",
-              "en": "51",
-              "es": "51",
-              "fr": "51",
-              "ko": "51"
+              "ru": "56",
+              "en": "56",
+              "es": "56",
+              "fr": "56",
+              "ko": "56"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"

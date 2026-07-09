@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -180,6 +180,33 @@
               "es": "-6,3 %",
               "fr": "-6,3%",
               "ko": "-6.3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.shoot_factor_decrement",
+            "args": {},
+            "lines": {
+              "ru": "Стабилизация",
+              "en": "Stabilization",
+              "es": "Estabilización",
+              "fr": "Stabilisation",
+              "ko": "안정성"
+            }
+          },
+          "value": 4.800558,
+          "formatted": {
+            "value": {
+              "ru": "+4,8%",
+              "en": "+4.8%",
+              "es": "+4,8 %",
+              "fr": "+4,8%",
+              "ko": "+4.8%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -319,6 +346,21 @@
               "es": "SA-58 CTC",
               "fr": "SA-58 CTC",
               "ko": "SA-58 CTC"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m60.name",
+            "args": {},
+            "lines": {
+              "ru": "M60E4",
+              "en": "M60E4",
+              "es": "M60E4",
+              "fr": "M60E4",
+              "ko": "M60E4"
             }
           }
         },

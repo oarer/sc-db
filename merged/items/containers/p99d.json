@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/backpacks/cont_iu2/iu2.glb",
+    "diff": "models/backpacks/cont_iu2/iu2_diff.dds",
+    "nrm": "models/backpacks/cont_iu2/iu2_nrm.dds",
+    "emi": "models/backpacks/cont_iu2/iu2_emi.dds",
+    "spek": "models/backpacks/cont_iu2/iu2_spek.dds"
+  },
   "id": "p99d",
   "category": "containers",
   "name": {
@@ -10,7 +17,7 @@
       "en": "IU-2 Container",
       "es": "Contenedor IU-2",
       "fr": "Conteneur IU-2",
-      "ko": "IU-2 보관함"
+      "ko": "IU-2 컨테이너"
     }
   },
   "color": "RANK_VETERAN",
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -172,14 +179,14 @@
               "ko": "효율성"
             }
           },
-          "value": 132.5,
+          "value": 139,
           "formatted": {
             "value": {
-              "ru": "132,5%",
-              "en": "132.5%",
-              "es": "132,5 %",
-              "fr": "132,5%",
-              "ko": "132.5%"
+              "ru": "139%",
+              "en": "139%",
+              "es": "139 %",
+              "fr": "139%",
+              "ko": "139%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"

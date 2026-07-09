@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -264,22 +264,22 @@
             }
           },
           "value": [
-            43.5,
-            43.83156,
-            44.16311,
-            44.494667,
-            44.826218,
-            45.820885,
-            46.318214,
-            46.81555,
-            47.31288,
-            47.81021,
-            49.26905,
-            49.998474,
-            50.727898,
-            51.45732,
-            52.186737,
-            54.375
+            38.3,
+            38.591923,
+            38.88384,
+            39.175762,
+            39.46768,
+            40.343445,
+            40.781322,
+            41.219208,
+            41.65709,
+            42.094967,
+            43.379417,
+            44.021645,
+            44.66387,
+            45.3061,
+            45.948322,
+            47.875
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -322,7 +322,7 @@
               "en": "Maximum distance",
               "es": "Distancia máxima",
               "fr": "Distance maximum",
-              "ko": "최대 사거리"
+              "ko": "최대 유효 사거리"
             }
           },
           "value": 140,
@@ -349,7 +349,7 @@
               "en": "Rate of fire",
               "es": "Cadencia de disparo",
               "fr": "Cadence de tir",
-              "ko": "발사 속도"
+              "ko": "연사 속도"
             }
           },
           "value": 750,
@@ -400,7 +400,7 @@
             "args": {},
             "lines": {
               "ru": "Тактическая перезарядка",
-              "en": "Tactical Reload",
+              "en": "Tactical reload",
               "es": "Recarga táctica",
               "fr": "Rechargement tactique",
               "ko": "전술 재장전"
@@ -427,7 +427,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -460,14 +460,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.45000005,
+          "value": 0.39999998,
           "formatted": {
             "value": {
-              "ru": "0,45°",
-              "en": "0.45°",
-              "es": "0,45°",
-              "fr": "0,45°",
-              "ko": "0.45°"
+              "ru": "0,4°",
+              "en": "0.4°",
+              "es": "0,4°",
+              "fr": "0,4°",
+              "ko": "0.4°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -647,14 +647,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.head_damage_modifier",
             "args": {
-              "modifier": "1.25"
+              "modifier": "1.4"
             },
             "lines": {
-              "ru": "Урон в голову: х1,25",
-              "en": "Headshot damage: x1.25",
-              "es": "Daño por disparo a la cabeza: x1,25",
-              "fr": "Dégât de tir à la tête : x1,25",
-              "ko": "헤드샷 피해: x1.25"
+              "ru": "Урон в голову: х1,4",
+              "en": "Headshot damage: x1.4",
+              "es": "Daño por disparo a la cabeza: x1,4",
+              "fr": "Dégât de tir à la tête : x1,4",
+              "ko": "헤드샷 피해: x1.4"
             }
           }
         },
@@ -664,14 +664,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.limbs_damage_modifier",
             "args": {
-              "modifier": "0.8"
+              "modifier": "0.9"
             },
             "lines": {
-              "ru": "Урон по конечностям: х0,8",
-              "en": "Limb damage: x0.8",
-              "es": "Daño a extremidades: x0,8",
-              "fr": "Dégât aux membres : x0,8",
-              "ko": "사지 피해: x0.8"
+              "ru": "Урон по конечностям: х0,9",
+              "en": "Limb damage: x0.9",
+              "es": "Daño a extremidades: x0,9",
+              "fr": "Dégât aux membres : x0,9",
+              "ko": "사지 피해: x0.9"
             }
           }
         }
@@ -738,10 +738,10 @@
             },
             "lines": {
               "ru": "Перегрев через 51 выстрелов непрерывной стрельбы",
-              "en": "Overheat after 51 shots of continuous fire",
+              "en": "Overheats after 51 consecutive shots",
               "es": "Se sobrecalienta tras 51 disparos de fuego continuo",
               "fr": "Surchauffe après 51 coups en feu continu",
-              "ko": "연속된 발포로 51발 후 과열"
+              "ko": "51발 연속 발포 후 과열"
             }
           }
         }
@@ -765,10 +765,10 @@
     },
     {
       "type": "damage",
-      "startDamage": 43.5,
-      "damageDecreaseStart": 8,
-      "endDamage": 27.5,
-      "damageDecreaseEnd": 44,
+      "startDamage": 38.3,
+      "damageDecreaseStart": 14,
+      "endDamage": 27.1,
+      "damageDecreaseEnd": 64,
       "maxDistance": 140
     },
     {
@@ -783,7 +783,7 @@
         "args": {},
         "lines": {
           "ru": "В основе этой штурмовой винтовки калибра 9х39 лежит оружие, позаимствованное Черным Рынком у «Шепота». Весьма грозное оружие, которое достойно покажет себя в бою на средней дистанции.",
-          "en": "Based on the weapon that Black Market borrowed from the Murmur, this 9x39 assault rifle is a formidable weapon that excels in mid-range combat.",
+          "en": "Based on a gun that the Black Market obtained from the Murmur, this 9x39 mm assault rifle is a formidable weapon that excels in mid-range combat.",
           "es": "Este fusil de asalto 9x39 está basado en el arma prestada por el Mercado Negro a Susurro. Es un arma muy formidable que rendirá bien en combates a media distancia.",
           "fr": "Basé sur l'arme que le Marché Noir a emprunté au Murmure, ce fusil d'assaut chambré en 9x39 est une arme incroyable qui excelle en combat à moyenne distance.",
           "ko": "블랙 마켓이 속삭임으로부터 빌려온 무기를 기반으로 만든 9x39 돌격 소총이다. 중거리 전투에서 무시무시한 위력을 발휘한다."

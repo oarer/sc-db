@@ -63,7 +63,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -139,7 +139,7 @@
             "args": {},
             "lines": {
               "ru": "Эргономика оружия",
-              "en": "Weapon Ergonomics",
+              "en": "Weapon ergonomics",
               "es": "Ergonomía de las armas",
               "fr": "Ergonomie de l'arme",
               "ko": "무기 인체공학"
@@ -280,14 +280,14 @@
               "ko": "안정성"
             }
           },
-          "value": 27.999878,
+          "value": 13.999939,
           "formatted": {
             "value": {
-              "ru": "+28%",
-              "en": "+28%",
-              "es": "+28 %",
-              "fr": "+28%",
-              "ko": "+28%"
+              "ru": "+14%",
+              "en": "+14%",
+              "es": "+14 %",
+              "fr": "+14%",
+              "ko": "+14%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -307,7 +307,7 @@
         "args": {},
         "lines": {
           "ru": "Трофейный образец рукоятки, найденной у одного из убитых бойцов «Шепота». Повреждена, функционал не полный. Выполнен из сплава с добавлением артефактных материалов. Судя по анализу инженерной группы, в полностью рабочем состоянии способен перенимать на себя большую часть горизонтальной отдачи, за счет псевдоорганических \"мышц\" внутри корпуса.",
-          "en": "A trophy sample of a grip found on one of a fallen Murmur fighters. Damaged, with incomplete functionality. Made from an alloy with added artifact materials. According to the engineering team's analysis, when fully operational, it can absorb a significant amount of horizontal recoil due to pseudo-organic \"muscles\" within the body.",
+          "en": "A trophy sample of a grip found on a fallen Murmur fighter. Damaged, with incomplete functionality. Made from an alloy with added artifact materials. According to the engineering team's analysis, when fully operational, it can absorb a significant amount of horizontal recoil due to pseudo-organic “muscles” within the body.",
           "es": "Muestra de trofeo de una empuñadura encontrada en posesión de uno de los combatientes asesinados de Susurro. Dañada, no es totalmente funcional. Fabricada en aleación con materiales artefactuales añadidos. Según los análisis del equipo de ingenieros, en estado plenamente operativo, es capaz de absorber la mayor parte del retroceso horizontal, debido a los músculos pseudoorgánicos de su interior.",
           "fr": "Un exemplaire trophée d'une poignée retrouvé sur l'un des combattants abattus du Murmure. Endommagée, avec des fonctionnalités incomplètes. Conçue à partir d'un alliage enrichi de matériaux artefactuels. D'après l'analyse de l'équipe d'ingénierie, lorsqu'elle est pleinement opérationnelle, elle est capable d'absorber une grande partie du recul horizontal grâce à des muscles pseudo-organiques intégrés dans sa structure.",
           "ko": "전사한 속삭임 병사에게서 찾은 전리품 손잡이. 손상되어 기능적으로 불완전하다. 아티팩트 소재를 첨가한 합금으로 만들어졌다. 엔지니어링 부서의 분석 결과, 정상작동 시 총기 몸체에 있는 합성 유기체 \"근육\"을 이용해 수평 반동을 상당량 흡수할 수 있다."
@@ -400,7 +400,7 @@
               "en": "TDI KRISS Vector",
               "es": "TDI KRISS Vector",
               "fr": "TDI KRISS Vector",
-              "ko": "TDI KRISS Vector"
+              "ko": "TDI KRISS 벡터"
             }
           }
         },
@@ -498,6 +498,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.mpx.name",
+            "args": {},
+            "lines": {
+              "ru": "SIG MPX",
+              "en": "SIG MPX",
+              "es": "SIG MPX",
+              "fr": "SIG MPX",
+              "ko": "SIG MPX"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.amb17.name",
             "args": {},
             "lines": {
@@ -535,7 +550,7 @@
               "en": "QBZ-191 Thunderbird",
               "es": "QBZ-191 Petrel",
               "fr": "QBZ-191 L'Oiseau-Tonnerre",
-              "ko": "QBZ-191 [부레베스트니크]"
+              "ko": "QBZ-191 부레베스트니크"
             }
           }
         },
@@ -656,6 +671,21 @@
               "es": "HK MP7A2",
               "fr": "HK MP7A2",
               "ko": "HK MP7A2"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.honeybadger.name",
+            "args": {},
+            "lines": {
+              "ru": "AAC Honey Badger",
+              "en": "AAC Honey Badger",
+              "es": "Honey Badger",
+              "fr": "AAC Honey Badger",
+              "ko": "AAC Honey Badger"
             }
           }
         },
@@ -888,6 +918,21 @@
           "type": "item",
           "name": {
             "type": "translation",
+            "key": "item.wpn.saiga12.name",
+            "args": {},
+            "lines": {
+              "ru": "Сайга-12",
+              "en": "Saiga-12",
+              "es": "Saiga-12",
+              "fr": "Saiga-12",
+              "ko": "사이가-12"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
             "key": "item.wpn.rpl20.name",
             "args": {},
             "lines": {
@@ -911,6 +956,21 @@
               "es": "DSA RPD",
               "fr": "DSA RPD",
               "ko": "DSA RPD"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.m60.name",
+            "args": {},
+            "lines": {
+              "ru": "M60E4",
+              "en": "M60E4",
+              "es": "M60E4",
+              "fr": "M60E4",
+              "ko": "M60E4"
             }
           }
         },
@@ -1135,7 +1195,7 @@
               "en": "VSS-M Vintorez",
               "es": "VSS-M Vintorez",
               "fr": "VSS-M Vintorez",
-              "ko": "VSS-M [빈토레즈]"
+              "ko": "VSS-M 빈토레즈"
             }
           }
         },
@@ -1293,21 +1353,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.fal_old.name",
-            "args": {},
-            "lines": {
-              "ru": "Старый FN FAL",
-              "en": "Old FN FAL",
-              "es": "FN FAL antiguo",
-              "fr": "Vieux FN FAL",
-              "ko": "낡은 FN FAL"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.aek973.name",
             "args": {},
             "lines": {
@@ -1398,21 +1443,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.mpx.name",
-            "args": {},
-            "lines": {
-              "ru": "SIG MPX",
-              "en": "SIG MPX",
-              "es": "SIG MPX",
-              "fr": "SIG MPX",
-              "ko": "SIG MPX"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.aug9xs.name",
             "args": {},
             "lines": {
@@ -1480,7 +1510,7 @@
               "en": "Steyr AUG A3",
               "es": "Steyr AUG A3",
               "fr": "Steyr AUG A3",
-              "ko": "Steyr AUG A3"
+              "ko": "슈타이어 AUG A3"
             }
           }
         },
@@ -1541,21 +1571,6 @@
               "es": "Culata Springfield M1A PACS",
               "fr": "Crosse Springfield M1A PACS",
               "ko": "스프링필드 M1A PACS 개머리판"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
-            "key": "item.att.forend_saiga.name",
-            "args": {},
-            "lines": {
-              "ru": "Цевье для Сайга-12К",
-              "en": "Handguard for Saiga-12K",
-              "es": "Guardamanos para Saiga-12K",
-              "fr": "Garde-main Saiga-12K",
-              "ko": "사이가-12K용 총열덮개"
             }
           }
         },
@@ -1702,10 +1717,10 @@
             "args": {},
             "lines": {
               "ru": "Планка RIS на ПП-91 «Кедр»",
-              "en": "RIS Rail for PP-91 KEDR",
-              "es": "Raíl RIS para PP-91 KEDR",
-              "fr": "Rail RIS pour PP-91 KEDR",
-              "ko": "PP-91 KEDR용 RIS 레일"
+              "en": "RIS Rail for PP-91 Kedr",
+              "es": "Raíl RIS para PP-91 Kedr",
+              "fr": "Rail RIS pour PP-91 Kedr",
+              "ko": "PP-91 Kedr용 RIS 레일"
             }
           }
         }

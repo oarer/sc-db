@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/backpacks/bag_placeholders/light1.glb",
+    "diff": "models/backpacks/bag_placeholders/sack_diff.dds",
+    "nrm": "models/backpacks/bag_placeholders/sack_nrm.dds",
+    "emi": "models/backpacks/bag_placeholders/sack_emi.dds",
+    "spek": "models/backpacks/bag_placeholders/sack_spek.dds"
+  },
   "id": "nv63",
   "category": "backpacks",
   "name": {
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -254,14 +261,14 @@
               "ko": "이동 속도"
             }
           },
-          "value": 3.6,
+          "value": 3.7,
           "formatted": {
             "value": {
-              "ru": "3,6%",
-              "en": "3.6%",
-              "es": "3,6 %",
-              "fr": "3,6%",
-              "ko": "3.6%"
+              "ru": "3,7%",
+              "en": "3.7%",
+              "es": "3,7 %",
+              "fr": "3,7%",
+              "ko": "3.7%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -281,14 +288,14 @@
               "ko": "최대 운반 무게"
             }
           },
-          "value": 22,
+          "value": 24,
           "formatted": {
             "value": {
-              "ru": "22",
-              "en": "22",
-              "es": "22",
-              "fr": "22",
-              "ko": "22"
+              "ru": "24",
+              "en": "24",
+              "es": "24",
+              "fr": "24",
+              "ko": "24"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -308,7 +315,7 @@
         "args": {},
         "lines": {
           "ru": "Данный предмет имеет ВРЕМЕННУЮ модель, которая будет заменена.",
-          "en": "This item has a TEMPORARY model, which will be replaced.",
+          "en": "This item currently uses a TEMPORARY model that will be replaced.",
           "es": "Este objeto tiene un modelo TEMPORAL que será sustituido.",
           "fr": "Cet objet possède un modèle TEMPORAIRE, qui sera remplacé.",
           "ko": "해당 아이템은 임시 모델로 제공되었으며, 향후 교체될 것입니다."

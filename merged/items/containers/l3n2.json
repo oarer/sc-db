@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/backpacks/cont_bear/bear4d.glb",
+    "diff": "models/backpacks/cont_bear/bear4d_diff.dds",
+    "nrm": "models/backpacks/cont_bear/bear4d_nrm.dds",
+    "emi": "models/backpacks/cont_bear/bear4d_emi.dds",
+    "spek": "models/backpacks/bear/bear4d_spek.dds"
+  },
   "id": "l3n2",
   "category": "containers",
   "name": {
@@ -6,11 +13,11 @@
     "key": "item.cont.bear4u.name",
     "args": {},
     "lines": {
-      "ru": "Контейнер «Берлога-4у»",
-      "en": "Berloga-4u Container",
-      "es": "Contenedor Berloga-4u",
-      "fr": "Conteneur Berloga-4u",
-      "ko": "베를로가-4u 컨테이너"
+      "ru": "Контейнер «Берлога-4У»",
+      "en": "Berloga-4U Container",
+      "es": "Contenedor Berloga-4U",
+      "fr": "Conteneur Berloga-4U",
+      "ko": "베를로가-4U 컨테이너"
     }
   },
   "color": "RANK_STALKER",
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {

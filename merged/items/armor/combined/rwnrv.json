@@ -1,4 +1,11 @@
 {
+  "model": {
+    "model": "models/armor/gorka/gorka.glb",
+    "diff": "models/armor/gorka/gorka_diff.dds",
+    "nrm": "models/armor/gorka/gorka_nrm.dds",
+    "emi": "models/armor/gorka/gorka_emi.dds",
+    "spek": "models/armor/gorka/gorka_spek.dds"
+  },
   "id": "rwnrv",
   "category": "armor/combined",
   "name": {
@@ -48,7 +55,7 @@
               "en": "Picklock",
               "es": "Ratero",
               "fr": "Crocheteur",
-              "ko": "도둑"
+              "ko": "신입"
             }
           }
         },
@@ -63,7 +70,7 @@
               "en": "Class",
               "es": "Clase",
               "fr": "Classe",
-              "ko": "등급"
+              "ko": "클래스"
             }
           },
           "value": {
@@ -259,7 +266,7 @@
               "en": "Bullet resistance",
               "es": "Resistencia a las balas",
               "fr": "Résistance aux balles",
-              "ko": "총탄 보호율"
+              "ko": "총탄 저항율"
             }
           },
           "value": [
@@ -290,7 +297,7 @@
               "en": "Laceration protection",
               "es": "Protección contra laceración",
               "fr": "Protection contre les lacérations",
-              "ko": "열상 보호율"
+              "ko": "열상 저항율"
             }
           },
           "value": 40,
@@ -317,7 +324,7 @@
               "en": "Explosion protection",
               "es": "Protección contra explosiones",
               "fr": "Protection contre les explosions",
-              "ko": "폭발 보호율"
+              "ko": "폭발 저항율"
             }
           },
           "value": 35,
@@ -341,10 +348,10 @@
             "args": {},
             "lines": {
               "ru": "Электрозащита",
-              "en": "Resistance to electricity",
+              "en": "Electricity resistance",
               "es": "Resistencia a la electricidad",
               "fr": "Résistance à l'électricité",
-              "ko": "전기 보호율"
+              "ko": "전기 저항율"
             }
           },
           "value": 5,
@@ -368,10 +375,10 @@
             "args": {},
             "lines": {
               "ru": "Защита от огня",
-              "en": "Resistance to fire",
+              "en": "Fire resistance",
               "es": "Resistencia al fuego",
               "fr": "Résistance au feu",
-              "ko": "화염 보호율"
+              "ko": "화염 저항율"
             }
           },
           "value": 5,
@@ -395,7 +402,7 @@
             "args": {},
             "lines": {
               "ru": "Химзащита",
-              "en": "Resistance to chemicals",
+              "en": "Chemical resistance",
               "es": "Resistencia a los productos químicos",
               "fr": "Résistance aux produits chimiques",
               "ko": "화학 화상 보호율"
@@ -425,7 +432,7 @@
               "en": "Radiation protection",
               "es": "Protección contra radiación",
               "fr": "Protection contre les radiations",
-              "ko": "방사능 저항"
+              "ko": "방사능 보호"
             }
           },
           "value": 10,
@@ -452,7 +459,7 @@
               "en": "Thermal protection",
               "es": "Protección térmica",
               "fr": "Protection thermique",
-              "ko": "열 저항"
+              "ko": "열 보호"
             }
           },
           "value": 5,
@@ -479,7 +486,7 @@
               "en": "Bioinfection protection",
               "es": "Protección contra bioinfección",
               "fr": "Protection contre les bio infections",
-              "ko": "생체 감염 저항"
+              "ko": "생체 감염 보호"
             }
           },
           "value": 10,
@@ -506,7 +513,7 @@
               "en": "Psy-emission protection",
               "es": "Prot contra emisiones psy",
               "fr": "Protection contre les émissions psys",
-              "ko": "정신파 방사물 저항"
+              "ko": "정신파 에미션 보호"
             }
           },
           "value": 0,
@@ -533,7 +540,7 @@
               "en": "Bleeding protection",
               "es": "Protección contra hemorragia",
               "fr": "Protection contre les saignements",
-              "ko": "출혈 저항"
+              "ko": "출혈 보호"
             }
           },
           "value": 25,
@@ -616,11 +623,11 @@
         "key": "item.arm.gorka.description",
         "args": {},
         "lines": {
-          "ru": "Стандартный туристический костюм, популярный как на Большой земле у любителей активного отдыха, так и у совсем зеленых сталкеров в Зоне.\\n\\n Не обладает выдающимися защитными характеристиками, однако все лучше, чем джинсы и футболка!",
-          "en": "A standard tourist suit popular both among outdoor enthusiasts on the Mainland and completely green stalkers in the Zone.\\n\\n It doesn't have outstanding protective features, but it's still better than jeans and a t-shirt!",
-          "es": "Un traje turístico estándar, popular tanto en el Continente entre los entusiastas de las actividades al aire libre, como entre los acechadores novatos en la Zona.\\n\\n No posee características de protección destacadas, ¡pero es mejor que usar vaqueros y camiseta!",
+          "ru": "Стандартный туристический костюм, популярный как на Большой земле у любителей активного отдыха, так и у совсем зеленых сталкеров в Зоне.\\n\\nНе обладает выдающимися защитными характеристиками, однако все лучше, чем джинсы и футболка!",
+          "en": "A standard tourist suit, popular both on the Mainland among outdoor enthusiasts and among completely green stalkers in the Zone.\\n\\nIt doesn’t offer any outstanding protection, but it’s still better than jeans and a T-shirt!",
+          "es": "Un traje turístico estándar, muy popular tanto entre los amantes del turismo activo en el Continente como entre los acechadores novatos de la Zona.\\n\\nNo destaca precisamente por sus propiedades protectoras, ¡pero siempre es mejor que unos vaqueros y una camiseta!",
           "fr": "Tenue de randonnée standard, populaire aussi bien sur le Continent parmi les amateurs d'activités en plein air que chez les stalkers débutants de la Zone.\\n\\n Elle n'offre pas de grandes propriétés de protection, mais c'est toujours mieux qu'un jean et un t-shirt.",
-          "ko": "본토의 아웃도어 애호가들과 구역의 완전 초보 스토커들에게 인기 있는 표준 관광복입니다.\\n\\n 뛰어난 보호 기능은 없지만 청바지와 티셔츠보다는 낫습니다!"
+          "ko": "본토의 아웃도어 애호가들과 구역의 완전 초보 스토커들에게 인기 있는 표준 관광복입니다.\\n\\n뛰어난 보호 기능은 없지만 청바지와 티셔츠보다는 낫습니다!"
         }
       }
     }
