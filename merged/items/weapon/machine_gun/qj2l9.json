@@ -264,22 +264,22 @@
             }
           },
           "value": [
-            50,
-            50.3811,
-            50.762196,
-            51.143295,
-            51.524387,
-            52.667683,
-            53.239326,
-            53.810978,
-            54.38262,
-            54.954266,
-            56.631096,
-            57.469513,
-            58.307926,
-            59.146343,
-            59.984756,
-            62.5
+            50.5,
+            50.88491,
+            51.269817,
+            51.654728,
+            52.03963,
+            53.19436,
+            53.77172,
+            54.349087,
+            54.92645,
+            55.50381,
+            57.197407,
+            58.044205,
+            58.891006,
+            59.73781,
+            60.584602,
+            63.125
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -725,10 +725,10 @@
             "key": "item.wpn.lmg.features",
             "args": {},
             "lines": {
-              "ru": "Улучшенная отдача в положении лёжа",
+              "ru": "Улучшенная отдача в положении лежа",
               "en": "Improved recoil in prone position",
               "es": "Retroceso mejorado en posición decúbito",
-              "fr": "Amélioration de la dispersion et du recul en position couchée",
+              "fr": "Amélioration du recul en position couchée",
               "ko": "포복 자세 시 반동 감소"
             }
           }
@@ -737,7 +737,7 @@
     },
     {
       "type": "damage",
-      "startDamage": 50,
+      "startDamage": 50.5,
       "damageDecreaseStart": 24,
       "endDamage": 40.2,
       "damageDecreaseEnd": 80,

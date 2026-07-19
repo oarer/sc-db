@@ -280,7 +280,7 @@
         "args": {},
         "lines": {
           "ru": "ВНИМАНИЕ: при надетом глушителе враг не будет знать, откуда вы ведете огонь.",
-          "en": "ATTENTION: if you use a silencer, the enemy won’t know where you are firing from.",
+          "en": "ATTENTION: if you use a silencer, the enemy won't know where you are firing from.",
           "es": "ATENCIÓN: si usas un silenciador, el enemigo no sabrá desde dónde disparas.",
           "fr": "ATTENTION : si vous utilisez un silencieux, l'ennemi ne saura pas d'où vous tirez.",
           "ko": "주의: 소음기를 사용하면 적이 발사 위치를 알 수 없습니다."
@@ -404,6 +404,21 @@
               "es": "Sig Sauer P320",
               "fr": "Sig Sauer P320",
               "ko": "지크자우어 P320"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.fiveseven.name",
+            "args": {},
+            "lines": {
+              "ru": "FN Five-seveN",
+              "en": "FN Five-seveN",
+              "es": "FN Five-seveN",
+              "fr": "FN Five-seveN",
+              "ko": "FN Five-seveN"
             }
           }
         },
@@ -895,7 +910,7 @@
             "args": {},
             "lines": {
               "ru": "ПМ вечного новичка",
-              "en": "Eternal Novice’s PM",
+              "en": "Eternal Novice's PM",
               "es": "PM del novato eterno",
               "fr": "PM du Débutant Éternel",
               "ko": "영원한 초보자의 PM"
@@ -966,21 +981,6 @@
           "type": "item",
           "name": {
             "type": "translation",
-            "key": "item.wpn.mauser.name",
-            "args": {},
-            "lines": {
-              "ru": "Mauser C96",
-              "en": "Mauser C96",
-              "es": "Mauser C96",
-              "fr": "Mauser C96",
-              "ko": "마우저 C96"
-            }
-          }
-        },
-        {
-          "type": "item",
-          "name": {
-            "type": "translation",
             "key": "item.wpn.kedr.name",
             "args": {},
             "lines": {
@@ -1015,7 +1015,7 @@
             "args": {},
             "lines": {
               "ru": "Vz.68 Škorpion",
-              "en": "Vz.68 Scorpion",
+              "en": "Vz.68 Škorpion",
               "es": "Vz.68 Škorpion",
               "fr": "Vz.68 Škorpion",
               "ko": "Vz.68 Škorpion"
@@ -1034,6 +1034,21 @@
               "es": "Gepard",
               "fr": "Guépard",
               "ko": "게파드"
+            }
+          }
+        },
+        {
+          "type": "item",
+          "name": {
+            "type": "translation",
+            "key": "item.wpn.mauser.name",
+            "args": {},
+            "lines": {
+              "ru": "Mauser C96",
+              "en": "Mauser C96",
+              "es": "Mauser C96",
+              "fr": "Mauser C96",
+              "ko": "마우저 C96"
             }
           }
         },
