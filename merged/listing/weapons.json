@@ -597,35 +597,7 @@
             "ko": "추가 특성"
           }
         },
-        "elements": [
-          {
-            "type": "numeric",
-            "name": {
-              "type": "translation",
-              "key": "weapon.tooltip.weapon.info.plate_penetrating",
-              "args": {},
-              "lines": {
-                "ru": "Пробитие пластин",
-                "en": "Plate penetration",
-                "es": "Perforación de placas",
-                "fr": "Perforation des plaques",
-                "ko": "장갑판 관통"
-              }
-            },
-            "value": 99,
-            "formatted": {
-              "value": {
-                "ru": "99%",
-                "en": "99%",
-                "es": "99 %",
-                "fr": "99%",
-                "ko": "99%"
-              },
-              "nameColor": "53C353",
-              "valueColor": "53C353"
-            }
-          }
-        ]
+        "elements": []
       },
       {
         "type": "list",
@@ -682,7 +654,7 @@
               "type": "translation",
               "key": "weapon.tooltip.weapon.armor_plate_damage_factor",
               "args": {
-                "modifier": "99.99991"
+                "modifier": "100.0"
               },
               "lines": {
                 "ru": "Урон по прочности пластин: х100",
@@ -716,15 +688,15 @@
               "type": "translation",
               "key": "weapon.tooltip.weapon.execute_damage_modifier",
               "args": {
-                "plusPercent": "1.0",
-                "maxPercent": "100.0"
+                "plusPercent": "0.75",
+                "maxPercent": "75.0"
               },
               "lines": {
-                "ru": "Урон увеличивается на 1% за каждый % отсутствующего здоровья цели, максимум +100% урона",
-                "en": "Damage increases by 1% for every % of the target's health that is missing, to a maximum of +100% damage",
-                "es": "El daño aumenta un 1 % por cada % de salud que le falte al objetivo, hasta un máximo de +100 % de daño",
-                "fr": "Dégâts augmentés de 1% pour chaque % manquant de santé de la cible pour un maximum de +100% dégâts",
-                "ko": "대상의 잃은 체력 1%마다 피해가 1% 증가하며, 최대 +100% 피해까지 증가합니다"
+                "ru": "Урон увеличивается на 0,75% за каждый % отсутствующего здоровья цели, максимум +75% урона",
+                "en": "Damage increases by 0.75% for every % of the target's health that is missing, to a maximum of +75% damage",
+                "es": "El daño aumenta un 0,75 % por cada % de salud que le falte al objetivo, hasta un máximo de +75 % de daño",
+                "fr": "Dégâts augmentés de 0,75% pour chaque % manquant de santé de la cible pour un maximum de +75% dégâts",
+                "ko": "대상의 잃은 체력 1%마다 피해가 0.75% 증가하며, 최대 +75% 피해까지 증가합니다"
               }
             }
           }
@@ -752,11 +724,11 @@
               "key": "item.wpn.ptrd.features",
               "args": {},
               "lines": {
-                "ru": "Игнорирует защиту пластин @Ломает пластины @Смертельный выстрел @Улучшенный контроль лежа и в приседе",
-                "en": "Ignores Plate Defense @Breaks plates @Lethal shot @Enhanced control while prone and crouching",
-                "es": "Ignora la protección de placas @ Rompe placas @ Disparo mortal @ Control mejorado al agacharse y en posición decúbito",
-                "fr": "Ignore la protection des plaques @Brise les plaques @Tir mortel @Contrôle accru en position couchée et accroupie",
-                "ko": "장갑 무시 @장갑 파괴 @치명타 @웅크린 자세에서 탄퍼짐 감소 @엎드린 자세에서는 반동이 완화됨"
+                "ru": "Ломает пластины @Смертельный выстрел @Улучшенный контроль лежа и в приседе",
+                "en": "Breaks plates @Lethal shot @Enhanced control while prone and crouching",
+                "es": "Rompe placas @Disparo mortal @Control mejorado al agacharse y tumbado",
+                "fr": "Brise les plaques @Tir mortel @Contrôle accru en position couchée et accroupie",
+                "ko": "장갑판 파괴 @치명타 @엎드리기 및 앉기 제어 향상"
               }
             }
           }
@@ -5313,35 +5285,7 @@
             "ko": "추가 특성"
           }
         },
-        "elements": [
-          {
-            "type": "numeric",
-            "name": {
-              "type": "translation",
-              "key": "weapon.tooltip.weapon.info.plate_penetrating",
-              "args": {},
-              "lines": {
-                "ru": "Пробитие пластин",
-                "en": "Plate penetration",
-                "es": "Perforación de placas",
-                "fr": "Perforation des plaques",
-                "ko": "장갑판 관통"
-              }
-            },
-            "value": 99,
-            "formatted": {
-              "value": {
-                "ru": "99%",
-                "en": "99%",
-                "es": "99 %",
-                "fr": "99%",
-                "ko": "99%"
-              },
-              "nameColor": "53C353",
-              "valueColor": "53C353"
-            }
-          }
-        ]
+        "elements": []
       },
       {
         "type": "list",
@@ -5381,14 +5325,14 @@
               "type": "translation",
               "key": "weapon.tooltip.weapon.limbs_damage_modifier",
               "args": {
-                "modifier": "1.0"
+                "modifier": "0.9"
               },
               "lines": {
-                "ru": "Урон по конечностям: х1",
-                "en": "Limb damage: x1",
-                "es": "Daño a extremidades: x1",
-                "fr": "Dégât aux membres : x1",
-                "ko": "사지 피해: x1"
+                "ru": "Урон по конечностям: х0,9",
+                "en": "Limb damage: x0.9",
+                "es": "Daño a extremidades: x0,9",
+                "fr": "Dégât aux membres : x0,9",
+                "ko": "사지 피해: x0.9"
               }
             }
           },
@@ -5398,7 +5342,7 @@
               "type": "translation",
               "key": "weapon.tooltip.weapon.armor_plate_damage_factor",
               "args": {
-                "modifier": "99.99991"
+                "modifier": "100.0"
               },
               "lines": {
                 "ru": "Урон по прочности пластин: х100",
@@ -5432,15 +5376,15 @@
               "type": "translation",
               "key": "weapon.tooltip.weapon.execute_damage_modifier",
               "args": {
-                "plusPercent": "1.0",
-                "maxPercent": "100.0"
+                "plusPercent": "0.75",
+                "maxPercent": "75.0"
               },
               "lines": {
-                "ru": "Урон увеличивается на 1% за каждый % отсутствующего здоровья цели, максимум +100% урона",
-                "en": "Damage increases by 1% for every % of the target's health that is missing, to a maximum of +100% damage",
-                "es": "El daño aumenta un 1 % por cada % de salud que le falte al objetivo, hasta un máximo de +100 % de daño",
-                "fr": "Dégâts augmentés de 1% pour chaque % manquant de santé de la cible pour un maximum de +100% dégâts",
-                "ko": "대상의 잃은 체력 1%마다 피해가 1% 증가하며, 최대 +100% 피해까지 증가합니다"
+                "ru": "Урон увеличивается на 0,75% за каждый % отсутствующего здоровья цели, максимум +75% урона",
+                "en": "Damage increases by 0.75% for every % of the target's health that is missing, to a maximum of +75% damage",
+                "es": "El daño aumenta un 0,75 % por cada % de salud que le falte al objetivo, hasta un máximo de +75 % de daño",
+                "fr": "Dégâts augmentés de 0,75% pour chaque % manquant de santé de la cible pour un maximum de +75% dégâts",
+                "ko": "대상의 잃은 체력 1%마다 피해가 0.75% 증가하며, 최대 +75% 피해까지 증가합니다"
               }
             }
           }
@@ -5468,11 +5412,11 @@
               "key": "item.wpn.ptrd.features",
               "args": {},
               "lines": {
-                "ru": "Игнорирует защиту пластин @Ломает пластины @Смертельный выстрел @Улучшенный контроль лежа и в приседе",
-                "en": "Ignores Plate Defense @Breaks plates @Lethal shot @Enhanced control while prone and crouching",
-                "es": "Ignora la protección de placas @ Rompe placas @ Disparo mortal @ Control mejorado al agacharse y en posición decúbito",
-                "fr": "Ignore la protection des plaques @Brise les plaques @Tir mortel @Contrôle accru en position couchée et accroupie",
-                "ko": "장갑 무시 @장갑 파괴 @치명타 @웅크린 자세에서 탄퍼짐 감소 @엎드린 자세에서는 반동이 완화됨"
+                "ru": "Ломает пластины @Смертельный выстрел @Улучшенный контроль лежа и в приседе",
+                "en": "Breaks plates @Lethal shot @Enhanced control while prone and crouching",
+                "es": "Rompe placas @Disparo mortal @Control mejorado al agacharse y tumbado",
+                "fr": "Brise les plaques @Tir mortel @Contrôle accru en position couchée et accroupie",
+                "ko": "장갑판 파괴 @치명타 @엎드리기 및 앉기 제어 향상"
               }
             }
           }
@@ -8214,6 +8158,60 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 5.5,
+            "formatted": {
+              "value": {
+                "ru": "5,5 с",
+                "en": "5.5 sec",
+                "es": "5,5 s",
+                "fr": "5,5 s",
+                "ko": "5.5초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.75,
+            "formatted": {
+              "value": {
+                "ru": "0,75 с",
+                "en": "0.75 sec",
+                "es": "0,75 s",
+                "fr": "0,75 s",
+                "ko": "0.75초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "weapon.stat_factor.reload_modifier",
               "args": {},
               "lines": {
@@ -9758,6 +9756,60 @@
                 "es": "40 disparos/min",
                 "fr": "40tirs/min",
                 "ko": "분당 40 발"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 5.5,
+            "formatted": {
+              "value": {
+                "ru": "5,5 с",
+                "en": "5.5 sec",
+                "es": "5,5 s",
+                "fr": "5,5 s",
+                "ko": "5.5초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.75,
+            "formatted": {
+              "value": {
+                "ru": "0,75 с",
+                "en": "0.75 sec",
+                "es": "0,75 s",
+                "fr": "0,75 s",
+                "ko": "0.75초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -14454,6 +14506,60 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 4.5,
+            "formatted": {
+              "value": {
+                "ru": "4,5 с",
+                "en": "4.5 sec",
+                "es": "4,5 s",
+                "fr": "4,5 s",
+                "ko": "4.5초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.5,
+            "formatted": {
+              "value": {
+                "ru": "0,5 с",
+                "en": "0.5 sec",
+                "es": "0,5 s",
+                "fr": "0,5 s",
+                "ko": "0.5초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "weapon.stat_factor.reload_modifier",
               "args": {},
               "lines": {
@@ -18191,6 +18297,60 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 5.1,
+            "formatted": {
+              "value": {
+                "ru": "5,1 с",
+                "en": "5.1 sec",
+                "es": "5,1 s",
+                "fr": "5,1 s",
+                "ko": "5.1초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.7,
+            "formatted": {
+              "value": {
+                "ru": "0,7 с",
+                "en": "0.7 sec",
+                "es": "0,7 s",
+                "fr": "0,7 s",
+                "ko": "0.7초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "weapon.stat_factor.reload_modifier",
               "args": {},
               "lines": {
@@ -19910,35 +20070,7 @@
             "ko": "추가 특성"
           }
         },
-        "elements": [
-          {
-            "type": "numeric",
-            "name": {
-              "type": "translation",
-              "key": "weapon.tooltip.weapon.info.plate_penetrating",
-              "args": {},
-              "lines": {
-                "ru": "Пробитие пластин",
-                "en": "Plate penetration",
-                "es": "Perforación de placas",
-                "fr": "Perforation des plaques",
-                "ko": "장갑판 관통"
-              }
-            },
-            "value": 99,
-            "formatted": {
-              "value": {
-                "ru": "99%",
-                "en": "99%",
-                "es": "99 %",
-                "fr": "99%",
-                "ko": "99%"
-              },
-              "nameColor": "53C353",
-              "valueColor": "53C353"
-            }
-          }
-        ]
+        "elements": []
       },
       {
         "type": "list",
@@ -19995,7 +20127,7 @@
               "type": "translation",
               "key": "weapon.tooltip.weapon.armor_plate_damage_factor",
               "args": {
-                "modifier": "99.99991"
+                "modifier": "100.0"
               },
               "lines": {
                 "ru": "Урон по прочности пластин: х100",
@@ -20029,15 +20161,15 @@
               "type": "translation",
               "key": "weapon.tooltip.weapon.execute_damage_modifier",
               "args": {
-                "plusPercent": "1.0",
-                "maxPercent": "100.0"
+                "plusPercent": "0.75",
+                "maxPercent": "75.0"
               },
               "lines": {
-                "ru": "Урон увеличивается на 1% за каждый % отсутствующего здоровья цели, максимум +100% урона",
-                "en": "Damage increases by 1% for every % of the target's health that is missing, to a maximum of +100% damage",
-                "es": "El daño aumenta un 1 % por cada % de salud que le falte al objetivo, hasta un máximo de +100 % de daño",
-                "fr": "Dégâts augmentés de 1% pour chaque % manquant de santé de la cible pour un maximum de +100% dégâts",
-                "ko": "대상의 잃은 체력 1%마다 피해가 1% 증가하며, 최대 +100% 피해까지 증가합니다"
+                "ru": "Урон увеличивается на 0,75% за каждый % отсутствующего здоровья цели, максимум +75% урона",
+                "en": "Damage increases by 0.75% for every % of the target's health that is missing, to a maximum of +75% damage",
+                "es": "El daño aumenta un 0,75 % por cada % de salud que le falte al objetivo, hasta un máximo de +75 % de daño",
+                "fr": "Dégâts augmentés de 0,75% pour chaque % manquant de santé de la cible pour un maximum de +75% dégâts",
+                "ko": "대상의 잃은 체력 1%마다 피해가 0.75% 증가하며, 최대 +75% 피해까지 증가합니다"
               }
             }
           }
@@ -20065,11 +20197,11 @@
               "key": "item.wpn.ptrd.features",
               "args": {},
               "lines": {
-                "ru": "Игнорирует защиту пластин @Ломает пластины @Смертельный выстрел @Улучшенный контроль лежа и в приседе",
-                "en": "Ignores Plate Defense @Breaks plates @Lethal shot @Enhanced control while prone and crouching",
-                "es": "Ignora la protección de placas @ Rompe placas @ Disparo mortal @ Control mejorado al agacharse y en posición decúbito",
-                "fr": "Ignore la protection des plaques @Brise les plaques @Tir mortel @Contrôle accru en position couchée et accroupie",
-                "ko": "장갑 무시 @장갑 파괴 @치명타 @웅크린 자세에서 탄퍼짐 감소 @엎드린 자세에서는 반동이 완화됨"
+                "ru": "Ломает пластины @Смертельный выстрел @Улучшенный контроль лежа и в приседе",
+                "en": "Breaks plates @Lethal shot @Enhanced control while prone and crouching",
+                "es": "Rompe placas @Disparo mortal @Control mejorado al agacharse y tumbado",
+                "fr": "Brise les plaques @Tir mortel @Contrôle accru en position couchée et accroupie",
+                "ko": "장갑판 파괴 @치명타 @엎드리기 및 앉기 제어 향상"
               }
             }
           }
@@ -25901,6 +26033,60 @@
                 "es": "40 disparos/min",
                 "fr": "40tirs/min",
                 "ko": "분당 40 발"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 5.1,
+            "formatted": {
+              "value": {
+                "ru": "5,1 с",
+                "en": "5.1 sec",
+                "es": "5,1 s",
+                "fr": "5,1 s",
+                "ko": "5.1초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.7,
+            "formatted": {
+              "value": {
+                "ru": "0,7 с",
+                "en": "0.7 sec",
+                "es": "0,7 s",
+                "fr": "0,7 s",
+                "ko": "0.7초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -37313,6 +37499,60 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 5.5,
+            "formatted": {
+              "value": {
+                "ru": "5,5 с",
+                "en": "5.5 sec",
+                "es": "5,5 s",
+                "fr": "5,5 s",
+                "ko": "5.5초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.75,
+            "formatted": {
+              "value": {
+                "ru": "0,75 с",
+                "en": "0.75 sec",
+                "es": "0,75 s",
+                "fr": "0,75 s",
+                "ko": "0.75초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "weapon.stat_factor.reload_modifier",
               "args": {},
               "lines": {
@@ -44694,22 +44934,22 @@
               }
             },
             "value": [
-              45,
-              45.34299,
-              45.685974,
-              46.028965,
-              46.37195,
-              47.400913,
-              47.915394,
-              48.42988,
-              48.94436,
-              49.45884,
-              50.967983,
-              51.72256,
-              52.477135,
-              53.23171,
-              53.98628,
-              56.25
+              45.2,
+              45.544514,
+              45.889023,
+              46.23354,
+              46.57805,
+              47.611588,
+              48.128353,
+              48.645126,
+              49.161892,
+              49.678658,
+              51.19451,
+              51.95244,
+              52.71037,
+              53.468296,
+              54.22622,
+              56.5
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -45151,7 +45391,7 @@
       },
       {
         "type": "damage",
-        "startDamage": 45,
+        "startDamage": 45.2,
         "damageDecreaseStart": 30,
         "endDamage": 43.5,
         "damageDecreaseEnd": 88,
@@ -46960,22 +47200,22 @@
               }
             },
             "value": [
-              44.2,
-              44.536892,
-              44.87378,
-              45.210674,
-              45.54756,
-              46.55823,
-              47.06357,
-              47.568905,
-              48.074238,
-              48.57957,
-              50.06189,
-              50.803047,
-              51.54421,
-              52.28537,
-              53.026524,
-              55.25
+              45.1,
+              45.443752,
+              45.7875,
+              46.13125,
+              46.475,
+              47.50625,
+              48.021873,
+              48.537502,
+              49.053123,
+              49.56875,
+              51.081245,
+              51.837498,
+              52.59375,
+              53.350002,
+              54.106247,
+              56.375
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -47417,7 +47657,7 @@
       },
       {
         "type": "damage",
-        "startDamage": 44.2,
+        "startDamage": 45.1,
         "damageDecreaseStart": 28,
         "endDamage": 39.8,
         "damageDecreaseEnd": 82,
@@ -49977,22 +50217,22 @@
               }
             },
             "value": [
-              46,
-              46.350613,
-              46.701218,
-              47.05183,
-              47.40244,
-              48.45427,
-              48.980183,
-              49.5061,
-              50.032013,
-              50.557926,
-              52.100605,
-              52.87195,
-              53.643295,
-              54.41464,
-              55.185974,
-              57.5
+              47,
+              47.358234,
+              47.71646,
+              48.074696,
+              48.432926,
+              49.50762,
+              50.044968,
+              50.58232,
+              51.119663,
+              51.65701,
+              53.233227,
+              54.02134,
+              54.809452,
+              55.597565,
+              56.38567,
+              58.75
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -50434,7 +50674,7 @@
       },
       {
         "type": "damage",
-        "startDamage": 46,
+        "startDamage": 47,
         "damageDecreaseStart": 28,
         "endDamage": 41.5,
         "damageDecreaseEnd": 82,
@@ -50745,22 +50985,22 @@
               }
             },
             "value": [
-              43.3,
-              43.63003,
-              43.96006,
-              44.290092,
-              44.62012,
-              45.610214,
-              46.105255,
-              46.600307,
-              47.09535,
-              47.590393,
-              49.042526,
-              49.768597,
-              50.494663,
-              51.220734,
-              51.946796,
-              54.125
+              43.4,
+              43.730797,
+              44.061584,
+              44.39238,
+              44.72317,
+              45.71555,
+              46.21174,
+              46.70793,
+              47.204117,
+              47.700306,
+              49.155792,
+              49.883537,
+              50.611282,
+              51.339027,
+              52.06677,
+              54.25
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -51202,7 +51442,7 @@
       },
       {
         "type": "damage",
-        "startDamage": 43.3,
+        "startDamage": 43.4,
         "damageDecreaseStart": 30,
         "endDamage": 41.7,
         "damageDecreaseEnd": 88,
@@ -51495,22 +51735,22 @@
               }
             },
             "value": [
-              44.2,
-              44.536892,
-              44.87378,
-              45.210674,
-              45.54756,
-              46.55823,
-              47.06357,
-              47.568905,
-              48.074238,
-              48.57957,
-              50.06189,
-              50.803047,
-              51.54421,
-              52.28537,
-              53.026524,
-              55.25
+              44.5,
+              44.83918,
+              45.178352,
+              45.517532,
+              45.856705,
+              46.874237,
+              47.383003,
+              47.89177,
+              48.400536,
+              48.909298,
+              50.401672,
+              51.147865,
+              51.894054,
+              52.640247,
+              53.386433,
+              55.625
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -51952,7 +52192,7 @@
       },
       {
         "type": "damage",
-        "startDamage": 44.2,
+        "startDamage": 44.5,
         "damageDecreaseStart": 20,
         "endDamage": 33.9,
         "damageDecreaseEnd": 75,
@@ -53774,22 +54014,22 @@
               }
             },
             "value": [
-              39.8,
-              40.103355,
-              40.406708,
-              40.71006,
-              41.013412,
-              41.923473,
-              42.378506,
-              42.833538,
-              43.288567,
-              43.743595,
-              45.07835,
-              45.74573,
-              46.41311,
-              47.08049,
-              47.747864,
-              49.75
+              39.1,
+              39.398018,
+              39.696033,
+              39.994057,
+              40.292072,
+              41.186127,
+              41.633152,
+              42.080185,
+              42.52721,
+              42.974236,
+              44.285515,
+              44.941154,
+              45.596798,
+              46.25244,
+              46.908077,
+              48.875
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -54247,9 +54487,9 @@
       },
       {
         "type": "damage",
-        "startDamage": 39.8,
+        "startDamage": 39.1,
         "damageDecreaseStart": 26,
-        "endDamage": 35.9,
+        "endDamage": 35.4,
         "damageDecreaseEnd": 81,
         "maxDistance": 180
       },
@@ -54539,22 +54779,22 @@
               }
             },
             "value": [
-              18.2,
-              18.33872,
-              18.47744,
-              18.61616,
-              18.754879,
-              19.171038,
-              19.379116,
-              19.587196,
-              19.795275,
-              20.003353,
-              20.61372,
-              20.918903,
-              21.224087,
-              21.52927,
-              21.834452,
-              22.75
+              19.8,
+              19.950914,
+              20.101828,
+              20.252745,
+              20.403658,
+              20.856401,
+              21.082773,
+              21.309147,
+              21.535517,
+              21.761889,
+              22.425913,
+              22.757925,
+              23.08994,
+              23.421951,
+              23.753962,
+              24.75
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -54627,14 +54867,14 @@
                 "ko": "연사 속도"
               }
             },
-            "value": 800,
+            "value": 750,
             "formatted": {
               "value": {
-                "ru": "800 выстр/мин",
-                "en": "800 shots/min",
-                "es": "800 disparos/min",
-                "fr": "800tirs/min",
-                "ko": "분당 800 발"
+                "ru": "750 выстр/мин",
+                "en": "750 shots/min",
+                "es": "750 disparos/min",
+                "fr": "750tirs/min",
+                "ko": "분당 750 발"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -54789,14 +55029,14 @@
                 "ko": "수직 반동"
               }
             },
-            "value": 0.51,
+            "value": 0.55,
             "formatted": {
               "value": {
-                "ru": "0,51°",
-                "en": "0.51°",
-                "es": "0,51°",
-                "fr": "0,51°",
-                "ko": "0.51°"
+                "ru": "0,55°",
+                "en": "0.55°",
+                "es": "0,55°",
+                "fr": "0,55°",
+                "ko": "0.55°"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -54996,9 +55236,9 @@
       },
       {
         "type": "damage",
-        "startDamage": 18.2,
+        "startDamage": 19.8,
         "damageDecreaseStart": 30,
-        "endDamage": 15.7,
+        "endDamage": 16.8,
         "damageDecreaseEnd": 80,
         "maxDistance": 160
       },
@@ -58049,6 +58289,33 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "weapon.stat_factor.recoil_gain",
+              "args": {},
+              "lines": {
+                "ru": "Нарастание отдачи",
+                "en": "Recoil buildup",
+                "es": "Acumulación de retroceso",
+                "fr": "Accumulation du recul",
+                "ko": "반동 누적"
+              }
+            },
+            "value": -2.9999971,
+            "formatted": {
+              "value": {
+                "ru": "-3%",
+                "en": "-3%",
+                "es": "-3 %",
+                "fr": "-3%",
+                "ko": "-3%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "weapon.stat_factor.aim_switch_time",
               "args": {},
               "lines": {
@@ -58113,14 +58380,14 @@
                 "ko": "흔들림"
               }
             },
-            "value": 14.999998,
+            "value": 13,
             "formatted": {
               "value": {
-                "ru": "+15%",
-                "en": "+15%",
-                "es": "+15 %",
-                "fr": "+15%",
-                "ko": "+15%"
+                "ru": "+13%",
+                "en": "+13%",
+                "es": "+13 %",
+                "fr": "+13%",
+                "ko": "+13%"
               },
               "nameColor": "C15252",
               "valueColor": "C15252"
@@ -69827,22 +70094,22 @@
               }
             },
             "value": [
-              47,
-              47.358234,
-              47.71646,
-              48.074696,
-              48.432926,
-              49.50762,
-              50.044968,
-              50.58232,
-              51.119663,
-              51.65701,
-              53.233227,
-              54.02134,
-              54.809452,
-              55.597565,
-              56.38567,
-              58.75
+              47.3,
+              47.66052,
+              48.021034,
+              48.381557,
+              48.74207,
+              49.823627,
+              50.364403,
+              50.905186,
+              51.44596,
+              51.986736,
+              53.573013,
+              54.366158,
+              55.159298,
+              55.952442,
+              56.74558,
+              59.125
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -70284,7 +70551,7 @@
       },
       {
         "type": "damage",
-        "startDamage": 47,
+        "startDamage": 47.3,
         "damageDecreaseStart": 21,
         "endDamage": 38.2,
         "damageDecreaseEnd": 76,
@@ -74067,6 +74334,755 @@
             "es": "Un fusil de asalto alemán puesto en servicio por la República Federal de Alemania en 1959.",
             "fr": "Fusil d'assaut allemand mis en service par la République fédérale d'Allemagne en 1959.",
             "ko": "1959년 서독에 의해 실전 투입된 독일산 돌격 소총이다."
+          }
+        }
+      }
+    ]
+  },
+  "ly2d1": {
+    "id": "ly2d1",
+    "category": "weapon/assault_rifle",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.famas_sopmod.name",
+      "args": {},
+      "lines": {
+        "ru": "FAMAS G2 SG",
+        "en": "FAMAS G2 SG",
+        "es": "FAMAS G2 SG",
+        "fr": "FAMAS G2 SG",
+        "ko": "FAMAS G2 SG"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_USE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.master",
+              "args": {},
+              "lines": {
+                "ru": "Мастер",
+                "en": "Master",
+                "es": "Maestro",
+                "fr": "Maître",
+                "ko": "마스터"
+              }
+            }
+          },
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.category",
+              "args": {},
+              "lines": {
+                "ru": "Класс",
+                "en": "Class",
+                "es": "Clase",
+                "fr": "Classe",
+                "ko": "클래스"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.handbook.category.assault_rifle",
+              "args": {},
+              "lines": {
+                "ru": "Автоматы",
+                "en": "Assault Rifles",
+                "es": "Fusiles de asalto",
+                "fr": "Fusils d'assaut",
+                "ko": "돌격 소총"
+              }
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 3.8,
+            "formatted": {
+              "value": {
+                "ru": "3,8 кг",
+                "en": "3.8 kg",
+                "es": "3,8 kg",
+                "fr": "3,8 kg",
+                "ko": "3.8 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100 %",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100 %",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": []
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": []
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.speed_modifier",
+              "args": {},
+              "lines": {
+                "ru": "Скорость передвижения",
+                "en": "Movement speed",
+                "es": "Velocidad de movimiento",
+                "fr": "Vitesse de déplacement",
+                "ko": "이동 속도"
+              }
+            },
+            "value": -1.9999981,
+            "formatted": {
+              "value": {
+                "ru": "-2%",
+                "en": "-2%",
+                "es": "-2 %",
+                "fr": "-2%",
+                "ko": "-2%"
+              },
+              "nameColor": "C15252",
+              "valueColor": "C15252"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.info.ammo_type",
+              "args": {},
+              "lines": {
+                "ru": "Тип боеприпасов",
+                "en": "Ammo type",
+                "es": "Tipo de munición",
+                "fr": "Type de munitions",
+                "ko": "탄약 종류"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "item.wpn.display_ammo_types.556mm",
+              "args": {},
+              "lines": {
+                "ru": "5.56",
+                "en": "5.56",
+                "es": "5,56",
+                "fr": "5,56 mm",
+                "ko": "5.56 구경"
+              }
+            }
+          },
+          {
+            "type": "numericVariants",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.stat_name.damage_type.direct",
+              "args": {},
+              "lines": {
+                "ru": "Урон",
+                "en": "Damage",
+                "es": "Daño",
+                "fr": "Dégâts",
+                "ko": "피해량"
+              }
+            },
+            "value": [
+              31.7,
+              31.941618,
+              32.18323,
+              32.42485,
+              32.666462,
+              33.39131,
+              33.753735,
+              34.11616,
+              34.478584,
+              34.841007,
+              35.904114,
+              36.435673,
+              36.967228,
+              37.498783,
+              38.030334,
+              39.625
+            ],
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.info.clip_size",
+              "args": {},
+              "lines": {
+                "ru": "Объем магазина",
+                "en": "Magazine capacity",
+                "es": "Capacidad del cargador",
+                "fr": "Capacité du chargeur",
+                "ko": "탄창 용량"
+              }
+            },
+            "value": 30,
+            "formatted": {
+              "value": {
+                "ru": "0/30",
+                "en": "0/30",
+                "es": "0/30",
+                "fr": "0/30",
+                "ko": "0/30"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.info.distance",
+              "args": {},
+              "lines": {
+                "ru": "Максимальная дистанция",
+                "en": "Maximum distance",
+                "es": "Distancia máxima",
+                "fr": "Distance maximum",
+                "ko": "최대 유효 사거리"
+              }
+            },
+            "value": 160,
+            "formatted": {
+              "value": {
+                "ru": "160 м",
+                "en": "160 m",
+                "es": "160 m",
+                "fr": "160 m",
+                "ko": "160 미터"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.info.rate_of_fire",
+              "args": {},
+              "lines": {
+                "ru": "Скорострельность",
+                "en": "Rate of fire",
+                "es": "Cadencia de disparo",
+                "fr": "Cadence de tir",
+                "ko": "연사 속도"
+              }
+            },
+            "value": 1000,
+            "formatted": {
+              "value": {
+                "ru": "1000 выстр/мин",
+                "en": "1000 shots/min",
+                "es": "1000 disparos/min",
+                "fr": "1000tirs/min",
+                "ko": "분당 1000 발"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Перезарядка",
+                "en": "Reload",
+                "es": "Recarga",
+                "fr": "Rechargement",
+                "ko": "재장전"
+              }
+            },
+            "value": 3.3000002,
+            "formatted": {
+              "value": {
+                "ru": "3,3 с",
+                "en": "3.3 sec",
+                "es": "3,3 s",
+                "fr": "3,3 s",
+                "ko": "3.3초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+              "args": {},
+              "lines": {
+                "ru": "Тактическая перезарядка",
+                "en": "Tactical reload",
+                "es": "Recarga táctica",
+                "fr": "Rechargement tactique",
+                "ko": "전술 재장전"
+              }
+            },
+            "value": 2.75,
+            "formatted": {
+              "value": {
+                "ru": "2,75 с",
+                "en": "2.75 sec",
+                "es": "2,75 s",
+                "fr": "2,75 s",
+                "ko": "2.75초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.stat_factor.reload_modifier",
+              "args": {},
+              "lines": {
+                "ru": "Эргономика оружия",
+                "en": "Weapon ergonomics",
+                "es": "Ergonomía de las armas",
+                "fr": "Ergonomie de l'arme",
+                "ko": "무기 인체공학"
+              }
+            },
+            "value": 90,
+            "formatted": {
+              "value": {
+                "ru": "90%",
+                "en": "90%",
+                "es": "90 %",
+                "fr": "90%",
+                "ko": "90%"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.info.spread",
+              "args": {},
+              "lines": {
+                "ru": "Разброс",
+                "en": "Spread",
+                "es": "Dispersión",
+                "fr": "Dispersion",
+                "ko": "탄퍼짐"
+              }
+            },
+            "value": 0.4000001,
+            "formatted": {
+              "value": {
+                "ru": "0,4°",
+                "en": "0.4°",
+                "es": "0,4°",
+                "fr": "0,4°",
+                "ko": "0.4°"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.info.hip_spread",
+              "args": {},
+              "lines": {
+                "ru": "Разброс от бедра",
+                "en": "Hip-fire spread",
+                "es": "Dispersión de disparos desde la cadera",
+                "fr": "Dispersion du tir à l'aveugle",
+                "ko": "비조준 사격 탄퍼짐"
+              }
+            },
+            "value": 3,
+            "formatted": {
+              "value": {
+                "ru": "3°",
+                "en": "3°",
+                "es": "3°",
+                "fr": "3°",
+                "ko": "3°"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.info.recoil",
+              "args": {},
+              "lines": {
+                "ru": "Вертикальная отдача",
+                "en": "Vertical recoil",
+                "es": "Retroceso vertical",
+                "fr": "Recul vertical",
+                "ko": "수직 반동"
+              }
+            },
+            "value": 0.45,
+            "formatted": {
+              "value": {
+                "ru": "0,45°",
+                "en": "0.45°",
+                "es": "0,45°",
+                "fr": "0,45°",
+                "ko": "0.45°"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.info.horizontal_recoil",
+              "args": {},
+              "lines": {
+                "ru": "Горизонтальная отдача",
+                "en": "Horizontal recoil",
+                "es": "Retroceso horizontal",
+                "fr": "Recul horizontal",
+                "ko": "수평 반동"
+              }
+            },
+            "value": 0.11,
+            "formatted": {
+              "value": {
+                "ru": "0,11°",
+                "en": "0.11°",
+                "es": "0,11°",
+                "fr": "0,11°",
+                "ko": "0.11°"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.info.draw_time",
+              "args": {},
+              "lines": {
+                "ru": "Доставание",
+                "en": "Draw time",
+                "es": "Tiempo de desenfundado",
+                "fr": "Temps de dégainage",
+                "ko": "무기 꺼내기 시간"
+              }
+            },
+            "value": 1,
+            "formatted": {
+              "value": {
+                "ru": "1 с",
+                "en": "1 sec",
+                "es": "1 s",
+                "fr": "1 s",
+                "ko": "1초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.info.aim_switch",
+              "args": {},
+              "lines": {
+                "ru": "Прицеливание",
+                "en": "Aiming time",
+                "es": "Tiempo de apuntado",
+                "fr": "Temps de visée",
+                "ko": "조준 시간"
+              }
+            },
+            "value": 0.2,
+            "formatted": {
+              "value": {
+                "ru": "0,2 с",
+                "en": "0.2 sec",
+                "es": "0,2 s",
+                "fr": "0,2 s",
+                "ko": "0.2초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "translation",
+          "key": "stalker.tooltip.artefact.info.additional_stats",
+          "args": {},
+          "lines": {
+            "ru": "Дополнительные характеристики",
+            "en": "Additional properties",
+            "es": "Propiedades adicionales",
+            "fr": "Propriétés additionnelles",
+            "ko": "추가 특성"
+          }
+        },
+        "elements": []
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "translation",
+          "key": "weapon.tooltip.weapon.info.damage_modifiers",
+          "args": {},
+          "lines": {
+            "ru": "Множитель урона",
+            "en": "Damage modifier",
+            "es": "Modificador de daño",
+            "fr": "Modificateur de dégât",
+            "ko": "피해 보정치"
+          }
+        },
+        "elements": [
+          {
+            "type": "text",
+            "text": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.head_damage_modifier",
+              "args": {
+                "modifier": "1.4"
+              },
+              "lines": {
+                "ru": "Урон в голову: х1,4",
+                "en": "Headshot damage: x1.4",
+                "es": "Daño por disparo a la cabeza: x1,4",
+                "fr": "Dégât de tir à la tête : x1,4",
+                "ko": "헤드샷 피해: x1.4"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.limbs_damage_modifier",
+              "args": {
+                "modifier": "0.8"
+              },
+              "lines": {
+                "ru": "Урон по конечностям: х0,8",
+                "en": "Limb damage: x0.8",
+                "es": "Daño a extremidades: x0,8",
+                "fr": "Dégât aux membres : x0,8",
+                "ko": "사지 피해: x0.8"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "text",
+            "text": {
+              "type": "translation",
+              "key": "weapon.tooltip.weapon.info.overheat_after",
+              "args": {
+                "value": "71.0"
+              },
+              "lines": {
+                "ru": "Перегрев через 71 выстрелов непрерывной стрельбы",
+                "en": "Overheats after 71 consecutive shots",
+                "es": "Se sobrecalienta tras 71 disparos de fuego continuo",
+                "fr": "Surchauffe après 71 coups en feu continu",
+                "ko": "71발 연속 발포 후 과열"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "translation",
+          "key": "weapon.tooltip.weapon.info.feature",
+          "args": {},
+          "lines": {
+            "ru": "Особенности",
+            "en": "Features",
+            "es": "Características",
+            "fr": "Caractéristiques",
+            "ko": "특징"
+          }
+        },
+        "elements": []
+      },
+      {
+        "type": "damage",
+        "startDamage": 31.7,
+        "damageDecreaseStart": 20,
+        "endDamage": 23.5,
+        "damageDecreaseEnd": 72,
+        "maxDistance": 160
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.wpn.famas_sopmod.description",
+          "args": {},
+          "lines": {
+            "ru": "FAMAS — французский автомат калибра 5.56 мм в компоновке «булл-пап». Оснащен интегрированным глушителем и подствольным гранатометом.",
+            "en": "The FAMAS is a French 5.56 mm caliber assault rifle with a bullpup configuration. It is equipped with a silencer and an underbarrel grenade launcher.",
+            "es": "El FAMAS es un fusil de asalto francés de calibre 5,56 mm con configuración bullpup. Está equipado con silenciador y lanzagranadas bajo el cañón.",
+            "fr": "Le FAMAS est un fusil d'assaut français de calibre 5,56 mm en configuration bullpup. Il est équipé d'un silencieux intégré et d'un lance-grenades sous le canon.",
+            "ko": "FAMAS는 프랑스산 불펍형 돌격 소총으로, 5.56mm 구경이다. 소음기와 총신 하부 유탄발사기가 장착되어 있다."
           }
         }
       }
@@ -78868,22 +79884,22 @@
               }
             },
             "value": [
-              41.5,
-              41.816315,
-              42.13262,
-              42.448933,
-              42.765244,
-              43.714176,
-              44.18864,
-              44.663113,
-              45.137577,
-              45.61204,
-              47.003807,
-              47.699696,
-              48.39558,
-              49.091465,
-              49.787346,
-              51.875
+              40.8,
+              41.110977,
+              41.42195,
+              41.73293,
+              42.0439,
+              42.97683,
+              43.44329,
+              43.909756,
+              44.37622,
+              44.84268,
+              46.21097,
+              46.89512,
+              47.57927,
+              48.263416,
+              48.94756,
+              51
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -79341,9 +80357,9 @@
       },
       {
         "type": "damage",
-        "startDamage": 41.5,
+        "startDamage": 40.8,
         "damageDecreaseStart": 26,
-        "endDamage": 37.4,
+        "endDamage": 37,
         "damageDecreaseEnd": 81,
         "maxDistance": 180
       },
@@ -84179,22 +85195,22 @@
               }
             },
             "value": [
-              16.1,
-              16.222715,
-              16.345427,
-              16.468142,
-              16.590853,
-              16.958994,
-              17.143064,
-              17.327135,
-              17.511206,
-              17.695274,
-              18.235212,
-              18.505182,
-              18.775154,
-              19.045124,
-              19.315092,
-              20.125
+              17.7,
+              17.83491,
+              17.969818,
+              18.104727,
+              18.239634,
+              18.644361,
+              18.846724,
+              19.049088,
+              19.25145,
+              19.453812,
+              20.04741,
+              20.344208,
+              20.641006,
+              20.937807,
+              21.234604,
+              22.125
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -84267,14 +85283,14 @@
                 "ko": "연사 속도"
               }
             },
-            "value": 700,
+            "value": 650,
             "formatted": {
               "value": {
-                "ru": "700 выстр/мин",
-                "en": "700 shots/min",
-                "es": "700 disparos/min",
-                "fr": "700tirs/min",
-                "ko": "분당 700 발"
+                "ru": "650 выстр/мин",
+                "en": "650 shots/min",
+                "es": "650 disparos/min",
+                "fr": "650tirs/min",
+                "ko": "분당 650 발"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -84636,10 +85652,10 @@
       },
       {
         "type": "damage",
-        "startDamage": 16.1,
-        "damageDecreaseStart": 18,
-        "endDamage": 11.8,
-        "damageDecreaseEnd": 72,
+        "startDamage": 17.7,
+        "damageDecreaseStart": 17,
+        "endDamage": 12.8,
+        "damageDecreaseEnd": 71,
         "maxDistance": 120
       },
       {
@@ -89649,14 +90665,14 @@
                 "ko": "재장전"
               }
             },
-            "value": 4.125,
+            "value": 3.3000002,
             "formatted": {
               "value": {
-                "ru": "4,12 с",
-                "en": "4.12 sec",
-                "es": "4,12 s",
-                "fr": "4,12 s",
-                "ko": "4.12초"
+                "ru": "3,3 с",
+                "en": "3.3 sec",
+                "es": "3,3 s",
+                "fr": "3,3 s",
+                "ko": "3.3초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -89676,14 +90692,14 @@
                 "ko": "전술 재장전"
               }
             },
-            "value": 3.3000002,
+            "value": 2.75,
             "formatted": {
               "value": {
-                "ru": "3,3 с",
-                "en": "3.3 sec",
-                "es": "3,3 s",
-                "fr": "3,3 s",
-                "ko": "3.3초"
+                "ru": "2,75 с",
+                "en": "2.75 sec",
+                "es": "2,75 s",
+                "fr": "2,75 s",
+                "ko": "2.75초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -89730,7 +90746,7 @@
                 "ko": "탄퍼짐"
               }
             },
-            "value": 0.39999998,
+            "value": 0.4000001,
             "formatted": {
               "value": {
                 "ru": "0,4°",
@@ -89757,14 +90773,14 @@
                 "ko": "비조준 사격 탄퍼짐"
               }
             },
-            "value": 2.25,
+            "value": 3,
             "formatted": {
               "value": {
-                "ru": "2,25°",
-                "en": "2.25°",
-                "es": "2,25°",
-                "fr": "2,25°",
-                "ko": "2.25°"
+                "ru": "3°",
+                "en": "3°",
+                "es": "3°",
+                "fr": "3°",
+                "ko": "3°"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -89865,14 +90881,14 @@
                 "ko": "조준 시간"
               }
             },
-            "value": 0.15,
+            "value": 0.2,
             "formatted": {
               "value": {
-                "ru": "0,15 с",
-                "en": "0.15 sec",
-                "es": "0,15 s",
-                "fr": "0,15 s",
-                "ko": "0.15초"
+                "ru": "0,2 с",
+                "en": "0.2 sec",
+                "es": "0,2 s",
+                "fr": "0,2 s",
+                "ko": "0.2초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -89943,50 +90959,6 @@
                 "fr": "Dégât aux membres : x0,8",
                 "ko": "사지 피해: x0.8"
               }
-            }
-          }
-        ]
-      },
-      {
-        "type": "list",
-        "title": {
-          "type": "translation",
-          "key": "weapon.tooltip.weapon.info.attachment_stats",
-          "args": {},
-          "lines": {
-            "ru": "Характеристики обвесов",
-            "en": "Attachment properties",
-            "es": "Propiedades de accesorios",
-            "fr": "Propriétés des accessoires",
-            "ko": "부착물 특성"
-          }
-        },
-        "elements": [
-          {
-            "type": "numeric",
-            "name": {
-              "type": "translation",
-              "key": "weapon.stat_factor.hip_spread",
-              "args": {},
-              "lines": {
-                "ru": "Разброс от бедра",
-                "en": "Hip-fire spread",
-                "es": "Dispersión de disparos desde la cadera",
-                "fr": "Dispersion du tir à l'aveugle",
-                "ko": "비조준 사격 탄퍼짐"
-              }
-            },
-            "value": -25,
-            "formatted": {
-              "value": {
-                "ru": "-25%",
-                "en": "-25%",
-                "es": "-25 %",
-                "fr": "-25%",
-                "ko": "-25%"
-              },
-              "nameColor": "53C353",
-              "valueColor": "53C353"
             }
           }
         ]
@@ -97102,22 +98074,22 @@
               }
             },
             "value": [
-              43.3,
-              43.63003,
-              43.96006,
-              44.290092,
-              44.62012,
-              45.610214,
-              46.105255,
-              46.600307,
-              47.09535,
-              47.590393,
-              49.042526,
-              49.768597,
-              50.494663,
-              51.220734,
-              51.946796,
-              54.125
+              42.7,
+              43.02546,
+              43.350914,
+              43.676373,
+              44.001827,
+              44.978203,
+              45.466385,
+              45.954575,
+              46.44276,
+              46.930946,
+              48.362957,
+              49.078964,
+              49.79497,
+              50.51098,
+              51.226982,
+              53.375
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -97630,9 +98602,9 @@
       },
       {
         "type": "damage",
-        "startDamage": 43.3,
+        "startDamage": 42.7,
         "damageDecreaseStart": 28,
-        "endDamage": 37.7,
+        "endDamage": 37.5,
         "damageDecreaseEnd": 80,
         "maxDistance": 165
       },
@@ -104763,22 +105735,22 @@
               }
             },
             "value": [
-              50.9,
-              51.28796,
-              51.675915,
-              52.063877,
-              52.451828,
-              53.615704,
-              54.197636,
-              54.779575,
-              55.36151,
-              55.943443,
-              57.650455,
-              58.503963,
-              59.35747,
-              60.21098,
-              61.064484,
-              63.625
+              51,
+              51.38872,
+              51.77744,
+              52.16616,
+              52.55488,
+              53.72104,
+              54.304115,
+              54.8872,
+              55.470276,
+              56.053352,
+              57.763718,
+              58.6189,
+              59.474087,
+              60.329273,
+              61.184452,
+              63.75
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -105220,9 +106192,9 @@
       },
       {
         "type": "damage",
-        "startDamage": 50.9,
+        "startDamage": 51,
         "damageDecreaseStart": 18,
-        "endDamage": 38.8,
+        "endDamage": 39,
         "damageDecreaseEnd": 80,
         "maxDistance": 170
       },
@@ -169753,6 +170725,60 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 9.4,
+            "formatted": {
+              "value": {
+                "ru": "9,4 с",
+                "en": "9.4 sec",
+                "es": "9,4 s",
+                "fr": "9,4 s",
+                "ko": "9.4초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.9,
+            "formatted": {
+              "value": {
+                "ru": "0,9 с",
+                "en": "0.9 sec",
+                "es": "0,9 s",
+                "fr": "0,9 s",
+                "ko": "0.9초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "weapon.stat_factor.reload_modifier",
               "args": {},
               "lines": {
@@ -171123,6 +172149,60 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 6.6,
+            "formatted": {
+              "value": {
+                "ru": "6,6 с",
+                "en": "6.6 sec",
+                "es": "6,6 s",
+                "fr": "6,6 s",
+                "ko": "6.6초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.7,
+            "formatted": {
+              "value": {
+                "ru": "0,7 с",
+                "en": "0.7 sec",
+                "es": "0,7 s",
+                "fr": "0,7 s",
+                "ko": "0.7초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "weapon.stat_factor.reload_modifier",
               "args": {},
               "lines": {
@@ -171800,6 +172880,60 @@
                 "es": "40 disparos/min",
                 "fr": "40tirs/min",
                 "ko": "분당 40 발"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 3.5,
+            "formatted": {
+              "value": {
+                "ru": "3,5 с",
+                "en": "3.5 sec",
+                "es": "3,5 s",
+                "fr": "3,5 s",
+                "ko": "3.5초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.6,
+            "formatted": {
+              "value": {
+                "ru": "0,6 с",
+                "en": "0.6 sec",
+                "es": "0,6 s",
+                "fr": "0,6 s",
+                "ko": "0.6초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -172527,24 +173661,24 @@
             "type": "numeric",
             "name": {
               "type": "translation",
-              "key": "weapon.tooltip.magazine.info.reload_time",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
               "args": {},
               "lines": {
-                "ru": "Перезарядка",
-                "en": "Reload",
-                "es": "Recarga",
-                "fr": "Rechargement",
-                "ko": "재장전"
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
               }
             },
-            "value": 5,
+            "value": 8,
             "formatted": {
               "value": {
-                "ru": "5 с",
-                "en": "5 sec",
-                "es": "5 s",
-                "fr": "5 s",
-                "ko": "5초"
+                "ru": "8 с",
+                "en": "8 sec",
+                "es": "8 s",
+                "fr": "8 s",
+                "ko": "8초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -172554,24 +173688,24 @@
             "type": "numeric",
             "name": {
               "type": "translation",
-              "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
               "args": {},
               "lines": {
-                "ru": "Тактическая перезарядка",
-                "en": "Tactical reload",
-                "es": "Recarga táctica",
-                "fr": "Rechargement tactique",
-                "ko": "전술 재장전"
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
               }
             },
-            "value": 5,
+            "value": 0.85,
             "formatted": {
               "value": {
-                "ru": "5 с",
-                "en": "5 sec",
-                "es": "5 s",
-                "fr": "5 s",
-                "ko": "5초"
+                "ru": "0,85 с",
+                "en": "0.85 sec",
+                "es": "0,85 s",
+                "fr": "0,85 s",
+                "ko": "0.85초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -173971,6 +175105,60 @@
                 "es": "60 disparos/min",
                 "fr": "60tirs/min",
                 "ko": "분당 60 발"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 3.2,
+            "formatted": {
+              "value": {
+                "ru": "3,2 с",
+                "en": "3.2 sec",
+                "es": "3,2 s",
+                "fr": "3,2 s",
+                "ko": "3.2초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.5,
+            "formatted": {
+              "value": {
+                "ru": "0,5 с",
+                "en": "0.5 sec",
+                "es": "0,5 s",
+                "fr": "0,5 s",
+                "ko": "0.5초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -176193,6 +177381,60 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 8,
+            "formatted": {
+              "value": {
+                "ru": "8 с",
+                "en": "8 sec",
+                "es": "8 s",
+                "fr": "8 s",
+                "ko": "8초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.7,
+            "formatted": {
+              "value": {
+                "ru": "0,7 с",
+                "en": "0.7 sec",
+                "es": "0,7 s",
+                "fr": "0,7 s",
+                "ko": "0.7초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "weapon.stat_factor.reload_modifier",
               "args": {},
               "lines": {
@@ -178371,6 +179613,60 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 10.05,
+            "formatted": {
+              "value": {
+                "ru": "10,05 с",
+                "en": "10.05 sec",
+                "es": "10,05 s",
+                "fr": "10,05 s",
+                "ko": "10.05초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.7,
+            "formatted": {
+              "value": {
+                "ru": "0,7 с",
+                "en": "0.7 sec",
+                "es": "0,7 s",
+                "fr": "0,7 s",
+                "ko": "0.7초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "weapon.stat_factor.reload_modifier",
               "args": {},
               "lines": {
@@ -179020,6 +180316,60 @@
                 "es": "130 disparos/min",
                 "fr": "130tirs/min",
                 "ko": "분당 130 발"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 5.2,
+            "formatted": {
+              "value": {
+                "ru": "5,2 с",
+                "en": "5.2 sec",
+                "es": "5,2 s",
+                "fr": "5,2 s",
+                "ko": "5.2초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.7,
+            "formatted": {
+              "value": {
+                "ru": "0,7 с",
+                "en": "0.7 sec",
+                "es": "0,7 s",
+                "fr": "0,7 s",
+                "ko": "0.7초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -179687,6 +181037,60 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 9.4,
+            "formatted": {
+              "value": {
+                "ru": "9,4 с",
+                "en": "9.4 sec",
+                "es": "9,4 s",
+                "fr": "9,4 s",
+                "ko": "9.4초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.9,
+            "formatted": {
+              "value": {
+                "ru": "0,9 с",
+                "en": "0.9 sec",
+                "es": "0,9 s",
+                "fr": "0,9 s",
+                "ko": "0.9초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "weapon.stat_factor.reload_modifier",
               "args": {},
               "lines": {
@@ -180336,6 +181740,60 @@
                 "es": "70 disparos/min",
                 "fr": "70tirs/min",
                 "ko": "분당 70 발"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 8.3,
+            "formatted": {
+              "value": {
+                "ru": "8,3 с",
+                "en": "8.3 sec",
+                "es": "8,3 s",
+                "fr": "8,3 s",
+                "ko": "8.3초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.75,
+            "formatted": {
+              "value": {
+                "ru": "0,75 с",
+                "en": "0.75 sec",
+                "es": "0,75 s",
+                "fr": "0,75 s",
+                "ko": "0.75초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -182427,6 +183885,60 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 4.3,
+            "formatted": {
+              "value": {
+                "ru": "4,3 с",
+                "en": "4.3 sec",
+                "es": "4,3 s",
+                "fr": "4,3 s",
+                "ko": "4.3초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.85,
+            "formatted": {
+              "value": {
+                "ru": "0,85 с",
+                "en": "0.85 sec",
+                "es": "0,85 s",
+                "fr": "0,85 s",
+                "ko": "0.85초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "weapon.stat_factor.reload_modifier",
               "args": {},
               "lines": {
@@ -183085,6 +184597,60 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 6.9,
+            "formatted": {
+              "value": {
+                "ru": "6,9 с",
+                "en": "6.9 sec",
+                "es": "6,9 s",
+                "fr": "6,9 s",
+                "ko": "6.9초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.85,
+            "formatted": {
+              "value": {
+                "ru": "0,85 с",
+                "en": "0.85 sec",
+                "es": "0,85 s",
+                "fr": "0,85 s",
+                "ko": "0.85초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "weapon.stat_factor.reload_modifier",
               "args": {},
               "lines": {
@@ -183715,6 +185281,60 @@
                 "es": "60 disparos/min",
                 "fr": "60tirs/min",
                 "ko": "분당 60 발"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 6.3,
+            "formatted": {
+              "value": {
+                "ru": "6,3 с",
+                "en": "6.3 sec",
+                "es": "6,3 s",
+                "fr": "6,3 s",
+                "ko": "6.3초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.85,
+            "formatted": {
+              "value": {
+                "ru": "0,85 с",
+                "en": "0.85 sec",
+                "es": "0,85 s",
+                "fr": "0,85 s",
+                "ko": "0.85초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -184373,6 +185993,60 @@
                 "es": "100 disparos/min",
                 "fr": "100tirs/min",
                 "ko": "분당 100 발"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 7.4,
+            "formatted": {
+              "value": {
+                "ru": "7,4 с",
+                "en": "7.4 sec",
+                "es": "7,4 s",
+                "fr": "7,4 s",
+                "ko": "7.4초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.75,
+            "formatted": {
+              "value": {
+                "ru": "0,75 с",
+                "en": "0.75 sec",
+                "es": "0,75 s",
+                "fr": "0,75 s",
+                "ko": "0.75초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -193803,24 +195477,24 @@
             "type": "numeric",
             "name": {
               "type": "translation",
-              "key": "weapon.tooltip.magazine.info.reload_time",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
               "args": {},
               "lines": {
-                "ru": "Перезарядка",
-                "en": "Reload",
-                "es": "Recarga",
-                "fr": "Rechargement",
-                "ko": "재장전"
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
               }
             },
-            "value": 5,
+            "value": 6.65,
             "formatted": {
               "value": {
-                "ru": "5 с",
-                "en": "5 sec",
-                "es": "5 s",
-                "fr": "5 s",
-                "ko": "5초"
+                "ru": "6,65 с",
+                "en": "6.65 sec",
+                "es": "6,65 s",
+                "fr": "6,65 s",
+                "ko": "6.65초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -193830,24 +195504,24 @@
             "type": "numeric",
             "name": {
               "type": "translation",
-              "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
               "args": {},
               "lines": {
-                "ru": "Тактическая перезарядка",
-                "en": "Tactical reload",
-                "es": "Recarga táctica",
-                "fr": "Rechargement tactique",
-                "ko": "전술 재장전"
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
               }
             },
-            "value": 5,
+            "value": 0.75,
             "formatted": {
               "value": {
-                "ru": "5 с",
-                "en": "5 sec",
-                "es": "5 s",
-                "fr": "5 s",
-                "ko": "5초"
+                "ru": "0,75 с",
+                "en": "0.75 sec",
+                "es": "0,75 s",
+                "fr": "0,75 s",
+                "ko": "0.75초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -201252,22 +202926,22 @@
               }
             },
             "value": [
-              50.5,
-              50.88491,
-              51.269817,
-              51.654728,
-              52.03963,
-              53.19436,
-              53.77172,
-              54.349087,
-              54.92645,
-              55.50381,
-              57.197407,
-              58.044205,
-              58.891006,
-              59.73781,
-              60.584602,
-              63.125
+              50.7,
+              51.086437,
+              51.472866,
+              51.859303,
+              52.24573,
+              53.405033,
+              53.98468,
+              54.56433,
+              55.14398,
+              55.72363,
+              57.42393,
+              58.274086,
+              59.12424,
+              59.974396,
+              60.824543,
+              63.375
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -201725,7 +203399,7 @@
       },
       {
         "type": "damage",
-        "startDamage": 50.5,
+        "startDamage": 50.7,
         "damageDecreaseStart": 24,
         "endDamage": 40.2,
         "damageDecreaseEnd": 80,
@@ -218735,7 +220409,7 @@
       {
         "type": "damage",
         "startDamage": 39.3,
-        "damageDecreaseStart": 9,
+        "damageDecreaseStart": 10,
         "endDamage": 21.3,
         "damageDecreaseEnd": 44,
         "maxDistance": 105
@@ -236356,6 +238030,60 @@
                 "es": "75 disparos/min",
                 "fr": "75tirs/min",
                 "ko": "분당 75 발"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.full_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Полная перезарядка",
+                "en": "Full reload",
+                "es": "Recarga completa",
+                "fr": "Recharge complète",
+                "ko": "완전 재장전"
+              }
+            },
+            "value": 6.25,
+            "formatted": {
+              "value": {
+                "ru": "6,25 с",
+                "en": "6.25 sec",
+                "es": "6,25 s",
+                "fr": "6,25 s",
+                "ko": "6.25초"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "weapon.tooltip.magazine.info.single_round_reload_time",
+              "args": {},
+              "lines": {
+                "ru": "Дозарядка одного патрона",
+                "en": "Reloading one round",
+                "es": "Recarga de un cartucho",
+                "fr": "Recharge d'une seule cartouche",
+                "ko": "한 발씩 재장전"
+              }
+            },
+            "value": 0.75,
+            "formatted": {
+              "value": {
+                "ru": "0,75 с",
+                "en": "0.75 sec",
+                "es": "0,75 s",
+                "fr": "0,75 s",
+                "ko": "0.75초"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"

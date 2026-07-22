@@ -105,8 +105,8 @@
       },
       "elements": [
         {
-          "type": "key-value",
-          "key": {
+          "type": "numeric",
+          "name": {
             "type": "translation",
             "key": "core.tooltip.info.base_price",
             "args": {},
@@ -118,19 +118,17 @@
               "ko": "기본 판매 가격"
             }
           },
-          "value": {
-            "type": "translation",
-            "key": "core.tooltip.info.rubles",
-            "args": {
-              "cost": "31200.0"
-            },
-            "lines": {
+          "value": 31200,
+          "formatted": {
+            "value": {
               "ru": "31 200 руб.",
               "en": "31,200 rubles",
               "es": "31.200 rublos",
               "fr": "31 200 roubles",
               "ko": "31,200 루블"
-            }
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
           }
         }
       ]
@@ -289,15 +287,15 @@
               "ko": "작동 조건"
             }
           },
-          "min": 90,
-          "max": 90,
+          "min": 100,
+          "max": 100,
           "formatted": {
             "value": {
-              "ru": ">=90 ед",
-              "en": ">=90 unit(s)",
-              "es": ">=90 unidad(es)",
-              "fr": ">=90 unité(s)",
-              "ko": ">=90 유닛"
+              "ru": ">=100 ед",
+              "en": ">=100 unit(s)",
+              "es": ">=100 unidad(es)",
+              "fr": ">=100 unité(s)",
+              "ko": ">=100 유닛"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"

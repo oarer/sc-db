@@ -191,7 +191,35 @@
         "type": "text",
         "text": ""
       },
-      "elements": []
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": 3,
+          "formatted": {
+            "value": {
+              "ru": "+3%",
+              "en": "+3%",
+              "es": "+3 %",
+              "fr": "+3%",
+              "ko": "+3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     },
     {
       "type": "list",
@@ -215,16 +243,14 @@
             }
           },
           "value": [
-            5,
-            5.3975606,
-            5.7951217,
-            6.192683,
-            6.5902433,
-            7.7829266,
-            8.379268,
-            8.97561,
-            9.571951,
-            10
+            10,
+            11.006098,
+            12.012196,
+            13.018292,
+            14.02439,
+            17.042683,
+            18.551828,
+            20
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -243,14 +269,14 @@
               "ko": "열상 저항율"
             }
           },
-          "value": 20,
+          "value": 30,
           "formatted": {
             "value": {
-              "ru": "20",
-              "en": "20",
-              "es": "20",
-              "fr": "20",
-              "ko": "20"
+              "ru": "30",
+              "en": "30",
+              "es": "30",
+              "fr": "30",
+              "ko": "30"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -297,14 +323,14 @@
               "ko": "전기 저항율"
             }
           },
-          "value": 0,
+          "value": 5,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0",
-              "es": "0",
-              "fr": "0",
-              "ko": "0"
+              "ru": "5",
+              "en": "5",
+              "es": "5",
+              "fr": "5",
+              "ko": "5"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -324,14 +350,14 @@
               "ko": "화염 저항율"
             }
           },
-          "value": 0,
+          "value": 5,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0",
-              "es": "0",
-              "fr": "0",
-              "ko": "0"
+              "ru": "5",
+              "en": "5",
+              "es": "5",
+              "fr": "5",
+              "ko": "5"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -351,14 +377,14 @@
               "ko": "화학 화상 보호율"
             }
           },
-          "value": 0,
+          "value": 5,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0",
-              "es": "0",
-              "fr": "0",
-              "ko": "0"
+              "ru": "5",
+              "en": "5",
+              "es": "5",
+              "fr": "5",
+              "ko": "5"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -378,14 +404,14 @@
               "ko": "방사능 보호"
             }
           },
-          "value": 0,
+          "value": 10,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0",
-              "es": "0",
-              "fr": "0",
-              "ko": "0"
+              "ru": "10",
+              "en": "10",
+              "es": "10",
+              "fr": "10",
+              "ko": "10"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -405,14 +431,14 @@
               "ko": "열 보호"
             }
           },
-          "value": 0,
+          "value": 5,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0",
-              "es": "0",
-              "fr": "0",
-              "ko": "0"
+              "ru": "5",
+              "en": "5",
+              "es": "5",
+              "fr": "5",
+              "ko": "5"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -432,14 +458,14 @@
               "ko": "생체 감염 보호"
             }
           },
-          "value": 0,
+          "value": 10,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0",
-              "es": "0",
-              "fr": "0",
-              "ko": "0"
+              "ru": "10",
+              "en": "10",
+              "es": "10",
+              "fr": "10",
+              "ko": "10"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -486,14 +512,14 @@
               "ko": "출혈 보호"
             }
           },
-          "value": 5,
+          "value": 25,
           "formatted": {
             "value": {
-              "ru": "5%",
-              "en": "5%",
-              "es": "5 %",
-              "fr": "5%",
-              "ko": "5%"
+              "ru": "25%",
+              "en": "25%",
+              "es": "25 %",
+              "fr": "25%",
+              "ko": "25%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"

@@ -891,8 +891,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -904,19 +904,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "95.0"
-              },
-              "lines": {
+            "value": 95,
+            "formatted": {
+              "value": {
                 "ru": "95 руб.",
                 "en": "95 rubles",
                 "es": "95 rublos",
                 "fr": "95 roubles",
                 "ko": "95 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -1261,8 +1259,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -1274,19 +1272,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "171.0"
-              },
-              "lines": {
+            "value": 171,
+            "formatted": {
+              "value": {
                 "ru": "171 руб.",
                 "en": "171 rubles",
                 "es": "171 rublos",
                 "fr": "171 roubles",
                 "ko": "171 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -1659,8 +1655,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -1672,19 +1668,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "604.0"
-              },
-              "lines": {
+            "value": 604,
+            "formatted": {
+              "value": {
                 "ru": "604 руб.",
                 "en": "604 rubles",
                 "es": "604 rublos",
                 "fr": "604 roubles",
                 "ko": "604 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -4927,8 +4921,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -4940,19 +4934,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "138.0"
-              },
-              "lines": {
+            "value": 138,
+            "formatted": {
+              "value": {
                 "ru": "138 руб.",
                 "en": "138 rubles",
                 "es": "138 rublos",
                 "fr": "138 roubles",
                 "ko": "138 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -8946,8 +8938,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -8959,19 +8951,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "479.0"
-              },
-              "lines": {
+            "value": 479,
+            "formatted": {
+              "value": {
                 "ru": "479 руб.",
                 "en": "479 rubles",
                 "es": "479 rublos",
                 "fr": "479 roubles",
                 "ko": "479 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -11542,8 +11532,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -11555,19 +11545,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "308.0"
-              },
-              "lines": {
+            "value": 308,
+            "formatted": {
+              "value": {
                 "ru": "308 руб.",
                 "en": "308 rubles",
                 "es": "308 rublos",
                 "fr": "308 roubles",
                 "ko": "308 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -12653,8 +12641,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -12666,19 +12654,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "95.0"
-              },
-              "lines": {
+            "value": 95,
+            "formatted": {
+              "value": {
                 "ru": "95 руб.",
                 "en": "95 rubles",
                 "es": "95 rublos",
                 "fr": "95 roubles",
                 "ko": "95 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -14509,8 +14495,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -14522,19 +14508,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "171.0"
-              },
-              "lines": {
+            "value": 171,
+            "formatted": {
+              "value": {
                 "ru": "171 руб.",
                 "en": "171 rubles",
                 "es": "171 rublos",
                 "fr": "171 roubles",
                 "ko": "171 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -16691,8 +16675,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -16704,19 +16688,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "316.0"
-              },
-              "lines": {
+            "value": 316,
+            "formatted": {
+              "value": {
                 "ru": "316 руб.",
                 "en": "316 rubles",
                 "es": "316 rublos",
                 "fr": "316 roubles",
                 "ko": "316 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -17728,8 +17710,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -17741,19 +17723,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "86.0"
-              },
-              "lines": {
+            "value": 86,
+            "formatted": {
+              "value": {
                 "ru": "86 руб.",
                 "en": "86 rubles",
                 "es": "86 rublos",
                 "fr": "86 roubles",
                 "ko": "86 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -18099,8 +18079,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -18112,19 +18092,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "171.0"
-              },
-              "lines": {
+            "value": 171,
+            "formatted": {
+              "value": {
                 "ru": "171 руб.",
                 "en": "171 rubles",
                 "es": "171 rublos",
                 "fr": "171 roubles",
                 "ko": "171 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -18848,8 +18826,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -18861,19 +18839,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "387.0"
-              },
-              "lines": {
+            "value": 387,
+            "formatted": {
+              "value": {
                 "ru": "387 руб.",
                 "en": "387 rubles",
                 "es": "387 rublos",
                 "fr": "387 roubles",
                 "ko": "387 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -19598,8 +19574,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -19611,19 +19587,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "97.0"
-              },
-              "lines": {
+            "value": 97,
+            "formatted": {
+              "value": {
                 "ru": "97 руб.",
                 "en": "97 rubles",
                 "es": "97 rublos",
                 "fr": "97 roubles",
                 "ko": "97 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -20007,8 +19981,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -20020,19 +19994,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "95.0"
-              },
-              "lines": {
+            "value": 95,
+            "formatted": {
+              "value": {
                 "ru": "95 руб.",
                 "en": "95 rubles",
                 "es": "95 rublos",
                 "fr": "95 roubles",
                 "ko": "95 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -23043,8 +23015,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -23056,19 +23028,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "54.0"
-              },
-              "lines": {
+            "value": 54,
+            "formatted": {
+              "value": {
                 "ru": "54 руб.",
                 "en": "54 rubles",
                 "es": "54 rublos",
                 "fr": "54 roubles",
                 "ko": "54 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -24289,8 +24259,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -24302,19 +24272,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "79.0"
-              },
-              "lines": {
+            "value": 79,
+            "formatted": {
+              "value": {
                 "ru": "79 руб.",
                 "en": "79 rubles",
                 "es": "79 rublos",
                 "fr": "79 roubles",
                 "ko": "79 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -25641,8 +25609,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -25654,19 +25622,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "54.0"
-              },
-              "lines": {
+            "value": 54,
+            "formatted": {
+              "value": {
                 "ru": "54 руб.",
                 "en": "54 rubles",
                 "es": "54 rublos",
                 "fr": "54 roubles",
                 "ko": "54 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -27294,8 +27260,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -27307,19 +27273,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "85.0"
-              },
-              "lines": {
+            "value": 85,
+            "formatted": {
+              "value": {
                 "ru": "85 руб.",
                 "en": "85 rubles",
                 "es": "85 rublos",
                 "fr": "85 roubles",
                 "ko": "85 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -28519,8 +28483,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -28532,19 +28496,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "380.0"
-              },
-              "lines": {
+            "value": 380,
+            "formatted": {
+              "value": {
                 "ru": "380 руб.",
                 "en": "380 rubles",
                 "es": "380 rublos",
                 "fr": "380 roubles",
                 "ko": "380 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -32448,8 +32410,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -32461,19 +32423,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "62.0"
-              },
-              "lines": {
+            "value": 62,
+            "formatted": {
+              "value": {
                 "ru": "62 руб.",
                 "en": "62 rubles",
                 "es": "62 rublos",
                 "fr": "62 roubles",
                 "ko": "62 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -32819,8 +32779,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -32832,19 +32792,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "38.0"
-              },
-              "lines": {
+            "value": 38,
+            "formatted": {
+              "value": {
                 "ru": "38 руб.",
                 "en": "38 rubles",
                 "es": "38 rublos",
                 "fr": "38 roubles",
                 "ko": "38 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -34979,8 +34937,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -34992,19 +34950,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "280.0"
-              },
-              "lines": {
+            "value": 280,
+            "formatted": {
+              "value": {
                 "ru": "280 руб.",
                 "en": "280 rubles",
                 "es": "280 rublos",
                 "fr": "280 roubles",
                 "ko": "280 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -36056,8 +36012,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -36069,19 +36025,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "160.0"
-              },
-              "lines": {
+            "value": 160,
+            "formatted": {
+              "value": {
                 "ru": "160 руб.",
                 "en": "160 rubles",
                 "es": "160 rublos",
                 "fr": "160 roubles",
                 "ko": "160 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -38238,8 +38192,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -38251,19 +38205,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "75.0"
-              },
-              "lines": {
+            "value": 75,
+            "formatted": {
+              "value": {
                 "ru": "75 руб.",
                 "en": "75 rubles",
                 "es": "75 rublos",
                 "fr": "75 roubles",
                 "ko": "75 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -40318,8 +40270,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -40331,19 +40283,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "1043.0"
-              },
-              "lines": {
+            "value": 1043,
+            "formatted": {
+              "value": {
                 "ru": "1 043 руб.",
                 "en": "1,043 rubles",
                 "es": "1.043 rublos",
                 "fr": "1 043 roubles",
                 "ko": "1,043 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -42392,8 +42342,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -42405,19 +42355,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "201.0"
-              },
-              "lines": {
+            "value": 201,
+            "formatted": {
+              "value": {
                 "ru": "201 руб.",
                 "en": "201 rubles",
                 "es": "201 rublos",
                 "fr": "201 roubles",
                 "ko": "201 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -45062,8 +45010,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -45075,19 +45023,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "35.0"
-              },
-              "lines": {
+            "value": 35,
+            "formatted": {
+              "value": {
                 "ru": "35 руб.",
                 "en": "35 rubles",
                 "es": "35 rublos",
                 "fr": "35 roubles",
                 "ko": "35 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -46645,8 +46591,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -46658,19 +46604,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "580.0"
-              },
-              "lines": {
+            "value": 580,
+            "formatted": {
+              "value": {
                 "ru": "580 руб.",
                 "en": "580 rubles",
                 "es": "580 rublos",
                 "fr": "580 roubles",
                 "ko": "580 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -47108,8 +47052,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -47121,19 +47065,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "743.0"
-              },
-              "lines": {
+            "value": 743,
+            "formatted": {
+              "value": {
                 "ru": "743 руб.",
                 "en": "743 rubles",
                 "es": "743 rublos",
                 "fr": "743 roubles",
                 "ko": "743 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -47586,8 +47528,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -47599,19 +47541,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "1000.0"
-              },
-              "lines": {
+            "value": 1000,
+            "formatted": {
+              "value": {
                 "ru": "1 000 руб.",
                 "en": "1,000 rubles",
                 "es": "1.000 rublos",
                 "fr": "1 000 roubles",
                 "ko": "1,000 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]
@@ -49629,8 +49569,8 @@
         },
         "elements": [
           {
-            "type": "key-value",
-            "key": {
+            "type": "numeric",
+            "name": {
               "type": "translation",
               "key": "core.tooltip.info.base_price",
               "args": {},
@@ -49642,19 +49582,17 @@
                 "ko": "기본 판매 가격"
               }
             },
-            "value": {
-              "type": "translation",
-              "key": "core.tooltip.info.rubles",
-              "args": {
-                "cost": "6142.0"
-              },
-              "lines": {
+            "value": 6142,
+            "formatted": {
+              "value": {
                 "ru": "6 142 руб.",
                 "en": "6,142 rubles",
                 "es": "6.142 rublos",
                 "fr": "6 142 roubles",
                 "ko": "6,142 루블"
-              }
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             }
           }
         ]

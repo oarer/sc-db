@@ -196,24 +196,24 @@
           "type": "numeric",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
             "args": {},
             "lines": {
-              "ru": "Скорость передвижения",
-              "en": "Movement speed",
-              "es": "Velocidad de movimiento",
-              "fr": "Vitesse de déplacement",
-              "ko": "이동 속도"
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
             }
           },
-          "value": 1,
+          "value": 25,
           "formatted": {
             "value": {
-              "ru": "+1%",
-              "en": "+1%",
-              "es": "+1 %",
-              "fr": "+1%",
-              "ko": "+1%"
+              "ru": "+25%",
+              "en": "+25%",
+              "es": "+25 %",
+              "fr": "+25%",
+              "ko": "+25%"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -233,14 +233,14 @@
               "ko": "최대 운반 무게"
             }
           },
-          "value": 5,
+          "value": 10,
           "formatted": {
             "value": {
-              "ru": "+5",
-              "en": "+5",
-              "es": "+5",
-              "fr": "+5",
-              "ko": "+5"
+              "ru": "+10",
+              "en": "+10",
+              "es": "+10",
+              "fr": "+10",
+              "ko": "+10"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
@@ -297,18 +297,18 @@
             }
           },
           "value": [
-            20,
-            21.09756,
-            22.195122,
-            23.292683,
-            24.390244,
-            27.682926,
-            29.329266,
-            30.975609,
-            32.621952,
-            34.26829,
-            39.097557,
-            40
+            21,
+            22.106981,
+            23.213963,
+            24.320944,
+            25.427925,
+            28.74887,
+            30.409344,
+            32.069817,
+            33.73029,
+            35.390762,
+            40.26148,
+            42
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -381,14 +381,14 @@
               "ko": "전기 저항율"
             }
           },
-          "value": 11,
+          "value": 0,
           "formatted": {
             "value": {
-              "ru": "11",
-              "en": "11",
-              "es": "11",
-              "fr": "11",
-              "ko": "11"
+              "ru": "0",
+              "en": "0",
+              "es": "0",
+              "fr": "0",
+              "ko": "0"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -408,14 +408,14 @@
               "ko": "화염 저항율"
             }
           },
-          "value": 11,
+          "value": 0,
           "formatted": {
             "value": {
-              "ru": "11",
-              "en": "11",
-              "es": "11",
-              "fr": "11",
-              "ko": "11"
+              "ru": "0",
+              "en": "0",
+              "es": "0",
+              "fr": "0",
+              "ko": "0"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -435,14 +435,14 @@
               "ko": "화학 화상 보호율"
             }
           },
-          "value": 11,
+          "value": 0,
           "formatted": {
             "value": {
-              "ru": "11",
-              "en": "11",
-              "es": "11",
-              "fr": "11",
-              "ko": "11"
+              "ru": "0",
+              "en": "0",
+              "es": "0",
+              "fr": "0",
+              "ko": "0"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"

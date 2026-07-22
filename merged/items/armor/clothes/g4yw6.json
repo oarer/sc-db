@@ -218,6 +218,33 @@
             "nameColor": "53C353",
             "valueColor": "53C353"
           }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "+2,5",
+              "en": "+2.5",
+              "es": "+2,5",
+              "fr": "+2,5",
+              "ko": "+2.5"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
         }
       ]
     },
@@ -243,14 +270,18 @@
             }
           },
           "value": [
-            18,
-            19.994267,
-            21.988535,
-            23.982805,
-            25.977072,
-            31.959877,
-            34.95128,
-            36
+            19,
+            20.088446,
+            21.17689,
+            22.265335,
+            23.353779,
+            26.619114,
+            28.251781,
+            29.884449,
+            31.517117,
+            33.149784,
+            37.938942,
+            38
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -323,14 +354,14 @@
               "ko": "전기 저항율"
             }
           },
-          "value": 11,
+          "value": 10,
           "formatted": {
             "value": {
-              "ru": "11",
-              "en": "11",
-              "es": "11",
-              "fr": "11",
-              "ko": "11"
+              "ru": "10",
+              "en": "10",
+              "es": "10",
+              "fr": "10",
+              "ko": "10"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -350,14 +381,14 @@
               "ko": "화염 저항율"
             }
           },
-          "value": 11,
+          "value": 10,
           "formatted": {
             "value": {
-              "ru": "11",
-              "en": "11",
-              "es": "11",
-              "fr": "11",
-              "ko": "11"
+              "ru": "10",
+              "en": "10",
+              "es": "10",
+              "fr": "10",
+              "ko": "10"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -377,14 +408,14 @@
               "ko": "화학 화상 보호율"
             }
           },
-          "value": 11,
+          "value": 10,
           "formatted": {
             "value": {
-              "ru": "11",
-              "en": "11",
-              "es": "11",
-              "fr": "11",
-              "ko": "11"
+              "ru": "10",
+              "en": "10",
+              "es": "10",
+              "fr": "10",
+              "ko": "10"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -431,14 +462,14 @@
               "ko": "열 보호"
             }
           },
-          "value": 0,
+          "value": 10,
           "formatted": {
             "value": {
-              "ru": "0",
-              "en": "0",
-              "es": "0",
-              "fr": "0",
-              "ko": "0"
+              "ru": "10",
+              "en": "10",
+              "es": "10",
+              "fr": "10",
+              "ko": "10"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -512,14 +543,14 @@
               "ko": "출혈 보호"
             }
           },
-          "value": 20,
+          "value": 25,
           "formatted": {
             "value": {
-              "ru": "20%",
-              "en": "20%",
-              "es": "20 %",
-              "fr": "20%",
-              "ko": "20%"
+              "ru": "25%",
+              "en": "25%",
+              "es": "25 %",
+              "fr": "25%",
+              "ko": "25%"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
