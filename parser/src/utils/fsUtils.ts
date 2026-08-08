@@ -43,6 +43,34 @@ export async function removeDir(dirPath: string) {
 	await fsPromises.rm(dirPath, { recursive: true, force: true });
 }
 
+export async function removeDirExcept(
+	dirPath: string,
+	preserve: string[] = [],
+) {
+	if (!fs.existsSync(dirPath)) return;
+	const preserveSet = new Set(preserve.map((p) => p.replace(/\\/g, "/")));
+
+	async function walk(dir: string) {
+		const entries = await fsPromises.readdir(dir, { withFileTypes: true });
+		for (const entry of entries) {
+			const full = path.join(dir, entry.name);
+			const rel = path.relative(dirPath, full).replace(/\\/g, "/");
+			if (preserveSet.has(rel)) continue;
+
+			if (entry.isDirectory()) {
+				await walk(full);
+				const remaining = await fsPromises.readdir(full);
+				if (remaining.length === 0)
+					await fsPromises.rm(full, { recursive: true, force: true });
+			} else {
+				await fsPromises.rm(full, { force: true });
+			}
+		}
+	}
+
+	await walk(dirPath);
+}
+
 export function hashFile(filePath: string): string {
 	const buf = fs.readFileSync(filePath);
 	return crypto.createHash("sha256").update(buf).digest("hex");

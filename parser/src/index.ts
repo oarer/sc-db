@@ -10,6 +10,7 @@ import {
 	GITHUB_REPO,
 	ORIG_DIR,
 	OUT_DIR,
+	PRESERVED_FILES,
 	UPDATE_COOLDOWN,
 } from "./constants";
 import {
@@ -22,7 +23,7 @@ import { copyIconsToOutput } from "./icons";
 import { processListing } from "./listingFormate";
 import { runMerge } from "./merge";
 import { mergeFolderGroupsToListing } from "./mergeItems";
-import { hashFile, loadSavedSha, removeDir, saveSha } from "./utils/fsUtils";
+import { hashFile, loadSavedSha, removeDir, removeDirExcept, saveSha } from "./utils/fsUtils";
 
 async function main(): Promise<boolean> {
 	const useProxy =
@@ -40,7 +41,7 @@ async function main(): Promise<boolean> {
 		if (forceMerge) {
 			console.log("[Merge] Force merge requested.");
 
-			await removeDir(OUT_DIR);
+			await removeDirExcept(OUT_DIR, PRESERVED_FILES);
 			await runMerge(ORIG_DIR, OUT_DIR);
 			await processListing(OUT_DIR);
 			await copyIconsToOutput();
@@ -168,7 +169,7 @@ async function main(): Promise<boolean> {
 			await fs.promises.rm(zipPath, { force: true });
 
 			if (updated) {
-				await removeDir(OUT_DIR);
+				await removeDirExcept(OUT_DIR, PRESERVED_FILES);
 				await runMerge(ORIG_DIR, OUT_DIR);
 				await processListing(OUT_DIR);
 				await copyIconsToOutput();
