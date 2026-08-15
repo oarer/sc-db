@@ -44,14 +44,14 @@
                     },
                     "stats": [
                         {
-                            "key": "reload_modifier",
+                            "key": "ergonomics",
                             "lines": {
-                                "ru": "Время перезарядки"
+                                "ru": "Эргономика"
                             },
                             "type": "positive",
                             "value": {
-                                "min": -4.362,
-                                "max": -17.45
+                                "min": 4.362,
+                                "max": 17.45
                             }
                         }
                     ]
@@ -66,12 +66,12 @@
                         {
                             "key": "draw_time",
                             "lines": {
-                                "ru": "Время доставания"
+                                "ru": "Скорость доставания"
                             },
                             "type": "positive",
                             "value": {
-                                "min": -3.635,
-                                "max": -14.542
+                                "min": 3.636,
+                                "max": 14.548
                             }
                         }
                     ]
@@ -86,11 +86,11 @@
                         {
                             "key": "aiming_speed_modifier",
                             "lines": {
-                                "ru": "Скорость прицеливания"
+                                "ru": "Скорость в прицеливании"
                             },
                             "type": "positive",
                             "value": {
-                                "min": 1.454,
+                                "min": 1.45,
                                 "max": 5.817
                             }
                         }
@@ -106,12 +106,12 @@
                         {
                             "key": "equipped_speed_modifier",
                             "lines": {
-                                "ru": "Скорость с оружием"
+                                "ru": "Скорость"
                             },
                             "type": "positive",
                             "value": {
-                                "min": 0.582,
-                                "max": 2.327
+                                "min": 0.58,
+                                "max": 2.326
                             }
                         }
                     ]
@@ -126,12 +126,12 @@
                         {
                             "key": "aim_switch_time",
                             "lines": {
-                                "ru": "Время прицеливания"
+                                "ru": "Скорость прицеливания"
                             },
                             "type": "positive",
                             "value": {
-                                "min": -3.635,
-                                "max": -14.542
+                                "min": 3.638,
+                                "max": 14.544
                             }
                         }
                     ]
@@ -146,7 +146,7 @@
                         {
                             "key": "recoil",
                             "lines": {
-                                "ru": "Отдача"
+                                "ru": "Верт. отдача"
                             },
                             "type": "positive",
                             "value": {
@@ -190,8 +190,8 @@
                             },
                             "type": "positive",
                             "value": {
-                                "min": 0.05817,
-                                "max": 0.23266
+                                "min": 5.815,
+                                "max": 23.266
                             }
                         }
                     ]
@@ -292,14 +292,14 @@
                     },
                     "stats": [
                         {
-                            "key": "reload_modifier",
+                            "key": "ergonomics",
                             "lines": {
-                                "ru": "Время перезарядки"
+                                "ru": "Эргономика"
                             },
                             "type": "negative",
                             "value": {
-                                "min": 17.45,
-                                "max": 4.362
+                                "min": -17.45,
+                                "max": -4.362
                             }
                         }
                     ]
@@ -314,12 +314,12 @@
                         {
                             "key": "draw_time",
                             "lines": {
-                                "ru": "Время доставания"
+                                "ru": "Скорость доставания"
                             },
                             "type": "negative",
                             "value": {
-                                "min": 14.542,
-                                "max": 3.635
+                                "min": -3.636,
+                                "max": -14.548
                             }
                         }
                     ]
@@ -334,12 +334,12 @@
                         {
                             "key": "aiming_speed_modifier",
                             "lines": {
-                                "ru": "Скорость прицеливания"
+                                "ru": "Скорость в прицеливании"
                             },
                             "type": "negative",
                             "value": {
-                                "min": -5.817,
-                                "max": -1.454
+                                "min": -1.45,
+                                "max": -5.817
                             }
                         }
                     ]
@@ -354,12 +354,12 @@
                         {
                             "key": "equipped_speed_modifier",
                             "lines": {
-                                "ru": "Скорость с оружием"
+                                "ru": "Скорость"
                             },
                             "type": "negative",
                             "value": {
-                                "min": -2.327,
-                                "max": -0.582
+                                "min": -0.58,
+                                "max": -2.326
                             }
                         }
                     ]
@@ -374,12 +374,12 @@
                         {
                             "key": "aim_switch_time",
                             "lines": {
-                                "ru": "Время прицеливания"
+                                "ru": "Скорость прицеливания"
                             },
                             "type": "negative",
                             "value": {
-                                "min": 14.542,
-                                "max": 3.635
+                                "min": -14.54,
+                                "max": -3.63
                             }
                         }
                     ]
@@ -394,7 +394,7 @@
                         {
                             "key": "recoil",
                             "lines": {
-                                "ru": "Отдача"
+                                "ru": "Верт. отдача"
                             },
                             "type": "negative",
                             "value": {
@@ -438,8 +438,8 @@
                             },
                             "type": "negative",
                             "value": {
-                                "min": -0.23266,
-                                "max": -0.05817
+                                "min": -23.266,
+                                "max": -5.815
                             }
                         }
                     ]
@@ -577,17 +577,6 @@
                     },
                     "stats": [
                         {
-                            "key": "damage_distant",
-                            "lines": {
-                                "ru": "Урон вдали"
-                            },
-                            "type": "positive",
-                            "value": {
-                                "min": 1.227,
-                                "max": 4.908
-                            }
-                        },
-                        {
                             "key": "damage",
                             "lines": {
                                 "ru": "Урон"
@@ -596,6 +585,17 @@
                             "value": {
                                 "min": -1.227,
                                 "max": -4.908
+                            }
+                        },
+                        {
+                            "key": "damage_distant",
+                            "lines": {
+                                "ru": "Урон вдали"
+                            },
+                            "type": "positive",
+                            "value": {
+                                "min": 1.227,
+                                "max": 4.908
                             }
                         }
                     ]
@@ -613,7 +613,7 @@
                         {
                             "key": "limbs_damage_modifier",
                             "lines": {
-                                "ru": "Модификатор урона по конечностям"
+                                "ru": "Урон по конечностям"
                             },
                             "type": "positive",
                             "value": {
@@ -640,7 +640,7 @@
                         {
                             "key": "speed_modifier",
                             "lines": {
-                                "ru": "Скорость передвижения"
+                                "ru": "Скорость на 15с после убийства"
                             },
                             "type": "special",
                             "value": {
@@ -667,7 +667,7 @@
                         {
                             "key": "regeneration_bonus",
                             "lines": {
-                                "ru": "Лечение"
+                                "ru": "Регенерация на 15с после убийства"
                             },
                             "type": "special",
                             "value": {
@@ -694,7 +694,7 @@
                         {
                             "key": "recoil_bonus",
                             "lines": {
-                                "ru": "Отдача"
+                                "ru": "Отдача на 15с после убийства"
                             },
                             "type": "special",
                             "value": {
@@ -705,7 +705,7 @@
                         {
                             "key": "reload_bonus",
                             "lines": {
-                                "ru": "Время перезарядки"
+                                "ru": "Время перезарядки на 15с после убийства"
                             },
                             "type": "special",
                             "value": {
@@ -731,7 +731,7 @@
                         {
                             "key": "recoil",
                             "lines": {
-                                "ru": "Отдача"
+                                "ru": "Верт. отдача"
                             },
                             "type": "negative",
                             "value": {
@@ -753,7 +753,7 @@
                         {
                             "key": "per_missing_hp",
                             "lines": {
-                                "ru": "Урон за каждый отсутствующий % здоровья"
+                                "ru": "Урон за каждый % HP цели"
                             },
                             "type": "special",
                             "value": {
@@ -810,7 +810,7 @@
                         {
                             "key": "limbs_damage_modifier",
                             "lines": {
-                                "ru": "Модификатор урона по конечностям"
+                                "ru": "Урон по конечностям"
                             },
                             "type": "positive",
                             "value": {
@@ -821,7 +821,7 @@
                         {
                             "key": "head_damage_modifier",
                             "lines": {
-                                "ru": "Модификатор урона в голову"
+                                "ru": "Урон в голову"
                             },
                             "type": "positive",
                             "value": {
@@ -871,7 +871,7 @@
                         {
                             "key": "first5_damage_bonus",
                             "lines": {
-                                "ru": "Урон первых 5 выстрелов"
+                                "ru": "Урон первых 5 патронов"
                             },
                             "type": "special",
                             "value": {
@@ -898,7 +898,7 @@
                         {
                             "key": "last5_damage_bonus",
                             "lines": {
-                                "ru": "Урон последних 5 выстрелов"
+                                "ru": "Урон последних 5 патронов"
                             },
                             "type": "special",
                             "value": {
@@ -919,14 +919,14 @@
                     },
                     "stats": [
                         {
-                            "key": "reload_modifier",
+                            "key": "ergonomics",
                             "lines": {
-                                "ru": "Время перезарядки"
+                                "ru": "Эргономика"
                             },
                             "type": "positive",
                             "value": {
-                                "min": -4.362,
-                                "max": -17.45
+                                "min": 4.362,
+                                "max": 17.45
                             }
                         }
                     ]
@@ -944,12 +944,12 @@
                         {
                             "key": "draw_time",
                             "lines": {
-                                "ru": "Время доставания"
+                                "ru": "Скорость доставания"
                             },
                             "type": "positive",
                             "value": {
-                                "min": -3.635,
-                                "max": -14.542
+                                "min": 3.636,
+                                "max": 14.548
                             }
                         }
                     ]
@@ -967,11 +967,11 @@
                         {
                             "key": "aiming_speed_modifier",
                             "lines": {
-                                "ru": "Скорость прицеливания"
+                                "ru": "Скорость в прицеливании"
                             },
                             "type": "positive",
                             "value": {
-                                "min": 1.454,
+                                "min": 1.45,
                                 "max": 5.817
                             }
                         }
@@ -990,12 +990,12 @@
                         {
                             "key": "equipped_speed_modifier",
                             "lines": {
-                                "ru": "Скорость с оружием"
+                                "ru": "Скорость"
                             },
                             "type": "positive",
                             "value": {
-                                "min": 0.582,
-                                "max": 2.327
+                                "min": 0.58,
+                                "max": 2.326
                             }
                         }
                     ]
@@ -1013,12 +1013,12 @@
                         {
                             "key": "aim_switch_time",
                             "lines": {
-                                "ru": "Время прицеливания"
+                                "ru": "Скорость прицеливания"
                             },
                             "type": "positive",
                             "value": {
-                                "min": -3.635,
-                                "max": -14.542
+                                "min": 3.638,
+                                "max": 14.536
                             }
                         }
                     ]
@@ -1036,7 +1036,7 @@
                         {
                             "key": "recoil",
                             "lines": {
-                                "ru": "Отдача"
+                                "ru": "Верт. отдача"
                             },
                             "type": "positive",
                             "value": {
@@ -1086,8 +1086,8 @@
                             },
                             "type": "positive",
                             "value": {
-                                "min": 0.05817,
-                                "max": 0.23266
+                                "min": 5.815,
+                                "max": 23.266
                             }
                         }
                     ]
