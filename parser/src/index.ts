@@ -23,7 +23,13 @@ import { copyIconsToOutput } from "./icons";
 import { processListing } from "./listingFormate";
 import { runMerge } from "./merge";
 import { mergeFolderGroupsToListing } from "./mergeItems";
-import { hashFile, loadSavedSha, removeDir, removeDirExcept, saveSha } from "./utils/fsUtils";
+import {
+	hashFile,
+	loadSavedSha,
+	removeDir,
+	removeDirExcept,
+	saveSha,
+} from "./utils/fsUtils";
 
 async function main(): Promise<boolean> {
 	const useProxy =
@@ -104,6 +110,14 @@ async function main(): Promise<boolean> {
 						"items/other/6gq0.json",
 						"items/other/9yry.json",
 						"items/other/g365.json",
+					],
+					grenadesBox: [
+						"items/misc/knydy.json",
+						"items/misc/qjl6j.json",
+						"items/misc/j5pd0.json",
+						"litems/misc/ywdk.json",
+						"items/misc/m0wdy.json",
+						"items/misc/n46d1.json",
 					],
 				},
 				asArrayFor: ["consumables", "containers"],
@@ -188,6 +202,9 @@ async function main(): Promise<boolean> {
 							"items/supply/drink",
 							"items/supply/medicine",
 						],
+						containers: ["items/containers", "items/backpacks"],
+						weapons: ["items/weapon"],
+						ammo: ["items/bullet"],
 						attachments: [
 							"items/attachment/accessory",
 							"items/attachment/barrel",
@@ -197,11 +214,7 @@ async function main(): Promise<boolean> {
 							"items/attachment/pistol_handle",
 							"items/attachment/other",
 						],
-						containers: ["items/containers", "items/backpacks"],
-						weapons: ["items/weapon"],
-						ammo: ["items/bullet"],
 						plates: [
-							"items/other/999q.json",
 							"items/other/9ypy.json",
 							"items/other/1p32.json",
 							"items/other/g325.json",
@@ -233,6 +246,14 @@ async function main(): Promise<boolean> {
 							"items/other/6gq0.json",
 							"items/other/9yry.json",
 							"items/other/g365.json",
+						],
+						grenadesBox: [
+							"items/misc/knydy.json",
+							"items/misc/qjl6j.json",
+							"items/misc/j5pd0.json",
+							"litems/misc/ywdk.json",
+							"items/misc/m0wdy.json",
+							"items/misc/n46d1.json",
 						],
 					},
 					asArrayFor: ["consumables", "containers"],
