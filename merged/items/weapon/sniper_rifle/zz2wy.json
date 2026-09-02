@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            47.2,
-            47.55976,
-            47.919514,
-            48.27927,
-            48.639023,
-            49.718292,
-            50.257927,
-            50.797565,
-            51.337196,
-            51.876827,
-            53.459755,
-            54.25122,
-            55.042686,
-            55.83415,
-            56.62561,
-            59
+            50,
+            50.3811,
+            50.762196,
+            51.143295,
+            51.524387,
+            52.667683,
+            53.239326,
+            53.810978,
+            54.38262,
+            54.954266,
+            56.631096,
+            57.469513,
+            58.307926,
+            59.146343,
+            59.984756,
+            62.5
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -689,14 +689,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.info.overheat_after",
             "args": {
-              "value": "36.0"
+              "value": "41.0"
             },
             "lines": {
-              "ru": "Перегрев через 36 выстрелов непрерывной стрельбы",
-              "en": "Overheats after 36 consecutive shots",
-              "es": "Se sobrecalienta tras 36 disparos de fuego continuo",
-              "fr": "Surchauffe après 36 coups en feu continu",
-              "ko": "36발 연속 발포 후 과열"
+              "ru": "Перегрев через 41 выстрелов непрерывной стрельбы",
+              "en": "Overheats after 41 consecutive shots",
+              "es": "Se sobrecalienta tras 41 disparos de fuego continuo",
+              "fr": "Surchauffe après 41 coups en feu continu",
+              "ko": "41발 연속 발포 후 과열"
             }
           }
         }
@@ -720,9 +720,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 47.2,
+      "startDamage": 50,
       "damageDecreaseStart": 40,
-      "endDamage": 47.2,
+      "endDamage": 50,
       "damageDecreaseEnd": 80,
       "maxDistance": 185
     },

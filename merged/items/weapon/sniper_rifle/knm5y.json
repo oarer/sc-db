@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            39.7,
-            40.002594,
-            40.305183,
-            40.607777,
-            40.910366,
-            41.818142,
-            42.272026,
-            42.725918,
-            43.179802,
-            43.63369,
-            44.965088,
-            45.630795,
-            46.296497,
-            46.9622,
-            47.627895,
-            49.625
+            42.1,
+            42.420883,
+            42.741768,
+            43.062653,
+            43.383533,
+            44.346188,
+            44.82751,
+            45.30884,
+            45.790165,
+            46.271492,
+            47.68338,
+            48.389328,
+            49.095272,
+            49.80122,
+            50.507164,
+            52.625
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -689,14 +689,14 @@
             "type": "translation",
             "key": "weapon.tooltip.weapon.info.overheat_after",
             "args": {
-              "value": "36.0"
+              "value": "41.0"
             },
             "lines": {
-              "ru": "Перегрев через 36 выстрелов непрерывной стрельбы",
-              "en": "Overheats after 36 consecutive shots",
-              "es": "Se sobrecalienta tras 36 disparos de fuego continuo",
-              "fr": "Surchauffe après 36 coups en feu continu",
-              "ko": "36발 연속 발포 후 과열"
+              "ru": "Перегрев через 41 выстрелов непрерывной стрельбы",
+              "en": "Overheats after 41 consecutive shots",
+              "es": "Se sobrecalienta tras 41 disparos de fuego continuo",
+              "fr": "Surchauffe après 41 coups en feu continu",
+              "ko": "41발 연속 발포 후 과열"
             }
           }
         }
@@ -736,9 +736,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 39.7,
+      "startDamage": 42.1,
       "damageDecreaseStart": 40,
-      "endDamage": 39.7,
+      "endDamage": 42.1,
       "damageDecreaseEnd": 80,
       "maxDistance": 175
     },

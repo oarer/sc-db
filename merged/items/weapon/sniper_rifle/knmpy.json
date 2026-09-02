@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            35.5,
-            35.77058,
-            36.041157,
-            36.31174,
-            36.582317,
-            37.394054,
-            37.799923,
-            38.205795,
-            38.61166,
-            39.01753,
-            40.208076,
-            40.803352,
-            41.39863,
-            41.993904,
-            42.589176,
-            44.375
+            37.5,
+            37.785824,
+            38.071648,
+            38.35747,
+            38.64329,
+            39.500763,
+            39.929497,
+            40.358234,
+            40.78697,
+            41.2157,
+            42.47332,
+            43.102135,
+            43.730946,
+            44.35976,
+            44.988567,
+            46.875
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -459,14 +459,14 @@
               "ko": "탄퍼짐"
             }
           },
-          "value": 0.20000005,
+          "value": 0.25,
           "formatted": {
             "value": {
-              "ru": "0,2°",
-              "en": "0.2°",
-              "es": "0,2°",
-              "fr": "0,2°",
-              "ko": "0.2°"
+              "ru": "0,25°",
+              "en": "0.25°",
+              "es": "0,25°",
+              "fr": "0,25°",
+              "ko": "0.25°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -486,14 +486,14 @@
               "ko": "비조준 사격 탄퍼짐"
             }
           },
-          "value": 3,
+          "value": 2.4,
           "formatted": {
             "value": {
-              "ru": "3°",
-              "en": "3°",
-              "es": "3°",
-              "fr": "3°",
-              "ko": "3°"
+              "ru": "2,4°",
+              "en": "2.4°",
+              "es": "2,4°",
+              "fr": "2,4°",
+              "ko": "2.4°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -679,6 +679,50 @@
     {
       "type": "list",
       "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.attachment_stats",
+        "args": {},
+        "lines": {
+          "ru": "Характеристики обвесов",
+          "en": "Attachment properties",
+          "es": "Propiedades de accesorios",
+          "fr": "Propriétés des accessoires",
+          "ko": "부착물 특성"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l'aveugle",
+              "ko": "비조준 사격 탄퍼짐"
+            }
+          },
+          "value": -19.999998,
+          "formatted": {
+            "value": {
+              "ru": "-20%",
+              "en": "-20%",
+              "es": "-20 %",
+              "fr": "-20%",
+              "ko": "-20%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
         "type": "text",
         "text": ""
       },
@@ -720,7 +764,7 @@
     },
     {
       "type": "damage",
-      "startDamage": 35.5,
+      "startDamage": 37.5,
       "damageDecreaseStart": 30,
       "endDamage": 32.8,
       "damageDecreaseEnd": 80,

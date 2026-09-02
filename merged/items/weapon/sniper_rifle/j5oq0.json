@@ -263,22 +263,22 @@
             }
           },
           "value": [
-            33.6,
-            33.8561,
-            34.112194,
-            34.368294,
-            34.624386,
-            35.39268,
-            35.776825,
-            36.160976,
-            36.54512,
-            36.929264,
-            38.056095,
-            38.61951,
-            39.182926,
-            39.74634,
-            40.309753,
-            42
+            35,
+            35.26677,
+            35.533535,
+            35.800304,
+            36.067074,
+            36.86738,
+            37.26753,
+            37.667686,
+            38.067837,
+            38.467987,
+            39.641766,
+            40.228657,
+            40.815548,
+            41.402443,
+            41.98933,
+            43.75
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -486,14 +486,14 @@
               "ko": "비조준 사격 탄퍼짐"
             }
           },
-          "value": 4,
+          "value": 3.2,
           "formatted": {
             "value": {
-              "ru": "4°",
-              "en": "4°",
-              "es": "4°",
-              "fr": "4°",
-              "ko": "4°"
+              "ru": "3,2°",
+              "en": "3.2°",
+              "es": "3,2°",
+              "fr": "3,2°",
+              "ko": "3.2°"
             },
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -679,6 +679,50 @@
     {
       "type": "list",
       "title": {
+        "type": "translation",
+        "key": "weapon.tooltip.weapon.info.attachment_stats",
+        "args": {},
+        "lines": {
+          "ru": "Характеристики обвесов",
+          "en": "Attachment properties",
+          "es": "Propiedades de accesorios",
+          "fr": "Propriétés des accessoires",
+          "ko": "부착물 특성"
+        }
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l'aveugle",
+              "ko": "비조준 사격 탄퍼짐"
+            }
+          },
+          "value": -19.999998,
+          "formatted": {
+            "value": {
+              "ru": "-20%",
+              "en": "-20%",
+              "es": "-20 %",
+              "fr": "-20%",
+              "ko": "-20%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
         "type": "text",
         "text": ""
       },
@@ -736,9 +780,9 @@
     },
     {
       "type": "damage",
-      "startDamage": 33.6,
+      "startDamage": 35,
       "damageDecreaseStart": 40,
-      "endDamage": 33.6,
+      "endDamage": 35,
       "damageDecreaseEnd": 80,
       "maxDistance": 180
     },

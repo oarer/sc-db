@@ -324,22 +324,22 @@
             }
           },
           "value": [
-            197,
-            199.72076,
-            202.44153,
-            205.1623,
-            207.88304,
-            216.04533,
-            220.12646,
-            224.20761,
-            228.28877,
-            232.3699,
-            244.34125,
-            250.32693,
-            256.31262,
-            262.2983,
-            268.284,
-            286.241
+            199,
+            201.73624,
+            204.4725,
+            207.20876,
+            209.94499,
+            218.15373,
+            222.25812,
+            226.3625,
+            230.46686,
+            234.57123,
+            246.61073,
+            252.63051,
+            258.65024,
+            264.67,
+            270.68976,
+            288.749
           ],
           "nameColor": "838383",
           "valueColor": "EEEEEE"
@@ -638,11 +638,11 @@
             "key": "item.heavy.feature",
             "args": {},
             "lines": {
-              "ru": "Игнорирует штраф скорости передвижения от оружия",
-              "en": "Ignores a weapon's movement speed penalty",
-              "es": "Ignora la penalización a la velocidad de movimiento de un arma",
-              "fr": "Ignore la pénalité de vitesse de déplacement d'une arme",
-              "ko": "무기의 이동 속도 패널티 무시"
+              "ru": "Игнорирует влияние оружия на скорость передвижения (не распространяется на холодное оружие)",
+              "en": "Ignores weapon effects on movement speed (does not apply to melee weapons)",
+              "es": "Ignora el efecto del arma sobre la velocidad de movimiento (no se aplica a las armas cuerpo a cuerpo)",
+              "fr": "Ignore l'influence des armes sur la vitesse de déplacement (ne s'applique pas aux armes blanches)",
+              "ko": "무기가 이동 속도에 미치는 영향을 무시합니다. (근접 무기 제외)"
             }
           }
         }
