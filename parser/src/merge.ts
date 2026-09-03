@@ -16,13 +16,30 @@ export function uniqSorted(nums: number[]) {
 	return s;
 }
 
+export function uniqPairs(pairs: [number, number][]) {
+	const seen = new Set<string>();
+	const out: [number, number][] = [];
+	for (const [lo, hi] of pairs) {
+		const key = `${lo}|${hi}`;
+		if (seen.has(key)) continue;
+		seen.add(key);
+		out.push([lo, hi]);
+	}
+	out.sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+	return out;
+}
+
 export function findNumericElementsByKey(item: Item, key: string) {
 	const results: { el: InfoElement; blockIdx: number; elIdx: number }[] = [];
 	if (!item.infoBlocks) return results;
 	item.infoBlocks.forEach((block, bi) => {
 		if (!("elements" in block) || !block.elements) return;
 		block.elements.forEach((el, ei) => {
-			if (el?.type === "numeric" || el?.type === "numericVariants") {
+			if (
+				el?.type === "numeric" ||
+				el?.type === "numericVariants" ||
+				el?.type === "range"
+			) {
 				if (el.name?.type === "translation" && el.name.key === key) {
 					results.push({ el, blockIdx: bi, elIdx: ei });
 				}
@@ -36,7 +53,9 @@ export function collectFromVariant(variant: Item, matchKey: string) {
 	const numToLocStr: Map<number, Record<string, string>> = new Map();
 	let nameColor: string | undefined;
 	let valueColor: string | undefined;
-	if (!variant.infoBlocks) return { numToLocStr, nameColor, valueColor };
+	const rangePairs: [number, number][] = [];
+	if (!variant.infoBlocks)
+		return { numToLocStr, nameColor, valueColor, rangePairs };
 
 	for (const block of variant.infoBlocks) {
 		if (!("title" in block) || !("elements" in block)) continue;
@@ -47,7 +66,9 @@ export function collectFromVariant(variant: Item, matchKey: string) {
 		if (!block.elements) continue;
 		for (const el of block.elements) {
 			if (
-				(el.type === "numeric" || el.type === "numericVariants") &&
+				(el.type === "numeric" ||
+					el.type === "numericVariants" ||
+					el.type === "range") &&
 				el.name?.type === "translation" &&
 				el.name.key === matchKey
 			) {
@@ -57,21 +78,33 @@ export function collectFromVariant(variant: Item, matchKey: string) {
 				)
 					continue;
 
-				const vals = ensureNumberArray((el as { value?: unknown }).value);
-				const fv = el.formatted?.value;
+				if (el.type === "range") {
+					const re = el as { min?: unknown; max?: unknown };
+					if (
+						typeof re.min === "number" &&
+						typeof re.max === "number"
+					) {
+						rangePairs.push([re.min, re.max]);
+					}
+				} else {
+					const vals = ensureNumberArray(
+						(el as { value?: unknown }).value,
+					);
+					const fv = el.formatted?.value;
 
-				vals.forEach((num) => {
-					let rec = numToLocStr.get(num);
-					if (!rec) {
-						rec = {};
-						numToLocStr.set(num, rec);
-					}
-					if (fv && typeof fv === "object") {
-						for (const [loc, s] of Object.entries(fv)) {
-							if (typeof s === "string" && !rec?.[loc]) rec![loc] = s;
+					vals.forEach((num) => {
+						let rec = numToLocStr.get(num);
+						if (!rec) {
+							rec = {};
+							numToLocStr.set(num, rec);
 						}
-					}
-				});
+						if (fv && typeof fv === "object") {
+							for (const [loc, s] of Object.entries(fv)) {
+								if (typeof s === "string" && !rec?.[loc]) rec![loc] = s;
+							}
+						}
+					});
+				}
 
 				if (!nameColor && el.formatted?.nameColor)
 					nameColor = el.formatted.nameColor;
@@ -83,7 +116,7 @@ export function collectFromVariant(variant: Item, matchKey: string) {
 			}
 		}
 	}
-	return { numToLocStr, nameColor, valueColor };
+	return { numToLocStr, nameColor, valueColor, rangePairs };
 }
 
 export function mergeOneItem(orig: Item, variants: Item[]) {
@@ -100,21 +133,38 @@ export function mergeOneItem(orig: Item, variants: Item[]) {
 
 	const allNums: number[] = [];
 	const numToLocaleStrings: Record<number, Record<string, string>> = {};
+	const rangePairs: [number, number][] = [];
 	let chosenNameColor: string | undefined;
 	let chosenValueColor: string | undefined;
 
 	for (const t of targets) {
-		const el = t.el as { value?: unknown };
-		const origVals = ensureNumberArray(el.value);
-		origVals.forEach((n) => {
-			allNums.push(n);
-		});
+		const el = t.el as {
+			type?: string;
+			value?: unknown;
+			min?: unknown;
+			max?: unknown;
+		};
 
-		if (t.el.formatted?.value && typeof t.el.formatted.value === "object") {
-			for (const n of origVals) {
-				if (!numToLocaleStrings[n]) numToLocaleStrings[n] = {};
-				for (const [loc, s] of Object.entries(t.el.formatted.value)) {
-					if (typeof s === "string") numToLocaleStrings[n][loc] = s;
+		if (el.type === "range") {
+			if (typeof el.min === "number" && typeof el.max === "number") {
+				rangePairs.push([el.min, el.max]);
+			}
+		} else {
+			const origVals = ensureNumberArray(el.value);
+			origVals.forEach((n) => {
+				allNums.push(n);
+			});
+		}
+
+		if (
+			t.el.formatted?.value &&
+			typeof t.el.formatted.value === "object"
+		) {
+			for (const [loc, s] of Object.entries(t.el.formatted.value)) {
+				if (typeof s !== "string") continue;
+				for (const n of ensureNumberArray(el.value)) {
+					if (!numToLocaleStrings[n]) numToLocaleStrings[n] = {};
+					numToLocaleStrings[n][loc] = s;
 				}
 			}
 		}
@@ -129,12 +179,12 @@ export function mergeOneItem(orig: Item, variants: Item[]) {
 	}
 
 	for (const v of variants) {
-		const { numToLocStr, nameColor, valueColor } = collectFromVariant(
-			v,
-			matchKey,
-		);
+		const { numToLocStr, nameColor, valueColor, rangePairs: vPairs } =
+			collectFromVariant(v, matchKey);
 		if (nameColor && !chosenNameColor) chosenNameColor = nameColor;
 		if (valueColor && !chosenValueColor) chosenValueColor = valueColor;
+
+		rangePairs.push(...vPairs);
 
 		numToLocStr.forEach((locMap, num) => {
 			allNums.push(num);
@@ -150,13 +200,26 @@ export function mergeOneItem(orig: Item, variants: Item[]) {
 	for (const t of targets) {
 		const el = t.el as {
 			type: string;
-			value?: number | number[];
+			value?: number | number[] | [number, number][];
 			nameColor?: string;
 			valueColor?: string;
 			formatted?: Record<string, unknown>;
 		};
-		el.type = "numericVariants";
-		el.value = merged;
+
+		if (rangePairs.length > 0) {
+			const discreteRanges: [number, number][] = allNums.map(
+				(n): [number, number] => [n, n],
+			);
+			const allPairs = uniqPairs([...rangePairs, ...discreteRanges]);
+			el.type = "numericVariants";
+			delete (el as { min?: unknown }).min;
+			delete (el as { max?: unknown }).max;
+			el.value = allPairs;
+		} else {
+			el.type = "numericVariants";
+			el.value = merged;
+		}
+
 		if (!el.nameColor && chosenNameColor) el.nameColor = chosenNameColor;
 		if (!el.valueColor && chosenValueColor) el.valueColor = chosenValueColor;
 		if (el.formatted) {
