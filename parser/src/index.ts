@@ -13,6 +13,7 @@ import {
 	PRESERVED_FILES,
 	UPDATE_COOLDOWN,
 } from "./constants";
+import { addCustomToListing } from "./customListing";
 import {
 	downloadZip,
 	extractItemsFromZip,
@@ -50,6 +51,7 @@ async function main(): Promise<boolean> {
 			await removeDirExcept(OUT_DIR, PRESERVED_FILES);
 			await runMerge(ORIG_DIR, OUT_DIR);
 			await processListing(OUT_DIR);
+			await addCustomToListing(OUT_DIR);
 			await copyIconsToOutput();
 			await additionalStatsParse(OUT_DIR, useProxy);
 			await mergeFolderGroupsToListing(OUT_DIR, {
@@ -186,6 +188,7 @@ async function main(): Promise<boolean> {
 				await removeDirExcept(OUT_DIR, PRESERVED_FILES);
 				await runMerge(ORIG_DIR, OUT_DIR);
 				await processListing(OUT_DIR);
+				await addCustomToListing(OUT_DIR);
 				await copyIconsToOutput();
 				await additionalStatsParse(OUT_DIR, useProxy);
 				await mergeFolderGroupsToListing(OUT_DIR, {
