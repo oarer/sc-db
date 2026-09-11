@@ -1,0 +1,38 @@
+{
+  "id": "g49mp",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.season_pass.bp_token.name",
+    "args": {},
+    "lines": {
+      "ru": "Сезонный Пропуск",
+      "en": "Season Pass",
+      "es": "Pase de temporada",
+      "fr": "Pass Saisonnier",
+      "ko": "시즌 패스"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.season_pass.bp_token.additional_stats_tip",
+        "args": {},
+        "lines": {
+          "ru": "Сезонный Пропуск может быть активирован в любом сезоне после получения.",
+          "en": "Season Pass can be activated in any season after it is received.",
+          "es": "El pase de temporada se puede activar en cualquier temporada después de recibirlo.",
+          "fr": "Le Pass saisonnier peut être activé à n'importe quelle saison après son obtention.",
+          "ko": "시즌 패스는 획득 후 어느 시즌에서든 활성화할 수 있습니다."
+        }
+      }
+    }
+  ]
+}

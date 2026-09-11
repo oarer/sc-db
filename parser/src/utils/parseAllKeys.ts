@@ -11,6 +11,8 @@ async function parseAllKeys(dir: string) {
 	async function walk(d: string) {
 		const entries = await fsPromises.readdir(d, { withFileTypes: true });
 		for (const entry of entries) {
+			if (entry.isDirectory() && path.basename(d) === "items" && entry.name === "custom")
+				continue;
 			const full = path.join(d, entry.name);
 			if (entry.isDirectory()) await walk(full);
 			else if (entry.isFile() && full.endsWith(".json")) files.push(full);

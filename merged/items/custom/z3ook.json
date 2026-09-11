@@ -1,0 +1,38 @@
+{
+  "id": "z3ook",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.scheme.hp_mod_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть схемы #2: «Мечта»",
+      "en": "Schematic #2: Dream",
+      "es": "Esquema n.° 2: Sueño",
+      "fr": "Partie de schéma 2 : Rêve",
+      "ko": "도면 #2: 꿈"
+    }
+  },
+  "color": "DEFAULT",
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.scheme.hp_mod_2.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "С низким шансом при обнаружении сигналов на Обочине и далее",
+          "en": "Has a low chance to be found when you detect signals at the Roadside and beyond",
+          "es": "Baja probabilidad al detectar señales en la Cuneta y más allá",
+          "fr": "Faible chance lorsque vous détectez des signaux à la Bordure et au-delà",
+          "ko": "로드사이드와 그 너머에서 감지되는 신호들로부터 획득 가능"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "5535q",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.clan.resource3.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик с продовольствием",
+      "en": "Crate of Rations",
+      "es": "Caja de raciones",
+      "fr": "Caisse de rations",
+      "ko": "보급 식량 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.clan.resource3.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "С аирдропов группировок",
+          "en": "From faction airdrops",
+          "es": "En entregas aéreas de clan",
+          "fr": "Via les largages de clan",
+          "ko": "클랜의 공수 보급품들로부터 획득 가능"
+        }
+      }
+    }
+  ]
+}
