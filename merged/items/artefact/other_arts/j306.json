@@ -418,6 +418,87 @@
           "ko": "기묘한 아티팩트로, 외형 요소가 전차의 일부를 연상시킨다. \\n\\n제7연구소 연구진은 아티팩트 생성 과정이 어떤 방식으로 이루어지는지에 대해 계속해서 분석 중이지만, 현재 가장 유력한 가설은 과거 해당 아노말리 지대에 존재했을 수 있는 물질 구조의 형태를 복제하는 과정이라는 것이다.\\n\\n한편, 이 아티팩트를 구성하는 물질은 금속과는 전혀 다른 성질을 띠며, 오히려 미세한 결정들이 응집된 집합체에 가깝다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.29,
+          "max": 0.35,
+          "formatted": {
+            "value": {
+              "en": "[0.29%; 0.35%]",
+              "ru": "[0.29%; 0.35%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.425,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "en": "[0.425%; 0.5%]",
+              "ru": "[0.425%; 0.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Resistance to electricity",
+              "es": "Resistencia a la electricidad",
+              "fr": "Résistance à l'électricité"
+            }
+          },
+          "min": 10.05,
+          "max": 12.2,
+          "formatted": {
+            "value": {
+              "en": "[10.05%; 12.2%]",
+              "ru": "[10.05%; 12.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

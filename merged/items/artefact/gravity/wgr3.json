@@ -322,9 +322,9 @@
             "args": {},
             "lines": {
               "ru": "Восстановление выносливости",
-              "en": "Stamina regeneration",
-              "es": "Regeneración de aguante",
-              "fr": "Régénération de l'endurance",
+              "en": "Stamina recovery",
+              "es": "Recuperación de aguante",
+              "fr": "Récupération d'endurance",
               "ko": "스태미나 재생"
             }
           },
@@ -430,30 +430,6 @@
           "type": "range",
           "name": {
             "type": "translation",
-            "key": "stalker.artefact_properties.factor.regeneration_bonus",
-            "args": {},
-            "lines": {
-              "ru": "Регенерация здоровья",
-              "en": "Health regeneration",
-              "es": "Regeneración de salud",
-              "fr": "Régénération de la santé"
-            }
-          },
-          "min": 0.68,
-          "max": 0.8,
-          "formatted": {
-            "value": {
-              "en": "[0.68%; 0.8%]",
-              "ru": "[0.68%; 0.8%]"
-            },
-            "nameColor": "53C353",
-            "valueColor": "53C353"
-          }
-        },
-        {
-          "type": "range",
-          "name": {
-            "type": "translation",
             "key": "stalker.artefact_properties.factor.health_bonus",
             "args": {},
             "lines": {
@@ -463,12 +439,36 @@
               "fr": "Vitalité"
             }
           },
-          "min": 0.85,
-          "max": 1,
+          "min": 0.34,
+          "max": 0.4,
           "formatted": {
             "value": {
-              "en": "[0.85%; 1%]",
-              "ru": "[0.85%; 1%]"
+              "en": "[0.34%; 0.4%]",
+              "ru": "[0.34%; 0.4%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.51,
+          "max": 0.6,
+          "formatted": {
+            "value": {
+              "en": "[0.51%; 0.6%]",
+              "ru": "[0.51%; 0.6%]"
             },
             "nameColor": "53C353",
             "valueColor": "53C353"
