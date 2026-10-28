@@ -2732,14 +2732,14 @@
             },
             "value": {
               "type": "translation",
-              "key": "stalker.tooltip.armor_artefact.hitbox_size.small",
+              "key": "stalker.tooltip.armor_artefact.hitbox_size.medium",
               "args": {},
               "lines": {
-                "ru": "Маленькие",
-                "en": "Small",
-                "es": "Pequeño",
-                "fr": "Petit",
-                "ko": "소형"
+                "ru": "Средние",
+                "en": "Medium",
+                "es": "Medianos",
+                "fr": "Moyen",
+                "ko": "중형"
               }
             }
           },
@@ -61994,6 +61994,33 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "stalker.artefact_properties.factor.speed_modifier",
+              "args": {},
+              "lines": {
+                "ru": "Скорость передвижения",
+                "en": "Movement speed",
+                "es": "Velocidad de movimiento",
+                "fr": "Vitesse de déplacement",
+                "ko": "이동 속도"
+              }
+            },
+            "value": 1,
+            "formatted": {
+              "value": {
+                "ru": "+1%",
+                "en": "+1%",
+                "es": "+1 %",
+                "fr": "+1%",
+                "ko": "+1%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "stalker.artefact_properties.factor.max_weight_bonus",
               "args": {},
               "lines": {
@@ -62004,14 +62031,14 @@
                 "ko": "최대 운반 무게"
               }
             },
-            "value": 5,
+            "value": 7,
             "formatted": {
               "value": {
-                "ru": "+5",
-                "en": "+5",
-                "es": "+5",
-                "fr": "+5",
-                "ko": "+5"
+                "ru": "+7",
+                "en": "+7",
+                "es": "+7",
+                "fr": "+7",
+                "ko": "+7"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -62041,22 +62068,22 @@
               }
             },
             "value": [
-              39,
-              40.27226,
-              41.544514,
-              42.81677,
-              44.089024,
-              47.905792,
-              49.814175,
-              51.722557,
-              53.630943,
-              55.53933,
-              61.137253,
-              63.93622,
-              66.73518,
-              69.53414,
-              72.33311,
-              78
+              42,
+              43.299694,
+              44.599392,
+              45.899082,
+              47.19878,
+              51.097862,
+              53.04741,
+              54.996952,
+              56.94649,
+              58.896034,
+              64.61469,
+              67.47402,
+              70.33336,
+              73.19268,
+              76.05201,
+              84
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -62318,14 +62345,14 @@
                 "ko": "출혈 보호"
               }
             },
-            "value": 35,
+            "value": 25,
             "formatted": {
               "value": {
-                "ru": "35%",
-                "en": "35%",
-                "es": "35 %",
-                "fr": "35%",
-                "ko": "35%"
+                "ru": "25%",
+                "en": "25%",
+                "es": "25 %",
+                "fr": "25%",
+                "ko": "25%"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
@@ -78996,6 +79023,33 @@
             "type": "numeric",
             "name": {
               "type": "translation",
+              "key": "stalker.artefact_properties.factor.speed_modifier",
+              "args": {},
+              "lines": {
+                "ru": "Скорость передвижения",
+                "en": "Movement speed",
+                "es": "Velocidad de movimiento",
+                "fr": "Vitesse de déplacement",
+                "ko": "이동 속도"
+              }
+            },
+            "value": 1,
+            "formatted": {
+              "value": {
+                "ru": "+1%",
+                "en": "+1%",
+                "es": "+1 %",
+                "fr": "+1%",
+                "ko": "+1%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
               "key": "stalker.artefact_properties.factor.max_weight_bonus",
               "args": {},
               "lines": {
@@ -79006,14 +79060,14 @@
                 "ko": "최대 운반 무게"
               }
             },
-            "value": 5,
+            "value": 7,
             "formatted": {
               "value": {
-                "ru": "+5",
-                "en": "+5",
-                "es": "+5",
-                "fr": "+5",
-                "ko": "+5"
+                "ru": "+7",
+                "en": "+7",
+                "es": "+7",
+                "fr": "+7",
+                "ko": "+7"
               },
               "nameColor": "53C353",
               "valueColor": "53C353"
@@ -79043,22 +79097,22 @@
               }
             },
             "value": [
-              39,
-              40.27226,
-              41.544514,
-              42.81677,
-              44.089024,
-              47.905792,
-              49.814175,
-              51.722557,
-              53.630943,
-              55.53933,
-              61.137253,
-              63.93622,
-              66.73518,
-              69.53414,
-              72.33311,
-              78
+              42,
+              43.299694,
+              44.599392,
+              45.899082,
+              47.19878,
+              51.097862,
+              53.04741,
+              54.996952,
+              56.94649,
+              58.896034,
+              64.61469,
+              67.47402,
+              70.33336,
+              73.19268,
+              76.05201,
+              84
             ],
             "nameColor": "838383",
             "valueColor": "EEEEEE"
@@ -79320,14 +79374,14 @@
                 "ko": "출혈 보호"
               }
             },
-            "value": 35,
+            "value": 25,
             "formatted": {
               "value": {
-                "ru": "35%",
-                "en": "35%",
-                "es": "35 %",
-                "fr": "35%",
-                "ko": "35%"
+                "ru": "25%",
+                "en": "25%",
+                "es": "25 %",
+                "fr": "25%",
+                "ko": "25%"
               },
               "nameColor": "838383",
               "valueColor": "EEEEEE"
