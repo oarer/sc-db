@@ -182,4 +182,19 @@ export interface Item {
 	color: InfoColor
 	status?: BindStateObj
 	infoBlocks: InfoBlock[]
+	model?: {
+		model?: string
+		diff?: string
+		nrm?: string
+		emi?: string
+		spek?: string
+	}
+	menu_anim_heavy?: boolean
+	menu_anim_class?: 'primary' | 'pistol' | 'melee'
+	menu_attach?: {
+		bone: string
+		position: [number, number, number]
+		rotation: [number, number, number]
+		scale: [number, number, number]
+	}
 }
