@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { additionalStatsParse } from "./additionalStatsParse";
 import { applyModelsMap } from "./applyModelsMap";
+import { applyRenderMetadata } from "./applyRenderMetadata";
 import {
 	CLEAN_ORIG,
 	FORCE_PULL,
@@ -126,6 +127,7 @@ async function main(): Promise<boolean> {
 			});
 
 			await applyModelsMap();
+			await applyRenderMetadata();
 
 			return true;
 		}
@@ -263,6 +265,7 @@ async function main(): Promise<boolean> {
 				});
 
 				await applyModelsMap();
+				await applyRenderMetadata();
 			}
 		}
 	} catch (e: any) {
