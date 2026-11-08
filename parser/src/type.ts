@@ -165,11 +165,18 @@ export type DamageInfoBlock = {
 	maxDistance: number
 } & FormattedBlock
 
+export type GroupedInfoBlock = {
+	type: 'grouped'
+	compact: InfoBlock[]
+	detailed: InfoBlock[]
+}
+
 export type InfoBlock =
 	| TextInfoBlock
 	| ElementListBlock
 	| DamageInfoBlock
 	| AddStatBlock
+	| GroupedInfoBlock
 
 export type BindStateObj = {
 	state: BindState

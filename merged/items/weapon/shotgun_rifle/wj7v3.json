@@ -254,7 +254,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -267,18 +267,26 @@
                   "ko": "피해량"
                 }
               },
-              "value": 223.5,
-              "formatted": {
-                "value": {
-                  "ru": "223,5 ед",
-                  "en": "223.5 unit(s)",
-                  "es": "223,5 unidad(es)",
-                  "fr": "223,5 unité(s)",
-                  "ko": "223.5 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                223.5,
+                225.20352,
+                226.90701,
+                228.61052,
+                230.31401,
+                235.42455,
+                237.9798,
+                240.53506,
+                243.09032,
+                245.64557,
+                253.14099,
+                256.8887,
+                260.63644,
+                264.38416,
+                268.13187,
+                279.375
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",
@@ -652,7 +660,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -665,18 +673,26 @@
                   "ko": "피해량"
                 }
               },
-              "value": 223.5,
-              "formatted": {
-                "value": {
-                  "ru": "223,5 ед",
-                  "en": "223.5 unit(s)",
-                  "es": "223,5 unidad(es)",
-                  "fr": "223,5 unité(s)",
-                  "ko": "223.5 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                223.5,
+                225.20352,
+                226.90701,
+                228.61052,
+                230.31401,
+                235.42455,
+                237.9798,
+                240.53506,
+                243.09032,
+                245.64557,
+                253.14099,
+                256.8887,
+                260.63644,
+                264.38416,
+                268.13187,
+                279.375
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",

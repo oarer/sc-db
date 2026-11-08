@@ -255,7 +255,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -268,18 +268,26 @@
                   "ko": "피해량"
                 }
               },
-              "value": 205.4,
-              "formatted": {
-                "value": {
-                  "ru": "205,4 ед",
-                  "en": "205.4 unit(s)",
-                  "es": "205,4 unidad(es)",
-                  "fr": "205,4 unité(s)",
-                  "ko": "205.4 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                205.4,
+                206.96556,
+                208.53108,
+                210.09665,
+                211.66219,
+                216.35884,
+                218.70715,
+                221.0555,
+                223.40381,
+                225.75212,
+                232.64053,
+                236.08475,
+                239.52896,
+                242.97318,
+                246.41737,
+                256.75
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",
@@ -653,7 +661,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -666,18 +674,26 @@
                   "ko": "피해량"
                 }
               },
-              "value": 205.4,
-              "formatted": {
-                "value": {
-                  "ru": "205,4 ед",
-                  "en": "205.4 unit(s)",
-                  "es": "205,4 unidad(es)",
-                  "fr": "205,4 unité(s)",
-                  "ko": "205.4 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                205.4,
+                206.96556,
+                208.53108,
+                210.09665,
+                211.66219,
+                216.35884,
+                218.70715,
+                221.0555,
+                223.40381,
+                225.75212,
+                232.64053,
+                236.08475,
+                239.52896,
+                242.97318,
+                246.41737,
+                256.75
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",

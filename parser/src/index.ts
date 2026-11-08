@@ -118,7 +118,7 @@ async function main(): Promise<boolean> {
 						"items/misc/knydy.json",
 						"items/misc/qjl6j.json",
 						"items/misc/j5pd0.json",
-						"litems/misc/ywdk.json",
+						"items/misc/lywdk.json",
 						"items/misc/m0wdy.json",
 						"items/misc/n46d1.json",
 					],

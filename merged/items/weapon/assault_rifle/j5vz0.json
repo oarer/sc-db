@@ -283,7 +283,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -296,18 +296,26 @@
                   "ko": "피해량"
                 }
               },
-              "value": 40.8,
-              "formatted": {
-                "value": {
-                  "ru": "40,8 ед",
-                  "en": "40.8 unit(s)",
-                  "es": "40,8 unidad(es)",
-                  "fr": "40,8 unité(s)",
-                  "ko": "40.8 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                40.8,
+                41.110977,
+                41.42195,
+                41.73293,
+                42.0439,
+                42.97683,
+                43.44329,
+                43.909756,
+                44.37622,
+                44.84268,
+                46.21097,
+                46.89512,
+                47.57927,
+                48.263416,
+                48.94756,
+                51
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",
@@ -681,7 +689,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -694,18 +702,26 @@
                   "ko": "피해량"
                 }
               },
-              "value": 40.8,
-              "formatted": {
-                "value": {
-                  "ru": "40,8 ед",
-                  "en": "40.8 unit(s)",
-                  "es": "40,8 unidad(es)",
-                  "fr": "40,8 unité(s)",
-                  "ko": "40.8 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                40.8,
+                41.110977,
+                41.42195,
+                41.73293,
+                42.0439,
+                42.97683,
+                43.44329,
+                43.909756,
+                44.37622,
+                44.84268,
+                46.21097,
+                46.89512,
+                47.57927,
+                48.263416,
+                48.94756,
+                51
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",

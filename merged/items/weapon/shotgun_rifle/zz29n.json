@@ -254,7 +254,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -267,18 +267,26 @@
                   "ko": "피해량"
                 }
               },
-              "value": 151.8,
-              "formatted": {
-                "value": {
-                  "ru": "151,8 ед",
-                  "en": "151.8 unit(s)",
-                  "es": "151,8 unidad(es)",
-                  "fr": "151,8 unité(s)",
-                  "ko": "151.8 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                151.8,
+                152.95702,
+                154.11403,
+                155.27104,
+                156.42805,
+                159.8991,
+                161.6346,
+                163.37013,
+                165.10565,
+                166.84116,
+                171.932,
+                174.47743,
+                177.02287,
+                179.56831,
+                182.11372,
+                189.75
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",
@@ -625,7 +633,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -638,18 +646,26 @@
                   "ko": "피해량"
                 }
               },
-              "value": 151.8,
-              "formatted": {
-                "value": {
-                  "ru": "151,8 ед",
-                  "en": "151.8 unit(s)",
-                  "es": "151,8 unidad(es)",
-                  "fr": "151,8 unité(s)",
-                  "ko": "151.8 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                151.8,
+                152.95702,
+                154.11403,
+                155.27104,
+                156.42805,
+                159.8991,
+                161.6346,
+                163.37013,
+                165.10565,
+                166.84116,
+                171.932,
+                174.47743,
+                177.02287,
+                179.56831,
+                182.11372,
+                189.75
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",

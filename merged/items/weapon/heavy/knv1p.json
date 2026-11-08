@@ -283,7 +283,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -296,18 +296,11 @@
                   "ko": "피해량"
                 }
               },
-              "value": 13,
-              "formatted": {
-                "value": {
-                  "ru": "13 ед",
-                  "en": "13 unit(s)",
-                  "es": "13 unidad(es)",
-                  "fr": "13 unité(s)",
-                  "ko": "13 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                13
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",
@@ -653,7 +646,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -666,18 +659,11 @@
                   "ko": "피해량"
                 }
               },
-              "value": 13,
-              "formatted": {
-                "value": {
-                  "ru": "13 ед",
-                  "en": "13 unit(s)",
-                  "es": "13 unidad(es)",
-                  "fr": "13 unité(s)",
-                  "ko": "13 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                13
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",

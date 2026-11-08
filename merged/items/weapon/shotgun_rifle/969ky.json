@@ -254,7 +254,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -267,18 +267,26 @@
                   "ko": "피해량"
                 }
               },
-              "value": 105.4,
-              "formatted": {
-                "value": {
-                  "ru": "105,4 ед",
-                  "en": "105.4 unit(s)",
-                  "es": "105,4 unidad(es)",
-                  "fr": "105,4 unité(s)",
-                  "ko": "105.4 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                105.4,
+                106.20336,
+                107.00671,
+                107.81007,
+                108.61341,
+                111.023476,
+                112.22851,
+                113.43354,
+                114.63857,
+                115.8436,
+                119.37835,
+                121.14573,
+                122.91312,
+                124.6805,
+                126.44787,
+                131.75
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",
@@ -652,7 +660,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -665,18 +673,26 @@
                   "ko": "피해량"
                 }
               },
-              "value": 105.4,
-              "formatted": {
-                "value": {
-                  "ru": "105,4 ед",
-                  "en": "105.4 unit(s)",
-                  "es": "105,4 unidad(es)",
-                  "fr": "105,4 unité(s)",
-                  "ko": "105.4 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                105.4,
+                106.20336,
+                107.00671,
+                107.81007,
+                108.61341,
+                111.023476,
+                112.22851,
+                113.43354,
+                114.63857,
+                115.8436,
+                119.37835,
+                121.14573,
+                122.91312,
+                124.6805,
+                126.44787,
+                131.75
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",

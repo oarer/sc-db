@@ -254,7 +254,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -267,18 +267,26 @@
                   "ko": "피해량"
                 }
               },
-              "value": 219.1,
-              "formatted": {
-                "value": {
-                  "ru": "219,1 ед",
-                  "en": "219.1 unit(s)",
-                  "es": "219,1 unidad(es)",
-                  "fr": "219,1 unité(s)",
-                  "ko": "219.1 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                219.1,
+                220.76999,
+                222.43994,
+                224.10992,
+                225.77988,
+                230.7898,
+                233.29474,
+                235.79971,
+                238.30466,
+                240.8096,
+                248.15746,
+                251.8314,
+                255.50534,
+                259.1793,
+                262.8532,
+                273.875
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",
@@ -652,7 +660,7 @@
               }
             },
             {
-              "type": "numeric",
+              "type": "numericVariants",
               "name": {
                 "type": "translation",
                 "key": "core.tooltip.stat_name.damage_type.direct",
@@ -665,18 +673,26 @@
                   "ko": "피해량"
                 }
               },
-              "value": 219.1,
-              "formatted": {
-                "value": {
-                  "ru": "219,1 ед",
-                  "en": "219.1 unit(s)",
-                  "es": "219,1 unidad(es)",
-                  "fr": "219,1 unité(s)",
-                  "ko": "219.1 유닛"
-                },
-                "nameColor": "838383",
-                "valueColor": "EEEEEE"
-              }
+              "value": [
+                219.1,
+                220.76999,
+                222.43994,
+                224.10992,
+                225.77988,
+                230.7898,
+                233.29474,
+                235.79971,
+                238.30466,
+                240.8096,
+                248.15746,
+                251.8314,
+                255.50534,
+                259.1793,
+                262.8532,
+                273.875
+              ],
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
             },
             {
               "type": "numeric",

@@ -1,7 +1,30 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { InfoElement, Item } from "./type";
+import type {
+	AddStatBlock,
+	ElementListBlock,
+	InfoBlock,
+	InfoElement,
+	Item,
+} from "./type";
 import { readJSONSync, scanFolder, writeJSONSync } from "./utils/fsUtils";
+
+type BlockWithElements = ElementListBlock | AddStatBlock;
+
+function blocksWithElements(
+	blocks: InfoBlock[] | undefined,
+): BlockWithElements[] {
+	const out: BlockWithElements[] = [];
+	for (const block of blocks ?? []) {
+		if (block.type === "grouped") {
+			out.push(...blocksWithElements(block.compact));
+			out.push(...blocksWithElements(block.detailed));
+			continue;
+		}
+		if ("elements" in block && block.elements) out.push(block);
+	}
+	return out;
+}
 
 export function ensureNumberArray(v: unknown): number[] {
 	if (Array.isArray(v))
@@ -32,8 +55,7 @@ export function uniqPairs(pairs: [number, number][]) {
 export function findNumericElementsByKey(item: Item, key: string) {
 	const results: { el: InfoElement; blockIdx: number; elIdx: number }[] = [];
 	if (!item.infoBlocks) return results;
-	item.infoBlocks.forEach((block, bi) => {
-		if (!("elements" in block) || !block.elements) return;
+	blocksWithElements(item.infoBlocks).forEach((block) => {
 		block.elements.forEach((el, ei) => {
 			if (
 				el?.type === "numeric" ||
@@ -41,7 +63,7 @@ export function findNumericElementsByKey(item: Item, key: string) {
 				el?.type === "range"
 			) {
 				if (el.name?.type === "translation" && el.name.key === key) {
-					results.push({ el, blockIdx: bi, elIdx: ei });
+					results.push({ el, blockIdx: 0, elIdx: ei });
 				}
 			}
 		});
@@ -57,13 +79,11 @@ export function collectFromVariant(variant: Item, matchKey: string) {
 	if (!variant.infoBlocks)
 		return { numToLocStr, nameColor, valueColor, rangePairs };
 
-	for (const block of variant.infoBlocks) {
-		if (!("title" in block) || !("elements" in block)) continue;
+	for (const block of blocksWithElements(variant.infoBlocks)) {
 		const isUpgradeStatsBlock =
 			block.title?.type === "translation" &&
 			block.title.key === "stalker.tooltip.armor_artefact.info.upgrade_stats";
 
-		if (!block.elements) continue;
 		for (const el of block.elements) {
 			if (
 				(el.type === "numeric" ||
