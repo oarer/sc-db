@@ -26,6 +26,7 @@ import { processListing } from "./listingFormate";
 import { LISTING_GROUPS } from "./listingGroups";
 import { runMerge } from "./merge";
 import { mergeFolderGroupsToListing } from "./mergeItems";
+import { applyUnoTranslations } from "./unoTranslations";
 import { applyUnoWeaponStats } from "./unoWeaponStats";
 import { applyUpgradeStats } from "./upgradeStats";
 import {
@@ -58,6 +59,7 @@ async function main(): Promise<boolean> {
 			await addCustomToListing(OUT_DIR);
 			await copyIconsToOutput();
 			await additionalStatsParse(OUT_DIR, useProxy);
+			await applyUnoTranslations(OUT_DIR);
 			await applyUnoWeaponStats(OUT_DIR);
 			await applyUpgradeStats(OUT_DIR);
 			await mergeFolderGroupsToListing(OUT_DIR, {

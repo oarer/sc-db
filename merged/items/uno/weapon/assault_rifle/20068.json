@@ -193,7 +193,13 @@
             "type": "translation",
             "key": "weapon.stat_factor.spread",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread",
+              "es": "Dispersión",
+              "fr": "Dispersion",
+              "ko": "탄퍼짐"
+            }
           },
           "value": 0.37,
           "formatted": {
@@ -214,7 +220,13 @@
             "type": "translation",
             "key": "weapon.stat_factor.hip_spread",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l'aveugle",
+              "ko": "비조준 사격 탄퍼짐"
+            }
           },
           "value": 3,
           "formatted": {
@@ -235,7 +247,13 @@
             "type": "translation",
             "key": "weapon.stat_factor.horizontal_recoil",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Гориз. отдача",
+              "en": "Horizontal recoil",
+              "es": "Retroceso horizontal",
+              "fr": "Recul horizontal",
+              "ko": "수평 반동"
+            }
           },
           "value": 0.13,
           "formatted": {
@@ -256,7 +274,13 @@
             "type": "translation",
             "key": "weapon.stat_factor.recoil",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Верт. отдача",
+              "en": "Vertical recoil",
+              "es": "Retroceso vertical",
+              "fr": "Recul vertical",
+              "ko": "수직 반동"
+            }
           },
           "value": 0.51,
           "formatted": {
@@ -277,7 +301,13 @@
             "type": "translation",
             "key": "weapon.stat_factor.recoil_gain",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Нарастание отдачи",
+              "en": "Recoil buildup",
+              "es": "Acumulación de retroceso",
+              "fr": "Accumulation du recul",
+              "ko": "반동 누적"
+            }
           },
           "value": 0.05,
           "formatted": {
@@ -298,7 +328,13 @@
             "type": "translation",
             "key": "weapon.stat_factor.draw_time",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Скорость доставания",
+              "en": "Draw speed",
+              "es": "Velocidad de desenfundado",
+              "fr": "Vitesse de dégainage",
+              "ko": "무기 꺼내기 속도"
+            }
           },
           "value": 18,
           "formatted": {
@@ -319,7 +355,13 @@
             "type": "translation",
             "key": "weapon.stat_factor.aim_switch_time",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Скорость прицеливания",
+              "en": "Aim speed",
+              "es": "Velocidad de apuntado",
+              "fr": "Vitesse de visée",
+              "ko": "조준 속도"
+            }
           },
           "value": 4,
           "formatted": {
@@ -340,7 +382,13 @@
             "type": "translation",
             "key": "weapon.stat_factor.equipped_speed_modifier",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Скорость",
+              "en": "Speed",
+              "es": "Velocidad",
+              "fr": "Vitesse",
+              "ko": "속도"
+            }
           },
           "value": -2,
           "formatted": {
@@ -361,7 +409,13 @@
             "type": "translation",
             "key": "weapon.stat_factor.damage",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage",
+              "es": "Daño",
+              "fr": "Dégâts",
+              "ko": "피해량"
+            }
           },
           "value": 39.2,
           "formatted": {
@@ -382,7 +436,13 @@
             "type": "translation",
             "key": "weapon.stat_factor.damage_distant",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Минимальный урон",
+              "en": "Minimum Damage",
+              "es": "Daño mínimo",
+              "fr": "Dégâts minimum",
+              "ko": "최소 피해"
+            }
           },
           "value": 34.3,
           "formatted": {
@@ -403,7 +463,13 @@
             "type": "translation",
             "key": "weapon.stat_factor.wiggle",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Покачивание",
+              "en": "Sway",
+              "es": "Oscilación",
+              "fr": "Balancement",
+              "ko": "흔들림"
+            }
           },
           "value": 0.5,
           "formatted": {
@@ -424,7 +490,13 @@
             "type": "translation",
             "key": "weapon.stat_factor.durability",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
           },
           "value": 11100,
           "formatted": {
@@ -535,7 +607,13 @@
             "type": "translation",
             "key": "weapon.tooltip.magazine.info.reload_time",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Перезарядка",
+              "en": "Reload",
+              "es": "Recarga",
+              "fr": "Rechargement",
+              "ko": "재장전"
+            }
           },
           "value": 3,
           "formatted": {
@@ -556,7 +634,13 @@
             "type": "translation",
             "key": "weapon.tooltip.magazine.info.reload_time_tactical",
             "args": {},
-            "lines": {}
+            "lines": {
+              "ru": "Тактическая перезарядка",
+              "en": "Tactical reload",
+              "es": "Recarga táctica",
+              "fr": "Rechargement tactique",
+              "ko": "전술 재장전"
+            }
           },
           "value": 2.5,
           "formatted": {

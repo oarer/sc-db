@@ -175,13 +175,20 @@ function buildDamageBlock(
 	let wcfg: WeaponUpgradeConfig | undefined = un
 		? weaponConfigs[un]
 		: undefined;
-	if (!wcfg && un) {
-		for (const candidate of candidateBaseKeys(`${un}.name`)) {
-			const candUn = candidate.replace(/\.name$/, "");
-			if (weaponConfigs[candUn]) {
-				wcfg = weaponConfigs[candUn];
-				break;
+	if (un) {
+		// Longest-prefix match over config keys ("wpn.ptrd_encaged" ->
+		// "wpn.ptrd") fills fields missing from the item's own config.
+		let best: WeaponUpgradeConfig | undefined;
+		let bestLen = 0;
+		for (const key of Object.keys(weaponConfigs)) {
+			if (key === un || key.length <= bestLen) continue;
+			if (un.startsWith(`${key}_`)) {
+				best = weaponConfigs[key];
+				bestLen = key.length;
 			}
+		}
+		if (best) {
+			wcfg = wcfg ? { ...best, ...wcfg } : best;
 		}
 	}
 	const startDamage = getNumeric(item, KEY_DIRECT);
