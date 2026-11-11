@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.9mm",
+            "args": {},
+            "lines": {
+              "ru": "9 мм",
+              "en": "9 mm",
+              "es": "9 mm",
+              "fr": "9 mm",
+              "ko": "9 mm"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -758,7 +794,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -771,7 +807,24 @@
               "ko": "피해량"
             }
           },
-          "value": 19.5,
+          "value": [
+            19.5,
+            19.648628,
+            19.797256,
+            19.945884,
+            20.094512,
+            20.540396,
+            20.763338,
+            20.98628,
+            21.209223,
+            21.432165,
+            22.086128,
+            22.41311,
+            22.740091,
+            23.067073,
+            23.394055,
+            24.375
+          ],
           "formatted": {
             "value": {
               "ru": "19,5 ед",
@@ -1209,6 +1262,14 @@
           "ko": "오래된 기관단총이다. 이전에는 비어드이라는 전설적인 스토커가 소유했던 무기다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 19.5,
+      "damageDecreaseStart": 16,
+      "endDamage": 12.5,
+      "damageDecreaseEnd": 50,
+      "maxDistance": 115
     }
   ]
 }

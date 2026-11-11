@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.762mm",
+            "args": {},
+            "lines": {
+              "ru": "7.62",
+              "en": "7.62",
+              "es": "7,62",
+              "fr": "7,62 mm",
+              "ko": "7.62 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -758,7 +794,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -771,7 +807,24 @@
               "ko": "피해량"
             }
           },
-          "value": 59.8,
+          "value": [
+            59.8,
+            60.255793,
+            60.711585,
+            61.167378,
+            61.623171,
+            62.990549,
+            63.674238,
+            64.357927,
+            65.041616,
+            65.725305,
+            67.730793,
+            68.733537,
+            69.73628,
+            70.739024,
+            71.741768,
+            74.75
+          ],
           "formatted": {
             "value": {
               "ru": "59,8 ед",
@@ -1109,6 +1162,14 @@
           }
         }
       ]
+    },
+    {
+      "type": "damage",
+      "startDamage": 59.8,
+      "damageDecreaseStart": 40,
+      "endDamage": 59.8,
+      "damageDecreaseEnd": 80,
+      "maxDistance": 175
     }
   ]
 }

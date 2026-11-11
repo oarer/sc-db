@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.ptrd.display_ammo_types",
+            "args": {},
+            "lines": {
+              "ru": "Крупный калибр",
+              "en": "High Caliber",
+              "es": "Gran calibre",
+              "fr": "Gros calibre",
+              "ko": "대구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -710,7 +746,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -723,7 +759,24 @@
               "ko": "피해량"
             }
           },
-          "value": 400,
+          "value": [
+            400,
+            403.04878,
+            406.097561,
+            409.146341,
+            412.195122,
+            421.341463,
+            425.914634,
+            430.487805,
+            435.060976,
+            439.634146,
+            453.04878,
+            459.756098,
+            466.463415,
+            473.170732,
+            479.878049,
+            500
+          ],
           "formatted": {
             "value": {
               "ru": "400 ед",

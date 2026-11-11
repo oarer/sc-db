@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.939mm",
+            "args": {},
+            "lines": {
+              "ru": "9x39",
+              "en": "9x39",
+              "es": "9x39",
+              "fr": "9x39 mm",
+              "ko": "9x39 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -779,7 +815,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -792,7 +828,24 @@
               "ko": "피해량"
             }
           },
-          "value": 29.5,
+          "value": [
+            29.5,
+            29.724848,
+            29.949695,
+            30.174543,
+            30.39939,
+            31.073933,
+            31.411204,
+            31.748476,
+            32.085747,
+            32.423018,
+            33.412348,
+            33.907012,
+            34.401677,
+            34.896341,
+            35.391006,
+            36.875
+          ],
           "formatted": {
             "value": {
               "ru": "29,5 ед",
@@ -1230,6 +1283,14 @@
           "ko": "쿠투조프의 군사 업무를 보조한 대가로 돌격 소총을 하나 받았다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 29.5,
+      "damageDecreaseStart": 8,
+      "endDamage": 19.8,
+      "damageDecreaseEnd": 42,
+      "maxDistance": 120
     }
   ]
 }

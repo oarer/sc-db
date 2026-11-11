@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.9mm",
+            "args": {},
+            "lines": {
+              "ru": "9 мм",
+              "en": "9 mm",
+              "es": "9 mm",
+              "fr": "9 mm",
+              "ko": "9 mm"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -776,7 +812,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -789,7 +825,24 @@
               "ko": "피해량"
             }
           },
-          "value": 29.7,
+          "value": [
+            29.7,
+            29.926372,
+            30.152744,
+            30.379116,
+            30.605488,
+            31.284604,
+            31.624162,
+            31.96372,
+            32.303277,
+            32.642835,
+            33.638872,
+            34.13689,
+            34.634909,
+            35.132927,
+            35.630945,
+            37.125
+          ],
           "formatted": {
             "value": {
               "ru": "29,7 ед",
@@ -1227,6 +1280,14 @@
           "ko": "파트너의 주문 제작으로 개조된 기관단총. 볼품없어 보이지만, 상태는 정말 좋다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 29.7,
+      "damageDecreaseStart": 16,
+      "endDamage": 19.3,
+      "damageDecreaseEnd": 52,
+      "maxDistance": 130
     }
   ]
 }

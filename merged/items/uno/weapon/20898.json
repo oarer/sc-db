@@ -722,7 +722,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -735,7 +735,24 @@
               "ko": "피해량"
             }
           },
-          "value": 188,
+          "value": [
+            188,
+            189.432927,
+            190.865854,
+            192.29878,
+            193.731707,
+            198.030488,
+            200.179878,
+            202.329268,
+            204.478659,
+            206.628049,
+            212.932927,
+            216.085366,
+            219.237805,
+            222.390244,
+            225.542683,
+            235
+          ],
           "formatted": {
             "value": {
               "ru": "188 ед",
@@ -1127,6 +1144,14 @@
           }
         }
       ]
+    },
+    {
+      "type": "damage",
+      "startDamage": 188,
+      "damageDecreaseStart": 20,
+      "endDamage": 188,
+      "damageDecreaseEnd": 60,
+      "maxDistance": 230
     }
   ]
 }

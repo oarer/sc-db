@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.9mm",
+            "args": {},
+            "lines": {
+              "ru": "9 мм",
+              "en": "9 mm",
+              "es": "9 mm",
+              "fr": "9 mm",
+              "ko": "9 mm"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -695,7 +731,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -708,7 +744,24 @@
               "ko": "피해량"
             }
           },
-          "value": 38.4,
+          "value": [
+            38.4,
+            38.692683,
+            38.985366,
+            39.278049,
+            39.570732,
+            40.44878,
+            40.887805,
+            41.326829,
+            41.765854,
+            42.204878,
+            43.492683,
+            44.136585,
+            44.780488,
+            45.42439,
+            46.068293,
+            48
+          ],
           "formatted": {
             "value": {
               "ru": "38,4 ед",
@@ -1092,6 +1145,14 @@
           "ko": "한때 파라가 소유했던 TT 권총. 슬라이드에는 스마트한 자를 섬긴 공로에 대한 감사 문구가 새겨져 있다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 38.4,
+      "damageDecreaseStart": 5,
+      "endDamage": 25.9,
+      "damageDecreaseEnd": 36,
+      "maxDistance": 58
     }
   ]
 }

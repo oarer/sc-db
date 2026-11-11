@@ -731,7 +731,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -744,7 +744,24 @@
               "ko": "피해량"
             }
           },
-          "value": 53.6,
+          "value": [
+            53.6,
+            54.008537,
+            54.417073,
+            54.82561,
+            55.234146,
+            56.459756,
+            57.072561,
+            57.685366,
+            58.298171,
+            58.910976,
+            60.708537,
+            61.607317,
+            62.506098,
+            63.404878,
+            64.303659,
+            67
+          ],
           "formatted": {
             "value": {
               "ru": "53,6 ед",
@@ -1128,6 +1145,14 @@
           "ko": "PB를 닮은 괴상한 권총. 희한하게도, 목표물과의 거리가 멀어질수록 더 위력적이다. 어떻게 만들어졌는지는 아무도 모른다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 53.6,
+      "damageDecreaseStart": 5,
+      "endDamage": 71.4,
+      "damageDecreaseEnd": 25,
+      "maxDistance": 125
     }
   ]
 }

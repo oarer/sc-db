@@ -242,7 +242,7 @@
       },
       "elements": [
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
@@ -255,7 +255,24 @@
               "ko": "총탄 저항율"
             }
           },
-          "value": 200,
+          "value": [
+            200,
+            202.743902,
+            205.487805,
+            208.231707,
+            210.97561,
+            219.207317,
+            223.323171,
+            227.439024,
+            231.554878,
+            235.670732,
+            247.743902,
+            253.780488,
+            259.817073,
+            265.853659,
+            271.890244,
+            290
+          ],
           "formatted": {
             "value": {
               "ru": "200",

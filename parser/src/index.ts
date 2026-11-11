@@ -22,10 +22,12 @@ import {
 	notifySync,
 } from "./github";
 import { copyIconsToOutput } from "./icons";
-import { LISTING_GROUPS } from "./listingGroups";
 import { processListing } from "./listingFormate";
+import { LISTING_GROUPS } from "./listingGroups";
 import { runMerge } from "./merge";
 import { mergeFolderGroupsToListing } from "./mergeItems";
+import { applyUnoWeaponStats } from "./unoWeaponStats";
+import { applyUpgradeStats } from "./upgradeStats";
 import {
 	hashFile,
 	loadSavedSha,
@@ -56,6 +58,8 @@ async function main(): Promise<boolean> {
 			await addCustomToListing(OUT_DIR);
 			await copyIconsToOutput();
 			await additionalStatsParse(OUT_DIR, useProxy);
+			await applyUnoWeaponStats(OUT_DIR);
+			await applyUpgradeStats(OUT_DIR);
 			await mergeFolderGroupsToListing(OUT_DIR, {
 				groups: LISTING_GROUPS,
 				asArrayFor: ["consumables", "containers"],

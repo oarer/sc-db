@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.12k",
+            "args": {},
+            "lines": {
+              "ru": "12 калибр",
+              "en": "12 caliber",
+              "es": "calibre 12",
+              "fr": "Calibre 12",
+              "ko": "12 게이지"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -716,7 +752,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -729,7 +765,24 @@
               "ko": "피해량"
             }
           },
-          "value": 173,
+          "value": [
+            173,
+            174.318598,
+            175.637195,
+            176.955793,
+            178.27439,
+            182.230183,
+            184.208079,
+            186.185976,
+            188.163872,
+            190.141768,
+            195.943598,
+            198.844512,
+            201.745427,
+            204.646341,
+            207.547256,
+            216.25
+          ],
           "formatted": {
             "value": {
               "ru": "173 ед",
@@ -1086,6 +1139,14 @@
           "ko": "페르보마이스키 공장에 있는 악마를 물리치고 받은 모스버그. 사냥꾼의 길을 포기할 마음이 없다면, 꽤 쓸모 있을 것이다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 173,
+      "damageDecreaseStart": 8,
+      "endDamage": 60.6,
+      "damageDecreaseEnd": 56,
+      "maxDistance": 75
     }
   ]
 }

@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.9mm",
+            "args": {},
+            "lines": {
+              "ru": "9 мм",
+              "en": "9 mm",
+              "es": "9 mm",
+              "fr": "9 mm",
+              "ko": "9 mm"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -731,7 +767,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -744,7 +780,24 @@
               "ko": "피해량"
             }
           },
-          "value": 71.4,
+          "value": [
+            71.4,
+            71.944207,
+            72.488415,
+            73.032622,
+            73.576829,
+            75.209451,
+            76.025762,
+            76.842073,
+            77.658384,
+            78.474695,
+            80.869207,
+            82.066463,
+            83.26372,
+            84.460976,
+            85.658232,
+            89.25
+          ],
           "formatted": {
             "value": {
               "ru": "71,4 ед",
@@ -1155,6 +1208,14 @@
           "ko": "사막을 날아다니던 독수리가 심심했는지, 개울을 향해 날아갔다..."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 71.4,
+      "damageDecreaseStart": 6,
+      "endDamage": 41.8,
+      "damageDecreaseEnd": 38,
+      "maxDistance": 80
     }
   ]
 }

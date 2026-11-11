@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.9mm",
+            "args": {},
+            "lines": {
+              "ru": "9 мм",
+              "en": "9 mm",
+              "es": "9 mm",
+              "fr": "9 mm",
+              "ko": "9 mm"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -695,7 +731,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -708,7 +744,24 @@
               "ko": "피해량"
             }
           },
-          "value": 38.4,
+          "value": [
+            38.4,
+            38.692683,
+            38.985366,
+            39.278049,
+            39.570732,
+            40.44878,
+            40.887805,
+            41.326829,
+            41.765854,
+            42.204878,
+            43.492683,
+            44.136585,
+            44.780488,
+            45.42439,
+            46.068293,
+            48
+          ],
           "formatted": {
             "value": {
               "ru": "38,4 ед",
@@ -1092,6 +1145,14 @@
           "ko": "놀랍게도, 온갖 고사를 다 지내고... 특정한 달의 주기가 찾아오면... 백 퍼센트 장담은 못 합니다만, 이 구닥다리 TT가 발사된다고 합니다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 38.4,
+      "damageDecreaseStart": 5,
+      "endDamage": 25.9,
+      "damageDecreaseEnd": 36,
+      "maxDistance": 58
     }
   ]
 }

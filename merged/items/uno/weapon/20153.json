@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.762mm",
+            "args": {},
+            "lines": {
+              "ru": "7.62",
+              "en": "7.62",
+              "es": "7,62",
+              "fr": "7,62 mm",
+              "ko": "7.62 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -758,7 +794,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -771,7 +807,24 @@
               "ko": "피해량"
             }
           },
-          "value": 32.1,
+          "value": [
+            32.1,
+            32.344665,
+            32.589329,
+            32.833994,
+            33.078659,
+            33.812652,
+            34.179649,
+            34.546646,
+            34.913643,
+            35.28064,
+            36.357165,
+            36.895427,
+            37.433689,
+            37.971951,
+            38.510213,
+            40.125
+          ],
           "formatted": {
             "value": {
               "ru": "32,1 ед",
@@ -1155,6 +1208,14 @@
           "ko": "히스트릭스에게 받은 기관총. 산전수전 다 겪은 스토커인 그는 이 기관총을 훌륭하게 관리해 왔으며, 사용이 편하도록 적절한 보조 장치들을 달아 놓았다. 하나라도 빠지면 골치가 아플 것 같다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 32.1,
+      "damageDecreaseStart": 24,
+      "endDamage": 26.5,
+      "damageDecreaseEnd": 78,
+      "maxDistance": 170
     }
   ]
 }

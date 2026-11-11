@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.762mm",
+            "args": {},
+            "lines": {
+              "ru": "7.62",
+              "en": "7.62",
+              "es": "7,62",
+              "fr": "7,62 mm",
+              "ko": "7.62 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -779,7 +815,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -792,7 +828,24 @@
               "ko": "피해량"
             }
           },
-          "value": 42.1,
+          "value": [
+            42.1,
+            42.420884,
+            42.741768,
+            43.062652,
+            43.383537,
+            44.346189,
+            44.827515,
+            45.308841,
+            45.790168,
+            46.271494,
+            47.683384,
+            48.389329,
+            49.095274,
+            49.80122,
+            50.507165,
+            52.625
+          ],
           "formatted": {
             "value": {
               "ru": "42,1 ед",
@@ -1257,6 +1310,14 @@
           "ko": "커버넌트의 지도자인 대주교는 공로가 있는 사람에게만 이 개조 반자동 소총을 지급한다. 오직 공로가 있는 자만이 이 대주교의 채찍으로 적들을 후려칠 수 있다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 42.1,
+      "damageDecreaseStart": 40,
+      "endDamage": 42.1,
+      "damageDecreaseEnd": 80,
+      "maxDistance": 175
     }
   ]
 }

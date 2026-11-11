@@ -695,7 +695,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -708,7 +708,24 @@
               "ko": "피해량"
             }
           },
-          "value": 58.5,
+          "value": [
+            58.5,
+            58.945884,
+            59.391768,
+            59.837652,
+            60.283537,
+            61.621189,
+            62.290015,
+            62.958841,
+            63.627668,
+            64.296494,
+            66.258384,
+            67.239329,
+            68.220274,
+            69.20122,
+            70.182165,
+            73.125
+          ],
           "formatted": {
             "value": {
               "ru": "58,5 ед",
@@ -1119,6 +1136,14 @@
           "ko": "이 권총은 슈추치코에게 그가 한때 속삭임의 노예였던 시절의 기억을 떠올리게한다. 아마도 이걸 손에서 놓게 되어 속이 후련했을지도..."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 58.5,
+      "damageDecreaseStart": 5,
+      "endDamage": 36.2,
+      "damageDecreaseEnd": 32,
+      "maxDistance": 64
     }
   ]
 }

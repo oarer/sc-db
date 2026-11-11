@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.556mm",
+            "args": {},
+            "lines": {
+              "ru": "5.56",
+              "en": "5.56",
+              "es": "5,56",
+              "fr": "5,56 mm",
+              "ko": "5.56 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -743,7 +779,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -756,7 +792,24 @@
               "ko": "피해량"
             }
           },
-          "value": 30.7,
+          "value": [
+            30.7,
+            30.933994,
+            31.167988,
+            31.401982,
+            31.635976,
+            32.337957,
+            32.688948,
+            33.039939,
+            33.39093,
+            33.741921,
+            34.771494,
+            35.28628,
+            35.801067,
+            36.315854,
+            36.83064,
+            38.375
+          ],
           "formatted": {
             "value": {
               "ru": "30,7 ед",
@@ -1167,6 +1220,14 @@
           "ko": "속삭임의 은닉품에서 획득한 SIG. 값비싼 모듈, 번쩍이는 도색, 흠잡을 데 없는 외관을 보니,\\n광신도들의 희생양은 북쪽으로 너무 깊숙이 발을 들인 신참 스토커였던 모양입니다. 이게 다 구역의 운명이니, 어쩌겠습니까?"
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 30.7,
+      "damageDecreaseStart": 28,
+      "endDamage": 27.2,
+      "damageDecreaseEnd": 80,
+      "maxDistance": 165
     }
   ]
 }

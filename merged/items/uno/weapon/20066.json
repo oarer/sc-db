@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.9mm",
+            "args": {},
+            "lines": {
+              "ru": "9 мм",
+              "en": "9 mm",
+              "es": "9 mm",
+              "fr": "9 mm",
+              "ko": "9 mm"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -758,7 +794,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -771,7 +807,24 @@
               "ko": "피해량"
             }
           },
-          "value": 22.8,
+          "value": [
+            22.8,
+            22.97378,
+            23.147561,
+            23.321341,
+            23.495122,
+            24.016463,
+            24.277134,
+            24.537805,
+            24.798476,
+            25.059146,
+            25.82378,
+            26.206098,
+            26.588415,
+            26.970732,
+            27.353049,
+            28.5
+          ],
           "formatted": {
             "value": {
               "ru": "22,8 ед",
@@ -1209,6 +1262,14 @@
           "ko": "카플란이 죽고 나서, 그의 동료였던 클레버에게 남은 건 망자의 기관단총 하나뿐이었다. 클레버는 죽은 친구의 마지막 소원을 이뤄주어 감사하다며, 이 총을 보답으로 넘겼다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 22.8,
+      "damageDecreaseStart": 16,
+      "endDamage": 15.2,
+      "damageDecreaseEnd": 50,
+      "maxDistance": 115
     }
   ]
 }

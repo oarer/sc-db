@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.556mm",
+            "args": {},
+            "lines": {
+              "ru": "5.56",
+              "en": "5.56",
+              "es": "5,56",
+              "fr": "5,56 mm",
+              "ko": "5.56 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -743,7 +779,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -756,7 +792,24 @@
               "ko": "피해량"
             }
           },
-          "value": 1,
+          "value": [
+            1,
+            1.007622,
+            1.015244,
+            1.022866,
+            1.030488,
+            1.053354,
+            1.064787,
+            1.07622,
+            1.087652,
+            1.099085,
+            1.132622,
+            1.14939,
+            1.166159,
+            1.182927,
+            1.199695,
+            1.25
+          ],
           "formatted": {
             "value": {
               "ru": "1 ед",
@@ -1167,6 +1220,14 @@
           "ko": "에어소프트 SIG SG 550 풀 메탈 돌격 소총은 막강한 화력과 공격성을 결합한 모델들 중 하나이다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 1,
+      "damageDecreaseStart": 10,
+      "endDamage": 0.2,
+      "damageDecreaseEnd": 40,
+      "maxDistance": 100
     }
   ]
 }

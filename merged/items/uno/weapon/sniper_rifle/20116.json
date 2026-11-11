@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.gauss.display_ammo_types",
+            "args": {},
+            "lines": {
+              "ru": "Аккумулятор",
+              "en": "Battery",
+              "es": "Batería",
+              "fr": "Batterie",
+              "ko": "배터리"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -737,7 +773,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -750,7 +786,24 @@
               "ko": "피해량"
             }
           },
-          "value": 30000,
+          "value": [
+            30000,
+            30228.658537,
+            30457.317073,
+            30685.97561,
+            30914.634146,
+            31600.609756,
+            31943.597561,
+            32286.585366,
+            32629.573171,
+            32972.560976,
+            33978.658537,
+            34481.707317,
+            34984.756098,
+            35487.804878,
+            35990.853659,
+            37500
+          ],
           "formatted": {
             "value": {
               "ru": "30000 ед",
@@ -1161,6 +1214,14 @@
           "ko": "뭐라고? 나한텐 그런 물건 처음부터 있던 적도 없어! 엘브루스를 손에 넣는 게 저 괴물을 구하는 것보다 더 쉽겠다!"
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 30000,
+      "damageDecreaseStart": 200,
+      "endDamage": 30000,
+      "damageDecreaseEnd": 200,
+      "maxDistance": 250
     }
   ]
 }

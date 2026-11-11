@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.12k",
+            "args": {},
+            "lines": {
+              "ru": "12 калибр",
+              "en": "12 caliber",
+              "es": "calibre 12",
+              "fr": "Calibre 12",
+              "ko": "12 게이지"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -680,7 +716,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -693,7 +729,24 @@
               "ko": "피해량"
             }
           },
-          "value": 148,
+          "value": [
+            148,
+            149.128049,
+            150.256098,
+            151.384146,
+            152.512195,
+            155.896341,
+            157.588415,
+            159.280488,
+            160.972561,
+            162.664634,
+            167.628049,
+            170.109756,
+            172.591463,
+            175.073171,
+            177.554878,
+            185
+          ],
           "formatted": {
             "value": {
               "ru": "148 ед",
@@ -1050,6 +1103,14 @@
           "ko": "멋쟁이는 교활한 인간이었다. 물론 이 총을 쓰지 못할 이유는 되지 않지."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 148,
+      "damageDecreaseStart": 7,
+      "endDamage": 66.6,
+      "damageDecreaseEnd": 52,
+      "maxDistance": 80
     }
   ]
 }

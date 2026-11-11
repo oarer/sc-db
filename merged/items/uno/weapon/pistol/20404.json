@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.9mm",
+            "args": {},
+            "lines": {
+              "ru": "9 мм",
+              "en": "9 mm",
+              "es": "9 mm",
+              "fr": "9 mm",
+              "ko": "9 mm"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -689,7 +725,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -702,7 +738,24 @@
               "ko": "피해량"
             }
           },
-          "value": 84,
+          "value": [
+            84,
+            84.640244,
+            85.280488,
+            85.920732,
+            86.560976,
+            88.481707,
+            89.442073,
+            90.402439,
+            91.362805,
+            92.323171,
+            95.140244,
+            96.54878,
+            97.957317,
+            99.365854,
+            100.77439,
+            105
+          ],
           "formatted": {
             "value": {
               "ru": "84 ед",
@@ -1113,6 +1166,14 @@
           "ko": "무게감은 좋은 거다. 무게감은 곧 신뢰니까. 특히 현지 장인이 장전 시스템을 전부 뜯어고쳐서, 이미 충분히 흉악한 옛날 무기를 단 한 발의 굉음만으로도 상황을 정리할 수 있는 진짜 머스킷 같은 괴물로 만들어놨을 때는 더 그렇다.\\n\\n이 리볼버가 어떻게 9mm 탄을 쏘는지는 여전히 미스터리다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 84,
+      "damageDecreaseStart": 5,
+      "endDamage": 65,
+      "damageDecreaseEnd": 30,
+      "maxDistance": 80
     }
   ]
 }

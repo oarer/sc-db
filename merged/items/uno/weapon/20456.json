@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.9mm",
+            "args": {},
+            "lines": {
+              "ru": "9 мм",
+              "en": "9 mm",
+              "es": "9 mm",
+              "fr": "9 mm",
+              "ko": "9 mm"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -695,7 +731,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -708,7 +744,24 @@
               "ko": "피해량"
             }
           },
-          "value": 46,
+          "value": [
+            46,
+            46.35061,
+            46.70122,
+            47.051829,
+            47.402439,
+            48.454268,
+            48.980183,
+            49.506098,
+            50.032012,
+            50.557927,
+            52.10061,
+            52.871951,
+            53.643293,
+            54.414634,
+            55.185976,
+            57.5
+          ],
           "formatted": {
             "value": {
               "ru": "46 ед",
@@ -1119,6 +1172,14 @@
           "ko": "서리 전사들을 임시로 이끄는 도브르냐가 준 선물입니다. 혹한 속에서 나타난 괴물들과의 힘겨운 전투 끝에 손에 넣은 권총이다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 46,
+      "damageDecreaseStart": 6,
+      "endDamage": 28.1,
+      "damageDecreaseEnd": 36,
+      "maxDistance": 62
     }
   ]
 }

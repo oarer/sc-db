@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.12k",
+            "args": {},
+            "lines": {
+              "ru": "12 калибр",
+              "en": "12 caliber",
+              "es": "calibre 12",
+              "fr": "Calibre 12",
+              "ko": "12 게이지"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -230,7 +266,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -243,7 +279,24 @@
               "ko": "피해량"
             }
           },
-          "value": 150,
+          "value": [
+            150,
+            151.143293,
+            152.286585,
+            153.429878,
+            154.573171,
+            158.003049,
+            159.717988,
+            161.432927,
+            163.147866,
+            164.862805,
+            169.893293,
+            172.408537,
+            174.92378,
+            177.439024,
+            179.954268,
+            187.5
+          ],
           "formatted": {
             "value": {
               "ru": "150 ед",
@@ -357,6 +410,14 @@
           "ko": "숙련된 사냥꾼의 손에 있었던, 강선 없는 산탄총. 구역의 유명한 장인 여럿이 이 무기에 손을 댔지만, 의견이 엇갈렸는지 각자 다른 방식으로 개량했다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 150,
+      "damageDecreaseStart": 8,
+      "endDamage": 45,
+      "damageDecreaseEnd": 55,
+      "maxDistance": 75
     }
   ]
 }

@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.545mm",
+            "args": {},
+            "lines": {
+              "ru": "5.45",
+              "en": "5.45",
+              "es": "5,45",
+              "fr": "5,45 mm",
+              "ko": "5.45 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -779,7 +815,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -792,7 +828,24 @@
               "ko": "피해량"
             }
           },
-          "value": 26,
+          "value": [
+            26,
+            26.198171,
+            26.396341,
+            26.594512,
+            26.792683,
+            27.387195,
+            27.684451,
+            27.981707,
+            28.278963,
+            28.57622,
+            29.448171,
+            29.884146,
+            30.320122,
+            30.756098,
+            31.192073,
+            32.5
+          ],
           "formatted": {
             "value": {
               "ru": "26 ед",
@@ -1184,6 +1237,14 @@
           }
         }
       ]
+    },
+    {
+      "type": "damage",
+      "startDamage": 26,
+      "damageDecreaseStart": 18,
+      "endDamage": 18.8,
+      "damageDecreaseEnd": 72,
+      "maxDistance": 140
     }
   ]
 }

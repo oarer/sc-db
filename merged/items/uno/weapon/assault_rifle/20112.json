@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.556mm",
+            "args": {},
+            "lines": {
+              "ru": "5.56",
+              "en": "5.56",
+              "es": "5,56",
+              "fr": "5,56 mm",
+              "ko": "5.56 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -779,7 +815,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -792,7 +828,24 @@
               "ko": "피해량"
             }
           },
-          "value": 19.4,
+          "value": [
+            19.4,
+            19.547866,
+            19.695732,
+            19.843598,
+            19.991463,
+            20.435061,
+            20.65686,
+            20.878659,
+            21.100457,
+            21.322256,
+            21.972866,
+            22.298171,
+            22.623476,
+            22.94878,
+            23.274085,
+            24.25
+          ],
           "formatted": {
             "value": {
               "ru": "19,4 ед",
@@ -1184,6 +1237,14 @@
           }
         }
       ]
+    },
+    {
+      "type": "damage",
+      "startDamage": 19.4,
+      "damageDecreaseStart": 20,
+      "endDamage": 14.6,
+      "damageDecreaseEnd": 76,
+      "maxDistance": 150
     }
   ]
 }

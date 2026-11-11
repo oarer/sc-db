@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.flamethrower.display_ammo_types",
+            "args": {},
+            "lines": {
+              "ru": "Горючая смесь",
+              "en": "Flammable Mixture",
+              "es": "Mezcla inflamable",
+              "fr": "Mixture Inflammable",
+              "ko": "인화성 혼합물"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -1047,6 +1083,14 @@
           "ko": "체르노빌 금지 구역 내에서 벌어지는 습격에 투입되는 NBCP 병사들이 사용하는 개량형 화염방사기. 먼 거리에서 대규모로 모여 있는 돌연변이를 제거하고 이들의 생태계와 소굴을 없애도록 개발되었다. 봉쇄를 목적으로 실린더가 혼합물 출력 튜브와 영구 용접되어 있다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 30,
+      "damageDecreaseStart": 1,
+      "endDamage": 21,
+      "damageDecreaseEnd": 10,
+      "maxDistance": 30
     }
   ]
 }

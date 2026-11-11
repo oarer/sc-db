@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.9mm",
+            "args": {},
+            "lines": {
+              "ru": "9 мм",
+              "en": "9 mm",
+              "es": "9 mm",
+              "fr": "9 mm",
+              "ko": "9 mm"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -695,7 +731,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -708,7 +744,24 @@
               "ko": "피해량"
             }
           },
-          "value": 51.8,
+          "value": [
+            51.8,
+            52.194817,
+            52.589634,
+            52.984451,
+            53.379268,
+            54.56372,
+            55.155945,
+            55.748171,
+            56.340396,
+            56.932622,
+            58.669817,
+            59.538415,
+            60.407012,
+            61.27561,
+            62.144207,
+            64.75
+          ],
           "formatted": {
             "value": {
               "ru": "51,8 ед",
@@ -1119,6 +1172,14 @@
           "ko": "샤먼의 측근이자 밴디트인 코제먀카가 축복자 공동체를 위해 이 총기를 기부했다. 코제먀카는 자신의 베레타가 축복자들의 편에 선 이들에게 든든한 동반자가 되어주기를 바라고 있다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 51.8,
+      "damageDecreaseStart": 6,
+      "endDamage": 33.9,
+      "damageDecreaseEnd": 36,
+      "maxDistance": 60
     }
   ]
 }

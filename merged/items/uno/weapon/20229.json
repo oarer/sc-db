@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.762mm",
+            "args": {},
+            "lines": {
+              "ru": "7.62",
+              "en": "7.62",
+              "es": "7,62",
+              "fr": "7,62 mm",
+              "ko": "7.62 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -203,7 +239,7 @@
       },
       "elements": [
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -216,7 +252,24 @@
               "ko": "피해량"
             }
           },
-          "value": 91.1,
+          "value": [
+            91.1,
+            91.79436,
+            92.48872,
+            93.183079,
+            93.877439,
+            95.960518,
+            97.002058,
+            98.043598,
+            99.085137,
+            100.126677,
+            103.18186,
+            104.709451,
+            106.237043,
+            107.764634,
+            109.292226,
+            113.875
+          ],
           "formatted": {
             "value": {
               "ru": "91,1 ед",
@@ -276,6 +329,14 @@
           "ko": "모신의 소총을 개조한 이 모델은 샤먼이 직접 자신의 입맛에 맞게 손본 무기이다. 샤먼의 동료들은 이걸 농담 삼아 [붐스틱]이라 불렀다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 91.1,
+      "damageDecreaseStart": 20,
+      "endDamage": 91.1,
+      "damageDecreaseEnd": 60,
+      "maxDistance": 170
     }
   ]
 }

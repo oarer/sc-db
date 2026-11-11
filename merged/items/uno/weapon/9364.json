@@ -695,7 +695,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -708,7 +708,24 @@
               "ko": "피해량"
             }
           },
-          "value": 81,
+          "value": [
+            81,
+            81.617378,
+            82.234756,
+            82.852134,
+            83.469512,
+            85.321646,
+            86.247713,
+            87.17378,
+            88.099848,
+            89.025915,
+            91.742378,
+            93.10061,
+            94.458841,
+            95.817073,
+            97.175305,
+            101.25
+          ],
           "formatted": {
             "value": {
               "ru": "81 ед",
@@ -1119,6 +1136,14 @@
           "ko": "필은 그를 다정하게 몽둥이라고 부른다. 이유는 잘 모르겠지만, 총구 반대편에는 있고 싶지 않다..."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 81,
+      "damageDecreaseStart": 100,
+      "endDamage": 1,
+      "damageDecreaseEnd": 100,
+      "maxDistance": 100
     }
   ]
 }

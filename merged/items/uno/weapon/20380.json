@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.12k",
+            "args": {},
+            "lines": {
+              "ru": "12 калибр",
+              "en": "12 caliber",
+              "es": "calibre 12",
+              "fr": "Calibre 12",
+              "ko": "12 게이지"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -203,7 +239,7 @@
       },
       "elements": [
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -216,7 +252,24 @@
               "ko": "피해량"
             }
           },
-          "value": 155,
+          "value": [
+            155,
+            156.181402,
+            157.362805,
+            158.544207,
+            159.72561,
+            163.269817,
+            165.041921,
+            166.814024,
+            168.586128,
+            170.358232,
+            175.556402,
+            178.155488,
+            180.754573,
+            183.353659,
+            185.952744,
+            193.75
+          ],
           "formatted": {
             "value": {
               "ru": "155 ед",
@@ -276,6 +329,14 @@
           "ko": "숲속에서 위장하기 좋은 색으로 칠해진 MP-153. 가이드 레일과 조준경이 총신 확장부에 단단히 결합되어 있다. 리시버에 [@생일 축하해, 아들!] 이라는 글귀가 적혀있다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 155,
+      "damageDecreaseStart": 8,
+      "endDamage": 46.6,
+      "damageDecreaseEnd": 54,
+      "maxDistance": 75
     }
   ]
 }

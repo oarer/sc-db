@@ -1082,6 +1082,14 @@
           }
         }
       ]
+    },
+    {
+      "type": "damage",
+      "startDamage": 300,
+      "damageDecreaseStart": 1,
+      "endDamage": 300,
+      "damageDecreaseEnd": 10,
+      "maxDistance": 13
     }
   ]
 }

@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.762mm",
+            "args": {},
+            "lines": {
+              "ru": "7.62",
+              "en": "7.62",
+              "es": "7,62",
+              "fr": "7,62 mm",
+              "ko": "7.62 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -743,7 +779,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -756,7 +792,24 @@
               "ko": "피해량"
             }
           },
-          "value": 32.6,
+          "value": [
+            32.6,
+            32.848476,
+            33.096951,
+            33.345427,
+            33.593902,
+            34.339329,
+            34.712043,
+            35.084756,
+            35.45747,
+            35.830183,
+            36.923476,
+            37.470122,
+            38.016768,
+            38.563415,
+            39.110061,
+            40.75
+          ],
           "formatted": {
             "value": {
               "ru": "32,6 ед",
@@ -1167,6 +1220,14 @@
           "ko": "AK-103을 개조해서 만든 이 소총은, 샤먼이 하사한 특별한 선물이다. 보통, 축복 받은 자들을 푸른 구체로 이끌 수 있는 영웅을 시커라고 부른다. 물론, 시커에게 완전무장은 필수불가결하다. 축복 받은 자들의 앞길을 가로막는 장애물들 때문..."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 32.6,
+      "damageDecreaseStart": 20,
+      "endDamage": 23.9,
+      "damageDecreaseEnd": 76,
+      "maxDistance": 155
     }
   ]
 }

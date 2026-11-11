@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.545mm",
+            "args": {},
+            "lines": {
+              "ru": "5.45",
+              "en": "5.45",
+              "es": "5,45",
+              "fr": "5,45 mm",
+              "ko": "5.45 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -779,7 +815,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -792,7 +828,24 @@
               "ko": "피해량"
             }
           },
-          "value": 20.2,
+          "value": [
+            20.2,
+            20.353963,
+            20.507927,
+            20.66189,
+            20.815854,
+            21.277744,
+            21.508689,
+            21.739634,
+            21.970579,
+            22.201524,
+            22.878963,
+            23.217683,
+            23.556402,
+            23.895122,
+            24.233841,
+            25.25
+          ],
           "formatted": {
             "value": {
               "ru": "20,2 ед",
@@ -1203,6 +1256,14 @@
           "ko": "바르그가 준 총기이다. 레이저 표적지시기와 도트 조준기가 달려 있어, 신입에게 딱맞는 돌격 소총이다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 20.2,
+      "damageDecreaseStart": 17,
+      "endDamage": 14.6,
+      "damageDecreaseEnd": 71,
+      "maxDistance": 120
     }
   ]
 }

@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.556mm",
+            "args": {},
+            "lines": {
+              "ru": "5.56",
+              "en": "5.56",
+              "es": "5,56",
+              "fr": "5,56 mm",
+              "ko": "5.56 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -779,7 +815,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -792,7 +828,24 @@
               "ko": "피해량"
             }
           },
-          "value": 39.2,
+          "value": [
+            39.2,
+            39.49878,
+            39.797561,
+            40.096341,
+            40.395122,
+            41.291463,
+            41.739634,
+            42.187805,
+            42.635976,
+            43.084146,
+            44.39878,
+            45.056098,
+            45.713415,
+            46.370732,
+            47.028049,
+            49
+          ],
           "formatted": {
             "value": {
               "ru": "39,2 ед",
@@ -1203,6 +1256,14 @@
           "ko": "원 주인이 정체불명의 문양들로 뒤덮어두었다. 무슨 의미인지는 알 수 없다. 그저 추측만 가능할 뿐이다..."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 39.2,
+      "damageDecreaseStart": 28,
+      "endDamage": 34.3,
+      "damageDecreaseEnd": 80,
+      "maxDistance": 165
     }
   ]
 }

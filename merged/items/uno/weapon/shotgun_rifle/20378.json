@@ -716,7 +716,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -729,7 +729,24 @@
               "ko": "피해량"
             }
           },
-          "value": 117.5,
+          "value": [
+            117.5,
+            118.395579,
+            119.291159,
+            120.186738,
+            121.082317,
+            123.769055,
+            125.112424,
+            126.455793,
+            127.799162,
+            129.14253,
+            133.083079,
+            135.053354,
+            137.023628,
+            138.993902,
+            140.964177,
+            146.875
+          ],
           "formatted": {
             "value": {
               "ru": "117,5 ед",
@@ -1086,6 +1103,14 @@
           "ko": "뼈를 수집할 때 낫은 필요 없다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 117.5,
+      "damageDecreaseStart": 4,
+      "endDamage": 35.3,
+      "damageDecreaseEnd": 27,
+      "maxDistance": 75
     }
   ]
 }

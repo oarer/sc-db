@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.762mm",
+            "args": {},
+            "lines": {
+              "ru": "7.62",
+              "en": "7.62",
+              "es": "7,62",
+              "fr": "7,62 mm",
+              "ko": "7.62 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -743,7 +779,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -756,7 +792,24 @@
               "ko": "피해량"
             }
           },
-          "value": 42.1,
+          "value": [
+            42.1,
+            42.420884,
+            42.741768,
+            43.062652,
+            43.383537,
+            44.346189,
+            44.827515,
+            45.308841,
+            45.790168,
+            46.271494,
+            47.683384,
+            48.389329,
+            49.095274,
+            49.80122,
+            50.507165,
+            52.625
+          ],
           "formatted": {
             "value": {
               "ru": "42,1 ед",
@@ -1221,6 +1274,14 @@
           "ko": "프론티어를 이끄는 다비도프는, 어떤 무기든 오직 인류를 구역으로부터 지키는 데에만 쓰여야 한다고 믿었다. 이 개조 반자동 소총도 마찬가지. 하지만 결국 무기의 용도라는 건 사용자의 의지에 달려 있다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 42.1,
+      "damageDecreaseStart": 40,
+      "endDamage": 42.1,
+      "damageDecreaseEnd": 80,
+      "maxDistance": 175
     }
   ]
 }

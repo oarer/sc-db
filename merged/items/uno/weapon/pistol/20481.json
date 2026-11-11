@@ -731,7 +731,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -744,7 +744,24 @@
               "ko": "피해량"
             }
           },
-          "value": 29.5,
+          "value": [
+            29.5,
+            29.724848,
+            29.949695,
+            30.174543,
+            30.39939,
+            31.073933,
+            31.411204,
+            31.748476,
+            32.085747,
+            32.423018,
+            33.412348,
+            33.907012,
+            34.401677,
+            34.896341,
+            35.391006,
+            36.875
+          ],
           "formatted": {
             "value": {
               "ru": "29,5 ед",
@@ -1155,6 +1172,14 @@
           "ko": "오스트리아제 자동 권총으로, 군 및 경찰 특수부대용으로 제작되었다. 글록 18은 글록 17의 모든 장점을 계승했으며, 디자인 역시 거의 동일하다. 단발과 3점발 사격 모드를 모두 지원한다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 29.5,
+      "damageDecreaseStart": 5,
+      "endDamage": 22.3,
+      "damageDecreaseEnd": 34,
+      "maxDistance": 64
     }
   ]
 }

@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.762mm",
+            "args": {},
+            "lines": {
+              "ru": "7.62",
+              "en": "7.62",
+              "es": "7,62",
+              "fr": "7,62 mm",
+              "ko": "7.62 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -758,7 +794,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -771,7 +807,24 @@
               "ko": "피해량"
             }
           },
-          "value": 77.5,
+          "value": [
+            77.5,
+            78.090701,
+            78.681402,
+            79.272104,
+            79.862805,
+            81.634909,
+            82.52096,
+            83.407012,
+            84.293064,
+            85.179116,
+            87.778201,
+            89.077744,
+            90.377287,
+            91.676829,
+            92.976372,
+            96.875
+          ],
           "formatted": {
             "value": {
               "ru": "77,5 ед",
@@ -1128,6 +1181,14 @@
           "ko": "전설적인 총을 전설적인 수리공이 개량했다. 오랫동안 라이즈 그룹의 아티팩트로 사용되었다. 적어도 동전의 말에 따르면 말이다..."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 77.5,
+      "damageDecreaseStart": 40,
+      "endDamage": 77.5,
+      "damageDecreaseEnd": 80,
+      "maxDistance": 180
     }
   ]
 }

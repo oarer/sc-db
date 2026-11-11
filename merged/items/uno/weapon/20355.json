@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.12k",
+            "args": {},
+            "lines": {
+              "ru": "12 калибр",
+              "en": "12 caliber",
+              "es": "calibre 12",
+              "fr": "Calibre 12",
+              "ko": "12 게이지"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -716,7 +752,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -729,7 +765,24 @@
               "ko": "피해량"
             }
           },
-          "value": 198,
+          "value": [
+            198,
+            199.509146,
+            201.018293,
+            202.527439,
+            204.036585,
+            208.564024,
+            210.827744,
+            213.091463,
+            215.355183,
+            217.618902,
+            224.259146,
+            227.579268,
+            230.89939,
+            234.219512,
+            237.539634,
+            247.5
+          ],
           "formatted": {
             "value": {
               "ru": "198 ед",
@@ -1086,6 +1139,14 @@
           "ko": "할아버지가 애용하던 TOZ. 구역의 야생동물들을 사냥하기 위해 사용됐다. 숲속에서 위장하기 좋은 색으로 칠해져 있어서, 손잡이와 개머리판에 남겨진 온갖 긁힌 자국이나 찌그러진 흔적들도 별로 티가 나지 않는다. 레일과 신식 조준경이 장착되어 있다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 198,
+      "damageDecreaseStart": 8,
+      "endDamage": 89.1,
+      "damageDecreaseEnd": 53,
+      "maxDistance": 80
     }
   ]
 }

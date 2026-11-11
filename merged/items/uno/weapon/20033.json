@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.762mm",
+            "args": {},
+            "lines": {
+              "ru": "7.62",
+              "en": "7.62",
+              "es": "7,62",
+              "fr": "7,62 mm",
+              "ko": "7.62 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -743,7 +779,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -756,7 +792,24 @@
               "ko": "피해량"
             }
           },
-          "value": 29.3,
+          "value": [
+            29.3,
+            29.523323,
+            29.746646,
+            29.96997,
+            30.193293,
+            30.863262,
+            31.198247,
+            31.533232,
+            31.868216,
+            32.203201,
+            33.185823,
+            33.677134,
+            34.168445,
+            34.659756,
+            35.151067,
+            36.625
+          ],
           "formatted": {
             "value": {
               "ru": "29,3 ед",
@@ -1194,6 +1247,14 @@
           "ko": "광부들은 총이 아닌 그들의 발에 의지합니다. 하지만 정크맨 만은 예외라 할 수 있다. 바로 그가 이 AKM을 구역의 모두가 활용할 수 있는 강력한 무기로 개조한 사람이이 때문이다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 29.3,
+      "damageDecreaseStart": 18,
+      "endDamage": 22.9,
+      "damageDecreaseEnd": 72,
+      "maxDistance": 135
     }
   ]
 }

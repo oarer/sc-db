@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.ptrd.display_ammo_types",
+            "args": {},
+            "lines": {
+              "ru": "Крупный калибр",
+              "en": "High Caliber",
+              "es": "Gran calibre",
+              "fr": "Gros calibre",
+              "ko": "대구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -758,7 +794,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -771,7 +807,24 @@
               "ko": "피해량"
             }
           },
-          "value": 327,
+          "value": [
+            327,
+            329.492378,
+            331.984756,
+            334.477134,
+            336.969512,
+            344.446646,
+            348.185213,
+            351.92378,
+            355.662348,
+            359.400915,
+            370.367378,
+            375.85061,
+            381.333841,
+            386.817073,
+            392.300305,
+            408.75
+          ],
           "formatted": {
             "value": {
               "ru": "327 ед",
@@ -1155,6 +1208,14 @@
           "ko": "적어도 이걸 만들어낸 음침한 천재의 구상대로라면, 가장 평범한 PTRD-M처럼 작동해야 한다... 세상에, 이건 뭐지…"
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 327,
+      "damageDecreaseStart": 50,
+      "endDamage": 327,
+      "damageDecreaseEnd": 150,
+      "maxDistance": 250
     }
   ]
 }

@@ -758,7 +758,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -771,7 +771,24 @@
               "ko": "피해량"
             }
           },
-          "value": 500,
+          "value": [
+            500,
+            503.810976,
+            507.621951,
+            511.432927,
+            515.243902,
+            526.676829,
+            532.393293,
+            538.109756,
+            543.82622,
+            549.542683,
+            566.310976,
+            574.695122,
+            583.079268,
+            591.463415,
+            599.847561,
+            625
+          ],
           "formatted": {
             "value": {
               "ru": "500 ед",
@@ -1209,6 +1226,14 @@
           "ko": "열쇠 없는 자물쇠에는 두 개의 방법이 있다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 500,
+      "damageDecreaseStart": 8,
+      "endDamage": 11,
+      "damageDecreaseEnd": 40,
+      "maxDistance": 104
     }
   ]
 }

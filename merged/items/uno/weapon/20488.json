@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.9mm",
+            "args": {},
+            "lines": {
+              "ru": "9 мм",
+              "en": "9 mm",
+              "es": "9 mm",
+              "fr": "9 mm",
+              "ko": "9 mm"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -674,7 +710,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -687,7 +723,24 @@
               "ko": "피해량"
             }
           },
-          "value": 118.8,
+          "value": [
+            118.8,
+            119.705488,
+            120.610976,
+            121.516463,
+            122.421951,
+            125.138415,
+            126.496646,
+            127.854878,
+            129.21311,
+            130.571341,
+            134.555488,
+            136.547561,
+            138.539634,
+            140.531707,
+            142.52378,
+            148.5
+          ],
           "formatted": {
             "value": {
               "ru": "118,8 ед",
@@ -1098,6 +1151,14 @@
           "ko": "펌커 교수는 보랄 섬에서 보랄 네크로에너지를 이용한 불길한 실험을 진행하고 있었다. 이 무기에도 그 불길한 에너지가 쌓인 것 같다..."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 118.8,
+      "damageDecreaseStart": 4,
+      "endDamage": 75.9,
+      "damageDecreaseEnd": 36,
+      "maxDistance": 80
     }
   ]
 }

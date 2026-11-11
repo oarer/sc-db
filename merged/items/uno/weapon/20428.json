@@ -26,6 +26,42 @@
       },
       "elements": [
         {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.9mm",
+            "args": {},
+            "lines": {
+              "ru": "9 мм",
+              "en": "9 mm",
+              "es": "9 mm",
+              "fr": "9 mm",
+              "ko": "9 mm"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
           "type": "numeric",
           "name": {
             "type": "translation",
@@ -695,7 +731,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -708,7 +744,24 @@
               "ko": "피해량"
             }
           },
-          "value": 42,
+          "value": [
+            42,
+            42.320122,
+            42.640244,
+            42.960366,
+            43.280488,
+            44.240854,
+            44.721037,
+            45.20122,
+            45.681402,
+            46.161585,
+            47.570122,
+            48.27439,
+            48.978659,
+            49.682927,
+            50.387195,
+            52.5
+          ],
           "formatted": {
             "value": {
               "ru": "42 ед",
@@ -1119,6 +1172,14 @@
           "ko": "고정식 소음기가 부착된, 일반적인 월터 권총. 과연 몇 명의 밴디트를 처치했을까?"
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 42,
+      "damageDecreaseStart": 5,
+      "endDamage": 26.8,
+      "damageDecreaseEnd": 36,
+      "maxDistance": 58
     }
   ]
 }

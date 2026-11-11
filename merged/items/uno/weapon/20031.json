@@ -29,6 +29,42 @@
           "type": "key-value",
           "key": {
             "type": "translation",
+            "key": "weapon.tooltip.weapon.info.ammo_type",
+            "args": {},
+            "lines": {
+              "ru": "Тип боеприпасов",
+              "en": "Ammo type",
+              "es": "Tipo de munición",
+              "fr": "Type de munitions",
+              "ko": "탄약 종류"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "item.wpn.display_ammo_types.556mm",
+            "args": {},
+            "lines": {
+              "ru": "5.56",
+              "en": "5.56",
+              "es": "5,56",
+              "fr": "5,56 mm",
+              "ko": "5.56 구경"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
             "key": "core.tooltip.info.rank",
             "args": {},
             "lines": {
@@ -833,7 +869,7 @@
           }
         },
         {
-          "type": "numeric",
+          "type": "numericVariants",
           "name": {
             "type": "translation",
             "key": "core.tooltip.stat_name.damage_type.direct",
@@ -846,7 +882,24 @@
               "ko": "피해량"
             }
           },
-          "value": 27.7,
+          "value": [
+            27.7,
+            27.911128,
+            28.122256,
+            28.333384,
+            28.544512,
+            29.177896,
+            29.494588,
+            29.81128,
+            30.127973,
+            30.444665,
+            31.373628,
+            31.83811,
+            32.302591,
+            32.767073,
+            33.231555,
+            34.625
+          ],
           "formatted": {
             "value": {
               "ru": "27,7 ед",
@@ -1257,6 +1310,14 @@
           "ko": "L85A1의 개조 모델이다. 오직 한 사람을 위한 무기이다. 바랴그가 당신에게 감사를 표하기 위해, 이 무기에 아낌 없는 투자를 한것으로 보인다."
         }
       }
+    },
+    {
+      "type": "damage",
+      "startDamage": 27.7,
+      "damageDecreaseStart": 28,
+      "endDamage": 25.1,
+      "damageDecreaseEnd": 80,
+      "maxDistance": 125
     }
   ]
 }
