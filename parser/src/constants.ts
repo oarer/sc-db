@@ -13,7 +13,13 @@ export const GITHUB_TOKEN = process.env.GITHUB_TOKEN || "";
 
 export const UPDATE_COOLDOWN = 30 * 1000;
 
-export const PRESERVED_FILES: string[] = ["modules.json", "items/custom"];
+export const PRESERVED_FILES: string[] = [
+	"modules.json",
+	"items/custom",
+	"icons/custom",
+	"items/uno",
+	"icons/uno",
+];
 
 export const PROXY_CONFIG = {
 	protocol: "http",
