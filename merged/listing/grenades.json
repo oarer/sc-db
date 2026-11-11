@@ -1,0 +1,5828 @@
+{
+  "8001": {
+    "id": "8001",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.m381_ffa_smoke.name",
+      "args": {},
+      "lines": {
+        "ru": "Выстрел гранатометный «Завеса»",
+        "en": "Veil Grenade Round",
+        "es": "Disparo de lanzagranadas Velo",
+        "fr": "Tir du lance-grenades Voile",
+        "ko": "장막 유탄 발사체"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "8002": {
+    "id": "8002",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.m381_ffa_m84qd.name",
+      "args": {},
+      "lines": {
+        "ru": "Выстрел гранатометный «Искра»",
+        "en": "Spark Grenade Round",
+        "es": "Disparo de lanzagranadas Chispa",
+        "fr": "Tir du lance-grenades Étincelle",
+        "ko": "스파크 유탄 발사체"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "8003": {
+    "id": "8003",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.m381_ffa_napalm.name",
+      "args": {},
+      "lines": {
+        "ru": "Выстрел гранатометный «Напалм»",
+        "en": "Napalm Grenade Round",
+        "es": "Disparo de lanzagranadas Napalm",
+        "fr": "Tir au lance-grenades Napalm",
+        "ko": "네이팜 유탄 발사체"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "8006": {
+    "id": "8006",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.m381_ffa_heal.name",
+      "args": {},
+      "lines": {
+        "ru": "Выстрел гранатометный «Подорожник»",
+        "en": "Plantain Grenade Round",
+        "es": "Disparo de lanzagranadas Plantago",
+        "fr": "Tir au lance-grenades Plantain",
+        "ko": "플랜테인 유탄 발사체"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "8008": {
+    "id": "8008",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.m381_ffa_stinker.name",
+      "args": {},
+      "lines": {
+        "ru": "Выстрел гранатометный «Вонючка»",
+        "en": "Stinky Grenade Round",
+        "es": "Disparo de lanzagranadas Apestoso",
+        "fr": "Tir de lance-grenades Puantes",
+        "ko": "악취 유탄 발사체"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "9149": {
+    "id": "9149",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn.panzerfaust.name",
+      "args": {},
+      "lines": {
+        "ru": "Panzerfaust",
+        "en": "Panzerfaust",
+        "es": "Panzerfaust",
+        "fr": "Panzerfaust",
+        "ko": "Panzerfaust"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.wpn.panzerfaust.description",
+          "args": {},
+          "lines": {
+            "ru": "Немецкий одноразовый противотанковый гранатомет Второй мировой войны. Простое и мощное оружие пехоты, созданное для борьбы с бронетехникой на ближней дистанции.",
+            "en": "A German disposable anti-tank grenade launcher from World War II. A simple yet powerful infantry weapon designed to fight armored vehicles at close range.",
+            "es": "Lanzagranadas antitanque alemán de un solo uso de la Segunda Guerra Mundial. Un arma de infantería simple y potente, creada para combatir vehículos blindados a corta distancia.",
+            "fr": "Lance-roquettes antichar jetable allemand de la Seconde Guerre mondiale. Une arme d'infanterie simple et puissante, conçue pour combattre les véhicules blindés à courte distance.",
+            "ko": "제2차 세계 대전 독일 일회용 대전차 로켓포. 근거리에서 장갑차와 싸우기 위해 만들어진 간단하고 강력한 보병 무기."
+          }
+        }
+      }
+    ]
+  },
+  "9171": {
+    "id": "9171",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.stielhandgranate_reich.name",
+      "args": {},
+      "lines": {
+        "ru": "Stielhandgranate",
+        "en": "Stielhandgranate",
+        "es": "Stielhandgranate",
+        "fr": "Stielhandgranate",
+        "ko": "Stielhandgranate"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.5,
+            "formatted": {
+              "value": {
+                "ru": "0,5 кг",
+                "en": "0.5 kg",
+                "es": "0,5 kg",
+                "fr": "0,5 kg",
+                "ko": "0.5 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "9172": {
+    "id": "9172",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.rgd33_reich.name",
+      "args": {},
+      "lines": {
+        "ru": "РГД-33",
+        "en": "RGD-33",
+        "es": "RGD-33",
+        "fr": "RGD-33",
+        "ko": "RGD-33"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.6,
+            "formatted": {
+              "value": {
+                "ru": "0,6 кг",
+                "en": "0.6 kg",
+                "es": "0,6 kg",
+                "fr": "0,6 kg",
+                "ko": "0.6 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "9178": {
+    "id": "9178",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.smoke_reich.name",
+      "args": {},
+      "lines": {
+        "ru": "Дымовая граната",
+        "en": "Smoke Grenade",
+        "es": "Granada de humo",
+        "fr": "Grenade fumigène",
+        "ko": "연막 수류탄"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "9179": {
+    "id": "9179",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.explosive_pack_reich.name",
+      "args": {},
+      "lines": {
+        "ru": "Взрывпакет",
+        "en": "Explosive Parcel",
+        "es": "Paquete de explosivos",
+        "fr": "Colis explosif",
+        "ko": "폭발 소포"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 1.5,
+            "formatted": {
+              "value": {
+                "ru": "1,5 кг",
+                "en": "1.5 kg",
+                "es": "1,5 kg",
+                "fr": "1,5 kg",
+                "ko": "1.5 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "9901": {
+    "id": "9901",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.sermistor_frag.name",
+      "args": {},
+      "lines": {
+        "ru": "Выстрел гранатометный M384E1",
+        "en": "Grenade Launcher Round M384E1",
+        "es": "Proyectil de lanzagranadas M384E1",
+        "fr": "Cartouche de Lance-Grenades M384E1",
+        "ko": "유탄 발사기 탄환 M384E1"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.master",
+              "args": {},
+              "lines": {
+                "ru": "Мастер",
+                "en": "Master",
+                "es": "Maestro",
+                "fr": "Maître",
+                "ko": "마스터"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.sermistor_frag.description",
+          "args": {},
+          "lines": {
+            "ru": "Опытный осколочно-фугасный боеприпас для автоматического гранатомета. Разработан для применения в условиях ЧЗО.",
+            "en": "Experimental fragmentation and high-explosive ammunition for an automatic grenade launcher. Designed for use in the Chernobyl Exclusion Zone.",
+            "es": "Munición experimental de fragmentación con un alto poder explosivo. Especial para lanzagranadas automáticos. Diseñada para utilizarse en la Zona de Exclusión de Chernóbil.",
+            "fr": "Fragmentation expérimentale et munitions hautement explosives pour un lance-grenades automatique. Conçu pour être utilisé dans la Zone d'Exclusion de Tchernobyl.",
+            "ko": "자동 유탄 발사기에 사용하기 위해 실험 삼아 제작된 파편성 유탄 겸 고폭탄 탄약이다. 체르노빌 금지 구역에서 활용하기 위해 설계되었다."
+          }
+        }
+      }
+    ]
+  },
+  "9902": {
+    "id": "9902",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.sermistor_mine.name",
+      "args": {},
+      "lines": {
+        "ru": "Выстрел гранатометный XM1110",
+        "en": "Grenade Launcher Round XM1110",
+        "es": "Proyectil de lanzagranadas XM1110",
+        "fr": "Cartouche de Lance-Grenades XM1110",
+        "ko": "유탄 발사기 탄환 XM1110"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.master",
+              "args": {},
+              "lines": {
+                "ru": "Мастер",
+                "en": "Master",
+                "es": "Maestro",
+                "fr": "Maître",
+                "ko": "마스터"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.sermistor_mine.description",
+          "args": {},
+          "lines": {
+            "ru": "Опытный боеприпас для автоматического гранатомета, созданный для постановки минных полей. Этот снаряжен миной ПОМ-2.",
+            "en": "Experimental ammunition for an automatic grenade launcher, designed for laying minefields. This one is equipped with a POM-2 mine.",
+            "es": "Munición experimental para un lanzagranadas automático. Diseñada para sembrar campos de minas. Tiene una mina POM-2 equipada.",
+            "fr": "Munitions expérimentales pour lance-grenades automatique, conçues pour la pose de champs de mines. Celui-ci est équipé d'une mine POM-2.",
+            "ko": "자동 유탄 발사기에 사용하기 위해 실험 삼아 제작된 탄약으로, 지뢰밭을 만들기 위해 사용된다. POM-2 지뢰가 장전되어 있다."
+          }
+        }
+      }
+    ]
+  },
+  "12338": {
+    "id": "12338",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.m18.name",
+      "args": {},
+      "lines": {
+        "ru": "M18",
+        "en": "M18",
+        "es": "M18",
+        "fr": "M18",
+        "ko": "M18"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.538,
+            "formatted": {
+              "value": {
+                "ru": "0,54 кг",
+                "en": "0.54 kg",
+                "es": "0,54 kg",
+                "fr": "0,54 kg",
+                "ko": "0.54 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.m18.description",
+          "args": {},
+          "lines": {
+            "ru": "Ручная дымовая граната.",
+            "en": "Hand smoke grenade",
+            "es": "Granada de humo manual",
+            "fr": "Grenade fumigène.",
+            "ko": "투척형 연막 수류탄."
+          }
+        }
+      }
+    ]
+  },
+  "12339": {
+    "id": "12339",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.zarya.name",
+      "args": {},
+      "lines": {
+        "ru": "СЗГ «Заря-3»",
+        "en": "Zarya-3 Flashbang Grenade",
+        "es": "Granada de destello Amanecer-3",
+        "fr": "Grenade assourdissante Ascension-3",
+        "ko": "자리야-3 섬광탄"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.stalker",
+              "args": {},
+              "lines": {
+                "ru": "Сталкер",
+                "en": "Stalker",
+                "es": "Acechador",
+                "fr": "Stalker",
+                "ko": "스토커"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.175,
+            "formatted": {
+              "value": {
+                "ru": "0,17 кг",
+                "en": "0.17 kg",
+                "es": "0,17 kg",
+                "fr": "0,17 kg",
+                "ko": "0.17 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.zarya.description",
+          "args": {},
+          "lines": {
+            "ru": "Ручная светозвуковая граната.",
+            "en": "Hand flashbang grenade",
+            "es": "Granada cegadora manual",
+            "fr": "Grenade assourdissante.",
+            "ko": "투척형 섬광탄."
+          }
+        }
+      }
+    ]
+  },
+  "12351": {
+    "id": "12351",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.asz40.name",
+      "args": {},
+      "lines": {
+        "ru": "Выстрел гранатометный АСЗ-40 «Свирель»",
+        "en": "ASZ-40 Svirel Grenade Round",
+        "es": "Proyectil de granada ASZ-40 Svirel",
+        "fr": "Cartouche pour le Lance-Grenade ASZ-40 Svirel",
+        "ko": "ASZ-40 스비렐 유탄"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.asz40.description",
+          "args": {},
+          "lines": {
+            "ru": "Боеприпас акустического действия для гранатомета ГП-25 «Костер». Служит для временного подавления психоволевой устойчивости живой силы противника.",
+            "en": "A concussion round for the GP-25 Kostyor grenade launcher. It temporarily suppresses the psychological stability of the opponent.",
+            "es": "Un proyectil conmocionador para el lanzagranadas GP-25 Kostyor. Suprime temporalmente la estabilidad psicológica del adversario.",
+            "fr": "Une cartouche à concussion pour le lance-grenade GP-25 Kostyor. Elle réduit temporairement la stabilité psychologique de l'adversaire.",
+            "ko": "GP-25 코스티어 유탄 발사기에 쓰이는 충격탄이다. 일시적으로 적에게 정신적 혼란을 가한다."
+          }
+        }
+      }
+    ]
+  },
+  "12352": {
+    "id": "12352",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.m704.name",
+      "args": {},
+      "lines": {
+        "ru": "Выстрел гранатометный M704",
+        "en": "M704 Grenade Round",
+        "es": "Proyectil de granada M704",
+        "fr": "Cartouche pour le Lance-Grenade M704",
+        "ko": "M704 유탄"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.m704.description",
+          "args": {},
+          "lines": {
+            "ru": "Боеприпас акустического действия для гранатомета M203. Служит для временного подавления психоволевой устойчивости живой силы противника.",
+            "en": "A concussion round for the M203 grenade launcher. It temporarily suppresses the psychological stability of the opponent.",
+            "es": "Un proyectil conmocionador para el lanzagranadas M203. Suprime temporalmente la estabilidad psicológica del adversario.",
+            "fr": "Une cartouche à concussion pour le lance-grenade M203. Elle réduit temporairement la stabilité psychologique de l'adversaire.",
+            "ko": "M203 유탄 발사기에 쓰이는 충격탄이다. 일시적으로 적에게 정신적 혼란을 가한다."
+          }
+        }
+      }
+    ]
+  },
+  "12353": {
+    "id": "12353",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.of1.name",
+      "args": {},
+      "lines": {
+        "ru": "ОФ-1 «Карнавал»",
+        "en": "OF-1 Carnival",
+        "es": "OF-1 Carnaval",
+        "fr": "OF-1 Carnaval",
+        "ko": "OF-1 카니발"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.of1.description",
+          "args": {},
+          "lines": {
+            "ru": "Осколочный боеприпас, изготовленный кустарно на базе снаряда ПГ-7В.",
+            "en": "Makeshift fragmentation ammunition based on the RPG-7V shell.",
+            "es": "Munición de fragmentación improvisada basada en el proyectil del RPG-7V.",
+            "fr": "Munitions à fragmentation de fortune basées sur l'obus RPG-7V.",
+            "ko": "RPG-7V 포탄을 기반으로 한 임시 조립형 파편 탄약이다."
+          }
+        }
+      }
+    ]
+  },
+  "12355": {
+    "id": "12355",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.c4.name",
+      "args": {},
+      "lines": {
+        "ru": "C4 (не используется)",
+        "en": "C4 (not used)",
+        "es": "C4 (no utilizado)",
+        "fr": "C4 (inutilisé)",
+        "ko": "C4 (사용하지 않음)"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.master",
+              "args": {},
+              "lines": {
+                "ru": "Мастер",
+                "en": "Master",
+                "es": "Maestro",
+                "fr": "Maître",
+                "ko": "마스터"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.c4.description",
+          "args": {},
+          "lines": {
+            "ru": "Американская ручная осколочная граната",
+            "en": "An American fragmentation hand grenade.",
+            "es": "Una granada de mano de fragmentación estadounidense.",
+            "fr": "Une grenade à main à fragmentation américaine.",
+            "ko": "미국산 소형 파편 수류탄이다."
+          }
+        }
+      }
+    ]
+  },
+  "12356": {
+    "id": "12356",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.flare.red.name",
+      "args": {},
+      "lines": {
+        "ru": "Сигнальная ракета (красная)",
+        "en": "Signal Flare (Red)",
+        "es": "Bengala de señales (roja)",
+        "fr": "Fusée de détresse (Rouge)",
+        "ko": "조명 신호탄 (빨간색)"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "12357": {
+    "id": "12357",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.flare.yellow.name",
+      "args": {},
+      "lines": {
+        "ru": "Сигнальная ракета (желтая)",
+        "en": "Signal Flare (Yellow)",
+        "es": "Bengala de señales (amarilla)",
+        "fr": "Fusée de détresse (Jaune)",
+        "ko": "조명 신호탄 (노란색)"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "12358": {
+    "id": "12358",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.flare.green.name",
+      "args": {},
+      "lines": {
+        "ru": "Сигнальная ракета (зеленая)",
+        "en": "Signal Flare (Green)",
+        "es": "Bengala de señales (verde)",
+        "fr": "Fusée de détresse (Verte)",
+        "ko": "조명 신호탄 (초록색)"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "12359": {
+    "id": "12359",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.freeze.name",
+      "args": {},
+      "lines": {
+        "ru": "Морозная граната",
+        "en": "Frost Grenade",
+        "es": "Granada de congelación",
+        "fr": "Grenade givrante",
+        "ko": "서리 수류탄"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.freeze.description",
+          "args": {},
+          "lines": {
+            "ru": "Осколочная ударная морозная граната",
+            "en": "Impact fragmentation frost grenade.",
+            "es": "Granada de congelación de fragmentación por impacto.",
+            "fr": "Grenade à fragmentation givrante à l'impact.",
+            "ko": "충격식 서리 파편 수류탄"
+          }
+        }
+      }
+    ]
+  },
+  "12360": {
+    "id": "12360",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.12360.name",
+      "args": {},
+      "lines": {
+        "ru": "Артиллерийный снаряд",
+        "en": "Artillery Shell",
+        "es": "Proyectil de artillería",
+        "fr": "Obus d'Artillerie",
+        "ko": "포탄"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.12360.description",
+          "args": {},
+          "lines": {
+            "ru": "Осколочный боеприпас, изготовленный кустарно на базе снаряда ПГ-7В.",
+            "en": "Makeshift fragmentation ammunition based on the RPG-7V shell.",
+            "es": "Munición de fragmentación improvisada basada en el proyectil del RPG-7V.",
+            "fr": "Munitions à fragmentation de fortune basées sur l'obus RPG-7V.",
+            "ko": "RPG-7V 포탄을 기반으로 한 임시 조립형 파편 탄약이다."
+          }
+        }
+      }
+    ]
+  },
+  "12361": {
+    "id": "12361",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.12361.name",
+      "args": {},
+      "lines": {
+        "ru": "Сигнальная ракета (снаряд)",
+        "en": "Signal Flare (Projectile)",
+        "es": "Bengala de señales (proyectil)",
+        "fr": "Fusée de Signalisation (Projectile)",
+        "ko": "조명 신호탄 (발사체)"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "12362": {
+    "id": "12362",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.t13.name",
+      "args": {},
+      "lines": {
+        "ru": "T13 Beano",
+        "en": "T13 Beano",
+        "es": "T13 Juerga",
+        "fr": "T13 Beano",
+        "ko": "T13 비노"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.t13.description",
+          "args": {},
+          "lines": {
+            "ru": "Ручная осколочная граната, произведенная в Нидерландах. Несмотря на маленькие размеры, летальна в радиусе нескольких метров.",
+            "en": "A fragmentation hand grenade produced in the Netherlands. Despite its small size, it is lethal within a range of several meters.",
+            "es": "Una granada de mano de fragmentación fabricada en los Países Bajos. A pesar de su pequeño tamaño, es letal en un radio de varios metros.",
+            "fr": "Une grenade à main à fragmentation produite aux Pays-Bas. Malgré sa petite taille, elle est fatale sur un rayon de plusieurs mètres.",
+            "ko": "네덜란드에서 제조된 파편 수류탄이다. 크기는 작지만, 수 미터 범위에서는 충분히 치명적이다."
+          }
+        }
+      }
+    ]
+  },
+  "12363": {
+    "id": "12363",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.lg1.name",
+      "args": {},
+      "lines": {
+        "ru": "ЛГ-1 «Восторг»",
+        "en": "HG-1 Rapture",
+        "es": "HG-1 Rapture",
+        "fr": "HG-1 Extase",
+        "ko": "HG-1 랩쳐"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.25,
+            "formatted": {
+              "value": {
+                "ru": "0,25 кг",
+                "en": "0.25 kg",
+                "es": "0,25 kg",
+                "fr": "0,25 kg",
+                "ko": "0.25 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.lg1.description",
+          "args": {},
+          "lines": {
+            "ru": "Граната с элементами артефактов создает область, лечащую союзников в течение определенного времени и снижающую наносимый им урон.",
+            "en": "Grenade with elements from artifacts. Creates a temporary healing area for allies and reduces the damage done to them.",
+            "es": "Granada con elementos de artefactos. Crea una zona de curación temporal para los aliados y reduce el daño que reciben.",
+            "fr": "Grenade avec des éléments tirés d'artefacts. Crée une zone temporaire de régénération pour les alliés et réduit les dommages qu'ils reçoivent.",
+            "ko": "아티팩트의 성분이 들어 있는 수류탄이다. 아군을 치유하는 영역을 일시적으로 생성하고, 아군이 받는 피해량을 감소시킨다."
+          }
+        }
+      }
+    ]
+  },
+  "12364": {
+    "id": "12364",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.xg1.name",
+      "args": {},
+      "lines": {
+        "ru": "ХГ-1 «Поганка»",
+        "en": "Toadstool KG-1",
+        "es": "KG-1 Hongo venenoso",
+        "fr": "Amanite KG-1",
+        "ko": "독버섯 KG-1"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.25,
+            "formatted": {
+              "value": {
+                "ru": "0,25 кг",
+                "en": "0.25 kg",
+                "es": "0,25 kg",
+                "fr": "0,25 kg",
+                "ko": "0.25 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.xg1.description",
+          "args": {},
+          "lines": {
+            "ru": "Граната с элементами артефактов создает область, затрудняющую передвижение противников-игроков и увеличивающую наносимый им урон.",
+            "en": "Grenade with elements from artifacts. Creates an area that hinders enemy players' movement and increases the damage inflicted on them.",
+            "es": "Granada con elementos de artefactos. Crea una zona que dificulta el movimiento de los jugadores enemigos y aumenta el daño que se les inflige.",
+            "fr": "Grenade avec des éléments tirés d'artefacts. Crée une zone qui entrave les mouvements de l'ennemi et augmente les dégâts infligés.",
+            "ko": "아티팩트의 성분이 들어 있는 수류탄이다. 적 팀 플레이어들의 이동을 방해하는 영역을 생성하고, 적이 받는 피해량을 증가시킨다."
+          }
+        }
+      }
+    ]
+  },
+  "12365": {
+    "id": "12365",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.hotjack.name",
+      "args": {},
+      "lines": {
+        "ru": "«Горячий Джек»",
+        "en": "Hot Jack",
+        "es": "Hot Jack",
+        "fr": "Hot Jack",
+        "ko": "핫 잭"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.1,
+            "formatted": {
+              "value": {
+                "ru": "0,1 кг",
+                "en": "0.1 kg",
+                "es": "0,1 kg",
+                "fr": "0,1 kg",
+                "ko": "0.1 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.hotjack.description",
+          "args": {},
+          "lines": {
+            "ru": "Термобарическая граната",
+            "en": "Thermobaric Grenade",
+            "es": "Granada termobárica",
+            "fr": "Grenade Thermobarique",
+            "ko": "열압력 수류탄"
+          }
+        }
+      }
+    ]
+  },
+  "12368": {
+    "id": "12368",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.smoke.name",
+      "args": {},
+      "lines": {
+        "ru": "РДГ-М",
+        "en": "RDG-M",
+        "es": "RDG-M",
+        "fr": "RDG-M",
+        "ko": "RDG-M"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.35,
+            "formatted": {
+              "value": {
+                "ru": "0,35 кг",
+                "en": "0.35 kg",
+                "es": "0,35 kg",
+                "fr": "0,35 kg",
+                "ko": "0.35 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "12369": {
+    "id": "12369",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.eg1.name",
+      "args": {},
+      "lines": {
+        "ru": "ЭГ-1 «Барьер»",
+        "en": "EG-1 Barrier",
+        "es": "EG-1 Barrera",
+        "fr": "EG1-Barrière",
+        "ko": "EG-1 방벽"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.25,
+            "formatted": {
+              "value": {
+                "ru": "0,25 кг",
+                "en": "0.25 kg",
+                "es": "0,25 kg",
+                "fr": "0,25 kg",
+                "ko": "0.25 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.eg1.description",
+          "args": {},
+          "lines": {
+            "ru": "Граната с элементами артефактов создает область, значительно снижающую урон от взрывов.",
+            "en": "Grenade with elements from artifacts. Creates an area that significantly reduces damage from explosions.",
+            "es": "Granada con elementos de artefactos. Crea una zona que reduce significativamente el daño de las explosiones.",
+            "fr": "Grenade avec des éléments tirés d'artefacts. Crée une zone qui réduit significativement les dommages des explosions.",
+            "ko": "아티팩트의 성분이 들어 있는 수류탄이다. 아군이 받는 폭발 피해량을 크게 감소시키는 영역을 생성한다."
+          }
+        }
+      }
+    ]
+  },
+  "12371": {
+    "id": "12371",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.m84pd.name",
+      "args": {},
+      "lines": {
+        "ru": "M84 PD",
+        "en": "M84 PD",
+        "es": "M84 DP",
+        "fr": "M84 PD",
+        "ko": "M84 PD"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.stalker",
+              "args": {},
+              "lines": {
+                "ru": "Сталкер",
+                "en": "Stalker",
+                "es": "Acechador",
+                "fr": "Stalker",
+                "ko": "스토커"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.m84pd.description",
+          "args": {},
+          "lines": {
+            "ru": "Американская светошумовая граната.",
+            "en": "An American flashbang grenade.",
+            "es": "Una granada aturdidora estadounidense.",
+            "fr": "Une grenade aveuglante américaine.",
+            "ko": "미국산 섬광 수류탄이다."
+          }
+        }
+      }
+    ]
+  },
+  "12372": {
+    "id": "12372",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.molotov.name",
+      "args": {},
+      "lines": {
+        "ru": "Коктейль Молотова",
+        "en": "Molotov Cocktail",
+        "es": "Cóctel molotov",
+        "fr": "Cocktail Molotov",
+        "ko": "화염병"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.4,
+            "formatted": {
+              "value": {
+                "ru": "0,4 кг",
+                "en": "0.4 kg",
+                "es": "0,4 kg",
+                "fr": "0,4 kg",
+                "ko": "0.4 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.molotov.description",
+          "args": {},
+          "lines": {
+            "ru": "Нет лучше «коктейля» во время Бурана, чем коктейль Молотова!",
+            "en": "During a Blizzard, there's no better cocktail than a Molotov cocktail!",
+            "es": "Durante una ventisca, ¡no hay mejor cóctel que un cóctel molotov!",
+            "fr": "Pendant un Blizzard, rien de tel qu'un cocktail Molotov !",
+            "ko": "눈보라 아래에서 최고의 칵테일은 바로 몰로토프 칵테일, 다른말로는 화염병이지!"
+          }
+        }
+      }
+    ]
+  },
+  "12373": {
+    "id": "12373",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.gas.name",
+      "args": {},
+      "lines": {
+        "ru": "Газовая граната",
+        "en": "Gas Grenade",
+        "es": "Granada de gas",
+        "fr": "Grenade à Gaz",
+        "ko": "가스 수류탄"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.2,
+            "formatted": {
+              "value": {
+                "ru": "0,2 кг",
+                "en": "0.2 kg",
+                "es": "0,2 kg",
+                "fr": "0,2 kg",
+                "ko": "0.2 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.gas.description",
+          "args": {},
+          "lines": {
+            "ru": "Граната, при взрыве создающее облако отравляющего газа.",
+            "en": "A grenade that creates a cloud of toxic gas when it explodes.",
+            "es": "Una granada que crea una nube de gas tóxico al explotar.",
+            "fr": "Une grenade qui génère un nuage de gaz toxique quand elle explose.",
+            "ko": "폭발하면 유독 가스로 이루어진 구름을 생성하는 수류탄이다."
+          }
+        }
+      }
+    ]
+  },
+  "12376": {
+    "id": "12376",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.lg1_ravent.name",
+      "args": {},
+      "lines": {
+        "ru": "«Лекарство гладиатора»",
+        "en": "Gladiator Medicine",
+        "es": "Medicamento de gladiador",
+        "fr": "Médicament de Gladiateur",
+        "ko": "검투사 치료제"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.25,
+            "formatted": {
+              "value": {
+                "ru": "0,25 кг",
+                "en": "0.25 kg",
+                "es": "0,25 kg",
+                "fr": "0,25 kg",
+                "ko": "0.25 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.lg1_ravent.description",
+          "args": {},
+          "lines": {
+            "ru": "Граната с элементами артефактов создает область, лечащую союзников в течение времени.",
+            "en": "Grenade with elements from artifacts. Creates a temporary healing area for allies.",
+            "es": "Granada con elementos de artefactos. Crea una zona de curación temporal para los aliados.",
+            "fr": "Grenade avec des éléments tirés d'artefacts. Crée une zone temporaire de guérison pour les alliés.",
+            "ko": "아티팩트의 성분이 들어 있는 수류탄이다. 아군을 일시적으로 치유하는 영역을 생성한다."
+          }
+        }
+      }
+    ]
+  },
+  "12377": {
+    "id": "12377",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.eg1_ravent.name",
+      "args": {},
+      "lines": {
+        "ru": "«Щит гладиатора»",
+        "en": "Gladiator's Shield",
+        "es": "Escudo de gladiador",
+        "fr": "Bouclier de Gladiateur",
+        "ko": "검투사의 방패"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.25,
+            "formatted": {
+              "value": {
+                "ru": "0,25 кг",
+                "en": "0.25 kg",
+                "es": "0,25 kg",
+                "fr": "0,25 kg",
+                "ko": "0.25 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.eg1_ravent.description",
+          "args": {},
+          "lines": {
+            "ru": "Граната с элементами артефактов создает область, значительно снижающую получаемый урон.",
+            "en": "Grenade with elements from artifacts. Creates an area that significantly reduces damage received.",
+            "es": "Granada con elementos de artefactos. Crea una zona que reduce significativamente el daño recibido por las explosiones.",
+            "fr": "Grenade avec des éléments tirés d'artefacts. Crée une zone qui réduit les dégâts subits.",
+            "ko": "아티팩트 성분이 들어 있는 수류탄이다. 아군이 받는 피해를 크게 줄여주는 영역을 생성한다."
+          }
+        }
+      }
+    ]
+  },
+  "12381": {
+    "id": "12381",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.molotov_quest_enhanced.name",
+      "args": {},
+      "lines": {
+        "ru": "Коктейль Молотова (усиленный)",
+        "en": "Molotov Cocktail (enhanced)",
+        "es": "Cóctel molotov (mejorado)",
+        "fr": "Cocktail Molotov (amélioré)",
+        "ko": "화염병 (강화형)"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.4,
+            "formatted": {
+              "value": {
+                "ru": "0,4 кг",
+                "en": "0.4 kg",
+                "es": "0,4 kg",
+                "fr": "0,4 kg",
+                "ko": "0.4 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "12382": {
+    "id": "12382",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.freeze_ravent.name",
+      "args": {},
+      "lines": {
+        "ru": "Криовзрыв",
+        "en": "Cryo Explosion",
+        "es": "Crioexplosión",
+        "fr": "Cryo-Explosion",
+        "ko": "극저온 폭발"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "12385": {
+    "id": "12385",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.v40_halloween23.name",
+      "args": {},
+      "lines": {
+        "ru": "V40 Mini-Grenade (ослабленная)",
+        "en": "V40 Mini-Grenade (weakened)",
+        "es": "Minigranada V40 (debilitada)",
+        "fr": "Mini-grenade V40 (atténuée)",
+        "ko": "V40 미니 수류탄 (약화 버전)"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.v40_halloween23.description",
+          "args": {},
+          "lines": {
+            "ru": "Ручная осколочная граната, произведенная в Нидерландах. Несмотря на маленькие размеры, летальна в радиусе нескольких метров.",
+            "en": "A fragmentation hand grenade produced in the Netherlands. Despite its small size, it is lethal within a range of several meters.",
+            "es": "Una granada de mano de fragmentación fabricada en los Países Bajos. A pesar de su pequeño tamaño, es letal en un radio de varios metros.",
+            "fr": "Une grenade à main à fragmentation produite aux Pays-Bas. Malgré sa petite taille, elle est fatale sur un rayon de plusieurs mètres.",
+            "ko": "네덜란드에서 제조된 파편 수류탄이다. 크기는 작지만, 수 미터 범위에서는 충분히 치명적이다."
+          }
+        }
+      }
+    ]
+  },
+  "12402": {
+    "id": "12402",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.ops.hunt.name",
+      "args": {},
+      "lines": {
+        "ru": "«Провокация»",
+        "en": "Taunt",
+        "es": "Burla",
+        "fr": "Provocation",
+        "ko": "도발"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.1,
+            "formatted": {
+              "value": {
+                "ru": "0,1 кг",
+                "en": "0.1 kg",
+                "es": "0,1 kg",
+                "fr": "0,1 kg",
+                "ko": "0.1 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.ops.hunt.description",
+          "args": {},
+          "lines": {
+            "ru": "Разбитие колбы с феромонами привлекает внимание мутантов и заставляет атаковать владельца. Защита владельца от разрыва увеличивается.",
+            "en": "Breaking a pheromone flask attracts the attention of mutants and makes them attack the flask's owner. The owner's protection against laceration is increased.",
+            "es": "Romper un frasco de feromonas atrae la atención de los mutantes y hace que ataquen al propietario del frasco. Aumenta la defensa del propietario contra la laceración.",
+            "fr": "Le fait de briser une fiole de phéromones attire l'attention des mutants et les incite à attaquer le propriétaire de la fiole. La protection du propriétaire contre les lacérations est augmentée.",
+            "ko": "페로몬 플라스크를 깨뜨려 자신을 공격하도록 돌연변이들을 도발한다. 시전자는 받는 열상 피해 보호율이 증가한다."
+          }
+        }
+      }
+    ]
+  },
+  "12403": {
+    "id": "12403",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.ops.tank.name",
+      "args": {},
+      "lines": {
+        "ru": "Оглушающая граната",
+        "en": "Stun Grenade",
+        "es": "Granada aturdidora",
+        "fr": "Grenade étourdissante",
+        "ko": "기절 수류탄"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.25,
+            "formatted": {
+              "value": {
+                "ru": "0,25 кг",
+                "en": "0.25 kg",
+                "es": "0,25 kg",
+                "fr": "0,25 kg",
+                "ko": "0.25 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.ops.tank.description",
+          "args": {},
+          "lines": {
+            "ru": "При взрыве накладывает оглушение на сущностей в радиусе взрыва и снижает их урон на 20%",
+            "en": "Upon explosion, it stuns entities within the blast radius and reduces their damage by 20%",
+            "es": "Al explotar, aturde a las criaturas en el radio de la explosión y reduce su daño en un 20 %",
+            "fr": "Lors de l'explosion, inflige un étourdissement aux entités dans le rayon de l'explosion et réduit leurs dégâts de 20 %.",
+            "ko": "폭발 시 범위 내 대상에게 기절 효과를 부여하고 공격력을 20% 감소시킵니다"
+          }
+        }
+      }
+    ]
+  },
+  "12404": {
+    "id": "12404",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.ops.combined.name",
+      "args": {},
+      "lines": {
+        "ru": "«Пенная вечеринка»",
+        "en": "Foam party",
+        "es": "Fiesta de espuma",
+        "fr": "Soirée mousse",
+        "ko": "거품 파티"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.25,
+            "formatted": {
+              "value": {
+                "ru": "0,25 кг",
+                "en": "0.25 kg",
+                "es": "0,25 kg",
+                "fr": "0,25 kg",
+                "ko": "0.25 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.ops.combined.description",
+          "args": {},
+          "lines": {
+            "ru": "Взрыв гранаты создает пену, затрудняя передвижение врагов.\\",
+            "en": "The grenade explosion creates foam, hindering enemy movement.\\",
+            "es": "La explosión de la granada crea espuma, lo que dificulta el movimiento de los enemigos.\\",
+            "fr": "L'explosion d'une grenade crée de la mousse, rendant les déplacements des ennemis plus difficiles.\\",
+            "ko": "수류탄 폭발로 적의 이동을 방해하는 거품을 생성합니다.\\"
+          }
+        }
+      }
+    ]
+  },
+  "12405": {
+    "id": "12405",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.ops.support.name",
+      "args": {},
+      "lines": {
+        "ru": "«Лечение»",
+        "en": "Healing",
+        "es": "Curación",
+        "fr": "Guérison",
+        "ko": "치유"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.25,
+            "formatted": {
+              "value": {
+                "ru": "0,25 кг",
+                "en": "0.25 kg",
+                "es": "0,25 kg",
+                "fr": "0,25 kg",
+                "ko": "0.25 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.exp.ops.support.description",
+          "args": {},
+          "lines": {
+            "ru": "При взрыве создает область, восстанавливающую здоровье союзников и защищающую от заражений",
+            "en": "When explodes, it creates an area that restores the health of allies and protects against infections.",
+            "es": "Cuando explota, crea una zona que recupera la salud de los aliados y protege frente a infecciones.",
+            "fr": "Lorsqu'il explose, il crée une zone qui restaure la santé des alliés et les protège contre les infections.",
+            "ko": "폭발하면 아군의 체력을 회복시키고 감염 피해로부터 아군을 보호하는 영역을 생성한다."
+          }
+        }
+      }
+    ]
+  },
+  "12408": {
+    "id": "12408",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.ops.support_ultimate.name",
+      "args": {},
+      "lines": {
+        "ru": "Лечебный состав",
+        "en": "Therapeutic composition",
+        "es": "Composición curativa",
+        "fr": "Composé médical",
+        "ko": "치유 성분"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.25,
+            "formatted": {
+              "value": {
+                "ru": "0,25 кг",
+                "en": "0.25 kg",
+                "es": "0,25 kg",
+                "fr": "0,25 kg",
+                "ko": "0.25 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "12424": {
+    "id": "12424",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "go.new_tutor_hint_1.name",
+      "args": {},
+      "lines": {
+        "ru": "Заражение",
+        "en": "Infection",
+        "es": "Infección",
+        "fr": "Infection",
+        "ko": "감염"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.4,
+            "formatted": {
+              "value": {
+                "ru": "0,4 кг",
+                "en": "0.4 kg",
+                "es": "0,4 kg",
+                "fr": "0,4 kg",
+                "ko": "0.4 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "12447": {
+    "id": "12447",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.fpv.name",
+      "args": {},
+      "lines": {
+        "ru": "FPV-дрон",
+        "en": "FPV drone",
+        "es": "Dron FPV",
+        "fr": "Drone FPV",
+        "ko": "FPV 드론"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.25,
+            "formatted": {
+              "value": {
+                "ru": "0,25 кг",
+                "en": "0.25 kg",
+                "es": "0,25 kg",
+                "fr": "0,25 kg",
+                "ko": "0.25 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "20993": {
+    "id": "20993",
+    "category": "grenade",
+    "name": {
+      "type": "translation",
+      "key": "item.exp.stun_encage.name",
+      "args": {},
+      "lines": {
+        "ru": "Светошумовая граната",
+        "en": "Flashbang grenade",
+        "es": "Granada aturdidora",
+        "fr": "Grenade aveuglante",
+        "ko": "섬광탄"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

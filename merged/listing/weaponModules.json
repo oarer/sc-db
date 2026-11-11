@@ -1,0 +1,837 @@
+{
+  "11705": {
+    "id": "11705",
+    "category": "weapon_modules/weapon_module_remover",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.variometr.name",
+      "args": {},
+      "lines": {
+        "ru": "Вариометр",
+        "en": "Variometer",
+        "es": "Varioaltímetro",
+        "fr": "Variomètre",
+        "ko": "바리오미터"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NON_DROP"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.master",
+              "args": {},
+              "lines": {
+                "ru": "Мастер",
+                "en": "Master",
+                "es": "Maestro",
+                "fr": "Maître",
+                "ko": "마스터"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.15,
+            "formatted": {
+              "value": {
+                "ru": "0,15 кг",
+                "en": "0.15 kg",
+                "es": "0,15 kg",
+                "fr": "0,15 kg",
+                "ko": "0.15 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.wpn_mod.variometr.description",
+          "args": {},
+          "lines": {
+            "ru": "Устройство, структура и принцип действия которого до конца не изучены. Вносит краткие параметры энтропии, позволяя отдельным классам квантов ограниченно поменять свои значения в пределах допустимого диапазона.",
+            "en": "A device whose structure and operating principle have not been fully studied. Introduces brief entropy parameters, allowing certain classes of quanta to change their values within the permitted range.",
+            "es": "Dispositivo cuyo funcionamiento, estructura y principio de acción no se han estudiado a fondo. Introduce parámetros breves de entropía, lo que permite a determinadas clases de cuantos modificar de forma limitada sus valores dentro de un rango admisible.",
+            "fr": "Un dispositif, une structure et un principe de fonctionnement qui ne sont pas encore entièrement étudiés. Il introduit des paramètres d'entropie succincts, permettant à certaines classes de quanta de modifier de manière limitée leurs valeurs dans une plage admissible.",
+            "ko": "완전히 규명되지 않은 장치로, 그 구조와 작동 원리는 아직 충분히 연구되지 않았다. 엔트로피에 일시적인 변수를 주입하여, 특정 종류의 양자 상태가 허용 범위 내에서 제한적으로 값을 변경할 수 있도록 한다."
+          }
+        }
+      }
+    ]
+  },
+  "11706": {
+    "id": "11706",
+    "category": "weapon_modules/weapon_module_remover",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.cubitor.name",
+      "args": {},
+      "lines": {
+        "ru": "Кубитор",
+        "en": "Cubitor",
+        "es": "Cubitoro",
+        "fr": "Cubiteur",
+        "ko": "큐비터"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NON_DROP"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.master",
+              "args": {},
+              "lines": {
+                "ru": "Мастер",
+                "en": "Master",
+                "es": "Maestro",
+                "fr": "Maître",
+                "ko": "마스터"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0.15,
+            "formatted": {
+              "value": {
+                "ru": "0,15 кг",
+                "en": "0.15 kg",
+                "es": "0,15 kg",
+                "fr": "0,15 kg",
+                "ko": "0.15 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.wpn_mod.cubitor.description",
+          "args": {},
+          "lines": {
+            "ru": "Устройство, структура и принцип действия которого до конца не изучены. Вносит длительный импульс энтропии в сильные взаимодействия частиц модуля, не позволяя отдельным классам квантов поменять свои значения, но при этом меняя сам диапазон работы устройства.",
+            "en": "Device whose structure and operating principle have not been fully studied. Introduces a prolonged entropy pulse into the strong interactions of the module’s particles, preventing certain classes of quanta from changing their values, while changing the device’s operating range itself.",
+            "es": "Dispositivo cuyo funcionamiento, estructura y principio de acción no se han estudiado a fondo. Aporta un impulso de entropía prolongado a las interacciones fuertes de las partículas del módulo, lo que impide que determinadas clases de cuantos cambien sus valores, pero, al mismo tiempo, modifica el propio rango de funcionamiento del dispositivo.",
+            "fr": "Un dispositif dont la structure et le principe de fonctionnement ne sont pas encore entièrement compris. Il introduit une impulsion prolongée d'entropie dans les interactions fortes des particules du module, empêchant certaines classes de quanta de changer leurs valeurs, tout en modifiant la plage de fonctionnement de l'appareil.",
+            "ko": "구조와 작동 원리가 아직 완전히 규명되지 않은 장치이다. 강한 상호작용을 하는 모듈 입자들에 장시간 지속되는 엔트로피 펄스를 주입하며, 특정 종류의 양자가 그 값을 변경하는 것은 막지만, 대신 장치 자체의 작동 범위를 변화시키는 것으로 알려져 있다."
+          }
+        }
+      }
+    ]
+  },
+  "21600": {
+    "id": "21600",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.evil_fighter.name",
+      "args": {},
+      "lines": {
+        "ru": "«Охотник»",
+        "en": "Hunter",
+        "es": "Cazador",
+        "fr": "Chasseur",
+        "ko": "사냥꾼"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21602": {
+    "id": "21602",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.versus_all.name",
+      "args": {},
+      "lines": {
+        "ru": "«Универсал»",
+        "en": "Universal",
+        "es": "Universal",
+        "fr": "Universel",
+        "ko": "유니버설"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21603": {
+    "id": "21603",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.start_boost.name",
+      "args": {},
+      "lines": {
+        "ru": "«Дебют»",
+        "en": "Debut",
+        "es": "Debut",
+        "fr": "Départ",
+        "ko": "데뷔"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21604": {
+    "id": "21604",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.finish_him.name",
+      "args": {},
+      "lines": {
+        "ru": "«Финиш»",
+        "en": "Finish",
+        "es": "Final",
+        "fr": "Arrivée",
+        "ko": "끝내기"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21606": {
+    "id": "21606",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.recalibration.name",
+      "args": {},
+      "lines": {
+        "ru": "«Перекалибровка»",
+        "en": "Recalibration",
+        "es": "Recalibración",
+        "fr": "Recalibration",
+        "ko": "재조정"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21607": {
+    "id": "21607",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.compensator.name",
+      "args": {},
+      "lines": {
+        "ru": "«Концентратор»",
+        "en": "Concentrator",
+        "es": "Concentrador",
+        "fr": "Concentrateur",
+        "ko": "집중기"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21608": {
+    "id": "21608",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.be_quiet.name",
+      "args": {},
+      "lines": {
+        "ru": "«Тихоходка»",
+        "en": "Stealth",
+        "es": "Sigilo",
+        "fr": "Furtivité",
+        "ko": "스텔스"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21609": {
+    "id": "21609",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.punch_in_the_gut.name",
+      "args": {},
+      "lines": {
+        "ru": "«Ударник»",
+        "en": "Striker",
+        "es": "Atacante",
+        "fr": "Frappeur",
+        "ko": "스트라이커"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21610": {
+    "id": "21610",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.lucky_start.name",
+      "args": {},
+      "lines": {
+        "ru": "«Дежавю»",
+        "en": "Deja Vu",
+        "es": "Déjà Vu",
+        "fr": "Déjà Vu",
+        "ko": "데자뷰"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21611": {
+    "id": "21611",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.warmup.name",
+      "args": {},
+      "lines": {
+        "ru": "«Нагрев»",
+        "en": "Overheating",
+        "es": "Sobrecalentamiento",
+        "fr": "Surchauffe",
+        "ko": "과열"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21612": {
+    "id": "21612",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.persistence.name",
+      "args": {},
+      "lines": {
+        "ru": "«Настойчивость»",
+        "en": "Persistence",
+        "es": "Persistencia",
+        "fr": "Persistance",
+        "ko": "지속성"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21613": {
+    "id": "21613",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.deformator.name",
+      "args": {},
+      "lines": {
+        "ru": "«Деформатор»",
+        "en": "Deformer",
+        "es": "Deformador",
+        "fr": "Déformateur",
+        "ko": "변형기"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21615": {
+    "id": "21615",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.more_gunpowder.name",
+      "args": {},
+      "lines": {
+        "ru": "«Перегрузка»",
+        "en": "Overload",
+        "es": "Sobrecarga",
+        "fr": "Surcharge",
+        "ko": "과부하"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21616": {
+    "id": "21616",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.notches_on_bullets.name",
+      "args": {},
+      "lines": {
+        "ru": "«Грызун»",
+        "en": "Rodent",
+        "es": "Roedor",
+        "fr": "Rongeur",
+        "ko": "설치류"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21617": {
+    "id": "21617",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.long_barrel.name",
+      "args": {},
+      "lines": {
+        "ru": "«Лесник»",
+        "en": "Forester",
+        "es": "Leñador",
+        "fr": "Forestier",
+        "ko": "숲속의 사냥꾼"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21618": {
+    "id": "21618",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.tearing_force.name",
+      "args": {},
+      "lines": {
+        "ru": "«Разрыв»",
+        "en": "Laceration",
+        "es": "Laceración",
+        "fr": "Lacération",
+        "ko": "열상"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21619": {
+    "id": "21619",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.further_better.name",
+      "args": {},
+      "lines": {
+        "ru": "«Профессионал»",
+        "en": "Professional",
+        "es": "Profesional",
+        "fr": "Professionnel",
+        "ko": "전문가"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21800": {
+    "id": "21800",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.vigilante.name",
+      "args": {},
+      "lines": {
+        "ru": "«Линчеватель»",
+        "en": "Vigilante",
+        "es": "Vigilante",
+        "fr": "Justicier",
+        "ko": "자경단"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21801": {
+    "id": "21801",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.knockback.name",
+      "args": {},
+      "lines": {
+        "ru": "«Натиск»",
+        "en": "Onslaught",
+        "es": "Arremetida",
+        "fr": "Assaut",
+        "ko": "강타"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21802": {
+    "id": "21802",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.explosive_shots.name",
+      "args": {},
+      "lines": {
+        "ru": "«Разрывные патроны»",
+        "en": "Explosive rounds",
+        "es": "Municiones explosivas",
+        "fr": "Munitions explosives",
+        "ko": "고폭탄"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21803": {
+    "id": "21803",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.gas_bullets.name",
+      "args": {},
+      "lines": {
+        "ru": "«Желчь»",
+        "en": "Bile",
+        "es": "Bilis",
+        "fr": "Bile",
+        "ko": "분노"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21804": {
+    "id": "21804",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.foam_bullets.name",
+      "args": {},
+      "lines": {
+        "ru": "«Монтажник»",
+        "en": "Rigger",
+        "es": "Montador",
+        "fr": "Monteur",
+        "ko": "장비 조정자"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21806": {
+    "id": "21806",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.seaker.name",
+      "args": {},
+      "lines": {
+        "ru": "«Ищейка»",
+        "en": "Bloodhound",
+        "es": "Sabueso",
+        "fr": "Limier",
+        "ko": "블러드 하운드"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21807": {
+    "id": "21807",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.splitter.name",
+      "args": {},
+      "lines": {
+        "ru": "«Расщепитель»",
+        "en": "Splitter",
+        "es": "Separador",
+        "fr": "Séparateur",
+        "ko": "분할기"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21808": {
+    "id": "21808",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.spray.name",
+      "args": {},
+      "lines": {
+        "ru": "«Спрей»",
+        "en": "Spray",
+        "es": "Pulverizador",
+        "fr": "Spray",
+        "ko": "분사"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21809": {
+    "id": "21809",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.shrapnel.name",
+      "args": {},
+      "lines": {
+        "ru": "«Шрапнель»",
+        "en": "Shrapnel",
+        "es": "Metralla",
+        "fr": "Shrapnel",
+        "ko": "슈라프넬"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21810": {
+    "id": "21810",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.quartet.name",
+      "args": {},
+      "lines": {
+        "ru": "«Квартет»",
+        "en": "Quartet",
+        "es": "Cuarteto",
+        "fr": "Quartet",
+        "ko": "4중주"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21811": {
+    "id": "21811",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.pyromaniac.name",
+      "args": {},
+      "lines": {
+        "ru": "«Зажигательные патроны»",
+        "en": "Incendiary rounds",
+        "es": "Municiones incendiarias",
+        "fr": "Munitions incendiaires",
+        "ko": "소이탄"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  },
+  "21852": {
+    "id": "21852",
+    "category": "weapon_modules/weapon_module",
+    "name": {
+      "type": "translation",
+      "key": "item.wpn_mod.adv.rus_strike.name",
+      "args": {},
+      "lines": {
+        "ru": "«Богатырский щелбан»",
+        "en": "Bogatyr finger flick",
+        "es": "Capirotazo de bogatyr",
+        "fr": "Claque de Bogatyr",
+        "ko": "보가티르 핑거스냅"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": []
+  }
+}

@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
-import { ORIG_DIR, OUT_DIR } from "./constants";
-import { copyDirRecursive } from "./utils/fsUtils";
+import { ORIG_DIR, OUT_DIR, PRESERVED_FILES } from "./constants";
+import { copyDirRecursive, removeDirExcept } from "./utils/fsUtils";
 
 export async function copyIconsToOutput() {
 	const src = path.join(ORIG_DIR, "icons");
@@ -12,9 +12,13 @@ export async function copyIconsToOutput() {
 		return;
 	}
 
-	try {
-		await fs.promises.rm(dest, { recursive: true, force: true });
-	} catch {}
+	// Не удаляем вручную добавленные иконки (uno/custom), которые
+	// не приходят из официальной базы.
+	const preservedIcons = PRESERVED_FILES.filter((p) =>
+		p.startsWith("icons/"),
+	).map((p) => p.slice("icons/".length));
+
+	await removeDirExcept(dest, preservedIcons);
 
 	await copyDirRecursive(src, dest);
 

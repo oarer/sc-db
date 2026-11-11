@@ -20801,5 +20801,1605 @@
         ]
       }
     ]
+  },
+  {
+    "id": "12057",
+    "category": "backpacks",
+    "name": {
+      "type": "translation",
+      "key": "item.cont.bear6u.name",
+      "args": {},
+      "lines": {
+        "ru": "Контейнер «Берлога-6У»",
+        "en": "Berloga-6u Container",
+        "es": "Contenedor Berloga-6U",
+        "fr": "Conteneur Berloga-6u",
+        "ko": "베를로가-6U 보관함"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 9.5,
+            "formatted": {
+              "value": {
+                "ru": "9,5 кг",
+                "en": "9.5 kg",
+                "es": "9,5 kg",
+                "fr": "9,5 kg",
+                "ko": "9.5 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.cont.bear6u.description",
+          "args": {},
+          "lines": {
+            "ru": "Новейший контейнер из серии «Берлог», созданный специально для оперативников НИИ-7.\\nМодификация компонента на основе образца №3-ВА, начавшаяся при разработке «КЗК-2У», была успешно завершена. Подобное улучшение системы контейнера значительно повысило эффективность контейнера на фоне остальных, за что он крайне ценится среди сталкеров.",
+            "en": "The newest container from the Berloga series, created specifically for Research Institute 7 operatives.\\nThe modification of the component based on sample No. 3-EA, which began during the development of the KZK-2U, was successfully completed. This improvement significantly enhanced the container's effectiveness compared to others, making it highly valued among stalkers.",
+            "es": "El contenedor más nuevo de la serie de Berloga, diseñado específicamente para los operativos del Instituto de Investigación 7.\\nLa modificación del componente sobre la base de la muestra nº 3-IA, que se inició durante el desarrollo del KZK-2U, se completó con éxito. Tal mejora del sistema del contenedor aumentó significativamente su eficacia frente al resto, por lo que es muy apreciado entre los acechadores.",
+            "fr": "Conteneur de la dernière génération de la série « Berloga », conçu spécialement pour les agents de l'Institut de Recherche 7.\\nLa modification du composant basée sur l'échantillon n°3-IA, entamée lors du développement du « KZK-2U », a été menée à bien. Cette amélioration du système du conteneur a considérablement accru son efficacité par rapport aux autres modèles, ce qui le rend extrêmement prisé parmi les Stalkers.",
+            "ko": "베를로가 시리즈 중 최신형 컨테이너로, 제 7 연구소 요원 전용으로 만들어졌습니다.\\nKZK-2U 개발 때 시작된 표본 3호-EA 기반 구성 요소 개조가 성공적으로 완료되었고, 이 개선 덕에 다른 컨테이너 대비 효율이 크게 상승하여 스토커들 사이에서도 높은 가치를 가지게 되었습니다.\"이(가) \"AH-4의 성공에도 불구하고, 제 7 연구소는 지브카스 개발에 대응할 정식 슈트를 만들고자 하였고, 이로 인해 아티팩트 헌터 시리즈 작업이 계속되었습니다"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "12046",
+    "category": "backpacks",
+    "name": {
+      "type": "translation",
+      "key": "item.cont.krab5.name",
+      "args": {},
+      "lines": {
+        "ru": "Контейнер «КРАБ-5»",
+        "en": "CRAW-5 Container",
+        "es": "Contenedor CRAB-5",
+        "fr": "Conteneur CRABE-5",
+        "ko": "CRAW-5 컨테이너"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.veteran",
+              "args": {},
+              "lines": {
+                "ru": "Ветеран",
+                "en": "Veteran",
+                "es": "Veterano",
+                "fr": "Vétéran",
+                "ko": "베테랑"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 7.9,
+            "formatted": {
+              "value": {
+                "ru": "7,9 кг",
+                "en": "7.9 kg",
+                "es": "7,9 kg",
+                "fr": "7,9 kg",
+                "ko": "7.9 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+              "args": {},
+              "lines": {
+                "ru": "Пулестойкость",
+                "en": "Bullet resistance",
+                "es": "Resistencia a las balas",
+                "fr": "Résistance aux balles",
+                "ko": "총탄 저항율"
+              }
+            },
+            "value": 20,
+            "formatted": {
+              "value": {
+                "ru": "20",
+                "en": "20",
+                "es": "20",
+                "fr": "20",
+                "ko": "20"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+              "args": {},
+              "lines": {
+                "ru": "Защита от разрыва",
+                "en": "Laceration protection",
+                "es": "Protección contra laceración",
+                "fr": "Protection contre les lacérations",
+                "ko": "열상 저항율"
+              }
+            },
+            "value": 40,
+            "formatted": {
+              "value": {
+                "ru": "40",
+                "en": "40",
+                "es": "40",
+                "fr": "40",
+                "ko": "40"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12040",
+    "category": "backpacks",
+    "name": {
+      "type": "translation",
+      "key": "item.cont.apiary.name",
+      "args": {},
+      "lines": {
+        "ru": "Контейнер «Пасека»",
+        "en": "Apiary Container",
+        "es": "Contenedor Apiario",
+        "fr": "Conteneur pour Ruchers",
+        "ko": "벌꿀집 컨테이너"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 8,
+            "formatted": {
+              "value": {
+                "ru": "8 кг",
+                "en": "8 kg",
+                "es": "8 kg",
+                "fr": "8 kg",
+                "ko": "8 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.cont.apiary.description",
+          "args": {},
+          "lines": {
+            "ru": "Один из шедевров НИИ-7, разработанный в качестве продолжения серии «КЗК», сохранивший идею совмещения компактности и объема.\\nКак и «Берлога-6У», «КЗК-4» был снабжен модифицированным вариантом компонента на основе образца №3-ВА, что улучшило эффективность контейнера.\\nСталкеры, не долго думая, решили дать разработке института название, соответствующее прочим контейнерам серии.",
+            "en": "One of Research Institute 7's masterpieces, developed as a continuation of the KZK series, retaining the idea of combining compactness and volume.\\nLike the Berloga-6U, KZK-4 was equipped with a modified component based on sample No. 3-EA, which improved the container's efficiency.\\nStalkers, not thinking long, decided to give the institute's development a name consistent with other containers in the series.",
+            "es": "Una de las obras maestras del Instituto de Investigación 7, desarrollada como continuación de la serie de KZK, conservando la idea de combinar compacidad y volumen.\\nAl igual que el Berloga-6u, KZK-4 estaba equipado con una versión modificada de un componente basado en la muestra nº 3-IA, que mejoraba la eficiencia del contenedor.\\nAcechadores, sin pensarlo lo suficiente, decidió dar al desarrollo del Instituto un nombre correspondiente a los demás contenedores de la serie.",
+            "fr": "L'un des chefs-d'œuvre de l'Institut de Recherche 7, développé comme une continuation de la série « KZK », conservant l'idée d'allier compacité et capacité.\\nComme le Berloga-6U, le « KZK-4 » a été équipé d'une version modifiée du composant basé sur l'échantillon n°3-IA, ce qui a amélioré l'efficacité du conteneur.\\nSans trop réfléchir, les Stalkers ont décidé de donner à ce développement un nom correspondant aux autres conteneurs de la série.",
+            "ko": "제 7 연구소가 KZK 시리즈의 연장선으로 개발한 걸작 중 하나로, 콤팩트함과 용적을 동시에 추구한 발상을 그대로 유지한 모델입니다.\\n베를로가-6U와 마찬가지로 KZK-4 역시 표본 3호-EA 기반 구성 요소의 개조판이 탑재되었고, 그 덕에 해당 컨테이너의 효율이 올랐습니다.\\n스토커들은 고민할 것도 없이, 이 시리즈의 다른 컨테이너들과 일관된 이름을 연구소의 개발품에 붙이기로 결정했습니다."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "12076",
+    "category": "backpacks",
+    "name": {
+      "type": "translation",
+      "key": "item.bag.router.name",
+      "args": {},
+      "lines": {
+        "ru": "Рюкзак оператора",
+        "en": "Operator's backpack",
+        "es": "Mochila del operador",
+        "fr": "Sac à dos de l’opérateur",
+        "ko": "전투요원의 배낭"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "PERSONAL_ON_GET"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.master",
+              "args": {},
+              "lines": {
+                "ru": "Мастер",
+                "en": "Master",
+                "es": "Maestro",
+                "fr": "Maître",
+                "ko": "마스터"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 12,
+            "formatted": {
+              "value": {
+                "ru": "12 кг",
+                "en": "12 kg",
+                "es": "12 kg",
+                "fr": "12 kg",
+                "ko": "12 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12075",
+    "category": "backpacks",
+    "name": {
+      "type": "translation",
+      "key": "go.frontline_zombie_tv_1.name",
+      "args": {},
+      "lines": {
+        "ru": "Зомбо-ящик",
+        "en": "Zombie Box",
+        "es": "Caja tonta",
+        "fr": "Boîte à zombies",
+        "ko": "좀비 상자"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "PERSONAL_ON_GET"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.picklock",
+              "args": {},
+              "lines": {
+                "ru": "Отмычка",
+                "en": "Picklock",
+                "es": "Ratero",
+                "fr": "Crocheteur",
+                "ko": "신입"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 9,
+            "formatted": {
+              "value": {
+                "ru": "9 кг",
+                "en": "9 kg",
+                "es": "9 kg",
+                "fr": "9 kg",
+                "ko": "9 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12065",
+    "category": "backpacks",
+    "name": {
+      "type": "translation",
+      "key": "item.cont.barrelu.name",
+      "args": {},
+      "lines": {
+        "ru": "Контейнер «Бочонок-У»",
+        "en": "Barrel-U Container",
+        "es": "Contenedor Barrica-U",
+        "fr": "Conteneur Tonneau-U",
+        "ko": "배럴-U 컨테이너"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 12.95,
+            "formatted": {
+              "value": {
+                "ru": "12,95 кг",
+                "en": "12.95 kg",
+                "es": "12,95 kg",
+                "fr": "12,95 kg",
+                "ko": "12.95 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.cont.barrelu.description",
+          "args": {},
+          "lines": {
+            "ru": "Новейший контейнер из серии «КЗР». За свой внешний вид получила прозвище «Бочонок» среди сталкеров.\\nВ отличие от других контейнеров этой серии, обладает одной из передовых систем для повышения эффективности, которая была использована в том числе при изготовлении и разработке «Улья».",
+            "en": "The newest container from the KZR series. It earned the nickname 'Barrel' among stalkers due to its appearance.\\nUnlike other containers in this series, it features one of the advanced systems for enhancing effectiveness, which was also used in the production and development of Hive.",
+            "es": "El contenedor más nuevo de la serie de KZR. Recibe el apodo de Barrica entre los acechadores por su aspecto.\\nA diferencia de otros contenedores de esta serie, dispone de uno de los sistemas más avanzados para aumentar la eficacia, que se utilizó también en la fabricación y el desarrollo de Colmena.",
+            "fr": "Le tout nouveau conteneur de la série « KZR ». En raison de son apparence extérieure, il a été surnommé Tonneau par les Stalkers.\\nContrairement aux autres conteneurs de cette série, il est doté de l'un des systèmes les plus avancés pour améliorer l'efficacité, système également utilisé dans la fabrication et le développement de la Ruche.",
+            "ko": "KZR 시리즈 최신 컨테이너입니다. 외형 때문에 스토커들은 이를 '배럴'이라는 별명으로 부릅니다.\\n이 시리즈의 다른 컨테이너들과 달리 효율 향상을 위한 첨단 시스템 중 하나가 적용되어 있는데, 이 기술은 군집의 제작 및 개발에도 사용된 바 있습니다."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "12021",
+    "category": "backpacks",
+    "name": {
+      "type": "translation",
+      "key": "item.cont.bathyscaphe.name",
+      "args": {},
+      "lines": {
+        "ru": "Контейнер «Батискаф»",
+        "en": "Bathyscaphe Container",
+        "es": "Contenedor Batiscafo",
+        "fr": "Conteneur Bathyscaphe",
+        "ko": "바티스카프 컨테이너"
+      }
+    },
+    "color": "RANK_STALKER",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.stalker",
+              "args": {},
+              "lines": {
+                "ru": "Сталкер",
+                "en": "Stalker",
+                "es": "Acechador",
+                "fr": "Stalker",
+                "ko": "스토커"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 3.6,
+            "formatted": {
+              "value": {
+                "ru": "3,6 кг",
+                "en": "3.6 kg",
+                "es": "3,6 kg",
+                "fr": "3,6 kg",
+                "ko": "3.6 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12022",
+    "category": "backpacks",
+    "name": {
+      "type": "translation",
+      "key": "item.cont.psychocell.name",
+      "args": {},
+      "lines": {
+        "ru": "Контейнер «Психоклетка»",
+        "en": "Psychocell Container",
+        "es": "Contenedor Psicojaula",
+        "fr": "Conteneur Psychocage",
+        "ko": "사이코 셀 컨테이너"
+      }
+    },
+    "color": "RANK_VETERAN",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.veteran",
+              "args": {},
+              "lines": {
+                "ru": "Ветеран",
+                "en": "Veteran",
+                "es": "Veterano",
+                "fr": "Vétéran",
+                "ko": "베테랑"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 3.8,
+            "formatted": {
+              "value": {
+                "ru": "3,8 кг",
+                "en": "3.8 kg",
+                "es": "3,8 kg",
+                "fr": "3,8 kg",
+                "ko": "3.8 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9187",
+    "category": "backpacks",
+    "name": {
+      "type": "translation",
+      "key": "item.bag.flamethrower.name",
+      "args": {},
+      "lines": {
+        "ru": "Огнеметный баллон",
+        "en": "Flamethrower Tank",
+        "es": "Depósito de lanzallamas",
+        "fr": "Bouteille de lance-flammes",
+        "ko": "화염방사기용 가스통"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.picklock",
+              "args": {},
+              "lines": {
+                "ru": "Отмычка",
+                "en": "Picklock",
+                "es": "Ratero",
+                "fr": "Crocheteur",
+                "ko": "신입"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 1.4,
+            "formatted": {
+              "value": {
+                "ru": "1,4 кг",
+                "en": "1.4 kg",
+                "es": "1,4 kg",
+                "fr": "1,4 kg",
+                "ko": "1.4 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12036",
+    "category": "backpacks",
+    "name": {
+      "type": "translation",
+      "key": "item.cont.faraday.name",
+      "args": {},
+      "lines": {
+        "ru": "Контейнер «Фарадей»",
+        "en": "Faraday Container",
+        "es": "Contenedor Faraday",
+        "fr": "Conteneur Faraday",
+        "ko": "패러데이 컨테이너"
+      }
+    },
+    "color": "RANK_MASTER",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.master",
+              "args": {},
+              "lines": {
+                "ru": "Мастер",
+                "en": "Master",
+                "es": "Maestro",
+                "fr": "Maître",
+                "ko": "마스터"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 4.8,
+            "formatted": {
+              "value": {
+                "ru": "4,8 кг",
+                "en": "4.8 kg",
+                "es": "4,8 kg",
+                "fr": "4,8 kg",
+                "ko": "4.8 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.durability",
+              "args": {},
+              "lines": {
+                "ru": "Прочность",
+                "en": "Durability",
+                "es": "Durabilidad",
+                "fr": "Durabilité",
+                "ko": "내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.max_durability",
+              "args": {},
+              "lines": {
+                "ru": "Макс. прочность",
+                "en": "Max. durability",
+                "es": "Durabilidad máx.",
+                "fr": "Durabilité Max.",
+                "ko": "최대 내구도"
+              }
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
   }
 ]

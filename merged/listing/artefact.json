@@ -1,4 +1,3520 @@
 {
+  "11205": {
+    "id": "11205",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.puh_mochalka.name",
+      "args": {},
+      "lines": {
+        "ru": "Мочалка",
+        "en": "Sponge",
+        "es": "Esponja",
+        "fr": "Éponge",
+        "ko": "스펀지"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NON_DROP"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11206": {
+    "id": "11206",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.puh_oxyd.name",
+      "args": {},
+      "lines": {
+        "ru": "Оксид",
+        "en": "Oxide",
+        "es": "Óxido",
+        "fr": "Oxyde",
+        "ko": "산화물"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NON_DROP"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11400": {
+    "id": "11400",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.11400.name",
+      "args": {},
+      "lines": {
+        "ru": "Зеленый шар",
+        "en": "Green Ball",
+        "es": "Bola verde",
+        "fr": "Boule Verte",
+        "ko": "녹색 공"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.11400.description",
+          "args": {},
+          "lines": {
+            "ru": "Памятный сувенир с новогоднего праздника.",
+            "en": "A memento from the New Year's Celebration.",
+            "es": "Un recuerdo de la celebración de Año Nuevo.",
+            "fr": "Un souvenir de la Célébration du Nouvel An.",
+            "ko": "새해 축제를 기념하는 추억의 물품."
+          }
+        }
+      }
+    ]
+  },
+  "11401": {
+    "id": "11401",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.11401.name",
+      "args": {},
+      "lines": {
+        "ru": "Красный шар",
+        "en": "Red Ball",
+        "es": "Bola roja",
+        "fr": "Boule Rouge",
+        "ko": "빨간 공"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.11401.description",
+          "args": {},
+          "lines": {
+            "ru": "Памятный сувенир с новогоднего праздника.",
+            "en": "A memento from the New Year's Celebration.",
+            "es": "Un recuerdo de la celebración de Año Nuevo.",
+            "fr": "Un souvenir de la Célébration du Nouvel An.",
+            "ko": "새해 축제를 기념하는 추억의 물품."
+          }
+        }
+      }
+    ]
+  },
+  "11403": {
+    "id": "11403",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.11403.name",
+      "args": {},
+      "lines": {
+        "ru": "Пустоголовый",
+        "en": "Empty-Headed",
+        "es": "Cabeza hueca",
+        "fr": "Tête Vide",
+        "ko": "빈머리"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "text": {
+          "type": "translation",
+          "key": "item.11403.description",
+          "args": {},
+          "lines": {
+            "ru": "Не учатся ничему некоторые, и учиться не хотят. Кина американского насмотрелись или крышу срывает от жадности? Ты ему про аномалии, он тебе про хабар. Ни о чем думать не хотят, кроме бабок! Пока голова в тыкву не превратится...",
+            "en": "Some people can't be taught and don't want to learn. Watched too many American films or driven crazy by greed? You talk about anomalies, they talk about loot. Don't want to think about anything but money! Till their head gets turned into a pumpkin.",
+            "es": "A algunas personas no se les puede enseñar y no quieren aprender. ¿Has visto demasiadas películas americanas o te ha vuelto loco la codicia? Tú hablas de anomalías, ellos hablan de botín. ¡No quieren pensar en nada más que en dinero! Hasta que su cabeza se convierta en una calabaza.",
+            "fr": "Certaines personnes ne peuvent pas être enseignées et ne veulent pas apprendre. Ont-ils regardé trop de films américains ou sont-ils rendus fous par l'appât du gain ? Vous parlez d'anomalies, ils parlent de butin. Ils ne veulent penser à rien d'autre qu'à l'argent ! Jusqu'à ce que leur tête soit transformée en citrouille.",
+            "ko": "어떤 사람들은 아무리 가르쳐도 배우려 들지 않는다. 미국 영화나 너무 많이 봤든가, 아니면 탐욕에 사로잡혔다든가. 이상현상에 대한 이야기를 꺼내면 그들은 전리품 같은 소리만 한다. 돈밖에 생각할 줄 모른다는 것이다! 그러다가 머리가 호박으로 변하기 전까지 말이다."
+          }
+        }
+      }
+    ]
+  },
+  "11404": {
+    "id": "11404",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_lifewater.name",
+      "args": {},
+      "lines": {
+        "ru": "Живая вода",
+        "en": "Water Of Life",
+        "es": "Agua de la vida",
+        "fr": "Eau de vie",
+        "ko": "생명의 물"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.health_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Живучесть",
+                "en": "Vitality",
+                "es": "Vitalidad",
+                "fr": "Vitalité",
+                "ko": "생명력"
+              }
+            },
+            "value": 6.667,
+            "formatted": {
+              "value": {
+                "ru": "6,67%",
+                "en": "6.67%",
+                "es": "6,67%",
+                "fr": "6,67%",
+                "ko": "6.67%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11405": {
+    "id": "11405",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_apple.name",
+      "args": {},
+      "lines": {
+        "ru": "Молодильное яблоко",
+        "en": "Youth-giving Apple",
+        "es": "Manzana de la juventud",
+        "fr": "Pomme de jouvence",
+        "ko": "젊음을 주는 사과"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.regeneration_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Регенерация здоровья",
+                "en": "Health regeneration",
+                "es": "Regeneración de salud",
+                "fr": "Régénération de la santé",
+                "ko": "체력 회복력"
+              }
+            },
+            "value": 8.333,
+            "formatted": {
+              "value": {
+                "ru": "8,33%",
+                "en": "8.33%",
+                "es": "8,33%",
+                "fr": "8,33%",
+                "ko": "8.33%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11406": {
+    "id": "11406",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_sword.name",
+      "args": {},
+      "lines": {
+        "ru": "Меч-кладенец",
+        "en": "Self-swinging sword",
+        "es": "Espada autooscilante",
+        "fr": "Épée animée",
+        "ko": "스스로 공격하는 검"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11407": {
+    "id": "11407",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_boots.name",
+      "args": {},
+      "lines": {
+        "ru": "Сапоги-скороходы",
+        "en": "Seven-league boots",
+        "es": "Botas de siete leguas",
+        "fr": "Bottes de sept lieues",
+        "ko": "마법 장화"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.speed_modifier",
+              "args": {},
+              "lines": {
+                "ru": "Скорость передвижения",
+                "en": "Movement speed",
+                "es": "Velocidad de movimiento",
+                "fr": "Vitesse de déplacement",
+                "ko": "이동 속도"
+              }
+            },
+            "value": 10,
+            "formatted": {
+              "value": {
+                "ru": "10%",
+                "en": "10%",
+                "es": "10%",
+                "fr": "10%",
+                "ko": "10%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.health_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Живучесть",
+                "en": "Vitality",
+                "es": "Vitalidad",
+                "fr": "Vitalité",
+                "ko": "생명력"
+              }
+            },
+            "value": -10,
+            "formatted": {
+              "value": {
+                "ru": "-10%",
+                "en": "-10%",
+                "es": "-10%",
+                "fr": "-10%",
+                "ko": "-10%"
+              },
+              "nameColor": "C15252",
+              "valueColor": "C15252"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11408": {
+    "id": "11408",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_shield.name",
+      "args": {},
+      "lines": {
+        "ru": "Щит Святополка",
+        "en": "Sviatopolk's shield",
+        "es": "Escudo de Svyatopolk",
+        "fr": "Bouclier de Sviatopolk",
+        "ko": "스비아토폴크의 방패"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+              "args": {},
+              "lines": {
+                "ru": "Пулестойкость",
+                "en": "Bullet resistance",
+                "es": "Resistencia a las balas",
+                "fr": "Résistance aux balles",
+                "ko": "총탄 저항율"
+              }
+            },
+            "value": 33.333,
+            "formatted": {
+              "value": {
+                "ru": "33,33",
+                "en": "33.33",
+                "es": "33,33",
+                "fr": "33,33",
+                "ko": "33.33"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11409": {
+    "id": "11409",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_horseshoe.name",
+      "args": {},
+      "lines": {
+        "ru": "Подкова Конька-Горбунка",
+        "en": "Horseshoe of the Little Humpbacked Horse",
+        "es": "Herradura del caballito jorobado",
+        "fr": "Fer à cheval du petit cheval bossu",
+        "ko": "작은 허리 굽은 말의 말굽"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+              "args": {},
+              "lines": {
+                "ru": "Пулестойкость",
+                "en": "Bullet resistance",
+                "es": "Resistencia a las balas",
+                "fr": "Résistance aux balles",
+                "ko": "총탄 저항율"
+              }
+            },
+            "value": 11,
+            "formatted": {
+              "value": {
+                "ru": "11",
+                "en": "11",
+                "es": "11",
+                "fr": "11",
+                "ko": "11"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+              "args": {},
+              "lines": {
+                "ru": "Защита от разрыва",
+                "en": "Laceration protection",
+                "es": "Protección contra laceración",
+                "fr": "Protection contre les lacérations",
+                "ko": "열상 저항율"
+              }
+            },
+            "value": 33.333,
+            "formatted": {
+              "value": {
+                "ru": "33,33",
+                "en": "33.33",
+                "es": "33,33",
+                "fr": "33,33",
+                "ko": "33.33"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11410": {
+    "id": "11410",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_tablecloth.name",
+      "args": {},
+      "lines": {
+        "ru": "Скатерть-самобранка",
+        "en": "Magic Tablecloth",
+        "es": "Mantel mágico",
+        "fr": "Nappe magique",
+        "ko": "마법 식탁보"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.stamina_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Выносливость",
+                "en": "Stamina",
+                "es": "Aguante",
+                "fr": "Endurance",
+                "ko": "스태미나"
+              }
+            },
+            "value": 66.667,
+            "formatted": {
+              "value": {
+                "ru": "66,67%",
+                "en": "66.67%",
+                "es": "66,67%",
+                "fr": "66,67%",
+                "ko": "66.67%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.artefakt_heal",
+              "args": {},
+              "lines": {
+                "ru": "Периодическое лечение",
+                "en": "Periodic healing",
+                "es": "Curación periódica",
+                "fr": "Soins périodiques",
+                "ko": "지속 치유"
+              }
+            },
+            "value": 2,
+            "formatted": {
+              "value": {
+                "ru": "2%",
+                "en": "2%",
+                "es": "2%",
+                "fr": "2%",
+                "ko": "2%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11411": {
+    "id": "11411",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_flower.name",
+      "args": {},
+      "lines": {
+        "ru": "Цветик-семицветик",
+        "en": "Flower of Seven Colours",
+        "es": "Flor de siete colores",
+        "fr": "Fleur aux sept couleurs",
+        "ko": "일곱 가지 색의 꽃"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+              "args": {},
+              "lines": {
+                "ru": "Пулестойкость",
+                "en": "Bullet resistance",
+                "es": "Resistencia a las balas",
+                "fr": "Résistance aux balles",
+                "ko": "총탄 저항율"
+              }
+            },
+            "value": 11,
+            "formatted": {
+              "value": {
+                "ru": "11",
+                "en": "11",
+                "es": "11",
+                "fr": "11",
+                "ko": "11"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11412": {
+    "id": "11412",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_gusli.name",
+      "args": {},
+      "lines": {
+        "ru": "Гусли Садко",
+        "en": "Sadko's Gusli",
+        "es": "Gusli de Sadko",
+        "fr": "Gousli de Sadko",
+        "ko": "사드코의 구슬리"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Восстановление выносливости",
+                "en": "Stamina regeneration",
+                "es": "Regeneración de aguante",
+                "fr": "Régénération de l'endurance",
+                "ko": "스태미나 재생"
+              }
+            },
+            "value": 13.333,
+            "formatted": {
+              "value": {
+                "ru": "13,33%",
+                "en": "13.33%",
+                "es": "13,33%",
+                "fr": "13,33%",
+                "ko": "13.33%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.health_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Живучесть",
+                "en": "Vitality",
+                "es": "Vitalidad",
+                "fr": "Vitalité",
+                "ko": "생명력"
+              }
+            },
+            "value": 2.333,
+            "formatted": {
+              "value": {
+                "ru": "2,33%",
+                "en": "2.33%",
+                "es": "2,33%",
+                "fr": "2,33%",
+                "ko": "2.33%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+              "args": {},
+              "lines": {
+                "ru": "Кровотечение",
+                "en": "Bleeding",
+                "es": "Hemorragia",
+                "fr": "Saignement",
+                "ko": "출혈"
+              }
+            },
+            "value": -10,
+            "formatted": {
+              "value": {
+                "ru": "-10%",
+                "en": "-10%",
+                "es": "-10%",
+                "fr": "-10%",
+                "ko": "-10%"
+              },
+              "nameColor": "C15252",
+              "valueColor": "C15252"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11413": {
+    "id": "11413",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_pie.name",
+      "args": {},
+      "lines": {
+        "ru": "Чудесный пирожок",
+        "en": "Miracle pie",
+        "es": "Tarta milagro",
+        "fr": "Tarte miracle",
+        "ko": "기적의 파이"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.heal_efficiency",
+              "args": {},
+              "lines": {
+                "ru": "Эффективность лечения",
+                "en": "Healing effectiveness",
+                "es": "Eficacia de curación",
+                "fr": "Efficacité des soins",
+                "ko": "치유 효율"
+              }
+            },
+            "value": 36.666,
+            "formatted": {
+              "value": {
+                "ru": "36,67%",
+                "en": "36.67%",
+                "es": "36,67%",
+                "fr": "36,67%",
+                "ko": "36.67%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11414": {
+    "id": "11414",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_broom.name",
+      "args": {},
+      "lines": {
+        "ru": "Метла Яги",
+        "en": "Yaga's Broom",
+        "es": "Escoba de Yaga",
+        "fr": "Balai de Yaga",
+        "ko": "야가의 빗자루"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.speed_modifier",
+              "args": {},
+              "lines": {
+                "ru": "Скорость передвижения",
+                "en": "Movement speed",
+                "es": "Velocidad de movimiento",
+                "fr": "Vitesse de déplacement",
+                "ko": "이동 속도"
+              }
+            },
+            "value": 10,
+            "formatted": {
+              "value": {
+                "ru": "10%",
+                "en": "10%",
+                "es": "10%",
+                "fr": "10%",
+                "ko": "10%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.health_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Живучесть",
+                "en": "Vitality",
+                "es": "Vitalidad",
+                "fr": "Vitalité",
+                "ko": "생명력"
+              }
+            },
+            "value": -10,
+            "formatted": {
+              "value": {
+                "ru": "-10%",
+                "en": "-10%",
+                "es": "-10%",
+                "fr": "-10%",
+                "ko": "-10%"
+              },
+              "nameColor": "C15252",
+              "valueColor": "C15252"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11415": {
+    "id": "11415",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_tail.name",
+      "args": {},
+      "lines": {
+        "ru": "Хвост Треклятого Ящера",
+        "en": "Tail of the Damned Lizard",
+        "es": "Cola del lagarto maldito",
+        "fr": "Queue du Lézard Maudit",
+        "ko": "저주받은 도마뱀의 꼬리"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11416": {
+    "id": "11416",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_hat.name",
+      "args": {},
+      "lines": {
+        "ru": "Шапка-невидимка",
+        "en": "Invisibility hat",
+        "es": "Sombrero de invisibilidad",
+        "fr": "Chapeau d'invisibilité",
+        "ko": "투명망토 모자"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11417": {
+    "id": "11417",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_helmet.name",
+      "args": {},
+      "lines": {
+        "ru": "Шлем Черномора",
+        "en": "Chernomor's helmet",
+        "es": "Casco de Chernomor",
+        "fr": "Casque de Chernomor",
+        "ko": "체르노모르의 헬멧"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.health_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Живучесть",
+                "en": "Vitality",
+                "es": "Vitalidad",
+                "fr": "Vitalité",
+                "ko": "생명력"
+              }
+            },
+            "value": 2.333,
+            "formatted": {
+              "value": {
+                "ru": "2,33%",
+                "en": "2.33%",
+                "es": "2,33%",
+                "fr": "2,33%",
+                "ko": "2.33%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+              "args": {},
+              "lines": {
+                "ru": "Защита от взрыва",
+                "en": "Explosion protection",
+                "es": "Protección contra explosiones",
+                "fr": "Protection contre les explosions",
+                "ko": "폭발 저항율"
+              }
+            },
+            "value": 33.333,
+            "formatted": {
+              "value": {
+                "ru": "33,33",
+                "en": "33.33",
+                "es": "33,33",
+                "fr": "33,33",
+                "ko": "33.33"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.stopping_protection",
+              "args": {},
+              "lines": {
+                "ru": "Стойкость",
+                "en": "Stability",
+                "es": "Estabilidad",
+                "fr": "Stabilité",
+                "ko": "안정성"
+              }
+            },
+            "value": 66.667,
+            "formatted": {
+              "value": {
+                "ru": "66,67",
+                "en": "66.67",
+                "es": "66,67",
+                "fr": "66,67",
+                "ko": "66.67"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11418": {
+    "id": "11418",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_hair.name",
+      "args": {},
+      "lines": {
+        "ru": "Волос из бороды Хоттабыча",
+        "en": "Khottabych beard hair",
+        "es": "Pelo de barba de Khottabych",
+        "fr": "Poils de barbe de Khottabych",
+        "ko": "코타비치의 수염 털"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.health_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Живучесть",
+                "en": "Vitality",
+                "es": "Vitalidad",
+                "fr": "Vitalité",
+                "ko": "생명력"
+              }
+            },
+            "value": 3.333,
+            "formatted": {
+              "value": {
+                "ru": "3,33%",
+                "en": "3.33%",
+                "es": "3,33%",
+                "fr": "3,33%",
+                "ko": "3.33%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11419": {
+    "id": "11419",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.art.ravent_feather.name",
+      "args": {},
+      "lines": {
+        "ru": "Перо Жар-птицы",
+        "en": "Firebird Feather",
+        "es": "Pluma de ave llameante",
+        "fr": "Plume de l'oiseau de feu",
+        "ko": "붉은 꾀꼬리 깃털"
+      }
+    },
+    "color": "RANK_LEGEND",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "key-value",
+            "key": {
+              "type": "translation",
+              "key": "core.tooltip.info.rank",
+              "args": {},
+              "lines": {
+                "ru": "Ранг",
+                "en": "Rank",
+                "es": "Rango",
+                "fr": "Rang",
+                "ko": "등급"
+              }
+            },
+            "value": {
+              "type": "translation",
+              "key": "core.rank.legend",
+              "args": {},
+              "lines": {
+                "ru": "Легенда",
+                "en": "Legend",
+                "es": "Leyenda",
+                "fr": "Légende",
+                "ko": "전설"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "core.tooltip.info.weight",
+              "args": {},
+              "lines": {
+                "ru": "Вес",
+                "en": "Weight",
+                "es": "Peso",
+                "fr": "Poids",
+                "ko": "무게"
+              }
+            },
+            "value": 0,
+            "formatted": {
+              "value": {
+                "ru": "0 кг",
+                "en": "0 kg",
+                "es": "0 kg",
+                "fr": "0 kg",
+                "ko": "0 kg"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Восстановление выносливости",
+                "en": "Stamina regeneration",
+                "es": "Regeneración de aguante",
+                "fr": "Régénération de l'endurance",
+                "ko": "스태미나 재생"
+              }
+            },
+            "value": 10,
+            "formatted": {
+              "value": {
+                "ru": "10%",
+                "en": "10%",
+                "es": "10%",
+                "fr": "10%",
+                "ko": "10%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.regeneration_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Регенерация здоровья",
+                "en": "Health regeneration",
+                "es": "Regeneración de salud",
+                "fr": "Régénération de la santé",
+                "ko": "체력 회복력"
+              }
+            },
+            "value": 1.667,
+            "formatted": {
+              "value": {
+                "ru": "1,67%",
+                "en": "1.67%",
+                "es": "1,67%",
+                "fr": "1,67%",
+                "ko": "1.67%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.heal_efficiency",
+              "args": {},
+              "lines": {
+                "ru": "Эффективность лечения",
+                "en": "Healing effectiveness",
+                "es": "Eficacia de curación",
+                "fr": "Efficacité des soins",
+                "ko": "치유 효율"
+              }
+            },
+            "value": 36.666,
+            "formatted": {
+              "value": {
+                "ru": "36,67%",
+                "en": "36.67%",
+                "es": "36,67%",
+                "fr": "36,67%",
+                "ko": "36.67%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.recoil_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Отдача",
+                "en": "Recoil",
+                "es": "Retroceso",
+                "fr": "Recul",
+                "ko": "반동"
+              }
+            },
+            "value": -33.333,
+            "formatted": {
+              "value": {
+                "ru": "-33,33%",
+                "en": "-33.33%",
+                "es": "-33,33%",
+                "fr": "-33,33%",
+                "ko": "-33.33%"
+              },
+              "nameColor": "C15252",
+              "valueColor": "C15252"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.spread_bonus",
+              "args": {},
+              "lines": {
+                "ru": "Разброс",
+                "en": "Spread",
+                "es": "Dispersión",
+                "fr": "Dispersion",
+                "ko": "탄퍼짐"
+              }
+            },
+            "value": -33.333,
+            "formatted": {
+              "value": {
+                "ru": "-33,33%",
+                "en": "-33.33%",
+                "es": "-33,33%",
+                "fr": "-33,33%",
+                "ko": "-33.33%"
+              },
+              "nameColor": "C15252",
+              "valueColor": "C15252"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.frost_accumulation",
+              "args": {},
+              "lines": {
+                "ru": "Холод",
+                "en": "Frost",
+                "es": "Congelación",
+                "fr": "Givre",
+                "ko": "서리"
+              }
+            },
+            "value": -2,
+            "formatted": {
+              "value": {
+                "ru": "-2%",
+                "en": "-2%",
+                "es": "-2%",
+                "fr": "-2%",
+                "ko": "-2%"
+              },
+              "nameColor": "C15252",
+              "valueColor": "C15252"
+            }
+          },
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.combustion_accumulation",
+              "args": {},
+              "lines": {
+                "ru": "Горение",
+                "en": "Burning",
+                "es": "Quemadura",
+                "fr": "Combustion",
+                "ko": "발화"
+              }
+            },
+            "value": 10,
+            "formatted": {
+              "value": {
+                "ru": "10%",
+                "en": "10%",
+                "es": "10%",
+                "fr": "10%",
+                "ko": "10%"
+              },
+              "nameColor": "53C353",
+              "valueColor": "53C353"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+              "args": {},
+              "lines": {
+                "ru": "Защита от огня",
+                "en": "Fire resistance",
+                "es": "Resistencia al fuego",
+                "fr": "Résistance au feu",
+                "ko": "화염 저항율"
+              }
+            },
+            "value": 333.333,
+            "formatted": {
+              "value": {
+                "ru": "333,33",
+                "en": "333.33",
+                "es": "333,33",
+                "fr": "333,33",
+                "ko": "333.33"
+              },
+              "nameColor": "838383",
+              "valueColor": "EEEEEE"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "28000": {
+    "id": "28000",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.28000.name",
+      "args": {},
+      "lines": {
+        "ru": "Артефакт «Катушка тесла»",
+        "en": "Tesla Coil Artifact",
+        "es": "Artefacto bobina Tesla",
+        "fr": "Artefact Bobine de Tesla",
+        "ko": "테슬라 코일 아티팩트"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "28001": {
+    "id": "28001",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.28001.name",
+      "args": {},
+      "lines": {
+        "ru": "Артефакт «Трансформатор»",
+        "en": "Transformer Artifact",
+        "es": "Artefacto Transformador",
+        "fr": "Artefact Transformateur",
+        "ko": "변압기 아티팩트"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "28025": {
+    "id": "28025",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.28025.name",
+      "args": {},
+      "lines": {
+        "ru": "Артефакт «Зажигалка»",
+        "en": "Lighter Artifact",
+        "es": "Artefacto Abrasador",
+        "fr": "Artefact Briquet",
+        "ko": "라이터 아티팩트"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "28026": {
+    "id": "28026",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.28026.name",
+      "args": {},
+      "lines": {
+        "ru": "Артефакт «Искра»",
+        "en": "Spark Artifact",
+        "es": "Artefacto Chispa",
+        "fr": "Artefact Étincelle",
+        "ko": "불꽃 아티팩트"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "28050": {
+    "id": "28050",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.28050.name",
+      "args": {},
+      "lines": {
+        "ru": "Артефакт «Антиграв»",
+        "en": "Anti-Grav Artifact",
+        "es": "Artefacto antigravitatorio",
+        "fr": "Artefact Anti-Grav",
+        "ko": "반중력 아티팩트"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "28051": {
+    "id": "28051",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.28051.name",
+      "args": {},
+      "lines": {
+        "ru": "Артефакт «Магнит»",
+        "en": "Magnet Artifact",
+        "es": "Artefacto Imán",
+        "fr": "Artefact Aimant",
+        "ko": "자석 아티팩트"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "28052": {
+    "id": "28052",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.28052.name",
+      "args": {},
+      "lines": {
+        "ru": "Артефакт «Пустота»",
+        "en": "Void Artifact",
+        "es": "Artefacto Vacío",
+        "fr": "Artefact Vide",
+        "ko": "공허 아티팩트"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "28075": {
+    "id": "28075",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.28075.name",
+      "args": {},
+      "lines": {
+        "ru": "Артефакт «Токсикоз»",
+        "en": "Toxicosis Artifact",
+        "es": "Artefacto Toxicosis",
+        "fr": "Artefact Toxicose",
+        "ko": "중독 아티팩트"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "28076": {
+    "id": "28076",
+    "category": "artefact",
+    "name": {
+      "type": "translation",
+      "key": "item.28076.name",
+      "args": {},
+      "lines": {
+        "ru": "Артефакт «Проклятье»",
+        "en": "Curse Artifact",
+        "es": "Artefacto Maldición",
+        "fr": "Artefact Malédiction",
+        "ko": "저주 아티팩트"
+      }
+    },
+    "color": "DEFAULT",
+    "status": {
+      "state": "NONE"
+    },
+    "infoBlocks": [
+      {
+        "type": "list",
+        "title": {
+          "type": "text",
+          "text": ""
+        },
+        "elements": [
+          {
+            "type": "numeric",
+            "name": {
+              "type": "translation",
+              "key": "stalker.tooltip.artefact.info.durability",
+              "args": {},
+              "lines": {}
+            },
+            "value": 100,
+            "formatted": {
+              "value": {
+                "ru": "100%",
+                "en": "100%",
+                "es": "100%",
+                "fr": "100%",
+                "ko": "100%"
+              },
+              "nameColor": "838383",
+              "valueColor": "838383"
+            }
+          }
+        ]
+      }
+    ]
+  },
   "wgvd": {
     "id": "wgvd",
     "category": "artefact/biochemical",

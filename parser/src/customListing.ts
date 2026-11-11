@@ -1,9 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
 
-// Добавляет предметы из merged/items/custom в merged/listing.json,
-// чтобы они были видны в листинге сайта после каждого мержа.
-
 interface CustomItemEntry {
 	data: string;
 	name?: Record<string, string>;
@@ -11,12 +8,30 @@ interface CustomItemEntry {
 	[key: string]: unknown;
 }
 
+const SOURCES = [
+	{ dir: ["items", "custom"], prefix: "/items/custom" },
+	{ dir: ["items", "uno"], prefix: "/items/uno" },
+];
+
+function collectJsonFiles(dir: string): string[] {
+	const results: string[] = [];
+
+	for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+		const fullPath = path.join(dir, entry.name);
+		if (entry.isFile() && entry.name.endsWith(".json")) {
+			results.push(fullPath);
+		} else if (entry.isDirectory()) {
+			results.push(...collectJsonFiles(fullPath));
+		}
+	}
+
+	return results;
+}
+
 export async function addCustomToListing(outDir: string) {
 	const listingPath = path.join(outDir, "listing.json");
-	const customDir = path.join(outDir, "items", "custom");
 
 	if (!fs.existsSync(listingPath)) return;
-	if (!fs.existsSync(customDir)) return;
 
 	const listing: CustomItemEntry[] = JSON.parse(
 		fs.readFileSync(listingPath, "utf-8"),
@@ -27,40 +42,46 @@ export async function addCustomToListing(outDir: string) {
 	let added = 0;
 	let skipped = 0;
 
-	for (const f of fs.readdirSync(customDir)) {
-		if (!f.endsWith(".json")) continue;
-		const id = path.basename(f, ".json");
-		const data = `/items/custom/${id}.json`;
-		if (existing.has(data)) {
-			skipped++;
-			continue;
-		}
+	for (const source of SOURCES) {
+		const sourceDir = path.join(outDir, ...source.dir);
+		if (!fs.existsSync(sourceDir)) continue;
 
-		let item: Record<string, unknown>;
-		try {
-			item = JSON.parse(fs.readFileSync(path.join(customDir, f), "utf-8"));
-		} catch {
-			continue;
-		}
-
-		const entry: CustomItemEntry = { data };
-
-		const name = item.name as
-			| { type?: string; text?: string; lines?: Record<string, string> }
-			| undefined;
-		if (name) {
-			if (name.lines) {
-				entry.name = name.lines;
-			} else if (name.type === "text" && typeof name.text === "string") {
-				entry.name = { ru: name.text };
+		for (const filePath of collectJsonFiles(sourceDir)) {
+			const relativePath = path
+				.relative(sourceDir, filePath)
+				.replace(/\\/g, "/");
+			const data = `${source.prefix}/${relativePath}`;
+			if (existing.has(data)) {
+				skipped++;
+				continue;
 			}
+
+			let item: Record<string, unknown>;
+			try {
+				item = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+			} catch {
+				continue;
+			}
+
+			const entry: CustomItemEntry = { data };
+
+			const name = item.name as
+				| { type?: string; text?: string; lines?: Record<string, string> }
+				| undefined;
+			if (name) {
+				if (name.lines) {
+					entry.name = name.lines;
+				} else if (name.type === "text" && typeof name.text === "string") {
+					entry.name = { ru: name.text };
+				}
+			}
+
+			if (typeof item.color === "string" && item.color) entry.color = item.color;
+
+			listing.push(entry);
+			existing.add(data);
+			added++;
 		}
-
-		if (typeof item.color === "string" && item.color) entry.color = item.color;
-
-		listing.push(entry);
-		existing.add(data);
-		added++;
 	}
 
 	if (added > 0) {
@@ -72,6 +93,6 @@ export async function addCustomToListing(outDir: string) {
 	}
 
 	console.log(
-		`[Listing] custom: +${added} в listing.json (пропущено дублей: ${skipped})`,
+		`[Listing] custom/uno: +${added} в listing.json (пропущено дублей: ${skipped})`,
 	);
 }
