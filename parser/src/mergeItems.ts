@@ -87,6 +87,16 @@ export async function mergeFolderGroupsToListing(
 				const data = await readJsonSafe(filePath);
 				if (data == null) continue;
 
+				if (data && typeof data === "object" && !Array.isArray(data)) {
+					const record = data as Record<string, unknown>;
+					if (
+						relativePath.startsWith("items/uno/") &&
+						record.uno !== true
+					) {
+						record.uno = true;
+					}
+				}
+
 				if (isArray) {
 					(result as unknown[]).push(data);
 				} else {
