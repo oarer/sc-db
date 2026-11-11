@@ -1,0 +1,58 @@
+{
+  "id": "19642",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19642.name",
+    "args": {},
+    "lines": {
+      "ru": "Желтая цифра",
+      "en": "Yellow Digital",
+      "es": "Digital amarillo",
+      "fr": "Jaune Digital",
+      "ko": "노란 디지털"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

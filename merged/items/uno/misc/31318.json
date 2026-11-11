@@ -1,0 +1,58 @@
+{
+  "id": "31318",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setC.tinsel3.name",
+    "args": {},
+    "lines": {
+      "ru": "Желтая редкая мишура",
+      "en": "Rare Yellow Tinsel",
+      "es": "Espumillón amarillo raro",
+      "fr": "Guirlande Jaune Rare",
+      "ko": "희귀한 노란 반짝이 끈"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

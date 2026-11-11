@@ -1,0 +1,145 @@
+{
+  "id": "22586",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.silencer_sr3m.name",
+    "args": {},
+    "lines": {
+      "ru": "Глушитель СР-3",
+      "en": "SR-3 Silencer",
+      "es": "Silenciador SR-3",
+      "fr": "Silencieux SR-3",
+      "ko": "SR-3 소음기"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.575,
+          "formatted": {
+            "value": {
+              "ru": "0,57 кг",
+              "en": "0.57 kg",
+              "es": "0,57 kg",
+              "fr": "0,57 kg",
+              "ko": "0.57 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.spread",
+            "args": {},
+            "lines": {}
+          },
+          "value": -11,
+          "formatted": {
+            "value": {
+              "ru": "-11%",
+              "en": "-11%",
+              "es": "-11%",
+              "fr": "-11%",
+              "ko": "-11%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": -12,
+          "formatted": {
+            "value": {
+              "ru": "-12%",
+              "en": "-12%",
+              "es": "-12%",
+              "fr": "-12%",
+              "ko": "-12%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "17999",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.17999.name",
+    "args": {},
+    "lines": {
+      "ru": "Вексель на сталбакс",
+      "en": "Stalbucks Promissory Note",
+      "es": "Pagaré Stalbucks",
+      "fr": "Billet à ordre de Stalbucks",
+      "ko": "스탈벅스 수표"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.17999.description",
+        "args": {},
+        "lines": {
+          "ru": "При попадании в инвентарь начисляет вам на счет 1 (один, one) сталбакс",
+          "en": "When placed in your inventory, grants you 1 (one) Stalbuck.",
+          "es": "Al ponerlo en tu inventario, te otorga 1 (un) Stalbuck",
+          "fr": "Quand il est placé dans votre inventaire, vous octroie 1 (un) Stalbuck",
+          "ko": "인벤토리로 옮길 시, 스탈벅 1개가 지급됩니다"
+        }
+      }
+    }
+  ]
+}

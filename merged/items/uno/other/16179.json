@@ -1,0 +1,77 @@
+{
+  "id": "16179",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16179.name",
+    "args": {},
+    "lines": {
+      "ru": "Леденец",
+      "en": "Candy",
+      "es": "Caramelo",
+      "fr": "Bonbon",
+      "ko": "사탕"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.035,
+          "formatted": {
+            "value": {
+              "ru": "0,04 кг",
+              "en": "0.04 kg",
+              "es": "0,04 kg",
+              "fr": "0,04 kg",
+              "ko": "0.04 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16179.description",
+        "args": {},
+        "lines": {
+          "ru": "Спекшийся под аномальным воздействием ржавый металл, внезапно приобретший голубой окрас и имеющий немного повышенную температуру, был выписан сталкерами из срачников и переквалифицирован в «леденец». Ветераны Зоны любят шутить, что болотникам только и остается, что «сосать леденцы».",
+          "en": "Caked under the anomalous area and warm to the touch, this rusty metal was extracted by stalkers from crappite and, suddenly taking on a blue tint, got reclassified as \"candy\". Veterans of the Zone like to joke that all swamp dwellers can do is only \"suck a candy.\"",
+          "es": "Incrustado bajo la zona anómala y caliente al tacto, este metal oxidado fue extraído por los acechadores de la cochambrita y, al adquirir de repente un tinte azulado, fue reclasificado como \"caramelo\". A los veteranos de la Zona les gusta bromear diciendo que lo único que pueden hacer los habitantes del pantano es \"chupar un caramelo\".",
+          "fr": "Recouvert sous la Zone anormale et chaud au toucher, ce métal rouillé a été extrait de la merdite par les stalkers et, prenant soudain une teinte bleue, a été reclassé en tant que « bonbon ». Les vétérans de la Zone se plaisent à dire que les habitants des marais ne peuvent que « sucer un bonbon ».",
+          "ko": "이상 구역 아래에 딱딱하게 박혀 있으면서도, 만지면 따뜻한 녹슨 금속이다. 스토커들이 크랩파이트에서 캐낸 이 금속은, 갑자기 푸른빛을 띠기 시작하면서 [사탕]으로 분류되었다. 구역의 베테랑들 사이에선 이런 얘기가 있다. 늪지 주민들이 할 줄 아는 건 [사탕이나 빠는 것] 뿐이라는 농담말이다."
+        }
+      }
+    }
+  ]
+}

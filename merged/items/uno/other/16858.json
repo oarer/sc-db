@@ -1,0 +1,58 @@
+{
+  "id": "16858",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.joke_book_raven24.name",
+    "args": {},
+    "lines": {
+      "ru": "Сборник анекдотов",
+      "en": "Collection of anecdotes",
+      "es": "Colección de anécdotas",
+      "fr": "Recueil d'anecdotes",
+      "ko": "농담 모음집"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

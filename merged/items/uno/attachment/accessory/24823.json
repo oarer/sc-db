@@ -1,0 +1,77 @@
+{
+  "id": "24823",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_hatonych.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Отец»",
+      "en": "Father Charm",
+      "es": "Amuleto Padre",
+      "fr": "Breloque Père",
+      "ko": "아버지 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_hatonych.description",
+        "args": {},
+        "lines": {
+          "ru": "Брелок нашли зажатым в ладони у бандита, которому не повезло погибнуть в перестрелке. Является ли рисунок напоминанием о его отце или символом собственного статуса — неизвестно. Но каждый новый владелец брелка может вложить в него собственный смысл.",
+          "en": "The charm was found clenched in the hand of a bandit who was unfortunate enough to die in a shootout. Whether the drawing is a reminder of his father or a symbol of his own status is unknown. But each new owner of the charm can imbue it with their own meaning.",
+          "es": "El amuleto fue encontrado en la mano de un bandido que tuvo la mala suerte de morir en un tiroteo. Se desconoce si el dibujo es un recuerdo de su padre o un símbolo de su propio estatus. Pero cada nuevo propietario del amuleto puede darle su propio significado.",
+          "fr": "La breloque a été trouvée serrée dans la paume d'un bandit qui a eu la malchance de mourir dans une fusillade. On ignore si le motif est un souvenir de son père ou un symbole de son propre statut. Mais chaque nouveau propriétaire peut y attribuer sa propre signification.",
+          "ko": "이 부적은 총격전에서 불운하게 목숨을 잃은 밴디트의 손바닥 속에서 발견되었다. 그림이 그의 아버지를 떠올리게 하는 것인지, 아니면 자신의 지위를 상징하는 것인지는 알 수 없다. 다만, 새로운 주인은 각자 부적에 자신만의 의미를 담을 수 있다."
+        }
+      }
+    }
+  ]
+}

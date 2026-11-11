@@ -1,0 +1,244 @@
+{
+  "id": "22776",
+  "category": "attachment/mag",
+  "name": {
+    "type": "translation",
+    "key": "item.att.mag_cmag100_ny23.name",
+    "args": {},
+    "lines": {
+      "ru": "Барабанный магазин 5.56 NATO в свитере",
+      "en": "5.56 NATO Drum Magazine in a Sweater",
+      "es": "Cargador de tambor OTAN de 5,56, en un jersey",
+      "fr": "Chargeur à tambour 5,56 OTAN dans un pull",
+      "ko": "스웨터에 넣은 5.56 NATO 드럼 탄창"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg",
+              "es": "1 kg",
+              "fr": "1 kg",
+              "ko": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Размер магазина",
+              "en": "Magazine size:",
+              "es": "Tamaño del cargador:",
+              "fr": "Capacité du chargeur",
+              "ko": "탄창 크기:"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100",
+              "en": "100",
+              "es": "100",
+              "fr": "100",
+              "ko": "100"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 5.25,
+          "formatted": {
+            "value": {
+              "ru": "5,25 с",
+              "en": "5.25 sec",
+              "es": "5,25 s",
+              "fr": "5,25 s",
+              "ko": "5.25초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {}
+          },
+          "value": 4.2,
+          "formatted": {
+            "value": {
+              "ru": "4,2 с",
+              "en": "4.2 sec",
+              "es": "4,2 s",
+              "fr": "4,2 s",
+              "ko": "4.2초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {}
+          },
+          "value": 12.5,
+          "formatted": {
+            "value": {
+              "ru": "12,5%",
+              "en": "12.5%",
+              "es": "12,5%",
+              "fr": "12,5%",
+              "ko": "12.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 12.5,
+          "formatted": {
+            "value": {
+              "ru": "12,5%",
+              "en": "12.5%",
+              "es": "12,5%",
+              "fr": "12,5%",
+              "ko": "12.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {}
+          },
+          "value": -1.5,
+          "formatted": {
+            "value": {
+              "ru": "-1,5%",
+              "en": "-1.5%",
+              "es": "-1,5%",
+              "fr": "-1,5%",
+              "ko": "-1.5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    }
+  ]
+}

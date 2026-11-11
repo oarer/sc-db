@@ -1,0 +1,77 @@
+{
+  "id": "16569",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.armorpack_meh5.name",
+    "args": {},
+    "lines": {
+      "ru": "Сумка утепленных пластин",
+      "en": "Bag of Insulated Plates",
+      "es": "Bolsa de placas aislantes",
+      "fr": "Sac de plaques isolées",
+      "ko": "단열 장갑판 가방"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 7.5,
+          "formatted": {
+            "value": {
+              "ru": "7,5 кг",
+              "en": "7.5 kg",
+              "es": "7,5 kg",
+              "fr": "7,5 kg",
+              "ko": "7.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.bag.armorpack_meh5.description",
+        "args": {},
+        "lines": {
+          "ru": "Теперь с дополнительным утеплением!",
+          "en": "Now with extra insulation!",
+          "es": "¡Ahora con aislamiento adicional!",
+          "fr": "Maintenant avec une isolation supplémentaire !",
+          "ko": "여기에 추가 단열 기능까지!"
+        }
+      }
+    }
+  ]
+}

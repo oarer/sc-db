@@ -1,0 +1,208 @@
+{
+  "id": "22796",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.mag_vss20_f.name",
+    "args": {},
+    "lines": {
+      "ru": "Магазин эргономичный для ВСС/Вал, обмотанный",
+      "en": "Ergonomic Magazine for VSS/Val, Coiled",
+      "es": "Cargador ergonómico para VSS/Val, enrollado",
+      "fr": "Chargeur ergonomique pour VSS/Val, Spiralé",
+      "ko": "VSS/Val용 인체공학 탄창, 테이프 묶음형"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Размер магазина",
+              "en": "Magazine size:",
+              "es": "Tamaño del cargador:",
+              "fr": "Capacité du chargeur",
+              "ko": "탄창 크기:"
+            }
+          },
+          "value": 25,
+          "formatted": {
+            "value": {
+              "ru": "25",
+              "en": "25",
+              "es": "25",
+              "fr": "25",
+              "ko": "25"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 2.85,
+          "formatted": {
+            "value": {
+              "ru": "2,85 с",
+              "en": "2.85 sec",
+              "es": "2,85 s",
+              "fr": "2,85 s",
+              "ko": "2.85초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {}
+          },
+          "value": 2.28,
+          "formatted": {
+            "value": {
+              "ru": "2,28 с",
+              "en": "2.28 sec",
+              "es": "2,28 s",
+              "fr": "2,28 s",
+              "ko": "2.28초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {}
+          },
+          "value": -9.75,
+          "formatted": {
+            "value": {
+              "ru": "-9,75%",
+              "en": "-9.75%",
+              "es": "-9,75%",
+              "fr": "-9,75%",
+              "ko": "-9.75%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": -9.75,
+          "formatted": {
+            "value": {
+              "ru": "-9,75%",
+              "en": "-9.75%",
+              "es": "-9,75%",
+              "fr": "-9,75%",
+              "ko": "-9.75%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {}
+          },
+          "value": 1.2,
+          "formatted": {
+            "value": {
+              "ru": "1,2%",
+              "en": "1.2%",
+              "es": "1,2%",
+              "fr": "1,2%",
+              "ko": "1.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

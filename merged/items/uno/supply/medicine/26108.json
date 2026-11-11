@@ -1,0 +1,257 @@
+{
+  "id": "26108",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.apt_ops.name",
+    "args": {},
+    "lines": {
+      "ru": "Экспериментальная аптечка",
+      "en": "Experimental First-Aid Kit",
+      "es": "Botiquín experimental",
+      "fr": "Trousse de premiers secours expérimentale",
+      "ko": "실험용 구급상자"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 30,
+          "formatted": {
+            "value": {
+              "ru": "30 с",
+              "en": "30 sec",
+              "es": "30 s",
+              "fr": "30 s",
+              "ko": "30초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "value": 12,
+          "formatted": {
+            "value": {
+              "ru": "12%",
+              "en": "12%",
+              "es": "12%",
+              "fr": "12%",
+              "ko": "12%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.artefakt_heal",
+            "args": {},
+            "lines": {
+              "ru": "Периодическое лечение",
+              "en": "Periodic healing",
+              "es": "Curación periódica",
+              "fr": "Soins périodiques",
+              "ko": "지속 치유"
+            }
+          },
+          "value": 12,
+          "formatted": {
+            "value": {
+              "ru": "12%",
+              "en": "12%",
+              "es": "12%",
+              "fr": "12%",
+              "ko": "12%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": -40,
+          "formatted": {
+            "value": {
+              "ru": "-40%",
+              "en": "-40%",
+              "es": "-40%",
+              "fr": "-40%",
+              "ko": "-40%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation",
+              "ko": "방사능"
+            }
+          },
+          "value": -5,
+          "formatted": {
+            "value": {
+              "ru": "-5%",
+              "en": "-5%",
+              "es": "-5%",
+              "fr": "-5%",
+              "ko": "-5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Биологическое заражение",
+              "en": "Biological infection",
+              "es": "Infección biológica",
+              "fr": "Infection biologique",
+              "ko": "생체 감염"
+            }
+          },
+          "value": -5,
+          "formatted": {
+            "value": {
+              "ru": "-5%",
+              "en": "-5%",
+              "es": "-5%",
+              "fr": "-5%",
+              "ko": "-5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.apt_ops.description",
+        "args": {},
+        "lines": {
+          "ru": "Разработанная специально под проведение операций в Зоне аптечка.\\nZIVCAS нанял лучших фармацевтов и химиков, чтобы создать инновационный комплект препаратов на основе последних разработок в сфере медицины.\\nПредоставляется лишь сотрудникам корпорации на время выполнения полевых задач, а также частным оперативникам, выполняющим различные заказы в интересах ZIVCAS.",
+          "en": "A first aid kit specifically designed for operations in the Zone.\\nZIVCAS hired the best pharmacists and chemists to create an innovative set of medications based on the latest developments in the field of medicine.\\nProvided only to corporate employees during field missions and private operatives fulfilling various orders in the interest of ZIVCAS.",
+          "es": "Botiquín diseñado específicamente para realizar operaciones en la Zona.\\nZIVCAS ha contratado a los mejores farmacéuticos y químicos para crear un innovador conjunto de medicamentos basados en los últimos avances en el campo de la medicina.\\nSe proporciona únicamente a los empleados de la corporación durante la realización de tareas de campo, así como a agentes operativos privados que llevan a cabo diversos encargos en interés de ZIVCAS.",
+          "fr": "Trousse de premiers secours expérimentale conçue spécialement pour les opérations dans la Zone.\\nZIVCAS a engagé les meilleurs pharmaciens et chimistes pour créer un kit innovant de médicaments, basé sur les dernières avancées médicales.\\nDistribuée uniquement aux employés de la corporation pendant les missions sur le terrain, ainsi qu'aux agents privés exécutant des contrats pour le compte de ZIVCAS.",
+          "ko": "구역 내 작전을 위해 특별히 설계된 구급상자입니다.\\n지브카스는 의약 분야의 최신 성과를 기반으로 한 혁신적인 의약품 세트를 만들기 위해 최고 수준의 약사와 화학자를 고용했습니다.\\n현장 임무 중인 기업 소속 직원과 지브카스의 이익을 위해 다양한 임무를 수행하는 민간 요원들에게만 제공됩니다."
+        }
+      }
+    }
+  ]
+}

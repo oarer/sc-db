@@ -1,0 +1,77 @@
+{
+  "id": "24810",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_kreeno.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Сталкот»",
+      "en": "StalCat Charm",
+      "es": "Amuleto Stalgato",
+      "fr": "Breloque Stalchat",
+      "ko": "스탈캣 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_kreeno.description",
+        "args": {},
+        "lines": {
+          "ru": "Для тех, кто всегда мечтал о домашнем питомце, но не знал, как совмещать это с вылазками в Зоне. Сталкот всегда с тобой, не требует ухода и еды, и главное — его можно погладить в любой момент!",
+          "en": "For those who have always dreamed of having a pet but didn't know how to combine that with raids in the Zone. StalCat is always with you, doesn't require care or food, and most importantly—you can pet it at any moment!",
+          "es": "Para aquellos que siempre han soñado con tener una mascota, pero no sabían cómo compaginarlo con sus incursiones en la Zona. Stalgato siempre está contigo, no necesita cuidados ni comida y, lo más importante, ¡puedes acariciarlo en cualquier momento!",
+          "fr": "Pour ceux qui ont toujours rêvé d'un animal de compagnie, mais ne savaient pas comment concilier cela avec les expéditions dans la Zone. Le Stalchat est toujours avec toi, ne nécessite ni soins ni nourriture, et surtout — tu peux le caresser à tout moment !",
+          "ko": "언젠가 반려동물을 키우는 걸 꿈꿨지만, 구역으로의 출정과 어떻게 병행해야 할지 몰랐던 이들을 위해.  스탈캣은 언제나 당신과 함께한다. 돌봄도, 먹이도 필요 없고, 무엇보다 원할 때 언제든 쓰다듬을 수 있다!"
+        }
+      }
+    }
+  ]
+}

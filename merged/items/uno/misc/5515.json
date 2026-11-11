@@ -1,0 +1,58 @@
+{
+  "id": "5515",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.customisation_pack.spring26.name",
+    "args": {},
+    "lines": {
+      "ru": "Набор кастомизации «Закаленная сталь»",
+      "en": "Tempered Steel Customization Pack",
+      "es": "Pack de personalización Acero templado",
+      "fr": "Pack de personnalisation Acier fut trempé",
+      "ko": "강철의 의지 커스텀 팩"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

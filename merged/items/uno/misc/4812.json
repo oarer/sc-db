@@ -1,0 +1,58 @@
+{
+  "id": "4812",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.sticker.autumn25.name",
+    "args": {},
+    "lines": {
+      "ru": "Стикер сезона «Ужасы Зоны»",
+      "en": "Horrors of the Zone Season Sticker",
+      "es": "Pegatina de temporada Horrores de la Zona",
+      "fr": "Autocollant de la saison « Horreurs de la Zone »",
+      "ko": "구역의 공포 시즌 스티커"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

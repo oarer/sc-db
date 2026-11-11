@@ -1,0 +1,94 @@
+{
+  "id": "31663",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.blueprint.arm.ao3.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть АО-3 «Искатель»",
+      "en": "AH-3 Seeker Blueprint",
+      "es": "Plano de CA-3 Buscador",
+      "fr": "Plan de l'AH-3 Chercheur",
+      "ko": "AH-3 시커 설계도"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

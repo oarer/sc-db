@@ -1,0 +1,41 @@
+{
+  "id": "16014",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16014.name",
+    "args": {},
+    "lines": {
+      "ru": "«Черный ящик»",
+      "en": "Black Box",
+      "es": "Caja negra",
+      "fr": "Boîte noire",
+      "ko": "블랙박스"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16014.description",
+        "args": {},
+        "lines": {
+          "ru": "«Черный ящик», уцелевший при падении вертолета. В нем должна содержаться зашифрованная информация о последних минутах полета.",
+          "en": "A black box that survived a helicopter crash. It should contain encoded information about the final minutes of the flight.",
+          "es": "Una caja negra que sobrevivió a un accidente de helicóptero. Debe contener información codificada sobre los últimos minutos del vuelo.",
+          "fr": "Une boîte noire qui a survécu à un crash d'hélicoptère. Elle devrait contenir des informations cryptées sur les derniers instants du vol.",
+          "ko": "헬리콥터 추락 사고에서 건져진 블랙박스다. 비행 마지막 순간의 암호화된 정보가 담겨 있을 것이다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "31362",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setG.toy2.name",
+    "args": {},
+    "lines": {
+      "ru": "Пряничная игрушка-орешек",
+      "en": "Gingerbread Nut Decoration",
+      "es": "Adorno de nueces de galleta",
+      "fr": "Décoration de noix en pain d'Épices",
+      "ko": "진저브레드 너트 장식"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

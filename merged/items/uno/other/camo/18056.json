@@ -1,0 +1,77 @@
+{
+  "id": "18056",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.18056.name",
+    "args": {},
+    "lines": {
+      "ru": "Камуфляж «Слезы блаженных»",
+      "en": "Blessed Tears Camouflage",
+      "es": "Camuflaje Lágrimas benditas",
+      "fr": "Camouflage Larmes Bénies",
+      "ko": "축복자 눈물 캐모"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.18056.description",
+        "args": {},
+        "lines": {
+          "ru": "Камуфляж «Слезы блаженных» для оружия. Найден в оружейной на базе санитаров.",
+          "en": "Blessed Tears camouflage for weapons. Found in the armory at the Orderly Base.",
+          "es": "Camuflaje Lágrimas benditas para armas. Se encuentra en la armería de la base de los Auxiliares.",
+          "fr": "Camouflage d'armes Larmes Bénies. Se trouve dans l'armurerie de la base des Ordonnateurs.",
+          "ko": "질서자 기지의 무기고에서 발견되는 무기용 축복 받은 자 눈물 캐모이다."
+        }
+      }
+    }
+  ]
+}

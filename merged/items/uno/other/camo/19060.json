@@ -1,0 +1,77 @@
+{
+  "id": "19060",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19060.name",
+    "args": {},
+    "lines": {
+      "ru": "Камуфляж «Рубежа» наградной",
+      "en": "Frontier Camouflage award",
+      "es": "Premio de camuflaje Frontera",
+      "fr": "Trophée Camouflage de la Frontière",
+      "ko": "프론티어 캐모 상"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.19060.description",
+        "args": {},
+        "lines": {
+          "ru": "Камуфляж «Рубежа» для брони",
+          "en": "Frontier camouflage for armor",
+          "es": "Camuflaje Frontera para armadura",
+          "fr": "Camouflage pour les armures de la Frontière",
+          "ko": "방어구용 프론티어 캐모"
+        }
+      }
+    }
+  ]
+}

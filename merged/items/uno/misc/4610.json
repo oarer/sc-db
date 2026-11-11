@@ -1,0 +1,58 @@
+{
+  "id": "4610",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.newyear26_5.name",
+    "args": {},
+    "lines": {
+      "ru": "Паттерн «Новый Год 2026» Шарики",
+      "en": "New Year 2026 Baubles Pattern",
+      "es": "Patrón Año Nuevo 2026 Bolas",
+      "fr": "Thème Nouvel An 2026 Boules",
+      "ko": "새해 2026 장식 볼 무늬"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

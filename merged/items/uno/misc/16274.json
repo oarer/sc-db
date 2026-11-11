@@ -1,0 +1,77 @@
+{
+  "id": "16274",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.cat_tail_t3.name",
+    "args": {},
+    "lines": {
+      "ru": "Хвост сильной кошки",
+      "en": "Strong Cat's Tail",
+      "es": "Cola de gato fuerte",
+      "fr": "Queue de chat fort",
+      "ko": "강력한 돌연변이 고양이 꼬리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.cat_tail_t3.description",
+        "args": {},
+        "lines": {
+          "ru": "Из-за отсутствия жировых отложений хвосты кошек наиболее подходят для лабораторных исследований.",
+          "en": "Due to a lack of fat deposits, cats' tails are highly suited to laboratory research.",
+          "es": "Al carecer de depósitos de grasa, la cola de los gatos es muy adecuada para la investigación en laboratorio.",
+          "fr": "En raison de l'absence de dépôts de graisse, la queue des chats convient parfaitement à la recherche en laboratoire.",
+          "ko": "돌연변이 고양이의 꼬리는 지방 축적이 거의 없기 때문에 실험실 연구에 매우 적합하다."
+        }
+      }
+    }
+  ]
+}

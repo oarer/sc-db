@@ -1,0 +1,151 @@
+{
+  "id": "21500",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.21500.name",
+    "args": {},
+    "lines": {
+      "ru": "Крепление для приклада",
+      "en": "Stock Mount",
+      "es": "Soporte de culata",
+      "fr": "Montage sur crosse",
+      "ko": "개머리판 마운트"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": 20,
+          "formatted": {
+            "value": {
+              "ru": "20%",
+              "en": "20%",
+              "es": "20%",
+              "fr": "20%",
+              "ko": "20%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {}
+          },
+          "value": 25,
+          "formatted": {
+            "value": {
+              "ru": "25%",
+              "en": "25%",
+              "es": "25%",
+              "fr": "25%",
+              "ko": "25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": -50,
+          "formatted": {
+            "value": {
+              "ru": "-50%",
+              "en": "-50%",
+              "es": "-50%",
+              "fr": "-50%",
+              "ko": "-50%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {}
+          },
+          "value": 20,
+          "formatted": {
+            "value": {
+              "ru": "20%",
+              "en": "20%",
+              "es": "20%",
+              "fr": "20%",
+              "ko": "20%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "16847",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.head_tall.name",
+    "args": {},
+    "lines": {
+      "ru": "Голова Высокого",
+      "en": "Tall's Head",
+      "es": "Cabeza de Tall",
+      "fr": "La tête du Grand",
+      "ko": "키 큰 머리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.17,
+          "formatted": {
+            "value": {
+              "ru": "0,17 кг",
+              "en": "0.17 kg",
+              "es": "0,17 kg",
+              "fr": "0,17 kg",
+              "ko": "0.17 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.head_tall.description",
+        "args": {},
+        "lines": {
+          "ru": "Голова представителя внеземной жизни.",
+          "en": "The head of a specimen of extraterrestrial life.",
+          "es": "La cabeza de un espécimen de vida extraterrestre.",
+          "fr": "La tête d'un spécimen de vie extraterrestre.",
+          "ko": "외계 생명체의 머리 견본이다."
+        }
+      }
+    }
+  ]
+}

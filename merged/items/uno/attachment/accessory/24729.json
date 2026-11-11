@@ -1,0 +1,77 @@
+{
+  "id": "24729",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_ssop_duty.name",
+    "args": {},
+    "lines": {
+      "ru": "Наградной жетон ССОП",
+      "en": "SSPP Award Token",
+      "es": "Ficha de premio de SSPE",
+      "fr": "Jeton d'honneur du SSPP",
+      "ko": "SSPP 표창 토큰"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_ssop_duty.description",
+        "args": {},
+        "lines": {
+          "ru": "Наградной жетон, который ССОП выдает особенно отличившимся бойцам «Рубежа», которые оказывали наибольшую поддержку при подготовке операции «Полюс» и оказывали максимально возможное содействие вооруженным силам.",
+          "en": "The award token is issued by the SSPP to particularly distinguished Frontier soldiers who have provided the greatest support in preparing for Operation Pole and have offered maximum possible assistance to the armed forces.",
+          "es": "Ficha de recompensa concedida por SSPE a los miembros especialmente distinguidos de Frontera que prestaron el mayor apoyo en la preparación de la operación Polo y prestaron la mayor ayuda posible a las fuerzas armadas.",
+          "fr": "Le jeton de récompense remis par le SSPP à des membres particulièrement distingués de la Frontière qui ont apporté le plus grand soutien dans la préparation de l'Opération Pole et ont fourni la plus grande assistance possible aux forces armées.",
+          "ko": "폴 작전 준비에 가장 큰 기여를 하고, 또한 군대에 최대한 협력한 프론티어 소속의 특히 뛰어난 병사들에게 SSPP가 수여하는 표창 토큰이다."
+        }
+      }
+    }
+  ]
+}

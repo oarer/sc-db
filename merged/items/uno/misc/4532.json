@@ -1,0 +1,58 @@
+{
+  "id": "4532",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.mk_torpeda.name",
+    "args": {},
+    "lines": {
+      "ru": "Паттерн «Торпеда»",
+      "en": "Torpedo Pattern",
+      "es": "Patrón Torpedo",
+      "fr": "Thème Torpille",
+      "ko": "어뢰 패턴"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

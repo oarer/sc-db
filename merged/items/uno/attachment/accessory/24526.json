@@ -1,0 +1,77 @@
+{
+  "id": "24526",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.s1.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «S1»",
+      "en": "S1 Charm",
+      "es": "Amuleto S1",
+      "fr": "Breloque S1",
+      "ko": "S1 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.s1.description",
+        "args": {},
+        "lines": {
+          "ru": "Брелок, полученный на годовщину игры за время, проведенное в Зоне (год или меньше)",
+          "en": "Charm awarded on the game’s anniversary for time spent in the Zone: 1 year or less",
+          "es": "Un amuleto obtenido como regalo por el aniversario del juego, por el tiempo pasado en la Zona (un año o menos)",
+          "fr": "Breloque obtenue pour l'anniversaire du jeu, pour le temps passé dans la Zone (un an ou moins)",
+          "ko": "구역에서 보낸 시간(1년 이하)을 기준으로 게임 서비스 기념일에 지급되는 부적입니다"
+        }
+      }
+    }
+  ]
+}

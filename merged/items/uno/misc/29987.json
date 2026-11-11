@@ -1,0 +1,58 @@
+{
+  "id": "29987",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.outpost_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Обычный ящик с продовольствием",
+      "en": "Common Crate of Rations",
+      "es": "Caja de raciones común",
+      "fr": "Caisse de rations communes",
+      "ko": "일반 보급 식량 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 2,
+          "formatted": {
+            "value": {
+              "ru": "2 кг",
+              "en": "2 kg",
+              "es": "2 kg",
+              "fr": "2 kg",
+              "ko": "2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

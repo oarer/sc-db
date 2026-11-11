@@ -1,0 +1,58 @@
+{
+  "id": "8191",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.wild_north_cov_note.name",
+    "args": {},
+    "lines": {
+      "ru": "Записка «заветовца»",
+      "en": "Covenant Member Note",
+      "es": "Nota del miembro del Pacto",
+      "fr": "Note d'un membre de l'Alliance",
+      "ko": "성약 일원의 메모"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.01,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg",
+              "ko": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

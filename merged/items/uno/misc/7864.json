@@ -1,0 +1,58 @@
+{
+  "id": "7864",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "go.misc.reichstag_street_sign.name",
+    "args": {},
+    "lines": {
+      "ru": "Уличный указатель",
+      "en": "Street Sign",
+      "es": "Señal de calle",
+      "fr": "Panneau de signalisation routière",
+      "ko": "거리 표지판"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

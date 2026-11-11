@@ -1,0 +1,77 @@
+{
+  "id": "24863",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.mt_bolt.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Чешский еж»",
+      "en": "Czech Hedgehog Charm",
+      "es": "Amuleto Erizo checo",
+      "fr": "Breloque Hérisson tchèque",
+      "ko": "체코 철조 장애물 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.mt_bolt.description",
+        "args": {},
+        "lines": {
+          "ru": "Мелкая поделка из остатков металла, филигранно выпаянная в виде противотанкового ежа. Вряд ли остановит танк, но вот впиться в ногу сталкеру вполне может.",
+          "en": "A small trinket made from scrap metal, delicately soldered into the shape of an anti-tank hedgehog. Unlikely to stop a tank, but it could definitely stab a stalker in the foot.",
+          "es": "Una pequeña pieza hecha con restos de metal, soldada con gran precisión con forma de erizo antitanque. Difícilmente detendrá a un tanque, pero clavarse en la pierna de un stalker sí que puede.",
+          "fr": "Une petite création artisanale en restes de métal, finement soudée en forme de hérisson antichar. Elle ne stoppera probablement pas un char, mais elle peut tout à fait s'enfoncer dans la jambe d'un stalker.",
+          "ko": "남은 금속 조각으로 정교하게 납땜해 만든 소형 공예품으로, 대전차 장애물 형태를 본뜬 것이다. 전차를 막아내기에는 부족하지만, 스토커의 발에는 충분히 박힐 수 있다."
+        }
+      }
+    }
+  ]
+}

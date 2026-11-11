@@ -1,0 +1,58 @@
+{
+  "id": "16448",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16448.name",
+    "args": {},
+    "lines": {
+      "ru": "Приемник",
+      "en": "Receiver",
+      "es": "Receptor",
+      "fr": "Destinataire",
+      "ko": "리시버"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "19720",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.elki.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Елки»",
+      "en": "Christmas Trees Paint",
+      "es": "Pintura Árboles de Navidad",
+      "fr": "Peinture Arbre de Noël",
+      "ko": "크리스마스 트리 도색"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

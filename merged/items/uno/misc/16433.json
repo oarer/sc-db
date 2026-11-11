@@ -1,0 +1,77 @@
+{
+  "id": "16433",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.16433.name",
+    "args": {},
+    "lines": {
+      "ru": "Ключ-карта лаборатории",
+      "en": "Laboratory Key Card",
+      "es": "Tarjeta de acceso del laboratorio",
+      "fr": "Carte-clé du laboratoire",
+      "ko": "실험실 키 카드"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16433.description",
+        "args": {},
+        "lines": {
+          "ru": "Позволяет открыть дополнительный проход в комнату с боевым прототипом.",
+          "en": "Allows you to open an additional passage into the room with the military prototype.",
+          "es": "Permite abrir un pasadizo adicional en la sala del prototipo militar.",
+          "fr": "Permet d'ouvrir un passage supplémentaire dans la pièce où se trouve le prototype militaire.",
+          "ko": "군용 프로토타입이 있는 방으로의 추가 통로를 열 수 있음."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "22904",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.att.mount_xm8ris.name",
+    "args": {},
+    "lines": {
+      "ru": "Планка RIS XM8",
+      "en": "RIS XM8 Rail",
+      "es": "Raíl RIS XM8",
+      "fr": "Rail RIS XM8",
+      "ko": "RIS XM8 레일"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.13,
+          "formatted": {
+            "value": {
+              "ru": "0,13 кг",
+              "en": "0.13 kg",
+              "es": "0,13 kg",
+              "fr": "0,13 kg",
+              "ko": "0.13 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

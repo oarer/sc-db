@@ -1,0 +1,239 @@
+{
+  "id": "26067",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.inside_grace.name",
+    "args": {},
+    "lines": {
+      "ru": "Молитва Священника",
+      "en": "Clergyman's Prayer",
+      "es": "Oración del Clérigo",
+      "fr": "Prière de l'Ecclésiastique",
+      "ko": "성직자의 기도"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg",
+              "es": "0,05 kg",
+              "fr": "0,05 kg",
+              "ko": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 с",
+              "en": "2.5 sec",
+              "es": "2,5 s",
+              "fr": "2,5 s",
+              "ko": "2.5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": 13,
+          "formatted": {
+            "value": {
+              "ru": "13%",
+              "en": "13%",
+              "es": "13%",
+              "fr": "13%",
+              "ko": "13%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "value": 20,
+          "formatted": {
+            "value": {
+              "ru": "20%",
+              "en": "20%",
+              "es": "20%",
+              "fr": "20%",
+              "ko": "20%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.inside_grace.description",
+        "args": {},
+        "lines": {
+          "ru": "Прием этой таблетки - все равно что молитва Священника за твои сильные и быстрые ноги.",
+          "en": "Taking this pill is the equivalent of Clergyman praying for your legs to be strong and fast.",
+          "es": "Tomar esta píldora equivale a que el Clérigo rece para que tus piernas sean fuertes y rápidas.",
+          "fr": "Prendre cette pilule équivaut à la prière d'un ecclésiastique pour que vos jambes soient fortes et rapides.",
+          "ko": "이 알약을 삼키는 것은 당신의 다리가 빠르고 튼튼하도록 성직자가 간절히 기도해 주는 것과 동일한 효과이다."
+        }
+      }
+    }
+  ]
+}

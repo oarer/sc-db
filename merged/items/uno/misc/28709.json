@@ -1,0 +1,113 @@
+{
+  "id": "28709",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.key.halloween_2023.name",
+    "args": {},
+    "lines": {
+      "ru": "Купон на «Спонсорский подгон»",
+      "en": "Sponsors gift Coupon",
+      "es": "Cupón de regalo de los patrocinadores",
+      "fr": "Coupon-cadeau des sponsors",
+      "ko": "스폰서의 선물 쿠폰"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.key.halloween_2023.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "Приобретение в торговых терминалах на Марафоне Мертвецов",
+          "en": "Can be purchased in the Dead Man's Marathon Vending Machines",
+          "es": "Se puede comprar en las máquinas expendedoras de la Maratón del Hombre Muerto",
+          "fr": "Vendu dans les machines du Marathon de l'homme mort",
+          "ko": "죽은 자의 마라톤 자판기로부터 구매할 수 있습니다"
+        }
+      }
+    }
+  ]
+}

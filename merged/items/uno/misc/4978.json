@@ -1,0 +1,58 @@
+{
+  "id": "4978",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.sticker.scstore_murzya.name",
+    "args": {},
+    "lines": {
+      "ru": "Стикер «Помойся»",
+      "en": "Take a Shower Sticker",
+      "es": "Pegatina ¡Lávate!",
+      "fr": "Autocollant Lave-toi",
+      "ko": "씻고 와 스티커"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

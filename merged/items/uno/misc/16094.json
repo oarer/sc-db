@@ -1,0 +1,58 @@
+{
+  "id": "16094",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.kolenval_castiron.name",
+    "args": {},
+    "lines": {
+      "ru": "Чугунный коленвал",
+      "en": "Cast-iron crankshaft",
+      "es": "Cigüeñal de hierro fundido",
+      "fr": "Vilebrequin en Fer forgé",
+      "ko": "무쇠 크랭크 축"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 3.5,
+          "formatted": {
+            "value": {
+              "ru": "3,5 кг",
+              "en": "3.5 kg",
+              "es": "3,5 kg",
+              "fr": "3,5 kg",
+              "ko": "3.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

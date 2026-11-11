@@ -1,0 +1,77 @@
+{
+  "id": "24821",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_gosting.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Сыворотка»",
+      "en": "Serum Charm",
+      "es": "Amuleto Suero",
+      "fr": "Breloque Sérum",
+      "ko": "혈청 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_gosting.description",
+        "args": {},
+        "lines": {
+          "ru": "Брелок в виде легендарного препарата, секрет изготовления которого утерян. Ходят слухи, что единственная партия была изготовлена в лаборатории «Нео-Сознания» и позволяла подопытным на короткое время исчезать без следа, подобно призракам. Доказательств этим слухам, впрочем, найдено не было.",
+          "en": "A charm in the shape of a legendary drug, the secret of which has been lost. Rumor has it that the only batch was made in the Neo-Mind laboratory and allowed test subjects to disappear without a trace for a short time, like ghosts. However, no evidence has been found to support these rumors.",
+          "es": "Amuleto con forma de un medicamento legendario, cuya receta se ha perdido. Se rumorea que la única partida se fabricó en el laboratorio de la Neo-mente y permitía a los sujetos de prueba desaparecer sin dejar rastro durante un breve periodo de tiempo, como fantasmas. Sin embargo, no se han encontrado pruebas que corroboren estos rumores.",
+          "fr": "Une breloque représentant une préparation légendaire dont le secret de fabrication est perdu. Des rumeurs circulent selon lesquelles l'unique lot a été fabriqué dans le laboratoire de Néo-Conscience et permettait aux cobayes de disparaître sans laisser de trace pendant un court instant, tels des fantômes. Aucune preuve de ces rumeurs n'a toutefois été trouvée.",
+          "ko": "전설적인 약물 모양의 부적. 제조 비법은 이미 사라졌다. 소문에 따르면, 유일한 제조분은 네오-마인드 실험실에서 만들어졌으며, 피실험자들을 잠시 동안 흔적 없이 사라지게 해, 마치 유령처럼 만들었다고 한다. 다만 이 소문을 입증할 증거는 아직 발견되지 않았다."
+        }
+      }
+    }
+  ]
+}

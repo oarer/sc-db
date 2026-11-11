@@ -1,0 +1,77 @@
+{
+  "id": "24618",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.spring24_headphones.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Диковинный супостатский шлем»",
+      "en": "The Outlandish Foeman Charm",
+      "es": "Amuleto Rival extravagante",
+      "fr": "Breloque Étrange de l'Ennemi",
+      "ko": "기묘한 적 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.spring24_headphones.description",
+        "args": {},
+        "lines": {
+          "ru": "Ну... Такое русу носить как-то... Непорядочно!",
+          "en": "Well... For real Slav to wear something like that... It's indecent!",
+          "es": "En fin... Que un verdadero eslavo lleve algo así... ¡Qué indecencia!",
+          "fr": "Eh bien... Pour un vrai Slave, porter quelque chose comme ça... C'est indécent !",
+          "ko": "음... 진짜 슬라브가 저런 걸 차다니... 부적절해!"
+        }
+      }
+    }
+  ]
+}

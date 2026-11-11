@@ -1,0 +1,77 @@
+{
+  "id": "27333",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.inside_glass_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Тусклое стекло",
+      "en": "Dim Glass",
+      "es": "Cristal apagado",
+      "fr": "Verre Terni",
+      "ko": "어두운 유리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.04,
+          "formatted": {
+            "value": {
+              "ru": "0,04 кг",
+              "en": "0.04 kg",
+              "es": "0,04 kg",
+              "fr": "0,04 kg",
+              "ko": "0.04 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.inside_glass_1.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "С некоторых cобытий Изнанки Пути Дураков, Полесского, Мертвого города, Могильника, Ямы, завода «Первомайский» и Леса",
+          "en": "From some events in the Inside Out: the Path of Fools, Polesskoye, Dead City, Graveyard, Pit, Pervomaisky Factory, and the Forest",
+          "es": "De algunos eventos del Reverso: el Camino de los Necios, Poliske, la Ciudad Muerta, el Cementerio, la Fosa, la Fábrica Pervomaiski y el Bosque.",
+          "fr": "De certains événements de l'Inside Out : le Chemin des Fous, Polesskoye, la Ville Morte, le Cimetière, la Fosse, l'Usine Pervomaisky et la Forêt",
+          "ko": "뒤집힌 세계 내 일부 이벤트들로부터 획득: 어리석은 자들의 길, 폴레스코예, 데드 시티, 묘지, 구덩이, 페르보마이스키 공장, 숲"
+        }
+      }
+    }
+  ]
+}

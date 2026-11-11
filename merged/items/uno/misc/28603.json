@@ -1,0 +1,41 @@
+{
+  "id": "28603",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.28603.name",
+    "args": {},
+    "lines": {
+      "ru": "Синяя плата",
+      "en": "Blue Circuit Board",
+      "es": "Placa base azul",
+      "fr": "Tableau de circuit bleu",
+      "ko": "청색 회로 기판"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28603.description",
+        "args": {},
+        "lines": {
+          "ru": "Синяя плата. Выглядит необычно, можно попробовать продать ее Легионеру.@@§2Предмет для бартера",
+          "en": "A blue circuit board. It looks unusual, could possibly be sold to Legionnaire.@@§2Barter item",
+          "es": "Una placa base azul. Tiene un aspecto peculiar y probablemente podrías vendérsela al Legionario.@@§2Objeto de trueque",
+          "fr": "Un tableau de circuit bleu. Il semble peu courant, pourrait être vendu à Légionnaire.@@§2Objet de troc",
+          "ko": "청색 회로 기판. 특이하게 생긴 관계로, 리전에어에게 팔 수 있을 것 같다.@@§2교환 가능 아이템"
+        }
+      }
+    }
+  ]
+}

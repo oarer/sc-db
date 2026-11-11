@@ -1,0 +1,77 @@
+{
+  "id": "16176",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16176.name",
+    "args": {},
+    "lines": {
+      "ru": "Кошачья мята",
+      "en": "Catmint",
+      "es": "Menta de gato",
+      "fr": "Herbe à chats",
+      "ko": "캣민트"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.021,
+          "formatted": {
+            "value": {
+              "ru": "0,02 кг",
+              "en": "0.02 kg",
+              "es": "0,02 kg",
+              "fr": "0,02 kg",
+              "ko": "0.02 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16176.description",
+        "args": {},
+        "lines": {
+          "ru": "Крупнолистное растение бирюзового цвета с синими цветками, растущее в Зоне. Согласно старому сталкерскому мифу, когда-то им очень любили лакомиться обитавшие в Зоне кошки… Вот только уже несколько лет кошек в Зоне нет.",
+          "en": "A large-leaved plant from the Zone, turquoise in color with dark blue flowers. According to the old stalker's tale, they were once a delicacy for cats living in the Zone... Except that there have not been any cats in the Zone for years.",
+          "es": "Una planta de hojas grande de la Zona, de color turquesa con flores azul oscuro. Según un viejo cuento de acechadores, antaño eran un manjar para los gatos que vivían en la Zona... Salvo que hace años que no hay gatos en la Zona.",
+          "fr": "Plante à grandes feuilles de la Zone, de couleur turquoise avec des fleurs bleu foncé. D'après la vieille histoire du stalker, elles étaient autrefois un mets de choix pour les chats de la Zone… Sauf qu'il n'y a plus de chats dans la Zone depuis des années.",
+          "ko": "구역에서 자라는 식물로, 잎이 유난히 크다. 전체적으로 청록색을 띠고 있으며, 꽃은 짙은 파란색이다. 베테랑 스토커들의 말에 따르면, 예전엔 구역에 살던 고양이들이 이 잎을 간식처럼 즐겨 먹었다고 한다... 물론, 고양이라는 생명체가 구역에서 자취를 감춘 지도 이미 수년이 흘렀지만 말이다."
+        }
+      }
+    }
+  ]
+}

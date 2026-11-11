@@ -1,0 +1,58 @@
+{
+  "id": "19778",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.shake_twitch.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Twitch Shake»",
+      "en": "Twitch Shake Camouflage",
+      "es": "Camuflaje Temblor Twitch",
+      "fr": "Camouflage Secousse Twitch",
+      "ko": "트위치 흔들림 캐모"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

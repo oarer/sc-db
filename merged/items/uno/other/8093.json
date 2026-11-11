@@ -1,0 +1,58 @@
+{
+  "id": "8093",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.unknown_blueprint.name",
+    "args": {},
+    "lines": {
+      "ru": "Набросок неизвестного проекта",
+      "en": "A sketch of an unknown project.",
+      "es": "Esbozo de un proyecto desconocido.",
+      "fr": "Un schéma pour un projet inconnu.",
+      "ko": "정체를 알 수 없는 프로젝트의 스케치이다."
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

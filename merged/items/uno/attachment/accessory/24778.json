@@ -1,0 +1,77 @@
+{
+  "id": "24778",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.winter26_pass_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Кровь на снегу»",
+      "en": "Blood on the Snow Charm",
+      "es": "Amuleto Sangre en la nieve",
+      "fr": "Breloque Sang sur la neige",
+      "ko": "[눈 위의 피] 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.winter26_pass_1.description",
+        "args": {},
+        "lines": {
+          "ru": "Дешевый жетон, который Барон решил давать в подарок к каждой покупке снаряжения, обозвав это акцией.\\n\\nОднако оказалось, что жетонов было отпечатано слишком много, из-за чего ЧР решил поменять планы, начав раздачу брелоков каждому встречному.",
+          "en": "A cheap token that the Baron decided to give as a gift with each purchase of gear, calling it a promotion.\\n\\nHowever, it turned out that too many tokens were printed, causing the BM to change plans by giving away charms to everyone.",
+          "es": "Una ficha barata que Barón decidió regalar con cada compra de equipamiento, llamándolo promoción.\\n\\nSin embargo, resultó que se imprimieron demasiadas fichas, por lo que el Mercado Negro decidió cambiar de planes y comenzó a repartir amuletos a todo el mundo.",
+          "fr": "Un jeton bon marché, que Baron a décidé d'offrir avec chaque achat d'équipement en le présentant comme une promotion.\\n\\nCependant, il s'est avéré que trop de jetons avaient été imprimés, ce qui a conduit le Marché Noir à changer ses plans et à décider de distribuer les breloques à quiconque croisait son chemin.",
+          "ko": "바론이 장비 구매 시 사은품이라며 끼워 넣기로 결정한 싸구려 토큰입니다.\\n\\n그런데 토큰을 너무 많이 찍어낸 탓에, 결국 블랙마켓은 계획을 바꿔 부적을 모두에게 마구 뿌려대기 시작했습니다."
+        }
+      }
+    }
+  ]
+}

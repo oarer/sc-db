@@ -1,0 +1,88 @@
+{
+  "id": "22292",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.22292.name",
+    "args": {},
+    "lines": {
+      "ru": "Прицел оптический ПУ на боковой кронштейн, зимний",
+      "en": "PU Optical Sight on Side Bracket, Winter",
+      "es": "Mira telescópica PU en soporte lateral, invierno",
+      "fr": "Viseur optique en PU sur support latéral, Hivernal",
+      "ko": "PU 광학조준경 사이드 브래킷, 윈터"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.27,
+          "formatted": {
+            "value": {
+              "ru": "0,27 кг",
+              "en": "0.27 kg",
+              "es": "0,27 kg",
+              "fr": "0,27 kg",
+              "ko": "0.27 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 10,
+          "formatted": {
+            "value": {
+              "ru": "10%",
+              "en": "10%",
+              "es": "10%",
+              "fr": "10%",
+              "ko": "10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

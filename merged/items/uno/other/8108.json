@@ -1,0 +1,58 @@
+{
+  "id": "8108",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.spring25_small_crystal.name",
+    "args": {},
+    "lines": {
+      "ru": "Стекло-сырец",
+      "en": "Raw Glass",
+      "es": "Cristal en bruto",
+      "fr": "Verre Brut",
+      "ko": "유리 원료"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.03,
+          "formatted": {
+            "value": {
+              "ru": "0,03 кг",
+              "en": "0.03 kg",
+              "es": "0,03 kg",
+              "fr": "0,03 kg",
+              "ko": "0.03 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

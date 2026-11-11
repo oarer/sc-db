@@ -1,0 +1,94 @@
+{
+  "id": "22906",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.att.forend_valris1.name",
+    "args": {},
+    "lines": {
+      "ru": "Хомут с планкой RIS",
+      "en": "Clamp with RIS Rail",
+      "es": "Abrazadera con raíl RIS",
+      "fr": "Pince avec rail RIS",
+      "ko": "RIS 레일이 달린 클램프"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.08,
+          "formatted": {
+            "value": {
+              "ru": "0,08 кг",
+              "en": "0.08 kg",
+              "es": "0,08 kg",
+              "fr": "0,08 kg",
+              "ko": "0.08 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24825",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_pan1x.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «О как!»",
+      "en": "Oh Wow! Charm",
+      "es": "Amuleto ¡Oh, genial!",
+      "fr": "Breloque Oh là là !",
+      "ko": "오, 이런! 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_pan1x.description",
+        "args": {},
+        "lines": {
+          "ru": "Классическая фраза, застывшая в металле. Ее произносят, найдя редкий артефакт, нарываясь на засаду или просто слушая байки у костра. Этот брелок — символ тех самых непредсказуемых моментов, ради которых и приходят в Зону.",
+          "en": "A classic phrase, frozen in metal. It's spoken when someone finds a rare artifact, stumbles into an ambush, or listens to stories by the campfire. This charm symbolizes those unpredictable moments that draw people to the Zone.",
+          "es": "Una frase clásica, grabada en metal. Se pronuncia al encontrar un artefacto raro, al caer en una emboscada o simplemente al escuchar historias alrededor de una fogata. Este amuleto es un símbolo de esos momentos impredecibles por los que la gente viene a la Zona.",
+          "fr": "Une phrase classique, figée dans le métal. On la prononce en trouvant un artefact rare, en tombant dans une embuscade, ou simplement en écoutant des récits autour du feu de camp. Cette breloque est le symbole de ces moments imprévisibles pour lesquels on vient dans la Zone.",
+          "ko": "금속 속에 새겨진 고전적인 문구. 희귀 아티팩트를 발견하거나, 매복에 걸리거나, 단순히 모닥불 곁에서 떠도는 이야기를 들을 때 사람들은 이 말을 한다. 이 부적은 바로 그런 예측 불가한 순간들을 상징하며, 사람들이 구역에 발을 들이는 이유를 떠올리게 한다."
+        }
+      }
+    }
+  ]
+}

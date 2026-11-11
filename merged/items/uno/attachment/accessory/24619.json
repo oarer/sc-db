@@ -1,0 +1,77 @@
+{
+  "id": "24619",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.spring24_lizard.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Азгыр-шаррх, гроза Байкала»",
+      "en": "Azgyr-sharrkh, Baikal Threat Charm",
+      "es": "Amuleto Azgyr-sharrkh, amenaza del Baikal",
+      "fr": "Azgyr-sharrkh, Charme Menace du Baïkal",
+      "ko": "아즈기르-샤르흐, 바이칼의 위협 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.spring24_lizard.description",
+        "args": {},
+        "lines": {
+          "ru": "Известнейший из ящеров-завоевателей Байкала, побежден Дрочеславом Мудрым в 843 г. до Н.Э.",
+          "en": "The most famous of the lizard-conquerors of Lake Baikal, defeated by Wankerslav the Wise in 843 BC.",
+          "es": "El más famoso de los conquistadores lagarto del lago Baikal, derrotado por Wankerslav el Sabio en el 843 a. C.",
+          "fr": "Le plus célèbre des lézards conquérants du lac Baïkal, vaincu par Branleurslav le Sage en 843 av.JC.",
+          "ko": "바이칼 호수를 정복한 리저드 정복자 중 가장 유명한 자, 기원전 843년 완커슬라브 현자에게 패배했다."
+        }
+      }
+    }
+  ]
+}

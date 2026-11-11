@@ -1,0 +1,166 @@
+{
+  "id": "22797",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.mag_rumag54545_f.name",
+    "args": {},
+    "lines": {
+      "ru": "Магазин 5.45 пластиковый, обмотанный",
+      "en": "5.45 Plastic Magazine, Taped",
+      "es": "Cargador de plástico de 5,45, vendado",
+      "fr": "Chargeur en Plastique 5,45, Scotché",
+      "ko": "5.45 플라스틱 탄창, 테이프 묶음형"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Размер магазина",
+              "en": "Magazine size:",
+              "es": "Tamaño del cargador:",
+              "fr": "Capacité du chargeur",
+              "ko": "탄창 크기:"
+            }
+          },
+          "value": 45,
+          "formatted": {
+            "value": {
+              "ru": "45",
+              "en": "45",
+              "es": "45",
+              "fr": "45",
+              "ko": "45"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 3.2,
+          "formatted": {
+            "value": {
+              "ru": "3,2 с",
+              "en": "3.2 sec",
+              "es": "3,2 s",
+              "fr": "3,2 s",
+              "ko": "3.2초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {}
+          },
+          "value": 2.56,
+          "formatted": {
+            "value": {
+              "ru": "2,56 с",
+              "en": "2.56 sec",
+              "es": "2,56 s",
+              "fr": "2,56 s",
+              "ko": "2.56초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {}
+          },
+          "value": -0.4,
+          "formatted": {
+            "value": {
+              "ru": "-0,4%",
+              "en": "-0.4%",
+              "es": "-0,4%",
+              "fr": "-0,4%",
+              "ko": "-0.4%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    }
+  ]
+}

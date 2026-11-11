@@ -1,0 +1,58 @@
+{
+  "id": "16246",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16246.name",
+    "args": {},
+    "lines": {
+      "ru": "Энергоячейка для сейфа",
+      "en": "Safe Energy Cell",
+      "es": "Célula de energía segura",
+      "fr": "Cellule énergétique de coffre-fort",
+      "ko": "안전한 에너지 셀"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 2,
+          "formatted": {
+            "value": {
+              "ru": "2 кг",
+              "en": "2 kg",
+              "es": "2 kg",
+              "fr": "2 kg",
+              "ko": "2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

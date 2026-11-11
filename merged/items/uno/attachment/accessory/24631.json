@@ -1,0 +1,77 @@
+{
+  "id": "24631",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer24_tick.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Клещ-мутант»",
+      "en": "Charm \"Tick-Mutant\"",
+      "es": "Amuleto \"Mutante garrapata\"",
+      "fr": "Breloque Tique-Mutante",
+      "ko": "돌연변이 진드기 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer24_tick.description",
+        "args": {},
+        "lines": {
+          "ru": "Награда от доктора Сосенко за помощь в победе над клещами в Первой Клещевой Войне.",
+          "en": "Reward from Dr. Suckoff for helping defeat the ticks in the First Tick War.",
+          "es": "Recompensa del Dr. Suckoff por ayudar a derrotar a las garrapatas en la Primera Guerra de las Garrapatas.",
+          "fr": "Récompense du Dr Suceko pour avoir aidé à vaincre les tiques lors de la première guerre contre les tiques.",
+          "ko": "제1 진드기 전쟁에서 진드기를 물리치는 데 도움을 준 보상으로서 서커프 박사가 주는 보상이다."
+        }
+      }
+    }
+  ]
+}

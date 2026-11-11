@@ -1,0 +1,77 @@
+{
+  "id": "24737",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.frontline_shell_pfm1.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Осень»",
+      "en": "Autumn Charm",
+      "es": "Amuleto Otoño",
+      "fr": "Breloque Automne",
+      "ko": "가을 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.frontline_shell_pfm1.description",
+        "args": {},
+        "lines": {
+          "ru": "Что такое осень? Это небо.\\nНебо укрывает лепестками!\\nВ лужах разлетаются вражины. Между нами:\\nОсень, я давно у дома не был...\\n\\nСтроки, написанные одним из бойцов в лазарете.",
+          "en": "What is autumn? What is? It's the sky\\nThat is covered with so many petals!\\nEnemies are scatterring in puddles, oh, between us:\\nAutumn, I haven't been home for long...\\n\\nLines written by one of the soldiers in the infirmary.",
+          "es": "¿Qué es el otoño? Es el cielo.\\nEl cielo cubierto con pétalos, bello.\\nEn charcos vuelan enemigos. Entre nosotros:\\nOtoño, hace mucho que no estaba en casa...\\n\\nLíneas escritas por uno de los soldados en la enfermería.",
+          "fr": "Qu'est-ce que l'automne ? C'est le ciel.\\nLe ciel nous couvre de pétales !\\nLes ennemis éclaboussent dans les flaques.\\nEntre nous : Automne, cela fait si longtemps que je ne suis pas rentré chez moi…\\n\\nVers écrits par un combattant dans l'infirmerie.",
+          "ko": "가을은 뭐냐고 묻는다면 당신의 대답은 무엇인가? 무엇보다 가을은 \\n 수많은 낙엽으로 뒤덮인 하늘일 것이다! \\n 우리 둘만의 이야기인데, 적군은 웅덩이 사이에 흩어져 있다: \\n 가을, 내가 집을 떠난 지도 오래되었지...\\n\\n병실에서 병사 한 명이 쓴 구절."
+        }
+      }
+    }
+  ]
+}

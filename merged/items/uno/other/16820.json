@@ -1,0 +1,77 @@
+{
+  "id": "16820",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.truhlyavnik.name",
+    "args": {},
+    "lines": {
+      "ru": "Трухлявник",
+      "en": "Crumbly Shroom",
+      "es": "Champiñón inconsistente",
+      "fr": "Champi friable",
+      "ko": "바스라진 버섯"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.18,
+          "formatted": {
+            "value": {
+              "ru": "0,18 кг",
+              "en": "0.18 kg",
+              "es": "0,18 kg",
+              "fr": "0,18 kg",
+              "ko": "0.18 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.truhlyavnik.description",
+        "args": {},
+        "lines": {
+          "ru": "Гриб белесого цвета с влажной и пористой мясистой ножкой. Травник прозвал это растение трухлявником.",
+          "en": "This mushroom is whitish in color with a moist, porous, fleshy stem. Herbalist calls this plant \"crumbly shroom.\"",
+          "es": "Un champiñón blanquecino con un tallo húmedo, poroso y carnoso. Herbolario llama a esta planta \"champiñón inconsistente\".",
+          "fr": "Ce champion de couleur blanchâtre a une tige humide, poreuse et charnue. Herbalist appelle cette plante le « champi friable ».",
+          "ko": "희끄무레한 버섯. 줄기는 촉촉하고 구멍이 많으며, 살도 통통하게 올라 있다. 약초사는 이 균류를 [바스라진 버섯]이라 부른다."
+        }
+      }
+    }
+  ]
+}

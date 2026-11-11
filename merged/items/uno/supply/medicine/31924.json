@@ -1,0 +1,167 @@
+{
+  "id": "31924",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.apt_mushroom1.name",
+    "args": {},
+    "lines": {
+      "ru": "Гриб здрав",
+      "en": "Health Shroom",
+      "es": "Seta de la salud",
+      "fr": "Santé fongique",
+      "ko": "건강 버섯"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 7.5,
+          "formatted": {
+            "value": {
+              "ru": "7,5 с",
+              "en": "7.5 sec",
+              "es": "7,5 s",
+              "fr": "7,5 s",
+              "ko": "7.5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "value": 6.4,
+          "formatted": {
+            "value": {
+              "ru": "6,4%",
+              "en": "6.4%",
+              "es": "6,4%",
+              "fr": "6,4%",
+              "ko": "6.4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.artefakt_heal",
+            "args": {},
+            "lines": {
+              "ru": "Периодическое лечение",
+              "en": "Periodic healing",
+              "es": "Curación periódica",
+              "fr": "Soins périodiques",
+              "ko": "지속 치유"
+            }
+          },
+          "value": 4.5,
+          "formatted": {
+            "value": {
+              "ru": "4,5%",
+              "en": "4.5%",
+              "es": "4,5%",
+              "fr": "4,5%",
+              "ko": "4.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": -0.75,
+          "formatted": {
+            "value": {
+              "ru": "-0,75%",
+              "en": "-0.75%",
+              "es": "-0,75%",
+              "fr": "-0,75%",
+              "ko": "-0.75%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.apt_mushroom1.description",
+        "args": {},
+        "lines": {
+          "ru": "Кушай, чтобы быть здоровым.",
+          "en": "A mushroom a day keeps the doctor away.",
+          "es": "Come para estar sano.",
+          "fr": "Mange pour être en bonne santé.",
+          "ko": "먹고 건강을 유지하라."
+        }
+      }
+    }
+  ]
+}

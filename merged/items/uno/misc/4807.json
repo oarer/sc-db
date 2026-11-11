@@ -1,0 +1,58 @@
+{
+  "id": "4807",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.sticker.summer24.name",
+    "args": {},
+    "lines": {
+      "ru": "Стикер сезона «Корпорация ZIVCAS»",
+      "en": "ZIVCAS Corporation Season Sticker",
+      "es": "Pegatina de temporada Corporación ZIVCAS",
+      "fr": "Autocollant de la saison « Corporation ZIVCAS »",
+      "ko": "지브카스 기업 시즌 스티커"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

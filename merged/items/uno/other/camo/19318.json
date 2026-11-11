@@ -1,0 +1,58 @@
+{
+  "id": "19318",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.dayx_skin_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Ночное видение»",
+      "en": "Night Vision Paint",
+      "es": "Pintura Visión nocturna",
+      "fr": "Peinture Vision Nocturne",
+      "ko": "야간 투시 도색"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

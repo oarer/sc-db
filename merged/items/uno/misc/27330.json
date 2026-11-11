@@ -1,0 +1,58 @@
+{
+  "id": "27330",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.inside_rating.name",
+    "args": {},
+    "lines": {
+      "ru": "Сожженный оникс",
+      "en": "Burnt Onyx",
+      "es": "Ónice quemado",
+      "fr": "Onyx brûlé",
+      "ko": "불타버린 오닉스"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

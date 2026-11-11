@@ -1,0 +1,58 @@
+{
+  "id": "16523",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.create.box_ammo_spb545.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик патронов 5.45 мм СБП",
+      "en": "Crate of 5.45 mm SBP Rounds",
+      "es": "Caja de munición SBP de 5.45 mm",
+      "fr": "Caisse de cartouches 5,45 mm SBP",
+      "ko": "5.45mm SBP 탄약 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 8,
+          "formatted": {
+            "value": {
+              "ru": "8 кг",
+              "en": "8 kg",
+              "es": "8 kg",
+              "fr": "8 kg",
+              "ko": "8 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

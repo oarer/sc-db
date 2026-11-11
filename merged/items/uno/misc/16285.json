@@ -1,0 +1,58 @@
+{
+  "id": "16285",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.boar_tusk_t1.name",
+    "args": {},
+    "lines": {
+      "ru": "Бивень кабана",
+      "en": "Boar Tusk",
+      "es": "Colmillo de jabalí",
+      "fr": "Défense de sanglier",
+      "ko": "돌연변이 멧돼지 송곳니"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.7,
+          "formatted": {
+            "value": {
+              "ru": "0,7 кг",
+              "en": "0.7 kg",
+              "es": "0,7 kg",
+              "fr": "0,7 kg",
+              "ko": "0.7 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

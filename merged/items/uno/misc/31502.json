@@ -1,0 +1,58 @@
+{
+  "id": "31502",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setK.toy3.name",
+    "args": {},
+    "lines": {
+      "ru": "Крафтовая игрушка-сова",
+      "en": "Crafted Owl Decoration",
+      "es": "Adorno de búho artesanal",
+      "fr": "Décoration Artisanale en Forme de Hibou",
+      "ko": "수공예 올빼미 장식"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

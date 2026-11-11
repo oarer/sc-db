@@ -1,0 +1,77 @@
+{
+  "id": "24752",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.autumn25_pass_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Наблюдатель»",
+      "en": "Watcher Charm",
+      "es": "Amuleto Observador",
+      "fr": "Breloque Observateur",
+      "ko": "보초 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.autumn25_pass_3.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшая голова игрушечной куклы с довольно странными аномальными свойствами — единственный глаз куклы меняет направление взгляда каждую секунду. При этом каких-либо механизмов, управляющих движением глаз внутри головы обнаружено не было.\\n\\nУченые НИИ-7 из отделения артефактологии, изучившие диковинку вдоль и поперек, не пришли к каким-либо конкретным выводам, однако профессор Бондаренко выдвинул предположение, что аномальный образец может образовывать локальную пси-аномалию, искажающую восприятие наблюдателя.",
+          "en": "A small head of a toy doll with rather strange anomalous properties—the doll's single eye changes direction every second. However, no mechanisms controlling eye movement were found inside the head. \\n\\nScientists at Research Institute 7 from the artifactology department, who studied the curiosity thoroughly, did not reach any concrete conclusions. However, Professor Bondarenko suggested that the anomalous specimen might form a local psy-anomaly, distorting the observer's perception.",
+          "es": "La pequeña cabeza de una muñeca de juguete con unas propiedades bastante extrañas y anómalas: el único ojo de la muñeca cambia la dirección de la mirada cada segundo. Sin embargo, no se ha encontrado ningún mecanismo que controle el movimiento de los ojos dentro de la cabeza.\\n\\nLos científicos del Instituto de Investigación 7, del Departamento de Artifactología, que estudiaron el objeto por todos los costados, no llegaron a ninguna conclusión concreta, pero el profesor Bondarenko planteó la hipótesis de que la muestra anómala podría estar generando una anomalía psy local que distorsiona la percepción del observador.",
+          "fr": "Une petite tête de poupée avec des propriétés assez étranges et anormales : à l'intérieur de la poupée, il y a deux yeux, mais on ne peut en voir qu'un seul à la fois.\\n\\nLes scientifiques du département d'artefactologie du l'Institut de Recherche 7, qui ont étudié cette curiosité sous toutes ses coutures, ne sont pas parvenus à des conclusions concrètes, mais le professeur Bondarenko a émis l'hypothèse que cet échantillon anormal pourrait créer une anomalie psi locale qui déforme la perception de l'observateur.",
+          "ko": "기이한 속성을 가진 작은 인형의 머리로 하나뿐인 눈이 매 초마다 방향을 바꾼다. 하지만 안구의 움직임을 조종하는 장치가 인형의 머리 속에서 발견되지 않았다. \\n\\n 이상현상을 면밀히 조사한 제 7 연구소의 유물학 부서 연구원들은 딱히 이렇다 할 답변을 내놓지 못 하고 있다. 다만, 본다렌코 교수는 이 독특한 표본이 관찰자의 지각능력을 왜곡시키는 이상현상을 발생시킬 수 있다고 주장한다."
+        }
+      }
+    }
+  ]
+}

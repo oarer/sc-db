@@ -1,0 +1,41 @@
+{
+  "id": "28601",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.28601.name",
+    "args": {},
+    "lines": {
+      "ru": "Поврежденная плата",
+      "en": "Damaged Circuit Board",
+      "es": "Placa base dañada",
+      "fr": "Tableau de circuits endommagé",
+      "ko": "손상된 회로 기판"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28601.description",
+        "args": {},
+        "lines": {
+          "ru": "Старая поврежденная зеленая плата. Сомневаюсь, что она хоть кому-то нужна.@@§2Предмет для бартера",
+          "en": "An old, damaged green circuit board. Unlikely to be of use to anyone.@@§2Barter item",
+          "es": "Una placa base verde, vieja y dañada. Es poco probable que le sea de utilidad a alguien.@@§2Objeto de trueque",
+          "fr": "Un tableau de circuits vert, ancien et endommagé.@@§2Objet de troc",
+          "ko": "오래되고 손상된 녹색 회로 기판. 어느 누구에게도 쓸모가 없을 것 같다.@@§2교환 가능 아이템"
+        }
+      }
+    }
+  ]
+}

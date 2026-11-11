@@ -1,0 +1,151 @@
+{
+  "id": "23008",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.23008.name",
+    "args": {},
+    "lines": {
+      "ru": "Компактный приклад XM8",
+      "en": "XM8 Compact Stock",
+      "es": "Culata compacta XM8",
+      "fr": "Crosse compacte XM8",
+      "ko": "XM8 컴팩트 개머리판"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg",
+              "es": "0,05 kg",
+              "fr": "0,05 kg",
+              "ko": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": 20,
+          "formatted": {
+            "value": {
+              "ru": "20%",
+              "en": "20%",
+              "es": "20%",
+              "fr": "20%",
+              "ko": "20%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {}
+          },
+          "value": 25,
+          "formatted": {
+            "value": {
+              "ru": "25%",
+              "en": "25%",
+              "es": "25%",
+              "fr": "25%",
+              "ko": "25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": -33,
+          "formatted": {
+            "value": {
+              "ru": "-33%",
+              "en": "-33%",
+              "es": "-33%",
+              "fr": "-33%",
+              "ko": "-33%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {}
+          },
+          "value": 20,
+          "formatted": {
+            "value": {
+              "ru": "20%",
+              "en": "20%",
+              "es": "20%",
+              "fr": "20%",
+              "ko": "20%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

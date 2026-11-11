@@ -1,0 +1,77 @@
+{
+  "id": "24369",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.snowflake_frostfighter.name",
+    "args": {},
+    "lines": {
+      "ru": "Жетон Морозоборцев",
+      "en": "Frost Fighter Token",
+      "es": "Ficha de combatiente gélido",
+      "fr": "Jeton Combattant du Givre",
+      "ko": "서리 전사 토큰"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.snowflake_frostfighter.description",
+        "args": {},
+        "lines": {
+          "ru": "Жетон в виде снежинки, вырезанный изо льда с аномального бурана",
+          "en": "A snowflake-shaped token cut from the ice of an anomalous blizzard",
+          "es": "Una ficha en forma de copo de nieve cortada del hielo de una ventisca anómala",
+          "fr": "Jeton en forme de flocon de neige taillé dans la glace d'un blizzard anormal",
+          "ko": "이상한 눈보라의 얼음으로 잘라낸 눈송이 모양 토큰이다."
+        }
+      }
+    }
+  ]
+}

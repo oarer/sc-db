@@ -1,0 +1,58 @@
+{
+  "id": "4600",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.premium.name",
+    "args": {},
+    "lines": {
+      "ru": "Паттерн STALZONE Premium",
+      "en": "STALZONE Premium Pattern",
+      "es": "Patrón STALZONE Prémium",
+      "fr": "Thème STALZONE Premium",
+      "ko": "STALZONE Premium 패턴"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

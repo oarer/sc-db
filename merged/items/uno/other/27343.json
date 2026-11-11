@@ -1,0 +1,58 @@
+{
+  "id": "27343",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.blizzard_quest_yellow_liqueur.name",
+    "args": {},
+    "lines": {
+      "ru": "Наливка Палтуса",
+      "en": "Halibut's Liqueur",
+      "es": "Licor de Halibut",
+      "fr": "Liqueur de Halibut",
+      "ko": "핼리벗의 리큐르"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg",
+              "es": "1 kg",
+              "fr": "1 kg",
+              "ko": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

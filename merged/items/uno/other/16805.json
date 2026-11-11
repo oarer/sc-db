@@ -1,0 +1,58 @@
+{
+  "id": "16805",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16805.name",
+    "args": {},
+    "lines": {
+      "ru": "Блок данных «Завета»",
+      "en": "Covenant Data Block",
+      "es": "Bloque de datos del Pacto",
+      "fr": "Bloc de données de l'Alliance",
+      "ko": "커버넌트 데이터 블록"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 2,
+          "formatted": {
+            "value": {
+              "ru": "2 кг",
+              "en": "2 kg",
+              "es": "2 kg",
+              "fr": "2 kg",
+              "ko": "2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

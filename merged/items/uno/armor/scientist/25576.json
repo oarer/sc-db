@@ -1,0 +1,167 @@
+{
+  "id": "25576",
+  "category": "armor/scientist",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.puppeteer_encaged.name",
+    "args": {},
+    "lines": {
+      "ru": "«Обличие Охотника»",
+      "en": "Hunter's Guise",
+      "es": "Disfraz de cazador",
+      "fr": "Peau du Chasseur",
+      "ko": "사냥꾼의 변장"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 13,
+          "formatted": {
+            "value": {
+              "ru": "13 кг",
+              "en": "13 kg",
+              "es": "13 kg",
+              "fr": "13 kg",
+              "ko": "13 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.puppeteer_encaged.description",
+        "args": {},
+        "lines": {
+          "ru": "Комбинезон охотника, сотканный из мрака и криков, что витают в глубинах подземки. Его броня — это не просто защита, а часть самой неизвестности, скрывающая его шаги и намерения. Она поглощает свет и надежду, оставляя лишь холодный след для тех, кто осмелился ступить в его владения.",
+          "en": "A hunter's jumpsuit woven from the darkness and cries that roam the depths of the underground. Its armor is not just a protection but a part of the unknown itself, concealing his steps and intentions. It absorbs light and hope, leaving only a cold trail for those who dare to step into its domain.",
+          "es": "Un traje de cazador tejido con la oscuridad y los lamentos que vagan por las profundidades del subsuelo. Su armadura no es solo una protección, sino que forma parte de lo desconocido y oculta sus pasos e intenciones. Absorbe la luz y la esperanza, y deja solo un rastro frío para quienes se atreven a adentrarse en sus dominios.",
+          "fr": "Combinaison du chasseur, tissée d'obscurité et de cris errant dans les profondeurs souterraines. Son armure n'est pas seulement une protection, mais une part même de l'inconnu, dissimulant ses pas et ses intentions. Elle absorbe la lumière et l'espérance, ne laissant qu'une trace glaciale à ceux qui osent pénétrer dans son domaine.",
+          "ko": "지하 깊은 곳을 떠도는 어둠과 울부짖음으로 짜인 사냥꾼의 점프슈트. 이 방어구는 단순한 보호구가 아니라 미지 그 자체의 일부로, 그의 발걸음과 의도를 숨겨준다. 빛과 희망을 흡수하여, 그 영역에 감히 발을 들인 자들에게는 오직 차가운 흔적만을 남긴다."
+        }
+      }
+    }
+  ]
+}

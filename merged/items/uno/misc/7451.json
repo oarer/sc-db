@@ -1,0 +1,58 @@
+{
+  "id": "7451",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "go.misc.statue_snowgirl.name",
+    "args": {},
+    "lines": {
+      "ru": "Статуя Снегурочки",
+      "en": "Snow Maiden’s Statue",
+      "es": "Estatua de la Doncella de las Nieves",
+      "fr": "Figurine de la Vierge des Neiges",
+      "ko": "스노우 메이든 동상"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

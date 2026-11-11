@@ -1,0 +1,131 @@
+{
+  "id": "12405",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.ops.support.name",
+    "args": {},
+    "lines": {
+      "ru": "«Лечение»",
+      "en": "Healing",
+      "es": "Curación",
+      "fr": "Guérison",
+      "ko": "치유"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 кг",
+              "en": "0.25 kg",
+              "es": "0,25 kg",
+              "fr": "0,25 kg",
+              "ko": "0.25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.ops.support.description",
+        "args": {},
+        "lines": {
+          "ru": "При взрыве создает область, восстанавливающую здоровье союзников и защищающую от заражений",
+          "en": "When explodes, it creates an area that restores the health of allies and protects against infections.",
+          "es": "Cuando explota, crea una zona que recupera la salud de los aliados y protege frente a infecciones.",
+          "fr": "Lorsqu'il explose, il crée une zone qui restaure la santé des alliés et les protège contre les infections.",
+          "ko": "폭발하면 아군의 체력을 회복시키고 감염 피해로부터 아군을 보호하는 영역을 생성한다."
+        }
+      }
+    }
+  ]
+}

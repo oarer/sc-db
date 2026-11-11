@@ -1,0 +1,77 @@
+{
+  "id": "24826",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_ilmater.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Ну ты глянь!»",
+      "en": "Look at That! Charm",
+      "es": "Amuleto ¡Mira eso!",
+      "fr": "Breloque Regarde ça !",
+      "ko": "[이것 좀 봐!] 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_ilmater.description",
+        "args": {},
+        "lines": {
+          "ru": "Без подобной реакции не обходится ни одно увлекательное событие: от внезапного Выброса до новичка, пытающегося пройти через \"Пух\" с зажигалкой. Главное в Зоне — не пропустить ни одного запоминающегося зрелища!",
+          "en": "No exciting event in the Zone goes by without such a reaction—from a sudden eruption to a rookie attempting to push through the Fluff with nothing but a lighter. The most important thing in the Zone is not to miss a single unforgettable moment.",
+          "es": "Ningún evento emocionante puede prescindir de una reacción similar: desde una descarga repentina hasta un novato que intenta atravesar Baba con un mechero. Lo más importante en la Zona es no perderse ni un solo espectáculo memorable.",
+          "fr": "Aucune réaction de ce genre ne manque lors d'un événement captivant : d'une Émission soudaine à un novice tentant de traverser les «» avec un briquet. L'essentiel dans la Zone — ne rater aucun spectacle mémorable !",
+          "ko": "어느 흥미진진한 사건에도 이런 반응은 빠지지 않는다. 갑작스러운 분화에서부터, 라이터 하나로 ‘퍼프’를 지나려는 신참까지. 구역에서 가장 중요한 것은, 단 하나의 기억에 남을 장면도 놓치지 않는 것이다!"
+        }
+      }
+    }
+  ]
+}

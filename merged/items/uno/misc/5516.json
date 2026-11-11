@@ -1,0 +1,58 @@
+{
+  "id": "5516",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.customisation_pack.summer26.name",
+    "args": {},
+    "lines": {
+      "ru": "Набор кастомизации «Антициклон»",
+      "en": "Anticyclone Customization Pack",
+      "es": "Pack de personalización Anticiclón",
+      "fr": "Pack de personnalisation : Anticyclone",
+      "ko": "고기압 커스터마이징 팩"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

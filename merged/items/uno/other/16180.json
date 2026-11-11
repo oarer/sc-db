@@ -1,0 +1,77 @@
+{
+  "id": "16180",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16180.name",
+    "args": {},
+    "lines": {
+      "ru": "Сухарь",
+      "en": "Cracker",
+      "es": "Galleta salada",
+      "fr": "Cracker",
+      "ko": "크래커"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg",
+              "es": "0,05 kg",
+              "fr": "0,05 kg",
+              "ko": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16180.description",
+        "args": {},
+        "lines": {
+          "ru": "Иногда «семки» не успевают полностью минерализироваться и принимают более мягкую форму и характерный бронзовый оттенок.",
+          "en": "\"Sunflower seeds\" sometimes don't mineralize fully, and take on a softer form and characteristic bronze sheen.",
+          "es": "Las \"pipas de girasol\" a veces no se mineralizan del todo y adquieren una forma más blanda y un brillo broncíneo característico.",
+          "fr": "Les « graines de tournesol » ne se minéralisent parfois pas complètement et prennent une forme plus douce et un éclat de bronze caractéristique.",
+          "ko": "[해바라기 씨앗]은 완전히 광물화되지 않고 남아 있는 경우도 있다. 이는 더 부드러운 질감을 가지며, 특유의 청동빛 광택이 나타난다."
+        }
+      }
+    }
+  ]
+}

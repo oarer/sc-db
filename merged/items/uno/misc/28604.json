@@ -1,0 +1,41 @@
+{
+  "id": "28604",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.28604.name",
+    "args": {},
+    "lines": {
+      "ru": "Красная плата",
+      "en": "Red Circuit Board",
+      "es": "Placa base roja",
+      "fr": "Tableau de circuit rouge",
+      "ko": "적색 회로 기판"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28604.description",
+        "args": {},
+        "lines": {
+          "ru": "Обычная красная плата. Возможно, Легионер порадует меня копеечкой за нее.@@§2Предмет для бартера",
+          "en": "A common red circuit board. Legionnaire might give me a few pennies for it.@@§2Barter item",
+          "es": "Una placa base roja común. El Legionario podría darme algo por ella.@@§2Objeto de trueque",
+          "fr": "Un tableau de circuit rouge. Légionnaire devrait nous en donner quelques kopecks.@@§2Objet de troc",
+          "ko": "흔히 볼 수 있는 적색 회로 기판. 리전에어가 몇 푼 쥐어 줄지도 모른다.@@§2교환 가능 아이템"
+        }
+      }
+    }
+  ]
+}

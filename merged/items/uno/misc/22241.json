@@ -1,0 +1,128 @@
+{
+  "id": "22241",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.scope_hamr_hell.name",
+    "args": {},
+    "lines": {
+      "ru": "Когтистый Leupold",
+      "en": "Clawed Leupold",
+      "es": "Leupold con garras",
+      "fr": "Griffé Leupold",
+      "ko": "발톱 달린 루폴드"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.42,
+          "formatted": {
+            "value": {
+              "ru": "0,42 кг",
+              "en": "0.42 kg",
+              "es": "0,42 kg",
+              "fr": "0,42 kg",
+              "ko": "0.42 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5%",
+              "en": "5%",
+              "es": "5%",
+              "fr": "5%",
+              "ko": "5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 10,
+          "formatted": {
+            "value": {
+              "ru": "10%",
+              "en": "10%",
+              "es": "10%",
+              "fr": "10%",
+              "ko": "10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.scope_hamr_hell.description",
+        "args": {},
+        "lines": {
+          "ru": "Модель: HAMR Mark 4 2.8x24mm@HAMR — High Accuracy Multi-range Riflescope (высокоточный прицел для @различных дистанций). Прицел достаточно компактен и идеально подходит для установки на планку Пикатинни. Производится американской компанией Leupold Optics, производящей прицелы для охоты и спорта. Данная модель украшена чьими-то костями.",
+          "en": "Model: HAMR Mark 4 2.8x24 mm@HAMR—High Accuracy Multi-range Riflescope.@This scope is fairly compact and is ideal for mounting on a Picatinny rail. Made by Leupold Optics, an American manufacturer of sights for hunting or sporting use. This model has been decorated with bones of some kind.",
+          "es": "Modelo: HAMR Mark 4 2,8x24 mm@HAMR significa \"visor de fusil multialcance de alta precisión\".@Este visor es bastante compacto y resulta ideal para montarlo en un raíl Picatinny. Producido por la empresa estadounidense Leupold Optics, que fabrica miras para caza y deporte. Este modelo ha sido decorado con huesos de algún tipo.",
+          "fr": "Modèle : HAMR Mark 4 2,8x24 mm@ HAMR - Lunette de visée multidirectionnelle de haute précision. @Cette lunette est assez compacte et est idéale pour être montée sur un rail Picatinny. Produite par la société américaine Leupold Optics, qui fabrique des viseurs pour la chasse et le sport. Ce modèle a été décoré d'une sorte d'os.",
+          "ko": "모델: HAMR Mark 4 2.8x24 mm@HAMR — 고정밀 다중 거리 저격용 라이플스코프.@이 조준경은 상당히 컴팩트하며 피카티니 레일에 장착하기에 이상적이다. 미국의 루폴드 옵틱스사가 생산하는데, 사냥과 스포츠용 조준경을 만든다. 이 모델은 어떤 종류의 뼈로 장식되어 있다."
+        }
+      }
+    }
+  ]
+}

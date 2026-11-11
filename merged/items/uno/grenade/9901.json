@@ -1,0 +1,167 @@
+{
+  "id": "9901",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.sermistor_frag.name",
+    "args": {},
+    "lines": {
+      "ru": "Выстрел гранатометный M384E1",
+      "en": "Grenade Launcher Round M384E1",
+      "es": "Proyectil de lanzagranadas M384E1",
+      "fr": "Cartouche de Lance-Grenades M384E1",
+      "ko": "유탄 발사기 탄환 M384E1"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.sermistor_frag.description",
+        "args": {},
+        "lines": {
+          "ru": "Опытный осколочно-фугасный боеприпас для автоматического гранатомета. Разработан для применения в условиях ЧЗО.",
+          "en": "Experimental fragmentation and high-explosive ammunition for an automatic grenade launcher. Designed for use in the Chernobyl Exclusion Zone.",
+          "es": "Munición experimental de fragmentación con un alto poder explosivo. Especial para lanzagranadas automáticos. Diseñada para utilizarse en la Zona de Exclusión de Chernóbil.",
+          "fr": "Fragmentation expérimentale et munitions hautement explosives pour un lance-grenades automatique. Conçu pour être utilisé dans la Zone d'Exclusion de Tchernobyl.",
+          "ko": "자동 유탄 발사기에 사용하기 위해 실험 삼아 제작된 파편성 유탄 겸 고폭탄 탄약이다. 체르노빌 금지 구역에서 활용하기 위해 설계되었다."
+        }
+      }
+    }
+  ]
+}

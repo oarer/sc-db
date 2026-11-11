@@ -1,0 +1,41 @@
+{
+  "id": "31435",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.lootbox.halloween_2023_promo.name",
+    "args": {},
+    "lines": {
+      "ru": "[Промо] Спонсорский подгон",
+      "en": "[Promo] Sponsors Gift",
+      "es": "[Promo] Regalo de los patrocinadores",
+      "fr": "[Promo] Cadeau des sponsors",
+      "ko": "[프로모] 스폰서 선물"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.lootbox.halloween_2023_promo.description",
+        "args": {},
+        "lines": {
+          "ru": "Предметы из этого ящика нельзя сдать Обменщику",
+          "en": "Items from this crate cannot be sold to the Exchanger",
+          "es": "Los objetos de esta caja no se pueden vender al Intercambiador",
+          "fr": "Les objets de cette caisse ne peuvent pas être vendus à l'Échangeur.",
+          "ko": "이 상자의 아이템은 교환상에 팔 수 없음"
+        }
+      }
+    }
+  ]
+}

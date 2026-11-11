@@ -1,0 +1,77 @@
+{
+  "id": "24780",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.winter26_pass_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Промерзший карабин»",
+      "en": "Frozen Carabiner Charm",
+      "es": "Amuleto Carabina congelada",
+      "fr": "Mousqueton givré gelée",
+      "ko": "얼어붙은 카라비너 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.winter26_pass_3.description",
+        "args": {},
+        "lines": {
+          "ru": "Карабин, шедший в комплекте с «Косаткой». Попал на руки сталкерам через особо предприимчивого торговца, решившего раздербанить дополнительную комплектацию.",
+          "en": "A carabiner that came with Orca. It ended up in the hands of stalkers through a particularly enterprising trader who decided to disassemble the additional equipment.",
+          "es": "Una carabina que venía con el equipamiento Orca. Llegó a manos de los acechadores a través de un comerciante particularmente emprendedor que decidió desmantelar el conjunto adicional.",
+          "fr": "Un mousqueton, livré avec l'Orque. Il est arrivé entre les mains des stalkers grâce à un commerçant particulièrement entreprenant, qui a décidé de démembrer le pack supplémentaire.",
+          "ko": "오르카와 함께 기본 제공되는 카라비너. 특히 약삭빠른 상인이 추가 구성품을 분해해 팔아치우는 바람에 스토커들의 손에까지 들어오게 됐습니다."
+        }
+      }
+    }
+  ]
+}

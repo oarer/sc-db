@@ -1,0 +1,349 @@
+{
+  "id": "11419",
+  "category": "artefact",
+  "name": {
+    "type": "translation",
+    "key": "item.art.ravent_feather.name",
+    "args": {},
+    "lines": {
+      "ru": "Перо Жар-птицы",
+      "en": "Firebird Feather",
+      "es": "Pluma de ave llameante",
+      "fr": "Plume de l'oiseau de feu",
+      "ko": "붉은 꾀꼬리 깃털"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {}
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "value": 10,
+          "formatted": {
+            "value": {
+              "ru": "10%",
+              "en": "10%",
+              "es": "10%",
+              "fr": "10%",
+              "ko": "10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "value": 1.667,
+          "formatted": {
+            "value": {
+              "ru": "1,67%",
+              "en": "1.67%",
+              "es": "1,67%",
+              "fr": "1,67%",
+              "ko": "1.67%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins",
+              "ko": "치유 효율"
+            }
+          },
+          "value": 36.666,
+          "formatted": {
+            "value": {
+              "ru": "36,67%",
+              "en": "36.67%",
+              "es": "36,67%",
+              "fr": "36,67%",
+              "ko": "36.67%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.recoil_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Отдача",
+              "en": "Recoil",
+              "es": "Retroceso",
+              "fr": "Recul",
+              "ko": "반동"
+            }
+          },
+          "value": -33.333,
+          "formatted": {
+            "value": {
+              "ru": "-33,33%",
+              "en": "-33.33%",
+              "es": "-33,33%",
+              "fr": "-33,33%",
+              "ko": "-33.33%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.spread_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread",
+              "es": "Dispersión",
+              "fr": "Dispersion",
+              "ko": "탄퍼짐"
+            }
+          },
+          "value": -33.333,
+          "formatted": {
+            "value": {
+              "ru": "-33,33%",
+              "en": "-33.33%",
+              "es": "-33,33%",
+              "fr": "-33,33%",
+              "ko": "-33.33%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.frost_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Холод",
+              "en": "Frost",
+              "es": "Congelación",
+              "fr": "Givre",
+              "ko": "서리"
+            }
+          },
+          "value": -2,
+          "formatted": {
+            "value": {
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2%",
+              "fr": "-2%",
+              "ko": "-2%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.combustion_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Горение",
+              "en": "Burning",
+              "es": "Quemadura",
+              "fr": "Combustion",
+              "ko": "발화"
+            }
+          },
+          "value": 10,
+          "formatted": {
+            "value": {
+              "ru": "10%",
+              "en": "10%",
+              "es": "10%",
+              "fr": "10%",
+              "ko": "10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от огня",
+              "en": "Fire resistance",
+              "es": "Resistencia al fuego",
+              "fr": "Résistance au feu",
+              "ko": "화염 저항율"
+            }
+          },
+          "value": 333.333,
+          "formatted": {
+            "value": {
+              "ru": "333,33",
+              "en": "333.33",
+              "es": "333,33",
+              "fr": "333,33",
+              "ko": "333.33"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24735",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.frontline_shell_c5.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Грифель»",
+      "en": "Graphite Charm",
+      "es": "Amuleto Grafito",
+      "fr": "Breloque Graphite",
+      "ko": "그라파이트 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.frontline_shell_c5.description",
+        "args": {},
+        "lines": {
+          "ru": "Каждый карандаш по своему уникален и подходит для отдельных видов художеств. Есть мягкие грифели, есть жесткие. А есть грифели 57мм. Таким рисуют смерть... широкими движениями.",
+          "en": "Each pencil is unique, suitable for different types of art. There are soft leads and hard ones, as well as 57mm leads. With these, one can draw death... in broad strokes.",
+          "es": "Cada lápiz es único a su manera y se adapta a diferentes tipos de arte. Hay minas blandas y hay duras. Y hay minas de 57 mm. Con estos dibujan la muerte... con movimientos amplios.",
+          "fr": "Chaque crayon est unique et adapté à une forme d'expression différente. Il y a les tendres, les durs… et les 57 mm. Ceux-là dessinent la mort... à grands traits.",
+          "ko": "연필마다 각기 다른 속성을 지녀 다양한 드로잉 기법에 적합하다. 부드럽거나 단단한 연필심과 57mm의 연필심도 있다. 이러한 연필들을 활용해 넓은 필치로 죽음을 그릴 수 있다."
+        }
+      }
+    }
+  ]
+}

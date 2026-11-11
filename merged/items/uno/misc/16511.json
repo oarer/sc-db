@@ -1,0 +1,58 @@
+{
+  "id": "16511",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.16511.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик патронов 10 мм",
+      "en": "Crate of 10 mm Rounds",
+      "es": "Caja de munición de 10 mm",
+      "fr": "Caisse de balles de 10 mm",
+      "ko": "10 mm 탄약 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 8.1,
+          "formatted": {
+            "value": {
+              "ru": "8,1 кг",
+              "en": "8.1 kg",
+              "es": "8,1 kg",
+              "fr": "8,1 kg",
+              "ko": "8.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

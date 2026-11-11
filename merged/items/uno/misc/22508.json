@@ -1,0 +1,166 @@
+{
+  "id": "22508",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.barrel_tutorial.name",
+    "args": {},
+    "lines": {
+      "ru": "Старый пламегаситель",
+      "en": "Old Flash Hider",
+      "es": "Supresor de destello antiguo",
+      "fr": "Ancien cache-flash",
+      "ko": "낡은 소염기"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.picklock",
+            "args": {},
+            "lines": {
+              "ru": "Отмычка",
+              "en": "Picklock",
+              "es": "Ratero",
+              "fr": "Crocheteur",
+              "ko": "신입"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.025,
+          "formatted": {
+            "value": {
+              "ru": "0,03 кг",
+              "en": "0.03 kg",
+              "es": "0,03 kg",
+              "fr": "0,03 kg",
+              "ko": "0.03 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.spread",
+            "args": {},
+            "lines": {}
+          },
+          "value": -0.5,
+          "formatted": {
+            "value": {
+              "ru": "-0,5%",
+              "en": "-0.5%",
+              "es": "-0,5%",
+              "fr": "-0,5%",
+              "ko": "-0.5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": -1.35,
+          "formatted": {
+            "value": {
+              "ru": "-1,35%",
+              "en": "-1.35%",
+              "es": "-1,35%",
+              "fr": "-1,35%",
+              "ko": "-1.35%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": -1.35,
+          "formatted": {
+            "value": {
+              "ru": "-1,35%",
+              "en": "-1.35%",
+              "es": "-1,35%",
+              "fr": "-1,35%",
+              "ko": "-1.35%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    }
+  ]
+}

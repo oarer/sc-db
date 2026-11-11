@@ -1,0 +1,58 @@
+{
+  "id": "14200",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.10st.name",
+    "args": {},
+    "lines": {
+      "ru": "Сумка 10 мм патронов",
+      "en": "Pouch of 10 mm Rounds",
+      "es": "Zurrón de munición de 10 mm",
+      "fr": "Pochette de cartouches de 10 mm",
+      "ko": "10 mm 탄 주머니"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 5.2,
+          "formatted": {
+            "value": {
+              "ru": "5,2 кг",
+              "en": "5.2 kg",
+              "es": "5,2 kg",
+              "fr": "5,2 kg",
+              "ko": "5.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

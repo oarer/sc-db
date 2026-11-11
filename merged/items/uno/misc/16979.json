@@ -1,0 +1,58 @@
+{
+  "id": "16979",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.season_pass.level_token_tradeable.name",
+    "args": {},
+    "lines": {
+      "ru": "Передаваемый уровень Сезона",
+      "en": "Transferable Season Level",
+      "es": "Nivel de temporada transferible",
+      "fr": "Le niveau de la saison transmis",
+      "ko": "전달 가능한 시즌 레벨"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "19700",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.inei.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Иней»",
+      "en": "Frost Paint",
+      "es": "Pintura Gélida",
+      "fr": "Peinture Givre",
+      "ko": "서리 도색"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.inei.description",
+        "args": {},
+        "lines": {
+          "ru": "Краска «Иней» для брони",
+          "en": "Frost Armor Paint",
+          "es": "Pintura Gélida para armadura",
+          "fr": "Peinture d'Armure de Givre",
+          "ko": "방어구용 서리 도색"
+        }
+      }
+    }
+  ]
+}

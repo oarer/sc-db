@@ -1,0 +1,58 @@
+{
+  "id": "31270",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setQ.toy8.name",
+    "args": {},
+    "lines": {
+      "ru": "Советский узорчатый шарик",
+      "en": "Soviet Patterned Bauble",
+      "es": "Bola con patrón soviética",
+      "fr": "Boule à Motifs Soviétiques",
+      "ko": "소련 패턴 장식구"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

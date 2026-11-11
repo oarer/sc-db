@@ -1,0 +1,41 @@
+{
+  "id": "16977",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.season_pass.point_token_sealed.name",
+    "args": {},
+    "lines": {
+      "ru": "Сезонные очки (запечатанные)",
+      "en": "Season Points (Sealed)",
+      "es": "Puntos de temporada (sellado)",
+      "fr": "Points de Saison (scellés)",
+      "ko": "시즌 포인트 (봉인됨)"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.season_pass.point_token_sealed.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "С шансом у мутантов и NPC, при закрытии разломов, с аирдропов и боссов на всех локациях.",
+          "en": "With a chance from mutants and NPCs, when closing rifts, from airdrops and bosses in all locations",
+          "es": "Con una oportunidad de mutantes y NPC, al cerrar grietas, de entregas aéreas y jefes en todas las ubicaciones.",
+          "fr": "Avec une chance sur les mutants et les PNJ, lors de la fermeture des failles, via les largages et les boss dans toutes les zones.",
+          "ko": "균열을 닫거나, 공수 보급품과 보스, 그리고 모든 지역의 돌연변이나 NPC들로부터 무작위로 획득 가능."
+        }
+      }
+    }
+  ]
+}

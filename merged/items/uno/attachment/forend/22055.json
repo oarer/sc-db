@@ -1,0 +1,94 @@
+{
+  "id": "22055",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.att.forend_b10b33.name",
+    "args": {},
+    "lines": {
+      "ru": "Цевье Б-10М и крышка ствольной коробки Б-33",
+      "en": "B-10M Handguard and B-33 Receiver Cover",
+      "es": "Guardamanos B-10M y tapa de receptor B-33",
+      "fr": "Garde-mainsCAA RS-21",
+      "ko": "B-10M 총열덮개 및 B-33 리시버 커버"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.435,
+          "formatted": {
+            "value": {
+              "ru": "0,43 кг",
+              "en": "0.43 kg",
+              "es": "0,43 kg",
+              "fr": "0,43 kg",
+              "ko": "0.43 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

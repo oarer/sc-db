@@ -1,0 +1,77 @@
+{
+  "id": "16159",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16159.name",
+    "args": {},
+    "lines": {
+      "ru": "Зарисовки Бороды",
+      "en": "Beard's Sketches",
+      "es": "Bocetos de Barbas",
+      "fr": "Les croquis de Beard",
+      "ko": "비어드의 스케치"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.01,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg",
+              "ko": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16159.description",
+        "args": {},
+        "lines": {
+          "ru": "Бумажный лист, на котором схематично изображена карта Зоны. На ней отмечены несколько точек, соединенных одной линией.",
+          "en": "A sheet of paper with a schematic of the Zone. There are several points marked on the map, joined in a single line.",
+          "es": "Una hoja de papel con un plano de la Zona. Hay varios puntos marcados en el mapa, unidos en una sola línea.",
+          "fr": "Une feuille de papier avec un schéma de la Zone. Plusieurs points sont marqués sur la carte, reliés par une seule ligne.",
+          "ko": "이 종이에는 구역의 대략적인 도면이 그려져 있다. 지도 위에는 여러 지점이 표시되어 있으며, 모두 하나의 선으로 연결되어 있다."
+        }
+      }
+    }
+  ]
+}

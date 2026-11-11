@@ -1,0 +1,58 @@
+{
+  "id": "31738",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.sa58_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть SA-58 CTC #4",
+      "en": "SA-58 CTC Part #4",
+      "es": "SA-58 CTC Pieza n.° 4",
+      "fr": "SA-58 CTC Partie #4",
+      "ko": "SA-58 CTC 부품 #4"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "15804",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.shop.stalcoins_10000.name",
+    "args": {},
+    "lines": {
+      "ru": "10000 сталкоинов",
+      "en": "10,000 Stalcoins",
+      "es": "10 000 stalcoins",
+      "fr": "10,000 Stalcoins",
+      "ko": "10,000 스탈코인"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

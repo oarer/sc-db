@@ -1,0 +1,58 @@
+{
+  "id": "27238",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.case_token.cosmetic.name",
+    "args": {},
+    "lines": {
+      "ru": "Жетон кейса Эстета",
+      "en": "Aesthete Case Token",
+      "es": "Ficha de la caja de Esteta",
+      "fr": "Jetons de la caisse de l'Esthète",
+      "ko": "에스테트 케이스 토큰"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24866",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer26_binoculars.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Тактический бинокль»",
+      "en": "Tactical Binoculars Charm",
+      "es": "Amuleto Binoculares tácticos",
+      "fr": "Breloque Jumelles Tactiques",
+      "ko": "전술 쌍안경 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer26_binoculars.description",
+        "args": {},
+        "lines": {
+          "ru": "Декоративный брелок с игрушечным биноклем. Как? Для чего? Зачем?\\n\\nНаверное, ответ на это знает только человек, решивший повесить этот брелок себе на оружие.",
+          "en": "A decorative keychain with a toy pair of binoculars. How? What for? Why?\\n\\nPerhaps only the person who decided to hang this keychain on their weapon knows the answer.",
+          "es": "Amuleto decorativo con unos binoculares de juguete. ¿Cómo? ¿Para qué? ¿Por qué?\\n\\nProbablemente, solo lo sepa quien haya decidido colgar este amuleto en su arma.",
+          "fr": "Breloque décoratif avec jumelles jouet. Comment ? Pourquoi ? À quoi ça sert ?\\n\\n\\n\\nProbablement, seule la personne qui a décidé d'accrocher ce porte-clés à son arme connaît la réponse.",
+          "ko": "장난감 쌍안경이 달린 장식용 부적. 어떻게? 왜? 무엇을 위해?\\n\\n아마 그 이유는, 이 부적을 자신의 무기에 달기로 결정한 사람만이 알고 있을 것이다."
+        }
+      }
+    }
+  ]
+}

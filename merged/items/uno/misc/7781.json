@@ -1,0 +1,58 @@
+{
+  "id": "7781",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "go.misc.autumn25_boar_scarecrow.name",
+    "args": {},
+    "lines": {
+      "ru": "Пугало-кабан",
+      "en": "Scarecrow-Boar",
+      "es": "Espantapájaros-jabalí",
+      "fr": "Sanglier-épouvantail",
+      "ko": "허수아비-멧돼지"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

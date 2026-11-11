@@ -1,0 +1,58 @@
+{
+  "id": "19357",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.autumn24_twitch_skin_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «M90 Twitch»",
+      "en": "«M90 Twitch» Paint",
+      "es": "Pintura M90 Twitch",
+      "fr": "Peinture « M90 Twitch »",
+      "ko": "M90 트위치 도색"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24627",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer24_kub.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Radium Felicis»",
+      "en": "Radium Felicis charm",
+      "es": "Amuleto Radium Felicis",
+      "fr": "Breloque Radium Felicis",
+      "ko": "라듐 펠리시스 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer24_kub.description",
+        "args": {},
+        "lines": {
+          "ru": "Этот брелок хранит вещество, которое  притягивает удачу. Так утверждают многие сотрудники ZIVCAS, не раскрывая, впрочем, тайну его состава.",
+          "en": "This charm contains a substance that attracts good luck. This is what many ZIVCAS employees say, without revealing, however, the secret of its composition.",
+          "es": "Este amuleto contiene una sustancia que atrae la buena suerte. Es lo que dicen muchos empleados de ZIVCAS, aunque sin revelar el secreto de su composición.",
+          "fr": "Ce Breloque contient une substance qui attire la chance. C'est ce qu'affirment de nombreux salariés du ZIVCAS, sans toutefois dévoiler le secret de sa composition.",
+          "ko": "이 부적에는 행운을 끌어당기는 물질이 들어 있다. 지브카스 기업의 많은 직원들이 말하지만, 그 구성의 비밀은 결코 밝히지 않는다."
+        }
+      }
+    }
+  ]
+}

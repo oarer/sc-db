@@ -1,0 +1,77 @@
+{
+  "id": "19683",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19683.name",
+    "args": {},
+    "lines": {
+      "ru": "Камуфляж «Листопад»",
+      "en": "Fallen Leaves Camouflage",
+      "es": "Camuflaje Hojas caídas",
+      "fr": "Camouflage Feuilles Tombées",
+      "ko": "낙엽 캐모"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.19683.description",
+        "args": {},
+        "lines": {
+          "ru": "Камуфляж «Шелуха» для брони",
+          "en": "Husk camouflage for armor",
+          "es": "Camuflaje Carcasa para armadura",
+          "fr": "Camouflage pour armure Cosse",
+          "ko": "방어구용 외피 캐모"
+        }
+      }
+    }
+  ]
+}

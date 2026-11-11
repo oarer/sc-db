@@ -1,0 +1,77 @@
+{
+  "id": "24798",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.dmz26_grenade.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Милота»",
+      "en": "Cuteness Charm",
+      "es": "Amuleto Ternura",
+      "fr": "Breloque Mignonitude",
+      "ko": "귀여움 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.dmz26_grenade.description",
+        "args": {},
+        "lines": {
+          "ru": "Иногда противника можно обезоружить не только силой, но и убийственной милотой. Главное — найти силы распрощаться с этим чудом.",
+          "en": "Sometimes you can disarm an enemy not only with force, but with deadly cuteness. The real challenge is finding the strength to part with such a wonder.",
+          "es": "A veces, al enemigo se le puede desarmar no solo con la fuerza, sino también con una ternura letal. Lo principal es encontrar la fuerza para despedirse de ese milagro.",
+          "fr": "Parfois, on peut désarmer un ennemi non seulement par la force, mais aussi par une mignonitude mortelle. L'essentiel, c'est de trouver la force de se séparer de ce miracle.",
+          "ko": "때로 적을 무력화하는 것은 힘뿐만 아니라 치명적인 귀여움일 수도 있다. 가장 중요한 것은 이 마법 같은 존재와 작별할 힘을 찾는 것이다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "4509",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.winter25.name",
+    "args": {},
+    "lines": {
+      "ru": "Паттерн сезона «Операция Криостазис»",
+      "en": "Operation Cryostasis Season Pattern",
+      "es": "Patrón de temporada Operación Crioestasis",
+      "fr": "Thème de la saison Opération Cryostase",
+      "ko": "작전명 냉동인간 시즌 패턴"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

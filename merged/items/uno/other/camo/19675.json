@@ -1,0 +1,77 @@
+{
+  "id": "19675",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19675.name",
+    "args": {},
+    "lines": {
+      "ru": "Камуфляж «След»",
+      "en": "Prints Camouflage",
+      "es": "Camuflaje Huellas",
+      "fr": "Camouflage Empreintes",
+      "ko": "인쇄 캐모"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.19675.description",
+        "args": {},
+        "lines": {
+          "ru": "Камуфляж «След» для брони",
+          "en": "Prints camouflage for armor",
+          "es": "Camuflaje Huellas para armadura",
+          "fr": "Camouflage pour armure Empreintes",
+          "ko": "방어구용 인쇄 캐모"
+        }
+      }
+    }
+  ]
+}

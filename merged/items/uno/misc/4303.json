@@ -1,0 +1,58 @@
+{
+  "id": "4303",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.background.murzya.name",
+    "args": {},
+    "lines": {
+      "ru": "Фон Мурзи",
+      "en": "Purrzy Background",
+      "es": "Fondo Murzya",
+      "fr": "Fond Murzya",
+      "ko": "Purrzy 배경"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "id": "25492",
+  "category": "armor/combat",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.ratcatcher_twins.name",
+    "args": {},
+    "lines": {
+      "ru": "«Крысолов» Близнецов",
+      "en": "The Twins' Ratcatcher",
+      "es": "Cazador de ratas de los Gemelos",
+      "fr": "Piège à Rats des Jumeaux",
+      "ko": "쌍둥이의 쥐잡이꾼 슈트"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 32,
+          "formatted": {
+            "value": {
+              "ru": "32 кг",
+              "en": "32 kg",
+              "es": "32 kg",
+              "fr": "32 kg",
+              "ko": "32 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": 8,
+          "formatted": {
+            "value": {
+              "ru": "8%",
+              "en": "8%",
+              "es": "8%",
+              "fr": "8%",
+              "ko": "8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "value": 25,
+          "formatted": {
+            "value": {
+              "ru": "25",
+              "en": "25",
+              "es": "25",
+              "fr": "25",
+              "ko": "25"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "value": 25,
+          "formatted": {
+            "value": {
+              "ru": "25",
+              "en": "25",
+              "es": "25",
+              "fr": "25",
+              "ko": "25"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 저항율"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0",
+              "es": "0",
+              "fr": "0",
+              "ko": "0"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations",
+              "ko": "열상 저항율"
+            }
+          },
+          "value": 178,
+          "formatted": {
+            "value": {
+              "ru": "178",
+              "en": "178",
+              "es": "178",
+              "fr": "178",
+              "ko": "178"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions",
+              "ko": "폭발 저항율"
+            }
+          },
+          "value": 109,
+          "formatted": {
+            "value": {
+              "ru": "109",
+              "en": "109",
+              "es": "109",
+              "fr": "109",
+              "ko": "109"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Electricity resistance",
+              "es": "Resistencia a la electricidad",
+              "fr": "Résistance à l'électricité",
+              "ko": "전기 저항율"
+            }
+          },
+          "value": 90000,
+          "formatted": {
+            "value": {
+              "ru": "90000",
+              "en": "90000",
+              "es": "90000",
+              "fr": "90000",
+              "ko": "90000"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от огня",
+              "en": "Fire resistance",
+              "es": "Resistencia al fuego",
+              "fr": "Résistance au feu",
+              "ko": "화염 저항율"
+            }
+          },
+          "value": 90000,
+          "formatted": {
+            "value": {
+              "ru": "90000",
+              "en": "90000",
+              "es": "90000",
+              "fr": "90000",
+              "ko": "90000"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.chemical_burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Химзащита",
+              "en": "Chemical resistance",
+              "es": "Resistencia a los productos químicos",
+              "fr": "Résistance aux produits chimiques",
+              "ko": "화학 화상 보호율"
+            }
+          },
+          "value": 90000,
+          "formatted": {
+            "value": {
+              "ru": "90000",
+              "en": "90000",
+              "es": "90000",
+              "fr": "90000",
+              "ko": "90000"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection",
+              "es": "Protección contra radiación",
+              "fr": "Protection contre les radiations",
+              "ko": "방사능 보호"
+            }
+          },
+          "value": 500,
+          "formatted": {
+            "value": {
+              "ru": "500",
+              "en": "500",
+              "es": "500",
+              "fr": "500",
+              "ko": "500"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection",
+              "es": "Protección térmica",
+              "fr": "Protection thermique",
+              "ko": "열 보호"
+            }
+          },
+          "value": 500,
+          "formatted": {
+            "value": {
+              "ru": "500",
+              "en": "500",
+              "es": "500",
+              "fr": "500",
+              "ko": "500"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection protection",
+              "es": "Protección contra bioinfección",
+              "fr": "Protection contre les bio infections",
+              "ko": "생체 감염 보호"
+            }
+          },
+          "value": 500,
+          "formatted": {
+            "value": {
+              "ru": "500",
+              "en": "500",
+              "es": "500",
+              "fr": "500",
+              "ko": "500"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-emission protection",
+              "es": "Prot contra emisiones psy",
+              "fr": "Protection contre les émissions psys",
+              "ko": "정신파 에미션 보호"
+            }
+          },
+          "value": 500,
+          "formatted": {
+            "value": {
+              "ru": "500",
+              "en": "500",
+              "es": "500",
+              "fr": "500",
+              "ko": "500"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements",
+              "ko": "출혈 보호"
+            }
+          },
+          "value": 500,
+          "formatted": {
+            "value": {
+              "ru": "500%",
+              "en": "500%",
+              "es": "500%",
+              "fr": "500%",
+              "ko": "500%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability",
+              "es": "Estabilidad",
+              "fr": "Stabilité",
+              "ko": "안정성"
+            }
+          },
+          "value": 25,
+          "formatted": {
+            "value": {
+              "ru": "25",
+              "en": "25",
+              "es": "25",
+              "fr": "25",
+              "ko": "25"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    }
+  ]
+}

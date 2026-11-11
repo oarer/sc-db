@@ -1,0 +1,77 @@
+{
+  "id": "22309",
+  "category": "attachment/collimator_sights",
+  "name": {
+    "type": "translation",
+    "key": "item.att.sight_samodel.name",
+    "args": {},
+    "lines": {
+      "ru": "Самодельный коллиматорный прицел",
+      "en": "Handmade Collimator Sight",
+      "es": "Mira con colimador hecha a mano",
+      "fr": "Viseur collimateur artisanal",
+      "ko": "사제 OEG 양안조준경"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.16,
+          "formatted": {
+            "value": {
+              "ru": "0,16 кг",
+              "en": "0.16 kg",
+              "es": "0,16 kg",
+              "fr": "0,16 kg",
+              "ko": "0.16 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.sight_samodel.description",
+        "args": {},
+        "lines": {
+          "ru": "Метка - неполное перекрестие, зеленое",
+          "en": "Reticle: incomplete crosshair, green",
+          "es": "Retícula: punto de mira incompleto, verde",
+          "fr": "Réticule : réticule incomplet, vert",
+          "ko": "조준점: 불완전한 십자선, 초록"
+        }
+      }
+    }
+  ]
+}

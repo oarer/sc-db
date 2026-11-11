@@ -1,0 +1,52 @@
+{
+  "id": "28076",
+  "category": "artefact",
+  "name": {
+    "type": "translation",
+    "key": "item.28076.name",
+    "args": {},
+    "lines": {
+      "ru": "Артефакт «Проклятье»",
+      "en": "Curse Artifact",
+      "es": "Artefacto Maldición",
+      "fr": "Artefact Malédiction",
+      "ko": "저주 아티팩트"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {}
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "28606",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.28606.name",
+    "args": {},
+    "lines": {
+      "ru": "Поврежденное устройство",
+      "en": "Damaged Device",
+      "es": "Dispositivo dañado",
+      "fr": "Appareil endommagé",
+      "ko": "손상된 장치"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28606.description",
+        "args": {},
+        "lines": {
+          "ru": "Старое поврежденное устройство непонятного назначения. Думаю, Легионер найдет ему применение. @@§2Предмет для бартера",
+          "en": "An old, damaged device of unknown purpose. I think Legionnaire could find a use for it. @@§2Barter item",
+          "es": "Un dispositivo viejo y dañado cuyo uso desconozco. Creo que el Legionario podría sacarle partido. @@§2Objeto de trueque",
+          "fr": "Un appareil vieux et endommagé d'utilisation inconnue. Je pense que Légionnaire pourrait en tirer quelque chose.@@§2Objet de troc",
+          "ko": "용도를 알 수 없는 낡고 파손된 장치. 리전에어가 유용하게 여길 것으로 생각된다. @@§2교환 가능 아이템"
+        }
+      }
+    }
+  ]
+}

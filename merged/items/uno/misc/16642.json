@@ -1,0 +1,58 @@
+{
+  "id": "16642",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.16642.name",
+    "args": {},
+    "lines": {
+      "ru": "Ключ для особого контейнера",
+      "en": "Key to a Special Container",
+      "es": "Llave de contenedor especial",
+      "fr": "Clé d'un conteneur spécial",
+      "ko": "특수 컨테이너 열쇠"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

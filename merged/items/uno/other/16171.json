@@ -1,0 +1,77 @@
+{
+  "id": "16171",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16171.name",
+    "args": {},
+    "lines": {
+      "ru": "Свиное яблоко",
+      "en": "Pig Apples",
+      "es": "Manzanas de cerdo",
+      "fr": "Pommes de cochon",
+      "ko": "돼지 사과"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16171.description",
+        "args": {},
+        "lines": {
+          "ru": "Крупные, ярко-красные плоды неизвестного растения, скорее всего - мутировавшей яблони. Особую слабость к ним питают дикие кабаны и хрюши, хотя и другие мутанты не прочь ими полакомиться.",
+          "en": "Large, bright-red fruit from an unknown plant—probably a mutant apple tree. Wild boar and piggy have a particular weakness for them, and other mutants consider them a treat as well.",
+          "es": "Un fruto grande, de color rojo brillante, de una planta desconocida, probablemente un manzano mutante. Los jabalíes y los puercos sienten especial debilidad por ellos, y otros mutantes también los consideran un manjar.",
+          "fr": "De gros fruits rouge vif provenant d'une plante inconnue, probablement un pommier mutant. Les sangliers et les porcinous en sont particulièrement friands, et d'autres mutants les considèrent également comme une friandise.",
+          "ko": "돌연변이 사과나무로 보이는 정체불명의 식물에서 자라는 것으로 추정되는 크고 붉은 열매. 돌연변이 멧돼지와 돼지가 특히 이 열매를 좋아하며, 다른 돌연변이들에게도 별미로 통합니다."
+        }
+      }
+    }
+  ]
+}

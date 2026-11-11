@@ -1,0 +1,77 @@
+{
+  "id": "16137",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.limansk.12276.name",
+    "args": {},
+    "lines": {
+      "ru": "Сгусток",
+      "en": "Clot",
+      "es": "Coágulo",
+      "fr": "Caillot",
+      "ko": "응고물"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.limansk.12276.description",
+        "args": {},
+        "lines": {
+          "ru": "Этим веществом покрыты некоторые мутанты Любеча. Судя по всему, из-за необычной аномальной среды в этом городе их потовые железы начинают специально вырабатывать его.",
+          "en": "A number of mutants in Lyubech are covered in this substance. It seems that the unusual anomalous environment in this city caused their sweat glands to start producing it specially.",
+          "es": "Varios mutantes de Lyubech están cubiertos de esta sustancia. Parece que el inusual ambiente anómalo de esta ciudad hizo que sus glándulas sudoríparas empezaran a producirlo en grandes cantidades.",
+          "fr": "Un grand nombre de mutants à Lyubech sont recouverts de cette substance. On dirait que l'environnement anormal de la ville l'a fait produire par leurs glandes sudoripares.",
+          "ko": "류베치에 서식하는 상당수의 돌연변이들이 이 물질로 덮여 있다. 이 도시 특유의 이상 환경으로 인해 그들의 땀샘이 이 특수한 물질을 분비하는 것으로 보인다."
+        }
+      }
+    }
+  ]
+}

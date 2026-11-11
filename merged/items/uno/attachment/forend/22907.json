@@ -1,0 +1,94 @@
+{
+  "id": "22907",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.att.forend_valris3.name",
+    "args": {},
+    "lines": {
+      "ru": "Хомут с тремя планками RIS",
+      "en": "Clamp with 3 RIS Rails",
+      "es": "Abrazadera con 3 raíles RIS",
+      "fr": "Pince avec rail RIS",
+      "ko": "3개의 RIS 레일이 달린 클램프"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.24,
+          "formatted": {
+            "value": {
+              "ru": "0,24 кг",
+              "en": "0.24 kg",
+              "es": "0,24 kg",
+              "fr": "0,24 kg",
+              "ko": "0.24 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

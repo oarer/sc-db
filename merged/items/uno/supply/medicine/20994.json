@@ -1,0 +1,149 @@
+{
+  "id": "20994",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.boost.encaged.name",
+    "args": {},
+    "lines": {
+      "ru": "Колба с загадочной синей жидкостью",
+      "en": "Flask with mysterious blue liquid",
+      "es": "Frasco con un misterioso líquido azul",
+      "fr": "Flasque avec un mystérieux liquide bleu",
+      "ko": "수수께끼의 파란 액체가 담긴 플라스크"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 с",
+              "en": "0 sec",
+              "es": "0 s",
+              "fr": "0 s",
+              "ko": "0초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": 1.5,
+          "formatted": {
+            "value": {
+              "ru": "1,5%",
+              "en": "1.5%",
+              "es": "1,5%",
+              "fr": "1,5%",
+              "ko": "1.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.boost.encaged.description",
+        "args": {},
+        "lines": {
+          "ru": "При нахождении в инвентаре немного ускоряет охотника поблизости.\\nПри использовании полностью восполняет выносливость.",
+          "en": "When in the inventory, it slightly speeds up nearby hunters.\\nWhen used, it fully restores stamina.",
+          "es": "Al estar en el inventario, acelera un poco al cazador cercano.\\nAl usarlo, restaura completamente la velocidad.",
+          "fr": "Dans l'inventaire, elle accélère légèrement le Chasseur à proximité.\\nLors de son utilisation, elle restaure entièrement l'endurance.",
+          "ko": "인벤토리에 있을 때 주변 사냥꾼들의 속도를 약간 증가시킨다.\\n사용 시에는 체력을 완전히 회복시킨다."
+        }
+      }
+    }
+  ]
+}

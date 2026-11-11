@@ -1,0 +1,77 @@
+{
+  "id": "15981",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.crt.winter_25.name",
+    "args": {},
+    "lines": {
+      "ru": "Мнемосхемы",
+      "en": "Mnemoschemes",
+      "es": "Mnemodiagramas",
+      "fr": "Mnémoschémas",
+      "ko": "기억도안"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.crt.winter_25.description",
+        "args": {},
+        "lines": {
+          "ru": "Единый комплект технической документации по научно-испытательным полигонам ученых Кузни-11. Содержит планировку помещений и описание работы внутренних систем, что особенно ценится диггерами.",
+          "en": "A unified set of technical documentation on the scientific research test sites of the Forge-11 scientists. It contains room layouts and descriptions of the internal systems work, which are especially valued by diggers.",
+          "es": "Un conjunto unificado de documentación técnica sobre los campos de pruebas de investigación científica de los científicos de Forja-11. Contiene planos de las habitaciones y descripciones de los sistemas internos, muy codiciados entre los excavadores.",
+          "fr": "Un ensemble unifié de documentations techniques portant sur les sites de test de recherche scientifique par les chercheurs de la Forge-11. Il contient des plans de pièces ainsi que des descriptions des travaux sur les systèmes internes, ce qui constitue une valeur inestimable auprès des fouilleurs.",
+          "ko": "포지-11 과학자들의 과학 연구 시험 지역에 대한 통합 기술 문서 세트이다. 방 배치와 내부 시스템 작동법에 대한 설명이 포함되어 있으며, 특히나 광부들에게 가치가 있다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "14988",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.tool.eshka.name",
+    "args": {},
+    "lines": {
+      "ru": "Фаза",
+      "en": "Phase",
+      "es": "Fase",
+      "fr": "Phase",
+      "ko": "페이즈"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

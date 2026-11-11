@@ -1,0 +1,41 @@
+{
+  "id": "28611",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.28611.name",
+    "args": {},
+    "lines": {
+      "ru": "Мятые документы",
+      "en": "Crumpled Documents",
+      "es": "Documentos arrugados",
+      "fr": "Documents froissés",
+      "ko": "구겨진 문서"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28611.description",
+        "args": {},
+        "lines": {
+          "ru": "Старые документы из лаборатории. Не содержат ценной информации, но можно попробовать сбагрить Легионеру.@@§2Предмет для бартера",
+          "en": "Old documents from a laboratory. They don't contain any valuable info, but I could try pawning them off on Legionnaire.@@§2Barter item",
+          "es": "Documentos antiguos de un laboratorio. No contienen ninguna información valiosa, pero podría intentar empeñárselos al Legionario.@@§2Objeto de trueque",
+          "fr": "De vieux documents d'un laboratoire. Ils ne contiennent aucune information de valeur, mais je pourrais les refiler à Légionnaire.@@§2Objet de troc",
+          "ko": "실험실에서 나온 오래된 문서들. 가치 있는 정보는 없지만, 리전에어에게 충분히 팔아먹을 만하다.@@§2교환 가능 아이템"
+        }
+      }
+    }
+  ]
+}

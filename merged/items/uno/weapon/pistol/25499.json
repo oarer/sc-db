@@ -1,0 +1,41 @@
+{
+  "id": "25499",
+  "category": "weapon/pistol",
+  "name": {
+    "type": "translation",
+    "key": "item.25499.name",
+    "args": {},
+    "lines": {
+      "ru": "Запрос арт.удара",
+      "en": "Art. Strike Request",
+      "es": "Solicitud de ataque de art.",
+      "fr": "Demande de Frappe d'Artillerie",
+      "ko": "포격 지원 요청"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.25499.description",
+        "args": {},
+        "lines": {
+          "ru": "Позволяет вызвать артиллерийский удар в указанную точку.",
+          "en": "Lets you call in an artillery strike on the indicated area.",
+          "es": "Te permite pedir un ataque de artillería en la ubicación indicada.",
+          "fr": "Permet de déclencher une attaque d'artillerie sur le lieu indiqué.",
+          "ko": "지정된 위치에 포격 지원을 요청할 수 있다."
+        }
+      }
+    }
+  ]
+}

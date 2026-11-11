@@ -1,0 +1,58 @@
+{
+  "id": "4510",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.spring25.name",
+    "args": {},
+    "lines": {
+      "ru": "Паттерн сезона «Назад в Изнанку»",
+      "en": "Back to the Inside Out Season Pattern",
+      "es": "Patrón de temporada Regreso al Reverso",
+      "fr": "Thème de la saison Chemin vers l'Envers",
+      "ko": "뒤집힌 세계로의 회귀 시즌 패턴"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

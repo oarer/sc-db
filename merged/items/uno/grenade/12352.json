@@ -1,0 +1,131 @@
+{
+  "id": "12352",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.m704.name",
+    "args": {},
+    "lines": {
+      "ru": "Выстрел гранатометный M704",
+      "en": "M704 Grenade Round",
+      "es": "Proyectil de granada M704",
+      "fr": "Cartouche pour le Lance-Grenade M704",
+      "ko": "M704 유탄"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.m704.description",
+        "args": {},
+        "lines": {
+          "ru": "Боеприпас акустического действия для гранатомета M203. Служит для временного подавления психоволевой устойчивости живой силы противника.",
+          "en": "A concussion round for the M203 grenade launcher. It temporarily suppresses the psychological stability of the opponent.",
+          "es": "Un proyectil conmocionador para el lanzagranadas M203. Suprime temporalmente la estabilidad psicológica del adversario.",
+          "fr": "Une cartouche à concussion pour le lance-grenade M203. Elle réduit temporairement la stabilité psychologique de l'adversaire.",
+          "ko": "M203 유탄 발사기에 쓰이는 충격탄이다. 일시적으로 적에게 정신적 혼란을 가한다."
+        }
+      }
+    }
+  ]
+}

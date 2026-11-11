@@ -1,0 +1,77 @@
+{
+  "id": "19615",
+  "category": "other/armor_motif",
+  "name": {
+    "type": "translation",
+    "key": "item.motif.arm.centurion_nea.name",
+    "args": {},
+    "lines": {
+      "ru": "«ROKA»",
+      "en": "ROKA",
+      "es": "ROKA",
+      "fr": "ROKA",
+      "ko": "ROKA"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.motif.arm.centurion_nea.description",
+        "args": {},
+        "lines": {
+          "ru": "По словам мастера, постаравшегося над изготовлением модификации, заказ на работу поступил анонимно и с хорошей предоплатой.\\n\\nВозможно, кто-то из «Тайфуна» решил адаптировать снаряжение из Зоны под свой вкус.",
+          "en": "According to the craftsman behind this modification, the job came in anonymously and with a solid advance payment.\\n\\nMaybe someone from Typhoon decided to customize Zone gear to their own taste.",
+          "es": "Según el artesano que se encargó de fabricar esta modificación, el encargo llegó de forma anónima y con un buen anticipo.\\n\\nQuizás alguien de Tifón decidió adaptar el equipamiento de la Zona a su gusto.",
+          "fr": "Selon le maître qui a réalisé cette modification, la commande a été passée anonymement, avec un bon acompte.\\n\\nPossible que quelqu'un de Typhon ait décidé d'adapter cet équipement de la Zone à son goût.",
+          "ko": "개조를 맡은 장인의 말로는, 의뢰는 익명으로 들어왔고 선금도 꽤 후했다고 한다.\\n\\n어쩌면 타이푼 소속의 누군가가 구역의 장비를 자기 취향대로 개조하려 했던 것인지도 모른다."
+        }
+      }
+    }
+  ]
+}

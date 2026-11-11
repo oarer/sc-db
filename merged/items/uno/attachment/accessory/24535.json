@@ -1,0 +1,77 @@
+{
+  "id": "24535",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.24535.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Первопроходец»",
+      "en": "Trailblazer Charm",
+      "es": "Amuleto Pionero",
+      "fr": "Porte-clés Pionnier",
+      "ko": "개척자 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.24535.description",
+        "args": {},
+        "lines": {
+          "ru": "Брелок, полученный на годовщину игры за нахождение в Зоне раньше начала ОФТ",
+          "en": "Charm awarded on the game’s anniversary for being in the Zone before OFT began",
+          "es": "Un amuleto obtenido como regalo por el aniversario del juego, por estar en la Zona antes de que empezara la prueba abierta final",
+          "fr": "Breloque obtenue pour l'anniversaire du jeu, pour le temps passé dans la Zone avant le début de l'OFT.",
+          "ko": "오픈 테스트 시작 이전부터 구역에 있었던 플레이어에게 게임 서비스 기념일에 지급되는 부적입니다"
+        }
+      }
+    }
+  ]
+}

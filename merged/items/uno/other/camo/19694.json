@@ -1,0 +1,77 @@
+{
+  "id": "19694",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.hacker.name",
+    "args": {},
+    "lines": {
+      "ru": "Камуфляж «Хакер»",
+      "en": "Hacker Camouflage",
+      "es": "Camuflaje Hacker",
+      "fr": "Camouflage Hacker",
+      "ko": "해커 캐모"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.hacker.description",
+        "args": {},
+        "lines": {
+          "ru": "Камуфляж «Хакер» для брони",
+          "en": "Hacker camouflage for armor",
+          "es": "Camuflaje Hacker para armadura",
+          "fr": "Camouflage pour armure Hacker",
+          "ko": "방어구용 해커 캐모"
+        }
+      }
+    }
+  ]
+}

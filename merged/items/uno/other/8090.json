@@ -1,0 +1,58 @@
+{
+  "id": "8090",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.hookah_fir.name",
+    "args": {},
+    "lines": {
+      "ru": "Ветка пихты",
+      "en": "Fir Branch",
+      "es": "Rama de abeto",
+      "fr": "Branche de Sapin",
+      "ko": "전나무 가지"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

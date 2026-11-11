@@ -1,0 +1,131 @@
+{
+  "id": "21095",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.melee.lopata_terentii.name",
+    "args": {},
+    "lines": {
+      "ru": "Лопата Терентия",
+      "en": "Terenty's Shovel",
+      "es": "Pala de Terentio",
+      "fr": "La pelle de Terentiy",
+      "ko": "테렌티의 삽"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.melee.lopata_terentii.description",
+        "args": {},
+        "lines": {
+          "ru": "Это тебе, сынок, не на вилле граблой махать. Это инструмент, без которого не обходится ни один дачник, танкист или просто человек, который… эт самое… жить хочет.",
+          "en": "This ain't you waving a rake around at some fancy villa, sonny. This is the kind of tool no gardener, tanker, or just about anyone who... well... wants to stay alive can do without.",
+          "es": "Esto no es para ir a dar paladas con una azada en una villa, hijo. Es una herramienta imprescindible para cualquier jardinero, tanquista o, simplemente, cualquier persona que… bueno, que quiera vivir.",
+          "fr": "T'es pas dans ta villa à jouer au jardinier, mon gars. Ça, c'est un outil — sans lui, aucun jardinier ni aucun tankiste, ni même aucun type qui… euh… qui veut rester en vie, peut s'en passer.",
+          "ko": "이건, 꼬마야, 별장에선 갈퀴질이나 하던 그런 물건이 아니다. 이건 농사꾼이든, 탱크병이든, 아니면 그냥… 뭐랄까… 살아남고 싶은 사람이라면 누구나 쓰게 되는 도구다."
+        }
+      }
+    }
+  ]
+}

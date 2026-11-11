@@ -1,0 +1,58 @@
+{
+  "id": "31776",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.rigel_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть комбинезона «Ригель» #4",
+      "en": "Rigel Jumpsuit Part #4",
+      "es": "Traje Rigel Pieza n.° 4",
+      "fr": "Combinaison Rigel Partie #4",
+      "ko": "리겔 점프슈트 부품 #4"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

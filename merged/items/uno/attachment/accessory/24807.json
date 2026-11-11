@@ -1,0 +1,77 @@
+{
+  "id": "24807",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_nbts.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Восторг»",
+      "en": "Delight Charm",
+      "es": "Amuleto Éxtasis",
+      "fr": "Breloque Délice",
+      "ko": "환희 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_nbts.description",
+        "args": {},
+        "lines": {
+          "ru": "По легенде, фраза \"уф какая!\" была первой и последней реакцией новичка на архианомалию, внутри которой находились десятки артефактов. Последней — потому что не стоит лезть куда ни попадя без подходящего снаряжения, с одним лишь юношеским восторгом.",
+          "en": "According to legend, the phrase \"Wow, what a thing!\" was the first and last thing a rookie ever said upon seeing an archianomaly filled with dozens of artifacts. The last—because it's unwise to venture into such places without proper gear, armed with nothing but youthful enthusiasm.",
+          "es": "Según la leyenda, la frase \"¡qué impresionante!\" fue la primera y última reacción del novato ante la archianomalía, en cuyo interior se encontraban decenas de artefactos. La última, porque no conviene meterse en cualquier sitio sin el equipamiento adecuado, solo con el entusiasmo juvenil.",
+          "fr": "Selon la légende, l'expression : Ouf, quelle anomalie ! fut la première et dernière réaction d'un novice face à une archi-anomalie contenant des dizaines d'artefacts. La dernière — car il ne faut pas s'aventurer n'importe où sans l'équipement adéquat, avec seulement l'enthousiasme juvénile.",
+          "ko": "전설에 따르면, 우와, 이게 뭐야!라는 말은 한 신참이 원형 이상현상을 마주했을 때 남긴 처음이자 마지막 반응이었다고 한다. 그 안에는 수십 개의 아티팩트가 있었다고 전해진다. 마지막이 된 이유는 단순하다. 제대로 된 장비도 없이, 철없는 객기 하나만 믿고 아무 데나 기어들어 가선 안 된다는 것."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "13002",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.coupon.veteran_armor_20.name",
+    "args": {},
+    "lines": {
+      "ru": "Бартерный купон (Ветеран)",
+      "en": "Barter Coupon (Veteran)",
+      "es": "Cupón de trueque (veterano)",
+      "fr": "Coupon de troc (Vétéran)",
+      "ko": "교환 쿠폰 (베테랑)"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

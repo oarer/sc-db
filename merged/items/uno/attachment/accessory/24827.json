@@ -1,0 +1,77 @@
+{
+  "id": "24827",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_butylkin.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Новобранец»",
+      "en": "Recruit Charm",
+      "es": "Amuleto Recluta",
+      "fr": "Breloque Recrue",
+      "ko": "신병 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_butylkin.description",
+        "args": {},
+        "lines": {
+          "ru": "Таким был каждый в свой первый день. Противогаз кажется неудобным, кожанка — чужой, а кепка — единственным напоминанием о доме. Этот брелок — талисман для новичков, своеобразное напутствие: «Не очкуй, все через это прошли».",
+          "en": "That's how everyone feels on their first day. The gas mask seems uncomfortable, the leather jacket feels unfamiliar, and the cap is the only reminder of home. This charm is a talisman for newcomers—a quiet reassurance: \"Don't be afraid. Everyone has been through it.\"",
+          "es": "Así era todo el mundo en su primer día. La máscara antigás parece incómoda, la chaqueta de cuero es extraña y la gorra es el único recuerdo del hogar. Este amuleto es un talismán para los novatos, una especie de consejo: \"No te asustes, todos hemos pasado por esto\".",
+          "fr": "Tel était chacun lors de son premier jour. Le masque à gaz semble inconfortable, la veste en cuir étrangère, et la casquette — le seul souvenir de la maison. Cette breloque est un talisman pour les novices, une sorte de bénédiction : Ne flippe pas, tout le monde est passé par là.",
+          "ko": "누구에게나 첫날은 있는 법. 방독면은 답답하고, 가죽 재킷은 어색하며, 낡은 모자만이 집을 떠올리게 하는 유일한 존재였던 시절 말이죠. 이 부적은 신참들을 위한 부적이자, 일종의 격려 메시지입니다. \"겁먹지 마, 다들 그렇게 시작하는 거야.\""
+        }
+      }
+    }
+  ]
+}

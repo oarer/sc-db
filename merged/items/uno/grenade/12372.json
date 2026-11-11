@@ -1,0 +1,131 @@
+{
+  "id": "12372",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.molotov.name",
+    "args": {},
+    "lines": {
+      "ru": "Коктейль Молотова",
+      "en": "Molotov Cocktail",
+      "es": "Cóctel molotov",
+      "fr": "Cocktail Molotov",
+      "ko": "화염병"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 кг",
+              "en": "0.4 kg",
+              "es": "0,4 kg",
+              "fr": "0,4 kg",
+              "ko": "0.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.molotov.description",
+        "args": {},
+        "lines": {
+          "ru": "Нет лучше «коктейля» во время Бурана, чем коктейль Молотова!",
+          "en": "During a Blizzard, there's no better cocktail than a Molotov cocktail!",
+          "es": "Durante una ventisca, ¡no hay mejor cóctel que un cóctel molotov!",
+          "fr": "Pendant un Blizzard, rien de tel qu'un cocktail Molotov !",
+          "ko": "눈보라 아래에서 최고의 칵테일은 바로 몰로토프 칵테일, 다른말로는 화염병이지!"
+        }
+      }
+    }
+  ]
+}

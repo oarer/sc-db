@@ -1,0 +1,77 @@
+{
+  "id": "24623",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.spring24_egg2.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Яйцо ящера»",
+      "en": "Lizard Egg Charm",
+      "es": "Amuleto Huevo de lagarto",
+      "fr": "Breloque Oeuf de Lézard",
+      "ko": "리저드 에그 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.spring24_egg2.description",
+        "args": {},
+        "lines": {
+          "ru": "Кажется, где-то было еще одно...",
+          "en": "It seems there was another one somewhere...",
+          "es": "Parece que había otro en alguna parte...",
+          "fr": "On dirait qu'il y en avait un autre quelque part…",
+          "ko": "어딘가에 하나 더 있었던 것 같다…"
+        }
+      }
+    }
+  ]
+}

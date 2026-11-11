@@ -1,0 +1,128 @@
+{
+  "id": "22242",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.scope_acog6_hell.name",
+    "args": {},
+    "lines": {
+      "ru": "Оскверненный прицел Trijicon ACOG",
+      "en": "Desecrated Trijicon ACOG Optical Sight",
+      "es": "Mira telescópica Trijicon ACOG profanada",
+      "fr": "Viseur optique Trijicon ACOG Désacralisé",
+      "ko": "불경한 트라이지콘 ACOG 광학조준경"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.96,
+          "formatted": {
+            "value": {
+              "ru": "0,96 кг",
+              "en": "0.96 kg",
+              "es": "0,96 kg",
+              "fr": "0,96 kg",
+              "ko": "0.96 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 8,
+          "formatted": {
+            "value": {
+              "ru": "8%",
+              "en": "8%",
+              "es": "8%",
+              "fr": "8%",
+              "ko": "8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 15,
+          "formatted": {
+            "value": {
+              "ru": "15%",
+              "en": "15%",
+              "es": "15%",
+              "fr": "15%",
+              "ko": "15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.scope_acog6_hell.description",
+        "args": {},
+        "lines": {
+          "ru": "Модель: TA648-308@Оптический прицел для ведения огня из стрелкового оружия на среднюю дальность. Производится американской корпорацией Trijicon, предлагается в широком ассортименте вариантов. Данный вариант достаточно специфичен.",
+          "en": "Model: TA648-308@Optical sight for mid-range firing. Manufactured by the American corporation Trijicon, with a wide range of options. This model is fairly specialized.",
+          "es": "Modelo: TA648-308@Mira telescópica para disparos a media distancia. Producida por la empresa estadounidense Trijicon y disponible con una amplia gama de opciones. Este modelo es bastante especializado.",
+          "fr": "Modèle : TA648-308@ Viseur optique pour le tir à moyenne distance. Produit par la société américaine Trijicon, il est disponible dans une large gamme d'options. Ce modèle est assez spécialisé.",
+          "ko": "모델: TA648-308@중거리 사격용 광학조준경. 미국의 트라이지콘에서 생산하며 다양한 옵션으로 제공된다. 이 모델은 상당히 전문화되어 있다."
+        }
+      }
+    }
+  ]
+}

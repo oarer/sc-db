@@ -1,0 +1,77 @@
+{
+  "id": "24820",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_bar.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Пиксельный призрак»",
+      "en": "Pixel Ghost Charm",
+      "es": "Amuleto Fantasma pixelado",
+      "fr": "Breloque Fantôme Pixel",
+      "ko": "픽셀 유령 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_bar.description",
+        "args": {},
+        "lines": {
+          "ru": "Эту фигурку нашли рядом с древним рабочим компьютером в Мертвом городе. Сталкеры шутят, что это душа старой видеоигры, застрявшая в Зоне.",
+          "en": "This figurine was found next to an ancient working computer in the Dead City. Stalkers joke that it is the soul of an old video game trapped in the Zone.",
+          "es": "Esta figura fue encontrada junto a un antiguo ordenador en la Ciudad Muerta. Los acechadores bromean diciendo que es el alma de un viejo videojuego atrapada en la Zona.",
+          "fr": "Cette figurine a été trouvée à côté d'un ancien ordinateur encore fonctionnel dans la Ville Morte. Les stalkers plaisantent en disant qu'il s'agit de l'âme d'un vieux jeu vidéo, coincée dans la Zone.",
+          "ko": "이 피규어는 데드 시티의 오래된 업무용 컴퓨터 옆에서 발견되었다. 스토커들은 농담처럼, 이것이 구역에 갇힌 오래된 비디오게임의 영혼이라고 말하곤 한다."
+        }
+      }
+    }
+  ]
+}

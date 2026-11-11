@@ -1,0 +1,77 @@
+{
+  "id": "24721",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_pass_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Мертвый взгляд»",
+      "en": "Dead Gaze Charm",
+      "es": "Amuleto Mirada muerta",
+      "fr": "Amulette Œil mort",
+      "ko": "죽음의 응시 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_pass_3.description",
+        "args": {},
+        "lines": {
+          "ru": "Оптический модуль специализированного бойца «Шепота» — Взгляд. Изучение глазного яблока и нейронного процессорного модуля дает основание полагать, что имплант буквально самостоятельно просчитывает вероятности передвижения цели и пересылает данные в кору головного мозга.",
+          "en": "A specialized 'Gaze' optical module of a Murmur fighter. Examination of the eyeball and neural processor module suggests that the implant literally calculates the probabilities of target movement on its own and sends the data to the cerebral cortex.",
+          "es": "Módulo óptico de un soldado especial de Susurro: Mirada. Los estudios sobre el globo ocular y el módulo de procesamiento neuronal sugieren que el implante calcula literalmente por sí mismo las probabilidades de movimiento del objetivo y envía los datos a la corteza cerebral.",
+          "fr": "Le module optique du combattant spécialisé de « Murmure » : Regard. L'étude du globe oculaire et du module processeur neuronal permet de supposer que l'implant calcule littéralement de manière autonome les probabilités de déplacement de la cible et transmet les données au cortex cérébral.",
+          "ko": "속삭임 소속 전사의 특수한 \"응시\" 광학 모듈. 안구와 신경 프로세서 모듈을 분석한 결과, 이 임플란트는 목표 이동 확률을 스스로 계산해, 그 데이터를 대뇌 피질로 바로 전송하는 것으로 보인다."
+        }
+      }
+    }
+  ]
+}

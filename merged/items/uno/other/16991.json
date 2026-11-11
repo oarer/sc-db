@@ -1,0 +1,58 @@
+{
+  "id": "16991",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.daily_scaner.name",
+    "args": {},
+    "lines": {
+      "ru": "Сканер для севера",
+      "en": "Scanner for the North",
+      "es": "Escáner para el norte",
+      "fr": "Scanner pour le Nord",
+      "ko": "북부 스캐너"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg",
+              "es": "1 kg",
+              "fr": "1 kg",
+              "ko": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

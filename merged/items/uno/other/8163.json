@@ -1,0 +1,58 @@
+{
+  "id": "8163",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.apocalypse_not_today_armor.name",
+    "args": {},
+    "lines": {
+      "ru": "Броня Азата",
+      "en": "Azat's Armor",
+      "es": "Armadura de Azát",
+      "fr": "Armure d'Azat",
+      "ko": "아자트의 방어구"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 12,
+          "formatted": {
+            "value": {
+              "ru": "12 кг",
+              "en": "12 kg",
+              "es": "12 kg",
+              "fr": "12 kg",
+              "ko": "12 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

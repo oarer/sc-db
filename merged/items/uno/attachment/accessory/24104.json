@@ -1,0 +1,77 @@
+{
+  "id": "24104",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.24104.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Удовольствие за 100 рублей»",
+      "en": "Fun for 100 Rubles Charm",
+      "es": "Amuleto Diversión por 100 rublos",
+      "fr": "Une breloque pour 100 roubles",
+      "ko": "100 루블의 즐거움 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.24104.description",
+        "args": {},
+        "lines": {
+          "ru": "За поддержку проекта на стадии закрытого бета-тестирования.",
+          "en": "For supporting the project in the closed beta-testing stage.",
+          "es": "Por apoyar el proyecto en la fase de beta cerrada.",
+          "fr": "Pour avoir soutenu le projet dans la phase de bêta-test fermé.",
+          "ko": "클로즈 베타 테스트 단계에서 프로젝트를 지원해주신 것에 대한 감사의 표시입니다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "5901",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.hdt.wp.reichstag.name",
+    "args": {},
+    "lines": {
+      "ru": "Шрамы войны",
+      "en": "Scars of War",
+      "es": "Cicatrices de guerra",
+      "fr": "Cicatrices de guerre",
+      "ko": "전쟁의 상처"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.hdt.wp.reichstag.description",
+        "args": {},
+        "lines": {
+          "ru": "Пепел оседает, как снег и, стекло мутнеет от копоти. Сирена обрывает свой вой и артиллерия совершает удар. Вспышка, гул, перекрытия дрожжат. За окном сцена недавнего боя: танки, обломки строений и тонкие нити дыма, что тянутся к небесам.",
+          "en": "Ash settles like snow, and the glass grows dim with soot. The siren cuts off its wail, and the artillery opens fire. A flash, a roar—the ceilings shake. Beyond the window lies the scene of a recent battle: tanks, shattered buildings, and thin strands of smoke stretching toward the sky.",
+          "es": "La ceniza se posa como la nieve y el cristal se empaña por el hollín. La sirena interrumpe su aullido y la artillería lanza un bombardeo. Un destello, un estruendo, los forjados tiemblan. Tras la ventana, la escena de un combate reciente: tanques, restos de edificios y finos hilos de humo que se alzan hacia el cielo.",
+          "fr": "La cendre tombe comme la neige et le verre s'opacifie à cause de la suie. La sirène interrompt son hurlement et l'artillerie frappe. Une explosion, un grondement, les plafonds tremblent. Dehors, la scène d'un combat récent : des chars, des débris de bâtiments et de fines volutes de fumée qui s'élèvent vers le ciel.",
+          "ko": "재가 눈처럼 내려앉고, 유리는 그을음으로 흐려진다. 사이렌의 울음은 끊기고 포격이 떨어진다. 섬광, 굉음, 구조물이 흔들린다. 창밖에는 방금 전 전투의 흔적이 펼쳐져 있다. 전차들, 무너진 건물 잔해, 그리고 하늘로 길게 이어지는 가느다란 연기 줄기."
+        }
+      }
+    }
+  ]
+}

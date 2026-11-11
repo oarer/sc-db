@@ -1,0 +1,58 @@
+{
+  "id": "16287",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.pseudogigant_gyro_t1.name",
+    "args": {},
+    "lines": {
+      "ru": "Гиростабилизирующий орган бурелома",
+      "en": "Behemoth Gyrostabilizing Organ",
+      "es": "Órgano girostabilizador del mastodonte",
+      "fr": "Organe de stabilisation gyroscopique du béhémoth",
+      "ko": "베히모스 자이로 안정 장치"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1.5,
+          "formatted": {
+            "value": {
+              "ru": "1,5 кг",
+              "en": "1.5 kg",
+              "es": "1,5 kg",
+              "fr": "1,5 kg",
+              "ko": "1.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24858",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.mt_kust.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Невидимка»",
+      "en": "Invisible Man Charm",
+      "es": "Amuleto El invisible",
+      "fr": "Breloque Invisible",
+      "ko": "투명 인간 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.mt_kust.description",
+        "args": {},
+        "lines": {
+          "ru": "Растительность может спрятать не только «Гончего», но и целый танк!",
+          "en": "Vegetation can hide not only a Hounds, but even an entire tank!",
+          "es": "¡La vegetación puede ocultar no solo a un Sabueso, sino incluso a un tanque entero!",
+          "fr": "La végétation peut cacher non seulement un Molosse, mais aussi un char entier !",
+          "ko": "식생은 추적견 외골격뿐만 아니라 전차 한 대까지도 숨길 수 있다!"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "4524",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.coldline.name",
+    "args": {},
+    "lines": {
+      "ru": "Паттерн «Coldline»",
+      "en": "Coldline Pattern",
+      "es": "Patrón Coldline",
+      "fr": "Thème Coldline",
+      "ko": "콜드라인 패턴"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

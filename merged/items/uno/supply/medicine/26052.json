@@ -1,0 +1,166 @@
+{
+  "id": "26052",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.inside_lech_reaction.name",
+    "args": {},
+    "lines": {
+      "ru": "Реакция Изнанки",
+      "en": "Inside Out Reaction",
+      "es": "Reacción del Reverso",
+      "fr": "Réaction à l'Envers",
+      "ko": "뒤집힌 세계 반작용제"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.025,
+          "formatted": {
+            "value": {
+              "ru": "0,03 кг",
+              "en": "0.03 kg",
+              "es": "0,03 kg",
+              "fr": "0,03 kg",
+              "ko": "0.03 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 с",
+              "en": "1 sec",
+              "es": "1 s",
+              "fr": "1 s",
+              "ko": "1초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": -0.5,
+          "formatted": {
+            "value": {
+              "ru": "-0,5%",
+              "en": "-0.5%",
+              "es": "-0,5%",
+              "fr": "-0,5%",
+              "ko": "-0.5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "17006",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.launcher_fn2k.name",
+    "args": {},
+    "lines": {
+      "ru": "Гранатомет FN F2000",
+      "en": "FN F2000 Grenade Launcher",
+      "es": "Lanzagranadas FN F2000",
+      "fr": "Lance-grenades FN F2000",
+      "ko": "FN F2000 유탄 발사기"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.launcher_fn2k.description",
+        "args": {},
+        "lines": {
+          "ru": "40-мм подствольный гранатомет",
+          "en": "40 mm Underbarrel Grenade Launcher",
+          "es": "Lanzagranadas bajo el cañón de 40 mm",
+          "fr": "Lance-grenades de 40 mm sous le canon",
+          "ko": "40mm 언더배럴 유탄 발사기"
+        }
+      }
+    }
+  ]
+}

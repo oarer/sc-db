@@ -1,0 +1,58 @@
+{
+  "id": "24052",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.24052.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Патрон 5.56х45 мм»",
+      "en": "5.56x45 mm Round Charm",
+      "es": "Amuleto Munición de 5,56x45 mm",
+      "fr": "Breloque Cartouche de 5,56x45 mm",
+      "ko": "5.56x45mm 탄약 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

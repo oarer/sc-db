@@ -1,0 +1,253 @@
+{
+  "id": "21055",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.21055.name",
+    "args": {},
+    "lines": {
+      "ru": "Костяной шип",
+      "en": "Bone Spike",
+      "es": "Pincho de hueso",
+      "fr": "Pointe d'Os",
+      "ko": "뼈 가시"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 10,
+          "formatted": {
+            "value": {
+              "ru": "10%",
+              "en": "10%",
+              "es": "10%",
+              "fr": "10%",
+              "ko": "10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.durability",
+            "args": {},
+            "lines": {}
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0%",
+              "en": "0%",
+              "es": "0%",
+              "fr": "0%",
+              "ko": "0%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Доставание",
+              "en": "Draw time",
+              "es": "Tiempo de desenfundado",
+              "fr": "Temps de dégainage",
+              "ko": "무기 꺼내기 시간"
+            }
+          },
+          "value": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "0,5 с",
+              "en": "0.5 sec",
+              "es": "0,5 s",
+              "fr": "0,5 s",
+              "ko": "0.5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.holster_time",
+            "args": {},
+            "lines": {
+              "ru": "Время убирания",
+              "en": "Holster time",
+              "es": "Tiempo de guardado",
+              "fr": "Temps de rangement",
+              "ko": "무기 집어넣기 속도"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 с",
+              "en": "0.15 sec",
+              "es": "0,15 s",
+              "fr": "0,15 s",
+              "ko": "0.15초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Бронебойность",
+              "en": "Armor-penetration",
+              "es": "Perforante",
+              "fr": "Pénétration d'armure",
+              "ko": "방어구 관통력"
+            }
+          },
+          "value": 10,
+          "formatted": {
+            "value": {
+              "ru": "10%",
+              "en": "10%",
+              "es": "10%",
+              "fr": "10%",
+              "ko": "10%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    }
+  ]
+}

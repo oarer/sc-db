@@ -1,0 +1,58 @@
+{
+  "id": "8136",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.black_box_covenant.name",
+    "args": {},
+    "lines": {
+      "ru": "Черный ящик с Черного объезда",
+      "en": "A black box from the Black Detour",
+      "es": "Una caja negra del Desvío negro",
+      "fr": "Une boîte noire du Détour Noir",
+      "ko": "검은 우회로에서 나온 블랙박스"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5 кг",
+              "en": "5 kg",
+              "es": "5 kg",
+              "fr": "5 kg",
+              "ko": "5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

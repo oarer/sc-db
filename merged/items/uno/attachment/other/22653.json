@@ -1,0 +1,151 @@
+{
+  "id": "22653",
+  "category": "attachment/other",
+  "name": {
+    "type": "translation",
+    "key": "item.22653.name",
+    "args": {},
+    "lines": {
+      "ru": "Приклад M4 Buttstock",
+      "en": "M4 Buttstock",
+      "es": "Culata M4",
+      "fr": "Culasse M4",
+      "ko": "M4 버트 스톡"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.48,
+          "formatted": {
+            "value": {
+              "ru": "0,48 кг",
+              "en": "0.48 kg",
+              "es": "0,48 kg",
+              "fr": "0,48 kg",
+              "ko": "0.48 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": -3,
+          "formatted": {
+            "value": {
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3%",
+              "fr": "-3%",
+              "ko": "-3%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {}
+          },
+          "value": -20,
+          "formatted": {
+            "value": {
+              "ru": "-20%",
+              "en": "-20%",
+              "es": "-20%",
+              "fr": "-20%",
+              "ko": "-20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5%",
+              "en": "5%",
+              "es": "5%",
+              "fr": "5%",
+              "ko": "5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {}
+          },
+          "value": -15,
+          "formatted": {
+            "value": {
+              "ru": "-15%",
+              "en": "-15%",
+              "es": "-15%",
+              "fr": "-15%",
+              "ko": "-15%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    }
+  ]
+}

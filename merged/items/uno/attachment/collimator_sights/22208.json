@@ -1,0 +1,109 @@
+{
+  "id": "22208",
+  "category": "attachment/collimator_sights",
+  "name": {
+    "type": "translation",
+    "key": "item.att.scope_samodel.name",
+    "args": {},
+    "lines": {
+      "ru": "Самодельный оптический прицел",
+      "en": "Handmade Optical Sight",
+      "es": "Mira telescópica hecha a mano",
+      "fr": "Viseur optique artisanal",
+      "ko": "사제 광학조준경"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.62,
+          "formatted": {
+            "value": {
+              "ru": "0,62 кг",
+              "en": "0.62 kg",
+              "es": "0,62 kg",
+              "fr": "0,62 kg",
+              "ko": "0.62 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 10,
+          "formatted": {
+            "value": {
+              "ru": "10%",
+              "en": "10%",
+              "es": "10%",
+              "fr": "10%",
+              "ko": "10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 15,
+          "formatted": {
+            "value": {
+              "ru": "15%",
+              "en": "15%",
+              "es": "15%",
+              "fr": "15%",
+              "ko": "15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

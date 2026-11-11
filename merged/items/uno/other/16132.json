@@ -1,0 +1,77 @@
+{
+  "id": "16132",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.limansk.escape.name",
+    "args": {},
+    "lines": {
+      "ru": "Ксива",
+      "en": "ID",
+      "es": "Identificación",
+      "fr": "Passeport",
+      "ko": "신분증"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.limansk.escape.description",
+        "args": {},
+        "lines": {
+          "ru": "Ксива - Загадочный артефакт-«пропуск», позволяющий покинуть Любеч-3. Вы не пройдете, пока не предъявите «Ксиву»! К сожалению, за пределами Любеча «Ксива» моментально испаряется, так что этот «пропуск» одноразовый.",
+          "en": "An ID is a mysterious pass that allows you to leave Lyubech-3. You won't be able to pass if you don't show your ID! Unfortunately, once you leave Lyubech, your ID instantly vanishes, as this \"pass\" can only be used once.",
+          "es": "Una identificación es un misterioso pase que le permite salir de Lyubech-3. ¡No podrás pasar si no muestras tu identificación! Por desgracia, una vez que abandonas Lyubech, tu identificación desaparece al instante, ya que este \"pase\" solo puede utilizarse una vez.",
+          "fr": "Un passeport est un pass mystérieux qui vous permettra de partir de Lyubech-3. Vous ne pourrez pas passer si vous ne montrez pas votre passeport. Malheureusement, dès que vous quitterez Lyubech, votre passeport disparaîtra aussitôt, car il ne peut servir qu'une fois.",
+          "ko": "신분증은 류베치-3을 떠날 수 있게 하는 기이한 통행증이다. 신분증을 보여주지 않으면 통과할 수 없다! 안타깝게도 류베치를 떠나면 신분증은 즉시 사라지게 되는데, 이 [통행증]은 단 한 번만 사용 가능하기 때문이다."
+        }
+      }
+    }
+  ]
+}

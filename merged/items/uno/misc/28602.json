@@ -1,0 +1,41 @@
+{
+  "id": "28602",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.28602.name",
+    "args": {},
+    "lines": {
+      "ru": "Зеленая плата",
+      "en": "Green Circuit Board",
+      "es": "Placa base verde",
+      "fr": "Tableau de circuits vert",
+      "ko": "녹색 회로 기판"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28602.description",
+        "args": {},
+        "lines": {
+          "ru": "Старая зеленая плата. Вряд ли представляет большую ценность, но можно попытаться сбагрить Легионеру.@@§2Предмет для бартера",
+          "en": "An old green circuit board. Unlikely to be worth much, but could possibly be palmed off to Legionnaire.@@§2Barter item",
+          "es": "Una placa base verde y vieja. Es poco probable que tenga algún valor, pero podrías encasquetársela al Legionario.@@§2Objeto de trueque",
+          "fr": "Un tableau de circuits vert, ancien et endommagé. Ne vaut pas grand chose, mais peut être refourgué à Légionnaire.@@§2Objet de troc",
+          "ko": "노후화된 녹색 회로 기판. 큰 가치는 없어 보이지만, 리전에어에 팔아먹을 수는 있을 것 같다.@@§2교환 가능 아이템"
+        }
+      }
+    }
+  ]
+}

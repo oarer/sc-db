@@ -1,0 +1,145 @@
+{
+  "id": "22556",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.silencer_famas.name",
+    "args": {},
+    "lines": {
+      "ru": "FAMAS IS",
+      "en": "FAMAS IS Silencer",
+      "es": "Silenciador FAMAS IS",
+      "fr": "Silencieux FAMAS IS",
+      "ko": "파마스 IS 소음기"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.52,
+          "formatted": {
+            "value": {
+              "ru": "0,52 кг",
+              "en": "0.52 kg",
+              "es": "0,52 kg",
+              "fr": "0,52 kg",
+              "ko": "0.52 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.spread",
+            "args": {},
+            "lines": {}
+          },
+          "value": -16.25,
+          "formatted": {
+            "value": {
+              "ru": "-16,25%",
+              "en": "-16.25%",
+              "es": "-16,25%",
+              "fr": "-16,25%",
+              "ko": "-16.25%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": -12,
+          "formatted": {
+            "value": {
+              "ru": "-12%",
+              "en": "-12%",
+              "es": "-12%",
+              "fr": "-12%",
+              "ko": "-12%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    }
+  ]
+}

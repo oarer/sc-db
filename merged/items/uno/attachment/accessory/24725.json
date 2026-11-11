@@ -1,0 +1,77 @@
+{
+  "id": "24725",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_marketing_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Мебиус»",
+      "en": "Mobius Charm",
+      "es": "Amuleto Möbius",
+      "fr": "Amulette Möbius",
+      "ko": "뫼비우스 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_marketing_3.description",
+        "args": {},
+        "lines": {
+          "ru": "Предположительно, это инертный артефакт или его фрагмент. Свойства изучить пока не удалось, но выглядит стильно.",
+          "en": "It is presumably an inert artifact or a fragment of one. Its properties have not yet been studied, but it looks stylish.",
+          "es": "Presumiblemente un artefacto inerte o fragmento de uno. Aún no he podido estudiar sus propiedades, pero parece elegante.",
+          "fr": "Vraisemblablement un artefact inerte ou un fragment. Très jolie, mais ses propriétés restent à étudier.",
+          "ko": "비활성 아티팩트 혹은 그 조각으로 추정된다. 성능은 아직 연구되지 않았지만, 외관은 꽤 세련돼 보인다."
+        }
+      }
+    }
+  ]
+}

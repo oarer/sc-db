@@ -1,0 +1,58 @@
+{
+  "id": "31333",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setE.toy1.name",
+    "args": {},
+    "lines": {
+      "ru": "Фиолетовый колокольчик",
+      "en": "Purple Bell",
+      "es": "Campana morada",
+      "fr": "Clochette Violette",
+      "ko": "보라 방울"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

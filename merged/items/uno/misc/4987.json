@@ -1,0 +1,58 @@
+{
+  "id": "4987",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.sticker.nea_leaves.name",
+    "args": {},
+    "lines": {
+      "ru": "Стикер «Летящие лепестки»",
+      "en": "Fluttering Petals Sticker",
+      "es": "Pegatina Pétalos voladores",
+      "fr": "Autocollant Pétales volants",
+      "ko": "흩날리는 꽃잎 스티커"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "19689",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.combustion.name",
+    "args": {},
+    "lines": {
+      "ru": "Камуфляж «Горение»",
+      "en": "Burning Camouflage",
+      "es": "Camuflaje Ardiendo",
+      "fr": "Camouflage Brûlant",
+      "ko": "발화 캐모"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.combustion.description",
+        "args": {},
+        "lines": {
+          "ru": "Камуфляж «Горение» для брони",
+          "en": "Burning camouflage for armor",
+          "es": "Camuflaje Ardiendo para armadura",
+          "fr": "Camouflage pour armure Brûlant",
+          "ko": "방어구용 발화 캐모"
+        }
+      }
+    }
+  ]
+}

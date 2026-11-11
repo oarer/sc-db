@@ -1,0 +1,58 @@
+{
+  "id": "31850",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.31850.name",
+    "args": {},
+    "lines": {
+      "ru": "Канистра",
+      "en": "Canister",
+      "es": "Bote",
+      "fr": "Boîte",
+      "ko": "금속통"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 25,
+          "formatted": {
+            "value": {
+              "ru": "25 кг",
+              "en": "25 kg",
+              "es": "25 kg",
+              "fr": "25 kg",
+              "ko": "25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

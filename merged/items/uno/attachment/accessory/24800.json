@@ -1,0 +1,77 @@
+{
+  "id": "24800",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.dmz26_bullets.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Ротация»",
+      "en": "Rotation Charm",
+      "es": "Amuleto Rotación",
+      "fr": "Breloque Rotation",
+      "ko": "회전 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.dmz26_bullets.description",
+        "args": {},
+        "lines": {
+          "ru": "Не бойтесь, если вам удалось стащить этот брелок с тела противника. Опасаться стоит того, кто снимет его с вашего трупа.",
+          "en": "Do not fear having taken this charm from an enemy's body. Fear the one who will take it from yours.",
+          "es": "No temas si has conseguido arrebatarle este amuleto al enemigo. Lo que debes temer es a quien te lo quite de tu cadáver.",
+          "fr": "N'ayez pas peur si vous avez réussi à voler ce breloque sur le corps d'un ennemi. Il faut craindre celui qui le retirera de votre cadavre.",
+          "ko": "적의 시신에서 이 부적을 챙겼다고 두려워하지 마라. 두려워해야 할 상대는 바로 당신의 시신에서 그것을 챙기는 자다."
+        }
+      }
+    }
+  ]
+}

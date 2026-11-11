@@ -1,0 +1,41 @@
+{
+  "id": "16421",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.16421.name",
+    "args": {},
+    "lines": {
+      "ru": "Модуль «Рупор»",
+      "en": "Megaphone Module",
+      "es": "Módulo de megáfono",
+      "fr": "Module de mégaphone",
+      "ko": "확성기 모듈"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16421.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшой модуль для PDA, позволяющий рассылать сообщения в огромном радиусе. К сожалению, схема построена таким образом, что после отправки одного сообщения приходит в негодность.@@§aПозволяет отправлять одно сообщение на §aвесь сервер",
+          "en": "A small module for a PDA that allows you to broadcast a message in a huge radius. Unfortunately, the circuitry is constructed such that once you have sent one message, the device becomes permanently inoperable.@@§aAllows you to send one message to the §awhole server.",
+          "es": "Pequeño módulo para PDA que permite difundir un mensaje en un radio enorme. Por desgracia, los circuitos están fabricados de tal manera que, una vez enviado un mensaje, el dispositivo queda permanentemente inoperativo.@@§aPermite enviar un mensaje a §atodo el servidor.",
+          "fr": "Un petit module pour un PDA qui vous permet de diffuser un message dans un grand rayon. Malheureusement, le circuit est conçu de telle sorte qu'une fois que vous avez envoyé un message, l'appareil devient définitivement inopérant.@@§aPermet d'envoyer un message à §al'ensemble du serveur.",
+          "ko": "PDA에 장착할 수 있는 작은 모듈로, 매우 큰 반경에 메시지를 전파할 수 있습니다. 불행히도 회로 구성상 한 번 메시지를 보내고 나면, 장치는 영구적으로 작동 불능 상태가 됩니다.@@§a전 서버에 메시지를 1회 보냅니다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "26532",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.food.peas.name",
+    "args": {},
+    "lines": {
+      "ru": "Консервированый горох",
+      "en": "Canned Peas",
+      "es": "Guisantes en lata",
+      "fr": "Pois en Conserve",
+      "ko": "통조림 완두콩"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 3,
+          "formatted": {
+            "value": {
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.food.peas.description",
+        "args": {},
+        "lines": {
+          "ru": "Банка зеленого горошка.",
+          "en": "A can of green peas.",
+          "es": "Una lata de guisantes.",
+          "fr": "Une boîte de petits pois.",
+          "ko": "녹색 완두콩이 들은 통조림."
+        }
+      }
+    }
+  ]
+}

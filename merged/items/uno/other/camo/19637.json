@@ -1,0 +1,58 @@
+{
+  "id": "19637",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19637.name",
+    "args": {},
+    "lines": {
+      "ru": "Красный узор",
+      "en": "Red Pattern",
+      "es": "Patrón rojo",
+      "fr": "Motif Rouge",
+      "ko": "빨간 무늬"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

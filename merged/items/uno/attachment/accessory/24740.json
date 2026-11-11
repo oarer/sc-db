@@ -1,0 +1,77 @@
+{
+  "id": "24740",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_coopy.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Кюпи»",
+      "en": "Buyme Charm",
+      "es": "Amuleto Cómprame",
+      "fr": "Breloque Portemoi",
+      "ko": "위시템 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_coopy.description",
+        "args": {},
+        "lines": {
+          "ru": "Новичка Кюпи засосала опасная трясина...",
+          "en": "New Buyme is always on my mind...",
+          "es": "El novato Cómprame ha tomado el camino equivocado…",
+          "fr": "Le nouveau venu Portemoi a été englouti par un dangereux marécage…",
+          "ko": "새로운 위시템이 머리를 떠나지 않아..."
+        }
+      }
+    }
+  ]
+}

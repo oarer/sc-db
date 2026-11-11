@@ -1,0 +1,77 @@
+{
+  "id": "22047",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.att.forend_gribnik.name",
+    "args": {},
+    "lines": {
+      "ru": "«Грибник»",
+      "en": "Forager",
+      "es": "Recolector",
+      "fr": "Ramasseur de champignons",
+      "ko": "약초꾼"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.24,
+          "formatted": {
+            "value": {
+              "ru": "0,24 кг",
+              "en": "0.24 kg",
+              "es": "0,24 kg",
+              "fr": "0,24 kg",
+              "ko": "0.24 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.forend_gribnik.description",
+        "args": {},
+        "lines": {
+          "ru": "Цевье с планкой Пикатинни и уникальная декорация для оружия",
+          "en": "Handguard with Picatinny Rail and unique weapon decor",
+          "es": "Guardamanos con raíl Picatinny y decoración de arma única",
+          "fr": "Garde-main avec rail Picatinny et revêtement d'arme unique",
+          "ko": "피카티니 레일과 고유 무기 장식이 있는 총열덮개"
+        }
+      }
+    }
+  ]
+}

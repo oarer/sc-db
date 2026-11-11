@@ -1,0 +1,77 @@
+{
+  "id": "16178",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16178.name",
+    "args": {},
+    "lines": {
+      "ru": "Кокон",
+      "en": "Cocoon",
+      "es": "Capullo",
+      "fr": "Cocon",
+      "ko": "알집"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.07,
+          "formatted": {
+            "value": {
+              "ru": "0,07 кг",
+              "en": "0.07 kg",
+              "es": "0,07 kg",
+              "fr": "0,07 kg",
+              "ko": "0.07 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16178.description",
+        "args": {},
+        "lines": {
+          "ru": "Живущие в гнездах монстров насекомые питаются остатками пищи мутантов и часто делают себе небольшие убежища из их отходов.",
+          "en": "Insects that live in these beasts' dwellings feed on the remains of mutants' food, often making small nests in the waste.",
+          "es": "Los insectos que viven en las moradas de estas bestias se alimentan de los restos de comida de los mutantes y a menudo hacen pequeños nidos en los desperdicios.",
+          "fr": "Les insectes qui vivent dans les habitations de ces bêtes se nourrissent des restes de nourriture des mutants et font souvent de petits nids dans les déchets.",
+          "ko": "이 짐승들의 거처에 사는 곤충들은 돌연변이들이 남긴 먹이 찌꺼기를 먹고 산다. 가끔 쓰레기 더미 속에 작은 둥지를 틀기도 한다."
+        }
+      }
+    }
+  ]
+}

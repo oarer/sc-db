@@ -1,0 +1,58 @@
+{
+  "id": "4822",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.sticker.grinch.name",
+    "args": {},
+    "lines": {
+      "ru": "Стикер «Похититель подарков»",
+      "en": "Gift Snatcher Sticker",
+      "es": "Pegatina Ladrón de regalos",
+      "fr": "Autocollant Voleur de cadeaux",
+      "ko": "선물 도둑 스티커"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

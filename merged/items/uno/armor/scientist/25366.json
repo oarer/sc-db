@@ -1,0 +1,563 @@
+{
+  "id": "25366",
+  "category": "armor/scientist",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.nocturne.name",
+    "args": {},
+    "lines": {
+      "ru": "КИМ-Х «Ноктюрн»",
+      "en": "Nocturne MIS-X",
+      "es": "TMA-X Nocturno",
+      "fr": "MIS-X Nocturne",
+      "ko": "MIS-X 녹투른"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 9,
+          "formatted": {
+            "value": {
+              "ru": "9 кг",
+              "en": "9 kg",
+              "es": "9 kg",
+              "fr": "9 kg",
+              "ko": "9 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0%",
+              "en": "0%",
+              "es": "0%",
+              "fr": "0%",
+              "ko": "0%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "value": 22,
+          "formatted": {
+            "value": {
+              "ru": "22",
+              "en": "22",
+              "es": "22",
+              "fr": "22",
+              "ko": "22"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0",
+              "en": "0",
+              "es": "0",
+              "fr": "0",
+              "ko": "0"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 저항율"
+            }
+          },
+          "value": 203,
+          "formatted": {
+            "value": {
+              "ru": "203",
+              "en": "203",
+              "es": "203",
+              "fr": "203",
+              "ko": "203"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations",
+              "ko": "열상 저항율"
+            }
+          },
+          "value": 113,
+          "formatted": {
+            "value": {
+              "ru": "113",
+              "en": "113",
+              "es": "113",
+              "fr": "113",
+              "ko": "113"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions",
+              "ko": "폭발 저항율"
+            }
+          },
+          "value": 120,
+          "formatted": {
+            "value": {
+              "ru": "120",
+              "en": "120",
+              "es": "120",
+              "fr": "120",
+              "ko": "120"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Electricity resistance",
+              "es": "Resistencia a la electricidad",
+              "fr": "Résistance à l'électricité",
+              "ko": "전기 저항율"
+            }
+          },
+          "value": 750,
+          "formatted": {
+            "value": {
+              "ru": "750",
+              "en": "750",
+              "es": "750",
+              "fr": "750",
+              "ko": "750"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от огня",
+              "en": "Fire resistance",
+              "es": "Resistencia al fuego",
+              "fr": "Résistance au feu",
+              "ko": "화염 저항율"
+            }
+          },
+          "value": 750,
+          "formatted": {
+            "value": {
+              "ru": "750",
+              "en": "750",
+              "es": "750",
+              "fr": "750",
+              "ko": "750"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.chemical_burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Химзащита",
+              "en": "Chemical resistance",
+              "es": "Resistencia a los productos químicos",
+              "fr": "Résistance aux produits chimiques",
+              "ko": "화학 화상 보호율"
+            }
+          },
+          "value": 750,
+          "formatted": {
+            "value": {
+              "ru": "750",
+              "en": "750",
+              "es": "750",
+              "fr": "750",
+              "ko": "750"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection",
+              "es": "Protección contra radiación",
+              "fr": "Protection contre les radiations",
+              "ko": "방사능 보호"
+            }
+          },
+          "value": 385,
+          "formatted": {
+            "value": {
+              "ru": "385",
+              "en": "385",
+              "es": "385",
+              "fr": "385",
+              "ko": "385"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection",
+              "es": "Protección térmica",
+              "fr": "Protection thermique",
+              "ko": "열 보호"
+            }
+          },
+          "value": 385,
+          "formatted": {
+            "value": {
+              "ru": "385",
+              "en": "385",
+              "es": "385",
+              "fr": "385",
+              "ko": "385"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection protection",
+              "es": "Protección contra bioinfección",
+              "fr": "Protection contre les bio infections",
+              "ko": "생체 감염 보호"
+            }
+          },
+          "value": 400,
+          "formatted": {
+            "value": {
+              "ru": "400",
+              "en": "400",
+              "es": "400",
+              "fr": "400",
+              "ko": "400"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-emission protection",
+              "es": "Prot contra emisiones psy",
+              "fr": "Protection contre les émissions psys",
+              "ko": "정신파 에미션 보호"
+            }
+          },
+          "value": 385,
+          "formatted": {
+            "value": {
+              "ru": "385",
+              "en": "385",
+              "es": "385",
+              "fr": "385",
+              "ko": "385"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements",
+              "ko": "출혈 보호"
+            }
+          },
+          "value": 35,
+          "formatted": {
+            "value": {
+              "ru": "35%",
+              "en": "35%",
+              "es": "35%",
+              "fr": "35%",
+              "ko": "35%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.nocturne.description",
+        "args": {},
+        "lines": {
+          "ru": "Уникальная модификация, созданная специально для КИМ-Х «Атласа».\\n\\nАрсен, изготовивший костюм, подмечает уникальное сочетание характеристик защиты. Благодаря использованию артефактов можно адаптировать броню как для защиты в бою, так и для исследования зараженных зон.\\n\\nТем не менее, предназначение некоторых элементов брони осталось загадкой даже для собиравшего костюм мастера.",
+          "en": "A unique modification created specifically for Atlas MIS-X.\\n\\n Arsen, who made the suit, notes the unique combination of protective features. Thanks to the use of artifacts, the armor can be adapted for both combat protection and for exploring contaminated areas.\\n\\n However, the purpose of some elements of the armor remains a mystery even to the master who assembled the suit.",
+          "es": "Modificación única, creada especialmente para TMA-X Atlas.\\n\\n Arsen, quien fabricó el traje, señala la combinación única de características de protección. Gracias al uso de artefactos, se puede adaptar la armadura tanto para la defensa en combate como para la exploración de zonas infectadas.\\n\\n Sin embargo, el propósito de algunos elementos de la armadura sigue siendo un misterio incluso para el maestro que ensambló el traje.",
+          "fr": "Une modification unique, créée spécialement pour le MIS-X — Atlas.\\n\\nArsen, qui a fabriqué le costume, note la combinaison unique des caractéristiques de protection. Grâce à l'utilisation d'artefacts, il est possible d'adapter l'armure à la fois pour la protection en combat et pour l'exploration des zones contaminées.\\n\\nCependant, la destination de certains éléments de l'armure reste un mystère même pour le maître qui a assemblé le costume.",
+          "ko": "MIS-X 아틀라스를 위해 특별히 제작된 독특한 개조다.\\n\\n아르센이 제작한 이 슈트는 방어력의 독특한 조합이 특징이다. 아티팩트를 활용하면 전투 방어와 오염 구역 탐사 모두에 맞춰 조절할 수 있다.\\n\\n하지만 갑옷 일부 부품의 용도는, 제작자인 아르센조차 아직 완전히 알지 못한다."
+        }
+      }
+    }
+  ]
+}

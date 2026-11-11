@@ -1,0 +1,58 @@
+{
+  "id": "16887",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.merc.gasbomb.name",
+    "args": {},
+    "lines": {
+      "ru": "Газовая бомба Твена",
+      "en": "Twain's Gas Bomb",
+      "es": "Bomba de gas de Twain",
+      "fr": "Bombe à gaz de Twain",
+      "ko": "트웨인의 가스 폭탄"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.65,
+          "formatted": {
+            "value": {
+              "ru": "0,65 кг",
+              "en": "0.65 kg",
+              "es": "0,65 kg",
+              "fr": "0,65 kg",
+              "ko": "0.65 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

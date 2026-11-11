@@ -1,0 +1,41 @@
+{
+  "id": "16416",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16416.name",
+    "args": {},
+    "lines": {
+      "ru": "Навигационный маячок",
+      "en": "Navigation tracker",
+      "es": "Rastreador de navegación",
+      "fr": "Balise de navigation",
+      "ko": "항법 비콘"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16416.description",
+        "args": {},
+        "lines": {
+          "ru": "Позволяет попасть в логово упырей.@@§aМожно использовать только 1 раз",
+          "en": "Allows you to get into a ghoul den.@@§aCan only be used once.",
+          "es": "Te permite entrar en una guarida de necrófagos.@@§aSolo se puede usar una vez.",
+          "fr": "Permet de pénétrer dans une tanière de goules.@@§aNe peut être utilisé qu'une seule fois.",
+          "ko": "구울 소굴의 출입을 가능케 함.@@§a단 한 번만 사용 가능."
+        }
+      }
+    }
+  ]
+}

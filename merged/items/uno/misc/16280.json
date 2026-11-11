@@ -1,0 +1,77 @@
+{
+  "id": "16280",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.pseudogigant_eye_t3.name",
+    "args": {},
+    "lines": {
+      "ru": "Глаз сильного бурелома",
+      "en": "Strong Behemoth's Eye",
+      "es": "Ojo de mastodonte fuerte",
+      "fr": "Œil de Béhémoth Fort",
+      "ko": "강력한 베히모스 눈"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg",
+              "es": "1 kg",
+              "fr": "1 kg",
+              "ko": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.pseudogigant_eye_t3.description",
+        "args": {},
+        "lines": {
+          "ru": "Защитная мембрана глаза бурелома по прочности подобна пуленепробиваемому стеклу, но может легко менять форму и является практически невесомой. Ученые уже давно ищут способ создать такой материал для использования в новейших разработках армейского снаряжения.",
+          "en": "The protective membrane on the eyes of behemoths is similar to bulletproof glass in terms of its durability. It can also, however, easily change its form and become practically weightless. Scientists have long been seeking a way to create such a material for use in cutting-edge army gear developments.",
+          "es": "La membrana protectora de los ojos de los mastodontes es similar a un cristal antibalas en cuanto a durabilidad. No obstante, también puede cambiar fácilmente de forma y volverse prácticamente ingrávida. Los científicos llevan mucho tiempo buscando la manera de crear un material de este tipo para utilizarlo en el desarrollo de equipamiento militar de última generación.",
+          "fr": "La membrane protectrice des yeux des béhémoths est semblable à du verre pare-balles en termes de durabilité. Cependant, elle peut aussi facilement changer de forme et devenir pratiquement insignifiante. Les scientifiques cherchent depuis longtemps un moyen de créer un tel matériau pour l'utiliser dans le développement d'équipements militaires de pointe.",
+          "ko": "베히모스의 눈에 있는 망막은 그 내구성이 흡사 방탄유리와 같다. 하지만 동시에 형태를 쉽게 변형시키고 자기자신의 무게를 종이보다 가볍게 만들 수도 있다. 과학자들은 아주 오랫동안 이런 물질을 개발해, 최첨단 군사 장비 개발에 사용하고자 했다."
+        }
+      }
+    }
+  ]
+}

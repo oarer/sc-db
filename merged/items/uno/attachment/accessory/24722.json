@@ -1,0 +1,77 @@
+{
+  "id": "24722",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_marketing_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Колония»",
+      "en": "Colony Charm",
+      "es": "Amuleto Colonia",
+      "fr": "Amulette Colonie",
+      "ko": "군집 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_marketing_4.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшой фиал с бактериальной колонией в питательном растворе. Если долго на него смотреть, создается впечатление, что на тебя смотрят в ответ.",
+          "en": "A small vial with a bacterial colony in a nutrient solution. If you look at it for a long time, it creates the impression that it's looking back at you.",
+          "es": "Un pequeño vial con una colonia bacteriana en una solución nutritiva. Si lo miras fijamente durante mucho tiempo, tienes la impresión de que te están devolviendo la mirada.",
+          "fr": "Une petite fiole contenant une colonie bactérienne dans une solution de nutriments. Regardez-la assez longtemps et vous aurez l'impression qu'elle vous regarde en retour.",
+          "ko": "영양 용액 속에 세균 군집이 들어 있는 작은 바이알이다. 오랫동안 들여다보고 있으면, 마치 이것이 쳐다보고 있는 듯한 느낌이 든다."
+        }
+      }
+    }
+  ]
+}

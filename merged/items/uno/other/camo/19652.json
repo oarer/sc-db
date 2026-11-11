@@ -1,0 +1,58 @@
+{
+  "id": "19652",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19652.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Смог темной тыквы»",
+      "en": "Dark Pumpkin Smog Paint",
+      "es": "Pintura Esmog calabaza oscura",
+      "fr": "Peinture Smog pour Citrouille Foncée",
+      "ko": "어두운 호박 스모그 도색"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

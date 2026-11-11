@@ -1,0 +1,58 @@
+{
+  "id": "24605",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.ny24_league_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Орден Новогоднего Чемпиона Ледяной лиги",
+      "en": "Insignia of the Ice League New Year Champion",
+      "es": "Insignia del Campeón de Año Nuevo de la Liga de Hielo",
+      "fr": "Insigne Champion de la Ligue de glace de la nouvelle année",
+      "ko": "얼음 리그 새해 챔피언 휘장"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

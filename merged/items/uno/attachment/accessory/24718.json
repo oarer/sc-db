@@ -1,0 +1,77 @@
+{
+  "id": "24718",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_pass_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Орбиталь»",
+      "en": "Orbital Charm",
+      "es": "Amuleto Orbital",
+      "fr": "Amulette Orbital",
+      "ko": "오비탈 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_pass_1.description",
+        "args": {},
+        "lines": {
+          "ru": "Нечто, похоже на небольшой талисман из проволоки. Был снят с одного из бойцов «Шепота» . По всей видимости, использовался как брелок или талисман.",
+          "en": "Something that looks like a small talisman made of wire. It was taken from one of the fighters of Murmur. Apparently, it was used as a charm or talisman.",
+          "es": "Algo que parece un pequeño talismán de alambre. Se lo quitaron a uno de los soldados de Susurro. Aparentemente usado como amuleto o talismán.",
+          "fr": "Ressemble à un petit talisman fait de fils. Trouvé sur l'un des soldats du Murmure. Il aurait apparemment été utilisé comme Amulette ou talisman.",
+          "ko": "철사로 만든 작은 부적처럼 생긴 물건. 속삭임 소속 병사 중 하나에게서 빼앗은 것이다. 부적 같은 용도로 사용된 걸로 보인다."
+        }
+      }
+    }
+  ]
+}

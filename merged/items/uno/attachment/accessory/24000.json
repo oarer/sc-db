@@ -1,0 +1,58 @@
+{
+  "id": "24000",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.24000.name",
+    "args": {},
+    "lines": {
+      "ru": "Жетон сталкера",
+      "en": "Stalker Token",
+      "es": "Ficha de acechador",
+      "fr": "Insigne de Stalker",
+      "ko": "스토커 토큰"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

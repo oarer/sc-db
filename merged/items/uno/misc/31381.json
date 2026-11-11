@@ -1,0 +1,58 @@
+{
+  "id": "31381",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setH.toy7.name",
+    "args": {},
+    "lines": {
+      "ru": "Футуристичный золотой шарик",
+      "en": "Futuristic Golden Bauble",
+      "es": "Bola dorada futurista",
+      "fr": "Boule d'Or Futuriste",
+      "ko": "미래형 금빛 장식"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

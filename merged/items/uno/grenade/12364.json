@@ -1,0 +1,131 @@
+{
+  "id": "12364",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.xg1.name",
+    "args": {},
+    "lines": {
+      "ru": "ХГ-1 «Поганка»",
+      "en": "Toadstool KG-1",
+      "es": "KG-1 Hongo venenoso",
+      "fr": "Amanite KG-1",
+      "ko": "독버섯 KG-1"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 кг",
+              "en": "0.25 kg",
+              "es": "0,25 kg",
+              "fr": "0,25 kg",
+              "ko": "0.25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.xg1.description",
+        "args": {},
+        "lines": {
+          "ru": "Граната с элементами артефактов создает область, затрудняющую передвижение противников-игроков и увеличивающую наносимый им урон.",
+          "en": "Grenade with elements from artifacts. Creates an area that hinders enemy players' movement and increases the damage inflicted on them.",
+          "es": "Granada con elementos de artefactos. Crea una zona que dificulta el movimiento de los jugadores enemigos y aumenta el daño que se les inflige.",
+          "fr": "Grenade avec des éléments tirés d'artefacts. Crée une zone qui entrave les mouvements de l'ennemi et augmente les dégâts infligés.",
+          "ko": "아티팩트의 성분이 들어 있는 수류탄이다. 적 팀 플레이어들의 이동을 방해하는 영역을 생성하고, 적이 받는 피해량을 증가시킨다."
+        }
+      }
+    }
+  ]
+}

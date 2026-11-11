@@ -1,0 +1,77 @@
+{
+  "id": "16292",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.pseudodog_undercoat_t1.name",
+    "args": {},
+    "lines": {
+      "ru": "Подшерсток дикой гончей",
+      "en": "Strong Wild Hound's Undercoat",
+      "es": "Subpelo de sabueso salvaje",
+      "fr": "Sous-poil de molosse sauvage",
+      "ko": "와일드 하운드 속털"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 кг",
+              "en": "0.4 kg",
+              "es": "0,4 kg",
+              "fr": "0,4 kg",
+              "ko": "0.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.pseudodog_undercoat_t1.description",
+        "args": {},
+        "lines": {
+          "ru": "Мягкий подшерсток, который дикие гончие сбрасывают во время линьки. В отличие от грубой остевой шерсти, эти волоски почти не контактируют с внешней средой и сохраняют естественную структуру. Устойчивость волосяного покрова мутировавших собак к агрессивным факторам Зоны давно обратила на себя внимание ученых, а подшерсток дает наиболее чистый материал для изучения этого феномена.",
+          "en": "The soft undercoat that wild hounds shed during molting. Unlike the coarse guard hairs, these hairs hardly come into contact with the external environment and maintain their natural structure. The resilience of the fur coat of mutated dogs to the aggressive factors of the Zone has long attracted the attention of scientists, and the undercoat provides the purest material for studying this phenomenon.",
+          "es": "El subpelo suave que los sabuesos salvajes pierden durante la muda. A diferencia del pelaje áspero, estos pelos casi no entran en contacto con el medio ambiente y conservan su estructura natural. La resistencia del pelaje de los perros mutados a los factores agresivos de la Zona ha llamado la atención de los científicos desde hace tiempo, y el subpelo proporciona el material más puro para estudiar este fenómeno.",
+          "fr": "Le sous-poil doux que les chiens sauvages perdent pendant la mue. Contrairement aux poils de jarre plus grossiers, ces fibres sont presque dépourvues de contact avec l'environnement extérieur et conservent leur structure naturelle. La résistance du pelage des chiens mutés aux facteurs agressifs de la Zone attire depuis longtemps l'attention des scientifiques, et le sous-poil fournit le matériau le plus pur pour l'étude de ce phénomène.",
+          "ko": "와일드 하운이 털갈이 시기에 떨어뜨리는 부드러운 속털. 거칠고 질긴 겉털과 달리, 이 털들은 외부 환경과 거의 접촉하지 않아 본래의 구조를 그대로 유지한다. 돌연변이 개들의 모피가 구역의 공격적인 환경 요인에도 높은 내성을 보인다는 사실은 오래전부터 과학자들의 주목을 받아왔으며, 이 속털은 그 현상을 연구하기에 가장 순수한 표본이 된다."
+        }
+      }
+    }
+  ]
+}

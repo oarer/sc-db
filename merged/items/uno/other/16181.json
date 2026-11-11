@@ -1,0 +1,77 @@
+{
+  "id": "16181",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16181.name",
+    "args": {},
+    "lines": {
+      "ru": "Корешок",
+      "en": "Rootlet",
+      "es": "Raicilla",
+      "fr": "Radicelle",
+      "ko": "뿌리줄기"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.012,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg",
+              "ko": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16181.description",
+        "args": {},
+        "lines": {
+          "ru": "Среди гор корней-вонючек иногда встречаются маленькие корешки, которые, в отличие от своих старших товарищей, обладают более «дружелюбным» запахом. Некоторые сталкеры говорят, что он напоминает укроп.",
+          "en": "Amidst the masses of stinky roots you can sometimes see small rootlets that, unlike their larger companions, have a milder smell. Some stalkers say that they remind them of dill.",
+          "es": "Entre las masas de raíces hediondas a veces se pueden ver pequeñas raicillas que, a diferencia de sus compañeras más grandes, tienen un olor más suave. Algunos acechadores dicen que les recuerdan al eneldo.",
+          "fr": "Au milieu des masses de racines nauséabondes, on peut parfois apercevoir de petites radicelles qui, contrairement à leurs grandes compagnes, ont une odeur plus douce. Certains stalkers disent qu'elles leur rappellent l'aneth.",
+          "ko": "악취 나는 뿌리 더미 사이에서, 가끔 향이 약한 가느다란 뿌리줄기들이 섞여 있는 경우가 있다. 어떤 스토커들은 그 냄새가 허브의 일종인 딜을 떠올리게 한다고 말한다."
+        }
+      }
+    }
+  ]
+}

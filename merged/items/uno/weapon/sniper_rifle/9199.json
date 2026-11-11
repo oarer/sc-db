@@ -1,0 +1,1139 @@
+{
+  "id": "9199",
+  "category": "weapon/sniper_rifle",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn.gauss3000.name",
+    "args": {},
+    "lines": {
+      "ru": "Изделие №47",
+      "en": "Object #47",
+      "es": "Objeto 47",
+      "fr": "Objet N°47",
+      "ko": "오브젝트 #47"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 7.5,
+          "formatted": {
+            "value": {
+              "ru": "7,5 кг",
+              "en": "7.5 kg",
+              "es": "7,5 kg",
+              "fr": "7,5 kg",
+              "ko": "7.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.spread",
+            "args": {},
+            "lines": {}
+          },
+          "value": 0.01,
+          "formatted": {
+            "value": {
+              "ru": "0,01%",
+              "en": "0.01%",
+              "es": "0,01%",
+              "fr": "0,01%",
+              "ko": "0.01%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {}
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5%",
+              "en": "5%",
+              "es": "5%",
+              "fr": "5%",
+              "ko": "5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2%",
+              "en": "0.2%",
+              "es": "0,2%",
+              "fr": "0,2%",
+              "ko": "0.2%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": 3,
+          "formatted": {
+            "value": {
+              "ru": "3%",
+              "en": "3%",
+              "es": "3%",
+              "fr": "3%",
+              "ko": "3%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 27,
+          "formatted": {
+            "value": {
+              "ru": "27%",
+              "en": "27%",
+              "es": "27%",
+              "fr": "27%",
+              "ko": "27%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 11,
+          "formatted": {
+            "value": {
+              "ru": "11%",
+              "en": "11%",
+              "es": "11%",
+              "fr": "11%",
+              "ko": "11%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {}
+          },
+          "value": -7,
+          "formatted": {
+            "value": {
+              "ru": "-7%",
+              "en": "-7%",
+              "es": "-7%",
+              "fr": "-7%",
+              "ko": "-7%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage",
+            "args": {},
+            "lines": {}
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage_distant",
+            "args": {},
+            "lines": {}
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {}
+          },
+          "value": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "0,5%",
+              "en": "0.5%",
+              "es": "0,5%",
+              "fr": "0,5%",
+              "ko": "0.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.durability",
+            "args": {},
+            "lines": {}
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1%",
+              "en": "1%",
+              "es": "1%",
+              "fr": "1%",
+              "ko": "1%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Объем магазина",
+              "en": "Magazine capacity",
+              "es": "Capacidad del cargador",
+              "fr": "Capacité du chargeur",
+              "ko": "탄창 용량"
+            }
+          },
+          "value": 6,
+          "formatted": {
+            "value": {
+              "ru": "6",
+              "en": "6",
+              "es": "6",
+              "fr": "6",
+              "ko": "6"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.distance",
+            "args": {},
+            "lines": {
+              "ru": "Максимальная дистанция",
+              "en": "Maximum distance",
+              "es": "Distancia máxima",
+              "fr": "Distance maximum",
+              "ko": "최대 유효 사거리"
+            }
+          },
+          "value": 250,
+          "formatted": {
+            "value": {
+              "ru": "250 м",
+              "en": "250 m",
+              "es": "250 m",
+              "fr": "250 m",
+              "ko": "250 미터"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.rate_of_fire",
+            "args": {},
+            "lines": {
+              "ru": "Скорострельность",
+              "en": "Rate of fire",
+              "es": "Cadencia de disparo",
+              "fr": "Cadence de tir",
+              "ko": "연사 속도"
+            }
+          },
+          "value": 200,
+          "formatted": {
+            "value": {
+              "ru": "200 выстр/мин",
+              "en": "200 shots/min",
+              "es": "200 disparos/min",
+              "fr": "200tirs/min",
+              "ko": "분당 200 발"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 с",
+              "en": "2.5 sec",
+              "es": "2,5 s",
+              "fr": "2,5 s",
+              "ko": "2.5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс",
+              "en": "Spread",
+              "es": "Dispersión",
+              "fr": "Dispersion",
+              "ko": "탄퍼짐"
+            }
+          },
+          "value": 0.01,
+          "formatted": {
+            "value": {
+              "ru": "0,01°",
+              "en": "0.01°",
+              "es": "0,01°",
+              "fr": "0,01°",
+              "ko": "0.01°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.hip_spread",
+            "args": {},
+            "lines": {
+              "ru": "Разброс от бедра",
+              "en": "Hip-fire spread",
+              "es": "Dispersión de disparos desde la cadera",
+              "fr": "Dispersion du tir à l'aveugle",
+              "ko": "비조준 사격 탄퍼짐"
+            }
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5°",
+              "en": "5°",
+              "es": "5°",
+              "fr": "5°",
+              "ko": "5°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.recoil",
+            "args": {},
+            "lines": {
+              "ru": "Вертикальная отдача",
+              "en": "Vertical recoil",
+              "es": "Retroceso vertical",
+              "fr": "Recul vertical",
+              "ko": "수직 반동"
+            }
+          },
+          "value": 3,
+          "formatted": {
+            "value": {
+              "ru": "3°",
+              "en": "3°",
+              "es": "3°",
+              "fr": "3°",
+              "ko": "3°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.horizontal_recoil",
+            "args": {},
+            "lines": {
+              "ru": "Горизонтальная отдача",
+              "en": "Horizontal recoil",
+              "es": "Retroceso horizontal",
+              "fr": "Recul horizontal",
+              "ko": "수평 반동"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2°",
+              "en": "0.2°",
+              "es": "0,2°",
+              "fr": "0,2°",
+              "ko": "0.2°"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aiming_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость в прицеливании",
+              "en": "Speed during aiming",
+              "es": "Velocidad de apuntado",
+              "fr": "Vitesse de visée",
+              "ko": "조준 속도"
+            }
+          },
+          "value": -50,
+          "formatted": {
+            "value": {
+              "ru": "-50%",
+              "en": "-50%",
+              "es": "-50%",
+              "fr": "-50%",
+              "ko": "-50%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Доставание",
+              "en": "Draw time",
+              "es": "Tiempo de desenfundado",
+              "fr": "Temps de dégainage",
+              "ko": "무기 꺼내기 시간"
+            }
+          },
+          "value": 1.35,
+          "formatted": {
+            "value": {
+              "ru": "1,35 с",
+              "en": "1.35 sec",
+              "es": "1,35 s",
+              "fr": "1,35 s",
+              "ko": "1.35초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.aim_switch",
+            "args": {},
+            "lines": {
+              "ru": "Прицеливание",
+              "en": "Aiming time",
+              "es": "Tiempo de apuntado",
+              "fr": "Temps de visée",
+              "ko": "조준 시간"
+            }
+          },
+          "value": 0.55,
+          "formatted": {
+            "value": {
+              "ru": "0,55 с",
+              "en": "0.55 sec",
+              "es": "0,55 s",
+              "fr": "0,55 s",
+              "ko": "0.55초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.switch_cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время смены оружия",
+              "en": "Weapon switch time",
+              "es": "Tiempo de cambio de arma",
+              "fr": "Temps de changement d'arme",
+              "ko": "무기 전환 속도"
+            }
+          },
+          "value": 3,
+          "formatted": {
+            "value": {
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.holster_time",
+            "args": {},
+            "lines": {
+              "ru": "Время убирания",
+              "en": "Holster time",
+              "es": "Tiempo de guardado",
+              "fr": "Temps de rangement",
+              "ko": "무기 집어넣기 속도"
+            }
+          },
+          "value": 0.9,
+          "formatted": {
+            "value": {
+              "ru": "0,9 с",
+              "en": "0.9 sec",
+              "es": "0,9 s",
+              "fr": "0,9 s",
+              "ko": "0.9초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.stat_name.damage_type.direct",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage",
+              "es": "Daño",
+              "fr": "Dégâts",
+              "ko": "피해량"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100 ед",
+              "en": "100 unit(s)",
+              "es": "100 unidad(es)",
+              "fr": "100 unité(s)",
+              "ko": "100 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.damage_distant",
+            "args": {},
+            "lines": {
+              "ru": "Урон вдали",
+              "en": "Damage at distance",
+              "es": "Daño a distancia",
+              "fr": "Dégâts à distance",
+              "ko": "원거리 피해량"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100 ед",
+              "en": "100 unit(s)",
+              "es": "100 unidad(es)",
+              "fr": "100 unité(s)",
+              "ko": "100 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.damage_decrease_start",
+            "args": {},
+            "lines": {
+              "ru": "Начало снижения урона",
+              "en": "Damage drop-off start",
+              "es": "Inicio de caída de daño",
+              "fr": "Début de baisse des dégâts",
+              "ko": "피해 감소 시작점"
+            }
+          },
+          "value": 250,
+          "formatted": {
+            "value": {
+              "ru": "250 м",
+              "en": "250 m",
+              "es": "250 m",
+              "fr": "250 m",
+              "ko": "250 미터"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.damage_decrease_end",
+            "args": {},
+            "lines": {
+              "ru": "Конец снижения урона",
+              "en": "Damage drop-off end",
+              "es": "Fin de caída de daño",
+              "fr": "Fin de baisse des dégâts",
+              "ko": "피해 감소 종료점"
+            }
+          },
+          "value": 200,
+          "formatted": {
+            "value": {
+              "ru": "200 м",
+              "en": "200 m",
+              "es": "200 m",
+              "fr": "200 m",
+              "ko": "200 미터"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Бронебойность",
+              "en": "Armor-penetration",
+              "es": "Perforante",
+              "fr": "Pénétration d'armure",
+              "ko": "방어구 관통력"
+            }
+          },
+          "value": 30,
+          "formatted": {
+            "value": {
+              "ru": "30%",
+              "en": "30%",
+              "es": "30%",
+              "fr": "30%",
+              "ko": "30%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.plate_penetrating",
+            "args": {},
+            "lines": {
+              "ru": "Пробитие пластин",
+              "en": "Plate penetration",
+              "es": "Perforación de placas",
+              "fr": "Perforation des plaques",
+              "ko": "장갑판 관통"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.limbs_damage_multiplier",
+            "args": {},
+            "lines": {
+              "ru": "Урон по конечностям",
+              "en": "Limb damage multiplier",
+              "es": "Multiplicador de daño a extremidades",
+              "fr": "Multiplicateur de dégâts aux membres",
+              "ko": "사지 피해 배율"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "x1",
+              "en": "x1",
+              "es": "x1",
+              "fr": "x1",
+              "ko": "x1"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.head_damage_multiplier",
+            "args": {},
+            "lines": {
+              "ru": "Урон в голову",
+              "en": "Headshot damage multiplier",
+              "es": "Multiplicador de daño en la cabeza",
+              "fr": "Multiplicateur de dégâts à la tête",
+              "ko": "헤드샷 피해 배율"
+            }
+          },
+          "value": 1.5,
+          "formatted": {
+            "value": {
+              "ru": "x1,5",
+              "en": "x1.5",
+              "es": "x1,5",
+              "fr": "x1,5",
+              "ko": "x1.5"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.movement_spread_factor",
+            "args": {},
+            "lines": {
+              "ru": "Разброс в движении",
+              "en": "Movement spread factor",
+              "es": "Factor de dispersión en movimiento",
+              "fr": "Facteur de dispersion en mouvement",
+              "ko": "이동 시 탄착 군집 배율"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "x2,5",
+              "en": "x2.5",
+              "es": "x2,5",
+              "fr": "x2,5",
+              "ko": "x2.5"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.crouch_spread_factor",
+            "args": {},
+            "lines": {
+              "ru": "Разброс в присяде",
+              "en": "Crouch spread factor",
+              "es": "Factor de dispersión agachado",
+              "fr": "Facteur de dispersion accroupi",
+              "ko": "웅크릴 시 탄착 군집 배율"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "x1",
+              "en": "x1",
+              "es": "x1",
+              "fr": "x1",
+              "ko": "x1"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.prone_spread_factor",
+            "args": {},
+            "lines": {
+              "ru": "Разброс лёжа",
+              "en": "Prone spread factor",
+              "es": "Factor de dispersión tumbado",
+              "fr": "Facteur de dispersion couché",
+              "ko": "엎드릴 시 탄착 군집 배율"
+            }
+          },
+          "value": 0.8,
+          "formatted": {
+            "value": {
+              "ru": "x0,8",
+              "en": "x0.8",
+              "es": "x0,8",
+              "fr": "x0,8",
+              "ko": "x0.8"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.stopping_power",
+            "args": {},
+            "lines": {
+              "ru": "Останавливающее действие",
+              "en": "Stopping power",
+              "es": "Poder de parada",
+              "fr": "Pouvoir d'arrêt",
+              "ko": "저지력"
+            }
+          },
+          "value": 150,
+          "formatted": {
+            "value": {
+              "ru": "150%",
+              "en": "150%",
+              "es": "150%",
+              "fr": "150%",
+              "ko": "150%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.bleeding",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": 95,
+          "formatted": {
+            "value": {
+              "ru": "95%",
+              "en": "95%",
+              "es": "95%",
+              "fr": "95%",
+              "ko": "95%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.suppression",
+            "args": {},
+            "lines": {
+              "ru": "Подавление",
+              "en": "Suppression",
+              "es": "Supresión",
+              "fr": "Suppression",
+              "ko": "억제력"
+            }
+          },
+          "value": 2,
+          "formatted": {
+            "value": {
+              "ru": "2%",
+              "en": "2%",
+              "es": "2%",
+              "fr": "2%",
+              "ko": "2%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn.gauss3000.description",
+        "args": {},
+        "lines": {
+          "ru": "Прототип перспективного рельсотронного оружия, работающего на схожих с винтовкой Гаусса принципах. Настоящее произведение корпоративного оружейного искусства, не без помощи советского наследия «Кузни».",
+          "en": "A prototype of a promising railgun weapon, operating on principles similar to a Gauss rifle. A true masterpiece of corporate arms craftsmanship, not without the assistance of the Soviet legacy of the Forge.",
+          "es": "Prototipo de cañón de riel muy prometedor con un mecanismo parecido al de un fusil Gauss. Una auténtica obra maestra de la artesanía armamentística corporativa, fabricada con la ayuda del legado soviético de la Forja.",
+          "fr": "Un prototype d'arme à rail prometteuse, fonctionnant selon des principes similaires à ceux d'un fusil Gauss. Un véritable chef-d'œuvre de la fabrication d'armes d'entreprise, non sans l'aide de l'héritage soviétique de la Forge.",
+          "ko": "가우스 소총과 유사한 원리로 작동하는 레일건 무기의 원형. 무기 제조회사로써의 솜씨가 유감 없이 발휘된, 진정한 걸작이다. 소련 포지 유산의 도움이 없었다면 이런 걸작이 탄생할 순 없었을 것이다."
+        }
+      }
+    }
+  ]
+}

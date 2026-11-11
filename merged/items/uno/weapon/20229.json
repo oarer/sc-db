@@ -1,0 +1,281 @@
+{
+  "id": "20229",
+  "category": "weapon",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn.mosin_main.name",
+    "args": {},
+    "lines": {
+      "ru": "«Гром-палка» Шамана",
+      "en": "Shaman's Boomstick",
+      "es": "Escoba de fuego de Chamán",
+      "fr": "le Boomstick de Shaman",
+      "ko": "샤먼의 붐스틱"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage",
+            "args": {},
+            "lines": {}
+          },
+          "value": 91.1,
+          "formatted": {
+            "value": {
+              "ru": "91,1%",
+              "en": "91.1%",
+              "es": "91,1%",
+              "fr": "91,1%",
+              "ko": "91.1%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage_distant",
+            "args": {},
+            "lines": {}
+          },
+          "value": 91.1,
+          "formatted": {
+            "value": {
+              "ru": "91,1%",
+              "en": "91.1%",
+              "es": "91,1%",
+              "fr": "91,1%",
+              "ko": "91.1%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.stat_name.damage_type.direct",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage",
+              "es": "Daño",
+              "fr": "Dégâts",
+              "ko": "피해량"
+            }
+          },
+          "value": 91.1,
+          "formatted": {
+            "value": {
+              "ru": "91,1 ед",
+              "en": "91.1 unit(s)",
+              "es": "91,1 unidad(es)",
+              "fr": "91,1 unité(s)",
+              "ko": "91.1 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.damage_distant",
+            "args": {},
+            "lines": {
+              "ru": "Урон вдали",
+              "en": "Damage at distance",
+              "es": "Daño a distancia",
+              "fr": "Dégâts à distance",
+              "ko": "원거리 피해량"
+            }
+          },
+          "value": 91.1,
+          "formatted": {
+            "value": {
+              "ru": "91,1 ед",
+              "en": "91.1 unit(s)",
+              "es": "91,1 unidad(es)",
+              "fr": "91,1 unité(s)",
+              "ko": "91.1 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn.mosin_main.description",
+        "args": {},
+        "lines": {
+          "ru": "Этой модифицированной винтовкой Мосина какое-то время пользовался сам Шаман, и подгонял он ее под себя. Соратники Шамана в шутку прозвали это оружие «гром-палкой».",
+          "en": "This modification of the Mosin's rifle was once used by Shaman himself, who customized it to suit his needs. Shaman's comrades jokingly named this weapon \"Boomstick.\"",
+          "es": "Esta modificación del fusil Mosin fue utilizada en su día por el propio Chamán, que la personalizó para adaptarla a sus necesidades. Los camaradas de Chamán bautizaron en broma esta arma como \"Escoba de fuego\".",
+          "fr": "Cette modification du fusil Mosin a été utilisée par Shaman lui-même, qui l'a adaptée à ses besoins. Les camarades de Shaman appelaient cette arme en plaisantant « Boomstick ».",
+          "ko": "모신의 소총을 개조한 이 모델은 샤먼이 직접 자신의 입맛에 맞게 손본 무기이다. 샤먼의 동료들은 이걸 농담 삼아 [붐스틱]이라 불렀다."
+        }
+      }
+    }
+  ]
+}

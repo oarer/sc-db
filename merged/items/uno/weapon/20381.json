@@ -1,0 +1,302 @@
+{
+  "id": "20381",
+  "category": "weapon",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn.spas_chelkuncihk.name",
+    "args": {},
+    "lines": {
+      "ru": "«Орехокол» Щелкунчика",
+      "en": "Nutcracker's Crusher",
+      "es": "Trituradora de Cascanueces",
+      "fr": "Casse-noix de Casse-Noisette",
+      "ko": "호두까기의 분쇄기"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage",
+            "args": {},
+            "lines": {}
+          },
+          "value": 140,
+          "formatted": {
+            "value": {
+              "ru": "140%",
+              "en": "140%",
+              "es": "140%",
+              "fr": "140%",
+              "ko": "140%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage_distant",
+            "args": {},
+            "lines": {}
+          },
+          "value": 42,
+          "formatted": {
+            "value": {
+              "ru": "42%",
+              "en": "42%",
+              "es": "42%",
+              "fr": "42%",
+              "ko": "42%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.durability",
+            "args": {},
+            "lines": {}
+          },
+          "value": 3400,
+          "formatted": {
+            "value": {
+              "ru": "3400%",
+              "en": "3400%",
+              "es": "3400%",
+              "fr": "3400%",
+              "ko": "3400%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.stat_name.damage_type.direct",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage",
+              "es": "Daño",
+              "fr": "Dégâts",
+              "ko": "피해량"
+            }
+          },
+          "value": 140,
+          "formatted": {
+            "value": {
+              "ru": "140 ед",
+              "en": "140 unit(s)",
+              "es": "140 unidad(es)",
+              "fr": "140 unité(s)",
+              "ko": "140 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.damage_distant",
+            "args": {},
+            "lines": {
+              "ru": "Урон вдали",
+              "en": "Damage at distance",
+              "es": "Daño a distancia",
+              "fr": "Dégâts à distance",
+              "ko": "원거리 피해량"
+            }
+          },
+          "value": 42,
+          "formatted": {
+            "value": {
+              "ru": "42 ед",
+              "en": "42 unit(s)",
+              "es": "42 unidad(es)",
+              "fr": "42 unité(s)",
+              "ko": "42 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn.spas_chelkuncihk.description",
+        "args": {},
+        "lines": {
+          "ru": "Будучи азартным охотником, Щелкунчик очень серьезно относится к подбору правильной экипировки. Этот дробовик он тюнинговал под себя, для ходок в Зоне. Однако после вашей победы над Крысиным Королем, справедливо посчитал, что это оружие должно достаться лучшему охотнику.",
+          "en": "As a risk-taking hunter, Nutcracker takes the matter of selecting the right gear very seriously. He tuned this shotgun for his own use for his forays into the Zone. After your victory over the Rat King, however, he rightly decided that this weapon should go to the best hunter.",
+          "es": "Como cazador arriesgado, Cascanueces se toma muy en serio la cuestión de seleccionar el equipamiento adecuado. Afinó esta escopeta para su propio uso en sus incursiones por la Zona. Sin embargo, tras tu victoria sobre el Rey Rata, decidió con razón que esta arma debía ser para el mejor cazador.",
+          "fr": "En tant que chasseur intrépide, Casse-Noisette prend très au sérieux le choix du bon équipement. Il a modifié son fusil de chasse pour son utilisation personnelle lors de ses incursions dans la Zone. Après votre victoire sur le Roi des Rats, il a décidé à juste titre que cette arme devait revenir au meilleur chasseur.",
+          "ko": "호두까기는 위험도 기꺼이 무릅쓰는 사냥꾼답게 장비 선택에 있어 매우 신중한 인물입니다. 이 산탄총도 역시 호두까기가 구역로 나서기 위해 용도에 맞게 개조한 무기죠. 하지만 들쥐들의 왕이 다른 이에게 처리당한 후에는 자신의 무기가 최고의 사냥꾼에게 주어지는 게 맞다는 판단했습니다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "16256",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.snork_hand_t1.name",
+    "args": {},
+    "lines": {
+      "ru": "Рука слабого шныря",
+      "en": "Weak Skitter's Hand",
+      "es": "Mano de merodeador débil",
+      "fr": "Main de Pilleur faible",
+      "ko": "약한 스키터 손"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.snork_hand_t1.description",
+        "args": {},
+        "lines": {
+          "ru": "Рука шныря, в отличие от человеческой, содержит большее количество сухожилий, обладающих потрясающей эластичностью.",
+          "en": "A skitter's hand, as distinct from a human hand, contains more tendons, which are incredibly elastic.",
+          "es": "La mano de un merodeador, a diferencia de la humana, tiene más tendones, que son increíblemente elásticos.",
+          "fr": "La main d'un pilleur, à la différence d'une main humaine, contient plus de tendons, qui sont incroyablement élastiques.",
+          "ko": "인간의 손과 달리, 스키터의 손은 더 많은 힘줄을 포함하고 있는데, 이는 놀라울 정도로 유연하다."
+        }
+      }
+    }
+  ]
+}

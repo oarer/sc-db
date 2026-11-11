@@ -1,0 +1,58 @@
+{
+  "id": "16702",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.art.mod_shuffle.name",
+    "args": {},
+    "lines": {
+      "ru": "Дестабилизатор",
+      "en": "Destabilizer",
+      "es": "Desestabilizador",
+      "fr": "Déstabilisateur",
+      "ko": "불안정제"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

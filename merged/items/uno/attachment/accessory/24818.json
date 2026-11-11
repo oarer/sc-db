@@ -1,0 +1,77 @@
+{
+  "id": "24818",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_schemp.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Ностальгия»",
+      "en": "Nostalgia Charm",
+      "es": "Amuleto Nostalgia",
+      "fr": "Breloque Nostalgie",
+      "ko": "향수 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_schemp.description",
+        "args": {},
+        "lines": {
+          "ru": "Брелок, неизвестно как попавший в Зону с Большой Земли. Многие бойцы заказали себе подобные, как напоминание, что где-то там люди все еще смотрят мультики и едят попкорн, не зная, что такое радиация.",
+          "en": "A charm which origins are unknown—no one knows how it made its way into the Zone from the Mainland. Many fighters ordered similar ones as a reminder that, out there, people are still watching cartoons and eating popcorn, unaware of what radiation really is.",
+          "es": "Un amuleto que llegó a la Zona desde el mundo exterior sin que se sepa cómo. Muchos combatientes pidieron uno igual para recordar que, en algún lugar, la gente sigue viendo dibujos animados y comiendo palomitas, sin saber lo que es la radiación.",
+          "fr": "Une breloque dont on ignore comment elle a atterri dans la Zone en provenance du Continent. De nombreux combattants en ont commandé de similaires, comme un rappel que quelque part, là-bas, les gens regardent encore des dessins animés et mangent du popcorn, sans savoir ce qu'est la radiation.",
+          "ko": "본토에서 어떻게 구역으로 들어왔는지 알 수 없는 부적. 많은 전사들이 이를 주문했는데, 그건 어딘가에서 여전히 사람들이 만화를 보고 팝콘을 먹으며 방사능이 무엇인지조차 모른다는 사실을 상기시키기 위해서다."
+        }
+      }
+    }
+  ]
+}

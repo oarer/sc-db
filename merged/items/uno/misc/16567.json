@@ -1,0 +1,77 @@
+{
+  "id": "16567",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.armorpack_onyx5.name",
+    "args": {},
+    "lines": {
+      "ru": "Сумка ониксовых пластин",
+      "en": "Bag of Onyx Plates",
+      "es": "Bolsa de placas de ónice",
+      "fr": "Sac de plaques en onyx",
+      "ko": "오닉스 장갑판 가방"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 12.5,
+          "formatted": {
+            "value": {
+              "ru": "12,5 кг",
+              "en": "12.5 kg",
+              "es": "12,5 kg",
+              "fr": "12,5 kg",
+              "ko": "12.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.bag.armorpack_onyx5.description",
+        "args": {},
+        "lines": {
+          "ru": "Защитные пластины на основе оникса из Изнанки.",
+          "en": "Protective plates made of onyx from the Inside Out.",
+          "es": "Placas protectoras de ónice del Reverso.",
+          "fr": "Plaques de protection en onyx de l'Inside Out.",
+          "ko": "뒤집힌 세계의 오닉스로 만들어진 보호 장갑판입니다."
+        }
+      }
+    }
+  ]
+}

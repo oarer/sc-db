@@ -1,0 +1,77 @@
+{
+  "id": "16271",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.chimera_claw_t2.name",
+    "args": {},
+    "lines": {
+      "ru": "Коготь бестии",
+      "en": "Fiend's Claw",
+      "es": "Garra de fiera",
+      "fr": "Griffe de Démon",
+      "ko": "악마 발톱"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.chimera_claw_t2.description",
+        "args": {},
+        "lines": {
+          "ru": "Бестия может с легкостью рассечь своими когтями металлическую пластину, поэтому молекулярная структура ногтевых тканей мутанта представляет исключительный интерес для ученых.",
+          "en": "Fiends can easily cut through a metal sheet with their claws, so the molecular structure of mutants' claw tissue is of particular interest to scientists.",
+          "es": "Las fieras pueden cortar fácilmente una lámina de metal con las garras, por ello la estructura molecular del tejido de las garras de los mutantes reviste un interés especial para los científicos.",
+          "fr": "Les démons peuvent facilement couper une feuille de métal avec leurs griffes. La structure moléculaire du tissu des griffes des mutants présente donc un intérêt particulier pour les scientifiques.",
+          "ko": "악마들은 그들의 날카로운 발톱으로 철판마저 쉽게 가를 수 있는 관계로, 돌연변이 발톱 조직의 분자 구조는 과학자들에게 있어 주된 관심사 중 하나이다."
+        }
+      }
+    }
+  ]
+}

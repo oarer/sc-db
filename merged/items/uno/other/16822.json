@@ -1,0 +1,77 @@
+{
+  "id": "16822",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.bluetruffle.name",
+    "args": {},
+    "lines": {
+      "ru": "Синий трюфель",
+      "en": "Blue Truffle",
+      "es": "Trufa azul",
+      "fr": "Truffe bleue",
+      "ko": "파란 송로버섯"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg",
+              "fr": "0,15 kg",
+              "ko": "0.15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.bluetruffle.description",
+        "args": {},
+        "lines": {
+          "ru": "Гриб ярко-синего цвета со слабо светящимися шляпками. Несмотря на нестандартный внешний вид, пахнет прямо как белый гриб!",
+          "en": "This mushroom is bright blue in color with a faintly glowing cap. Despite its unusual appearance, it smells just like a porcini mushroom!",
+          "es": "Una seta de color azul brillante cuyo píleo emite un tenue brillo. A pesar de su aspecto inusual, ¡huele igual que una seta de calabaza!",
+          "fr": "Ce champignon de couleur bleu vif a un chapeau avec une faible lueur. Malgré son apparence inhabituelle, il a une odeur semblable aux cèpes !",
+          "ko": "밝은 파란색을 띠며, 갓이 은은하게 밫난다. 별난 외형과는 다르게, 냄새가 포르치니 버섯과 흡사하다"
+        }
+      }
+    }
+  ]
+}

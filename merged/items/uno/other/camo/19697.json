@@ -1,0 +1,77 @@
+{
+  "id": "19697",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.pompeii.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Помпеи»",
+      "en": "Pompeii Paint",
+      "es": "Pintura Pompeya",
+      "fr": "Peinture Pompéi",
+      "ko": "폼페이 도색"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.pompeii.description",
+        "args": {},
+        "lines": {
+          "ru": "Краска «Помпеи» для брони",
+          "en": "Pompeii Armor Paint",
+          "es": "Pintura Pompeya para armadura",
+          "fr": "Peinture d'armure Pompéi",
+          "ko": "폼페이 방어구 도색"
+        }
+      }
+    }
+  ]
+}

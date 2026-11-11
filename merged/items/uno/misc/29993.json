@@ -1,0 +1,58 @@
+{
+  "id": "29993",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.outpost_9.name",
+    "args": {},
+    "lines": {
+      "ru": "Рюкзак с боеприпасами",
+      "en": "Backpack of Ammo",
+      "es": "Mochila de munición",
+      "fr": "Sac de munitions",
+      "ko": "탄약 배낭"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5 кг",
+              "en": "5 kg",
+              "es": "5 kg",
+              "fr": "5 kg",
+              "ko": "5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

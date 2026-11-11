@@ -1,0 +1,58 @@
+{
+  "id": "31371",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setG.garland2.name",
+    "args": {},
+    "lines": {
+      "ru": "Пряничная хорошая гирлянда",
+      "en": "Nice Gingerbread Tree Lights",
+      "es": "Luces del árbol de galleta bonitas",
+      "fr": "Jolies Guirlandes de Pain d'Épices",
+      "ko": "멋진 진저브레드 트리 조명"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

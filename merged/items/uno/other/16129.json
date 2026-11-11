@@ -1,0 +1,58 @@
+{
+  "id": "16129",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16129.name",
+    "args": {},
+    "lines": {
+      "ru": "Шкура крысиного короля",
+      "en": "Rat King's Hide",
+      "es": "Piel de Rey Rata",
+      "fr": "Peau du Roi des Rats",
+      "ko": "들쥐들의 왕의 가죽"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

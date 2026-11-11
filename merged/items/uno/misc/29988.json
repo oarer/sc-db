@@ -1,0 +1,58 @@
+{
+  "id": "29988",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.outpost_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Большой ящик с продовольствием",
+      "en": "Big Crate of Rations",
+      "es": "Caja de raciones grande",
+      "fr": "Grande caisse de rations",
+      "ko": "대형 보급 식량 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 6,
+          "formatted": {
+            "value": {
+              "ru": "6 кг",
+              "en": "6 kg",
+              "es": "6 kg",
+              "fr": "6 kg",
+              "ko": "6 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

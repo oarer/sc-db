@@ -1,0 +1,113 @@
+{
+  "id": "31238",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.scheme.l85_mod_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть схемы #4: «Уравнитель»",
+      "en": "Schematic #4: Equalizer",
+      "es": "Esquema n.° 4: Ecualizador",
+      "fr": "Partie de schéma 4 : Égaliseur",
+      "ko": "도면 #4: 이퀄라이저"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.scheme.l85_mod_4.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "Аномальные сигналы",
+          "en": "From anomalous signals",
+          "es": "En señales anómalas",
+          "fr": "À partir de signaux anormaux",
+          "ko": "감지되는 이상 신호들로부터 획득 가능"
+        }
+      }
+    }
+  ]
+}

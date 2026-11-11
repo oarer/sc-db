@@ -1,0 +1,58 @@
+{
+  "id": "16517",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.16517.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик патронов 5.56 мм",
+      "en": "Crate of 5.56 mm Rounds",
+      "es": "Caja de munición de 5,56 mm",
+      "fr": "Caisse de balles de 5.56 mm",
+      "ko": "5.56 mm 탄약 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 8,
+          "formatted": {
+            "value": {
+              "ru": "8 кг",
+              "en": "8 kg",
+              "es": "8 kg",
+              "fr": "8 kg",
+              "ko": "8 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

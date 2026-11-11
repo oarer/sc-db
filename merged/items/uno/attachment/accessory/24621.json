@@ -1,0 +1,77 @@
+{
+  "id": "24621",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.spring24_shield.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Щит руса-дружинника»",
+      "en": "Slav Battle Brother Shield Charm",
+      "es": "Amuleto Escudo de hermano de batalla eslavo",
+      "fr": "Breloque de Bouclier de Frère de Bataille Slave",
+      "ko": "슬라브 전투 형제 방패 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.spring24_shield.description",
+        "args": {},
+        "lines": {
+          "ru": "Никогда не пренебрегай защитою. Особенно в перестрелках с чудищами нечистыми.",
+          "en": "Never disregard protection. Especially when it comes to shootouts with filthy monsters.",
+          "es": "No descuides nunca la defensa. Sobre todo, cuando se trata de tiroteos con monstruos inmundos.",
+          "fr": "Ne négligez jamais la protection. Surtout quand il s'agit de fusillades avec des monstres immondes.",
+          "ko": "보호 능력을 무시해서는 안 된다. 특히 더러운 괴물들과의 총격전이라면 더더욱이다."
+        }
+      }
+    }
+  ]
+}

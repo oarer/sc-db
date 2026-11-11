@@ -1,0 +1,58 @@
+{
+  "id": "23300",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bolt_gem.golden.name",
+    "args": {},
+    "lines": {
+      "ru": "Хроматическая частица: Золотая",
+      "en": "Chromatic Particle: Golden",
+      "es": "Partícula cromática: Dorada",
+      "fr": "Particule chromatique : Dorée",
+      "ko": "크로마틱 입자: 황금"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

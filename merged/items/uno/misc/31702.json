@@ -1,0 +1,58 @@
+{
+  "id": "31702",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.mg42_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть MG3 #3",
+      "en": "MG3 Part #3",
+      "es": "MG3 Pieza n.° 3",
+      "fr": "Pièce de MG3 #3",
+      "ko": "MG3 부품 #3"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "23201",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bolt_gem.shock.name",
+    "args": {},
+    "lines": {
+      "ru": "Импульсная частица: Электрическая",
+      "en": "Impulse Particle: Electric",
+      "es": "Partícula de Impulso: Eléctrica",
+      "fr": "Particule impulsive : Électrique",
+      "ko": "임펄스 입자: 전기"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "16157",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16157.name",
+    "args": {},
+    "lines": {
+      "ru": "Пепельный сгусток",
+      "en": "Clot of Ash",
+      "es": "Coágulo de ceniza",
+      "fr": "Caillou de cendres",
+      "ko": "잿빛 덩어리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16157.description",
+        "args": {},
+        "lines": {
+          "ru": "Нарост пепельного цвета, появляющийся на телах зомбированных сталкеров. По теории ученых именно подобные «сгустки» обеспечивают зомби их паранормальными способностями.",
+          "en": "Ash-gray growth that appears on the bodies of zombie stalkers. Scientists believe that these \"clots\" give zombies their paranormal abilities.",
+          "es": "Una protuberancia de color gris ceniza que aparece en los cuerpos de los acechadores zombi. Los científicos creen que estos \"coágulos\" confieren a los zombis sus habilidades paranormales.",
+          "fr": "Croissance gris cendrée qui apparaît sur le corps des stalkers zombies. Les scientifiques pensent que ces « caillots » confèrent aux zombies leurs capacités paranormales.",
+          "ko": "좀비 스토커들의 몸에 생기는 혹으로, 잿빛을 띄고 있다. 과학자들은 이런 [덩어리]가 좀비들에게 초자연적 능력을 부여한다고 믿고 있다."
+        }
+      }
+    }
+  ]
+}

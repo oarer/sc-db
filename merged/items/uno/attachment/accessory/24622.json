@@ -1,0 +1,77 @@
+{
+  "id": "24622",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.spring24_egg.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Одно яйцо ящера»",
+      "en": "One Lizard Egg Charm",
+      "es": "Amuleto Huevo de lagarto",
+      "fr": "Breloque Oeuf de Lézard",
+      "ko": "원 리저드 에그 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.spring24_egg.description",
+        "args": {},
+        "lines": {
+          "ru": "Словно бы части не достает, иль что упущено...",
+          "en": "It seems like lacking a part, or something is missing...",
+          "es": "Parece como si faltara una pieza o algo...",
+          "fr": "On dirait qu'il manque une pièce, ou quelque chose…",
+          "ko": "뭔가 빠진 것 같거나, 무언가가 없어진 듯하다…"
+        }
+      }
+    }
+  ]
+}

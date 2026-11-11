@@ -1,0 +1,58 @@
+{
+  "id": "16893",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.duty_chevron.name",
+    "args": {},
+    "lines": {
+      "ru": "Шеврон офицера «Рубежа»",
+      "en": "Frontier Officer Chevron",
+      "es": "Galón de oficial de Frontera",
+      "fr": "Chevron d'Officier Frontière",
+      "ko": "프론티어 장교 견장"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg",
+              "es": "0,05 kg",
+              "fr": "0,05 kg",
+              "ko": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

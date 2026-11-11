@@ -1,0 +1,58 @@
+{
+  "id": "8039",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.covenant.military_anticonsulvant.name",
+    "args": {},
+    "lines": {
+      "ru": "Противосудорожное средство",
+      "en": "Anticonvulsant agent",
+      "es": "Anticonvulsivo",
+      "fr": "Agent antiépileptique",
+      "ko": "항경련제"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

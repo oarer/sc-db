@@ -1,0 +1,77 @@
+{
+  "id": "24734",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_bundle.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «МС Крыс»",
+      "en": "MC Rattus Charm",
+      "es": "Amuleto MC Rata",
+      "fr": "Breloque Rat MC",
+      "ko": "\"쥐들의 엠씨\" 열쇠고리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_bundle.description",
+        "args": {},
+        "lines": {
+          "ru": "Брелок, найденный на теле одного из офицеров «\"Шепота». Добротная мягкая игрушка, сделанная путем таксидермии. Среди солдат ССОП ходит шутливый слух, что если нажать на живот сорок семь раз, крыса зачитает плотный текст.",
+          "en": "A charm, found on the body of one of the Murmur officers. A well-made soft toy created through taxidermy. Among the SSPP soldiers, there's a humorous rumor that if you press the belly forty-seven times, the rat will will rap some heavy bars.",
+          "es": "Un amuleto encontrado en el cuerpo de uno de los oficiales de Susurro. Es un bonito peluche fabricado por taxidermia. Existe el rumor jocoso entre los soldados de SSPE de que si se le presiona la barriga cuarenta y siete veces, la rata recitará un rap muy chulo.",
+          "fr": "Breloque trouvée sur le corps d'un officier du Murmure. Une peluche de qualité réalisée par taxidermie. Les soldats de la SSPP plaisantent en disant que si on appuie 47 fois sur le ventre, le rat récite un monologue complexe.",
+          "ko": "사망한 속삭임 소속 장교 시신에서 발견된 부적. 박제 기법으로 만들어진 완성도 높은 봉제 인형이다. SSPP 병사들 사이에서는 이걸로 농담 같은 소문이 도는데, 배를 47번 누르면 쥐가 묵직한 랩을 뱉어준다는 이야기다."
+        }
+      }
+    }
+  ]
+}

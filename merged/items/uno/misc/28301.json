@@ -1,0 +1,41 @@
+{
+  "id": "28301",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.28301.name",
+    "args": {},
+    "lines": {
+      "ru": "Нашивка сталкеров",
+      "en": "Stalker Patch",
+      "es": "Parche de acechador",
+      "fr": "Écusson de stalker",
+      "ko": "스토커 옷 조각"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28301.description",
+        "args": {},
+        "lines": {
+          "ru": "Нашивка с логотипом сталкеров.@@§2Предмет для бартера",
+          "en": "A patch with a stalker logo.@@§2Barter item",
+          "es": "Un parche con un logotipo de acechador.@@§2Objeto de trueque",
+          "fr": "Un écusson avec le logo d'un stalker.@@§2Objet de troc",
+          "ko": "스토커 로고가 새겨진 천 조각이다.@@§2교환 가능 아이템"
+        }
+      }
+    }
+  ]
+}

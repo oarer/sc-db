@@ -1,0 +1,77 @@
+{
+  "id": "24859",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.mt_moneta.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Один против всех»",
+      "en": "One Against All Charm",
+      "es": "Amuleto Uno contra todos",
+      "fr": "Breloque Contre tous",
+      "ko": "일대다 최강자 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.mt_moneta.description",
+        "args": {},
+        "lines": {
+          "ru": "Говорят, один в поле не воин, но Зона знает случаи, когда даже единственный сталкер мог вставить палки в колеса целой группировке.",
+          "en": "They say one man alone is no warrior, but the Zone knows cases where even a lone stalker could throw a wrench into the plans of an entire faction.",
+          "es": "Dicen que uno solo no hace la guerra, pero la Zona conoce casos en los que incluso un único stalker pudo ponerle trabas a toda una facción.",
+          "fr": "On dit qu'un homme seul ne fait pas un guerrier. Mais la Zone sait qu'un stalker peut faire vaciller une faction.",
+          "ko": "혼자서는 전투가 어렵다고들 하지만, 구역에서는 단 한 명의 스토커가 거대한 세력 전체의 움직임에 제동을 걸었던 사례도 존재한다고 한다."
+        }
+      }
+    }
+  ]
+}

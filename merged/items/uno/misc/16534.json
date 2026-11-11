@@ -1,0 +1,58 @@
+{
+  "id": "16534",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.9exp.name",
+    "args": {},
+    "lines": {
+      "ru": "Сумка экспансивных 9 мм патронов",
+      "en": "Pouch of 9 mm Expanding Rounds",
+      "es": "Zurrón de munición expansiva de 9 mm",
+      "fr": "Pochette de balles à expansion de 9 mm",
+      "ko": "9 mm 확산탄 탄 주머니"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 4.2,
+          "formatted": {
+            "value": {
+              "ru": "4,2 кг",
+              "en": "4.2 kg",
+              "es": "4,2 kg",
+              "fr": "4,2 kg",
+              "ko": "4.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

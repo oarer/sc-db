@@ -1,0 +1,77 @@
+{
+  "id": "19695",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.pacifist.name",
+    "args": {},
+    "lines": {
+      "ru": "Камуфляж «Пацифист»",
+      "en": "Pacifist Camouflage",
+      "es": "Camuflaje Pacifista",
+      "fr": "Camouflage Pacifiste",
+      "ko": "평화주의자 캐모"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.pacifist.description",
+        "args": {},
+        "lines": {
+          "ru": "Камуфляж «Пацифист» для брони",
+          "en": "Pacifist camouflage for armor",
+          "es": "Camuflaje Pacifista para armadura",
+          "fr": "Camouflage pour armure Pacifiste",
+          "ko": "방어구용 평화주의자 캐모"
+        }
+      }
+    }
+  ]
+}

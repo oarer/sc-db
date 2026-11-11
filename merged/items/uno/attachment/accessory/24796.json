@@ -1,0 +1,77 @@
+{
+  "id": "24796",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.dmz26_skull.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Смерть в бою»",
+      "en": "Death in Battle Charm",
+      "es": "Amuleto Muerte en combate",
+      "fr": "Breloque Mort au combat",
+      "ko": "전장의 죽음 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.dmz26_skull.description",
+        "args": {},
+        "lines": {
+          "ru": "Не каждый, кто вступит в бой, сможет из него выйти. Как говорят в горах Шотландии: «There can be only one».",
+          "en": "Not everyone who enters the fight will be able to leave it. As they say in the Scottish Highlands: \"There can be only one.\"",
+          "es": "No todos los que entran en combate salen victoriosos. Como dicen en las montañas de Escocia: \"Solo puede quedar uno\".",
+          "fr": "Tous ceux qui entrent en combat n'en sortent pas vivants. Comme on dit dans les Highlands écossais : Il ne peut en rester qu'un.",
+          "ko": "모든 전투 참가자가 살아서 돌아오는 것은 아니다. 스코틀랜드 산맥에서는 이렇게 말한다: “오직 한명만 살아남는다.”"
+        }
+      }
+    }
+  ]
+}

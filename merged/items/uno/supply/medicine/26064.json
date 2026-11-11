@@ -1,0 +1,239 @@
+{
+  "id": "26064",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.inside_amulet.name",
+    "args": {},
+    "lines": {
+      "ru": "Оберег Священника",
+      "en": "Clergyman's Amulet",
+      "es": "Amuleto del Clérigo",
+      "fr": "Amulette de l'ecclésiastique",
+      "ko": "성직자의 호신부"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.03,
+          "formatted": {
+            "value": {
+              "ru": "0,03 кг",
+              "en": "0.03 kg",
+              "es": "0,03 kg",
+              "fr": "0,03 kg",
+              "ko": "0.03 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 с",
+              "en": "2.5 sec",
+              "es": "2,5 s",
+              "fr": "2,5 s",
+              "ko": "2.5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "value": 8,
+          "formatted": {
+            "value": {
+              "ru": "8%",
+              "en": "8%",
+              "es": "8%",
+              "fr": "8%",
+              "ko": "8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "value": 15,
+          "formatted": {
+            "value": {
+              "ru": "15%",
+              "en": "15%",
+              "es": "15%",
+              "fr": "15%",
+              "ko": "15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": -1,
+          "formatted": {
+            "value": {
+              "ru": "-1%",
+              "en": "-1%",
+              "es": "-1%",
+              "fr": "-1%",
+              "ko": "-1%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.inside_amulet.description",
+        "args": {},
+        "lines": {
+          "ru": "Созданный Священником препарат, который может спасти жизнь всякой заблудшей души в Изнанке.",
+          "en": "This substance, created by Clergyman, can save the life of any lost soul in the Inside Out.",
+          "es": "Esta sustancia, creada por el Clérigo, puede salvar la vida de cualquier alma perdida en el Reverso.",
+          "fr": "Cette substance, créée par Clergyman, peut sauver la vie de n'importe quelle âme perdue dans l'Envers.",
+          "ko": "성직자가 만든 이 물질은 뒤집힌 세계에 그 어떤 길 잃은 영혼도 살려낼 수 있다."
+        }
+      }
+    }
+  ]
+}

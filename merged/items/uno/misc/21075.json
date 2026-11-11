@@ -1,0 +1,233 @@
+{
+  "id": "21075",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.melee.tanto_pathfinder.name",
+    "args": {},
+    "lines": {
+      "ru": "Танто Первопроходца",
+      "en": "Trailblazer Tanto",
+      "es": "Tanto de Pioneer",
+      "fr": "Tantō du Pionnier",
+      "ko": "개척자 탄토"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.22,
+          "formatted": {
+            "value": {
+              "ru": "0,22 кг",
+              "en": "0.22 kg",
+              "es": "0,22 kg",
+              "fr": "0,22 kg",
+              "ko": "0.22 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.durability",
+            "args": {},
+            "lines": {}
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0%",
+              "en": "0%",
+              "es": "0%",
+              "fr": "0%",
+              "ko": "0%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Бронебойность",
+              "en": "Armor-penetration",
+              "es": "Perforante",
+              "fr": "Pénétration d'armure",
+              "ko": "방어구 관통력"
+            }
+          },
+          "value": 50,
+          "formatted": {
+            "value": {
+              "ru": "50%",
+              "en": "50%",
+              "es": "50%",
+              "fr": "50%",
+              "ko": "50%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.melee.tanto_pathfinder.description",
+        "args": {},
+        "lines": {
+          "ru": "Необычный нож, найденный среди снаряжения разгромленных бойцов из отряда Первопроходцев. Такая приметная вещица явно побывала в самых загадочных уголках Зоны!",
+          "en": "An unusual knife found among the equipment of the defeated fighters from the Trailblazers squad. This distinctive item has clearly been to the most mysterious corners of the Zone!",
+          "es": "An unusual knife found among the equipment of the defeated fighters from the Trailblazers squad. This distinctive item has clearly been to the most mysterious corners of the Zone!",
+          "fr": "Un couteau rare, retrouvé parmi l'équipement des soldats défaits de l'escouade des Pionniers. Un objet aussi singulier a forcément vu les coins les plus mystérieux de la Zone !",
+          "ko": "패배를 모르는 개척자 분대의 전사들 사이에서 찾아볼 수 있는 독특한 칼이다. 이 독특한 아이템은 분명히 구역의 가장 신비로운 곳들을 거쳤을 것이다!"
+        }
+      }
+    }
+  ]
+}

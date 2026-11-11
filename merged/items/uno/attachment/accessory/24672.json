@@ -1,0 +1,77 @@
+{
+  "id": "24672",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.autumn24_card.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Ключ Черного Рынка»",
+      "en": "Black Market Key Charm",
+      "es": "Amuleto Llave del Mercado Negro",
+      "fr": "Porte-clés du Marché noir",
+      "ko": "블랙 마켓 열쇠 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.autumn24_card.description",
+        "args": {},
+        "lines": {
+          "ru": "Черному Рынку не нужны ключ-карты, чтобы добиваться поставленных целей...",
+          "en": "The Black Market doesn't need key-cards to achieve its goals...",
+          "es": "En el Mercado Negro no necesitan tarjetas llave para conseguir lo que buscan...",
+          "fr": "Le Marché noir n'a pas besoin de cartes-clé pour accomplir ses objectifs…",
+          "ko": "블랙 마켓은 목표를 달성하기 위해 키 카드가 필요 없다..."
+        }
+      }
+    }
+  ]
+}

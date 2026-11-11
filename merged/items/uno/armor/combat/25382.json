@@ -1,0 +1,590 @@
+{
+  "id": "25382",
+  "category": "armor/combat",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.zivcas_heavy.name",
+    "args": {},
+    "lines": {
+      "ru": "Бронекостюм ZIVCAS M2-T",
+      "en": "ZIVCAS M2-T Armored Suit",
+      "es": "Traje blindado ZIVCAS M2-T",
+      "fr": "Combinaison Blindée ZIVCAS M2-T",
+      "ko": "지브카스 M2-T 장갑 슈트"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 70,
+          "formatted": {
+            "value": {
+              "ru": "70 кг",
+              "en": "70 kg",
+              "es": "70 kg",
+              "fr": "70 kg",
+              "ko": "70 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": -10,
+          "formatted": {
+            "value": {
+              "ru": "-10%",
+              "en": "-10%",
+              "es": "-10%",
+              "fr": "-10%",
+              "ko": "-10%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté",
+              "ko": "최대 운반 무게"
+            }
+          },
+          "value": 10,
+          "formatted": {
+            "value": {
+              "ru": "10",
+              "en": "10",
+              "es": "10",
+              "fr": "10",
+              "ko": "10"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "value": -30,
+          "formatted": {
+            "value": {
+              "ru": "-30",
+              "en": "-30",
+              "es": "-30",
+              "fr": "-30",
+              "ko": "-30"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bullet_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Пулестойкость",
+              "en": "Bullet resistance",
+              "es": "Resistencia a las balas",
+              "fr": "Résistance aux balles",
+              "ko": "총탄 저항율"
+            }
+          },
+          "value": 317,
+          "formatted": {
+            "value": {
+              "ru": "317",
+              "en": "317",
+              "es": "317",
+              "fr": "317",
+              "ko": "317"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.tear_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от разрыва",
+              "en": "Laceration protection",
+              "es": "Protección contra laceración",
+              "fr": "Protection contre les lacérations",
+              "ko": "열상 저항율"
+            }
+          },
+          "value": 252,
+          "formatted": {
+            "value": {
+              "ru": "252",
+              "en": "252",
+              "es": "252",
+              "fr": "252",
+              "ko": "252"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.explosion_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от взрыва",
+              "en": "Explosion protection",
+              "es": "Protección contra explosiones",
+              "fr": "Protection contre les explosions",
+              "ko": "폭발 저항율"
+            }
+          },
+          "value": 260,
+          "formatted": {
+            "value": {
+              "ru": "260",
+              "en": "260",
+              "es": "260",
+              "fr": "260",
+              "ko": "260"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.electra_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Электрозащита",
+              "en": "Electricity resistance",
+              "es": "Resistencia a la electricidad",
+              "fr": "Résistance à l'électricité",
+              "ko": "전기 저항율"
+            }
+          },
+          "value": 50,
+          "formatted": {
+            "value": {
+              "ru": "50",
+              "en": "50",
+              "es": "50",
+              "fr": "50",
+              "ko": "50"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Защита от огня",
+              "en": "Fire resistance",
+              "es": "Resistencia al fuego",
+              "fr": "Résistance au feu",
+              "ko": "화염 저항율"
+            }
+          },
+          "value": 50,
+          "formatted": {
+            "value": {
+              "ru": "50",
+              "en": "50",
+              "es": "50",
+              "fr": "50",
+              "ko": "50"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.chemical_burn_dmg_factor",
+            "args": {},
+            "lines": {
+              "ru": "Химзащита",
+              "en": "Chemical resistance",
+              "es": "Resistencia a los productos químicos",
+              "fr": "Résistance aux produits chimiques",
+              "ko": "화학 화상 보호율"
+            }
+          },
+          "value": 50,
+          "formatted": {
+            "value": {
+              "ru": "50",
+              "en": "50",
+              "es": "50",
+              "fr": "50",
+              "ko": "50"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от радиации",
+              "en": "Radiation protection",
+              "es": "Protección contra radiación",
+              "fr": "Protection contre les radiations",
+              "ko": "방사능 보호"
+            }
+          },
+          "value": 200,
+          "formatted": {
+            "value": {
+              "ru": "200",
+              "en": "200",
+              "es": "200",
+              "fr": "200",
+              "ko": "200"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.thermal_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от температуры",
+              "en": "Thermal protection",
+              "es": "Protección térmica",
+              "fr": "Protection thermique",
+              "ko": "열 보호"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100",
+              "en": "100",
+              "es": "100",
+              "fr": "100",
+              "ko": "100"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.biological_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от биозаражения",
+              "en": "Bioinfection protection",
+              "es": "Protección contra bioinfección",
+              "fr": "Protection contre les bio infections",
+              "ko": "생체 감염 보호"
+            }
+          },
+          "value": 200,
+          "formatted": {
+            "value": {
+              "ru": "200",
+              "en": "200",
+              "es": "200",
+              "fr": "200",
+              "ko": "200"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от пси-излучения",
+              "en": "Psy-emission protection",
+              "es": "Prot contra emisiones psy",
+              "fr": "Protection contre les émissions psys",
+              "ko": "정신파 에미션 보호"
+            }
+          },
+          "value": 200,
+          "formatted": {
+            "value": {
+              "ru": "200",
+              "en": "200",
+              "es": "200",
+              "fr": "200",
+              "ko": "200"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_protection",
+            "args": {},
+            "lines": {
+              "ru": "Защита от кровотечения",
+              "en": "Bleeding protection",
+              "es": "Protección contra hemorragia",
+              "fr": "Protection contre les saignements",
+              "ko": "출혈 보호"
+            }
+          },
+          "value": 60,
+          "formatted": {
+            "value": {
+              "ru": "60%",
+              "en": "60%",
+              "es": "60%",
+              "fr": "60%",
+              "ko": "60%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stopping_protection",
+            "args": {},
+            "lines": {
+              "ru": "Стойкость",
+              "en": "Stability",
+              "es": "Estabilidad",
+              "fr": "Stabilité",
+              "ko": "안정성"
+            }
+          },
+          "value": 50,
+          "formatted": {
+            "value": {
+              "ru": "50",
+              "en": "50",
+              "es": "50",
+              "fr": "50",
+              "ko": "50"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.zivcas_heavy.description",
+        "args": {},
+        "lines": {
+          "ru": "Наиболее мощная версия модификаций платформы М2, созданная специально для решения проблем в прямых боестолкновениях. Модель M2-T оснащена дополнительными бронепластинами и усиленными приводами, обеспечивающими превосходную устойчивость и комфорт при использовании тяжелого вооружения. Полевые испытания подтвердили: боец в M2-T способен выдержать не только стандартную очередь из автомата, но даже пережить взрыв противопехотной гранаты! Максимальная защита и надежность для самых суровых боевых условий!",
+          "en": "The most powerful version of the M2 platform modifications, specifically designed to address issues in direct combat engagements. The Model M2-T is equipped with additional armor plates and reinforced drives, providing excellent stability and comfort when using heavy weaponry. Field tests confirmed that a fighter in the M2-T can withstand not only a standard burst from an assault rifle but even survive an antipersonnel grenade explosion! Maximum protection and reliability for the harshest combat conditions!",
+          "es": "La versión más potente de las modificaciones de la plataforma M2, diseñada específicamente para resolver problemas en enfrentamientos de combate directo. El modelo M2-T está equipado con placas de blindaje adicionales y transmisiones reforzadas, que proporcionan una excelente estabilidad y comodidad al utilizar armamento pesado. Las pruebas de campo han confirmado que un combatiente con el M2-T puede resistir no solo una ráfaga estándar de un fusil de asalto, ¡sino hasta la explosión de una granada antipersona! ¡Máxima defensa y fiabilidad para las condiciones de combate más duras!",
+          "fr": "La version la plus puissante des modifications de la plateforme M2, spécialement développée pour répondre aux problèmes des engagements en combat direct. Le Modèle M2-T est équipé de plaques d'armure additionnelles et de commandes renforcées, offrant une excellente stabilité et un confort pendant l'usage d'armes lourdes. Les essais sur le terrain ont confirmé qu'un combattant dans une M2-T peut supporter non seulement un feu standard d'un fusil d'assaut, mais même survivre à l'explosion d'une grenade antipersonnelle ! Une protection et une durabilité maximales pour les conditions de combat les plus difficiles !",
+          "ko": "M2 기반 운영체계의 개량형 중 가장 강력한 버전으로, 직접적인 근접 전투 상황에 대응하기 위해 특수히 설계되었다. M2-T 모델은 추가 장갑판과 강화된 구동 장치를 장착하여, 중화기를 사용할 때도 탁월한 안정성과 착용감을 자랑한다. 현장 테스트 결과, M2-T를 착용한 전투원은 일반 돌격 소총의 점발 사격뿐만 아니라 대인 수류탄 폭발까지도 견딜 수 있음이 확인되었다! 가장 혹독한 전투 조건에서도 최상의 방어 능력과 신뢰성을 보장한다!"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "11403",
+  "category": "artefact",
+  "name": {
+    "type": "translation",
+    "key": "item.11403.name",
+    "args": {},
+    "lines": {
+      "ru": "Пустоголовый",
+      "en": "Empty-Headed",
+      "es": "Cabeza hueca",
+      "fr": "Tête Vide",
+      "ko": "빈머리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {}
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.11403.description",
+        "args": {},
+        "lines": {
+          "ru": "Не учатся ничему некоторые, и учиться не хотят. Кина американского насмотрелись или крышу срывает от жадности? Ты ему про аномалии, он тебе про хабар. Ни о чем думать не хотят, кроме бабок! Пока голова в тыкву не превратится...",
+          "en": "Some people can't be taught and don't want to learn. Watched too many American films or driven crazy by greed? You talk about anomalies, they talk about loot. Don't want to think about anything but money! Till their head gets turned into a pumpkin.",
+          "es": "A algunas personas no se les puede enseñar y no quieren aprender. ¿Has visto demasiadas películas americanas o te ha vuelto loco la codicia? Tú hablas de anomalías, ellos hablan de botín. ¡No quieren pensar en nada más que en dinero! Hasta que su cabeza se convierta en una calabaza.",
+          "fr": "Certaines personnes ne peuvent pas être enseignées et ne veulent pas apprendre. Ont-ils regardé trop de films américains ou sont-ils rendus fous par l'appât du gain ? Vous parlez d'anomalies, ils parlent de butin. Ils ne veulent penser à rien d'autre qu'à l'argent ! Jusqu'à ce que leur tête soit transformée en citrouille.",
+          "ko": "어떤 사람들은 아무리 가르쳐도 배우려 들지 않는다. 미국 영화나 너무 많이 봤든가, 아니면 탐욕에 사로잡혔다든가. 이상현상에 대한 이야기를 꺼내면 그들은 전리품 같은 소리만 한다. 돈밖에 생각할 줄 모른다는 것이다! 그러다가 머리가 호박으로 변하기 전까지 말이다."
+        }
+      }
+    }
+  ]
+}

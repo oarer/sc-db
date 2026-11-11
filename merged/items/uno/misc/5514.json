@@ -1,0 +1,58 @@
+{
+  "id": "5514",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.customisation_pack.dmz26_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Набор кастомизации «Окопный»",
+      "en": "Trench Customization Pack",
+      "es": "Pack de personalización Trinchera",
+      "fr": "Pack de personnalisation Tranchée",
+      "ko": "참호 커스텀 팩"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "4953",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.sticker.bureau_jiden_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Стикер «JIDEN V1»",
+      "en": "JIDEN V1 Sticker",
+      "es": "Pegatina JIDEN V1",
+      "fr": "Autocollant JIDEN V1",
+      "ko": "JIDEN V1 스티커"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

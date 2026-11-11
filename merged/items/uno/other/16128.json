@@ -1,0 +1,77 @@
+{
+  "id": "16128",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.npc_military.name",
+    "args": {},
+    "lines": {
+      "ru": "Офицерский шеврон",
+      "en": "Officer's Chevron",
+      "es": "Galón de oficial",
+      "fr": "Chevron d'Officier",
+      "ko": "장교의 견장"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.01,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg",
+              "ko": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.filler.npc_military.description",
+        "args": {},
+        "lines": {
+          "ru": "Такие шевроны носят офицеры, находящиеся под командованием полковника Власова.",
+          "en": "These chevrons are worn by officers under the command of Colonel Vlasov.",
+          "es": "Estos galones los llevan los oficiales al mando del coronel Vlasov.",
+          "fr": "Ces chevrons sont portés par les officiers sous le commandement du Colonel Vlasov.",
+          "ko": "이 견장은 블라소프 대령의 지휘 하의 장교들이 착용합니다."
+        }
+      }
+    }
+  ]
+}

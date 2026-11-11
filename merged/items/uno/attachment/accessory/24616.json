@@ -1,0 +1,77 @@
+{
+  "id": "24616",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.spring24_cherpak.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Черпак руса»",
+      "en": "Slav Ladle Charm",
+      "es": "Amuleto Cucharón eslavo",
+      "fr": "Breloque Louche Slave",
+      "ko": "슬라브 국자 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.spring24_cherpak.description",
+        "args": {},
+        "lines": {
+          "ru": "Сотворен мудрецами земли русов, дабы из глубин Байкала черпать дневную меру водицы богатырской.",
+          "en": "Created by the sages of the Slavs land, to draw the daily measure of bogatyr water from the depths of Lake Baikal.",
+          "es": "Creado por los sabios de la tierra de los eslavos para extraer la medida diaria de agua bogatyr de las profundidades del lago Baikal.",
+          "fr": "Créé par les sages de la terre Slave, pour tirer la mesure quotidienne de l'eau des bogatyrs des profondeurs du lac Baïkal.",
+          "ko": "슬라브 땅의 현자들이 만든 것으로, 바이칼 호수의 깊은 곳에서 보가티르 물을 매일 떠올리기 위해 사용된다."
+        }
+      }
+    }
+  ]
+}

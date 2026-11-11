@@ -1,0 +1,58 @@
+{
+  "id": "31692",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ravent.upgrade_tool_15.name",
+    "args": {},
+    "lines": {
+      "ru": "Инструменты (+3 уровня)",
+      "en": "Tools (+3 levels)",
+      "es": "Herramientas (+3 niveles)",
+      "fr": "Outils (+3 niveaux)",
+      "ko": "도구 (+3 레벨)"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

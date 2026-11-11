@@ -1,0 +1,58 @@
+{
+  "id": "29915",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.mob_7.name",
+    "args": {},
+    "lines": {
+      "ru": "Странный гребень",
+      "en": "Strange Crest",
+      "es": "Cresta extraña",
+      "fr": "Crête étrange",
+      "ko": "기이한 갈기"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 кг",
+              "en": "0.25 kg",
+              "es": "0,25 kg",
+              "fr": "0,25 kg",
+              "ko": "0.25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

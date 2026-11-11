@@ -1,0 +1,77 @@
+{
+  "id": "24836",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.mk_star.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Маршальская звезда»",
+      "en": "Marshal's Star Charm",
+      "es": "Amuleto Estrella de mariscal",
+      "fr": "Breloque Étoile de Maréchal",
+      "ko": "원수 훈장 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.mk_star.description",
+        "args": {},
+        "lines": {
+          "ru": "Наемник, выставивший безделушку на аукцион, заявлял, что снял «звездочку» с тела какого-то офицера ССОП.\\n\\nКонечно, никто из покупателей не счел трофей за настоящую наградную маршальскую звезду, но цена за безделушку все же выросла.",
+          "en": "The mercenary who put the trinket up for auction claimed he had taken the \"star\" from the body of an SSPP officer.\\n\\n Of course, none of the buyers believed the trophy was a genuine marshal's star, but the price of the little trinket still went up.",
+          "es": "El mercenario que sacó la baratija a subasta afirmó que había quitado la estrellita del cuerpo de algún oficial de SSPE.\\n\\n Por supuesto, ninguno de los compradores consideró que el trofeo fuera una auténtica estrella de mariscal, pero el precio de la baratija subió de todos modos.",
+          "fr": "Le mercenaire, ayant mis un bibelot aux enchères, affirmait avoir retiré une « petite étoile » du corps d'un officier des SSPP.\\n\\nBien sûr, aucun des acheteurs n'a considéré le trophée comme une véritable étoile de maréchal, mais le prix du bibelot a tout de même augmenté.",
+          "ko": "용병이 경매에 내놓은 장신구는 어떤 SSPP 장교의 몸에서 ‘별’을 떼어낸 것이라고 주장했다.\\n\\n물론, 구매자 중 누구도 이 전리품을 진짜 원수 훈장으로 보지는 않았지만, 장신구 가격은 그래도 올랐다."
+        }
+      }
+    }
+  ]
+}

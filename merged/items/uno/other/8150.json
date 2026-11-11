@@ -1,0 +1,58 @@
+{
+  "id": "8150",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.scan_Granitskogo_freedom.name",
+    "args": {},
+    "lines": {
+      "ru": "Сканер Границкого",
+      "en": "Granitsky Scaner",
+      "es": "Escáner de Granitsky",
+      "fr": "Scanner de Granitsky",
+      "ko": "그라니츠키 스캐너"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg",
+              "es": "1 kg",
+              "fr": "1 kg",
+              "ko": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "16941",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.godun_package.name",
+    "args": {},
+    "lines": {
+      "ru": "Посылка для Годуна",
+      "en": "Package for Godun",
+      "es": "Paquete para Godun",
+      "fr": "Paquet pour Godun",
+      "ko": "고둔을 위한 소포"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1.4,
+          "formatted": {
+            "value": {
+              "ru": "1,4 кг",
+              "en": "1.4 kg",
+              "es": "1,4 kg",
+              "fr": "1,4 kg",
+              "ko": "1.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

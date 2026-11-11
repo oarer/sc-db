@@ -1,0 +1,58 @@
+{
+  "id": "16803",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16803.name",
+    "args": {},
+    "lines": {
+      "ru": "Блок данных «Зари»",
+      "en": "Rise Data Block",
+      "es": "Bloque de datos de Rebelión",
+      "fr": "Bloc de données de l'Ascension",
+      "ko": "라이즈 데이터 블록"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 2,
+          "formatted": {
+            "value": {
+              "ru": "2 кг",
+              "en": "2 kg",
+              "es": "2 kg",
+              "fr": "2 kg",
+              "ko": "2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

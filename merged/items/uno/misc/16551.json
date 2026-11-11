@@ -1,0 +1,94 @@
+{
+  "id": "16551",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.apt_i.name",
+    "args": {},
+    "lines": {
+      "ru": "Сумка с индивидуальными аптечками",
+      "en": "Bag of Personal First-Aid Kits",
+      "es": "Bolso de botiquines personales",
+      "fr": "Sac de trousses de premiers secours personnelles",
+      "ko": "개인 귀속 구급상자 가방"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.picklock",
+            "args": {},
+            "lines": {
+              "ru": "Отмычка",
+              "en": "Picklock",
+              "es": "Ratero",
+              "fr": "Crocheteur",
+              "ko": "신입"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 4.2,
+          "formatted": {
+            "value": {
+              "ru": "4,2 кг",
+              "en": "4.2 kg",
+              "es": "4,2 kg",
+              "fr": "4,2 kg",
+              "ko": "4.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

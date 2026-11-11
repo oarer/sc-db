@@ -1,0 +1,58 @@
+{
+  "id": "22064",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.22064.name",
+    "args": {},
+    "lines": {
+      "ru": "Цевье «Удав» АН-94, зимнее",
+      "en": "AN-94 Udav Handguard, Winter",
+      "es": "Guardamanos AN-94 Udav, invierno",
+      "fr": "Garde-main AN-94 Udav, Hivernal",
+      "ko": "AN-94 우다브 총열덮개, 윈터"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.21,
+          "formatted": {
+            "value": {
+              "ru": "0,21 кг",
+              "en": "0.21 kg",
+              "es": "0,21 kg",
+              "fr": "0,21 kg",
+              "ko": "0.21 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

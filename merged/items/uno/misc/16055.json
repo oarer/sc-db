@@ -1,0 +1,58 @@
+{
+  "id": "16055",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.ssop_help_tip_5.name",
+    "args": {},
+    "lines": {
+      "ru": "Агентурная наводка на РЛС",
+      "en": "Intelligence Lead for the Radar Station",
+      "es": "Pista de inteligencia sobre la estación de radar",
+      "fr": "Renseignement d'agent sur le radar",
+      "ko": "레이더 기지 요원 제보"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

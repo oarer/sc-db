@@ -1,0 +1,58 @@
+{
+  "id": "4517",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.operations_rat.name",
+    "args": {},
+    "lines": {
+      "ru": "Паттерн «Большая уборка»",
+      "en": "The Big Clean Up Pattern",
+      "es": "Patrón Gran Limpieza",
+      "fr": "Thème Grand Nettoyage",
+      "ko": "대규모 소탕 패턴"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

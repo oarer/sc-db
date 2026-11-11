@@ -1,0 +1,58 @@
+{
+  "id": "24362",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.24362.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Ветеран Проходной»",
+      "en": "Entrance Checkpoint Veteran Charm",
+      "es": "Amuleto Veterano de punto de control",
+      "fr": "Breloque de Vétéran pour le Poste de Contrôle d'Entrée",
+      "ko": "입구 검문소 베테랑 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

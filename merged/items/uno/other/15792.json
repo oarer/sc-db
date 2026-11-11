@@ -1,0 +1,58 @@
+{
+  "id": "15792",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.tutorial_case.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер с артефактом",
+      "en": "Container with an Artifact",
+      "es": "Contenedor con un artefacto",
+      "fr": "Conteneur avec un artéfact",
+      "ko": "아티팩트가 든 보관함"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 6.3,
+          "formatted": {
+            "value": {
+              "ru": "6,3 кг",
+              "en": "6.3 kg",
+              "es": "6,3 kg",
+              "fr": "6,3 kg",
+              "ko": "6.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "31326",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setD.toy8.name",
+    "args": {},
+    "lines": {
+      "ru": "Зеленый шарик с узором",
+      "en": "Green Patterned Bauble",
+      "es": "Bola con patrón verde",
+      "fr": "Boule Verte à Motifs",
+      "ko": "녹색 무늬 장식 방울"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

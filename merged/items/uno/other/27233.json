@@ -1,0 +1,58 @@
+{
+  "id": "27233",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.case_token.functional.name",
+    "args": {},
+    "lines": {
+      "ru": "Жетон Особого кейса",
+      "en": "Special Case Token",
+      "es": "Ficha de la Caja especial",
+      "fr": "Jeton de Caisse Spéciale",
+      "ko": "특급 상자 토큰"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

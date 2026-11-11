@@ -1,0 +1,77 @@
+{
+  "id": "24814",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_adhh.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Сторож»",
+      "en": "Guardian Charm",
+      "es": "Amuleto Guardia",
+      "fr": "Breloque Gardien",
+      "ko": "파수꾼 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_adhh.description",
+        "args": {},
+        "lines": {
+          "ru": "Кто не мечтал о рыжем коте, который будет охранять схроны от посягательств тушканов? Получите и распишитесь, теперь с вами всегда будет брелок, напоминающий об уютных сторожах с Большой Земли.",
+          "en": "Who hasn't dreamed of a ginger cat that will guard caches from the encroachments of rodents? Here you go, now you'll always have a charm reminding you of the cozy guardians from the Mainland.",
+          "es": "¿Quién no ha soñado con un gato pelirrojo que proteja los alijos de los roedores? Recíbelo y fírmalo, ahora siempre tendrás contigo un amuleto que te recordará a los acogedores guardianes del Continente.",
+          "fr": "Qui n'a jamais rêvé d'un chat roux qui protégerait vos cachettes des assauts des tushkans ? Et voilà, c'est signé ! Désormais, vous aurez toujours avec vous une breloque qui rappelle ces gardiens rassurants du Continent.",
+          "ko": "누군들 쥐들의 침입으로부터 은닉처를 지켜 줄 붉은 고양이를 꿈꿔 보지 않았겠는가? 자, 여기 있다. 이제 본토의 포근한 파수꾼을 떠올리게 해 줄 부적이 언제나 당신 곁에 함께한다."
+        }
+      }
+    }
+  ]
+}

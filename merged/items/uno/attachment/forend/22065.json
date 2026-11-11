@@ -1,0 +1,128 @@
+{
+  "id": "22065",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.att.forend_akmsamodel.name",
+    "args": {},
+    "lines": {
+      "ru": "Самодельное цевье с нижней планкой",
+      "en": "Handmade Handguard with Bottom Rail",
+      "es": "Guardamanos hecho a mano con raíl inferior",
+      "fr": "Garde main fait main avec rail inférieur",
+      "ko": "하단 레일이 있는 사제 총열덮개"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.33,
+          "formatted": {
+            "value": {
+              "ru": "0,33 кг",
+              "en": "0.33 kg",
+              "es": "0,33 kg",
+              "fr": "0,33 kg",
+              "ko": "0.33 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": -15,
+          "formatted": {
+            "value": {
+              "ru": "-15%",
+              "en": "-15%",
+              "es": "-15%",
+              "fr": "-15%",
+              "ko": "-15%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage",
+            "args": {},
+            "lines": {}
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5%",
+              "en": "5%",
+              "es": "5%",
+              "fr": "5%",
+              "ko": "5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.forend_akmsamodel.description",
+        "args": {},
+        "lines": {
+          "ru": "Стабилизатор уменьшает горизонтальную отдачу",
+          "en": "Stabilizer reduces horizontal recoil.",
+          "es": "El estabilizador reduce el retroceso horizontal.",
+          "fr": "Le stabilisateur réduit le recul horizontal.",
+          "ko": "안정기는 수평 반동을 감소시킨다."
+        }
+      }
+    }
+  ]
+}

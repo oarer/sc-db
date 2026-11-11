@@ -1,0 +1,58 @@
+{
+  "id": "16084",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.ssop_help_murmur_notes_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Детали устройств “Шепота”",
+      "en": "Murmur Device Parts",
+      "es": "Detalles de los dispositivos de Susurro",
+      "fr": "Pièces des dispositifs du Murmure",
+      "ko": "속삭임 장치 부품"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 кг",
+              "en": "2.5 kg",
+              "es": "2,5 kg",
+              "fr": "2,5 kg",
+              "ko": "2.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

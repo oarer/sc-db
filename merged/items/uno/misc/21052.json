@@ -1,0 +1,167 @@
+{
+  "id": "21052",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.21052.name",
+    "args": {},
+    "lines": {
+      "ru": "Нож Фантома",
+      "en": "Phantom's Knife",
+      "es": "Cuchillo del Fantasma",
+      "fr": "Couteau du Fantôme",
+      "ko": "팬텀의 칼"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.piercing",
+            "args": {},
+            "lines": {
+              "ru": "Бронебойность",
+              "en": "Armor-penetration",
+              "es": "Perforante",
+              "fr": "Pénétration d'armure",
+              "ko": "방어구 관통력"
+            }
+          },
+          "value": 13.75,
+          "formatted": {
+            "value": {
+              "ru": "13,75%",
+              "en": "13.75%",
+              "es": "13,75%",
+              "fr": "13,75%",
+              "ko": "13.75%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.21052.description",
+        "args": {},
+        "lines": {
+          "ru": "Общевойсковой штык-нож, принятый на вооружение ВС СССР для использования с автоматами АКМ и АК74.",
+          "en": "A general military bayonet knife adopted by the USSR's Armed Forces for use with the AK-74 and AKM assault rifles.",
+          "es": "Un cuchillo bayoneta militar general puesto en servicio por las Fuerzas Armadas de la URSS para su uso con los fusiles de asalto AK-74 y AKM.",
+          "fr": "Une baïonnette de dotation militaire mis en service par les Forces Armées de l'URSS à utiliser avec les fusils d'assaut AK-74 et AKM.",
+          "ko": "소련군이 도입한 군용 총검. AK-74 및 AKM 돌격 소총에 달아 사용할 목적으로 실전에 배치되었다."
+        }
+      }
+    }
+  ]
+}

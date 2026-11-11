@@ -1,0 +1,77 @@
+{
+  "id": "16145",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.armsklad.12962.name",
+    "args": {},
+    "lines": {
+      "ru": "Красная лента",
+      "en": "Red Ribbon",
+      "es": "Cinta roja",
+      "fr": "Ruban rouge",
+      "ko": "빨간 리본"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.armsklad.12962.description",
+        "args": {},
+        "lines": {
+          "ru": "Такие ленты некоторые из бойцов «Рубежа» используют, чтобы отмечать свои тайники и тайные тропы.",
+          "en": "These ribbons are used by some Frontier soldiers to mark their stashes and secret paths.",
+          "es": "Algunos soldados de Frontera utilizan estas cintas para marcar sus alijos y caminos secretos.",
+          "fr": "Ces rubans sont utilisés par certains soldats de la Frontière pour marquer leurs cachettes et leurs chemins secrets.",
+          "ko": "프론티어 군인들은 본인들의 은닉처와 비밀 통로를 표시하는 데에 이 리본들을 사용한다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "4939",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.sticker.newyeartree_silver.name",
+    "args": {},
+    "lines": {
+      "ru": "Стикер Серебрянной лиги",
+      "en": "Silver League Sticker",
+      "es": "Pegatina de Liga de Plata",
+      "fr": "Autocollant de la Ligue d'Argent",
+      "ko": "실버 리그 스티커"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

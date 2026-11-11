@@ -1,0 +1,58 @@
+{
+  "id": "15061",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.lootbox.spring26_pass_paint.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Темная звезда»",
+      "en": "Dark Star Container",
+      "es": "Contenedor Estrella oscura",
+      "fr": "Container Étoile noire",
+      "ko": "어둠의 별 컨테이너"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

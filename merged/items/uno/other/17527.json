@@ -1,0 +1,77 @@
+{
+  "id": "17527",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.style.wpn.svu_freedom.name",
+    "args": {},
+    "lines": {
+      "ru": "«Мама Анархия»",
+      "en": "Mother Anarchy",
+      "es": "Madre Anarquía",
+      "fr": "Mère Anarchie",
+      "ko": "아나키 여왕"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.style.wpn.svu_freedom.description",
+        "args": {},
+        "lines": {
+          "ru": "Бойцы «Зари» верят, что однажды им удастся принести в Зону настоящую свободу... Подобный кастом вдохновляет всех борцов за идеалы «Зари».",
+          "en": "Fighters of the Rise believe that one day they will bring true freedom to the Zone... Such customization inspires all fighters for the ideals of the Rise.",
+          "es": "Los Combatientes de Rebelión creen que algún día traerán la verdadera libertad a la Zona. Este tipo de personalización motiva a los combatientes a luchar por los principios de Rebelión.",
+          "fr": "Les combattants de l'Ascension croient qu'ils apporteront un jour la vraie liberté à la Zone… Une telle ambition inspire tous les combattants dans les idéaux de l'Ascension.",
+          "ko": "라이즈의 전사들은 언젠가 그들이 구역에 진정한 자유를 가져올 것이라 믿는다... 이러한 커스터마이징은 라이즈의 이상을 위해 싸우는 모든 전사들에게 영감을 준다."
+        }
+      }
+    }
+  ]
+}

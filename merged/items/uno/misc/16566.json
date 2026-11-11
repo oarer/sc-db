@@ -1,0 +1,77 @@
+{
+  "id": "16566",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.armorpack_glass5.name",
+    "args": {},
+    "lines": {
+      "ru": "Сумка стеклянных пластин",
+      "en": "Bag of Glass Plates",
+      "es": "Bolsa de placas de vidrio",
+      "fr": "Sac de plaques de verre",
+      "ko": "유리 장갑판 가방"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 9.75,
+          "formatted": {
+            "value": {
+              "ru": "9,75 кг",
+              "en": "9.75 kg",
+              "es": "9,75 kg",
+              "fr": "9,75 kg",
+              "ko": "9.75 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.bag.armorpack_glass5.description",
+        "args": {},
+        "lines": {
+          "ru": "Защитные пластины на основе стекла из Изнанки.",
+          "en": "Protective plates made of glass from the Inside Out.",
+          "es": "Placas protectoras de cristal del Reverso.",
+          "fr": "Plaques de protection en verre de l'Inside Out",
+          "ko": "뒤집힌 세계의 유리로 만들어진 보호 장갑판입니다."
+        }
+      }
+    }
+  ]
+}

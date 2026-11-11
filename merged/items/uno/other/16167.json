@@ -1,0 +1,77 @@
+{
+  "id": "16167",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16167.name",
+    "args": {},
+    "lines": {
+      "ru": "Обработанная лимбоплазма",
+      "en": "Processed Limboplasma",
+      "es": "Limboplasma procesado",
+      "fr": "Limboplasma transformé",
+      "ko": "가공된 림보플라즈마"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16167.description",
+        "args": {},
+        "lines": {
+          "ru": "Фанатики научились использовать лимбоплазму в своих целях. Из обработанный лимбоплазмы они изготавливают простейшие мази и патроны для Винтовок Гаусса. Они, конечно, малость хуже обычных, зато намного дешевле.",
+          "en": "Fanatics have found their own use for limboplasma. They turn processed limboplasma into primitive grease and rounds for Gauss rifles. Of course, they're not as good as normal ones, but they're much cheaper.",
+          "es": "Los fanáticos han encontrado su propio uso para el limboplasma. Convierten el limboplasma procesado en grasa primitiva y munición para fusiles Gauss. Como es lógico, no son tan buenas como las normales, pero son mucho más baratas.",
+          "fr": "Les fanatiques ont trouvé leur propre utilisation du limboplasma. Ils transforment le limboplasma traité en graisse primitive et en balles pour les fusils Gauss. Bien sûr, ils ne sont pas aussi efficaces que les fusils normaux, mais ils sont beaucoup moins chers.",
+          "ko": "광신도 집단은 본인들만의 림보플라즈마 활용법을 알아냈다. 가공한 림보플라즈마를 원시적인 윤활유와 가우스 소총 탄약으로 만드는 것이다. 당연히 일반적인 탄환만큼은 성능이 좋지 않지만, 가격은 훨씬 저렴하다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "16731",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ssop_help_stash_barter.name",
+    "args": {},
+    "lines": {
+      "ru": "Запакованная заначка с ресурсами локации",
+      "en": "Packed Location Resources Stockpile",
+      "es": "Reserva de recursos de ubicaciones empaquetada",
+      "fr": "Planque emballée avec des ressources du lieu",
+      "ko": "포장된 지역 자원 비상 은닉물"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

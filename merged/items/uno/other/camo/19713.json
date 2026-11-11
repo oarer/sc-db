@@ -1,0 +1,77 @@
+{
+  "id": "19713",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.courage.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Кураж»",
+      "en": "Courage Paint",
+      "es": "Pintura Coraje",
+      "fr": "Peinture Courage",
+      "ko": "용기 도색"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.courage.description",
+        "args": {},
+        "lines": {
+          "ru": "Краска «Кураж» для брони",
+          "en": "Courage paint for armor",
+          "es": "Pintura Coraje para armadura",
+          "fr": "Peinture « Courage » pour armure",
+          "ko": "방어구용 용기 도색"
+        }
+      }
+    }
+  ]
+}

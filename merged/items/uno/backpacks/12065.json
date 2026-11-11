@@ -1,0 +1,167 @@
+{
+  "id": "12065",
+  "category": "backpacks",
+  "name": {
+    "type": "translation",
+    "key": "item.cont.barrelu.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Бочонок-У»",
+      "en": "Barrel-U Container",
+      "es": "Contenedor Barrica-U",
+      "fr": "Conteneur Tonneau-U",
+      "ko": "배럴-U 컨테이너"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 12.95,
+          "formatted": {
+            "value": {
+              "ru": "12,95 кг",
+              "en": "12.95 kg",
+              "es": "12,95 kg",
+              "fr": "12,95 kg",
+              "ko": "12.95 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.cont.barrelu.description",
+        "args": {},
+        "lines": {
+          "ru": "Новейший контейнер из серии «КЗР». За свой внешний вид получила прозвище «Бочонок» среди сталкеров.\\nВ отличие от других контейнеров этой серии, обладает одной из передовых систем для повышения эффективности, которая была использована в том числе при изготовлении и разработке «Улья».",
+          "en": "The newest container from the KZR series. It earned the nickname 'Barrel' among stalkers due to its appearance.\\nUnlike other containers in this series, it features one of the advanced systems for enhancing effectiveness, which was also used in the production and development of Hive.",
+          "es": "El contenedor más nuevo de la serie de KZR. Recibe el apodo de Barrica entre los acechadores por su aspecto.\\nA diferencia de otros contenedores de esta serie, dispone de uno de los sistemas más avanzados para aumentar la eficacia, que se utilizó también en la fabricación y el desarrollo de Colmena.",
+          "fr": "Le tout nouveau conteneur de la série « KZR ». En raison de son apparence extérieure, il a été surnommé Tonneau par les Stalkers.\\nContrairement aux autres conteneurs de cette série, il est doté de l'un des systèmes les plus avancés pour améliorer l'efficacité, système également utilisé dans la fabrication et le développement de la Ruche.",
+          "ko": "KZR 시리즈 최신 컨테이너입니다. 외형 때문에 스토커들은 이를 '배럴'이라는 별명으로 부릅니다.\\n이 시리즈의 다른 컨테이너들과 달리 효율 향상을 위한 첨단 시스템 중 하나가 적용되어 있는데, 이 기술은 군집의 제작 및 개발에도 사용된 바 있습니다."
+        }
+      }
+    }
+  ]
+}

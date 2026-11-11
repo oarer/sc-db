@@ -1,0 +1,58 @@
+{
+  "id": "15014",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.lootbox.phantomscream.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер «Фантомный крик»",
+      "en": "Phantom Scream Container",
+      "es": "Contenedor El grito del fantasma",
+      "fr": "Conteneur Cri Fantôme",
+      "ko": "팬텀의 절규 컨테이너"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

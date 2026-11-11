@@ -1,0 +1,58 @@
+{
+  "id": "16430",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.16430.name",
+    "args": {},
+    "lines": {
+      "ru": "Модуль данных М1",
+      "en": "M1 Data Module",
+      "es": "Módulo de datos M1",
+      "fr": "Module de données M1",
+      "ko": "M1 데이터 모듈"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.12,
+          "formatted": {
+            "value": {
+              "ru": "0,12 кг",
+              "en": "0.12 kg",
+              "es": "0,12 kg",
+              "fr": "0,12 kg",
+              "ko": "0.12 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

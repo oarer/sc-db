@@ -1,0 +1,113 @@
+{
+  "id": "31221",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.scheme.aks74_mod_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть схемы #2: «Рапира»",
+      "en": "Schematic #2: Rapier",
+      "es": "Esquema n.° 2: Estoque",
+      "fr": "Partie de schéma 2 : Rapière",
+      "ko": "도면 #2: 레이피어"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.scheme.aks74_mod_2.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "С низким шансом при обнаружении сигналов на Обочине и далее",
+          "en": "Has a low chance to be found when you detect signals at the Roadside and beyond",
+          "es": "Baja probabilidad al detectar señales en la Cuneta y más allá",
+          "fr": "Faible chance lorsque vous détectez des signaux à la Bordure et au-delà",
+          "ko": "로드사이드와 그 너머에서 감지되는 신호들로부터 획득 가능"
+        }
+      }
+    }
+  ]
+}

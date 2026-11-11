@@ -1,0 +1,77 @@
+{
+  "id": "24720",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_pass_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Витрувианский упырь»",
+      "en": "Vitruvian Ghoul Charm",
+      "es": "Amuleto Necrófago de Vitruvio",
+      "fr": "Amulette Goule de Vitruve",
+      "ko": "비트루비안 구울 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_pass_4.description",
+        "args": {},
+        "lines": {
+          "ru": "Подвеска, найденная на мертвом офицере «Шепота». Выглядит, как серийный экземпляр. Назначение неизвестно.",
+          "en": "A pendant found on the dead Murmur officer. It looks like a serial piece. Purpose unknown.",
+          "es": "Un collar encontrado en un oficial muerto de Susurro. Parece una pieza de producción. Propósito desconocido.",
+          "fr": "Un pendentif trouvé sur le cadavre d'un soldat du Murmure. On dirait qu'il fait partie d'une série. Son utilité reste inconnue.",
+          "ko": "사망한 속삭임 소속 장교의 시신에서 발견된 펜던트다. 공장 생산품처럼 보이며, 용도는 알 수 없다."
+        }
+      }
+    }
+  ]
+}

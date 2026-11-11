@@ -1,0 +1,239 @@
+{
+  "id": "26063",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.inside_treat.name",
+    "args": {},
+    "lines": {
+      "ru": "Лекарство Профессора",
+      "en": "Professor's Medicine",
+      "es": "Medicina del Profesor",
+      "fr": "Médicament du Professeur",
+      "ko": "교수의 치료제"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.picklock",
+            "args": {},
+            "lines": {
+              "ru": "Отмычка",
+              "en": "Picklock",
+              "es": "Ratero",
+              "fr": "Crocheteur",
+              "ko": "신입"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.03,
+          "formatted": {
+            "value": {
+              "ru": "0,03 кг",
+              "en": "0.03 kg",
+              "es": "0,03 kg",
+              "fr": "0,03 kg",
+              "ko": "0.03 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 с",
+              "en": "2.5 sec",
+              "es": "2,5 s",
+              "fr": "2,5 s",
+              "ko": "2.5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "value": 8,
+          "formatted": {
+            "value": {
+              "ru": "8%",
+              "en": "8%",
+              "es": "8%",
+              "fr": "8%",
+              "ko": "8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité",
+              "ko": "생명력"
+            }
+          },
+          "value": 15,
+          "formatted": {
+            "value": {
+              "ru": "15%",
+              "en": "15%",
+              "es": "15%",
+              "fr": "15%",
+              "ko": "15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": -1,
+          "formatted": {
+            "value": {
+              "ru": "-1%",
+              "en": "-1%",
+              "es": "-1%",
+              "fr": "-1%",
+              "ko": "-1%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.inside_treat.description",
+        "args": {},
+        "lines": {
+          "ru": "Лекарство загадочного Профессора может спасти исследователю Изнанки жизнь... в обмен на кусочек его здравого рассудка.",
+          "en": "This medicine, made by the mysterious Professor, can save the life of an Inside Out explorer... in exchange for some of their sanity.",
+          "es": "Este medicamento, elaborado por el misterioso profesor, puede salvarle la vida a un explorador del Reverso... a cambio de parte de su cordura.",
+          "fr": "Ce médicament, fabriqué par le mystérieux Professeur, peut sauver la vie d'un explorateur de l'Envers… en échange d'une partie de sa santé mentale.",
+          "ko": "신비한 교수가 만든 이 약은 뒤집힌 세계 탐험가의 목숨을 구할 수 있지만... 그 대가로 이성을 일부 잃게 될 수도 있다."
+        }
+      }
+    }
+  ]
+}

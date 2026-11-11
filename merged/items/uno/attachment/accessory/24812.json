@@ -1,0 +1,77 @@
+{
+  "id": "24812",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_zixwoman.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Шляпник»",
+      "en": "Hatter Charm",
+      "es": "Amuleto Sombrerero",
+      "fr": "Breloque Chapelier",
+      "ko": "모자장수 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_zixwoman.description",
+        "args": {},
+        "lines": {
+          "ru": "Верный друг, готовый отправиться с тобой хоть в разведку, хоть в аномалию.",
+          "en": "A loyal friend, ready to go with you into reconnaissance or into an anomaly.",
+          "es": "Un amigo fiel, dispuesto a acompañarte tanto en una misión de reconocimiento como en una anomalía.",
+          "fr": "Un compagnon fidèle, prêt à t'accompagner aussi bien en reconnaissance que dans une anomalie.",
+          "ko": "정찰이든, 이상현상이든 — 어디든 함께 발을 들일 준비가 된 충직한 동료."
+        }
+      }
+    }
+  ]
+}

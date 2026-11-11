@@ -1,0 +1,58 @@
+{
+  "id": "19640",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19640.name",
+    "args": {},
+    "lines": {
+      "ru": "Радиационный шум",
+      "en": "Radiation Noise",
+      "es": "Ruido de radiación",
+      "fr": "Bruit de Rayonnement",
+      "ko": "방사능 소음"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

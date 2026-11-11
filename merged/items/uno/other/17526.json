@@ -1,0 +1,77 @@
+{
+  "id": "17526",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.style.wpn.svu_duty.name",
+    "args": {},
+    "lines": {
+      "ru": "«Капитанская вахта»",
+      "en": "Captain's Watch",
+      "es": "Vigía del capitán",
+      "fr": "Montre du capitaine",
+      "ko": "대장의 시계"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.style.wpn.svu_duty.description",
+        "args": {},
+        "lines": {
+          "ru": "Героем одной из баек, что «рубежники» традиционно рассказывают у костра, является некий «Кэп» - бравый боец «Рубежа», рубаха-парень, который отбился от своего отряда и никак не может вернуться на базу. Он увяз где-то в глубоком тылу противника и ведет бесконечную войну с мутантами, бандитами и фанатиками...\\n\\nИстории о злоключениях Кэпа носят скорее юмористический характер, но некоторые даже наносят его изображения на свое оружие.",
+          "en": "The hero of one of the tales traditionally told by border guards around the campfire is a certain Cap - a brave fighter from the Frontier, a good fellow who got separated from his squad and can't return to the base. He's stuck somewhere deep behind enemy lines, waging an endless war with mutants, bandits, and fanatics... \\n\\n The stories about Cap's misadventures are mostly humorous, but some even paint his image on their weapons.",
+          "es": "En una de las historias que suelen contar los guardias fronterizos alrededor de una hoguera, aparece un héroe, un valeroso combatiente de Frontera, un buen compañero a quien separaron de su escuadrón y no puede volver a la base. Está atrapado muy lejos, tras las líneas enemigas, librando una guerra eterna contra mutantes, bandidos y fanáticos. \\n\\n La mayoría de las historias sobre el capitán son humorísticas, pero hay quien llega a decorar sus armas con su imagen.",
+          "fr": "Le héros d'un des contes traditionnellement raconté par des gardes-frontière autour d'un feu de camp est un certain Cap - un brave combattant de la Frontière, un bon gars qui a été séparé de son équipe et qui ne pouvait rentrer à la base. Il était coincé quelque part loin derrière les lignes ennemies, menant une guerre sans fin avec des mutants, des bandits, et des fanatiques… \\n\\n Les histoires sur les mésaventures de Cap sont avant tout humoristiques, mais certains vont même jusqu'à peindre son visage sur leurs armes.",
+          "ko": "국경 경비대들이 모닥불 주위에서 전해오는 이야기 중 하나의 주인공은 '캡'이라 불리는 프론티어의 용감한 전사로, 그는 국경선의 뛰어난 동료로, 분대와 떨어져 기지로 돌아갈 수 없게 되었다. 그는 적진 깊숙한 곳에서 끝없는 전쟁을 치르고 있으며, 돌연변이, 무법자, 광신도들과 싸우고 있다... \\n\\n 캡의 불운한 모험에 관한 이야기는 대부분 유머러스하지만, 일부는 그의 이미지를 무기에 그려 넣기도 한다."
+        }
+      }
+    }
+  ]
+}

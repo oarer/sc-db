@@ -1,0 +1,58 @@
+{
+  "id": "4521",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.winter26.name",
+    "args": {},
+    "lines": {
+      "ru": "Паттерн сезона «Зона ниже нуля»",
+      "en": "Sub-Zero Zone Season Pattern",
+      "es": "Patrón de temporada Zona Sub-Zero",
+      "fr": "Thème de saison Zone Sub-Zéro",
+      "ko": "서브제로 구역 시즌 패턴"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

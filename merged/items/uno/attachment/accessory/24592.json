@@ -1,0 +1,77 @@
+{
+  "id": "24592",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.hw23_zombhead.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Не забудь дома!»",
+      "en": "Don't forget at home! Charm",
+      "es": "¡Que no se te quede en casa! Amuleto",
+      "fr": "Breloque « Ne l'oubliez pas à la maison ! »",
+      "ko": "집에 두고 오지 마! 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.hw23_zombhead.description",
+        "args": {},
+        "lines": {
+          "ru": "Этот брелок так хорош, что забыть его дома действительно было бы кощунством!",
+          "en": "This charm is so good that it would really be blasphemy to forget it at home!",
+          "es": "¡Este amuleto es tan increíble que sería un ultraje olvidarlo en casa!",
+          "fr": "Ce Breloque est si génial qu'il serait vraiment blasphématoire de l'oublier à la maison !",
+          "ko": "이 부적은 진짜로 집에 두고 오는 것이 신성모독일 정도로 좋다!"
+        }
+      }
+    }
+  ]
+}

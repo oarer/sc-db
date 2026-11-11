@@ -1,0 +1,58 @@
+{
+  "id": "16231",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16231.name",
+    "args": {},
+    "lines": {
+      "ru": "Голова загадочной бестии",
+      "en": "Mysterious Fiend's Head",
+      "es": "Cabeza de fiera misteriosa",
+      "fr": "Mystérieuse tête de Démon",
+      "ko": "이상한 악마의 머리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 7,
+          "formatted": {
+            "value": {
+              "ru": "7 кг",
+              "en": "7 kg",
+              "es": "7 kg",
+              "fr": "7 kg",
+              "ko": "7 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

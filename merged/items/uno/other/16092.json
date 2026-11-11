@@ -1,0 +1,58 @@
+{
+  "id": "16092",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16092.name",
+    "args": {},
+    "lines": {
+      "ru": "«Царская водка»",
+      "en": "Royal Vodka",
+      "es": "Vodka Real",
+      "fr": "Vodka Royale",
+      "ko": "고급 증류주"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.45,
+          "formatted": {
+            "value": {
+              "ru": "0,45 кг",
+              "en": "0.45 kg",
+              "es": "0,45 kg",
+              "fr": "0,45 kg",
+              "ko": "0.45 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": "22195",
+  "category": "attachment/handgrips",
+  "name": {
+    "type": "translation",
+    "key": "item.att.handgrip_aksamodel.name",
+    "args": {},
+    "lines": {
+      "ru": "Рукоятка из рукоятки АК",
+      "en": "Grip Made from AK Grip",
+      "es": "Empuñadura hecha de empuñadura AK",
+      "fr": "Poignée fabriquée à partir d'une poignée d'AK",
+      "ko": "AK 손잡이로 만든 손잡이"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.09,
+          "formatted": {
+            "value": {
+              "ru": "0,09 кг",
+              "en": "0.09 kg",
+              "es": "0,09 kg",
+              "fr": "0,09 kg",
+              "ko": "0.09 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": -12,
+          "formatted": {
+            "value": {
+              "ru": "-12%",
+              "en": "-12%",
+              "es": "-12%",
+              "fr": "-12%",
+              "ko": "-12%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": -8.4,
+          "formatted": {
+            "value": {
+              "ru": "-8,4%",
+              "en": "-8.4%",
+              "es": "-8,4%",
+              "fr": "-8,4%",
+              "ko": "-8.4%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {}
+          },
+          "value": -19.2,
+          "formatted": {
+            "value": {
+              "ru": "-19,2%",
+              "en": "-19.2%",
+              "es": "-19,2%",
+              "fr": "-19,2%",
+              "ko": "-19.2%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 25,
+          "formatted": {
+            "value": {
+              "ru": "25%",
+              "en": "25%",
+              "es": "25%",
+              "fr": "25%",
+              "ko": "25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 20,
+          "formatted": {
+            "value": {
+              "ru": "20%",
+              "en": "20%",
+              "es": "20%",
+              "fr": "20%",
+              "ko": "20%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

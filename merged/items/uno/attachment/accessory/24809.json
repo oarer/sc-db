@@ -1,0 +1,77 @@
+{
+  "id": "24809",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_mashtakoff.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Солдат удачи»",
+      "en": "Soldier of Fortune Charm",
+      "es": "Amuleto Soldado de la suerte",
+      "fr": "Breloque Soldat de Fortune",
+      "ko": "행운아 용병 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_mashtakoff.description",
+        "args": {},
+        "lines": {
+          "ru": "Брелок в виде закаленного в боях ветерана, который верит только в себя. Говорят, тот, кто носит «Солдата Удачи», всегда находит выход из самой безнадежной переделки.",
+          "en": "A charm shaped like a battle-hardened veteran who believes only in himself. They say whoever carries Soldier of Fortune always finds a way out of even the most hopeless situations.",
+          "es": "Amuleto con forma de veterano curtido en mil batallas que solo cree en sí mismo. Dicen que quien lleva consigo a Soldado de la suerte siempre encuentra una salida incluso en las situaciones más desesperadas.",
+          "fr": "Une breloque représentant un vétéran endurci par les combats, qui ne croit qu'en lui-même. On dit que celui qui porte le Soldat de la Fortune trouve toujours une issue, même dans la situation la plus désespérée.",
+          "ko": "수많은 전투를 버텨낸 베테랑의 모습을 한 부적. 오직 자신만을 믿는 사내다. 사람들은 말한다. 행운아 용병을 지닌 자는 가장 절망적인 수렁에 빠져도 결국 빠져나올 길을 찾아낸다고."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "16255",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.pseudodog_tail_t1.name",
+    "args": {},
+    "lines": {
+      "ru": "Хвост слабой дикой гончей",
+      "en": "Weak Wild Hound's Tail",
+      "es": "Cola de sabueso salvaje débil",
+      "fr": "Queue de Molosse Sauvage faible",
+      "ko": "약한 와일드 하운드 꼬리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.pseudodog_tail_t1.description",
+        "args": {},
+        "lines": {
+          "ru": "Устойчивость кожи мутировавших собак к химическому и электрическому воздействию давно обратила на себя внимание ученых. Из-за отсутствия жировых отложений хвосты собак наиболее подходят для лабораторных исследований.",
+          "en": "Scientists have long been intrigued by the resistance of the skin of mutated dogs to chemical and electrical effects. Due to a lack of fat deposits, dogs' tails are highly suited to laboratory research.",
+          "es": "Los científicos llevan mucho tiempo intrigados por la resistencia de la piel de los perros mutados a los efectos químicos y eléctricos. Al carecer de depósitos de grasa, las colas de los perros son muy adecuadas para la investigación de laboratorio.",
+          "fr": "Les scientifiques sont depuis longtemps intrigués par la résistance de la peau des chiens mutants aux effets chimiques et électriques. En raison de l'absence de dépôts de graisse, la queue des chiens convient parfaitement à la recherche en laboratoire.",
+          "ko": "과학자들은 돌연변이 개들의 피부가 화학적, 전기적 영향에 얼마나 저항력이 있는지에 관해 아주 오랫동안 흥미를 가졌다. 지방 축적이 거의 없는 돌연변이 개의 꼬리는 실험실 연구에 매우 적합하다."
+        }
+      }
+    }
+  ]
+}

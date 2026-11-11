@@ -1,0 +1,58 @@
+{
+  "id": "24339",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.545mm_f.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Заледенелый патрон 5.45х39 мм»",
+      "en": "Icy 5.45x39 mm Round Charm",
+      "es": "Amuleto gélido Munición de 5,45x39 mm",
+      "fr": "Breloque Cartouche de Givre de 5,45x39 mm",
+      "ko": "얼어붙은 5.45x39mm 탄약 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

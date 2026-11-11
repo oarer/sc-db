@@ -1,0 +1,77 @@
+{
+  "id": "15968",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.crt.spring_26.name",
+    "args": {},
+    "lines": {
+      "ru": "Архивные кадры",
+      "en": "Archive Footage",
+      "es": "Imágenes de archivo",
+      "fr": "Images d'archives",
+      "ko": "아카이브 사진"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.crt.spring_26.description",
+        "args": {},
+        "lines": {
+          "ru": "Не вся история Зоны умудряется исчезнуть вместе с последними ее свидетелями. Некоторые сталкеры умудряются успевать делать снимки во время своих ходок. Особо отчаянные — на пленочные фотоаппараты.\\n\\nПодобные пленки со снимками ЧЗО очень ценятся не только среди сталкеров, но и среди любителей Зоны с Большой земли.",
+          "en": "Not all of the Zone's history disappears with its last witnesses. Some stalkers manage to take photographs during their raids, and the most daring even use film cameras.\\n\\nSuch films, capturing images of the CEZ, are highly valued not only among stalkers but also by Zone enthusiasts from the Mainland.",
+          "es": "No toda la historia de la Zona logra desaparecer junto con sus últimos testigos. Algunos acechadores logran tomar fotos durante sus paseos. Los más desesperados, con cámaras fotográficas de película.\\n\\nEstas películas con fotos de la ZEC son muy apreciadas no solo entre los acechadores, sino también entre los amantes de la Zona del Continente.",
+          "fr": "Toute l'histoire de la Zone ne parvient pas à disparaître avec ses derniers témoins. Certains stalkers arrivent à prendre des clichés lors de leurs incursions.Les plus téméraires le font même avec des appareils photo argentiques.\\n\\nCes pellicules avec des clichés de la Zone d'Exclusion sont très prisées, non seulement parmi les stalkers, mais aussi parmi les amateurs de la Zone venant du Continent.",
+          "ko": "구역의 모든 역사가 마지막 목격자들과 함께 사라지는 것은 아니다. 일부 스토커들은 이동 중에 사진을 찍는 데 성공한다. 특히 용감한 이들은 필름 카메라를 사용하기도 한다.\\n\\n이러한 체르노빌 금지 구역 사진 필름은 스토커들뿐만 아니라 본토의 구역 애호가들에게도 매우 귀하게 여겨진다."
+        }
+      }
+    }
+  ]
+}

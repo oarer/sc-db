@@ -1,0 +1,58 @@
+{
+  "id": "22605",
+  "category": "attachment/other",
+  "name": {
+    "type": "translation",
+    "key": "item.22605.name",
+    "args": {},
+    "lines": {
+      "ru": "Облегченный приклад M4",
+      "en": "M4 Lightweight Stock",
+      "es": "Culata ligera M4",
+      "fr": "Crosse légère M4",
+      "ko": "M4 경량 개머리판"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg",
+              "fr": "0,15 kg",
+              "ko": "0.15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

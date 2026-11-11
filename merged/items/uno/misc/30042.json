@@ -1,0 +1,58 @@
+{
+  "id": "30042",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.npc_shopot_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Детали имплантов «Шепота»",
+      "en": "Murmur Implant Parts",
+      "es": "Detalles de los implantes de Susurro",
+      "fr": "Pièces d'implants du Murmure",
+      "ko": "속삭임 임플란트 부품"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 кг",
+              "en": "0.25 kg",
+              "es": "0,25 kg",
+              "fr": "0,25 kg",
+              "ko": "0.25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

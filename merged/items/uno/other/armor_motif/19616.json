@@ -1,0 +1,77 @@
+{
+  "id": "19616",
+  "category": "other/armor_motif",
+  "name": {
+    "type": "translation",
+    "key": "item.motif.arm.albatros_interceptor_nea.name",
+    "args": {},
+    "lines": {
+      "ru": "«Белый тигр»",
+      "en": "White Tiger",
+      "es": "Tigre Blanco",
+      "fr": "Tigre blanc",
+      "ko": "백호"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.motif.arm.albatros_interceptor_nea.description",
+        "args": {},
+        "lines": {
+          "ru": "Личная кастомизированная броня одного из бойцов «Тайфуна», неизвестным образом оказавшаяся на аукционе Зоны.\\nПо словам продавца, старавшегося поскорее избавиться от товара, Белый тигр в Корее символизирует силу, отвагу и несгибаемую волю.",
+          "en": "A custom suit of armor personally modified for one of the Typhoon operatives somehow found its way to the Zone auction.\\nAccording to the seller—who couldn't wait to get rid of it—the White Tiger symbolizes strength, courage, and unwavering determination in Korean culture.",
+          "es": "Una armadura personalizada perteneciente a uno de los combatientes de Tifón, que terminó en la subasta de la Zona por razones desconocidas.\\nSegún el vendedor, que intentaba deshacerse del artículo cuanto antes, Tigre Blanco simboliza en Corea la fuerza, el valor y una voluntad indomable.",
+          "fr": "Une armure personnalisée individuelle d'un des combattants du Typhon, qui s'est retrouvée d'une manière inconnue à la vente aux enchères de la Zone.\\nSelon le vendeur, qui cherchait à se débarrasser rapidement de l'objet, le Tigre blanc en Corée symbolise la force, le courage et la volonté inflexible.",
+          "ko": "타이푼 대원 중 한 명이 개인 맞춤 제작한 방어구. 어떤 경위인지는 알 수 없지만 구역의 경매장에 흘러들어 왔다.\\n물건을 서둘러 처분하려던 판매자의 말에 따르면, 백호는 한국에서 힘과 용기, 그리고 꺾이지 않는 의지를 상징한다고 한다."
+        }
+      }
+    }
+  ]
+}

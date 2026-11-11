@@ -1,0 +1,77 @@
+{
+  "id": "24868",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer26_tamagochi.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Тамагочи»",
+      "en": "Tamagotchi Charm",
+      "es": "Amuleto Tamagotchi",
+      "fr": "Breloque Tamagotchi",
+      "ko": "다마고치 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer26_tamagochi.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшая игрушка с виртуальной домашней хрюшей, появившаяся в Зоне вместе с появлением «Тайфуна».",
+          "en": "A small toy featuring a virtual pet piggy, which appeared in the Zone alongside the arrival of Typhoon.",
+          "es": "Un pequeño juego con un cerdito virtual que apareció en la Zona al mismo tiempo que Tifón.",
+          "fr": "Un petit jeu avec un cochon domestique virtuel, apparu dans la Zone avec l'arrivée du Typhon.",
+          "ko": "타이푼의 등장과 함께 구역에 유입된, 가상 애완돼지와 함께하는 작은 전자식 장난감이다."
+        }
+      }
+    }
+  ]
+}

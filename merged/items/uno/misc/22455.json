@@ -1,0 +1,77 @@
+{
+  "id": "22455",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.lcu_skull.name",
+    "args": {},
+    "lines": {
+      "ru": "Ненавидящий череп",
+      "en": "Hateful Skull",
+      "es": "Cráneo odioso",
+      "fr": "Crâne haineux",
+      "ko": "증오의 해골"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.lcu_skull.description",
+        "args": {},
+        "lines": {
+          "ru": "Цвет лазера - оранжевый",
+          "en": "Laser color: orange",
+          "es": "Color del láser: naranja",
+          "fr": "Couleur du laser : orange",
+          "ko": "레이저 색상: 주황"
+        }
+      }
+    }
+  ]
+}

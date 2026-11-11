@@ -1,0 +1,77 @@
+{
+  "id": "16818",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.krasnolist.name",
+    "args": {},
+    "lines": {
+      "ru": "Краснолист",
+      "en": "Redleaf",
+      "es": "Hoja bermeja",
+      "fr": "Feuille rouge",
+      "ko": "붉은잎"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.07,
+          "formatted": {
+            "value": {
+              "ru": "0,07 кг",
+              "en": "0.07 kg",
+              "es": "0,07 kg",
+              "fr": "0,07 kg",
+              "ko": "0.07 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.krasnolist.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшие веточки с резными листьями грязно-красного цвета. Запах, исходящий от стебля растения, чем-то напоминает горелый волос. Травник прозвал это растение краснолистом.",
+          "en": "Small twigs with jagged, dirty-red leaves. The smell coming from this plant's stem is somewhat reminiscent of burnt hair. Herbalist calls this plant \"redleaf.\"",
+          "es": "Pequeñas ramitas con hojas dentadas de un color rojo sucio. El olor que desprende el tallo de esta planta recuerda un poco al del pelo quemado. Herbolario la llama \"hoja bermeja\".",
+          "fr": "De petites branches avec des feuilles dentelées de couleur rouge sale. L'odeur provenant de la tige de cette plante rappelle un peu celle de poils brûlés. Herbalist appelle cette plante la « feuille rouge ».",
+          "ko": "검붉고 뾰족한 잎이 달린 작은 가지들. 줄기에서는 머리카락이 타는 듯한 냄새가 난다. 약초사는 이 식물을 [붉은잎]이라 부른다."
+        }
+      }
+    }
+  ]
+}

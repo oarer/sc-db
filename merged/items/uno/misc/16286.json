@@ -1,0 +1,58 @@
+{
+  "id": "16286",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.chimera_skin_t1.name",
+    "args": {},
+    "lines": {
+      "ru": "Шкура бестии",
+      "en": "Fiend Skin",
+      "es": "Piel de fiera",
+      "fr": "Peau de démon",
+      "ko": "악마의 가죽"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg",
+              "es": "1 kg",
+              "fr": "1 kg",
+              "ko": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

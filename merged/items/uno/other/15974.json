@@ -1,0 +1,77 @@
+{
+  "id": "15974",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.crt.autumn_25_episode_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Плесневик обыкновенный",
+      "en": "Common Moldus",
+      "es": "Hidmoho muscario",
+      "fr": "Moissisure commune",
+      "ko": "일반 몰더스"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.crt.autumn_25_episode_1.description",
+        "args": {},
+        "lines": {
+          "ru": "Его склизкая кожица покрыта узором, повторяющим разводы плесени. Ходят слухи, что при определенной обработке обладает антибиотическими свойствами, но смельчаков, проверивших это, еще никто не встречал.",
+          "en": "Its slimy skin is covered with a pattern resembling mold streaks. Rumor has it that, with certain processing, it possesses antibiotic properties, but no one has yet met anyone brave enough to verify this.",
+          "es": "Su piel resbaladiza está cubierta con un patrón que repite las vetas del moho. Se rumorea que con cierto tratamiento posee propiedades antibióticas, pero nadie ha visto aún a los valientes que lo hayan comprobado.",
+          "fr": "Sa peau visqueuse est couverte d'un motif rappelant les traînées de moisissure. On raconte qu'après un certain traitement, elle posséderait des propriétés antibiotiques, mais personne n'a jamais rencontré d'audacieux ayant tenté l'expérience.",
+          "ko": "슬라임같은 껍질엔 곰팡이 버짐 무늬가 퍼져있습니다. 소문에 따르면 일련의 공정을 거치면 항생작용을 할 수 있다고 하지만, 아직 이 소문을 확인 해볼 만큼 용감한 자는 아직 없었습니다."
+        }
+      }
+    }
+  ]
+}

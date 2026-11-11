@@ -1,0 +1,58 @@
+{
+  "id": "12077",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.corpse_big.name",
+    "args": {},
+    "lines": {
+      "ru": "Большой подозрительный мешок",
+      "en": "Large Suspicious Bag",
+      "es": "Bolsa grande y sospechosa",
+      "fr": "Grand sac suspect",
+      "ko": "대형 수상한 가방"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "PERSONAL_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

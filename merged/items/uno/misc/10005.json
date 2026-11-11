@@ -1,0 +1,41 @@
+{
+  "id": "10005",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.10005.name",
+    "args": {},
+    "lines": {
+      "ru": "Запись #1",
+      "en": "Recording #1",
+      "es": "Grabación n.° 1",
+      "fr": "Enregistrement #1",
+      "ko": "녹음 #1"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.10005.description",
+        "args": {},
+        "lines": {
+          "ru": "Аудиозапись",
+          "en": "Audio recording",
+          "es": "Grabación de audio",
+          "fr": "Enregistrement audio",
+          "ko": "오디오 기록"
+        }
+      }
+    }
+  ]
+}

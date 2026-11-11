@@ -1,0 +1,77 @@
+{
+  "id": "16182",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16182.name",
+    "args": {},
+    "lines": {
+      "ru": "Боровик",
+      "en": "Boletus",
+      "es": "Boletus",
+      "fr": "Boletus",
+      "ko": "송이"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.17,
+          "formatted": {
+            "value": {
+              "ru": "0,17 кг",
+              "en": "0.17 kg",
+              "es": "0,17 kg",
+              "fr": "0,17 kg",
+              "ko": "0.17 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16182.description",
+        "args": {},
+        "lines": {
+          "ru": "В сезоны частых выбросов ржавая плесень мутирует и из нее произрастают эти грибы - «боровики» - отличающиеся чрезмерным содержанием токсинов.",
+          "en": "During periods of frequent eruptions, rusty mold mutates, sprouting into mushrooms. These \"boleti\" contain incredibly high volumes of toxins.",
+          "es": "Durante los periodos de erupciones frecuentes, el moho oxidado muta y brota en forma de setas. Estos \"boletus\" contienen volúmenes increíblemente altos de toxinas.",
+          "fr": "Pendant les périodes d'éruptions fréquentes, les moisissures rouillées mutent et se transforment en champignons. Ces « boleti » contiennent des quantités incroyablement élevées de toxines.",
+          "ko": "구역에서 분화가 자주 일어나는 시기에는, 녹슨 곰팡이가 변이하여 버섯처럼 자라나기도 한다. 이렇게 생겨난 [그물버섯]은 엄청난 양의 독소를 품고 있다."
+        }
+      }
+    }
+  ]
+}

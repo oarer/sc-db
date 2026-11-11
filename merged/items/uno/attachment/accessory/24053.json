@@ -1,0 +1,58 @@
+{
+  "id": "24053",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.24053.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Патрон 9x39 мм»",
+      "en": "9x39 mm Round Charm",
+      "es": "Amuleto Munición de 9x39 mm",
+      "fr": "Breloque Cartouche 9x39 mm",
+      "ko": "9x39mm 탄약 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

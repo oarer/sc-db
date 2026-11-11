@@ -1,0 +1,77 @@
+{
+  "id": "24895",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.nea_obereg.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Оберег Хэтхэ»",
+      "en": "Haetae Amulet Charm",
+      "es": "Amuleto Talismán de Haetae",
+      "fr": "Breloque Talisman Haetae",
+      "ko": "해태 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.nea_obereg.description",
+        "args": {},
+        "lines": {
+          "ru": "Жетон с изображением хэтхэ — корейского мифологического стража. Некоторые оперативники корейских отрядов «Тайфуна» носят такие на оружии.",
+          "en": "A token depicting a haetae, a mythical Korean guardian. Some operatives in Typhoon’s Korean squads attach them to their weapons.",
+          "es": "Una ficha con la imagen de un haetae, el guardián mitológico coreano. Algunos operativos de las unidades coreanas Tifón llevan estas fichas en sus armas.",
+          "fr": "Jeton représentant un Haetae — gardien mythologique coréen. Certains opératifs des unités coréennes de Typhon en portent de tels sur leurs armes.",
+          "ko": "한국 신화 속 수호자인 해태가 그려진 토큰. 한국 부대 타이푼의 일부 작전요원들은 이런 토큰을 무기에 달고 다닌다."
+        }
+      }
+    }
+  ]
+}

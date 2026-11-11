@@ -1,0 +1,58 @@
+{
+  "id": "22811",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.att.forend_spas_bint.name",
+    "args": {},
+    "lines": {
+      "ru": "Цевье SPAS-12, обмотанное",
+      "en": "SPAS-12 Handguard, Taped",
+      "es": "Guardamanos SPAS-12, vendado",
+      "fr": "Garde-mains SPAS-12, Scotché",
+      "ko": "SPAS-12 총열덮개, 테이프 묶음형"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.21,
+          "formatted": {
+            "value": {
+              "ru": "0,21 кг",
+              "en": "0.21 kg",
+              "es": "0,21 kg",
+              "fr": "0,21 kg",
+              "ko": "0.21 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

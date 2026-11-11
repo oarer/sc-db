@@ -1,0 +1,77 @@
+{
+  "id": "19099",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19099.name",
+    "args": {},
+    "lines": {
+      "ru": "Мама будет ругаться",
+      "en": "Mom Will Be Pissed",
+      "es": "Mamá se cabreará",
+      "fr": "Maman Sera Furieuse",
+      "ko": "엄마가 화낼 거야"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.19099.description",
+        "args": {},
+        "lines": {
+          "ru": "Аниме для брони",
+          "en": "Anime for armor",
+          "es": "Anime para armadura",
+          "fr": "Anime pour armure",
+          "ko": "방어구로 딱 좋은 애니"
+        }
+      }
+    }
+  ]
+}

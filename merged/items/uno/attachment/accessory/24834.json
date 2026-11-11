@@ -1,0 +1,77 @@
+{
+  "id": "24834",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.mk_compass.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Компас»",
+      "en": "Compass Charm",
+      "es": "Amuleto Brújula",
+      "fr": "Breloque Compas",
+      "ko": "나침반 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.mk_compass.description",
+        "args": {},
+        "lines": {
+          "ru": "Хотя компас считается одним из самых надежных инструментов для навигации, в Зоне он способен завести совсем не туда, куда должен.",
+          "en": "Although a compass is considered one of the most reliable navigation tools, in the Zone it can lead you somewhere entirely different from where it should.",
+          "es": "Aunque la brújula se considera uno de los instrumentos más fiables para la navegación, en la Zona puede llevarte a un lugar completamente diferente al que deberías ir.",
+          "fr": "Bien que la boussole soit considérée comme l'un des outils de navigation les plus fiables, dans la Zone, elle peut vous mener tout à fait ailleurs que là où vous devez aller.",
+          "ko": "나침반은 가장 신뢰할 수 있는 항해 도구 중 하나로 여겨지지만, 구역에서는 전혀 예상치 못한 방향으로 안내할 수 있다."
+        }
+      }
+    }
+  ]
+}

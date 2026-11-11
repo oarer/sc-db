@@ -1,0 +1,77 @@
+{
+  "id": "24370",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.24370.name",
+    "args": {},
+    "lines": {
+      "ru": "Медаль «Мертвое время» 5-й степени",
+      "en": "5th Class Dead Time Medal",
+      "es": "Medalla de Tiempo muerto de 5.ª clase",
+      "fr": "Médaille Temps Mort de 5e classe",
+      "ko": "5등급 데드 타임 메달"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.24370.description",
+        "args": {},
+        "lines": {
+          "ru": "Медаль, полученная за отличие в операции «Мертвое время»",
+          "en": "A medal received for participation in Operation Dead Time.",
+          "es": "Una medalla recibida por participar en la operación Tiempo muerto.",
+          "fr": "Médaille reçue pour la participation à l'opération Temps Mort.",
+          "ko": "[데드 타임] 작전 참가로 받은 메달이다."
+        }
+      }
+    }
+  ]
+}

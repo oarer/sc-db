@@ -1,0 +1,77 @@
+{
+  "id": "15978",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.crt.summer_25.name",
+    "args": {},
+    "lines": {
+      "ru": "Вексель",
+      "en": "Bill",
+      "es": "Giro",
+      "fr": "Obligation",
+      "ko": "채권"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.crt.summer_25.description",
+        "args": {},
+        "lines": {
+          "ru": "Облигация, которую предоставляет военное командование. Современный образец векселя представляет собой криптографический ключ, к которому привязывается уникальный номер бойца.",
+          "en": "A note provided by the military command. The modern version of this bill is a cryptographic key linked to the unique number of a fighter.",
+          "es": "Un pagaré proporcionado por un mando militar. Un pagaré moderno es una clave criptográfica a la que se adjunta un número único de soldado.",
+          "fr": "Obligation fournie par le commandement militaire. Le modèle moderne d'obligation à ordre est une clé cryptographique associée au numéro unique du combattant.",
+          "ko": "군부가 발행하는 채권. 해당 채권은 대원의 고유번호에 연결된 암호화 키에 비유될 수 있습니다."
+        }
+      }
+    }
+  ]
+}

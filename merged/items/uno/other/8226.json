@@ -1,0 +1,58 @@
+{
+  "id": "8226",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.puer_fleshka.name",
+    "args": {},
+    "lines": {
+      "ru": "Жесткий диск",
+      "en": "Hard Drive",
+      "es": "Disco duro",
+      "fr": "Disque dur",
+      "ko": "하드 드라이브"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.6,
+          "formatted": {
+            "value": {
+              "ru": "0,6 кг",
+              "en": "0.6 kg",
+              "es": "0,6 kg",
+              "fr": "0,6 kg",
+              "ko": "0.6 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

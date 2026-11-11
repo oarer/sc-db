@@ -1,0 +1,164 @@
+{
+  "id": "22246",
+  "category": "attachment/collimator_sights",
+  "name": {
+    "type": "translation",
+    "key": "item.22246.name",
+    "args": {},
+    "lines": {
+      "ru": "Прицел инфракрасный Renegade",
+      "en": "Renegade Infrared Sight",
+      "es": "Mira infrarroja Renegade",
+      "fr": "Viseur infrarouge Renégat",
+      "ko": "변절자 적외선 조준경"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.935,
+          "formatted": {
+            "value": {
+              "ru": "0,94 кг",
+              "en": "0.94 kg",
+              "es": "0,94 kg",
+              "fr": "0,94 kg",
+              "ko": "0.94 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 25,
+          "formatted": {
+            "value": {
+              "ru": "25%",
+              "en": "25%",
+              "es": "25%",
+              "fr": "25%",
+              "ko": "25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 25,
+          "formatted": {
+            "value": {
+              "ru": "25%",
+              "en": "25%",
+              "es": "25%",
+              "fr": "25%",
+              "ko": "25%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.22246.description",
+        "args": {},
+        "lines": {
+          "ru": "Модель: Renegade 320",
+          "en": "Model: Renegade 320",
+          "es": "Modelo: Renegade 320",
+          "fr": "Modèle : Renégat 320",
+          "ko": "모델: 변절자 320"
+        }
+      }
+    }
+  ]
+}

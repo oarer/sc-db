@@ -1,0 +1,41 @@
+{
+  "id": "10188",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.merc_typoon.name",
+    "args": {},
+    "lines": {
+      "ru": "Кассета наемника",
+      "en": "Mercenary Honor Cassette",
+      "es": "Casete de combatiente de los Mercenarios",
+      "fr": "Cassette du mercenaire",
+      "ko": "용병의 카세트"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.merc_typoon.description",
+        "args": {},
+        "lines": {
+          "ru": "Кассета, найденная на теле бойца Наемников в районе Кузни.",
+          "en": "A cassette found on the body of a Mercenary fighter in the Forge area.",
+          "es": "Casete encontrado en el cuerpo de un combatiente de los Mercenarios en el área de la Forja.",
+          "fr": "Cassette trouvée sur le corps d'un mercenaire dans la région de la Forge.",
+          "ko": "포지 지역에서 발견된 용병의 시신에서 나온 카세트."
+        }
+      }
+    }
+  ]
+}

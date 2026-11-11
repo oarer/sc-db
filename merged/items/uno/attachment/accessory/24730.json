@@ -1,0 +1,77 @@
+{
+  "id": "24730",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_ssop_freedom.name",
+    "args": {},
+    "lines": {
+      "ru": "Научный жетон РХБЗ",
+      "en": "NBCP Science Token",
+      "es": "Ficha de la ciencia de QBRN",
+      "fr": "Jeton scientifique du NBCR",
+      "ko": "NBCP 과학 토큰"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_ssop_freedom.description",
+        "args": {},
+        "lines": {
+          "ru": "Жетон, который выдается бойцам и научным сотрудникам подразделения РХБЗ за отличия в подготовке операции «Полюс». Влияние научного звена операции трудно переоценить, ведь именно благодаря их работе сама операция стала возможна.",
+          "en": "Token issued to fighters and scientific staff of the NBCP unit for excellence in preparing for Operation Pole. The influence of the scientific team on the operation is hard to overestimate, as it was their work that made the operation possible.",
+          "es": "Ficha concedida a los combatientes y al personal científico de la unidad QBRN por los honores en la preparación de la operación Polo. Es difícil sobrestimar la influencia del eslabón científico de la operación, ya que fue su trabajo el que hizo posible la propia operación.",
+          "fr": "Jeton remis aux combattants et au personnel scientifique de l'unité NBCR pour l'excellence de la préparation de l'opération Pole. L'influence de l'équipe scientifique sur l'opération est difficile à surestimer, car c'est son travail qui a rendu l'opération possible.",
+          "ko": "폴 작전 준비 과정에서 큰 공을 세운 NBCP 소속 전사 및 과학 인력에게 수여되는 토큰이다. 작전을 가능하게 만든 것이 바로 이 과학팀이었기에, 이번 작전에 대한 이들의 영향력은 과소평가할 수 없다."
+        }
+      }
+    }
+  ]
+}

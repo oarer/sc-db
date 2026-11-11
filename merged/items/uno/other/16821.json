@@ -1,0 +1,77 @@
+{
+  "id": "16821",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.rusthair.name",
+    "args": {},
+    "lines": {
+      "ru": "Ржавые волосы",
+      "en": "Rusty Locks",
+      "es": "Ricitos de óxido",
+      "fr": "Cheveux rouillés",
+      "ko": "녹슨 자물쇠"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.6,
+          "formatted": {
+            "value": {
+              "ru": "0,6 кг",
+              "en": "0.6 kg",
+              "es": "0,6 kg",
+              "fr": "0,6 kg",
+              "ko": "0.6 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.rusthair.description",
+        "args": {},
+        "lines": {
+          "ru": "Необычно толстый стебель рыжего цвета с тонкими отростками, походящими на длинные усики. Травник прозвал это растение рыжим волосом.",
+          "en": "An unusually thick, reddish stem with thin tendrils that look like long whiskers. Herbalist calls this plant \"redhead.\"",
+          "es": "Un tallo rojizo y atípicamente grueso con zarcillos que parecen pelos del bigote de un gato. Herbolario llama a esta planta \"pelirroja\".",
+          "fr": "Une tige exceptionnellement épaisse et rougeâtre avec de fines vrilles qui ressemblent à de longues moustaches. Les herboristes appellent cette plante « rousse ».",
+          "ko": "줄기가 유달리 굵고 시뻘건 식물다. 줄기에서는 기다란 수염처럼 생긴, 가느다란 덩굴이 뻗어 있다. 약초사는 이 식물을 [붉은머리]라 부른다."
+        }
+      }
+    }
+  ]
+}

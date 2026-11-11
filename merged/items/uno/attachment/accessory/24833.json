@@ -1,0 +1,77 @@
+{
+  "id": "24833",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.mk_sphere.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Астролябия»",
+      "en": "Astrolabe Charm",
+      "es": "Amuleto Astrolabio",
+      "fr": "Breloque Astrolabe",
+      "ko": "아스트롤라베 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.mk_sphere.description",
+        "args": {},
+        "lines": {
+          "ru": "В Зоне редко можно наблюдать звезды — небо частенько затянуто тучами круглые сутки. Однако, если вам все же удастся их увидеть, не удивляйтесь, если привычная карта звездного неба заведет вас совсем не туда, куда вы хотели.",
+          "en": "Stars are rarely visible in the Zone—the sky is often blanketed by clouds around the clock. But if you do manage to see them, don't be surprised if the familiar map of the night sky leads you somewhere entirely different from where you meant to go.",
+          "es": "En la Zona rara vez se pueden observar las estrellas, ya que el cielo suele estar cubierto de nubes durante todo el día. Sin embargo, si logras verlas, no te sorprendas si el mapa habitual del cielo estrellado te lleva a un lugar completamente diferente al que deseabas.",
+          "fr": "Dans la Zone, il est rare d'observer des étoiles — le ciel est souvent couvert de nuages vingt-quatre heures sur vingt-quatre. Cependant, si vous parvenez à les voir, ne soyez pas surpris si la carte habituelle du ciel étoilé vous mène tout à fait ailleurs que là où vous le souhaitiez.",
+          "ko": "구역에서는 별을 보기 드물다 — 하늘은 하루 종일 구름으로 뒤덮여 있는 경우가 많다. 하지만 운 좋게 별을 보게 된다면, 익숙한 별자리 지도도 원하는 곳과 전혀 다른 방향으로 안내할 수 있다는 점에 놀라지 말라."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24791",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_birthday.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Самый лучший день»",
+      "en": "Best Day Ever Charm",
+      "es": "Amuleto El mejor día",
+      "fr": "Breloque Un jour spécial",
+      "ko": "최고의 하루 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_birthday.description",
+        "args": {},
+        "lines": {
+          "ru": "День рождения — особенный праздник. Даже Хрюши не спешат нападать на именинника — вместо этого они желают счастья, здоровья и метких выстрелов!",
+          "en": "A birthday is a special holiday. Even the Piggies are in no hurry to attack the birthday person—instead, they wish happiness, health, and accurate shots!",
+          "es": "El cumpleaños es una fiesta especial. Ni siquiera los puercos se apresuran a atacar al cumpleañero, ¡sino que les desean felicidad, salud y tiros certeros!",
+          "fr": "L'anniversaire est une fête unique. Même les Porcinous évitent d'attaquer celui qui fête son anniversaire — ils lui souhaitent plutôt bonheur, santé et précision au tir !",
+          "ko": "생일은 특별한 날이죠. 돌연변이 돼지들조차 생일인 사람을 서둘러 공격하지 않는답니다!, 대신 행복과 건강, 그리고 정확한 사격을 기원할 거에요!"
+        }
+      }
+    }
+  ]
+}

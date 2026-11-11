@@ -1,0 +1,58 @@
+{
+  "id": "16224",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16224.name",
+    "args": {},
+    "lines": {
+      "ru": "Аномальная кастрюля",
+      "en": "Anomalous Pan",
+      "es": "Sartén anómala",
+      "fr": "Poêle anormale",
+      "ko": "이상 프라이팬"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "0,5 кг",
+              "en": "0.5 kg",
+              "es": "0,5 kg",
+              "fr": "0,5 kg",
+              "ko": "0.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "15989",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.crt.frozenbones.name",
+    "args": {},
+    "lines": {
+      "ru": "Замерзшие кости",
+      "en": "Frozen Bones",
+      "es": "Huesos congelados",
+      "fr": "Os gelés",
+      "ko": "얼어붙은 뼈"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

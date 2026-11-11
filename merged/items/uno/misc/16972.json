@@ -1,0 +1,58 @@
+{
+  "id": "16972",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.season_pass.level_token.name",
+    "args": {},
+    "lines": {
+      "ru": "Персональный уровень Сезона",
+      "en": "Personal Season Level",
+      "es": "Nivel personal de la temporada",
+      "fr": "Niveau personnel de la Saison",
+      "ko": "시즌 개인 레벨"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

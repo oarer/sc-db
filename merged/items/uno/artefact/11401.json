@@ -1,0 +1,71 @@
+{
+  "id": "11401",
+  "category": "artefact",
+  "name": {
+    "type": "translation",
+    "key": "item.11401.name",
+    "args": {},
+    "lines": {
+      "ru": "Красный шар",
+      "en": "Red Ball",
+      "es": "Bola roja",
+      "fr": "Boule Rouge",
+      "ko": "빨간 공"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {}
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.11401.description",
+        "args": {},
+        "lines": {
+          "ru": "Памятный сувенир с новогоднего праздника.",
+          "en": "A memento from the New Year's Celebration.",
+          "es": "Un recuerdo de la celebración de Año Nuevo.",
+          "fr": "Un souvenir de la Célébration du Nouvel An.",
+          "ko": "새해 축제를 기념하는 추억의 물품."
+        }
+      }
+    }
+  ]
+}

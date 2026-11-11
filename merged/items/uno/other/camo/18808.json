@@ -1,0 +1,58 @@
+{
+  "id": "18808",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.mtl.arm.squama.name",
+    "args": {},
+    "lines": {
+      "ru": "«Чешуя варана»",
+      "en": "Varanus Scale",
+      "es": "Escama de varano",
+      "fr": "Écaille de Varan",
+      "ko": "바라누스 비늘"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

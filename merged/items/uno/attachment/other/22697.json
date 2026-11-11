@@ -1,0 +1,170 @@
+{
+  "id": "22697",
+  "category": "attachment/other",
+  "name": {
+    "type": "translation",
+    "key": "item.att.butt_samodel.name",
+    "args": {},
+    "lines": {
+      "ru": "Самодельный приклад АК",
+      "en": "AK Handmade Stock",
+      "es": "Culata AK hecha a mano",
+      "fr": "Crosse AK Artisanale",
+      "ko": "AK 사제 개머리판"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.6,
+          "formatted": {
+            "value": {
+              "ru": "0,6 кг",
+              "en": "0.6 kg",
+              "es": "0,6 kg",
+              "fr": "0,6 kg",
+              "ko": "0.6 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": -2,
+          "formatted": {
+            "value": {
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2%",
+              "fr": "-2%",
+              "ko": "-2%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {}
+          },
+          "value": -20,
+          "formatted": {
+            "value": {
+              "ru": "-20%",
+              "en": "-20%",
+              "es": "-20%",
+              "fr": "-20%",
+              "ko": "-20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 10,
+          "formatted": {
+            "value": {
+              "ru": "10%",
+              "en": "10%",
+              "es": "10%",
+              "fr": "10%",
+              "ko": "10%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {}
+          },
+          "value": -20,
+          "formatted": {
+            "value": {
+              "ru": "-20%",
+              "en": "-20%",
+              "es": "-20%",
+              "fr": "-20%",
+              "ko": "-20%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.butt_samodel.description",
+        "args": {},
+        "lines": {
+          "ru": "Эссенция гравитационных артефактов, находящихся в баллоне, увеличивает начальную скорость пули, что повышает эффективную дистанцию оружия.",
+          "en": "The essence of gravitational artifacts in the tank increases the bullets' muzzle velocity, increasing the effective distance of the weapon.",
+          "es": "La esencia de los artefactos gravitatorios del depósito aumenta la velocidad de salida de las balas, lo que amplía la distancia efectiva del arma.",
+          "fr": "L'essence des artefacts gravitationnels dans le char augmente la vitesse initiale des balles, ce qui accroît la distance effective de l'arme.",
+          "ko": "탱크에 담긴 중력 아티팩트의 본질이 탄환의 초기 속도를 증가시켜 무기의 유효 사거리를 늘린다."
+        }
+      }
+    }
+  ]
+}

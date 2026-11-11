@@ -1,0 +1,58 @@
+{
+  "id": "29985",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.outpost_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик с деталями",
+      "en": "Crate of Parts",
+      "es": "Caja de piezas",
+      "fr": "Caisse de pièces détachées",
+      "ko": "부품 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 3,
+          "formatted": {
+            "value": {
+              "ru": "3 кг",
+              "en": "3 kg",
+              "es": "3 kg",
+              "fr": "3 kg",
+              "ko": "3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

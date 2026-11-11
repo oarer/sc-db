@@ -1,0 +1,41 @@
+{
+  "id": "15055",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.lootbox.dmz26_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик десантника",
+      "en": "Trooper's Crate",
+      "es": "Caja de paracaidista",
+      "fr": "Caisse de paras",
+      "ko": "공수병 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.lootbox.dmz26_1.description",
+        "args": {},
+        "lines": {
+          "ru": "Кейс с наградами за участие в высадке “Морозного десанта”.",
+          "en": "A case with rewards for participating in the Frost Troopers landing.",
+          "es": "Caja con recompensas por participar en el desembarco de Paracaidistas Helados.",
+          "fr": "Caisse de récompenses pour participation au débarquement du Paras du froid",
+          "ko": "혹한의 공수 강습 참여 보상이 담긴 보상 케이스."
+        }
+      }
+    }
+  ]
+}

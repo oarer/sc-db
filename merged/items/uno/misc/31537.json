@@ -1,0 +1,58 @@
+{
+  "id": "31537",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setL.garland1.name",
+    "args": {},
+    "lines": {
+      "ru": "Артефактная простая гирлянда",
+      "en": "Simple Artifact Tree Lights",
+      "es": "Luces del árbol de artefacto sencillas",
+      "fr": "Artéfact Lumières de Sapin Simples",
+      "ko": "간단한 아티팩트 트리 조명"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

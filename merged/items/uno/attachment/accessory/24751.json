@@ -1,0 +1,77 @@
+{
+  "id": "24751",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.autumn25_pass_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Коготь»",
+      "en": "Claw Charm",
+      "es": "Amuleto Zarpa",
+      "fr": "Breloque Griffe",
+      "ko": "갈고리 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.autumn25_pass_2.description",
+        "args": {},
+        "lines": {
+          "ru": "Коготь шавки, убитой толпой новичков на Обочине. По их рассказам, шавка несколько дней крутилась возле лагеря, не нападая и не проявляя агрессии. Некоторые даже предлагали ее приручить, но благоразумие взяло верх: мутанта пристрелили, а его когти разобрали на трофеи.",
+          "en": "A muttl's claw, killed by a crowd of newcomers on the Roadside. According to their stories, the mutt had lingered around the camp for several days without attacking or showing aggression. Some even suggested taming it, but prudence prevailed: the mutant was shot, and its claws were taken as trophies.",
+          "es": "La zarpa de un chucho asesinado por una multitud de novatos en la Cuneta. Según sus relatos, el chucho merodeó durante varios días cerca del campamento, sin atacar ni mostrar agresividad. Algunos incluso propusieron domesticarlo, pero prevaleció la prudencia: el mutante fue abatido y sus zarpas se repartieron como trofeos.",
+          "fr": "Griffe d'un clébard abattu par une bande de novices près du Bordure. Selon leurs dires, le clébard rôdait autour du camp pendant plusieurs jours sans attaquer ni montrer d'agressivité. Certains voulaient même l'apprivoiser, mais la prudence l'a emporté : le mutant a été abattu, et ses griffes transformées en trophées.",
+          "ko": "로드사이드의 신입 일당이 죽인 돌연변이의 갈고리 발톱. 그들은 돌연변이가 공격이나 별다른 위협 없이 며칠간 기지 주변을 그저 맴돌기만 했다고 털어놓았다. 몇몇은 돌연변이를 길들이자고 했으나, 혹시 모를 위험을 예방하기 위해 돌연변이를 쏴 죽이고, 발톱은 전리품으로 챙겼다."
+        }
+      }
+    }
+  ]
+}

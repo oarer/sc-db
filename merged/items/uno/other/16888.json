@@ -1,0 +1,58 @@
+{
+  "id": "16888",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.merc.phil_radar.name",
+    "args": {},
+    "lines": {
+      "ru": "Мини-радар Фила",
+      "en": "Phil's Mini-Radar",
+      "es": "Minirradar de Phil",
+      "fr": "Mini-Radar de Phil",
+      "ko": "필의 미니 레이더"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.45,
+          "formatted": {
+            "value": {
+              "ru": "0,45 кг",
+              "en": "0.45 kg",
+              "es": "0,45 kg",
+              "fr": "0,45 kg",
+              "ko": "0.45 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

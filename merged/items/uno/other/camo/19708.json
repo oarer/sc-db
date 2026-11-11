@@ -1,0 +1,77 @@
+{
+  "id": "19708",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.shsky.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Разбитое небо»",
+      "en": "Broken Sky Paint",
+      "es": "Pintura Cielo roto",
+      "fr": "Peinture Broken Sky",
+      "ko": "무너진 하늘 도색"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.shsky.description",
+        "args": {},
+        "lines": {
+          "ru": "Краска «Разбитое небо» для брони",
+          "en": "Broken Sky paint for armor",
+          "es": "Pintura Cielo roto para armadura",
+          "fr": "Peinture Broken Sky pour armure",
+          "ko": "방어구용 무너진 하늘 도색"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "10054",
+  "category": "weapon/device",
+  "name": {
+    "type": "translation",
+    "key": "item.10054.name",
+    "args": {},
+    "lines": {
+      "ru": "Сломанный СН-2у",
+      "en": "Broken SN-2u",
+      "es": "SN-2u roto",
+      "fr": "SN-2u cassé",
+      "ko": "망가진 SN-2u"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.10054.description",
+        "args": {},
+        "lines": {
+          "ru": "Кажется, он сломан.",
+          "en": "Seems to be broken.",
+          "es": "Parece que no funciona.",
+          "fr": "Il semble qu'il soit en panne.",
+          "ko": "망가진 듯하다."
+        }
+      }
+    }
+  ]
+}

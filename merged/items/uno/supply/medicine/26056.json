@@ -1,0 +1,149 @@
+{
+  "id": "26056",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.inside_nootrop_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Концентратор Искажения",
+      "en": "Distortion Concentrator",
+      "es": "Concentrador de distorsión",
+      "fr": "Concentrateur de distorsion",
+      "ko": "왜곡 집중 장치"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.picklock",
+            "args": {},
+            "lines": {
+              "ru": "Отмычка",
+              "en": "Picklock",
+              "es": "Ratero",
+              "fr": "Crocheteur",
+              "ko": "신입"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.04,
+          "formatted": {
+            "value": {
+              "ru": "0,04 кг",
+              "en": "0.04 kg",
+              "es": "0,04 kg",
+              "fr": "0,04 kg",
+              "ko": "0.04 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 с",
+              "en": "1 sec",
+              "es": "1 s",
+              "fr": "1 s",
+              "ko": "1초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.inside_nootrop_1.description",
+        "args": {},
+        "lines": {
+          "ru": "Препарат, позволяющий накопить искажение Изнанки.",
+          "en": "A substance that allows to accumulate the Inside Out distortion.",
+          "es": "Preparado que permite acumular la distorsión del Reverso.",
+          "fr": "Un médicament permettant d'accumuler la distorsion de l'Envers.",
+          "ko": "뒤집힌 세계의 왜곡을 축적할 수 있게 해주는 약제다."
+        }
+      }
+    }
+  ]
+}

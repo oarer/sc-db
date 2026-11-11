@@ -1,0 +1,224 @@
+{
+  "id": "21093",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.melee.kukri_knife.name",
+    "args": {},
+    "lines": {
+      "ru": "Кукри Кюри",
+      "en": "Kyuri Kukri",
+      "es": "Kukri de Curio",
+      "fr": "Kukri Curie",
+      "ko": "쿠크리 커리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 15,
+          "formatted": {
+            "value": {
+              "ru": "15%",
+              "en": "15%",
+              "es": "15%",
+              "fr": "15%",
+              "ko": "15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.draw_time",
+            "args": {},
+            "lines": {
+              "ru": "Доставание",
+              "en": "Draw time",
+              "es": "Tiempo de desenfundado",
+              "fr": "Temps de dégainage",
+              "ko": "무기 꺼내기 시간"
+            }
+          },
+          "value": 0.75,
+          "formatted": {
+            "value": {
+              "ru": "0,75 с",
+              "en": "0.75 sec",
+              "es": "0,75 s",
+              "fr": "0,75 s",
+              "ko": "0.75초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.holster_time",
+            "args": {},
+            "lines": {
+              "ru": "Время убирания",
+              "en": "Holster time",
+              "es": "Tiempo de guardado",
+              "fr": "Temps de rangement",
+              "ko": "무기 집어넣기 속도"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 с",
+              "en": "0.15 sec",
+              "es": "0,15 s",
+              "fr": "0,15 s",
+              "ko": "0.15초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.melee.kukri_knife.description",
+        "args": {},
+        "lines": {
+          "ru": "Знаменитый непальский нож с характерным изогнутым лезвием. В реалиях Зоны в основном используется для разделки туш мутантов и вскрытия банок тушенки.",
+          "en": "A famous Nepali knife with a distinctive curved blade. In the Zone, it is mainly used for butchering mutant carcasses and opening cans of stew.",
+          "es": "Famoso cuchillo nepalí con una característica hoja curvada. En la Zona, se utiliza principalmente para descuartizar cadáveres de mutantes y abrir latas de carne en conserva.",
+          "fr": "Couteau népalais au profil incurvé caractéristique. Dans la réalité de la Zone, il sert surtout à découper les carcasses de mutants et à ouvrir les boîtes de ragoût.",
+          "ko": "구역에서 주로 사용하는 유명한 네팔산 칼로, 특유의 굽은 날을 가지고 있다. 주로 돌연변이 시체를 손질하거나 통조림을 개봉하는 데 사용된다."
+        }
+      }
+    }
+  ]
+}

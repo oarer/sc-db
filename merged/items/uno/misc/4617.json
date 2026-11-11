@@ -1,0 +1,58 @@
+{
+  "id": "4617",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.nea_ornament.name",
+    "args": {},
+    "lines": {
+      "ru": "Фон «Орнамент Тхэгык»",
+      "en": "Taegeuk Ornament Background",
+      "es": "Fondo Ornamento Taegeuk",
+      "fr": "Fond Décoration Taegeuk",
+      "ko": "태극 장식 문양 배경"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "16091",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16091.name",
+    "args": {},
+    "lines": {
+      "ru": "Увесистая связка ключей",
+      "en": "Heavy Ring of Keys",
+      "es": "Aro pesado de llaves",
+      "fr": "Lourd Trousseau de Clés",
+      "ko": "무거운 열쇠 고리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "19670",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19670.name",
+    "args": {},
+    "lines": {
+      "ru": "Камуфляж «ERDL Twitch»",
+      "en": "ERDL Twitch Camouflage",
+      "es": "Camuflaje ERDL Twitch",
+      "fr": "Camouflage ERDL Twitch",
+      "ko": "ERDL 트위치 캐모"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.19670.description",
+        "args": {},
+        "lines": {
+          "ru": "Камуфляж «ERDL Twitch» для брони",
+          "en": "ERDL Twitch camouflage for armor",
+          "es": "Camuflaje ERDL Twitch para armadura",
+          "fr": "Camouflage pour armure ERDL Twitch",
+          "ko": "방어구용 ERDL 트위치 캐모"
+        }
+      }
+    }
+  ]
+}

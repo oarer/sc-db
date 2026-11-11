@@ -1,0 +1,131 @@
+{
+  "id": "12362",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.t13.name",
+    "args": {},
+    "lines": {
+      "ru": "T13 Beano",
+      "en": "T13 Beano",
+      "es": "T13 Juerga",
+      "fr": "T13 Beano",
+      "ko": "T13 비노"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.t13.description",
+        "args": {},
+        "lines": {
+          "ru": "Ручная осколочная граната, произведенная в Нидерландах. Несмотря на маленькие размеры, летальна в радиусе нескольких метров.",
+          "en": "A fragmentation hand grenade produced in the Netherlands. Despite its small size, it is lethal within a range of several meters.",
+          "es": "Una granada de mano de fragmentación fabricada en los Países Bajos. A pesar de su pequeño tamaño, es letal en un radio de varios metros.",
+          "fr": "Une grenade à main à fragmentation produite aux Pays-Bas. Malgré sa petite taille, elle est fatale sur un rayon de plusieurs mètres.",
+          "ko": "네덜란드에서 제조된 파편 수류탄이다. 크기는 작지만, 수 미터 범위에서는 충분히 치명적이다."
+        }
+      }
+    }
+  ]
+}

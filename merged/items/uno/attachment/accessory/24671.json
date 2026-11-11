@@ -1,0 +1,77 @@
+{
+  "id": "24671",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.autumn24_bullet.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Черный треугольник»",
+      "en": "Black Triangle Charm",
+      "es": "Amuleto Triángulo negro",
+      "fr": "Breloque du Triangle Noir",
+      "ko": "검은 역삼각 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.autumn24_bullet.description",
+        "args": {},
+        "lines": {
+          "ru": "Очередной символ, являющийся своеобразной насмешкой Черного Рынка над «Зивкасом».",
+          "en": "Another symbol, which is a kind of mockery of ZIVCAS by the Black Market",
+          "es": "Otro símbolo que el Mercado Negro usa como una especie de burla de ZIVCAS",
+          "fr": "Un autre symbole, qui est une sorte de moquerie de la ZIVCAS par le Marché noir",
+          "ko": "블랙 마켓이 지브카스를 조롱하는 또 다른 상징이다."
+        }
+      }
+    }
+  ]
+}

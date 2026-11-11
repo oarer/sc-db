@@ -1,0 +1,281 @@
+{
+  "id": "20380",
+  "category": "weapon",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn.mr153_yana.name",
+    "args": {},
+    "lines": {
+      "ru": "Мурка Яна",
+      "en": "Jan's Murka",
+      "es": "Murka de Jan",
+      "fr": "Murka de Jan",
+      "ko": "잰의 무르카"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage",
+            "args": {},
+            "lines": {}
+          },
+          "value": 155,
+          "formatted": {
+            "value": {
+              "ru": "155%",
+              "en": "155%",
+              "es": "155%",
+              "fr": "155%",
+              "ko": "155%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.damage_distant",
+            "args": {},
+            "lines": {}
+          },
+          "value": 46.6,
+          "formatted": {
+            "value": {
+              "ru": "46,6%",
+              "en": "46.6%",
+              "es": "46,6%",
+              "fr": "46,6%",
+              "ko": "46.6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.stat_name.damage_type.direct",
+            "args": {},
+            "lines": {
+              "ru": "Урон",
+              "en": "Damage",
+              "es": "Daño",
+              "fr": "Dégâts",
+              "ko": "피해량"
+            }
+          },
+          "value": 155,
+          "formatted": {
+            "value": {
+              "ru": "155 ед",
+              "en": "155 unit(s)",
+              "es": "155 unidad(es)",
+              "fr": "155 unité(s)",
+              "ko": "155 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.weapon.info.damage_distant",
+            "args": {},
+            "lines": {
+              "ru": "Урон вдали",
+              "en": "Damage at distance",
+              "es": "Daño a distancia",
+              "fr": "Dégâts à distance",
+              "ko": "원거리 피해량"
+            }
+          },
+          "value": 46.6,
+          "formatted": {
+            "value": {
+              "ru": "46,6 ед",
+              "en": "46.6 unit(s)",
+              "es": "46,6 unidad(es)",
+              "fr": "46,6 unité(s)",
+              "ko": "46.6 유닛"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn.mr153_yana.description",
+        "args": {},
+        "lines": {
+          "ru": "MP-153 в лесном камуфляже. Направляющая планка и прицел намертво приварены к ствольной коробке. На прикладе выгравирована надпись:@«С Днем Рождения, Сынок!»",
+          "en": "An MP-153 in forest camo. The guide rail and sight are welded fast to the barrel extension. The receiver has an inscription:@\"Happy Birthday, Son!\"",
+          "es": "Una MP-153 con camuflaje forestal. El raíl guía y la mira están soldados firmemente a la prolongación del cañón. El receptor tiene una inscripción:@\"¡Feliz cumpleaños, hijo!\".",
+          "fr": "Un MP-153 en camouflage forestier. Le rail guide et le viseur sont solidement soudés à l'extension du canon. Une inscription pour le destinataire dit @ « Joyeux Anniversaire Fiston ! »",
+          "ko": "숲속에서 위장하기 좋은 색으로 칠해진 MP-153. 가이드 레일과 조준경이 총신 확장부에 단단히 결합되어 있다. 리시버에 [@생일 축하해, 아들!] 이라는 글귀가 적혀있다."
+        }
+      }
+    }
+  ]
+}

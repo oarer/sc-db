@@ -1,0 +1,58 @@
+{
+  "id": "4223",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.background.snegurka.name",
+    "args": {},
+    "lines": {
+      "ru": "Фон Sнегурки",
+      "en": "Snow Maiden Background",
+      "es": "Fondo Doncella de las Nieves",
+      "fr": "Fond Snégourotchka",
+      "ko": "스노우 메이든 배경"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

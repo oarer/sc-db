@@ -1,0 +1,58 @@
+{
+  "id": "31548",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setM.toy7.name",
+    "args": {},
+    "lines": {
+      "ru": "Игрушка-гвозди диггеров",
+      "en": "Digger's Nails Decoration",
+      "es": "Adorno de clavos de excavador",
+      "fr": "Décoration Clou des Fouilleurs",
+      "ko": "광부의 못 장식"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

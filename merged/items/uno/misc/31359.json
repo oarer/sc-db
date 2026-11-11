@@ -1,0 +1,58 @@
+{
+  "id": "31359",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setF.tinsel2.name",
+    "args": {},
+    "lines": {
+      "ru": "Плюшевая мишура",
+      "en": "Plush Tinsel",
+      "es": "Espumillón de peluche",
+      "fr": "Guirlande en Peluche",
+      "ko": "봉제 반짝이 끈"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "16570",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.armorpack_radiator5.name",
+    "args": {},
+    "lines": {
+      "ru": "Сумка термопластин",
+      "en": "Bag of Thermoplates",
+      "es": "Bolsa de termoplacas",
+      "fr": "Sac de Thermoplaques",
+      "ko": "온열 장갑판 가방"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 12.5,
+          "formatted": {
+            "value": {
+              "ru": "12,5 кг",
+              "en": "12.5 kg",
+              "es": "12,5 kg",
+              "fr": "12,5 kg",
+              "ko": "12.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.bag.armorpack_radiator5.description",
+        "args": {},
+        "lines": {
+          "ru": "Ученые разработали этот экспериментальный образец специально для Бурана. При ношении ощущается так, словно вы нацепили на себя старый советский обогреватель. Пуленепробиваемый обогреватель!",
+          "en": "Scientists developed this experimental model specially for Blizzard conditions. Wearing it feels like hugging an old Soviet heater. A bullet-proof heater!",
+          "es": "Los científicos desarrollaron este modelo experimental especialmente para las condiciones de la ventisca. Llevarla es como darle un abrazo a un viejo calentador soviético. ¡Calefacción a prueba de balas!",
+          "fr": "Les scientifiques ont mis au point ce modèle expérimental spécialement pour des conditions de blizzard. En la portant, on a l'impression de serrer dans ses bras un vieux radiateur soviétique. Un radiateur à l'épreuve des balles !",
+          "ko": "과학자들이 특수하게 눈보라 상황에 맞춰 개발한 실험 모델이다. 이것을 입으면, 소련의 오래된 히터를 안은 것 같은 기분을 받을 수 있다. 총알도 막는 방탄 히터!"
+        }
+      }
+    }
+  ]
+}

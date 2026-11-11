@@ -1,0 +1,77 @@
+{
+  "id": "24626",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer24_pepe.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Еще зеленый»",
+      "en": "Evergreen charm",
+      "es": "Amuleto Verde eterno",
+      "fr": "Breloque persistant",
+      "ko": "상록 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer24_pepe.description",
+        "args": {},
+        "lines": {
+          "ru": "Брелок с лягушонком идеально подходит для ностальгических воспоминаний о Болотах, где все мы начинали свой путь....",
+          "en": "A charm with a frog is ideal for nostalgic memories of the Swamps, where we all began our journey....",
+          "es": "Un amuleto con una rana es ideal para los recuerdos nostálgicos de los Pantanos, donde todos empezamos nuestro viaje...",
+          "fr": "Un Breloque avec une grenouille est idéal pour les souvenirs nostalgiques des marais, où nous avons tous commencé notre voyage....",
+          "ko": "개구리가 그려진 부적은 우리 모두가 여정을 시작했던 늪지를 추억하며 그리워하는 데에 이상적이다...."
+        }
+      }
+    }
+  ]
+}

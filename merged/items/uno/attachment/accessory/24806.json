@@ -1,0 +1,77 @@
+{
+  "id": "24806",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_fladar.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Ткач»",
+      "en": "Weaver Charm",
+      "es": "Amuleto Tejedor",
+      "fr": "Breloque Tisseur",
+      "ko": "위버 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_fladar.description",
+        "args": {},
+        "lines": {
+          "ru": "Один мистически настроенный сталкер утверждал, что пауки плетут не паутину, а нити судеб. Этот брелок, по его словам, помогает найти свой путь в Зоне. Правда, никто заранее не знает, закончится он хорошо или печально. Носить на свой страх и риск.",
+          "en": "One mystically inclined stalker claimed that spiders weave not webs, but threads of fate. This charm, according to him, helps find one's way in the Zone. However, no one knows in advance whether it will end well or sadly. Wear it at your own risk.",
+          "es": "Un acechador con inclinaciones místicas afirmaba que las arañas no tejen telarañas, sino hilos del destino. Según él, este amuleto ayuda a encontrar el camino en la Zona. Sin embargo, nadie sabe de antemano si el final será feliz o triste. Llévalo bajo tu propia responsabilidad.",
+          "fr": "Un Stalker à l'esprit mystique affirmait que les araignées ne tissent pas des toiles, mais des fils du destin. Cette breloque, selon ses dires, aide à trouver son chemin dans la Zone. Cependant, personne ne sait à l'avance si ce chemin se terminera bien ou mal. À porter à tes risques et périls.",
+          "ko": "어느 신비주의에 심취한 스토커는 말했다. 거미가 엮는 것은 거미줄이 아니라 운명의 실이라고. 그의 말에 따르면, 이 부적은 구역에서 자신의 길을 찾도록 이끌어 준다. 다만 그 끝이 해피엔딩일지, 비참한 결말일지는 누구도 미리 알 수 없다. 착용은 전적으로 본인 책임이다."
+        }
+      }
+    }
+  ]
+}

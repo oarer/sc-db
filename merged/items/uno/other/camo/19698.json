@@ -1,0 +1,77 @@
+{
+  "id": "19698",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.cinder.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Зола»",
+      "en": "Cinder Paint",
+      "es": "Pintura Carbonilla",
+      "fr": "Peinture Cendre",
+      "ko": "잉걸불 도색"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.cinder.description",
+        "args": {},
+        "lines": {
+          "ru": "Краска «Зола» для брони",
+          "en": "Cinder Armor Paint",
+          "es": "Pintura Carbonilla para armadura",
+          "fr": "Peinture d'Armure Cendre",
+          "ko": "방어구용 잉걸불 도색"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "5700",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.daily_measurer_premium.name",
+    "args": {},
+    "lines": {
+      "ru": "Особое устройство для замеров",
+      "en": "Special Measuring Device",
+      "es": "Dispositivo de medición especial",
+      "fr": "Appareil de mesure spécial",
+      "ko": "특수 측정 장치"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg",
+              "es": "1 kg",
+              "fr": "1 kg",
+              "ko": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

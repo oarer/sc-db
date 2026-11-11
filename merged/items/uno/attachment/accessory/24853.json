@@ -1,0 +1,77 @@
+{
+  "id": "24853",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.blitz_tank.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Великанчик»",
+      "en": "Little Giant Charm",
+      "es": "Amuleto Gigantito",
+      "fr": "Breloque Petit Géant",
+      "ko": "꼬마 거인 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.blitz_tank.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшой, но все еще может дать сдачи.",
+          "en": "Small, but it still packs a punch.",
+          "es": "Es pequeño, pero aún así puede dar guerra.",
+          "fr": "Petit, mais toujours capable de rendre les coups.",
+          "ko": "작지만 여전히 반격할 수 있다."
+        }
+      }
+    }
+  ]
+}

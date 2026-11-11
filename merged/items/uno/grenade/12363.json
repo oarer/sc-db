@@ -1,0 +1,131 @@
+{
+  "id": "12363",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.lg1.name",
+    "args": {},
+    "lines": {
+      "ru": "ЛГ-1 «Восторг»",
+      "en": "HG-1 Rapture",
+      "es": "HG-1 Rapture",
+      "fr": "HG-1 Extase",
+      "ko": "HG-1 랩쳐"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 кг",
+              "en": "0.25 kg",
+              "es": "0,25 kg",
+              "fr": "0,25 kg",
+              "ko": "0.25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.lg1.description",
+        "args": {},
+        "lines": {
+          "ru": "Граната с элементами артефактов создает область, лечащую союзников в течение определенного времени и снижающую наносимый им урон.",
+          "en": "Grenade with elements from artifacts. Creates a temporary healing area for allies and reduces the damage done to them.",
+          "es": "Granada con elementos de artefactos. Crea una zona de curación temporal para los aliados y reduce el daño que reciben.",
+          "fr": "Grenade avec des éléments tirés d'artefacts. Crée une zone temporaire de régénération pour les alliés et réduit les dommages qu'ils reçoivent.",
+          "ko": "아티팩트의 성분이 들어 있는 수류탄이다. 아군을 치유하는 영역을 일시적으로 생성하고, 아군이 받는 피해량을 감소시킨다."
+        }
+      }
+    }
+  ]
+}

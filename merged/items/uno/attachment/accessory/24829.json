@@ -1,0 +1,77 @@
+{
+  "id": "24829",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.spring26_box.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Архив»",
+      "en": "Archive Charm",
+      "es": "Amuleto Archivo",
+      "fr": "Breloque Archive",
+      "ko": "아카이브 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.spring26_box.description",
+        "args": {},
+        "lines": {
+          "ru": "Донесения и развединформация — то, что поступает в ССОП регулярно, создавая в архивах масштабные стопки макулатуры.\\n\\nХотя с потерей Ч-4 значительная часть бумажной картотеки была утрачена, некоторые документы все же были разумно оцифрованы.",
+          "en": "Reports and intelligence information are what regularly comes into the SSPP, creating large piles of paper waste in the archives.\\n\\nAlthough with the loss of Ch-4 a significant portion of the paper files was lost, some documents were still reasonably digitized.",
+          "es": "Los informes y la información de inteligencia son lo que llega regularmente a SSPE, creando enormes pilas de papel usado en los archivos.\\n\\nAunque con la pérdida del Ch-4 se perdió una parte importante del archivo en papel, algunos documentos se digitalizaron de forma inteligente.",
+          "fr": "Rapports et renseignements — ce qui afflue régulièrement au SSPP, alimentant des piles imposantes de papier dans les archives.\\n\\nBien qu'une grande partie du classement papier ait été perdue avec la chute de la zone C-4, certains documents ont heureusement été numérisés à temps.",
+          "ko": "보고서와 정보 자료는 SSPP로 정기적으로 유입되며, 그로 인해 기록 보관소에는 방대한 종이 문서 더미가 쌓여 간다.\\n\\nCh-4의 상실로 인해 종이 카드 보관 자료의 상당 부분이 소실되었지만, 일부 문서는 선별적으로 디지털화되었다."
+        }
+      }
+    }
+  ]
+}

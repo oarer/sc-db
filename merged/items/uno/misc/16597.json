@@ -1,0 +1,58 @@
+{
+  "id": "16597",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.resc.arm_master.name",
+    "args": {},
+    "lines": {
+      "ru": "Набор компонентов брони (Мастер)",
+      "en": "Pack of Armor Components (Master)",
+      "es": "Pack de componentes de armadura (maestro)",
+      "fr": "Lot de composants d'armure (Maître)",
+      "ko": "방어구 부품 팩 (마스터)"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

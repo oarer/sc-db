@@ -1,0 +1,41 @@
+{
+  "id": "31425",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.lootbox.meme_wooden.name",
+    "args": {},
+    "lines": {
+      "ru": "Деревянный ящик",
+      "en": "Wooden Crate",
+      "es": "Caja de madera",
+      "fr": "Caisse en bois",
+      "ko": "나무 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.lootbox.meme_wooden.description",
+        "args": {},
+        "lines": {
+          "ru": "Ящик из дерева. Может содержать следы железа.",
+          "en": "A crate made of wood. May contain traces of iron.",
+          "es": "Una caja de madera. Puede contener restos de hierro.",
+          "fr": "Une caisse en bois. Peut contenir des traces de fer.",
+          "ko": "나무로 만든 상자. 철분의 흔적이 남아 있을 수 있다."
+        }
+      }
+    }
+  ]
+}

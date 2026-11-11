@@ -1,0 +1,77 @@
+{
+  "id": "16125",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16125.name",
+    "args": {},
+    "lines": {
+      "ru": "Патч Барбоса",
+      "en": "Rascal's Patch",
+      "es": "Parche de Pillo",
+      "fr": "Écusson de Rascal",
+      "ko": "악동 패치"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16125.description",
+        "args": {},
+        "lines": {
+          "ru": "Патч сталкера по кличке Барбос, который был обнаружен мною в Мавзолее.",
+          "en": "The patch of a stalker nicknamed \"Rascal,\" which I found in the Mausoleum.",
+          "es": "El parche de un acechador apodado \"Pillo\" que encontré en el Mausoleo.",
+          "fr": "L'écusson d'un stalker surnommé « Rascal », que j'ai trouvé dans le Mausolée.",
+          "ko": "대영묘에서 발견한, [악동]이란 별명의 스토커가 간직하던 패치이다."
+        }
+      }
+    }
+  ]
+}

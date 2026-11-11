@@ -1,0 +1,77 @@
+{
+  "id": "8251",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.med.injector_mushroom3.name",
+    "args": {},
+    "lines": {
+      "ru": "Гриб неваляшка",
+      "en": "Roly-Poly Shroom",
+      "es": "Seta tambaleante",
+      "fr": "Champignon toupie",
+      "ko": "균형 버섯"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.injector_mushroom3.description",
+        "args": {},
+        "lines": {
+          "ru": "Упал — вставай, встал — упай.",
+          "en": "Fall down—get up. Got up—fall down.",
+          "es": "Si te caes, levántate; si te levantas, vuelve a caerte.",
+          "fr": "Tombe — relève-toi, relève-toi — tombe.",
+          "ko": "넘어지면 일어나고, 일어나면 또 넘어진다."
+        }
+      }
+    }
+  ]
+}

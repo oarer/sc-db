@@ -1,0 +1,58 @@
+{
+  "id": "8266",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.provocation_note.name",
+    "args": {},
+    "lines": {
+      "ru": "Провокационная записка",
+      "en": "Provocative Note",
+      "es": "Nota provocativa",
+      "fr": "Note provocatrice",
+      "ko": "선동 메모"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.005,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg",
+              "ko": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

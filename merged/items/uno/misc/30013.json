@@ -1,0 +1,58 @@
+{
+  "id": "30013",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.valuable_14.name",
+    "args": {},
+    "lines": {
+      "ru": "Данные «Шепота»",
+      "en": "Murmur Data",
+      "es": "Datos de Susurro",
+      "fr": "Données du Murmure",
+      "ko": "속삭임 데이터"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

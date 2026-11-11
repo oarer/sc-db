@@ -1,0 +1,52 @@
+{
+  "id": "28000",
+  "category": "artefact",
+  "name": {
+    "type": "translation",
+    "key": "item.28000.name",
+    "args": {},
+    "lines": {
+      "ru": "Артефакт «Катушка тесла»",
+      "en": "Tesla Coil Artifact",
+      "es": "Artefacto bobina Tesla",
+      "fr": "Artefact Bobine de Tesla",
+      "ko": "테슬라 코일 아티팩트"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {}
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

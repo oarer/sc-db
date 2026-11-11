@@ -1,0 +1,77 @@
+{
+  "id": "24731",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_ssop_covenant.name",
+    "args": {},
+    "lines": {
+      "ru": "Священное возмездие",
+      "en": "Sacred Retribution",
+      "es": "Retribución sagrada",
+      "fr": "Châtiment sacré",
+      "ko": "신성한 응징"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_ssop_covenant.description",
+        "args": {},
+        "lines": {
+          "ru": "Жетон офицера ССОП, сломанный и спаянный заново в знаке истинной веры Завета. Это память о павших бравых воинах и об праведном отмщении за их души.",
+          "en": "A token of an SSPP officer, broken and reforged into the emblem of the true faith of the Covenant. It serves as a remembrance of the brave fallen warriors and symbolizes righteous vengeance for their souls.",
+          "es": "Una ficha de oficial de SSPE, rota y vuelta a soldar con la marca de la verdadera fe del Pacto. Es un recuerdo de los valientes guerreros caídos y de la justa venganza por sus almas.",
+          "fr": "Jeton d'un officier de SSPP, brisé et reforgé en l'emblème de la vraie foi de l'Alliance. Il sert de souvenir aux braves guerriers tombés au combat et symbolise la juste vengeance pour leurs âmes.",
+          "ko": "SSPP 장교용 토큰을 부러뜨린 뒤, 커버넌트의 진정한 신앙의 상징으로 다시 용접해 만든 것이다. 전사한 용감한 전사들을 기리는 기념물이자, 그 영혼을 위한 의로운 복수를 상징한다."
+        }
+      }
+    }
+  ]
+}

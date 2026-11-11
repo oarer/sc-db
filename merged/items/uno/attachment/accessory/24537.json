@@ -1,0 +1,77 @@
+{
+  "id": "24537",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.24537.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Руна»",
+      "en": "Rune Charm",
+      "es": "Amuleto Runa",
+      "fr": "Breloque Rune",
+      "ko": "룬 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.24537.description",
+        "args": {},
+        "lines": {
+          "ru": "Зачем сюда смотришь?",
+          "en": "Why are you looking over here",
+          "es": "¿Por qué miras por aquí?",
+          "fr": "Pourquoi regardez-vous par ici",
+          "ko": "여긴 왜 보는 거야?"
+        }
+      }
+    }
+  ]
+}

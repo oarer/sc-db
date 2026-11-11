@@ -1,0 +1,58 @@
+{
+  "id": "4950",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.sticker.dmz26_pacifist.name",
+    "args": {},
+    "lines": {
+      "ru": "Стикер «Святой Валентин»",
+      "en": "Saint Valentine Sticker",
+      "es": "Pegatina San Valentín",
+      "fr": "Autocollant Saint-Valentin",
+      "ko": "성 발렌타인 스티커"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

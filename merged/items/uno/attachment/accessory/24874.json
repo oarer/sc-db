@@ -1,0 +1,77 @@
+{
+  "id": "24874",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer26_geiger.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Компактный Гейгер»",
+      "en": "Compact Geiger Charm",
+      "es": "Amuleto Geiger compacto",
+      "fr": "Breloque Compteur Geiger compact",
+      "ko": "소형 가이거 계수기 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer26_geiger.description",
+        "args": {},
+        "lines": {
+          "ru": "Компактный счетчик Гейгера, попавший в аномалию, после чего ведет себя как заблагорассудится. У некоторых сталкеров устройство работает штатно, а у других — просто мотает стрелкой туда-сюда. Учитывая, что даже в НИИ-7 не смогли найти каких-то закономерностей в его поведении, счетчик просто выкупил один коллекционер, сделав из него брелок.",
+          "en": "A compact Geiger counter that got caught in an anomaly and has been doing whatever it feels like ever since. For some stalkers, the device works exactly as it should; for others, the needle just swings back and forth for no reason. Since even Research Institute 7 couldn’t find any pattern to its behavior, some collector simply bought the counter and turned it into a charm.",
+          "es": "Un contador Geiger compacto que cayó en una anomalía, tras lo cual comenzó a comportarse de la manera más impredecible. Para algunos acechadores el dispositivo funciona con normalidad, mientras que para otros simplemente mueve la aguja de un lado a otro sin sentido. Dado que ni siquiera en el Instituto de Investigación 7 lograron encontrar algún patrón en su comportamiento, un coleccionista terminó comprándolo y lo convirtió en un amuleto.",
+          "fr": "Un compteur Geiger compact, qui est tombé dans une anomalie et qui depuis se comporte de manière aléatoire. Chez certains stalkers, l'appareil fonctionne normalement, tandis que chez d'autres, l'aiguille oscille simplement d'un côté à l'autre. Étant donné que même à l'Institut de Recherche 7 ils n'ont pas pu trouver de régularités dans son comportement, un collectionneur l'a simplement racheté et en a fait un porte-clés.",
+          "ko": "이상현상에 휘말린 소형 가이거 계수기. 이후 제멋대로 작동하게 되었다. 일부 스토커에게는 정상적으로 작동하지만, 다른 이들에게는 바늘이 좌우로 흔들릴 뿐이다. 제7연구소조차 그 작동 패턴에서 어떠한 규칙도 찾아내지 못했으며, 결국 한 수집가가 이를 구매해 부적으로 만들어 버렸다."
+        }
+      }
+    }
+  ]
+}

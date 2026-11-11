@@ -1,0 +1,58 @@
+{
+  "id": "5512",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.customisation_pack.dmz26_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Набор кастомизации «Рождественское перемирие»",
+      "en": "Christmas Truce Customization Pack",
+      "es": "Pack de personalización Tregua navideña",
+      "fr": "Pack de personnalisation Trêve de Noël",
+      "ko": "크리스마스 휴전 커스텀 팩"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

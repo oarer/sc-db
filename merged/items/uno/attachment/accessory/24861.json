@@ -1,0 +1,77 @@
+{
+  "id": "24861",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.mt_is7.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Танчик»",
+      "en": "Little Tank Charm",
+      "es": "Amuleto Tanquecito",
+      "fr": "Breloque Petit char",
+      "ko": "미니탱크 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.mt_is7.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшая поделка из металла, спаянная одним умельцем. На танках в Зоне не проехать, остается ходить пешком.",
+          "en": "A small metal trinket soldered together by a skilled craftsman. In the Zone, tanks are useless for getting around, so you have to go on foot.",
+          "es": "A small metal trinket soldered together by a skilled craftsman. In the Zone, tanks are useless for getting around, so you have to go on foot.",
+          "fr": "Une petite fabrication en métal, soudée par un artisan. On ne peut pas passer en tank dans la Zone, il faut marcher à pied.",
+          "ko": "구역에서 탱크로는 이동할 수 없기에, 결국 걸어 다닐 수밖에 없는 현실을 담은 작은 금속 공예품으로, 한 숙련자가 납땜해 만든 것이다."
+        }
+      }
+    }
+  ]
+}

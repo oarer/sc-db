@@ -1,0 +1,77 @@
+{
+  "id": "16124",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16124.name",
+    "args": {},
+    "lines": {
+      "ru": "Неизвестная деталь",
+      "en": "Unfamiliar Part",
+      "es": "Pieza desconocida",
+      "fr": "Partie Inconnue",
+      "ko": "낯선 부품"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16124.description",
+        "args": {},
+        "lines": {
+          "ru": "Деталь от какого-то неизвестного мне прибора. Над предназначением оного мне остается только гадать.",
+          "en": "Part of some kind of device that I'm not familiar with. I can only guess what it was intended for.",
+          "es": "Parte de algún tipo de dispositivo que no conozco. Solo puedo conjeturar para qué servía.",
+          "fr": "Une morceau d'une sorte d'appareil que je ne connais pas. Je ne peux que supposer ce à quoi il était destiné.",
+          "ko": "처음 보는 종류의 어떤 장치 부품이다. 무슨 용도였는지는 짐작만 가능하다."
+        }
+      }
+    }
+  ]
+}

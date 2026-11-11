@@ -1,0 +1,77 @@
+{
+  "id": "16195",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16195.name",
+    "args": {},
+    "lines": {
+      "ru": "Свеча зажигания",
+      "en": "Spark Plug",
+      "es": "Bujía",
+      "fr": "Bougie d'allumage",
+      "ko": "점화 플러그"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16195.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшое устройство для воспламенения топливо-воздушной смеси в двигателях.",
+          "en": "A small device for air-fuel mixture combustion in engines.",
+          "es": "Un pequeño dispositivo para la combustión de mezcla aire-combustible en motores.",
+          "fr": "Un petit dispositif pour la combustion du mélange air-carburant dans les moteurs.",
+          "ko": "엔진 내에서 공기와 연료 혼합물을 연소시키는 소형 장치이다."
+        }
+      }
+    }
+  ]
+}

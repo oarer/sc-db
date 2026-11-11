@@ -1,0 +1,96 @@
+{
+  "id": "26752",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.golden_ticket.name",
+    "args": {},
+    "lines": {
+      "ru": "Золотой билет",
+      "en": "Golden Ticket",
+      "es": "Entrada de oro",
+      "fr": "Ticket d'or",
+      "ko": "황금 티켓"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.golden_ticket.description",
+        "args": {},
+        "lines": {
+          "ru": "Счастливчиком может считать себя тот, кто держал в руках Золотой Билет. Этот билет является знаком расположения со стороны крупных корпораций, занимающихся поставками снаряжения в Зону. Те исследователи Зоны, что часто делали закупки с Большой земли у этих корпораций, могут получить от корпоратов особую награду. Нужно лишь успеть в течение года сдать билет представителю корпоратов, Виву, которого можно встретить в Баре и на базах группировок.",
+          "en": "If you're the holder of a Golden Ticket, it's your lucky day. The Ticket is a sign that you're in with the major corporations who supply gear to the Zone. Zone researchers who have often made purchases from these Mainland corporations can receive a special reward from them. Just hand your Ticket to Viv, the corporations' representative, who can be found in the Bar and at faction bases, within a year.",
+          "es": "Si tienes una entrada de oro, es tu día de suerte. La entrada es una señal de que estás con las grandes empresas que suministran equipamiento a la Zona. Los investigadores de la Zona que hacen pedidos a menudo a estas empresas del continente pueden recibir una recompensa especial de ellas. Solo tienes que entregar tu entrada a Viv, el representante de las corporaciones del Bar y en las bases de los clanes en el plazo de un año.",
+          "fr": "Si vous êtes détenteur d'un Ticket d'or, c'est votre jour de chance. Le ticket est un signe que vous êtes partie des grandes entreprises qui fournissent du matériel à la Zone. Les chercheurs de la Zone qui ont souvent effectué des achats auprès de ces sociétés du continent peuvent recevoir une récompense spéciale de leur part. Remets simplement votre ticket à Viv, le représentant des corporations, que l'on retrouve au Bar et dans les bases de clan, dans un délai d'un an.",
+          "ko": "황금 티켓을 획득하였다면 아주 운이 좋은 날입니다. 이 티켓은 당신이 본토의 대기업들과 함께한다는 것을 의미하는데, 이들은 구역에 장비를 공급하는 역할을 합니다. 메인 랜드 기업들로부터 자주 구매를 한 구역의 연구자들은 특별한 보상을 받을 수 있습니다. 티켓을 비브, 기업의 대표자에게 1년 내로 전달하세요. 그는 술집 안이나 클랜 기지에서 만나볼 수 있습니다."
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.golden_ticket.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "Вручается на годовщину игры игрокам, активно поддерживающим проект",
+          "en": "Awarded on the game’s anniversary to players who actively support the project",
+          "es": "Un regalo de aniversario del juego para los jugadores que nos apoyan activamente",
+          "fr": "Un cadeau d'anniversaire du jeu pour les joueurs qui soutiennent activement le projet",
+          "ko": "게임 서비스 기념일을 맞아 프로젝트를 적극적으로 지원해 준 플레이어에게 지급됩니다"
+        }
+      }
+    }
+  ]
+}

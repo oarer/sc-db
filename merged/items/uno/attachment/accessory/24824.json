@@ -1,0 +1,77 @@
+{
+  "id": "24824",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_karfagen.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Чемпион»",
+      "en": "Champion Charm",
+      "es": "Amuleto Campeón",
+      "fr": "Breloque Champion",
+      "ko": "챔피언 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_karfagen.description",
+        "args": {},
+        "lines": {
+          "ru": "Брелок-напоминание о местах Зоны, по которым владелец прошелся в лучше свои годы. И раз он до сих пор жив, то титул чемпиона носит вполне заслуженно!",
+          "en": "A charm is a reminder of the places in the Zone that the owner visited in their better years. And since they are still alive, they wear the title of champion quite deservedly!",
+          "es": "Un amuleto que recuerda los lugares de la Zona por los que el propietario paseó en sus mejores años. Y como sigue vivo, ¡el título de campeón es totalmente merecido!",
+          "fr": "Une breloque souvenir des lieux de la Zone que le propriétaire a arpentés durant ses meilleures années. Et puisqu'il est toujours en vie, il porte le titre de champion à juste titre !",
+          "ko": "이 부적은 주인이 한때 최고의 전성기에 구역을 누비며 지나간 장소들을 떠올리게 해 준다. 아직 살아 있다는 것만으로도, 챔피언의 칭호는 충분히 자격 있는 것이다!"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "30019",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.voenakum.name",
+    "args": {},
+    "lines": {
+      "ru": "Военный аккумулятор",
+      "en": "Military Battery",
+      "es": "Batería militar",
+      "fr": "Batterie militaire",
+      "ko": "군용 배터리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 40,
+          "formatted": {
+            "value": {
+              "ru": "40 кг",
+              "en": "40 kg",
+              "es": "40 kg",
+              "fr": "40 kg",
+              "ko": "40 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

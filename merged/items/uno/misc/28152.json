@@ -1,0 +1,41 @@
+{
+  "id": "28152",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.28152.name",
+    "args": {},
+    "lines": {
+      "ru": "Зашифрованная флешка",
+      "en": "Encrypted Flash Drive",
+      "es": "Memoria USB encriptada",
+      "fr": "Clé USB encryptée",
+      "ko": "암호화된 USB 드라이브"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28152.description",
+        "args": {},
+        "lines": {
+          "ru": "Зашифрованная флешка с данными, которые могут кого-то заинтересовать.@@§2Предмет для бартера",
+          "en": "An encrypted flash drive with data that might be of interest to someone.@@§2Barter item",
+          "es": "Una memoria USB encriptada con datos que podrían ser de interés para alguien.@@§2Objeto de trueque",
+          "fr": "Une clé USB encryptée avec des données qui pourraient intéresser quelqu'un.@@§2Objet de troc",
+          "ko": "누군가에게 흥미로울 수 있는 데이터가 담긴 암호화된 USB 드라이브다.@@§2교환 가능 아이템"
+        }
+      }
+    }
+  ]
+}

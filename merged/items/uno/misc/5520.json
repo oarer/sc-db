@@ -1,0 +1,113 @@
+{
+  "id": "5520",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.gate_keycard.name",
+    "args": {},
+    "lines": {
+      "ru": "Ключ-карта Врат",
+      "en": "Gates Key Card",
+      "es": "Tarjeta de acceso de las puertas",
+      "fr": "Carte de sécurité des portes",
+      "ko": "게이트 키 카드"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.gate_keycard.description",
+        "args": {},
+        "lines": {
+          "ru": "С помощью этой ключ-карты открываются «Врата» в центре Кузни-11.",
+          "en": "This key card is used to open the Gates at the center of Forge-11.",
+          "es": "Esta tarjeta de acceso sirve para abrir las puertas del centro de Forja-11.",
+          "fr": "Cette carte de sécurité est utilisée pour ouvrir les portes au centre de Forge-11.",
+          "ko": "이 키 카드는 포지-11 중앙에 있는 게이트를 여는 데 사용됩니다."
+        }
+      }
+    }
+  ]
+}

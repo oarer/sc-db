@@ -1,0 +1,77 @@
+{
+  "id": "19094",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19094.name",
+    "args": {},
+    "lines": {
+      "ru": "Вороний лес",
+      "en": "Crow Forest",
+      "es": "Bosque de cuervos",
+      "fr": "Forêt de Corbeaux",
+      "ko": "까마귀 숲"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.19094.description",
+        "args": {},
+        "lines": {
+          "ru": "Подарок от Фантома",
+          "en": "A gift from Phantom",
+          "es": "Un regalo de Fantasma",
+          "fr": "Un cadeau de Fantôme",
+          "ko": "팬텀으로부터의 선물"
+        }
+      }
+    }
+  ]
+}

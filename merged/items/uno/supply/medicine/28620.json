@@ -1,0 +1,176 @@
+{
+  "id": "28620",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.28620.name",
+    "args": {},
+    "lines": {
+      "ru": "Расписка от Легионера «Упырь»",
+      "en": "\"Ghoul\" Note from Legionnaire",
+      "es": "Nota \"necrófagos\" de Legionario",
+      "fr": "La note « Goule » de Légionnaire",
+      "ko": "리전에어의 [구울] 쪽지"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 7.5,
+          "formatted": {
+            "value": {
+              "ru": "7,5 с",
+              "en": "7.5 sec",
+              "es": "7,5 s",
+              "fr": "7,5 s",
+              "ko": "7.5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "value": 7.4,
+          "formatted": {
+            "value": {
+              "ru": "7,4%",
+              "en": "7.4%",
+              "es": "7,4%",
+              "fr": "7,4%",
+              "ko": "7.4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.artefakt_heal",
+            "args": {},
+            "lines": {
+              "ru": "Периодическое лечение",
+              "en": "Periodic healing",
+              "es": "Curación periódica",
+              "fr": "Soins périodiques",
+              "ko": "지속 치유"
+            }
+          },
+          "value": 7.4,
+          "formatted": {
+            "value": {
+              "ru": "7,4%",
+              "en": "7.4%",
+              "es": "7,4%",
+              "fr": "7,4%",
+              "ko": "7.4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28620.description",
+        "args": {},
+        "lines": {
+          "ru": "На помятом листочке карандашом написано лишь одно слово «Упырь». Ниже виднеется небольшая подпись Легионера.@@§2Можно продать Голиафу",
+          "en": "On the crumpled page, the word \"Ghoul\" is written in pencil. Below that, you can make out Legionnaire's small signature.@@§2Can be sold to Goliath",
+          "es": "En la página arrugada, aparece la palabra \"necrófago\" escrita a lápiz. Debajo se distingue la pequeña firma de Legionario.@@§2Se puede vender a Goliat",
+          "fr": "Sur la page froissée, le mot « Goule » est écrit au crayon. En dessous, vous pouvez y voir la petite signature de Légionnaire.@@§2Peut être vendu à Goliath",
+          "ko": "구겨진 페이지에 연필로 [구울]이라고 적혀 있다. 그 아래에는 리전에어의 작은 서명이 보인다.@@§2골리앗에게 팔 수 있음"
+        }
+      }
+    }
+  ]
+}

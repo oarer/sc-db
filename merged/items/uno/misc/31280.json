@@ -1,0 +1,58 @@
+{
+  "id": "31280",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setA.toy4.name",
+    "args": {},
+    "lines": {
+      "ru": "Красный полосатый шарик",
+      "en": "Red Striped Bauble",
+      "es": "Bola rayada roja",
+      "fr": "Boule à Rayures Rouges",
+      "ko": "빨간 줄무늬 장식구"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

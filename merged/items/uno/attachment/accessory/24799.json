@@ -1,0 +1,77 @@
+{
+  "id": "24799",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.dmz26_cards.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Каре»",
+      "en": "Quads Charm",
+      "es": "Amuleto Póquer",
+      "fr": "Breloque Quarré",
+      "ko": "카레 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.dmz26_cards.description",
+        "args": {},
+        "lines": {
+          "ru": "В Зоне удача — редкий союзник. Если фортуна вам улыбнулась, стоит ценить это и улыбаться в ответ.",
+          "en": "In the Zone, luck is a rare ally. If fortune smiles on you, cherish it—and smile back.",
+          "es": "En la Zona, la suerte es un aliado poco común. Si la fortuna te sonríe, vale la pena apreciarlo y devolverle la sonrisa.",
+          "fr": "Dans la Zone, la chance est une alliée rare. Si la fortune vous sourit, appréciez-la et souriez en retour.",
+          "ko": "구역에서 행운은 드문 동맹이다. 운이 당신에게 미소 지었다면, 그것을 소중히 여기고 답례로 미소 지어라."
+        }
+      }
+    }
+  ]
+}

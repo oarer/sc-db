@@ -1,0 +1,77 @@
+{
+  "id": "19684",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19684.name",
+    "args": {},
+    "lines": {
+      "ru": "Камуфляж «Мазок»",
+      "en": "Smear Camouflage",
+      "es": "Camuflaje Manchón",
+      "fr": "Camouflage Bavure",
+      "ko": "도포 캐모"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.19684.description",
+        "args": {},
+        "lines": {
+          "ru": "Камуфляж «Мазок» для брони",
+          "en": "Smear camouflage for armor",
+          "es": "Camuflaje Manchón para armadura",
+          "fr": "Camouflage pour armure Bavure",
+          "ko": "방어구용 도포 캐모"
+        }
+      }
+    }
+  ]
+}

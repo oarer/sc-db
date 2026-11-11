@@ -1,0 +1,58 @@
+{
+  "id": "16823",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.snares.name",
+    "args": {},
+    "lines": {
+      "ru": "Охотничья петля",
+      "en": "Hunter's Noose",
+      "es": "Lazo del cazador",
+      "fr": "Corde de chasseur",
+      "ko": "사냥꾼의 올가미"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.7,
+          "formatted": {
+            "value": {
+              "ru": "0,7 кг",
+              "en": "0.7 kg",
+              "es": "0,7 kg",
+              "fr": "0,7 kg",
+              "ko": "0.7 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

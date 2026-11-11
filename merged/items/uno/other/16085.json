@@ -1,0 +1,58 @@
+{
+  "id": "16085",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.ssop_help_murmur_notes_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Фрагмент антенны “Шепота”",
+      "en": "Murmur Antenna Fragment",
+      "es": "Fragmento de antena de Susurro",
+      "fr": "Fragment de l'antenne de Murmure",
+      "ko": "속삭임 안테나 조각"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 12,
+          "formatted": {
+            "value": {
+              "ru": "12 кг",
+              "en": "12 kg",
+              "es": "12 kg",
+              "fr": "12 kg",
+              "ko": "12 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

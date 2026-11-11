@@ -1,0 +1,58 @@
+{
+  "id": "8244",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.trucks_skaner.name",
+    "args": {},
+    "lines": {
+      "ru": "КС-У-11",
+      "en": "QS-E-11",
+      "es": "EC-P-11",
+      "fr": "KS-U-11",
+      "ko": "KS-U-11"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 кг",
+              "en": "2.5 kg",
+              "es": "2,5 kg",
+              "fr": "2,5 kg",
+              "ko": "2.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

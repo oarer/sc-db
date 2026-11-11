@@ -1,0 +1,77 @@
+{
+  "id": "24854",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.blitz_turret.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «АркТек-Бот»",
+      "en": "ArcTech Bot Charm",
+      "es": "Amuleto ArcTec-Bot",
+      "fr": "Breloque ArcTec-Bot",
+      "ko": "아크텍‑봇 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.blitz_turret.description",
+        "args": {},
+        "lines": {
+          "ru": "Кто знает, может и к этой игрушке кто-то подключен.",
+          "en": "Who knows, maybe someone is connected to this toy.",
+          "es": "Quién sabe, quizá alguien esté metido en este asunto.",
+          "fr": "Qui sait, peut-être que quelqu'un est aussi connecté à ce jouet.",
+          "ko": "누가 알겠어, 어쩌면 이 게임에도 누군가는 참여하고 있을지 몰라."
+        }
+      }
+    }
+  ]
+}

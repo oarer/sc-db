@@ -1,0 +1,58 @@
+{
+  "id": "29916",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.mob_8.name",
+    "args": {},
+    "lines": {
+      "ru": "Селезенка мутанта",
+      "en": "Mutant's Spleen",
+      "es": "Bazo de mutante",
+      "fr": "Rate de mutant",
+      "ko": "돌연변이의 비장"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.55,
+          "formatted": {
+            "value": {
+              "ru": "0,55 кг",
+              "en": "0.55 kg",
+              "es": "0,55 kg",
+              "fr": "0,55 kg",
+              "ko": "0.55 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

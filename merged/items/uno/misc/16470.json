@@ -1,0 +1,113 @@
+{
+  "id": "16470",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.memorable_detail.name",
+    "args": {},
+    "lines": {
+      "ru": "Памятные детали",
+      "en": "Memorable Parts",
+      "es": "Piezas memorables",
+      "fr": "Pièces mémorables",
+      "ko": "기념 부품"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "PERSONAL_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.001,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.memorable_detail.description",
+        "args": {},
+        "lines": {
+          "ru": "Для одних - пустая трата места, но для ветерана - настоящий предмет ностальгии по временам, когда Зона была суровее, трава - зеленее, а детали - нужнее.",
+          "en": "For some, it's just a waste of space, but for a veteran, it's a true object of nostalgia for the times when the Zone was tougher, the grass was greener, and the parts were more necessary.",
+          "es": "Para algunos es un desperdicio de espacio, pero para un veterano es un auténtico objeto de nostalgia de los tiempos en que la Zona era más dura, la hierba más verde y los detalles más necesarios.",
+          "fr": "Pour certains : du poids inutile. Pour d'autres vétérans : un souvenir précieux d'une Zone plus sauvage, d'herbe plus verte et de pièces plus rares.",
+          "ko": "어떤 사람에게는 단순한 공간 낭비지만, 베테랑에게는 한때 구역이 더 험하고, 풀이 더 푸르고, 부품 하나하나가 더 귀했던 시절을 떠올리게 하는 진정한 향수의 물건이다."
+        }
+      }
+    }
+  ]
+}

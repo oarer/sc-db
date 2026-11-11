@@ -1,0 +1,167 @@
+{
+  "id": "25572",
+  "category": "armor",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.albatros_scout_encaged.name",
+    "args": {},
+    "lines": {
+      "ru": "«Разведчик»",
+      "en": "Scout",
+      "es": "Explorador",
+      "fr": "Éclaireur",
+      "ko": "정찰병"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 18,
+          "formatted": {
+            "value": {
+              "ru": "18 кг",
+              "en": "18 kg",
+              "es": "18 kg",
+              "fr": "18 kg",
+              "ko": "18 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.albatros_scout_encaged.description",
+        "args": {},
+        "lines": {
+          "ru": "Броня, сотканная из теней и отголосков забытых троп. Она позволяет быстро скользить в темноте подземки, но не спасет от взгляда того, кто уже знает о твоем присутствии...",
+          "en": "Armor woven from shadows and echoes of forgotten paths. It allows one to glide swiftly in the darkness of the underground, but won't save you from the gaze of someone who's already aware of your presence...",
+          "es": "Armadura tejida con sombras y ecos de senderos olvidados. Te permite avanzar velozmente en la oscuridad del subsuelo, pero no te salvará de la mirada de quien ya conoce tu presencia...",
+          "fr": "Armure tissée d'ombres et d'échos de sentiers oubliés. Elle permet de glisser rapidement dans l'obscurité du métro, mais ne protège pas du regard de celui qui sait déjà que tu es là...",
+          "ko": "잊혀진 길의 그림자와 메아리로 짜인 방어구. 지하의 어둠 속에서 빠르게 활공할 수 있게 해주지만, 이미 당신의 존재를 알아차린 누군가의 시선으로부터는 벗어나지 못한다..."
+        }
+      }
+    }
+  ]
+}

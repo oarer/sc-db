@@ -1,0 +1,77 @@
+{
+  "id": "24736",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.frontline_shell_fab100.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Бомбочка»",
+      "en": "Baby boom Charm",
+      "es": "Amuleto Bombita",
+      "fr": "Breloque Petite Bombe",
+      "ko": "베이비 붐 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.frontline_shell_fab100.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшой брелок, который сделан умельцами из подразделений ССОП. Обросший предрассудками и суевериями, по слухам, должен защищать от дружеского огня. Хотя бы от фугасного.",
+          "en": "A small charm crafted by artisans from the SSPP units, enveloped in myths and superstitions, is rumored to protect against friendly fire—at least from explosive shells.",
+          "es": "Un pequeño llavero fabricado por los hábiles artesanos de las subdivisiones de SSPE. Cargado de prejuicios y supersticiones, se rumorea que protege contra el fuego amigo. Al menos del fuego de alto poder explosivo.",
+          "fr": "Petit porte-clés fabriqué par les artisans des unités de SSPP. Entouré de superstitions et de croyances, il serait, selon la rumeur, capable de protéger contre les tirs amis. Au moins contre les explosifs.",
+          "ko": "SSPP 분대의 장인이 만든 작은 부적으로, 전설과 미신에 싸여있다. 아군의 오발탄으로부터 지켜준다는 속설이 있다 - 뭐, 적어도 폭발탄으로부터는 지켜줄 것이다."
+        }
+      }
+    }
+  ]
+}

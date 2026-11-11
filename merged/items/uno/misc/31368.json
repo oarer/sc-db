@@ -1,0 +1,58 @@
+{
+  "id": "31368",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setG.toy8.name",
+    "args": {},
+    "lines": {
+      "ru": "Пряничная игрушка-черепок",
+      "en": "Gingerbread Skull Decoration",
+      "es": "Adorno de cráneo de galleta",
+      "fr": "Décoration de Crâne en Pain d'Épices",
+      "ko": "진저브레드 두개골 장식"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

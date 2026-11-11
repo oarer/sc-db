@@ -1,0 +1,77 @@
+{
+  "id": "19062",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19062.name",
+    "args": {},
+    "lines": {
+      "ru": "Камуфляж Наемников наградной",
+      "en": "Mercenary Camouflage award",
+      "es": "Premio de camuflaje Mercenario",
+      "fr": "Prix du camouflage Mercenaire",
+      "ko": "용병 캐모 상"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.19062.description",
+        "args": {},
+        "lines": {
+          "ru": "Камуфляж Наемников для брони",
+          "en": "Mercenary camouflage for armor",
+          "es": "Camuflaje Mercenario para armadura",
+          "fr": "Camouflage pour armure Mercenaire",
+          "ko": "방어구용 용병 캐모"
+        }
+      }
+    }
+  ]
+}

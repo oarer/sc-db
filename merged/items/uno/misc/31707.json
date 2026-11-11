@@ -1,0 +1,58 @@
+{
+  "id": "31707",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.mcmillan_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть McMillan CS5 #4",
+      "en": "McMillan CS5 Part #4",
+      "es": "McMillan CS5 Pieza n.° 4",
+      "fr": "McMillan CS5 Partie #4",
+      "ko": "맥밀란 CS5 부품 #4"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

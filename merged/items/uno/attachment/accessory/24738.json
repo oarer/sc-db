@@ -1,0 +1,77 @@
+{
+  "id": "24738",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_t72_head.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Секир-башка»",
+      "en": "Heads will roll! Charm",
+      "es": "Amuleto Hacha y cabeza",
+      "fr": "Breloque Hache-Tourelle",
+      "ko": "[단 칼에 뎅강!] 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_t72_head.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшой брелок башни танка Т-72. Во время осады периметра «Шепотом» один из танков был подбит, но наводчик и мехвод еще несколько часов продолжали отстреливаться с уцелевшей башни, пока не попали под пси-излучение переносных устройств «Шепота».",
+          "en": "A small charm shaped like a T-72 tank turret. During the siege of the perimeter by Murmur, one of the tanks was hit. However, the gunner and driver continued to defend using the surviving turret for a few hours until they were caught in the psy-emission from Murmur portable devices.",
+          "es": "Una pequeña baratija de la torreta de un tanque T-72. Durante el asedio al perímetro de Susurro, uno de los tanques fue alcanzado, pero el artillero y el meconductor siguieron disparando desde la torreta superviviente durante varias horas más hasta que fueron alcanzados por la emisión psy de los dispositivos portátiles de Susurro.",
+          "fr": "Un petit porte-clés représentant une tourelle de char T-72. Lors du siège du périmètre par le Murmure, un char a été touché, mais le tireur et le conducteur ont continué à riposter depuis la tourelle intacte pendant plusieurs heures, jusqu'à ce qu'ils soient pris dans une émission psy des dispositifs portatifs ennemis.",
+          "ko": "T-72 탱크 터렛 모양으로 만들어진 작은 부적. 변방에서 속삭임의 포위 중 탱크 한 대가 격파됐다. 그럼에도 불구하고, 포수와 조종수는 남아있는 포탑을 사용해 몇 시간동안 방어를 계속했으나 속삭임의 휴대용 정신파 기기의 영향을 받아 포위되고 말았다."
+        }
+      }
+    }
+  ]
+}

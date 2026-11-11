@@ -1,0 +1,58 @@
+{
+  "id": "22698",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.butt_ak_f.name",
+    "args": {},
+    "lines": {
+      "ru": "Приклад Ижмаш полимерный, зимний",
+      "en": "Izhmash Plastic Stock, Winter",
+      "es": "Culata de plástico Izhmash, invierno",
+      "fr": "Crosse en plastique Izhmash, Hivernal",
+      "ko": "이즈마쉬 플라스틱 개머리판, 윈터"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

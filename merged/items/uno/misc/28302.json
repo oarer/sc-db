@@ -1,0 +1,41 @@
+{
+  "id": "28302",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.28302.name",
+    "args": {},
+    "lines": {
+      "ru": "Поврежденная нашивка бандитов",
+      "en": "Damaged Bandit Patch",
+      "es": "Parche de bandido dañado",
+      "fr": "Écusson de bandit endommagé",
+      "ko": "손상된 밴디트 패치"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28302.description",
+        "args": {},
+        "lines": {
+          "ru": "Нашивка, срезанная с костюма убитого бандита.@@§2Предмет для бартера",
+          "en": "A patch torn from the suit of a dead bandit.@@§2Barter item",
+          "es": "Un parche arrancado del traje de un bandido muerto.@@§2Objeto de trueque",
+          "fr": "Un écusson arraché de la combinaison d'un bandit mort.@@§2Objet de troc",
+          "ko": "죽은 밴디트의 슈트에서 뜯어낸 천 조각이다.@@§2교환 가능 아이템"
+        }
+      }
+    }
+  ]
+}

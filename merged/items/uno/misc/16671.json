@@ -1,0 +1,58 @@
+{
+  "id": "16671",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.16671.name",
+    "args": {},
+    "lines": {
+      "ru": "Ключ для контейнера Охотников",
+      "en": "Key to a Hunter Container",
+      "es": "Llave de contenedor de cazador",
+      "fr": "Clés d'un conteneur de chasseur",
+      "ko": "사냥꾼 컨테이너 열쇠"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

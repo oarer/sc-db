@@ -1,0 +1,41 @@
+{
+  "id": "28300",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.28300.name",
+    "args": {},
+    "lines": {
+      "ru": "Поврежденная нашивка сталкеров",
+      "en": "Damaged Stalker Patch",
+      "es": "Parche de acechador dañado",
+      "fr": "Écusson de stalker endommagé",
+      "ko": "손상된 스토커 옷 조각"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28300.description",
+        "args": {},
+        "lines": {
+          "ru": "Нашивка, срезанная с костюма убитого сталкера.@@§2Предмет для бартера",
+          "en": "A patch torn from the suit of a dead stalker.@@§2Barter item",
+          "es": "Un parche arrancado del traje de un acechador muerto.@@§2Objeto de trueque",
+          "fr": "Un écusson arraché de la combinaison d'un stalker mort.@@§2Objet de troc",
+          "ko": "죽은 스토커 슈트에서 뜯어낸 천 조각이다.@@§2교환 가능 아이템"
+        }
+      }
+    }
+  ]
+}

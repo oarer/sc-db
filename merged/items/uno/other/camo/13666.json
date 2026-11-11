@@ -1,0 +1,58 @@
+{
+  "id": "13666",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.na_freedom.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Отблеск свободы»",
+      "en": "Glimmer of Freedom Paint",
+      "es": "Pintura El Resplandor de la Libertad",
+      "fr": "Peinture Reflet de liberté",
+      "ko": "자유의 반짝임 도색"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24591",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.hw23_micro.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Голос Зоны»",
+      "en": "Voice of the Zone Charm",
+      "es": "Amuleto Voz de la Zona",
+      "fr": "Breloque Voix de la zone",
+      "ko": "구역의 목소리 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.hw23_micro.description",
+        "args": {},
+        "lines": {
+          "ru": "Кто только не вещал о Зоне в такой микрофон... ну, или в какой-нибудь похожий.",
+          "en": "Who didn't broadcast about the Zone in a microphone like this... or something looks like this.",
+          "es": "Quién no ha usado un micrófono..., o algo parecido, para retrasmitir sobre la Zona.",
+          "fr": "Qui n'a pas diffusé sur la Zone dans un micro comme celui-ci… ou quelque chose qui ressemble à cela.",
+          "ko": "이런 모양의 마이크로 구역에 대해 방송하지 않은 사람이 누가 있을까... 아니면 비슷한 것으로."
+        }
+      }
+    }
+  ]
+}

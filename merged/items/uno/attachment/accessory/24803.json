@@ -1,0 +1,77 @@
+{
+  "id": "24803",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.stream_battle.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Простыня»",
+      "en": "Bedsheet Charm",
+      "es": "Amuleto Sábana",
+      "fr": "Breloque Drap",
+      "ko": "시트 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.stream_battle.description",
+        "args": {},
+        "lines": {
+          "ru": "Легендарный... Нет, погодите, как его там... Наволочка? Одеяло? А, легендарный Простыня!",
+          "en": "Legendary... no, wait—what's his name? Pillowcase? Blanket? Ah, yes. The legendary Bedsheet!",
+          "es": "El legendario... No, esperen, ¿cómo se llama? ¿Funda de almohada? ¿Manta? ¡Ah, el legendario Sábana!",
+          "fr": "Légendaire… Non, attendez, comment ça s'appelle déjà… Taie d'oreiller ? Couette ? Ah, le Drap légendaire !",
+          "ko": "전설적인… 아니, 잠깐만. 베갯잇이었나? 이불이었나? 아, 맞다. 전설적인 시트다!"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "27511",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.clan.tournament_halt.name",
+    "args": {},
+    "lines": {
+      "ru": "Аванпост",
+      "en": "Outpost",
+      "es": "Puesto avanzado",
+      "fr": "Avant-poste",
+      "ko": "전초 기지"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.clan.tournament_halt.description",
+        "args": {},
+        "lines": {
+          "ru": "При размещении на локации турнира позволяет возрождаться на аванпосте.",
+          "en": "When placed in the tournament location, it allows respawning at the outpost.",
+          "es": "Cuando se coloca en la ubicación del torneo, permite reaparecer en el puesto avanzado.",
+          "fr": "Lorsqu'il est placé sur le lieu du tournoi, il permet de réapparaître à l'avant-poste.",
+          "ko": "토너먼트 장소에 설치하면 전초 기지에서 부활할 수 있다."
+        }
+      }
+    }
+  ]
+}

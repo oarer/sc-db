@@ -1,0 +1,77 @@
+{
+  "id": "16177",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16177.name",
+    "args": {},
+    "lines": {
+      "ru": "Горб",
+      "en": "Hump",
+      "es": "Joroba",
+      "fr": "Bosse",
+      "ko": "혹"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16177.description",
+        "args": {},
+        "lines": {
+          "ru": "В некоторых из диких территорий Зоны встречаются зомби с крупным гнойными наростами, природа образования которых неизвестна. Ученые подозревают, что они имеют некую схожесть с раковыми опухолями.",
+          "en": "In some wild territories of the Zone, there are zombies with large, pus-filled growths of an unknown nature. Scientists suspect that they are similar to malignant tumors.",
+          "es": "En algunos territorios salvajes de la Zona hay zombis con grandes protuberancias llenas de pus de naturaleza desconocida. Los científicos sospechan que son similares a los tumores malignos.",
+          "fr": "Dans certains territoires sauvages de la Zone, on trouve des zombies présentant de grosses excroissances remplies de pus et de nature inconnue. Les scientifiques pensent qu'elles ressemblent à des tumeurs malignes.",
+          "ko": "구역의 일부 야생 지역에는 알 수 없는 커다란 고름 덩어리를 지닌 좀비들이 돌아다닌다. 과학자들은 이게 악성 종양과 비슷한 구조일 거라고 추정한다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "5501",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.customisation_pack.snegurka.name",
+    "args": {},
+    "lines": {
+      "ru": "Набор кастомизации «Sнегурка»",
+      "en": "Snow Maiden Customization Pack",
+      "es": "Pack de personalización Doncella de las Nieves",
+      "fr": "Pack de personnalisation Snégourotchka",
+      "ko": "스노우 메이든 커스터마이징 팩"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

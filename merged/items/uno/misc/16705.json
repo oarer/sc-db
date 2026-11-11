@@ -1,0 +1,58 @@
+{
+  "id": "16705",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.art.mod_calibration.name",
+    "args": {},
+    "lines": {
+      "ru": "Калибрующий агент",
+      "en": "Calibrating Agent",
+      "es": "Agente de calibración",
+      "fr": "Agent de calibration",
+      "ko": "보정제"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

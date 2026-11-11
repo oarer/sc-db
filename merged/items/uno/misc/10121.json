@@ -1,0 +1,41 @@
+{
+  "id": "10121",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.inside25_poet_echo.name",
+    "args": {},
+    "lines": {
+      "ru": "Эхо Поэта",
+      "en": "Poets Echo",
+      "es": "Eco del Poeta",
+      "fr": "Écho du poète",
+      "ko": "시인의 메아리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.inside25_poet_echo.description",
+        "args": {},
+        "lines": {
+          "ru": "Этот эхо-кристалл содержит в себе запись откровений сущности Изнанки по имени Поэт.",
+          "en": "This Echo Crystal contains a recording of the revelations of an entity from the Inside Out named Poet.",
+          "es": "Este Cristal Eco contiene una grabación de las revelaciones de una criatura del Reverso llamada Poeta.",
+          "fr": "Ce cristal d'écho contient un enregistrement des révélations d'une entité de l'Envers nommée le Poète.",
+          "ko": "뒤집힌 세계에서 온 [시인]이라는 존재의 계시가 기록되어 있다."
+        }
+      }
+    }
+  ]
+}

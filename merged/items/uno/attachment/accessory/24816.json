@@ -1,0 +1,77 @@
+{
+  "id": "24816",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_niksp.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Вирус»",
+      "en": "Virus Charm",
+      "es": "Amuleto Virus",
+      "fr": "Breloque Virus",
+      "ko": "바이러스 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_niksp.description",
+        "args": {},
+        "lines": {
+          "ru": "Этот чип нашли в бронированном ноутбуке на старой базе военных. Все попытки прочитать содержимое чипа приводили к безнадежным зависам техники. Даже хакеры уровня Спота шутят, что он «заражает» устройства поблизости, вызывая случайные глюки, и стараются держаться от чипа подальше.",
+          "en": "This chip was found in an armored laptop at an old military base. All attempts to access its contents resulted in complete system crashes. Even hackers of Spot's level joke that it \"infects\" nearby devices, triggering random glitches—and they prefer to keep their distance from it.",
+          "es": "Este chip fue encontrado en un ordenador portátil blindado en una antigua base militar. Todos los intentos de leer el contenido del chip provocaron fallos técnicos irremediables. Incluso los hackers del nivel de Punto bromean diciendo que infecta los dispositivos cercanos, provocando fallos aleatorios, y tratan de mantenerse alejados del chip.",
+          "fr": "Cette puce a été découverte dans un ordinateur portable blindé sur une ancienne base militaire. Toutes les tentatives pour lire son contenu ont systématiquement provoqué des plantages irrémédiables des équipements. Même les hackers du niveau de Spot plaisantent en disant qu'elle infecte les appareils à proximité, provoquant des bugs aléatoires, et ils préfèrent garder leurs distances avec cette puce.",
+          "ko": "이 칩은 오래된 군사 기지의 장갑 노트북에서 발견되었다. 칩의 내용을 읽으려는 모든 시도는 장비를 무력하게 멈추게 했다고 한다.  심지어 스팟급 해커들도, 이 칩이 주변 기기를 감염시켜 무작위 오류를 일으킨다며 농담을 하며, 되도록 칩과 거리를 두려 한다."
+        }
+      }
+    }
+  ]
+}

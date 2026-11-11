@@ -1,0 +1,58 @@
+{
+  "id": "4508",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.autumn24.name",
+    "args": {},
+    "lines": {
+      "ru": "Паттерн сезона «Черный Рынок: Интервенция»",
+      "en": "Black Market: Intervention Season Pattern",
+      "es": "Patrón de temporada Mercado Negro: Intervención",
+      "fr": "Thème de la saison Marché Noir : Intervention",
+      "ko": "블랙 마켓: 개입 작전 시즌 패턴"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "16259",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.chimera_head_t1.name",
+    "args": {},
+    "lines": {
+      "ru": "Голова слабой бестии",
+      "en": "Weak Fiend's Head",
+      "es": "Cabeza de fiera débil",
+      "fr": "Tête de Démon faible",
+      "ko": "약한 악마 머리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 2,
+          "formatted": {
+            "value": {
+              "ru": "2 кг",
+              "en": "2 kg",
+              "es": "2 kg",
+              "fr": "2 kg",
+              "ko": "2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.chimera_head_t1.description",
+        "args": {},
+        "lines": {
+          "ru": "Из голов бестий обычно делают чучела, но иногда с большой земли поступают заказы на образцы для изучения – интерес представляет дублированный мозг, который хоть и недоразвит, но в случае критических повреждений способен принять на себя управление всем ее телом.",
+          "en": "Taxidermy is often made from the heads of fiends, but sometimes orders come in from the Mainland for samples that can be used for research. Of particular interest is their duplicate brain, which, despite being underdeveloped, is capable of controlling their entire body in case of critical damage.",
+          "es": "La taxidermia suele emplear cabezas de fieras, pero a veces llegan pedidos del continente de muestras que pueden utilizarse para la investigación. De especial interés es su cerebro duplicado, que, a pesar de estar poco desarrollado, puede controlar todo su cuerpo en caso de daño crítico.",
+          "fr": "La taxidermie est souvent réalisée à partir des têtes de démons, mais il arrive que des ordonnateurs viennent du Continent pour obtenir des échantillons pouvant servir à la recherche. Le cerveau dupliqué des chimères est particulièrement intéressant. Bien que sous-développé, il est capable de contrôler l'ensemble du corps en cas de dommages graves.",
+          "ko": "악마의 머리는 보통 박제가 이루어지지만, 때때로 본토에서 연구용 샘플로 요청하기도 한다. 특히 그들이 가지고 있는 복제된 두 번째 뇌에 관심이 많은데, 비록 발달은 미숙한 상태이지만 중대한 치명상을 입었을 때 전신을 충분히 제어할 능력이 있다."
+        }
+      }
+    }
+  ]
+}

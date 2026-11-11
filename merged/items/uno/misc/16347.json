@@ -1,0 +1,132 @@
+{
+  "id": "16347",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.clan.resource4.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик с оборудованием",
+      "en": "Crate of Equipment",
+      "es": "Caja de equipamiento",
+      "fr": "Caisse d'équipement",
+      "ko": "장비 상자"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 7.5,
+          "formatted": {
+            "value": {
+              "ru": "7,5 кг",
+              "en": "7.5 kg",
+              "es": "7,5 kg",
+              "fr": "7,5 kg",
+              "ko": "7.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.clan.resource4.description",
+        "args": {},
+        "lines": {
+          "ru": "@@§aМожно сдать связному",
+          "en": "@@§aCan be given to a merchant",
+          "es": "@@§aPuede entregarse a un mercader",
+          "fr": "@@§aPeut être donné à un marchand",
+          "ko": "@@§a상인에게 건네줄 수 있음"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.clan.resource4.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "С аирдропов группировок",
+          "en": "From faction airdrops",
+          "es": "En entregas aéreas de clan",
+          "fr": "Via les largages de clan",
+          "ko": "클랜의 공수 보급품들로부터 획득 가능"
+        }
+      }
+    }
+  ]
+}

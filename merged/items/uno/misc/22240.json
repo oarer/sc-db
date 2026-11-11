@@ -1,0 +1,109 @@
+{
+  "id": "22240",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.scope_acog6_f.name",
+    "args": {},
+    "lines": {
+      "ru": "Прицел оптический Trijicon ACOG, зимний",
+      "en": "Trijicon ACOG Optical Sight, Winter",
+      "es": "Mira telescópica Trijicon ACOG, invierno",
+      "fr": "Viseur optique Trijicon ACOG, Hivernal",
+      "ko": "트라이지콘 ACOG 광학조준경, 윈터"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.96,
+          "formatted": {
+            "value": {
+              "ru": "0,96 кг",
+              "en": "0.96 kg",
+              "es": "0,96 kg",
+              "fr": "0,96 kg",
+              "ko": "0.96 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 8,
+          "formatted": {
+            "value": {
+              "ru": "8%",
+              "en": "8%",
+              "es": "8%",
+              "fr": "8%",
+              "ko": "8%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 15,
+          "formatted": {
+            "value": {
+              "ru": "15%",
+              "en": "15%",
+              "es": "15%",
+              "fr": "15%",
+              "ko": "15%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

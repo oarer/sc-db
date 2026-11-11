@@ -1,0 +1,58 @@
+{
+  "id": "22815",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.att.forend_falris_ny23.name",
+    "args": {},
+    "lines": {
+      "ru": "Новогоднее цевье Fal Quad Rail",
+      "en": "New Year's Fal Quad Rail Handguard",
+      "es": "Guardamanos Fal Quad con raíl de Año Nuevo",
+      "fr": "Garde-mainsà rail quadruple du Nouvel An",
+      "ko": "새해 Fal 4중 레일 총열덮개"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.43,
+          "formatted": {
+            "value": {
+              "ru": "0,43 кг",
+              "en": "0.43 kg",
+              "es": "0,43 kg",
+              "fr": "0,43 kg",
+              "ko": "0.43 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

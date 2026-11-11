@@ -1,0 +1,77 @@
+{
+  "id": "24797",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.dmz26_mines.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «С любовью»",
+      "en": "With Love Charm",
+      "es": "Amuleto Con amor",
+      "fr": "Breloque Avec amour",
+      "ko": "사랑을 담아 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.dmz26_mines.description",
+        "args": {},
+        "lines": {
+          "ru": "Главное — это внимание. И не важно, фугасное оно, осколочное или кумулятивное.",
+          "en": "The main thing is attention. And it doesn't matter if it's explosive, fragmentary, or cumulative.",
+          "es": "Lo principal es la atención. Y no importa si es explosiva, fragmentaria o acumulativa.",
+          "fr": "L'essentiel, c'est l'attention. Peu importe si elle est explosive, à fragmentation ou cumulative.",
+          "ko": "가장 중요한 것은 주의력이다. 그것이 파편형이든, 파편 폭발형이든, 누적형이든 상관없다."
+        }
+      }
+    }
+  ]
+}

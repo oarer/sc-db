@@ -1,0 +1,77 @@
+{
+  "id": "19696",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.breakdown.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Пробой»",
+      "en": "Puncture Paint",
+      "es": "Pintura Pinchazo",
+      "fr": "Peinture anti-perforation",
+      "ko": "천공 도색"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.breakdown.description",
+        "args": {},
+        "lines": {
+          "ru": "Краска «Пробой» для брони",
+          "en": "Puncture paint for armor",
+          "es": "Pintura Pinchazo para armadura",
+          "fr": "Peinture anti-perforation pour armure",
+          "ko": "방어구용 천공 도색"
+        }
+      }
+    }
+  ]
+}

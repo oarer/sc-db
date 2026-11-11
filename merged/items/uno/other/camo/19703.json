@@ -1,0 +1,77 @@
+{
+  "id": "19703",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.media_advanced.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска продвинутого партнера",
+      "en": "Advanced Partner Paint",
+      "es": "Pintura Compañero avanzado",
+      "fr": "Peinture Partenaire Avancée",
+      "ko": "숙련된 파트너 도색"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.media_advanced.description",
+        "args": {},
+        "lines": {
+          "ru": "Краска продвинутого партнера для брони",
+          "en": "Advanced partner paint for armor",
+          "es": "Pintura Compañero avanzado para armadura",
+          "fr": "Peinture partenaire avancée pour armure",
+          "ko": "방어구용 숙련된 파트너 도색"
+        }
+      }
+    }
+  ]
+}

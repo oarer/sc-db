@@ -1,0 +1,77 @@
+{
+  "id": "24804",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.bureau_jiden.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Степной сок»",
+      "en": "Steppe Juice Charm",
+      "es": "Amuleto Jugo de estepa",
+      "fr": "Breloque Nectar des steppes",
+      "ko": "초원 주스 부적"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.bureau_jiden.description",
+        "args": {},
+        "lines": {
+          "ru": "Некогда популярный на Большой земле напиток, ящик с которым случайно попал в руки Барону. Партия была быстро распродана, однако некоторые покупатели решили сделать брелоки из пустых банок в качестве напоминания о старых деньках.",
+          "en": "A once-popular drink on the Mainland, a crate of which accidentally ended up in the hands of the Baron. The batch was quickly sold out, but some buyers decided to make keychains from the empty cans as a reminder of the good old days.",
+          "es": "Una bebida que en su día fue muy popular en el Continente y que, por casualidad, cayó en manos de Barón. La partida se vendió rápidamente, pero algunos compradores decidieron hacer llaveros con las latas vacías como recuerdo de los viejos tiempos.",
+          "fr": "Boisson autrefois prisée sur le Continent, dont un lot est tombé entre les mains du Baron par hasard. Rapidement écoulée, certains acheteurs en ont fait des porte-clés avec les canettes vides, en souvenir du bon vieux temps.",
+          "ko": "한때 본토에서 인기 있던 음료. 우연히 블랙 마켓 상자에 들어왔고, 금세 판매되었다. 일부 구매자들은 빈 캔으로 열쇠고리를 만들어 옛 시절을 기념하기도 했다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "16944",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.grin_soup.name",
+    "args": {},
+    "lines": {
+      "ru": "Суп Грина",
+      "en": "Green's Soup",
+      "es": "Sopa de Green",
+      "fr": "Soupe de Green",
+      "ko": "그린의 수프"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.5,
+          "formatted": {
+            "value": {
+              "ru": "0,5 кг",
+              "en": "0.5 kg",
+              "es": "0,5 kg",
+              "fr": "0,5 kg",
+              "ko": "0.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

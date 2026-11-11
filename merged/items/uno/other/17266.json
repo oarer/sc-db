@@ -1,0 +1,58 @@
+{
+  "id": "17266",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.melee.sledgehammer_dmz26_bake.name",
+    "args": {},
+    "lines": {
+      "ru": "Пламенная кувалда Шепота",
+      "en": "Fiery Murmur Sledgehammer",
+      "es": "Mazo llameante de Susurro",
+      "fr": "La masse enflammée du Murmure",
+      "ko": "속삭임 화염의 슬레지해머"
+    }
+  },
+  "color": "RANK_LEGEND",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.legend",
+            "args": {},
+            "lines": {
+              "ru": "Легенда",
+              "en": "Legend",
+              "es": "Leyenda",
+              "fr": "Légende",
+              "ko": "전설"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

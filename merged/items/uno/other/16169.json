@@ -1,0 +1,77 @@
+{
+  "id": "16169",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16169.name",
+    "args": {},
+    "lines": {
+      "ru": "Пластилин",
+      "en": "Modeling Clay",
+      "es": "Plastilina",
+      "fr": "Pâte à modeler",
+      "ko": "모형 점토"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16169.description",
+        "args": {},
+        "lines": {
+          "ru": "Внутренние органы зомби, обитающих на севере Зоны, подвергаются серьезным мутациям. Внутри их печени и почек часто находят эти странные образования зеленого цвета, похожие на пластилин. Ученые активно изучают их.",
+          "en": "The internal organs of zombies in the North of the Zone have undergone significant mutations. A strange green formation—similar to modeling clay—can often be found inside the liver and kidneys. Scientists are currently investigating this.",
+          "es": "Los órganos internos de los zombis del norte de la Zona han sufrido importantes mutaciones. Una extraña formación verde similar a la plastilina puede encontrarse a menudo en el interior del hígado y los riñones. Los científicos lo están investigando actualmente.",
+          "fr": "Les organes internes des zombies du nord de la zone ont subi d'importantes mutations. Une étrange formation verte - semblable à de la pâte à modeler - peut souvent être trouvée à l'intérieur du foie et des reins. Les scientifiques se penchent actuellement sur la question.",
+          "ko": "구역 북부의 좀비들은 내장이 심하게 변이되어 있으며, 간과 신장에서는 모형 점토처럼 보이는 녹색의 이상 조직이 자주 발견된다. 현재 과학자들이 이에 대한 조사를 진행 중이다."
+        }
+      }
+    }
+  ]
+}

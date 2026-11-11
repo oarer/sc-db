@@ -1,0 +1,58 @@
+{
+  "id": "31798",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.ots14m_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть ОЦ-14М «Разряд» #4",
+      "en": "OTs-14M Surge Part #4",
+      "es": "OTs-14M Sobrecarga Pieza n.° 4",
+      "fr": "Pièce OTs-14M Décharge #4",
+      "ko": "OTs-14M 서지 부품 #4"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

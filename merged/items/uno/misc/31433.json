@@ -1,0 +1,41 @@
+{
+  "id": "31433",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.lootbox.faction_top.name",
+    "args": {},
+    "lines": {
+      "ru": "Рейтинговый ящик",
+      "en": "Ratings Crate",
+      "es": "Caja de clasificación",
+      "fr": "Caisse de classement",
+      "ko": "랭크 점수 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.lootbox.faction_top.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "Нахождение в ТОП-3 подразделений фракции",
+          "en": "Being in the top 3 faction subdivisions",
+          "es": "En las 3 subdivisiones de facción superiores",
+          "fr": "Être dans le top 3 des factions de sous-divisions",
+          "ko": "소속 진영 부대가 상위 3위에 들 시 획득 가능"
+        }
+      }
+    }
+  ]
+}

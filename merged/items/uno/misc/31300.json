@@ -1,0 +1,58 @@
+{
+  "id": "31300",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setB.garland1.name",
+    "args": {},
+    "lines": {
+      "ru": "Синяя простая гирлянда",
+      "en": "Simple Blue Tree Lights",
+      "es": "Luces del árbol azules sencillas",
+      "fr": "Lumières Bleues Simples pour Sapin",
+      "ko": "간단한 파란 트리 조명"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

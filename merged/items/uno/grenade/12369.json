@@ -1,0 +1,131 @@
+{
+  "id": "12369",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.eg1.name",
+    "args": {},
+    "lines": {
+      "ru": "ЭГ-1 «Барьер»",
+      "en": "EG-1 Barrier",
+      "es": "EG-1 Barrera",
+      "fr": "EG1-Barrière",
+      "ko": "EG-1 방벽"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 кг",
+              "en": "0.25 kg",
+              "es": "0,25 kg",
+              "fr": "0,25 kg",
+              "ko": "0.25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.eg1.description",
+        "args": {},
+        "lines": {
+          "ru": "Граната с элементами артефактов создает область, значительно снижающую урон от взрывов.",
+          "en": "Grenade with elements from artifacts. Creates an area that significantly reduces damage from explosions.",
+          "es": "Granada con elementos de artefactos. Crea una zona que reduce significativamente el daño de las explosiones.",
+          "fr": "Grenade avec des éléments tirés d'artefacts. Crée une zone qui réduit significativement les dommages des explosions.",
+          "ko": "아티팩트의 성분이 들어 있는 수류탄이다. 아군이 받는 폭발 피해량을 크게 감소시키는 영역을 생성한다."
+        }
+      }
+    }
+  ]
+}

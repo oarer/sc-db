@@ -1,0 +1,77 @@
+{
+  "id": "24857",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.mt_paket.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Хруст и взрывы»",
+      "en": "Crunch and Explosions Charm",
+      "es": "Amuleto Crujidos y explosiones",
+      "fr": "Breloque Croustillant détonant",
+      "ko": "바스락과 폭발 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.mt_paket.description",
+        "args": {},
+        "lines": {
+          "ru": "Говорят, такую упаковку когда-то можно было найти на Большой земле, но чего только в Зоне ни рассказывают?",
+          "en": "They say you could once find packaging like this on the Mainland, but then again, people in the Zone say all sorts of things.",
+          "es": "Dicen que este tipo de envoltorio se podía encontrar antaño en el Gran Mundo, pero ¿cuántas cosas no se cuentan en la Zona?",
+          "fr": "On dit qu'on pouvait autrefois trouver un tel emballage sur le Continent, mais on raconte tellement de choses dans la Zone.",
+          "ko": "이런 포장은 예전에 본토에서 볼 수 있었다고들 하지만, 구역에서는 별별 이야기가 다 나오니 믿을 수 있을지는 모르겠다."
+        }
+      }
+    }
+  ]
+}

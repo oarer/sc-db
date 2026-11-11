@@ -1,0 +1,58 @@
+{
+  "id": "16590",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.resc.wpn_newbie.name",
+    "args": {},
+    "lines": {
+      "ru": "Набор компонентов оружия (Новичок)",
+      "en": "Pack of Weapon Components (Newbie)",
+      "es": "Pack de componentes de armas (novato)",
+      "fr": "Paquet de composants d'armes (Débutant)",
+      "ko": "무기 부품 팩 (초보자)"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

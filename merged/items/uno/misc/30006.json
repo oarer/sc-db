@@ -1,0 +1,58 @@
+{
+  "id": "30006",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.valuable_7.name",
+    "args": {},
+    "lines": {
+      "ru": "Промышленные запчасти",
+      "en": "Industrial Spare Parts",
+      "es": "Piezas de recambio industriales",
+      "fr": "Pièces détachées industrielles",
+      "ko": "산업용 예비 부품"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 кг",
+              "en": "0.4 kg",
+              "es": "0,4 kg",
+              "fr": "0,4 kg",
+              "ko": "0.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

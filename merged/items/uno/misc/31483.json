@@ -1,0 +1,58 @@
+{
+  "id": "31483",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "go.dmz_chest_common.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик со снаряжением 1 ур.",
+      "en": "Crate with Gear Lv 1",
+      "es": "Caja con equipamiento niv. 1",
+      "fr": "Caisse avec Équipement NV 1",
+      "ko": "장비 레벨 1 상자"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

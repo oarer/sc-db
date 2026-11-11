@@ -1,0 +1,58 @@
+{
+  "id": "31357",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setF.garland2.name",
+    "args": {},
+    "lines": {
+      "ru": "Плюшевая хорошая гирлянда",
+      "en": "Nice Plush Tree Lights",
+      "es": "Luces del árbol de peluche bonitas",
+      "fr": "Jolies Lumières de Sapin en Peluche",
+      "ko": "멋진 봉제 트리 조명"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

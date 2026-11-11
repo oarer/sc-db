@@ -1,0 +1,58 @@
+{
+  "id": "4307",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.background.na_flag.name",
+    "args": {},
+    "lines": {
+      "ru": "Фон «Звезднополосатый»",
+      "en": "Stars and Stripes Background",
+      "es": "Fondo Estrellas y Franjas",
+      "fr": "Fond Étoilé-rayé",
+      "ko": "성조기 무늬 배경"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

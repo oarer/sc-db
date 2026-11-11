@@ -1,0 +1,145 @@
+{
+  "id": "22561",
+  "category": "attachment/barrel",
+  "name": {
+    "type": "translation",
+    "key": "item.att.silencer_mcq.name",
+    "args": {},
+    "lines": {
+      "ru": "Knights QDC/MCQ-PRT 556",
+      "en": "Knights QDC/MCQ-PRT 556",
+      "es": "Knights QDC/MCQ-PRT 556",
+      "fr": "Knights QDC/MCQ-PRT 556",
+      "ko": "나이트 QDC/MCQ-PRT 556"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.368,
+          "formatted": {
+            "value": {
+              "ru": "0,37 кг",
+              "en": "0.37 kg",
+              "es": "0,37 kg",
+              "fr": "0,37 kg",
+              "ko": "0.37 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.spread",
+            "args": {},
+            "lines": {}
+          },
+          "value": -8.13,
+          "formatted": {
+            "value": {
+              "ru": "-8,13%",
+              "en": "-8.13%",
+              "es": "-8,13%",
+              "fr": "-8,13%",
+              "ko": "-8.13%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": -6,
+          "formatted": {
+            "value": {
+              "ru": "-6%",
+              "en": "-6%",
+              "es": "-6%",
+              "fr": "-6%",
+              "ko": "-6%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    }
+  ]
+}

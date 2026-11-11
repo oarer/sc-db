@@ -1,0 +1,58 @@
+{
+  "id": "18807",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.mtl.arm.leather.name",
+    "args": {},
+    "lines": {
+      "ru": "«Крепкая кожа»",
+      "en": "Thick Skin",
+      "es": "Piel gruesa",
+      "fr": "Peau Épaisse",
+      "ko": "두꺼운 피부"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

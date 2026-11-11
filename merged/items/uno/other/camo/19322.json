@@ -1,0 +1,58 @@
+{
+  "id": "19322",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.dayx_twitch_skin_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Заряженный обсидиан Twitch»",
+      "en": "Charged Twitch Obsidian Paint",
+      "es": "Pintura Obsidiana de Twitch cargada",
+      "fr": "Peinture Obsidienne Twitch Chargée",
+      "ko": "충전된 트위치 흑요석 도색"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

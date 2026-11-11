@@ -1,0 +1,58 @@
+{
+  "id": "16518",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.16518.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик патронов 7.62 мм",
+      "en": "Crate of 7.62 mm Rounds",
+      "es": "Caja de munición de 7,62 mm",
+      "fr": "Caisse de balles de 7.62 mm",
+      "ko": "7.62 mm 탄약 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 10.1,
+          "formatted": {
+            "value": {
+              "ru": "10,1 кг",
+              "en": "10.1 kg",
+              "es": "10,1 kg",
+              "fr": "10,1 kg",
+              "ko": "10.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

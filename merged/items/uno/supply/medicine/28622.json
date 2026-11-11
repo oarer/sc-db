@@ -1,0 +1,176 @@
+{
+  "id": "28622",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.28622.name",
+    "args": {},
+    "lines": {
+      "ru": "Расписка от Легионера «Молодец»",
+      "en": "\"Good Boy\" note from Legionnaire",
+      "es": "Nota \"buen chico\" de Legionario",
+      "fr": "Note « Gentil garçon» de Légionnaire",
+      "ko": "리전에어의 [말 잘 듣는 놈] 쪽지"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 3,
+          "formatted": {
+            "value": {
+              "ru": "3 с",
+              "en": "3 sec",
+              "es": "3 s",
+              "fr": "3 s",
+              "ko": "3초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "value": 14,
+          "formatted": {
+            "value": {
+              "ru": "14%",
+              "en": "14%",
+              "es": "14%",
+              "fr": "14%",
+              "ko": "14%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": -30,
+          "formatted": {
+            "value": {
+              "ru": "-30%",
+              "en": "-30%",
+              "es": "-30%",
+              "fr": "-30%",
+              "ko": "-30%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28622.description",
+        "args": {},
+        "lines": {
+          "ru": "На помятом листочке карандашом написано «Примат молодец, можно дать ему пирожок». Ниже виднеется небольшая подпись Легионера.@@§2Можно продать Голиафу",
+          "en": "On the crumpled page, the words \"This ape's a good boy. You can give him a cake\" are written in pencil. Below that, you can make out Legionnaire's small signature.@@§2Can be sold to Goliath",
+          "es": "En la página arrugada, aparecen escritas a lápiz las palabras \"Este simio es un buen chico. Puedes darle una tarta\". Debajo se distingue la pequeña firma de Legionario.@@§2Se puede vender a Goliat",
+          "fr": "Sur la page froissée, les mots « Ce macaque est un gentil garçon. Vous pouvez lui donner un gâteau ». En dessous de cela, vous remarquez la petite signature de Légionnaire@@§2Peut être vendu à Goliath",
+          "ko": "구겨진 페이지에 연필로 [이 원숭이 녀석은 꽤 말을 잘 듣는다. 케이크 하나 주라고]라고 적혀 있다. 그 아래에는 리전에어의 작은 서명이 보인다.@@§2골리앗에게 팔 수 있음"
+        }
+      }
+    }
+  ]
+}

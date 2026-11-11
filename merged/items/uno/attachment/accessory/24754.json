@@ -1,0 +1,77 @@
+{
+  "id": "24754",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.autumn25_pass_5.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Мертвая хватка»",
+      "en": "Stranglehold Charm",
+      "es": "Amuleto Tenaza mortal",
+      "fr": "Breloaue Poigne de mort",
+      "ko": "교살 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.autumn25_pass_5.description",
+        "args": {},
+        "lines": {
+          "ru": "Обработанная лапка крысы, помещенная в гильзу от пули. До сих пор немного попахивает формалином.\\n\\nЛишь немногие из охотников Зоны могут сделать из тушки мутанта полноценное чучело, однако это не мешает им время от времени пытаться покрасоваться, выставляя подобное «творчество» на аукцион.",
+          "en": "A preserved rat's paw, placed in a bullet casing, still faintly smelling of formalin.\\n\\nOnly a few hunters in the Zone can turn a mutant carcass into a full-fledged taxidermy piece, yet this doesn't stop them from occasionally trying to show off by putting such 'creations' up for auction.",
+          "es": "Pata de rata tratada, colocada en un casquillo de bala. Aún huele un poco a formalina.\\n\\nSólo unos pocos cazadores de la Zona pueden convertir el cadáver de un mutante en un verdadero trofeo, sin embargo, esto no les impide intentar presumir de vez en cuando exhibiendo este tipo de creaciones en una subasta.",
+          "fr": "Patte de rat traitée, placée dans une douille de balle. Elle dégage encore une légère odeur de formol.\\n\\nSeuls quelques chasseurs de la Zone sont capables de transformer la carcasse d'un mutant en un véritable animal empaillé, mais cela ne les empêche pas d'essayer de temps en temps de se mettre en valeur en mettant en vente leurs créations aux enchères.",
+          "ko": "탄피에 든 방부처리 한 시궁쥐의 다리. 여전히 희미하게 포르말린 냄새를 풍긴다.\\n\\n구역 내 소수의 사냥꾼만이 돌연변이의 뼈대로 완벽한 박제를 만들어낼 수 있지만, 가끔은 이런 \"작품\"들이 경매장에 올라오기도 한다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24802",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.exorcism_chrism.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Хризма»",
+      "en": "Christogram Charm",
+      "es": "Amuleto Crismón",
+      "fr": "Breloque Chrisme",
+      "ko": "크리스토그램  부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.exorcism_chrism.description",
+        "args": {},
+        "lines": {
+          "ru": "Священный знак, вырезанный из дерева Андреем Рублевым.",
+          "en": "The Sacred Sign, carved in wood by Andrey Rublyov.",
+          "es": "Un signo sagrado tallado en madera por Andréi Rubliov.",
+          "fr": "Un panneau sacré sculpté dans le bois par Andrey Rublyov.",
+          "ko": "안드레이 루블료프가 목재로 새긴 신성한 표식입니다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "10190",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.unknown_typoon.name",
+    "args": {},
+    "lines": {
+      "ru": "Кассета неизвестного",
+      "en": "Unknown Stalker Cassette",
+      "es": "Casete de un desconocido",
+      "fr": "Cassette d'un inconnu",
+      "ko": "정체불명의 카세트"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.unknown_typoon.description",
+        "args": {},
+        "lines": {
+          "ru": "Кассета, найденная на теле неизвестного сталкера в районе Кузни.",
+          "en": "A cassette found on an unknown stalker's body in the Forge area.",
+          "es": "Casete encontrado en el cuerpo de un acechador desconocido en el área de la Forja.",
+          "fr": "Cassette trouvée sur le corps d'un Stalker inconnu dans la région de la Forge.",
+          "ko": "포지 지역에서 발견된 정체불명의 시신에서 나온 카세트."
+        }
+      }
+    }
+  ]
+}

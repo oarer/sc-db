@@ -1,0 +1,58 @@
+{
+  "id": "31779",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.exomod_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть экзоскелета «Гектор» #3",
+      "en": "Hector Exoskeleton Part #3",
+      "es": "Exoesqueleto Héctor Pieza n.° 3",
+      "fr": "Pièce de l'Exosquelette Hector #3",
+      "ko": "헥토르 외골격 부품 #3"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

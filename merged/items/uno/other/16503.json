@@ -1,0 +1,77 @@
+{
+  "id": "16503",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.crt.summer_26.name",
+    "args": {},
+    "lines": {
+      "ru": "Картридж",
+      "en": "Cartridge",
+      "es": "Cartucho",
+      "fr": "Cartouche",
+      "ko": "카트리지"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.crt.summer_26.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшие аналоговые устройства хранения информации, заключенные в специальный защитный экранированный корпус. Несмотря на стремительный скачок в развитии технологий, ССОП полагается на надежную классическую электронику в вопросах передачи особо секретной информации. Данные на таких носителях засекречены и фрагментированы, поэтому обладание одним картриджем не дает доступа ко всему массиву засекреченных данных.",
+          "en": "Small analog data storage devices enclosed in a specially shielded protective casing. Despite the rapid pace of technological advancement, SSPP relies on dependable classic electronics for the transmission of highly classified information. The data stored on such media is classified and fragmented, so possession of a single cartridge does not provide access to the entire body of classified data.",
+          "es": "Pequeños dispositivos analógicos de almacenamiento de información, alojados en una carcasa especial blindada y protectora. A pesar del vertiginoso avance tecnológico, SSPE se basa en una electrónica clásica y fiable para la transmisión de información de alto secreto. Los datos en estos soportes están clasificados y fragmentados, por lo que la posesión de un solo cartucho no da acceso a todo el conjunto de datos clasificados.",
+          "fr": "Petits dispositifs de stockage analogiques enfermés dans un boîtier spécial blindé de protection. Malgré le bond rapide dans le développement des technologies, les SSPP s'appuient sur une électronique classique fiable pour la transmission d'informations particulièrement secrètes. Les données sur ces supports sont cryptées et fragmentées, de sorte que la possession d'une seule cartouche ne donne pas accès à l'ensemble du volume de données classifiées.",
+          "ko": "작은 아날로그식 정보 저장 장치로, 특수한 보호 차폐 케이스에 담겨 있다. 기술이 빠르게 발전했음에도 불구하고 SSPP는 극비 정보 전달에서는 신뢰성 높은 전통적인 전자 장비에 의존한다. 이러한 매체에 저장된 데이터는 기밀로 분할되어 있어, 카트리지 하나만으로는 전체 비밀 정보에 접근할 수 없다."
+        }
+      }
+    }
+  ]
+}

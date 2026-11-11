@@ -1,0 +1,58 @@
+{
+  "id": "8242",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.vodka_case.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик водки",
+      "en": "Crate of Vodka",
+      "es": "Caja de vodka",
+      "fr": "Caisse de vodka",
+      "ko": "증류주 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 40,
+          "formatted": {
+            "value": {
+              "ru": "40 кг",
+              "en": "40 kg",
+              "es": "40 kg",
+              "fr": "40 kg",
+              "ko": "40 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

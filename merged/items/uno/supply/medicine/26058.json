@@ -1,0 +1,149 @@
+{
+  "id": "26058",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.inside_nootrop_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Экспериментальный ноотроп",
+      "en": "Experimental Nootropic",
+      "es": "Nootrópico experimental",
+      "fr": "Nootropique expérimental",
+      "ko": "실험용 항정신제"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.04,
+          "formatted": {
+            "value": {
+              "ru": "0,04 кг",
+              "en": "0.04 kg",
+              "es": "0,04 kg",
+              "fr": "0,04 kg",
+              "ko": "0.04 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 с",
+              "en": "2.5 sec",
+              "es": "2,5 s",
+              "fr": "2,5 s",
+              "ko": "2.5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.inside_nootrop_3.description",
+        "args": {},
+        "lines": {
+          "ru": "Экспериментальная версия ноотропа показывает очень хорошие результаты, обеспечивая мощную и продолжительную защиту от агрессивной среды Изнанки.",
+          "en": "This experimental version of a nootropic is particularly effective, providing powerful and long-lasting protection from the aggressive effects of the Inside Out.",
+          "es": "Esta versión experimental de un nootrópico es especialmente eficaz, ya que proporciona una protección potente y duradera frente a los efectos agresivos del Reverso.",
+          "fr": "Cette version expérimentale d'un nootropique est particulièrement efficace, offrant une protection puissante et durable contre les effets agressifs de l'Envers.",
+          "ko": "실험적으로 개량된 이 항정신제는 특히 효과적이다. 뒤집힌 세계의 공격적인 영향으로부터 강력하고 지속적인 보호를 제공합니다."
+        }
+      }
+    }
+  ]
+}

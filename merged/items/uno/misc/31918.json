@@ -1,0 +1,77 @@
+{
+  "id": "31918",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.backbomb.name",
+    "args": {},
+    "lines": {
+      "ru": "Рюкзак с лампами",
+      "en": "Volatile Backpack",
+      "es": "Mochila volátil",
+      "fr": "Sac à dos Volatile",
+      "ko": "폭발성 배낭"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.backbomb.description",
+        "args": {},
+        "lines": {
+          "ru": "Рюкзак, начиненный нестабильными реагентами, полученными учеными в ходе полевых исследований на Буране. Вам следует передать его яйцеголовым как можно скорее, а то эта лихая смесь может рвануть!",
+          "en": "A backpack filled with unstable reagents obtained by scientists during Blizzard field research. You should hand it over to the egghead as soon as possible, or this wild concoction might explode!",
+          "es": "Una mochila llena de reactivos inestables obtenidos por los científicos durante la investigación de campo de la ventisca. Deberías entregársela al bata blanca lo antes posible, ¡no sea que vuele por los aires!",
+          "fr": "Un sac à dos rempli de réactifs instables obtenus par des scientifiques lors de recherches sur le terrain dans au Blizzard. Vous devez le remettre à la tête d'œuf dès que possible, sinon cette concoction sauvage risque d'exploser !",
+          "ko": "과학자들이 눈보라 현장 연구 중 확보한 불안정한 시약들로 가득 찬 배낭이다. 가능한 한 빨리 그 대머리 녀석에게 넘기지 않으면, 이 흉폭한 혼합물이 폭발할지도 모른다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24724",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_marketing_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Гормон»",
+      "en": "Hormone Charm",
+      "es": "Amuleto Hormona",
+      "fr": "Amulette Hormone",
+      "ko": "호르몬 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_marketing_2.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшой шприц с биоактивной жидкостью. Найден на теле мертвого Гласа «Шепота».",
+          "en": "A small syringe with bioactive liquid. Found on the body of the dead Murmur Voice.",
+          "es": "Una pequeña jeringuilla de fluido bioactivo. Encontrada en el cuerpo de Voz muerto de Susurro.",
+          "fr": "Une petite seringue remplie d'un liquide bioactif. Trouvée sur le cadavre de la Voix du Murmure.",
+          "ko": "생체 활성 액체가 들어 있는 작은 주사기다. 속삭임 소속 목소리의 시신에서 발견됐다."
+        }
+      }
+    }
+  ]
+}

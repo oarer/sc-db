@@ -1,0 +1,113 @@
+{
+  "id": "28714",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.key.halloween_2024.name",
+    "args": {},
+    "lines": {
+      "ru": "Купон на «Черный презент»",
+      "en": "Coupon for Black Present",
+      "es": "Cupón de \"regalo negro\"",
+      "fr": "Bon pour Cadeau Noir",
+      "ko": "검은 선물 쿠폰"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.key.halloween_2024.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "Приобретение в торговых терминалах на Марафоне Мертвецов",
+          "en": "Purchase at trading terminals during the Dead Man's Marathon",
+          "es": "Compra en los terminales comerciales durante la Maratón del Hombre Muerto",
+          "fr": "Achat aux terminaux de commerce pendant le Marathon de l'Homme Mort",
+          "ko": "죽은 자의 마라톤 기간 동안 거래 단말기에서 구매하세요"
+        }
+      }
+    }
+  ]
+}

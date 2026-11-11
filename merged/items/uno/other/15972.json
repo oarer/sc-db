@@ -1,0 +1,77 @@
+{
+  "id": "15972",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.crt.autumn_25_episode_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Мицена Урановая",
+      "en": "Uranium Mycena",
+      "es": "Mycena Uranio",
+      "fr": "Mycène d'Uranium",
+      "ko": "우라늄 마이세나"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.crt.autumn_25_episode_3.description",
+        "args": {},
+        "lines": {
+          "ru": "Найти подобный гриб — невероятная удача. Яркий алый цвет шляпки обусловлен способностью Мицены накапливать энергию выбросов. Данное свойство несет в себе большой научный потенциал, но практического применения еще не нашло — исследования начались совсем недавно.",
+          "en": "Finding such a mushroom is an incredible stroke of luck. The bright scarlet color of the cap is due to Mycena's ability to accumulate emission energy. This property holds great scientific potential, but it has not yet found practical application, as research only began recently.",
+          "es": "Encontrar un hongo similar es una suerte increíble. El color escarlata brillante del sombrero se debe a la capacidad de la Mycena para acumular la energía de las emisiones. Esta propiedad tiene un gran potencial científico, aunque aún no ha encontrado aplicación práctica, ya que las investigaciones comenzaron hace muy poco.",
+          "fr": "Découvrir un tel champignon relève d'une incroyable chance. La couleur écarlate de son chapeau est due à la capacité de la Mycène d'accumuler l'énergie des éruptions. Cette propriété recèle un grand potentiel scientifique, mais n'a pas encore trouvé d'application pratique — les recherches n'en sont qu'à leurs débuts.",
+          "ko": "이 버섯을 찾는 것은 뜻밖의 행운입니다. 버섯의 갓이 밝은 선홍색인 이유는 마이세나 버섯이 방출 에너지를 축적하는 능력이 있기 때문입니다. 이 효능은 방대한 과학적 잠재력을 지니고 있으나, 연구가 시작된지 얼마 되지 않아 아직 실용적으로 사용되지 않고 있습니다."
+        }
+      }
+    }
+  ]
+}

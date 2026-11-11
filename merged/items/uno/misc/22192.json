@@ -1,0 +1,151 @@
+{
+  "id": "22192",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.handgrip_magpul_ny23.name",
+    "args": {},
+    "lines": {
+      "ru": "Новогодняя рукоятка KAC Vertical Foregrip",
+      "en": "New Year's KAC Vertical Foregrip Grip",
+      "es": "Empuñadura vertical KAC de Año Nuevo",
+      "fr": "Poignée avant verticale Tactique KAC du Nouvel an",
+      "ko": "새해 KAC 수직 포어그립 손잡이"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.08,
+          "formatted": {
+            "value": {
+              "ru": "0,08 кг",
+              "en": "0.08 kg",
+              "es": "0,08 kg",
+              "fr": "0,08 kg",
+              "ko": "0.08 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.horizontal_recoil",
+            "args": {},
+            "lines": {}
+          },
+          "value": -6,
+          "formatted": {
+            "value": {
+              "ru": "-6%",
+              "en": "-6%",
+              "es": "-6%",
+              "fr": "-6%",
+              "ko": "-6%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {}
+          },
+          "value": -6.4,
+          "formatted": {
+            "value": {
+              "ru": "-6,4%",
+              "en": "-6.4%",
+              "es": "-6,4%",
+              "fr": "-6,4%",
+              "ko": "-6.4%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.draw_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 20,
+          "formatted": {
+            "value": {
+              "ru": "20%",
+              "en": "20%",
+              "es": "20%",
+              "fr": "20%",
+              "ko": "20%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {}
+          },
+          "value": -16,
+          "formatted": {
+            "value": {
+              "ru": "-16%",
+              "en": "-16%",
+              "es": "-16%",
+              "fr": "-16%",
+              "ko": "-16%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24629",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer24_zivcas.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Логотип ZIVCAS»",
+      "en": "ZIVCAS Logo charm",
+      "es": "Amuleto Logotipo de ZIVCAS",
+      "fr": "Breloque Logo ZIVCAS",
+      "ko": "지브카스 로고 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer24_zivcas.description",
+        "args": {},
+        "lines": {
+          "ru": "Сувенир на память желающим ознакомиться с новейшими  разработками корпорации.\\n\\nP.S. Все разработки корпорации строго засекречены, любое разглашение преследуется законом.",
+          "en": "A souvenir for those wishing to get acquainted with the latest developments of the corporation.\\n\\nP.S. All developments of the corporation are strictly classified, any disclosure is prosecuted by law.",
+          "es": "Un recuerdo para quienes deseen conocer los últimos avances de la corporación.\\n\\nP. D.: Todos los avances de la corporación son estrictamente confidenciales, cualquier revelación está penada por la ley.",
+          "fr": "Un souvenir pour ceux voulant se familiariser avec les derniers développements de la société.\\n\\nP.-S. Tous les développement de la société son strictement classifiés, toute divulgation fera l'objet de poursuite pénales.",
+          "ko": "기업의 최신 개발품에 대해 알고 싶어하는 이들을 위한 기념품.\\n\\n추신) 기업의 모든 개발품은 엄격히 기밀이며, 어떠한 유출도 법적으로 처벌받습니다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "22454",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.lcu_anpeq6.name",
+    "args": {},
+    "lines": {
+      "ru": "Оскверненный тактический блок AN/PEQ 666",
+      "en": "Desecrated AN/PEQ 666 Tactical Unit",
+      "es": "Unidad táctica AN/PEQ 666 profanada",
+      "fr": "Unité tactique AN/PEQ 666 désacralisée",
+      "ko": "불경한 AN/PEQ 666 전술장치"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.lcu_anpeq6.description",
+        "args": {},
+        "lines": {
+          "ru": "Цвет лазера - фиолетовый",
+          "en": "Laser color: purple",
+          "es": "Color del láser: morado",
+          "fr": "Couleur du laser : violet",
+          "ko": "레이저 색상: 보라"
+        }
+      }
+    }
+  ]
+}

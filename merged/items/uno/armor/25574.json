@@ -1,0 +1,167 @@
+{
+  "id": "25574",
+  "category": "armor",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.topaz_encaged.name",
+    "args": {},
+    "lines": {
+      "ru": "«Медик»",
+      "en": "Medic",
+      "es": "Médico",
+      "fr": "Médecin",
+      "ko": "의무병"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 7.3,
+          "formatted": {
+            "value": {
+              "ru": "7,3 кг",
+              "en": "7.3 kg",
+              "es": "7,3 kg",
+              "fr": "7,3 kg",
+              "ko": "7.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.topaz_encaged.description",
+        "args": {},
+        "lines": {
+          "ru": "Изношенный комбинезон медика, пропитанный кровью и надеждой тех, кого он пытался спасти. Эта броня хранит жизнь в самых отчаянных ситуациях, но не укроет от ужаса, что крадется за спиной...",
+          "en": "A worn medical jumpsuit soaked in the blood and hopes of those he tried to save. This armor preserves life in the most desperate situations, but won't shield from the horror lurking behind...",
+          "es": "Un desgastado traje de médico empapado en la sangre y las esperanzas de aquellos a los que intentó salvar. Esta armadura mantiene la vida en las situaciones más desesperadas, pero no te protegerá del horror que acecha a tus espaldas...",
+          "fr": "Combinaison usée de médecin, imprégnée du sang et de l'espoir de ceux qu'il a tenté de sauver. Cette armure conserve la vie dans les situations les plus désespérées, mais ne protège pas de l'horreur qui se glisse derrière ton dos...",
+          "ko": "구해내려던 이들의 피와 희망으로 젖은 낡은 의료 점프슈트. 이 방어구는 가장 절망적인 상황에서도 생명을 지켜주지만, 그 뒤에 도사린 공포로부터는 보호하지 못한다..."
+        }
+      }
+    }
+  ]
+}

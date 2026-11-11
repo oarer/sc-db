@@ -1,0 +1,77 @@
+{
+  "id": "19673",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.red_threat.name",
+    "args": {},
+    "lines": {
+      "ru": "Камуфляж «Красная угроза»",
+      "en": "Red Threat Camouflage",
+      "es": "Camuflaje Amenaza roja",
+      "fr": "Camouflage Alerte Rouge",
+      "ko": "붉은 위협 캐모"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.red_threat.description",
+        "args": {},
+        "lines": {
+          "ru": "Камуфляж «Красная угроза» для брони",
+          "en": "Red Threat camouflage for armor",
+          "es": "Camuflaje Amenaza roja para armadura",
+          "fr": "Camouflage pour armure Alerte Rouge",
+          "ko": "방어구용 붉은 위협 캐모"
+        }
+      }
+    }
+  ]
+}

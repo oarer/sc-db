@@ -1,0 +1,167 @@
+{
+  "id": "25573",
+  "category": "armor/combat",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.heavyaltyn_encaged.name",
+    "args": {},
+    "lines": {
+      "ru": "«Солдат»",
+      "en": "Soldier",
+      "es": "Soldado",
+      "fr": "Soldat",
+      "ko": "병사"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 12,
+          "formatted": {
+            "value": {
+              "ru": "12 кг",
+              "en": "12 kg",
+              "es": "12 kg",
+              "fr": "12 kg",
+              "ko": "12 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.heavyaltyn_encaged.description",
+        "args": {},
+        "lines": {
+          "ru": "Броня безымянного солдата, что идет щитом впереди группы безрассудных исследователей загадочной подземки. Защита крепка, но едва ли защитит от обитателя мрачных глубин...",
+          "en": "The armor of the nameless soldier who marches with the shield ahead of a group of reckless explorers of the mysterious underground. The protection is strong, but it's unlikely to defend against the dweller of the dark depths...",
+          "es": "La armadura del soldado sin nombre que marcha con el escudo por delante de un grupo de exploradores temerarios del misterioso subsuelo. La protección es fuerte, pero es poco probable que defienda contra el habitante de las oscuras profundidades...",
+          "fr": "Armure du soldat sans nom qui marche en bouclier devant un groupe d'explorateurs téméraires de l'obscurité souterraine. La protection est solide, mais insuffisante face aux habitants des profondeurs sombres...",
+          "ko": "이 방어구는 신비한 지하를 탐험하는 무모한 일행의 선두에서 방패를 들고 행진하는 무명의 병사의 것이다. 보호력은 강력하지만, 어둠 속 깊은 곳에 서식하는 존재로부터는 방어할 수 없을 것이다..."
+        }
+      }
+    }
+  ]
+}

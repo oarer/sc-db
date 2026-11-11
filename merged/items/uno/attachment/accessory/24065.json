@@ -1,0 +1,77 @@
+{
+  "id": "24065",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.24065.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Орел»",
+      "en": "Eagle Charm",
+      "es": "Amuleto Águila",
+      "fr": "Breloque Aigle",
+      "ko": "독수리 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.24065.description",
+        "args": {},
+        "lines": {
+          "ru": "Деревянная фигурка орла. Маленький талисман, похоже, ранее носился на веревке. Орел, сидящий на надписи из четырех букв SPQR.",
+          "en": "A wooden eagle figurine. A small talisman that looks like it was once hung on a rope. The eagle sits atop the four letters SPQR.",
+          "es": "Una figura de águila de madera. Un pequeño talismán que parece haber estado colgado de una cuerda. El águila está posada sobre cuatro letras: SPQR.",
+          "fr": "Une figurine d'aigle en bois. Un petit talisman qui semble avoir été accroché à une corde. L'aigle est posé sur les quatre lettres SPQR.",
+          "ko": "나무로 만들어진 독수리 조각상이다. 새끼줄에 걸려 있었던 것 같은 작은 부적이다. 독수리가 SPQR 네 글자 위에 앉아 있다."
+        }
+      }
+    }
+  ]
+}

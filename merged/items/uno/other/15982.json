@@ -1,0 +1,77 @@
+{
+  "id": "15982",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.crt.autumn_24.name",
+    "args": {},
+    "lines": {
+      "ru": "ЧР-чек",
+      "en": "BM-check",
+      "es": "Cheque MN",
+      "fr": "Vérification-BM",
+      "ko": "BM-수표"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.crt.autumn_24.description",
+        "args": {},
+        "lines": {
+          "ru": "Эти специальные чеки Черный Рынок использует для некоторых внутренних финансовых операций.",
+          "en": "These special checks are used by the Black Market for some internal financial operations.",
+          "es": "En el Mercado Negro se utilizan estos cheques especiales para ciertas operaciones financieras internas.",
+          "fr": "Ces vérifications spéciales sont utilisées par le Marché Noir pour certaines opérations financières internes.",
+          "ko": "이 특별한 화폐는 블랙 마켓 내부의 일부 금융 활동에 사용된다."
+        }
+      }
+    }
+  ]
+}

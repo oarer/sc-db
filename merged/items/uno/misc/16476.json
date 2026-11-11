@@ -1,0 +1,58 @@
+{
+  "id": "16476",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.crt.inside_onyx.name",
+    "args": {},
+    "lines": {
+      "ru": "Оникс Изнанки",
+      "en": "Inside Out Onyx",
+      "es": "Ónice del Reverso",
+      "fr": "Onyx de l'Inside Out",
+      "ko": "뒤집힌 세계 오닉스"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.0015,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

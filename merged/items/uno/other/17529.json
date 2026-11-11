@@ -1,0 +1,77 @@
+{
+  "id": "17529",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.style.wpn.svu_merc.name",
+    "args": {},
+    "lines": {
+      "ru": "«Железная Леди»",
+      "en": "Iron Lady",
+      "es": "Señora de hierro",
+      "fr": "Dame de fer",
+      "ko": "아이언 레이디"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.style.wpn.svu_merc.description",
+        "args": {},
+        "lines": {
+          "ru": "Наемники всегда были фанатами качественного пинапа. В конце концов, может ли что-то вдохновить в бою сильнее, чем осознание того, что в твоих руках настоящая «Железная Леди»?",
+          "en": "Mercenaries have always been fans of quality pin-up. After all, what can inspire you in battle more than the realization that you are holding a true Iron Lady?",
+          "es": "A los mercenarios siempre les han gustado las chicas de revista. Al fin y al cabo, ¿qué mejor inspiración para el combate que la certeza de portar a una auténtica Señora de hierro?",
+          "fr": "Les mercenaires ont toujours été fans de pin-up de qualité. Après tout, qu'est-ce qui peut vous inspirer plus au combat que de réaliser que vous détenez une véritable Dame de Fer ?",
+          "ko": "용병들은 언제나 퀄리티 높은 핀업 걸의 열렬한 팬이었습니다. 하긴, 전장에서 내 손에 진짜 \"아이언 레이디\"가 들려 있다는 사실만큼 사기를 돋워주는 게 또 있을까요?"
+        }
+      }
+    }
+  ]
+}

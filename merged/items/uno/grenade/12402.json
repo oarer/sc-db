@@ -1,0 +1,131 @@
+{
+  "id": "12402",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.ops.hunt.name",
+    "args": {},
+    "lines": {
+      "ru": "«Провокация»",
+      "en": "Taunt",
+      "es": "Burla",
+      "fr": "Provocation",
+      "ko": "도발"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.ops.hunt.description",
+        "args": {},
+        "lines": {
+          "ru": "Разбитие колбы с феромонами привлекает внимание мутантов и заставляет атаковать владельца. Защита владельца от разрыва увеличивается.",
+          "en": "Breaking a pheromone flask attracts the attention of mutants and makes them attack the flask's owner. The owner's protection against laceration is increased.",
+          "es": "Romper un frasco de feromonas atrae la atención de los mutantes y hace que ataquen al propietario del frasco. Aumenta la defensa del propietario contra la laceración.",
+          "fr": "Le fait de briser une fiole de phéromones attire l'attention des mutants et les incite à attaquer le propriétaire de la fiole. La protection du propriétaire contre les lacérations est augmentée.",
+          "ko": "페로몬 플라스크를 깨뜨려 자신을 공격하도록 돌연변이들을 도발한다. 시전자는 받는 열상 피해 보호율이 증가한다."
+        }
+      }
+    }
+  ]
+}

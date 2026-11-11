@@ -1,0 +1,77 @@
+{
+  "id": "19704",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.spike.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Спайк»",
+      "en": "Spike Paint",
+      "es": "Pintura Pincho",
+      "fr": "Peinture à Pics",
+      "ko": "가시 도색"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.spike.description",
+        "args": {},
+        "lines": {
+          "ru": "Краска «Спайк» для брони",
+          "en": "Spike paint for armor",
+          "es": "Pintura Pincho para armadura",
+          "fr": "Peinture à pics pour armure",
+          "ko": "방어구용 가시 도색"
+        }
+      }
+    }
+  ]
+}

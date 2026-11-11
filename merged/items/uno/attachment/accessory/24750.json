@@ -1,0 +1,77 @@
+{
+  "id": "24750",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.autumn25_pass_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Амулет Свидетеля»",
+      "en": "Witness Amulet Charm",
+      "es": "Amuleto Medallón de Testigo",
+      "fr": "Breloque Amulette du Témoin",
+      "ko": "증인 아뮬렛 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.autumn25_pass_1.description",
+        "args": {},
+        "lines": {
+          "ru": "Резная подвеска из кости мутанта, сделанная неизвестным сталкером.\\n\\nХотя среди сталкеров имеется примета об удаче, которую приманивают останки мутантов, лишь немногие из обитателей Зоны действительно верят в подобное. Тем не менее, из-за сложности обработки кости мутантов такие изделия крайне ценятся как внутри Периметра, так и за его пределами.",
+          "en": "A carved pendant made from mutant bone by an unknown stalker.\\n\\nWhile there is a superstition among stalkers that mutant remains attract luck, only a few inhabitants of the Zone truly believe in this. Nevertheless, due to the complexity of working with mutant bones, such items are highly valued both within the Perimeter and beyond.",
+          "es": "Colgante tallado de hueso de mutante, hecho por un acechador desconocido.\\n\\nAunque entre los acechadores existe la creencia de la suerte que atraen los restos de mutantes, solo unos pocos habitantes de la Zona realmente creen en ello. Sin embargo, debido a la dificultad de trabajar con hueso de mutante, estos objetos son muy valorados tanto dentro del Perímetro como fuera de él.",
+          "fr": "Pendentif sculpté dans l'os d'un mutant, fabriqué par un stalker inconnu. \\n\\nBien qu'il existe parmi les stalkers une croyance selon laquelle les restes de mutants portent chance, rares sont les habitants de la Zone qui y croient vraiment. Néanmoins, en raison de la difficulté à travailler l'os des mutants, ces objets sont extrêmement prisés tant à l'intérieur qu'à l'extérieur du Périmètre.",
+          "ko": "이름모를 스토커가 돌연변이 뼈를 깎아 만든 펜던트.\\n\\n스토커들 사이에 돌연변이의 신체 일부가 행운을 불러온다는 미신이 있지만, 구역에서 이를 진짜로 믿는 자들은 극소수이다. 그렇지만 돌연변이의 뼈를 세공하는 기술엔 많은 노력이 들어가기 때문에, 이런 아이템들은 반경 내외에서 높은 가치를 지닌다."
+        }
+      }
+    }
+  ]
+}

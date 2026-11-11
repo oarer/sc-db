@@ -1,0 +1,77 @@
+{
+  "id": "16133",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.limansk.12077.name",
+    "args": {},
+    "lines": {
+      "ru": "Флешка НАТО",
+      "en": "NATO Flash Drive",
+      "es": "Memoria USB de la OTAN",
+      "fr": "Clé USB de l'OTAN",
+      "ko": "NATO 군 USB 드라이브"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg",
+              "es": "0,05 kg",
+              "fr": "0,05 kg",
+              "ko": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.limansk.12077.description",
+        "args": {},
+        "lines": {
+          "ru": "Флешка военных НАТО.",
+          "en": "A flash drive carried by the NATO military.",
+          "es": "Una memoria USB que llevan militares de la OTAN.",
+          "fr": "Une clé USB portée par un militaire de l'OTAN.",
+          "ko": "NATO 군이 가지고 있던 USB 드라이브이다."
+        }
+      }
+    }
+  ]
+}

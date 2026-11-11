@@ -1,0 +1,58 @@
+{
+  "id": "16876",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.otchet_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Отчет научной группы А24: часть 1",
+      "en": "Report of Research Group A24: Part 1",
+      "es": "Informe del grupo de investigación A24: Parte 1",
+      "fr": "Rapport du groupe de recherche A24 : partie 1",
+      "ko": "연구 그룹 A24의 보고서: 1부"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "16141",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16141.name",
+    "args": {},
+    "lines": {
+      "ru": "Ноутбук «Шепота»",
+      "en": "Murmur Laptop",
+      "es": "Portátil de Susurro",
+      "fr": "Ordinateur Portable de Murmure",
+      "ko": "속삭임 노트북"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg",
+              "es": "1 kg",
+              "fr": "1 kg",
+              "ko": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

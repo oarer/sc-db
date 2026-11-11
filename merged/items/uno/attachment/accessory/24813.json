@@ -1,0 +1,77 @@
+{
+  "id": "24813",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_zovutlis.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Стальной лис»",
+      "en": "Steel Fox Charm",
+      "es": "Amuleto Lince de acero",
+      "fr": "Breloque Renard d'Acier",
+      "ko": "강철 여우 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_zovutlis.description",
+        "args": {},
+        "lines": {
+          "ru": "По Зоне до сих пор ходят байки об экспериментах по скрещиванию обычных животных с мутантами, а также о попытках имплантации в них кибернетических составляющих. К счастью, это всего лишь выдумки, вдохновляющие умельцев на создание подобных брелков. Или?...",
+          "en": "There are still rumors in the Zone about experiments involving the crossbreeding of ordinary animals with mutants, as well as attempts to implant cybernetic components into them. Fortunately, these are just fabrications that inspire craftsmen to create such charms. Or...?",
+          "es": "En la Zona aún circulan rumores sobre experimentos para cruzar animales normales con mutantes, así como sobre intentos de implantarles componentes cibernéticos. Afortunadamente, se trata solo de inventos que inspiran a los artesanos a crear amuletos similares. ¿O no?",
+          "fr": "Des rumeurs circulent encore dans la Zone concernant des expériences de croisement entre animaux ordinaires et mutants, ainsi que des tentatives d'implantation de composants cybernétiques chez eux. Heureusement, il ne s'agit que de pures inventions, qui inspirent des artisans à créer des breloques similaires. Ou… ?",
+          "ko": "구역에서는 지금도 평범한 동물과 돌연변이를 교배하려는 실험, 심지어 그들에게 사이버네틱 부품을 이식하려 했다는 이야기들이 떠돈다. 다행히도 그런 소문은 어디까지나 상상에 불과하며, 이런 부적을 만들어 내는 장인들에게 영감을 주는 괴담일 뿐이다. …아니면, 정말로 괴담일 뿐일까?"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24832",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.spring26_reel.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Кинохроника»",
+      "en": "Newsreel Charm",
+      "es": "Amuleto Crónica de Cine",
+      "fr": "Breloque Film d'actualité",
+      "ko": "영상 기록 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.spring26_reel.description",
+        "args": {},
+        "lines": {
+          "ru": "Операция «Шлам», хотя и не была полностью успешной, смогла обеспечить ССОП любопытными материалами.\\n\\nКто знает, что удастся увидеть на старых советских пленках наукограда?",
+          "en": "Silt Operation, although not entirely successful,managed to provide the SSPP with intriguing materials.\\n\\nWho knows what one might see on the old Soviet films from the science city?",
+          "es": "Aunque la operación Lodo no fue del todo exitosa, logró proporcionar a SSPE materiales interesantes.\\n\\n¿Quién sabe qué se podrá ver en las viejas películas soviéticas de la ciudad científica?",
+          "fr": "L'opération Boue, bien que n'ayant pas été pleinement concluante, a tout de même fourni au SSPP du matériel pour le moins intrigant.\\n\\nQui sait ce que l'on pourra encore déchiffrer sur les vieilles pellicules soviétiques de la cité scientifique ?",
+          "ko": "작전 «슬러지»는 완전한 성공을 거두지는 못했지만,SSPP에 흥미로운 자료를 확보해 주었다.\\n\\n오래된 소비에트 과학도시의 필름 속에서 무엇이 드러날지는 아무도 모른다."
+        }
+      }
+    }
+  ]
+}

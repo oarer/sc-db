@@ -1,0 +1,113 @@
+{
+  "id": "26055",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.inside_extract.name",
+    "args": {},
+    "lines": {
+      "ru": "Экстракт Мемории",
+      "en": "Memoria Extract",
+      "es": "Extracto de Memoria",
+      "fr": "Extrait de Mémoria",
+      "ko": "메모리아 추출물"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.005,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg",
+              "ko": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 с",
+              "en": "2.5 sec",
+              "es": "2,5 s",
+              "fr": "2,5 s",
+              "ko": "2.5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.inside_extract.description",
+        "args": {},
+        "lines": {
+          "ru": "Выжимка из плодов Мемории обладает более сильным стабилизирующим эффектом, чем само растение, и хранится гораздо дольше.",
+          "en": "This extract, made from Memoria fruit, has a stronger stabilizing effect than the plant itself, and lasts much longer.",
+          "es": "Este extracto, elaborado a partir del fruto de Memoria, tiene un efecto estabilizador más potente que la propia planta y dura mucho más tiempo.",
+          "fr": "Cet extrait, fabriqué à partir du fruit de Mémoria, a un effet stabilisateur plus fort que la plante elle-même et dure beaucoup plus longtemps.",
+          "ko": "메모리아 열매로부터 만든 이 추출물은 식물 자체보다 훨씬 더 강력한 안정화 효과를 가지며, 그 효과가 훨씬 오래 지속된다."
+        }
+      }
+    }
+  ]
+}

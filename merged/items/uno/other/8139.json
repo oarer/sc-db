@@ -1,0 +1,58 @@
+{
+  "id": "8139",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.printout_pda3_covenant.name",
+    "args": {},
+    "lines": {
+      "ru": "Распечатка логов ПДА 3",
+      "en": "Printout of PDA 3 logs",
+      "es": "Impresión de los registros de PDA 3",
+      "fr": "Impression des journaux du PDA 3",
+      "ko": "PDA 3 로그 출력물"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

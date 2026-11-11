@@ -1,0 +1,58 @@
+{
+  "id": "31766",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.xm8_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть HK XM8S #4",
+      "en": "HK XM8S Part #4",
+      "es": "HK XM8S Pieza n.° 4",
+      "fr": "HK XM8S Partie #4",
+      "ko": "HK XM8S 부품 #4"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

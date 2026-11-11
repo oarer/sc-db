@@ -1,0 +1,77 @@
+{
+  "id": "16184",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16184.name",
+    "args": {},
+    "lines": {
+      "ru": "Аномальное образование из Ямы",
+      "en": "Anomalous Formation from the Pit",
+      "es": "Formación anómala de la Fosa",
+      "fr": "Formation anormale de la fosse",
+      "ko": "구덩이에서 찾아낸 이상 구조물"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg",
+              "es": "1 kg",
+              "fr": "1 kg",
+              "ko": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16184.description",
+        "args": {},
+        "lines": {
+          "ru": "При неопределенном стечении обстоятельств аномальная пыль, получаемая из аномальных установок, спрессовывается в некую окаменелость. Подобные образования имеют большую ценность среди ученых.",
+          "en": "Under an unknown set of circumstances, anomalous dust from anomaly research installations compresses to become fossilized, in a sense. Similar formations are of great value to scientists.",
+          "es": "En una serie de circunstancias desconocidas, el polvo anómalo de las instalaciones anómalas se comprime hasta fosilizarse en cierto sentido. Hay formaciones similares que son de gran valor para los científicos.",
+          "fr": "Dans des circonstances inconnues, la poussière anormale provenant des installations de recherche d'anomalies se comprime et se fossilise, en quelque sorte. Des formations similaires sont d'une grande valeur pour les scientifiques.",
+          "ko": "정확한 발생 조건은 알려져 있지 않지만, 이상현상 연구 시설에서 발생한 이상 먼지가 압축되면서 일종의 화석 형태로 굳어지기도 한다. 이와 유사한 구조물은 과학자들에게 높은 연구 가치를 지닌다."
+        }
+      }
+    }
+  ]
+}

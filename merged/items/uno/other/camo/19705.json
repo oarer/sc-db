@@ -1,0 +1,77 @@
+{
+  "id": "19705",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.barkhan.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Бархан»",
+      "en": "Barchan Paint",
+      "es": "Pintura Barchan",
+      "fr": "Peinture Barchan",
+      "ko": "바르한 도색"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.barkhan.description",
+        "args": {},
+        "lines": {
+          "ru": "Краска «Бархан» для брони",
+          "en": "Barchan paint for armor",
+          "es": "Pintura Barchan para armadura",
+          "fr": "Peinture pour armure Barchan",
+          "ko": "방어구용 바르한 도색"
+        }
+      }
+    }
+  ]
+}

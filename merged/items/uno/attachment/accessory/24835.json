@@ -1,0 +1,77 @@
+{
+  "id": "24835",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.mk_sextant.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Секстант»",
+      "en": "Sextant Charm",
+      "es": "Amuleto Sextante",
+      "fr": "Breloque Sextant",
+      "ko": "섹스턴트 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.mk_sextant.description",
+        "args": {},
+        "lines": {
+          "ru": "В Зоне полезно уметь ориентироваться не только по карте в ПДА. Кто знает, в какой момент ваша техника может выйти из строя.",
+          "en": "In the Zone, it's useful to know how to navigate using more than just the map on your PDA. You never know when your gear might fail.",
+          "es": "En la Zona, es útil saber orientarse no solo con el mapa de la PDA. Quién sabe en qué momento tu equipo puede fallar.",
+          "fr": "Dans la Zone, il est utile de savoir s'orienter non seulement avec la carte sur le PDA. Qui sait à quel moment votre équipement peut tomber en panne.",
+          "ko": "구역에서는 PDA 지도만으로 길을 찾는 것만으로는 부족하다. 언제 장비가 고장 날지 아무도 알 수 없다."
+        }
+      }
+    }
+  ]
+}

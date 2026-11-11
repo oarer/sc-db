@@ -1,0 +1,58 @@
+{
+  "id": "13006",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.coupon.newbie_armor_50.name",
+    "args": {},
+    "lines": {
+      "ru": "Бартерный купон (Новичок)",
+      "en": "Barter Coupon (Newbie)",
+      "es": "Cupón de trueque (novato)",
+      "fr": "Coupon de troc (Débutant)",
+      "ko": "교환 쿠폰 (신입)"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

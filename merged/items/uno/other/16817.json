@@ -1,0 +1,58 @@
+{
+  "id": "16817",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.primanka.name",
+    "args": {},
+    "lines": {
+      "ru": "Приманка",
+      "en": "Bait",
+      "es": "Cebo",
+      "fr": "Appât",
+      "ko": "미끼"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1.5,
+          "formatted": {
+            "value": {
+              "ru": "1,5 кг",
+              "en": "1.5 kg",
+              "es": "1,5 kg",
+              "fr": "1,5 kg",
+              "ko": "1.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

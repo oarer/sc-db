@@ -1,0 +1,77 @@
+{
+  "id": "24817",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_ekato.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Damn»",
+      "en": "Damn Charm",
+      "es": "Amuleto Damn",
+      "fr": "Breloque Damn",
+      "ko": "Damn 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_ekato.description",
+        "args": {},
+        "lines": {
+          "ru": "Он уже видел, как ты промазал этим выстрелом. Он уже видел, как ты купил у торговца «уникальный» ствол, который клинит через три патрона. Всем своим видом он говорит лишь одно: «Ну вот, опять». Символ стоического принятия неизбежных провалов — незаменимая для Зоны вещь, напоминающая о том, что после провала последует удача. Наверное...",
+          "en": "He's already seen you miss that shot. He's already seen you buy a \"unique\" weapon from a trader that jams after three bullets. His entire demeanor says only one thing: \"Well, here we go again.\" A symbol of stoic acceptance of inevitable failure—an indispensable item in the Zone, reminding you that after failure comes success. Probably...",
+          "es": "Ya vio cómo fallaste ese tiro. Ya vio cómo le compraste al comerciante un arma \"única\" que se atasca después de tres balas. Con toda su apariencia, solo dice una cosa: \"Bueno, otra vez\". Símbolo de la aceptación estoica de los fracasos inevitables, algo indispensable para la Zona, que recuerda que después del fracaso vendrá la suerte. Probablemente...",
+          "fr": "Il t'a déjà vu rater ce tir. Il t'a déjà vu acheter à un marchand un flingue unique qui s'enraye après trois cartouches. De toute son attitude, il ne dit qu'une chose : Et voilà, encore. Symbole de l'acceptation stoïque des échecs inévitables — un objet indispensable dans la Zone, qui rappelle qu'après l'échec viendra la chance. Sans doute…",
+          "ko": "당신의 잦은 실수와 오판을 묵묵히 지켜봐 온 증인입니다. '또 시작이군'이라는 표정으로 실패를 초연하게 받아들이게 도와주는 이 상징물은, 언젠가 찾아올 행운을 기원하는 존의 부적과도 같습니다. 아마도... 그렇겠죠?"
+        }
+      }
+    }
+  ]
+}

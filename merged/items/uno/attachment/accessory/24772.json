@@ -1,0 +1,77 @@
+{
+  "id": "24772",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.lemon.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Лимон»",
+      "en": "Lemon Charm",
+      "es": "Amuleto Limón",
+      "fr": "Breloque Lemon",
+      "ko": "레몬 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.lemon.description",
+        "args": {},
+        "lines": {
+          "ru": "Если жизнь дает тебе лимон, либо делай лимонад, либо выдергивай чеку.",
+          "en": "If life gives you a lemon, either make lemonade or pull the pin.",
+          "es": "Si la vida te da limones, haz limonada o tira del gatillo.",
+          "fr": "Si la vie te donne un lemon, fais de la limonade… ou retire la goupille.",
+          "ko": "삶이 그대에게 레몬을 건네준다면, 레몬에이드를 만들거나 안전핀을 뽑아버려라."
+        }
+      }
+    }
+  ]
+}

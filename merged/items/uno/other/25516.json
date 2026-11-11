@@ -1,0 +1,77 @@
+{
+  "id": "25516",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.25516.name",
+    "args": {},
+    "lines": {
+      "ru": "Посылка ученых",
+      "en": "Scientist Package",
+      "es": "Paquete científico",
+      "fr": "Paquet de scientifiques",
+      "ko": "과학자 패키지"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg",
+              "es": "1 kg",
+              "fr": "1 kg",
+              "ko": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.25516.description",
+        "args": {},
+        "lines": {
+          "ru": "Особая поставка научного оборудования, сбрасываемая с воздуха контрабандистами. Содержит различные детекторы, сканеры, датчики, реагенты и много других вещей, так необходимых ученым.",
+          "en": "A special delivery of scientific equipment, air-dropped by contrabandists. It contains various detectors, scanners, sensors, reagents, and many more items that scientists need so much.",
+          "es": "Una entrega aérea especial de equipamiento científico hecha por contrabandistas. Contiene diversos detectores, escáneres, sensores, reactivos y muchos más objetos de vital importancia para los científicos.",
+          "fr": "Une livraison spéciale de matériel scientifique, larguée par des contrebandiers. Elle contient divers détecteurs, scanners, capteurs, réactifs et bien d'autres objets dont les scientifiques ont tant besoin.",
+          "ko": "밀수업자들이 공중 투하한 특수 과학 장비 소포이다. 다양한 탐지기, 스캐너, 센서, 시약 등 과학자들에게 꼭 필요한 각종 장비가 담겨 있다."
+        }
+      }
+    }
+  ]
+}

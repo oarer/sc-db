@@ -1,0 +1,58 @@
+{
+  "id": "4535",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.mt_maneuvers.name",
+    "args": {},
+    "lines": {
+      "ru": "Паттерн «Маневры»",
+      "en": "Maneuvers Pattern",
+      "es": "Patrón de Maniobras",
+      "fr": "Thème Manœuvres",
+      "ko": "기동 훈련 패턴"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

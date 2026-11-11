@@ -1,0 +1,58 @@
+{
+  "id": "31510",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setK.garland2.name",
+    "args": {},
+    "lines": {
+      "ru": "Крафтовая хорошая гирлянда",
+      "en": "Nice Crafted Tree Lights",
+      "es": "Luces del árbol artesanales bonitas",
+      "fr": "Jolies Guirlandes Lumineuses Artisanales",
+      "ko": "멋진 수공예 트리 조명"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

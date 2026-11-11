@@ -1,0 +1,58 @@
+{
+  "id": "8121",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.morok_essention.name",
+    "args": {},
+    "lines": {
+      "ru": "Эссенция Морока",
+      "en": "Morphs Essence",
+      "es": "Esencia de Morfo",
+      "fr": "Essence de Morph",
+      "ko": "모프 정수"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.03,
+          "formatted": {
+            "value": {
+              "ru": "0,03 кг",
+              "en": "0.03 kg",
+              "es": "0,03 kg",
+              "fr": "0,03 kg",
+              "ko": "0.03 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

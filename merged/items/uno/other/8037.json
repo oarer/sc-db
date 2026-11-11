@@ -1,0 +1,58 @@
+{
+  "id": "8037",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.covenant.military_painkillers.name",
+    "args": {},
+    "lines": {
+      "ru": "Обезболивающее для пленника",
+      "en": "Painkiller for the prisoner",
+      "es": "Analgésico para el prisionero",
+      "fr": "Analgésique pour le prisonnier",
+      "ko": "포로용 진통제"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24719",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_pass_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Спутник»",
+      "en": "Satellite Charm",
+      "es": "Amuleto Satélite",
+      "fr": "Amulette Satellite",
+      "ko": "위성 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_pass_2.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшая поделка одного из бойцов «Шепота», павшего в бою с военными. Внутри есть источник света неизвестного происхождения.",
+          "en": "A small craft made by one of the Murmur fighters, who fell in battle with the military. Inside, there is a light source of unknown origin.",
+          "es": "Pequeña nave de uno de los soldados de Susurro que cayó en combate con los militares. En su interior hay una fuente de luz de origen desconocido.",
+          "fr": "Une babiole fabriquée par un des soldats du Murmure tombé au combat contre l'armée. Une lueur d'origine inconnue émane de son intérieur.",
+          "ko": "군과의 전투에서 전사한 속삭임 소속 전사 중 하나가 만든 작은 수공예품이다. 내부에는 정체불명의 발광원이 들어 있다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "26050",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.inside_memoria.name",
+    "args": {},
+    "lines": {
+      "ru": "Плоды Мемории",
+      "en": "Memoria Fruit",
+      "es": "Fruto de Memoria",
+      "fr": "Fruits de Mémoria",
+      "ko": "메모리아 열매"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.015,
+          "formatted": {
+            "value": {
+              "ru": "0,01 кг",
+              "en": "0.01 kg",
+              "es": "0,01 kg",
+              "fr": "0,01 kg",
+              "ko": "0.01 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 с",
+              "en": "1 sec",
+              "es": "1 s",
+              "fr": "1 s",
+              "ko": "1초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.inside_memoria.description",
+        "args": {},
+        "lines": {
+          "ru": "Заблудшие души, потерянные в Изнанке, все же имеют шанс на спасение. Мемориа - растение, одно из немногих представителей уникальной флоры Изнанки. Его плоды оказывают влияние на пораженные участки мозга человека, пробуждая его последние воспоминания, что позволяет стабилизировать сознание в целом. Будучи сорванным быстро разлагается.",
+          "en": "Lost souls that wander the Inside Out still have a chance at salvation. Memoria is a plant, one of few examples of unique flora found in the Inside Out. Its fruit affects the damaged parts of the human brain, reawakening its last memories, which has an overall stabilizing effect. Once picked, it rots quickly.",
+          "es": "Las almas perdidas que vagan por el Reverso aún tienen una oportunidad de salvación. La Memoria es una planta, uno de los pocos ejemplos de flora única que se encuentran en el Reverso. Su fruto afecta a las partes dañadas del cerebro humano, despertando de nuevo sus últimos recuerdos, lo que tiene un efecto estabilizador general. Una vez recogido, se pudre rápidamente.",
+          "fr": "Les âmes perdues qui errent dans l'Envers ont encore une chance de salut. Mémoria est une plante, l'un des rares exemples de flore unique que l'on trouve dans l'Envers. Son fruit affecte les parties endommagées du cerveau humain, réveillant ses derniers souvenirs, ce qui a un effet stabilisateur général. Une fois cueilli, il pourrit rapidement.",
+          "ko": "뒤집힌 세계에서 방황하는 길 잃은 영혼들에게도 구원의 기회가 있다. 메모리아는 뒤집힌 세계에서 발견되는 몇 안 되는 고유 식물 중 하나로, 손상된 인간의 뇌 부분에 작용해 마지막 기억을 일깨우며 전반적인 정신 안정화 효과를 준다. 열매는 따자마자 빠르게 부패한다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "15973",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.crt.autumn_25_episode_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Радиевичок",
+      "en": "Radiumus",
+      "es": "Radianita",
+      "fr": "Radiéviciole",
+      "ko": "라디어머스"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.crt.autumn_25_episode_2.description",
+        "args": {},
+        "lines": {
+          "ru": "Этот гриб лучше всего растет в местах с повышенным радиационным фоном, но встречается и в не зараженных зонах. Токсичен, горький на вкус и в пищу не годен. Ценится кустарными химическими производствами за уникальные вещества, выделяемые им при термической обработке.",
+          "en": "This mushroom grows best in areas with increased background radiation, but it can also be found in non-contaminated areas. It is toxic, bitter in taste, and not suitable for food. It is valued by artisanal chemical industries for the unique substances it releases during thermal processing.",
+          "es": "Este hongo crece mejor en lugares con altos niveles de radiación, aunque también se encuentra en zonas no contaminadas. Es tóxico, de sabor amargo y no es apto para el consumo. Es valorado por las producciones químicas artesanales por las sustancias únicas que libera durante el tratamiento térmico.",
+          "fr": "Ce champignon pousse surtout dans les zones à forte radioactivité, mais on le trouve aussi dans des secteurs non contaminés. Toxique, amer au goût et impropre à la consommation. Il est apprécié par les petites productions chimiques artisanales pour les substances uniques qu'il libère lors d'un traitement thermique.",
+          "ko": "이 버섯은 기저 방사선 수치가 높은 장소에서 가장 활발히 생장하지만 오염되지 않은 구역에서도 찾아볼 수 있습니다. 독성이 있고, 맛이 쓰며 식용으로 적합하지 않습니다. 가열 공정에서 내뿜는 독특한 물질로 인해 수공업자들 사이에서 높게 평가됩니다."
+        }
+      }
+    }
+  ]
+}

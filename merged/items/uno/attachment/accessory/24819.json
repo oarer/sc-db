@@ -1,0 +1,77 @@
+{
+  "id": "24819",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_nsh4rk.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Улыбка прошлого»",
+      "en": "Smile of the Past Charm",
+      "es": "Amuleto Sonrisa del pasado",
+      "fr": "Breloque Sourire du Passé",
+      "ko": "과거의 미소 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_nsh4rk.description",
+        "args": {},
+        "lines": {
+          "ru": "Эту мордашку нашли в полуразрушенном доме среди игрушек. Она пережила и катастрофу, и годы забвения. Теперь сталкеры носят ее как талисман — крошечный осколок того времени, когда слово «зверушка» не вызывало у них инстинктивного желания схватиться за ствол.",
+          "en": "This little face was found in a partially destroyed house among toys. It survived both the catastrophe and years of oblivion. Now, stalkers carry it as a talisman—a tiny fragment of a time when the word \"critter\" didn't trigger an instinctive urge to reach for a weapon.",
+          "es": "Esta carita fue encontrada entre juguetes en una casa en ruinas. Sobrevivió a la catástrofe y a años de olvido. Ahora los acechadores la llevan como talismán, un pequeño fragmento de aquella época en la que la palabra \"animalito\" no les provocaba el deseo instintivo de empuñar un arma.",
+          "fr": "Ce petit visage a été trouvé dans une maison à demi détruite, parmi des jouets. Il a survécu à la Catastrophe et aux années d'oubli. Désormais, les stalkers le portent comme un talisman — un infime éclat d'une époque où le mot petite bête ne provoquait pas chez eux le réflexe instinctif de porter la main à leur arme.",
+          "ko": "이 얼굴 모양 장난감은 반쯤 무너진 집에서 다른 장난감들 사이에서 발견되었다. 재앙과 수년간의 망각을 견뎌냈다. 이제 스토커들은 이를 부적으로 지니고 다니는데, 작은 동물이라는 말만 들어도 본능적으로 총부터 찾게 되는 지금과 달리, 그 시절의 조그만 기억 조각을 떠올리게 해 준다."
+        }
+      }
+    }
+  ]
+}

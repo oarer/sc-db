@@ -1,0 +1,113 @@
+{
+  "id": "11706",
+  "category": "weapon_modules/weapon_module_remover",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn_mod.cubitor.name",
+    "args": {},
+    "lines": {
+      "ru": "Кубитор",
+      "en": "Cubitor",
+      "es": "Cubitoro",
+      "fr": "Cubiteur",
+      "ko": "큐비터"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.15,
+          "formatted": {
+            "value": {
+              "ru": "0,15 кг",
+              "en": "0.15 kg",
+              "es": "0,15 kg",
+              "fr": "0,15 kg",
+              "ko": "0.15 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn_mod.cubitor.description",
+        "args": {},
+        "lines": {
+          "ru": "Устройство, структура и принцип действия которого до конца не изучены. Вносит длительный импульс энтропии в сильные взаимодействия частиц модуля, не позволяя отдельным классам квантов поменять свои значения, но при этом меняя сам диапазон работы устройства.",
+          "en": "Device whose structure and operating principle have not been fully studied. Introduces a prolonged entropy pulse into the strong interactions of the module’s particles, preventing certain classes of quanta from changing their values, while changing the device’s operating range itself.",
+          "es": "Dispositivo cuyo funcionamiento, estructura y principio de acción no se han estudiado a fondo. Aporta un impulso de entropía prolongado a las interacciones fuertes de las partículas del módulo, lo que impide que determinadas clases de cuantos cambien sus valores, pero, al mismo tiempo, modifica el propio rango de funcionamiento del dispositivo.",
+          "fr": "Un dispositif dont la structure et le principe de fonctionnement ne sont pas encore entièrement compris. Il introduit une impulsion prolongée d'entropie dans les interactions fortes des particules du module, empêchant certaines classes de quanta de changer leurs valeurs, tout en modifiant la plage de fonctionnement de l'appareil.",
+          "ko": "구조와 작동 원리가 아직 완전히 규명되지 않은 장치이다. 강한 상호작용을 하는 모듈 입자들에 장시간 지속되는 엔트로피 펄스를 주입하며, 특정 종류의 양자가 그 값을 변경하는 것은 막지만, 대신 장치 자체의 작동 범위를 변화시키는 것으로 알려져 있다."
+        }
+      }
+    }
+  ]
+}

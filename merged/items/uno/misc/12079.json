@@ -1,0 +1,58 @@
+{
+  "id": "12079",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.corpse_small.name",
+    "args": {},
+    "lines": {
+      "ru": "Небольшой подозрительный мешок",
+      "en": "Small Suspicious Bag",
+      "es": "Bolsa pequeña y sospechosa",
+      "fr": "Petit sac suspect",
+      "ko": "소형 수상한 가방"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

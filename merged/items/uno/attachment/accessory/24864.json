@@ -1,0 +1,77 @@
+{
+  "id": "24864",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.mt_barrel.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Горючка»",
+      "en": "Fuel Charm",
+      "es": "Amuleto Combustible",
+      "fr": "Breloque Carbu",
+      "ko": "연료 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.mt_barrel.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшой брелок с репликой бочки с топливом. По словам создателя, внутрь залита реальная горючка, и в случае чего брелок можно использовать если не как полноценную гранату, то хотя бы как небольшой коктейль Молотова.",
+          "en": "A small keychain with a miniature fuel barrel. According to its creator, it's filled with real fuel, so if needed, it can be used not as a proper grenade, but at least as a small Molotov cocktail.",
+          "es": "Un pequeño amuleto con una réplica de un bidón de combustible. Según el creador, en su interior hay combustible real, y en caso de necesidad, el llavero puede utilizarse, si no como una granada en toda regla, al menos como un pequeño cóctel Molotov.",
+          "fr": "Un petit breloque en forme de baril de carburant. Selon le créateur, il est rempli de véritable combustible, et en cas de besoin, le breloque peut être utilisé, sinon comme une grenade complète, du moins comme un petit cocktail Molotov.",
+          "ko": "연료 드럼통을 모티브로 한 작은 키링. 제작자의 말에 따르면 내부에는 실제 연료가 채워져 있으며, 필요할 경우 완전한 수류탄으로 쓰기에는 부족하더라도 간이 화염병 정도로는 사용할 수 있다고 한다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": "26069",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.inside_sedative.name",
+    "args": {},
+    "lines": {
+      "ru": "Успокоительное Профессора",
+      "en": "Professor's Sedative",
+      "es": "Sedante del Profesor",
+      "fr": "Le Sédatif du Professeur",
+      "ko": "교수의 진정제"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.35,
+          "formatted": {
+            "value": {
+              "ru": "0,35 кг",
+              "en": "0.35 kg",
+              "es": "0,35 kg",
+              "fr": "0,35 kg",
+              "ko": "0.35 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 2.5,
+          "formatted": {
+            "value": {
+              "ru": "2,5 с",
+              "en": "2.5 sec",
+              "es": "2,5 s",
+              "fr": "2,5 s",
+              "ko": "2.5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "value": -2.5,
+          "formatted": {
+            "value": {
+              "ru": "-2,5%",
+              "en": "-2.5%",
+              "es": "-2,5%",
+              "fr": "-2,5%",
+              "ko": "-2.5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "value": -2.5,
+          "formatted": {
+            "value": {
+              "ru": "-2,5%",
+              "en": "-2.5%",
+              "es": "-2,5%",
+              "fr": "-2,5%",
+              "ko": "-2.5%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.inside_sedative.description",
+        "args": {},
+        "lines": {
+          "ru": "В погоне за прогрессом, даже Профессору иногда нужно выдохнуть и принять успокоительное.",
+          "en": "Sometimes even Professor needs a break from his quest for progress. A little rest and a sedative do just nicely.",
+          "es": "A veces, incluso el Profesor necesita un descanso de su búsqueda del progreso. Un poco de descanso y un sedante vienen de perlas.",
+          "fr": "Parfois, même le professeur a besoin d'une pause dans sa quête de progrès. Un peu de repos et un sédatif font l'affaire.",
+          "ko": "때로는 교수도 진보를 향한 탐구에서 잠시 벗어나 쉬어야 할 때가 있다. 적당한 휴식과 진정제가 그에겐 딱이다."
+        }
+      }
+    }
+  ]
+}

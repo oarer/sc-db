@@ -1,0 +1,77 @@
+{
+  "id": "16819",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.dogmint.name",
+    "args": {},
+    "lines": {
+      "ru": "Собачья мята",
+      "en": "Dogmint",
+      "es": "Hierba de can",
+      "fr": "Menthe de chien",
+      "ko": "도그민트"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.06,
+          "formatted": {
+            "value": {
+              "ru": "0,06 кг",
+              "en": "0.06 kg",
+              "es": "0,06 kg",
+              "fr": "0,06 kg",
+              "ko": "0.06 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.dogmint.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшие веточки с мягкими сочными листьями и красными цветками, пахнущими тухлым мясом. Травник прозвал это растение собачьей мятой.",
+          "en": "Small twigs with soft, juicy leaves and red flowers that smell of rotten meat. Herbalist calls this plant \"dogmint.\"",
+          "es": "Pequeñas ramitas con hojas suaves y tiernas y flores rojas que huelen a carne podrida. Herbolario llama a esta planta \"hierba de can\"",
+          "fr": "De petites branches avec des feuilles tendres et juteuses. Les fleurs rouges sentent la viande avariée. Herbalist appelle cette plante la « menthe de chien ».",
+          "ko": "촉촉하고 부드러운 잎이 달린 작은 가지들. 붉은 꽃에서는 썩은 고기 냄새가 난다. 약초사는 이 식물을 [도그민트]라 부른다."
+        }
+      }
+    }
+  ]
+}

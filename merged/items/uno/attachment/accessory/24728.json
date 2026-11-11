@@ -1,0 +1,77 @@
+{
+  "id": "24728",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_ssop_merc.name",
+    "args": {},
+    "lines": {
+      "ru": "Жетон офицера ССОП",
+      "en": "SSPP Officer's token",
+      "es": "Ficha de oficial de SSPE",
+      "fr": "Jeton d'officier du SSPP",
+      "ko": "SSPP 장교의 토큰"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_ssop_merc.description",
+        "args": {},
+        "lines": {
+          "ru": "Жетоны, выдаваемые высокопоставленным офицерам ССОП, которые руководят отрядами патрулей и тактическими оперативными группами операции «Полюс».",
+          "en": "Tokens issued to high-ranking SSPP officers who lead patrol units and tactical task forces of Operation Pole.",
+          "es": "Fichas expedidas a oficiales de alto rango de SSPE que dirigen escuadrones de patrulla de la operación Polo y grupos operativos tácticos.",
+          "fr": "Jetons délivrés aux officiers de haut rang de SSPP qui dirigent les unités de patrouille et les groupes d'intervention tactique de l'opération Pole.",
+          "ko": "순찰 부대와 폴 작전의 전술 임무팀을 지휘하는 SSPP 고위 장교들에게 지급되는 토큰이다."
+        }
+      }
+    }
+  ]
+}

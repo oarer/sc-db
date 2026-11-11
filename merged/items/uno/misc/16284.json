@@ -1,0 +1,58 @@
+{
+  "id": "16284",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.pseudodog_brain_t1.name",
+    "args": {},
+    "lines": {
+      "ru": "Мозг гончей",
+      "en": "Hound Brain",
+      "es": "Cerebro de sabueso",
+      "fr": "Cerveau de molosse",
+      "ko": "하운드의 뇌"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 кг",
+              "en": "0.4 kg",
+              "es": "0,4 kg",
+              "fr": "0,4 kg",
+              "ko": "0.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

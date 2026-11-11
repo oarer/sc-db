@@ -1,0 +1,77 @@
+{
+  "id": "17528",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.style.wpn.svu_covenant.name",
+    "args": {},
+    "lines": {
+      "ru": "«Покаяние»",
+      "en": "Penitence",
+      "es": "Penitencia",
+      "fr": "Pénitence",
+      "ko": "참회"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.style.wpn.svu_covenant.description",
+        "args": {},
+        "lines": {
+          "ru": "Такой кастом часто подбирают для себя особо свирепые и фанатичные бойцы «Завета». Они любят истязать своих врагов, называя этот процесс «покаянием».",
+          "en": "Such customization is often chosen by particularly fierce and fanatical fighters of the Covenant. They love torturing their enemies, calling this process penitence.",
+          "es": "Este tipo de personalización es muy popular entre los combatientes más fanáticos y fieros del Pacto. Les encanta torturar a sus enemigos y llamarlo \"penitencia\".",
+          "fr": "Une telle personnalisation est souvent choisie par les combattants particulièrement féroces et fanatiques de l'Alliance. Ils adorent torturer leurs ennemis, appelant ce processus pénitence.",
+          "ko": "이런 커스터마이징은 종종 커버넌트의 맹렬하고 광신적인 전사들이 선택한다. 그들은 적을 고문하는 것을 즐기며, 이 과정을 '참회'라고 부른다."
+        }
+      }
+    }
+  ]
+}

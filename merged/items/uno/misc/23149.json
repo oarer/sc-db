@@ -1,0 +1,139 @@
+{
+  "id": "23149",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.handle_rk3_f.name",
+    "args": {},
+    "lines": {
+      "ru": "Рукоять РК-3, зимняя",
+      "en": "RK-3 Grip, Winter",
+      "es": "Empuñadura RK-3, invierno",
+      "fr": "Poignée RK-3, Hivernal",
+      "ko": "RK-3 손잡이, 윈터"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.225,
+          "formatted": {
+            "value": {
+              "ru": "0,23 кг",
+              "en": "0.23 kg",
+              "es": "0,23 kg",
+              "fr": "0,23 kg",
+              "ko": "0.23 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": -2,
+          "formatted": {
+            "value": {
+              "ru": "-2 с",
+              "en": "-2 sec",
+              "es": "-2 s",
+              "fr": "-2 s",
+              "ko": "-2초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.recoil_gain",
+            "args": {},
+            "lines": {}
+          },
+          "value": -3,
+          "formatted": {
+            "value": {
+              "ru": "-3%",
+              "en": "-3%",
+              "es": "-3%",
+              "fr": "-3%",
+              "ko": "-3%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.wiggle",
+            "args": {},
+            "lines": {}
+          },
+          "value": -2,
+          "formatted": {
+            "value": {
+              "ru": "-2%",
+              "en": "-2%",
+              "es": "-2%",
+              "fr": "-2%",
+              "ko": "-2%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24879",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.scstore_gauss.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Модель Винтовки Гаусса»",
+      "en": "Gauss Rifle Miniature Charm",
+      "es": "Amuleto Figura de Fusil Gauss",
+      "fr": "Breloque Modèle du Fusil Gauss",
+      "ko": "가우스 소총 모형 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.scstore_gauss.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшая пластиковая модель Винтовки Гаусса.",
+          "en": "A plastic miniature of Gauss Rifle.",
+          "es": "Una pequeña figura de plástico de Fusil Gauss",
+          "fr": "Petit modèle en plastique d'un Fusil Gauss.",
+          "ko": "가우스 소총을 본뜬 작은 플라스틱 모형."
+        }
+      }
+    }
+  ]
+}

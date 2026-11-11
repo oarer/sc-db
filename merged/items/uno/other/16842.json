@@ -1,0 +1,77 @@
+{
+  "id": "16842",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.big_configurator_ny24.name",
+    "args": {},
+    "lines": {
+      "ru": "Большой Конфигуратор полей Ноосферы",
+      "en": "Large Noosphere Field Configurator",
+      "es": "Configurador de campo de nanosfera grande",
+      "fr": "Grand Configurateur de Champs Noosphère",
+      "ko": "대형 노오스피어 필드 구성기"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.17,
+          "formatted": {
+            "value": {
+              "ru": "0,17 кг",
+              "en": "0.17 kg",
+              "es": "0,17 kg",
+              "fr": "0,17 kg",
+              "ko": "0.17 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.big_configurator_ny24.description",
+        "args": {},
+        "lines": {
+          "ru": "Мощное стационарное устройство, предназначенное для конфигурации и насыщения области чистой энергией Ноосферы. Разработано таким образом, чтобы за единицу времени изменять и выпускать значительные объемы энергии, тем самым кодируя квантую информацию «Норы», превращая его во временной коридор.",
+          "en": "A powerful stationary device designed to configure and saturate the area with clean noosphere energy. It's designed in such a way as to modify and release significant amounts of energy per unit of time, thereby encoding a Burrow's quantum information, turning it into a time corridor.",
+          "es": "Un potente dispositivo fijo diseñado para configurar y saturar la zona con energía limpia de la nanosfera. Está diseñado para modificar y liberar grandes cantidades de energía por unidad de tiempo, codificando así la información cuántica de una Madriguera y convirtiéndola en un pasillo temporal.",
+          "fr": "Un puissant appareil stationnaire conçu pour configurer et saturer la zone avec de l'énergie noosphérique propre. Il est conçu de manière à modifier et à libérer d'importantes quantités d'énergie par unité de temps, codant ainsi l'information quantique d'un Portail et la transformant en un couloir temporel.",
+          "ko": "티끌 하나 없는 노스피어 에너지로 지역을 구성하고 채우기 위해 설계된 강력한 고정형 장비. 이 장치는 일정 시간당 상당한 양의 에너지를 조절하고 방출하도록 설계되어 있으며, 그 과정을 통해 굴의 양자 정보를 인코딩하고, 이를 시간 회랑으로 변환한다."
+        }
+      }
+    }
+  ]
+}

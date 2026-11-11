@@ -1,0 +1,77 @@
+{
+  "id": "27335",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.inside_glass_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Закаленное стекло",
+      "en": "Tempered Glass",
+      "es": "Cristal templado",
+      "fr": "Verre Poli",
+      "ko": "강화 유리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.12,
+          "formatted": {
+            "value": {
+              "ru": "0,12 кг",
+              "en": "0.12 kg",
+              "es": "0,12 kg",
+              "fr": "0,12 kg",
+              "ko": "0.12 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.inside_glass_3.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "С некоторых cобытий Изнанки Агрокомплекса «Колос» и Черных Ив.",
+          "en": "From some events in the Inside Out: Kolos Agrocomplex and the Black Willows",
+          "es": "De algunos eventos del Reverso: el Agrocomplejo Kolos y los Sauces Negros.",
+          "fr": "De certains événements de l'Inside Out : le Complexe agricole de Kolos et les Saules Noirs",
+          "ko": "뒤집힌 세계 내 일부 이벤트들로부터 획득: 콜로스 농업단지와 블랙 윌로우"
+        }
+      }
+    }
+  ]
+}

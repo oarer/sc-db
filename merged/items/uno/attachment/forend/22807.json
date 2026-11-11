@@ -1,0 +1,58 @@
+{
+  "id": "22807",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.att.forend_b10m_bint.name",
+    "args": {},
+    "lines": {
+      "ru": "Цевье Б-10М, обмотанное",
+      "en": "B-10M Handguard, Taped",
+      "es": "Guardamanos B-10M, vendado",
+      "fr": "Garde-main B-10M, Scotché",
+      "ko": "B-10M 총열덮개, 테이프 묶음형"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.13,
+          "formatted": {
+            "value": {
+              "ru": "0,13 кг",
+              "en": "0.13 kg",
+              "es": "0,13 kg",
+              "fr": "0,13 kg",
+              "ko": "0.13 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

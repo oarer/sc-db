@@ -1,0 +1,41 @@
+{
+  "id": "28303",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.28303.name",
+    "args": {},
+    "lines": {
+      "ru": "Нашивка бандитов",
+      "en": "Bandit Patch",
+      "es": "Parche de bandido",
+      "fr": "Écusson de bandit",
+      "ko": "밴디트 패치"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.28303.description",
+        "args": {},
+        "lines": {
+          "ru": "Нашивка с логотипом бандитов.@@§2Предмет для бартера",
+          "en": "A patch with a bandit logo.@@§2Barter item",
+          "es": "Un parche con un logotipo de bandido.@@§2Objeto de trueque",
+          "fr": "Un écusson avec le logo d'un bandit.@@§2Objet de troc",
+          "ko": "밴디트 로고가 새겨진 천 조각이다.@@§2교환 가능 아이템"
+        }
+      }
+    }
+  ]
+}

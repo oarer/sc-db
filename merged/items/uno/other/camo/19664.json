@@ -1,0 +1,77 @@
+{
+  "id": "19664",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19664.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Кислота»",
+      "en": "Acid Paint",
+      "es": "Pintura Ácido",
+      "fr": "Peinture Acide",
+      "ko": "부식 산성 도색"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.19664.description",
+        "args": {},
+        "lines": {
+          "ru": "Слабое зеленое свечение",
+          "en": "A weak green glow.",
+          "es": "Un débil resplandor verde.",
+          "fr": "Une faible lueur verte.",
+          "ko": "약한 녹색 빛을 낸다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "16006",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16006.name",
+    "args": {},
+    "lines": {
+      "ru": "Жетон лояльности",
+      "en": "Loyalty Token",
+      "es": "Ficha de lealtad",
+      "fr": "Jeton de Loyauté",
+      "ko": "로열티 토큰"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16006.description",
+        "args": {},
+        "lines": {
+          "ru": "§2Предмет для бартера",
+          "en": "§2Barter item",
+          "es": "§2Objeto de trueque",
+          "fr": "§2Objet de troc",
+          "ko": "§2교환 가능 아이템"
+        }
+      }
+    }
+  ]
+}

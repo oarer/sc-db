@@ -1,0 +1,58 @@
+{
+  "id": "4530",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.operations_drone.name",
+    "args": {},
+    "lines": {
+      "ru": "Паттерн «Море отчуждения»",
+      "en": "Sea of Exclusion Pattern",
+      "es": "Patrón Mar de Exclusión",
+      "fr": "Thème Mer d'exclusion",
+      "ko": "격리의 바다 패턴"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

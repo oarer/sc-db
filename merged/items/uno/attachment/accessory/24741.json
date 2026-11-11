@@ -1,0 +1,77 @@
+{
+  "id": "24741",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.summer25_crock.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Бомбардировщик Крок»",
+      "en": "Croc Bomber Charm",
+      "es": "Amuleto Bombardero Croco",
+      "fr": "Breloque Bombardier Croc",
+      "ko": "봄바르디로 크로코딜로 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.summer25_crock.description",
+        "args": {},
+        "lines": {
+          "ru": "Легендарный перехватчик с возможностями бомбардировщика. Известен стал благодаря эпическим сражениями с другой боевой машиной — Тральщик Акула. За штурвалами обоих машин два аса, которые уже давно сражаются не по приказу, а скорее из собственного соперничества, и каждый раз умудряются разойтись не добившись полной победы над противником.",
+          "en": "A legendary interceptor with bomber capabilities, renowned for its epic battles with another war machine — Shark Trawler. At the controls of both machines are two aces who have long been fighting not by orders, but out of personal rivalry, each time managing to disengage without securing a definitive victory over the opponent.",
+          "es": "Interceptor legendario con capacidad de bombardero. Se hizo famoso gracias a épicas batallas con otra máquina de combate: Dragaminas Tiburón. Al timón de ambas máquinas se encuentran dos profesionales que llevan mucho tiempo luchando no por órdenes, sino más bien por su propia rivalidad, y cada vez consiguen separarse sin lograr una victoria completa sobre el enemigo.",
+          "fr": "Intercepteur légendaire doté de capacités de bombardement. Il s'est rendu célèbre lors de combats épiques contre une autre machine de guerre : le Dragueur Requin. Aux commandes des deux engins — deux as du pilotage, dont l'affrontement dépasse depuis longtemps les ordres du commandement. Leur rivalité est devenue personnelle, et à chaque rencontre, ils parviennent à se séparer sans jamais obtenir de victoire décisive.",
+          "ko": "폭격 기능이 탑재된 전설적인 요격기. 역시나 강력한 전쟁 무기인 상어 트롤러와 벌였던 격렬한 전투로 유명하다. 해당 전투 기기들은 명령이 아닌 서로에 대한 경쟁심으로 싸우는 두 명의 라이벌 에이스들이 조종하며, 매번 교전을 거듭할 때마다 어느 한 쪽이 확실한 승리를 거두지 못 한 채 물러난다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "16521",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.crate.box_ammo_spb9.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик патронов 9 мм СБП",
+      "en": "Crate of 9 mm SBP Rounds",
+      "es": "Caja de munición SBP de 9 mm",
+      "fr": "Caisse de cartouches 9 mm SBP",
+      "ko": "9mm SBP 탄약 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 8.5,
+          "formatted": {
+            "value": {
+              "ru": "8,5 кг",
+              "en": "8.5 kg",
+              "es": "8,5 kg",
+              "fr": "8,5 kg",
+              "ko": "8.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "15033",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.lootbox.ssop_support.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик с трофеями «Шепота»",
+      "en": "Murmur trophies crate",
+      "es": "Caja de trofeos de Susurro",
+      "fr": "Caisse de trophées du Murmure",
+      "ko": "속삭임 트로피 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.lootbox.ssop_support.description",
+        "args": {},
+        "lines": {
+          "ru": "Содержит трофеи «Шепота», добытые ССОП",
+          "en": "Contains Murmur trophies obtained by SSPP",
+          "es": "Contiene trofeos de Susurro, obtenidos por SSPE",
+          "fr": "Contient des trophées du Murmure récupérés par la SSPP",
+          "ko": "SSPP가 확보한 속삭임 트로피가 들어 있습니다"
+        }
+      }
+    }
+  ]
+}

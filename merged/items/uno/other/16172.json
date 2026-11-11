@@ -1,0 +1,77 @@
+{
+  "id": "16172",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16172.name",
+    "args": {},
+    "lines": {
+      "ru": "Трупный металл",
+      "en": "Corpse Steel",
+      "es": "Acero de cadáver",
+      "fr": "Acier de cadavre",
+      "ko": "시체 강철"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.3,
+          "formatted": {
+            "value": {
+              "ru": "0,3 кг",
+              "en": "0.3 kg",
+              "es": "0,3 kg",
+              "fr": "0,3 kg",
+              "ko": "0.3 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16172.description",
+        "args": {},
+        "lines": {
+          "ru": "Части брони и снаряжения некоторых зомби прирастают к их телам, но ушлых мародеров это не останавливает. Куски такого снаряжения, вместе с останками их бывших владельцев, активно сбываются в Зоне.",
+          "en": "Some zombies have bits of armor and other gear that stick to their bodies, but it's not enough to fend off canny marauders. Pieces of this gear are actively traded in the Zone, with the remains of their former owners still attached.",
+          "es": "Algunos zombis tienen trozos de armadura y otro equipamiento adheridos a sus cuerpos, pero no es suficiente para defenderse de los astutos merodeadores. Las piezas de este equipamiento se comercializan activamente en la Zona, con los restos de sus antiguos propietarios aún pegados.",
+          "fr": "Certains zombies ont des morceaux d'armure et d'autres équipements qui leur collent au corps, mais cela ne suffit pas à repousser les maraudeurs rusés. Les pièces de cet équipement sont activement échangées dans la Zone, avec les restes de leurs anciens propriétaires toujours attachés.",
+          "ko": "갑옷 같은 방어구가 몸에 들러붙은 좀비들도 있지만, 교활한 약탈자들을 막기엔 역부족이다. 장비 조각들은 원래 주인의 시신 일부가 붙은 채로, 구역 안에서 활발히 거래된다."
+        }
+      }
+    }
+  ]
+}

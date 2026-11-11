@@ -1,0 +1,77 @@
+{
+  "id": "19669",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19669.name",
+    "args": {},
+    "lines": {
+      "ru": "Камуфляж «DPM Twitch»",
+      "en": "DPM Twitch Camouflage",
+      "es": "Camuflaje DPM Twitch",
+      "fr": "Camouflage DPM Twitch",
+      "ko": "트위치 DPM 캐모"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.19669.description",
+        "args": {},
+        "lines": {
+          "ru": "Камуфляж «DPM Twitch» для брони",
+          "en": "DPM Twitch camouflage for armor",
+          "es": "Camuflaje DPM Twitch para armadura",
+          "fr": "Camouflage pour armure DPM Twitch",
+          "ko": "방어구용 트위치 DPM 캐모"
+        }
+      }
+    }
+  ]
+}

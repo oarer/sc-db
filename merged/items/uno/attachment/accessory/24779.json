@@ -1,0 +1,77 @@
+{
+  "id": "24779",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.winter26_pass_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Норд»",
+      "en": "Nord Charm",
+      "es": "Amuleto Nord",
+      "fr": "Breloque Nord",
+      "ko": "노르드 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.winter26_pass_2.description",
+        "args": {},
+        "lines": {
+          "ru": "Необычный жетон, идущий в комплекте с новым снаряжением от Черного Рынка, созданного специально под зиму.\\n\\nНекоторые недобросовестные торгаши срывают жетон с брони, надеясь продать его отдельно особо недалекому сталкеру.",
+          "en": "An unusual token included with the new equipment from the Black Market, designed specifically for winter.\\n\\nSome unscrupulous traders remove the token from the armor, hoping to sell it separately to a particularly gullible stalker.",
+          "es": "Una ficha inusual que viene con el nuevo equipamiento del Mercado Negro, diseñado especialmente para el invierno.\\n\\nAlgunos comerciantes deshonestos arrancan la ficha de la armadura con la esperanza de venderla por separado a algún acechador poco perspicaz.",
+          "fr": "Un jeton inhabituel, livré avec le nouvel équipement du Marché Noir spécialement conçu pour l'hiver.\\n\\nCertains commerçants peu scrupuleux retirent le jeton de l'armure, espérant le revendre séparément à un stalker peu vigilant.",
+          "ko": "겨울용으로 특별히 설계된, 블랙 마켓 신형 장비에 포함되어 있는 독특한 토큰입니다.\\n\\n일부 악덕 상인들은 이 토큰을 방어구에서 떼어내, 특히나 귀가 얇은 스토커에게 따로 팔아먹으려 합니다."
+        }
+      }
+    }
+  ]
+}

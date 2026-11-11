@@ -1,0 +1,58 @@
+{
+  "id": "15988",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.crt.coupon.name",
+    "args": {},
+    "lines": {
+      "ru": "Купон Ворона",
+      "en": "Crow Coupon",
+      "es": "Cupón de Crow",
+      "fr": "Coupon Crow",
+      "ko": "까마귀 쿠폰"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

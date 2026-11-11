@@ -1,0 +1,77 @@
+{
+  "id": "24565",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.navm_dog.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «NAV Шавка»",
+      "en": "NAV Mutt Charm",
+      "es": "Amuleto Chucho NAV",
+      "fr": "Breloque Clébards NAV",
+      "ko": "NAVM 돌연변이 들개 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.navm_dog.description",
+        "args": {},
+        "lines": {
+          "ru": "За активное участие в тестах NAVMESH",
+          "en": "For active participation in NAVMESH tests",
+          "es": "Por participar activamente en las pruebas NAVMESH",
+          "fr": "Pour une participation active aux tests NAVMESH",
+          "ko": "NAVMESH 테스트에 적극적으로 참여했기에"
+        }
+      }
+    }
+  ]
+}

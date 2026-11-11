@@ -1,0 +1,208 @@
+{
+  "id": "22747",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.att.mag_stanag30_f.name",
+    "args": {},
+    "lines": {
+      "ru": "Магазин 5.56 NATO STANAG, обмотанный",
+      "en": "5.56 NATO STANAG Magazine, Taped",
+      "es": "Cargador OTAN STANAG de 5,56, vendado",
+      "fr": "Chargeur 5,56 OTAN STANAG, Scotché",
+      "ko": "5.56구경 NATO 군사표준화협정 규격 탄창, 테이프 묶음형"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.12,
+          "formatted": {
+            "value": {
+              "ru": "0,12 кг",
+              "en": "0.12 kg",
+              "es": "0,12 kg",
+              "fr": "0,12 kg",
+              "ko": "0.12 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.clip_size",
+            "args": {},
+            "lines": {
+              "ru": "Размер магазина",
+              "en": "Magazine size:",
+              "es": "Tamaño del cargador:",
+              "fr": "Capacité du chargeur",
+              "ko": "탄창 크기:"
+            }
+          },
+          "value": 30,
+          "formatted": {
+            "value": {
+              "ru": "30",
+              "en": "30",
+              "es": "30",
+              "fr": "30",
+              "ko": "30"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": 2.9,
+          "formatted": {
+            "value": {
+              "ru": "2,9 с",
+              "en": "2.9 sec",
+              "es": "2,9 s",
+              "fr": "2,9 s",
+              "ko": "2.9초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.tooltip.magazine.info.reload_time_tactical",
+            "args": {},
+            "lines": {}
+          },
+          "value": 2.32,
+          "formatted": {
+            "value": {
+              "ru": "2,32 с",
+              "en": "2.32 sec",
+              "es": "2,32 s",
+              "fr": "2,32 s",
+              "ko": "2.32초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.hip_spread",
+            "args": {},
+            "lines": {}
+          },
+          "value": -7,
+          "formatted": {
+            "value": {
+              "ru": "-7%",
+              "en": "-7%",
+              "es": "-7%",
+              "fr": "-7%",
+              "ko": "-7%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.aim_switch_time",
+            "args": {},
+            "lines": {}
+          },
+          "value": -7,
+          "formatted": {
+            "value": {
+              "ru": "-7%",
+              "en": "-7%",
+              "es": "-7%",
+              "fr": "-7%",
+              "ko": "-7%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "weapon.stat_factor.equipped_speed_modifier",
+            "args": {},
+            "lines": {}
+          },
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4%",
+              "en": "0.4%",
+              "es": "0,4%",
+              "fr": "0,4%",
+              "ko": "0.4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    }
+  ]
+}

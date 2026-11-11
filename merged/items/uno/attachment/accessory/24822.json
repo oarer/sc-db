@@ -1,0 +1,77 @@
+{
+  "id": "24822",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_xque4exe.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Тактический енот»",
+      "en": "Tactical Raccoon Charm",
+      "es": "Amuleto Mapache táctico",
+      "fr": "Breloque Raton Tactique",
+      "ko": "전술 너구리 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_xque4exe.description",
+        "args": {},
+        "lines": {
+          "ru": "Он не силен, не ядовит и не быстр. Зато он хитер, настойчив и всегда добивается своего. Этот брелок — талисман для сталкеров, которые предпочитают силу интеллекта грубой мощи. Иногда одна уловка стоит десятка патронов.",
+          "en": "He isn't strong, poisonous, or fast. However, he is cunning, persistent, and always gets what he wants. This charm serves as a talisman for stalkers who rely on intellect rather than brute force. Sometimes one trick is worth a dozen bullets.",
+          "es": "No es fuerte, ni venenoso, ni rápido. Pero es astuto, persistente y siempre consigue lo que quiere. Este amuleto es un talismán para los acechadores que prefieren el poder de la inteligencia al de la fuerza bruta. A veces, un solo truco vale más que una docena de balas.",
+          "fr": "Il n'est ni fort, ni venimeux, ni rapide. En revanche, il est rusé, tenace et arrive toujours à ses fins. Cette breloque est un talisman pour les stalkers qui privilégient la force de l'intellect à la puissance brute. Parfois, une seule ruse vaut dix balles.",
+          "ko": "그는 강하지도, 독하지도, 빠르지도 않다. 하지만 교활하고 끈질기며, 항상 원하는 바를 얻는다. 이 부적은 거친 힘보다 지성을 무기로 삼는 스토커들의 부적이다. 때로는 한 가지 기지가 수십 발의 탄환보다 더 큰 효과를 발휘한다."
+        }
+      }
+    }
+  ]
+}

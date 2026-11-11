@@ -1,0 +1,77 @@
+{
+  "id": "31260",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.scheme.spanner_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть схемы #2: «Спаннер»",
+      "en": "Schematic #2: Spanner",
+      "es": "Esquema n.° 2: Llave inglesa",
+      "fr": "Partie de schéma 4 : Clé à Molette",
+      "ko": "도면 #2: 스패너"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.scheme.spanner_2.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "С низким шансом при обнаружении сигналов на Обочине и далее",
+          "en": "Has a low chance to be found when you detect signals at the Roadside and beyond",
+          "es": "Baja probabilidad al detectar señales en la Cuneta y más allá",
+          "fr": "Faible chance lorsque vous détectez des signaux à la Bordure et au-delà",
+          "ko": "로드사이드와 그 너머에서 감지되는 신호들로부터 획득 가능"
+        }
+      }
+    }
+  ]
+}

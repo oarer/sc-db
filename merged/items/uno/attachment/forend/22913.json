@@ -1,0 +1,77 @@
+{
+  "id": "22913",
+  "category": "attachment/forend",
+  "name": {
+    "type": "translation",
+    "key": "item.att.mount_m4samodel.name",
+    "args": {},
+    "lines": {
+      "ru": "Самодельное крепление для M4A1",
+      "en": "Handmade Mount for M4A1",
+      "es": "Soporte hecho a mano para M4A1",
+      "fr": "Support fait main pour M4A1",
+      "ko": "사제 M4A1 마운트"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.96,
+          "formatted": {
+            "value": {
+              "ru": "0,96 кг",
+              "en": "0.96 kg",
+              "es": "0,96 kg",
+              "fr": "0,96 kg",
+              "ko": "0.96 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.att.mount_m4samodel.description",
+        "args": {},
+        "lines": {
+          "ru": "Неизвестно кто и зачем до такого додумался, но оно существует",
+          "en": "Who made it, and why, isn't clear. But it exists.",
+          "es": "No está claro quién la fabricó ni por qué. Pero existe.",
+          "fr": "On ne sait pas très bien qui l'a fabriqué, ni pourquoi. Mais il existe.",
+          "ko": "누가 만들었는지, 왜 만들었는지는 분명하지 않다. 하지만 존재한다."
+        }
+      }
+    }
+  ]
+}

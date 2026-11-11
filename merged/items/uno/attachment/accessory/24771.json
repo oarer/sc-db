@@ -1,0 +1,77 @@
+{
+  "id": "24771",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.autumn25_bundle_3.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Скула»",
+      "en": "Cheekbone Charm",
+      "es": "Amuleto Pómulo",
+      "fr": "Breloque Mâchoire",
+      "ko": "광대뼈 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.autumn25_bundle_3.description",
+        "args": {},
+        "lines": {
+          "ru": "Крутой скелет с патроном в зубах скачать обои",
+          "en": "A cool skeleton with a bullet in his teeth wallpaper download",
+          "es": "Esqueleto chulo con un cartucho entre los dientes descargar fondo de pantalla",
+          "fr": "squelette badass balle entre les dents fond d'écran dl",
+          "ko": "탄약을 물고 있는 쿨한 해골 월페이퍼 다운로드"
+        }
+      }
+    }
+  ]
+}

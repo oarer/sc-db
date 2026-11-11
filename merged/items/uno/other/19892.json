@@ -1,0 +1,77 @@
+{
+  "id": "19892",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.motif.wpn.k2c1_nea.name",
+    "args": {},
+    "lines": {
+      "ru": "«Сорока и тигр»",
+      "en": "Magpie and the Tiger",
+      "es": "La urraca y el tigre",
+      "fr": "La Pie et le Tigre",
+      "ko": "까치와 호랑이"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.motif.wpn.k2c1_nea.description",
+        "args": {},
+        "lines": {
+          "ru": "Модернизированный K2C с рисунками тигра, птиц и облачными узорами в духе корейских традиционной корейской живописи.\\nПо словам некоторых аукционистов, стиль рисунка явно не местный, из-за чего появились предположения о работе кого-то из корейских бойцов «Тайфуна».",
+          "en": "A modernized K2C decorated with tigers, birds, and cloud motifs in the spirit of traditional Korean painting.\\nAccording to some auctioneers, the style is clearly not local, which has led to speculation that one of Typhoon's Korean fighters may have been behind the work.",
+          "es": "K2C modernizado con dibujos de tigres, aves y motivos nubosos al estilo de la pintura tradicional coreana.\\nSegún algunos subastadores, el estilo de los dibujos no es claramente local, lo que ha dado lugar a especulaciones sobre la posible autoría de alguno de los combatientes coreanos de Tifón.",
+          "fr": "Un K2C modernisé, orné de motifs de tigres, d'oiseaux et de nuages dans l'esprit de la peinture traditionnelle coréenne.\\nD'après certains commissaires-priseurs, le style des motifs n'est clairement pas local, ce qui a fait naître l'hypothèse qu'il s'agirait du travail de l'un des combattants coréens de Typhon.",
+          "ko": "한국 전통 회화풍으로 호랑이와 새, 구름무늬를 그려 넣은 개량형 K2C.\\n일부 경매업자들의 말에 따르면, 이 지역에서 보기 드문 화풍이어서 타이푼 소속 한국 대원 중 누군가가 직접 작업한 것이라는 추측이 나왔다."
+        }
+      }
+    }
+  ]
+}

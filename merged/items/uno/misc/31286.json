@@ -1,0 +1,58 @@
+{
+  "id": "31286",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setA.garland1.name",
+    "args": {},
+    "lines": {
+      "ru": "Красная простая гирлянда",
+      "en": "Simple Red Tree Lights",
+      "es": "Luces rojas del árbol sencillas",
+      "fr": "Lumières de Sapin Rouges Simples",
+      "ko": "간단한 빨간 트리 조명"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

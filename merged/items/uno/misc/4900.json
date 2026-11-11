@@ -1,0 +1,58 @@
+{
+  "id": "4900",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.sticker.arcade_1.name",
+    "args": {},
+    "lines": {
+      "ru": "Стикер 2 ур. сессионных боев",
+      "en": "Sticker for 2nd level session battles",
+      "es": "Pegatina nivel 2 de batallas de sesión",
+      "fr": "Autocollant niveau 2 des sessions de combat",
+      "ko": "2레벨 세션 전투용 스티커"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.picklock",
+            "args": {},
+            "lines": {
+              "ru": "Отмычка",
+              "en": "Picklock",
+              "es": "Ratero",
+              "fr": "Crocheteur",
+              "ko": "신입"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

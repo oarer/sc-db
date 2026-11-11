@@ -1,0 +1,77 @@
+{
+  "id": "24876",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.na_flag.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Звезды Штатов»",
+      "en": "Stars of the States Charm",
+      "es": "Amuleto Estrellas de la Unión",
+      "fr": "Breloque Étoiles des États-Unis",
+      "ko": "미국의 별들 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.na_flag.description",
+        "args": {},
+        "lines": {
+          "ru": "Потёртый флаг из мира, который давно остался за Периметром. Для одних — память о прошлом. Для других — напоминание о том, что даже самые большие страны не готовы к тому, что творится внутри Периметра.",
+          "en": "A worn flag from a world that was left beyond the Perimeter long ago. To some, it’s a memory of the past. To others, a reminder that even the greatest nations aren’t ready for what’s happening inside the Perimeter.",
+          "es": "Una bandera desgastada de un mundo que quedó hace mucho tiempo más allá del Perímetro. Para algunos, es un recuerdo del pasado. Para otros, un recordatorio de que ni siquiera las naciones más poderosas están preparadas para lo que ocurre dentro del Perímetro.",
+          "fr": "Un drapeau usé d'un monde qui est depuis longtemps resté au-delà du Périmètre. Pour certains, un souvenir du passé. Pour d'autres, un rappel que même les plus grands pays ne sont pas prêts à ce qui se passe à l'intérieur du Périmètre.",
+          "ko": "오래전에 경계선 밖에 남겨진 세계의 낡은 깃발. 누군가에게는 과거의 기억이고, 누군가에게는 가장 큰 국가조차 경계선 안에서 벌어지는 일을 감당할 준비가 되어 있지 않다는 사실을 상기시키는 물건이다."
+        }
+      }
+    }
+  ]
+}

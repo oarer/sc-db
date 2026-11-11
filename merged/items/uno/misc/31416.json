@@ -1,0 +1,58 @@
+{
+  "id": "31416",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.12slugfire.name",
+    "args": {},
+    "lines": {
+      "ru": "Сумка патронов 12 калибра «Жгучий»",
+      "en": "Pouch of 12 Caliber Fluff Rounds",
+      "es": "Zurrón de munición del calibre 12 de Baba",
+      "fr": "Pochette de 12 balles de calibre Burnt Fuzz",
+      "ko": "12구경 플러프탄 탄 주머니"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 6,
+          "formatted": {
+            "value": {
+              "ru": "6 кг",
+              "en": "6 kg",
+              "es": "6 kg",
+              "fr": "6 kg",
+              "ko": "6 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

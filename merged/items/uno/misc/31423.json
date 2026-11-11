@@ -1,0 +1,58 @@
+{
+  "id": "31423",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.crate.molotov.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик коктейлей Молотова",
+      "en": "Crate of Molotov Cocktails",
+      "es": "Caja de cócteles molotov",
+      "fr": "Caisse de cocktails Molotov",
+      "ko": "화염병 상자"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 4,
+          "formatted": {
+            "value": {
+              "ru": "4 кг",
+              "en": "4 kg",
+              "es": "4 kg",
+              "fr": "4 kg",
+              "ko": "4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

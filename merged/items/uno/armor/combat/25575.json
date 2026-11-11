@@ -1,0 +1,167 @@
+{
+  "id": "25575",
+  "category": "armor/combat",
+  "name": {
+    "type": "translation",
+    "key": "item.arm.kz2_encaged.name",
+    "args": {},
+    "lines": {
+      "ru": "«Инженер»",
+      "en": "Engineer",
+      "es": "Ingeniero",
+      "fr": "Ingénieur",
+      "ko": "엔지니어"
+    }
+  },
+  "color": "RANK_MASTER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.master",
+            "args": {},
+            "lines": {
+              "ru": "Мастер",
+              "en": "Master",
+              "es": "Maestro",
+              "fr": "Maître",
+              "ko": "마스터"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 7.5,
+          "formatted": {
+            "value": {
+              "ru": "7,5 кг",
+              "en": "7.5 kg",
+              "es": "7,5 kg",
+              "fr": "7,5 kg",
+              "ko": "7.5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.arm.kz2_encaged.description",
+        "args": {},
+        "lines": {
+          "ru": "Костюм инженера, пропитанный запахом машинного масла и пепла старых механизмов. Его броня хранит инструменты для ремонта оборудования, но даже самые хитроумные устройства бессильны перед неизвестностью подземки...",
+          "en": "The engineer's suit, imbued with the scent of machine oil and the ashes of old mechanisms. Its armor holds tools for repairing equipment, but even the most ingenious devices are powerless against the unknowns of the underground...",
+          "es": "El traje del ingeniero, impregnado del olor a aceite de máquina y de las cenizas de antiguos mecanismos. Su armadura contiene herramientas para reparar equipamiento, pero hasta los dispositivos más ingeniosos resultan inútiles contra los misterios del subsuelo...",
+          "fr": "Combinaison d'ingénieur imprégnée d'odeur d'huile de machine et de cendre de vieux mécanismes. Son armure contient des outils pour réparer l'équipement, mais même les dispositifs les plus ingénieux sont impuissants face à l'inconnu du métro...",
+          "ko": "기계 기름과 낡은 기계의 그을음 냄새가 밴 엔지니어 슈트입니다. 슈트 내부에 장비 수리 도구를 갖추고 있으나, 지하 세계의 미스테리 앞에서는 그 어떤 정교한 기계 장치도 무용지물이 되고 맙니다."
+        }
+      }
+    }
+  ]
+}

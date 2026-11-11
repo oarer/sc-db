@@ -1,0 +1,58 @@
+{
+  "id": "8118",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.morok_tools.name",
+    "args": {},
+    "lines": {
+      "ru": "Инструменты для взлома",
+      "en": "Lockpicking Tools",
+      "es": "Herramientas para forzar cerraduras",
+      "fr": "Outils de Crochetage",
+      "ko": "자물쇠 따개"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 3.2,
+          "formatted": {
+            "value": {
+              "ru": "3,2 кг",
+              "en": "3.2 kg",
+              "es": "3,2 kg",
+              "fr": "3,2 kg",
+              "ko": "3.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

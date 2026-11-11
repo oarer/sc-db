@@ -1,0 +1,77 @@
+{
+  "id": "24811",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_v13.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Антибот»",
+      "en": "Antibot Charm",
+      "es": "Amuleto Antibot",
+      "fr": "Breloque Antibot",
+      "ko": "안티봇 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_v13.description",
+        "args": {},
+        "lines": {
+          "ru": "Когда слова бессильны, в ход идут веские аргументы. Этот брелок — символ того, что все дискуссии в Зоне рано или поздно сводятся к одному и тому же исходу.",
+          "en": "When words fail, strong arguments come into play. This charm is a symbol of the fact that all discussions in the Zone sooner or later come down to the same outcome.",
+          "es": "Cuando las palabras no sirven, hay que usar argumentos sólidos. Este amuleto es un símbolo de que todas las discusiones en la Zona, tarde o temprano, terminan igual.",
+          "fr": "Quand les mots sont impuissants, on passe aux arguments de poids. Cette breloque symbolise le fait que toutes les discussions dans la Zone finissent tôt ou tard par aboutir au même dénouement.",
+          "ko": "말로는 해결되지 않을 때, 결국은 더 묵직한 설득이 오간다. 이 부적은 구역에서 벌어지는 모든 논쟁이 결국 하나의 결말로 귀결된다는 사실을 상징한다."
+        }
+      }
+    }
+  ]
+}

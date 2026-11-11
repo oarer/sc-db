@@ -1,0 +1,77 @@
+{
+  "id": "16175",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16175.name",
+    "args": {},
+    "lines": {
+      "ru": "Глаза зомби",
+      "en": "Zombie Eyes",
+      "es": "Ojos de zombi",
+      "fr": "Yeux de zombie",
+      "ko": "좀비 눈"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.4,
+          "formatted": {
+            "value": {
+              "ru": "0,4 кг",
+              "en": "0.4 kg",
+              "es": "0,4 kg",
+              "fr": "0,4 kg",
+              "ko": "0.4 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16175.description",
+        "args": {},
+        "lines": {
+          "ru": "Глазные белки зомби, обитающих в регионах с повышенным уровнем заражения, удивительным образом накапливают в себе огромное количество микроорганизмов. Так что эти глаза - настоящая находка для микробиолога.",
+          "en": "The zombies that lurk in highly infected areas collect surprising amounts of microorganisms in their eyeballs. So zombie eyes are a real boon for microbiologists.",
+          "es": "Los zombis que acechan en zonas muy infectadas acumulan cantidades sorprendentes de microorganismos en sus globos oculares. Así que los ojos de zombi son una verdadera bendición para los microbiólogos.",
+          "fr": "Les zombies qui rôdent dans les zones fortement infectées recueillent des quantités surprenantes de micro-organismes dans leurs globes oculaires. Les yeux des zombies sont donc une véritable aubaine pour les microbiologistes.",
+          "ko": "고감염 지대에 숨어 사는 좀비들의 눈에는 엄청난 수의 미생물이 축적된다. 좀비의 눈은 미생물학자들에게 귀중한 연구 자료이다."
+        }
+      }
+    }
+  ]
+}

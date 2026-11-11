@@ -1,0 +1,58 @@
+{
+  "id": "31484",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "go.dmz_chest_uncommon.name",
+    "args": {},
+    "lines": {
+      "ru": "Ящик со снаряжением 2 ур.",
+      "en": "Crate with Gear Lv 2",
+      "es": "Caja con equipamiento niv. 2",
+      "fr": "Caisse avec Équipement NV 2",
+      "ko": "장비 레벨 2 상자"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NON_DROP"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

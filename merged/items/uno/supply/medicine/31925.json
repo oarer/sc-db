@@ -1,0 +1,248 @@
+{
+  "id": "31925",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.api_mushroom2.name",
+    "args": {},
+    "lines": {
+      "ru": "Гриб сил",
+      "en": "Strength Shroom",
+      "es": "Seta del poder",
+      "fr": "Vigueur fongique",
+      "ko": "힘 버섯"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5 с",
+              "en": "5 sec",
+              "es": "5 s",
+              "fr": "5 s",
+              "ko": "5초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison",
+              "es": "Veneno",
+              "fr": "Poison",
+              "ko": "독성"
+            }
+          },
+          "value": 40,
+          "formatted": {
+            "value": {
+              "ru": "40%",
+              "en": "40%",
+              "es": "40%",
+              "fr": "40%",
+              "ko": "40%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": 1.75,
+          "formatted": {
+            "value": {
+              "ru": "1,75%",
+              "en": "1.75%",
+              "es": "1,75%",
+              "fr": "1,75%",
+              "ko": "1.75%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "value": 1.75,
+          "formatted": {
+            "value": {
+              "ru": "1,75%",
+              "en": "1.75%",
+              "es": "1,75%",
+              "fr": "1,75%",
+              "ko": "1.75%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "value": 33.6,
+          "formatted": {
+            "value": {
+              "ru": "33,6%",
+              "en": "33.6%",
+              "es": "33,6%",
+              "fr": "33,6%",
+              "ko": "33.6%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "value": 7.4,
+          "formatted": {
+            "value": {
+              "ru": "7,4%",
+              "en": "7.4%",
+              "es": "7,4%",
+              "fr": "7,4%",
+              "ko": "7.4%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins",
+              "ko": "치유 효율"
+            }
+          },
+          "value": 18.5,
+          "formatted": {
+            "value": {
+              "ru": "18,5%",
+              "en": "18.5%",
+              "es": "18,5%",
+              "fr": "18,5%",
+              "ko": "18.5%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.api_mushroom2.description",
+        "args": {},
+        "lines": {
+          "ru": "Кушай, чтобы быть выносливым.",
+          "en": "Eat to keep your stamina up.",
+          "es": "Come para tener resistencia.",
+          "fr": "Mange pour être endurant.",
+          "ko": "먹고 지구력을 키워라."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24589",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.hw23_zaka.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «ZAKATOON»",
+      "en": "ZAKATOON Charm",
+      "es": "Amuleto ZAKATOON",
+      "fr": "Breloque ZAKATOON",
+      "ko": "자카툰 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.hw23_zaka.description",
+        "args": {},
+        "lines": {
+          "ru": "Один из особенных спонсоров «Марафона Мертвецов» специально подготовил этот брелок!",
+          "en": "One of the special sponsors of Dead Man's Marathon has specially prepared this charm!",
+          "es": "¡Uno de los patrocinadores especiales de la Maratón del Hombre Muerto ha preparado este amuleto tan especial!",
+          "fr": "L'un des sponsors spéciaux du Marathon de l'homme mort a spécialement préparé ce breloque !",
+          "ko": "죽은 자의 마라톤을 후원하는 특별 스폰서가 이 부적을 특수 제작했다!"
+        }
+      }
+    }
+  ]
+}

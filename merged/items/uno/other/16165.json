@@ -1,0 +1,77 @@
+{
+  "id": "16165",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16165.name",
+    "args": {},
+    "lines": {
+      "ru": "Зубной порошок",
+      "en": "Tooth Powder",
+      "es": "Polvo de dientes",
+      "fr": "Poudre de dent",
+      "ko": "이빨 가루"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.1,
+          "formatted": {
+            "value": {
+              "ru": "0,1 кг",
+              "en": "0.1 kg",
+              "es": "0,1 kg",
+              "fr": "0,1 kg",
+              "ko": "0.1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16165.description",
+        "args": {},
+        "lines": {
+          "ru": "Ученые обнаружили, что зубы зомбированных в Любече-3 отличаются невероятной прочностью от зубов зомби из других частей Зоны. Сталкеры растирают их и продают получившийся «порошок» светилам науки.",
+          "en": "Scientists discovered that the teeth of the Lyubech-3 zombies have far better durability than zombie teeth from other parts of the Zone. Stalkers grind them down and sell the powder to senior academics.",
+          "es": "Los científicos descubrieron que los dientes de los zombis de Lyubech-3 tienen una durabilidad mucho mayor que los dientes de los zombis de otras partes de la Zona. Los acechadores los trituran y venden el polvo a académicos de alto nivel.",
+          "fr": "Les scientifiques ont découvert que les dents des zombies de Lyubech-3 sont beaucoup plus résistantes que celles des zombies d'autres parties de la Zone. Les stalkers les broient et vendent la poudre à des universitaires chevronnés.",
+          "ko": "과학자들은 류베치-3에 있는 좀비들의 이빨이 구역 내 다른 좀비들의 이빨보다 훨씬 더 내구성이 뛰어나다는 걸 알게 되었다. 스토커들은 좀비의 이빨을 갈아서 가루로 만들어 선임 연구원에게 판매하고 있다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "10123",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.inside25_priest_echo.name",
+    "args": {},
+    "lines": {
+      "ru": "Эхо Священника",
+      "en": "Priests Echo",
+      "es": "Eco del Clérigo",
+      "fr": "Écho du prêtre",
+      "ko": "사제의 메아리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.inside25_priest_echo.description",
+        "args": {},
+        "lines": {
+          "ru": "Этот эхо-кристалл содержит в себе запись откровений сущности Изнанки по имени Священник.",
+          "en": "This Echo Crystal contains a recording of the revelations of an entity from the Inside Out named Priest.",
+          "es": "Este Cristal Eco contiene una grabación de las revelaciones de una criatura del Reverso llamada Clérigo.",
+          "fr": "Ce cristal d'écho contient un enregistrement des révélations d'une entité de l'Envers nommée le Prêtre.",
+          "ko": "뒤집힌 세계에서 온 [사제]라는 존재의 계시가 기록되어 있다."
+        }
+      }
+    }
+  ]
+}

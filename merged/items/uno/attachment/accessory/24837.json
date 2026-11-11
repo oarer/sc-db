@@ -1,0 +1,77 @@
+{
+  "id": "24837",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.mk_ship.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Парижская Коммуна»",
+      "en": "Paris Commune Charm",
+      "es": "Amuleto Comuna de París",
+      "fr": "Breloque la Commune de Paris",
+      "ko": "파리 코뮌 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.mk_ship.description",
+        "args": {},
+        "lines": {
+          "ru": "Линкор-дредноут, первоначально носивший имя «Севастополь» и вступивший в строй в 1914 году. Участвовал в Первой мировой войне, в 1921 году переименован, а в 1929–1930 годах совершил переход на Черное море, став флагманом Черноморского флота. В годы Великой Отечественной войны поддерживал огнем защитников Севастополя и Керчи, в 1943 году ему вернули прежнее имя. Разобран на металл в середине 1950-х.",
+          "en": "A dreadnought battleship originally named \"Sevastopol\", which entered service in 1914. It took part in World War I, was renamed in 1921, and in 1929–1930 transferred to the Black Sea, becoming the flagship of the Black Sea Fleet. During the Great Patriotic War, it supported the defenders of Sevastopol and Kerch with naval gunfire, and in 1943 its original name was restored. It was scrapped for metal in the mid-1950s.",
+          "es": "Acorazado de tipo dreadnought, que inicialmente recibió el nombre de Sebastopol y entró en servicio en 1914. Participó en la Primera Guerra Mundial, fue rebautizado en 1921 y, entre 1929 y 1930, realizó la travesía hacia el mar Negro, convirtiéndose en el buque insignia de la Flota del Mar Negro. Durante la Gran Guerra Patria, prestó apoyo con fuego a los defensores de Sebastopol y Kerch; en 1943 se le devolvió su nombre original. Desguazado a mediados de la década de 1950.",
+          "fr": "Cuirassé de type dreadnought, initialement nommé Sébastopol et entré en service en 1914. Il participa à la Première Guerre mondiale, fut renommé en 1921, puis effectua en 1929–1930 un transfert vers la mer Noire, devenant le navire amiral de la flotte de la mer Noire. Pendant la Grande Guerre patriotique, il soutint par son feu les défenseurs de Sébastopol et de Kertch ; en 1943, son nom d'origine lui fut rendu. Il fut démantelé pour la ferraille au milieu des années 1950.",
+          "ko": "전함 드레드노트로, 본래 세바스토폴이라는 이름을 가지고 1914년에 취역하였다. 제1차 세계 대전에 참전하였으며, 1921년에 개명되었고, 1929–1930년에는 흑해로 이동하여 흑해 함대의 기함이 되었다. 대조국 전쟁 시기에는 세바스토폴과 케르치 방어군을 포격으로 지원하였고, 1943년에 원래 이름을 되찾았다. 1950년대 중반에 고철로 해체되었다."
+        }
+      }
+    }
+  ]
+}

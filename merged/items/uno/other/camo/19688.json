@@ -1,0 +1,77 @@
+{
+  "id": "19688",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.camo.arm.cover.name",
+    "args": {},
+    "lines": {
+      "ru": "Краска «Покрытие»",
+      "en": "Cover Paint",
+      "es": "Pintura Cobertura",
+      "fr": "Peinture de couverture",
+      "ko": "엄폐물 도색"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.camo.arm.cover.description",
+        "args": {},
+        "lines": {
+          "ru": "Краска «Покрытие» для брони",
+          "en": "Cover paint for armor",
+          "es": "Pintura Cobertura para armadura",
+          "fr": "Peinture de couverture pour armure",
+          "ko": "방어구용 엄폐물 도색"
+        }
+      }
+    }
+  ]
+}

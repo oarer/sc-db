@@ -1,0 +1,58 @@
+{
+  "id": "16735",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ssop_help_stash_strange.name",
+    "args": {},
+    "lines": {
+      "ru": "Странная запакованная заначка",
+      "en": "Strange Packed Stockpile",
+      "es": "Reserva extraña empaquetada",
+      "fr": "Planque étrange emballée",
+      "ko": "이상하게 포장된 비상 은닉물"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

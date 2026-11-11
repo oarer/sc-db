@@ -1,0 +1,77 @@
+{
+  "id": "24831",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.spring26_photo.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Секретные материалы»",
+      "en": "Secret Materials Charm",
+      "es": "Amuleto Materiales secretos",
+      "fr": "Breloque Documents secrets",
+      "ko": "비밀 재료 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.spring26_photo.description",
+        "args": {},
+        "lines": {
+          "ru": "Лишь немногие события в Зоне удается запечатлеть на фотоаппарат. Большая часть «папарацци» или не успевает поймать их в объектив, или не имеет для этого возможности, стараясь сохранить свою жизнь вместо создания ценного кадра.",
+          "en": "Only a few events in the Zone can be captured on camera. Most \"paparazzi\" either fail to catch them in the lens or lack the opportunity, trying to save their lives instead of creating a valuable shot.",
+          "es": "Solo unos pocos acontecimientos en la Zona pueden ser capturados por una cámara fotográfica. La mayoría de los paparazzi no logran captarlos con su lente o no tienen la oportunidad de hacerlo, ya que se esfuerzan por salvar sus vidas en lugar de crear una valiosa imagen.",
+          "fr": "Rares sont les événements de la Zone que l'on parvient à capturer en photo. La plupart des paparazzi soit n'ont pas le temps de les cadrer, soit n'en ont tout simplement pas les moyens — trop occupés à préserver leur vie plutôt qu'à produire un cliché de valeur.",
+          "ko": "구역에서 벌어지는 사건 중 극히 일부만이 카메라에 담긴다. 이른바 ‘파파라치’라 불리는 이들 대부분은 그것을 렌즈에 담을 틈도 없이 놓치거나, 귀중한 한 컷 대신 목숨을 지키는 쪽을 택해야 하는 상황에 처한다."
+        }
+      }
+    }
+  ]
+}

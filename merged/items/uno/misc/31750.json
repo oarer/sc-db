@@ -1,0 +1,58 @@
+{
+  "id": "31750",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.part.famas_ny_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Часть новогоднего FAMAS #4",
+      "en": "New Year FAMAS Part #4",
+      "es": "FAMAS de Año Nuevo Pieza n.° 4",
+      "fr": "Pièce de FAMAS du Nouvel An #4",
+      "ko": "새해 FAMAS 부품 #4"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24674",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.autumn24_jeton.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Жетон Представителя»",
+      "en": "Representative's Token Charm",
+      "es": "Amuleto Ficha de representante",
+      "fr": "Breloque de Jeton de Représentant",
+      "ko": "대표자의 토큰 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.autumn24_jeton.description",
+        "args": {},
+        "lines": {
+          "ru": "Жетон «Зивкаса», который был позаимствован и слегка доработан умельцами из Черного Рынка.",
+          "en": "ZIVCAS token, which was borrowed and slightly modified by the craftsmen from the Black Market.",
+          "es": "Ficha prestada de ZIVCAS, modificada ligeramente por los artesanos del Mercado Negro.",
+          "fr": "Un jeton ZIVCAS, qui a été emprunté et légèrement modifié par l'artisan du Marché noir.",
+          "ko": "블랙 마켓 장인들이 빌려와 약간 변형한 지브카스 토큰."
+        }
+      }
+    }
+  ]
+}

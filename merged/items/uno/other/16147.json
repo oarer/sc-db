@@ -1,0 +1,77 @@
+{
+  "id": "16147",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16147.name",
+    "args": {},
+    "lines": {
+      "ru": "Голова Ваганта",
+      "en": "Vagant's Head",
+      "es": "Cabeza del Juglar",
+      "fr": "Tête de Vagant",
+      "ko": "바간트의 머리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 кг",
+              "en": "1 kg",
+              "es": "1 kg",
+              "fr": "1 kg",
+              "ko": "1 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16147.description",
+        "args": {},
+        "lines": {
+          "ru": "Больше эта тварь не будет никому докучать своим пением.",
+          "en": "This beast will no longer bother anyone with its singing.",
+          "es": "Esta bestia ya no molestará a nadie con su canto.",
+          "fr": "Cette bête ne dérangera plus personne avec son chant.",
+          "ko": "이제 더는 이 녀석의 노래에 시달릴 일 없겠군."
+        }
+      }
+    }
+  ]
+}

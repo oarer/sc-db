@@ -1,0 +1,58 @@
+{
+  "id": "4502",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.plc.pattern.merc.name",
+    "args": {},
+    "lines": {
+      "ru": "Паттерн Наемников",
+      "en": "Mercenary Pattern",
+      "es": "Patrón de Mercenarios",
+      "fr": "Thème des Mercenaires",
+      "ko": "용병 패턴"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

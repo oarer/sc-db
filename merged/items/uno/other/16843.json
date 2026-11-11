@@ -1,0 +1,77 @@
+{
+  "id": "16843",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.quantum_battery_ny24.name",
+    "args": {},
+    "lines": {
+      "ru": "Контейнер с Квантовым Барьером",
+      "en": "Container with a Quantum Barrier",
+      "es": "Contenedor con barrera cuántica",
+      "fr": "Conteneur avec Barrière Quantique",
+      "ko": "양자 방벽이 있는 컨테이너"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.17,
+          "formatted": {
+            "value": {
+              "ru": "0,17 кг",
+              "en": "0.17 kg",
+              "es": "0,17 kg",
+              "fr": "0,17 kg",
+              "ko": "0.17 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.quantum_battery_ny24.description",
+        "args": {},
+        "lines": {
+          "ru": "Контейнер с энергетическим барьером, который может вместить в себе чистую энергию Ноосферы.",
+          "en": "A container with an energy barrier that can accommodate pure noosphere energy.",
+          "es": "Un contenedor con una barrera energética que puede albergar energía pura de la nanosfera.",
+          "fr": "Un conteneur avec une barrière énergétique qui peut accueillir l'énergie pure de la noosphère.",
+          "ko": "순수한 노스피어 에너지를 수용할 수 있는 컨테이너. 에너지 방벽이 둘러져 있다."
+        }
+      }
+    }
+  ]
+}

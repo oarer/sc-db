@@ -1,0 +1,58 @@
+{
+  "id": "31320",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setD.toy2.name",
+    "args": {},
+    "lines": {
+      "ru": "Зеленый звездный шарик",
+      "en": "Green Star Bauble",
+      "es": "Bola de estrella verde",
+      "fr": "Boule Étoile Verte",
+      "ko": "녹색 별 장식 방울"
+    }
+  },
+  "color": "RANK_NEWBIE",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.newbie",
+            "args": {},
+            "lines": {
+              "ru": "Новичок",
+              "en": "Newbie",
+              "es": "Novato",
+              "fr": "Débutant",
+              "ko": "초보자"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

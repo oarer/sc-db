@@ -1,0 +1,58 @@
+{
+  "id": "15969",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.crt.winter_26_episode.name",
+    "args": {},
+    "lines": {
+      "ru": "Блок сигнальных данных",
+      "en": "Signal data block",
+      "es": "Bloque de datos de señales",
+      "fr": "Bloc de données de signal",
+      "ko": "신호 데이터 블록"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "PERSONAL_DROP_ON_GET"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

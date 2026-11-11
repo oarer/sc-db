@@ -1,0 +1,58 @@
+{
+  "id": "8183",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.you_cant_come_here_papper.name",
+    "args": {},
+    "lines": {
+      "ru": "Записка мертвеца",
+      "en": "Dead Man's Note",
+      "es": "Notas de un muerto",
+      "fr": "Note du mort",
+      "ko": "죽은 자의 쪽지"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.05,
+          "formatted": {
+            "value": {
+              "ru": "0,05 кг",
+              "en": "0.05 kg",
+              "es": "0,05 kg",
+              "fr": "0,05 kg",
+              "ko": "0.05 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "24753",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.autumn25_pass_4.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Молчун»",
+      "en": "Taciturn Charm",
+      "es": "Amuleto Chiticalla",
+      "fr": "Breloque Taciturne",
+      "ko": "과묵한 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.autumn25_pass_4.description",
+        "args": {},
+        "lines": {
+          "ru": "Голова куклы, найденной в Мертвом городе. Обнаруживший ее бандит утверждал, что кукла при приближении начинала громко смеяться, привлекая всех окрестных мутантов. Бандит решил проблему радикально, оторвав кукле голову, а когда и это не помогло — зашив ей рот и начав таскать с собой в качестве талисмана.\\n\\nНеизвестно, насколько правдива его история, но брелок вошел в моду — охочие до экзотики сталкеры начали массово обезглавливать найденные куклы.",
+          "en": "The head of a doll found in Dead City. The bandit who encountered it claimed that the doll would start laughing loudly when approached, attracting all nearby mutants. He solved the problem drastically by tearing the doll's head off, and when that didn't help, he sewed its mouth shut and began carrying it around as a talisman.\\n\\nIt's unknown how true his story is, but the charm became fashionable—stalkers eager for exotic items started beheading found dolls en masse.",
+          "es": "La cabeza de una muñeca encontrada en la Ciudad Muerta. El bandido que la encontró afirmó que, al acercarse, la muñeca comenzaba a reírse a carcajadas, atrayendo a todos los mutantes de los alrededores. El bandido decidió resolver el problema de forma radical, arrancándole la cabeza a la muñeca, y cuando eso no funcionó, le cosió la boca y comenzó a llevarla consigo como talismán.\\n\\nNo se sabe hasta qué punto es cierta su historia, pero el amuleto se puso de moda: los acechadores ávidos de exotismo comenzaron a decapitar en masa las muñecas que encontraban.",
+          "fr": "Tête d'une poupée trouvée dans la Ville Morte. Le bandit qui l'a découverte affirme qu'elle se mettait à rire bruyamment à son approche, attirant tous les mutants des environs. Il a fini par lui arracher la tête, puis lui coudre la bouche, la gardant comme talisman.\\n\\nVérité ou légende, ce breloque est devenu tendance : les stalkers amateurs d'exotisme décapitent désormais les poupées qu'ils trouvent.",
+          "ko": "죽은 자들의 도시에서 발견된 인형의 머리. 이 머리를 발견한 밴디트에 따르면, 가까이 다가가자 인형이 주변의 돌연변이들을 부르며 크게 웃기 시작했다. 밴디트는 문제를 해결하기 위해 호탕하게 인형의 머리통을 뽑아버렸으나 소용이 없었다. 그러자 그는 인형의 입을 꿰매어 부적처럼 들고 다니기 시작했다.\\n\\n밴디트의 이야기가 진실인지 모르지만 이런 부적은 하나의 유행이 되었다 - 특이한 장식에 매료된 스토커들은 인형을 발견하는 족족 머리통을 뽑기 시작했다."
+        }
+      }
+    }
+  ]
+}

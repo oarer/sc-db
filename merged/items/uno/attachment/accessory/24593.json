@@ -1,0 +1,77 @@
+{
+  "id": "24593",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.hw23_stonks.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Stonks»",
+      "en": "Stonks Charm",
+      "es": "Amuleto Stonks",
+      "fr": "Breloque Pierre",
+      "ko": "스통크스 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.hw23_stonks.description",
+        "args": {},
+        "lines": {
+          "ru": "Просмотры и рейтинги шоу «Марафон Мертвецов» растут! Брелок как раз это и отражает.",
+          "en": "Views and ratings of the show Dead Man's Marathon are growing! The charm reflects exactly this thing!",
+          "es": "¡Aumentan las visitas y la audiencia de la Maratón del Hombre Muerto! ¡Este amuleto refleja su aumento en popularidad!",
+          "fr": "L'audience de l'émission « le Marathon de l'homme mort » ne cesse de croître ! Le Breloque reflète exactement cela !",
+          "ko": "죽은 자의 마라톤 쇼의 조회수와 평점이 증가하고 있다! 이 부적이 바로 그 사실을 반영한다!"
+        }
+      }
+    }
+  ]
+}

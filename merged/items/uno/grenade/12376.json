@@ -1,0 +1,131 @@
+{
+  "id": "12376",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.lg1_ravent.name",
+    "args": {},
+    "lines": {
+      "ru": "«Лекарство гладиатора»",
+      "en": "Gladiator Medicine",
+      "es": "Medicamento de gladiador",
+      "fr": "Médicament de Gladiateur",
+      "ko": "검투사 치료제"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 кг",
+              "en": "0.25 kg",
+              "es": "0,25 kg",
+              "fr": "0,25 kg",
+              "ko": "0.25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.lg1_ravent.description",
+        "args": {},
+        "lines": {
+          "ru": "Граната с элементами артефактов создает область, лечащую союзников в течение времени.",
+          "en": "Grenade with elements from artifacts. Creates a temporary healing area for allies.",
+          "es": "Granada con elementos de artefactos. Crea una zona de curación temporal para los aliados.",
+          "fr": "Grenade avec des éléments tirés d'artefacts. Crée une zone temporaire de guérison pour les alliés.",
+          "ko": "아티팩트의 성분이 들어 있는 수류탄이다. 아군을 일시적으로 치유하는 영역을 생성한다."
+        }
+      }
+    }
+  ]
+}

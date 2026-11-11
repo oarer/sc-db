@@ -1,0 +1,58 @@
+{
+  "id": "8109",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.inside25_mrkovrik_beacon_empty.name",
+    "args": {},
+    "lines": {
+      "ru": "«Фантомный маяк» Ковровского (не заряжен)",
+      "en": "Carpetsky Phantom Beacon (Not Charged)",
+      "es": "Faro Fantasma de Alfombrasov (sin carga)",
+      "fr": "Balise Fantôme Carpetsky (Non Chargé)",
+      "ko": "카르페츠키 팬텀 신호기 (미충전)"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 5,
+          "formatted": {
+            "value": {
+              "ru": "5 кг",
+              "en": "5 kg",
+              "es": "5 kg",
+              "fr": "5 kg",
+              "ko": "5 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

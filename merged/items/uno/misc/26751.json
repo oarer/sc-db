@@ -1,0 +1,96 @@
+{
+  "id": "26751",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.misc.lucky_ticket.name",
+    "args": {},
+    "lines": {
+      "ru": "Билет участника",
+      "en": "Participation Ticket",
+      "es": "Entrada de participación",
+      "fr": "Ticket de participation",
+      "ko": "참여 티켓"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.lucky_ticket.description",
+        "args": {},
+        "lines": {
+          "ru": "Привет, искатель! Поздравляем тебя с получением специального билета участника! Говорят, их можно найти, пробираясь в самые тайные уголки Зоны и выполняя различные задания. @@Собирай больше билетов и повышай свой шанс на выигрыш призов! А подробнее о наградах и условиях розыгрыша можно узнать в официальной группе в VK или на форуме. @@Желаем удачи!",
+          "en": "Hey, seeker! Congratulations on receiving a special entry ticket! They say these can be found by venturing into the most secret corners of the Zone and completing various tasks. @@Collect more tickets to increase your chances of winning prizes! You can learn more about the rewards and giveaway rules in the official VK group or on the forum. @@Good luck!",
+          "es": "¡Hola, buscador! ¡Enhorabuena por recibir una entrada de participación especial! Dicen que se pueden encontrar adentrándose en los confines más misteriosos de la Zona y completando diversas misiones. @@¡Reúne más entradas y aumenta tus posibilidades de ganar premios! Puedes obtener más información sobre las recompensas y las condiciones del sorteo en el grupo oficial de VK o en el foro. @@Buena suerte.",
+          "fr": "Salut, chercheur ! Félicitations pour avoir reçu un billet de participation spécial ! On dit que ceux-ci peuvent être trouvés en se dirigeant vers les confins les plus mystérieux de la Zone et en accomplissant diverses quêtes. @@Collecte plus de billets et augmente tes chances de gagner des prix ! Tu peux en apprendre plus sur les récompenses et les conditions du tirage au sort dans le groupe officiel sur VK ou sur le forum. @@Bonne chance!",
+          "ko": "반갑습니다, 탐색자여! 특별 참여 티켓을 받게 되다니, 참으로 축하드립니다! 이 티켓은 구역의 가장 불가사의한 곳들을 탐험하거나 다양한 퀘스트를 완료함으로써 얻을 수 있다 합니다! @@티켓을 더 모아 상품에 당첨될 확률을 높여보세요! 상품에 대한 정보와 상품 뽑기 조건에 관한 자세한 내용은 VK 소셜 미디어의 공식 그룹 또는 포럼에서 확인할 수 있습니다. @@행운을 빌죠!"
+        }
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.misc.lucky_ticket.item_origin_tip",
+        "args": {},
+        "lines": {
+          "ru": "С активностей во время новогоднего события",
+          "en": "For being active during the New Year's event",
+          "es": "Por ser activo durante el evento de Año Nuevo",
+          "fr": "Pour avoir été actif pendant l'événement du Nouvel An",
+          "ko": "새해 이벤트 기간 동안의 접속 보상"
+        }
+      }
+    }
+  ]
+}

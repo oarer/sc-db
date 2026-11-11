@@ -1,0 +1,77 @@
+{
+  "id": "19066",
+  "category": "other/camo",
+  "name": {
+    "type": "translation",
+    "key": "item.19066.name",
+    "args": {},
+    "lines": {
+      "ru": "Бандитский цифровой камуфляж",
+      "en": "Digital Bandit Camouflage",
+      "es": "Camuflaje Digital de bandido",
+      "fr": "Camouflage Bandit Digital",
+      "ko": "디지털 밴디트 캐모"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.19066.description",
+        "args": {},
+        "lines": {
+          "ru": "Цифровой камуфляж для бандитской брони",
+          "en": "Digital camouflage for bandit armor",
+          "es": "Camuflaje Digital para armadura de bandido",
+          "fr": "Camouflage digital pour les armures de bandits",
+          "ko": "밴디트 방어구용 디지털 캐모"
+        }
+      }
+    }
+  ]
+}

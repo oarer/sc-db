@@ -1,0 +1,41 @@
+{
+  "id": "10119",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.quest.inside25_professor_echo.name",
+    "args": {},
+    "lines": {
+      "ru": "Эхо Профессора",
+      "en": "Professors Echo",
+      "es": "Eco del Profesor",
+      "fr": "Écho du Professeur",
+      "ko": "교수의 메아리"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.quest.inside25_professor_echo.description",
+        "args": {},
+        "lines": {
+          "ru": "Этот эхо-кристалл содержит в себе запись откровений сущности Изнанки по имени Профессор.",
+          "en": "This Echo Crystal contains a recording of the revelations of an entity from the Inside Out named Professor.",
+          "es": "Este Cristal Eco contiene una grabación de las revelaciones de una criatura del Reverso llamada Profesor.",
+          "fr": "Ce cristal d'écho contient un enregistrement des révélations d'une entité de l'Envers nommée le Professeur.",
+          "ko": "뒤집힌 세계에서 온 [교수]라는 존재의 계시가 기록되어 있다."
+        }
+      }
+    }
+  ]
+}

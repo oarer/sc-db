@@ -1,0 +1,131 @@
+{
+  "id": "12403",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.exp.ops.tank.name",
+    "args": {},
+    "lines": {
+      "ru": "Оглушающая граната",
+      "en": "Stun Grenade",
+      "es": "Granada aturdidora",
+      "fr": "Grenade étourdissante",
+      "ko": "기절 수류탄"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.25,
+          "formatted": {
+            "value": {
+              "ru": "0,25 кг",
+              "en": "0.25 kg",
+              "es": "0,25 kg",
+              "fr": "0,25 kg",
+              "ko": "0.25 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.exp.ops.tank.description",
+        "args": {},
+        "lines": {
+          "ru": "При взрыве накладывает оглушение на сущностей в радиусе взрыва и снижает их урон на 20%",
+          "en": "Upon explosion, it stuns entities within the blast radius and reduces their damage by 20%",
+          "es": "Al explotar, aturde a las criaturas en el radio de la explosión y reduce su daño en un 20 %",
+          "fr": "Lors de l'explosion, inflige un étourdissement aux entités dans le rayon de l'explosion et réduit leurs dégâts de 20 %.",
+          "ko": "폭발 시 범위 내 대상에게 기절 효과를 부여하고 공격력을 20% 감소시킵니다"
+        }
+      }
+    }
+  ]
+}

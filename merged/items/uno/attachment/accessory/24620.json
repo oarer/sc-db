@@ -1,0 +1,77 @@
+{
+  "id": "24620",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.spring24_sun.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Ярило-137»",
+      "en": "Yarilo-137 Charm",
+      "es": "Amuleto Yarilo-137",
+      "fr": "Breloque Yarilo-137",
+      "ko": "야릴로-137 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.spring24_sun.description",
+        "args": {},
+        "lines": {
+          "ru": "Если долго смотреть на этот брелок - начинаешь чувствовать, как его лучи согревают кожу... а, возможно, и плавят ее!",
+          "en": "Look at this charm for too long, and you start to feel its rays warming your skin... or maybe melting it!",
+          "es": "Si miras demasiado tiempo este amuleto, empezarás a sentir que sus rayos calientan tu piel... ¡o quizás que la derriten!",
+          "fr": "Regardez cette breloque trop longtemps et vous commencerez à sentir ses rayons réchauffer votre peau... ou peut-être la faire fondre !",
+          "ko": "이 부적을 너무 오래 바라보면 피부에 햇볕이 따뜻하게 느껴지는 것 같기도 하고... 녹아내리는 것 같기도 하고!"
+        }
+      }
+    }
+  ]
+}

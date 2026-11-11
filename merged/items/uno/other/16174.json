@@ -1,0 +1,77 @@
+{
+  "id": "16174",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16174.name",
+    "args": {},
+    "lines": {
+      "ru": "Желчь мутанта",
+      "en": "Mutant Bile",
+      "es": "Bilis de mutante",
+      "fr": "Bile de mutant",
+      "ko": "돌연변이의 담즙"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.08,
+          "formatted": {
+            "value": {
+              "ru": "0,08 кг",
+              "en": "0.08 kg",
+              "es": "0,08 kg",
+              "fr": "0,08 kg",
+              "ko": "0.08 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16174.description",
+        "args": {},
+        "lines": {
+          "ru": "Внутренние органы мутантов Зоны - это настоящий Клондайк, но не для сталкеров, а для ученых. Желчь мутантов представляет для научного сообщества особенную ценность.",
+          "en": "The internal organs of Zone mutants can be a real treasure trove—for scientists, that is, not stalkers. Mutant bile is of particular value of the science community.",
+          "es": "Los órganos internos de los mutantes de la Zona pueden ser un verdadero tesoro para los científicos, no para los acechadores. La bilis mutante tiene un valor especial para la comunidad científica.",
+          "fr": "Les organes internes des mutants de la zone peuvent constituer un véritable trésor - pour les scientifiques, c'est-à-dire pas pour les stalkers. La bile des mutants est particulièrement précieuse pour la communauté scientifique.",
+          "ko": "구역 돌연변이들의 내장은 과학자들에게는 엄청난 보물이다. 스토커들에게는 그렇지 않겠지만. 특히 돌연변이의 담즙은 과학계에서 높은 가치를 지닌다."
+        }
+      }
+    }
+  ]
+}

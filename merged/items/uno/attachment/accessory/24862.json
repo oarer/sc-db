@@ -1,0 +1,77 @@
+{
+  "id": "24862",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.mt_gold.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Голда»",
+      "en": "Gold Charm",
+      "es": "Amuleto Oro",
+      "fr": "Breloque Goldos",
+      "ko": "금 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.mt_gold.description",
+        "args": {},
+        "lines": {
+          "ru": "Небольшой брелок, старательно имитирующий слиток золота. По словам первого владельца, эту мелочевку ему впарил какой-то ушлый диггер, обещая сталкеру несметные горы богатств, если он сможет добраться с брелоком до Бара и продать его Горемыке. Однако, ожидаемо, оказалось, что это всего лишь позолоченная свинцовая болванка.",
+          "en": "A small keychain carefully made to imitate a gold bar. According to its first owner, some slick digger conned him into buying the trinket, promising the stalker untold riches if he could make it to the Bar and sell it to Desperado. As expected, however, it turned out to be nothing more than a gold-plated lump of lead.",
+          "es": "Un pequeño amuleto que imita con esmero un lingote de oro.Según el primer propietario, un astuto excavador le endosó esta baratija, prometiéndole al acechador montones de riquezas si conseguía llegar con el llavero hasta el Bar y vendérselo a Desperado. Sin embargo, como era de esperar, resultó ser solo una pieza de plomo chapada en oro.",
+          "fr": "Un petit breloque, imitant soigneusement un lingot d'or. Selon le premier propriétaire, ce babiole lui a été refilée par un fouilleur rusé, promettant au stalker des montagnes incommensurables de richesses s'il parvenait à emmener le breloque jusqu'à Bar et à le vendre à Desperado. Cependant, comme prévu, il s'est avéré que ce n'était qu'un bloc de plomb doré.",
+          "ko": "금괴를 정교하게 흉내 낸 작은 키링. 첫 번째 소유자의 말에 따르면, 이 사소한 물건은 어느 교활한 디거가 스토커에게 엄청난 부를 얻을 수 있다며 속여 판 것으로, 술집까지 가져가 고리미카에게 팔기만 하면 된다고 했다고 한다. 하지만 예상대로, 그것은 단순히 금도금된 납 덩어리에 불과했다."
+        }
+      }
+    }
+  ]
+}

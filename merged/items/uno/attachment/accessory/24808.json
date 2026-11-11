@@ -1,0 +1,77 @@
+{
+  "id": "24808",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.media_velichyt.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Секретный ингредиент»",
+      "en": "Secret Ingredient Charm",
+      "es": "Amuleto Ingrediente secreto",
+      "fr": "Breloque Ingrédient Secret",
+      "ko": "비밀 재료 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.media_velichyt.description",
+        "args": {},
+        "lines": {
+          "ru": "Некоторым счастливчикам повезло встретить в Зоне человека, называющего себя Шаурмистом и попробовать его знаменитое блюдо. Рецепт, как и происхождение мяса, он раскрывать отказался, но брелок служит напоминанием о небольшом гастрономическом приключении.",
+          "en": "Some lucky ones had the chance to meet a person in the Zone who calls himself the Shawarmist and to try his famous dish. He refused to reveal the recipe or the origin of the meat, but the charm serves as a reminder of a small gastronomic adventure.",
+          "es": "Algunos afortunados tuvieron la suerte de encontrar en la Zona a un hombre que se hacía llamar Maestro de Shawarma y probar su famoso plato. Se negó a revelar la receta, al igual que el origen de la carne, pero el amuleto sirve como recuerdo de una pequeña aventura gastronómica.",
+          "fr": "Certains chanceux ont eu la fortune de rencontrer dans la Zone un homme se faisant appeler le Shawarmiste et de goûter à son plat célèbre. Il a refusé de révéler la recette, tout comme l'origine de la viande, mais cette breloque sert de souvenir d'une petite aventure gastronomique.",
+          "ko": "운 좋은 이들 중에는 구역에서 자신을 샤와르마 장인이라 부르는 사내를 만나, 그의 유명한 요리를 맛본 자들도 있었다. 그는 레시피는 물론, 고기의 출처에 대해서도 끝내 입을 열지 않았다. 대신 이 부적은 그 짧지만 묘하게 기억에 남는 미식 모험을 떠올리게 해 주는 기념품으로 남았다."
+        }
+      }
+    }
+  ]
+}

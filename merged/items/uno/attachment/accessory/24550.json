@@ -1,0 +1,58 @@
+{
+  "id": "24550",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.vog25p_f.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Заледенелый снаряд ВОГ-25П»",
+      "en": "Icy VOG-25R Grenade Charm",
+      "es": "Amuleto gélido Proyectil de granada VOG-25R",
+      "fr": "Breloque de Grenade de Givre VOG-25R",
+      "ko": "얼어붙은 VOG-25R 수류탄 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

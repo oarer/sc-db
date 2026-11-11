@@ -1,0 +1,58 @@
+{
+  "id": "29981",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.filler.boss_limansk_2.name",
+    "args": {},
+    "lines": {
+      "ru": "Огромный коготь",
+      "en": "Huge Claw",
+      "es": "Garra enorme",
+      "fr": "Griffe énorme",
+      "ko": "거대한 발톱"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.9,
+          "formatted": {
+            "value": {
+              "ru": "0,9 кг",
+              "en": "0.9 kg",
+              "es": "0,9 kg",
+              "fr": "0,9 kg",
+              "ko": "0.9 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

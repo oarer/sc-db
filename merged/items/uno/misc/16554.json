@@ -1,0 +1,94 @@
+{
+  "id": "16554",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.bag.apt_p.name",
+    "args": {},
+    "lines": {
+      "ru": "Сумка с аптечками проводника",
+      "en": "Bag of Guide's First-Aid Kits",
+      "es": "Bolsa de botiquines de guía",
+      "fr": "Sac de Trousses de Premiers Secours de Guide",
+      "ko": "길잡이의 구급상자 가방"
+    }
+  },
+  "color": "RANK_STALKER",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.stalker",
+            "args": {},
+            "lines": {
+              "ru": "Сталкер",
+              "en": "Stalker",
+              "es": "Acechador",
+              "fr": "Stalker",
+              "ko": "스토커"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 4.2,
+          "formatted": {
+            "value": {
+              "ru": "4,2 кг",
+              "en": "4.2 kg",
+              "es": "4,2 kg",
+              "fr": "4,2 kg",
+              "ko": "4.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}

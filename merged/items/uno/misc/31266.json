@@ -1,0 +1,58 @@
+{
+  "id": "31266",
+  "category": "misc",
+  "name": {
+    "type": "translation",
+    "key": "item.ny_toys.setQ.toy4.name",
+    "args": {},
+    "lines": {
+      "ru": "Советский розовый шарик",
+      "en": "Soviet Pink Bauble",
+      "es": "Bola rosa soviética",
+      "fr": "Boule Rose Soviétique",
+      "ko": "소련 핑크 장식구"
+    }
+  },
+  "color": "RANK_VETERAN",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "key-value",
+          "key": {
+            "type": "translation",
+            "key": "core.tooltip.info.rank",
+            "args": {},
+            "lines": {
+              "ru": "Ранг",
+              "en": "Rank",
+              "es": "Rango",
+              "fr": "Rang",
+              "ko": "등급"
+            }
+          },
+          "value": {
+            "type": "translation",
+            "key": "core.rank.veteran",
+            "args": {},
+            "lines": {
+              "ru": "Ветеран",
+              "en": "Veteran",
+              "es": "Veterano",
+              "fr": "Vétéran",
+              "ko": "베테랑"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

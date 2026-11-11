@@ -1,0 +1,131 @@
+{
+  "id": "9149",
+  "category": "grenade",
+  "name": {
+    "type": "translation",
+    "key": "item.wpn.panzerfaust.name",
+    "args": {},
+    "lines": {
+      "ru": "Panzerfaust",
+      "en": "Panzerfaust",
+      "es": "Panzerfaust",
+      "fr": "Panzerfaust",
+      "ko": "Panzerfaust"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Прочность",
+              "en": "Durability",
+              "es": "Durabilidad",
+              "fr": "Durabilité",
+              "ko": "내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.max_durability",
+            "args": {},
+            "lines": {
+              "ru": "Макс. прочность",
+              "en": "Max. durability",
+              "es": "Durabilidad máx.",
+              "fr": "Durabilité Max.",
+              "ko": "최대 내구도"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.wpn.panzerfaust.description",
+        "args": {},
+        "lines": {
+          "ru": "Немецкий одноразовый противотанковый гранатомет Второй мировой войны. Простое и мощное оружие пехоты, созданное для борьбы с бронетехникой на ближней дистанции.",
+          "en": "A German disposable anti-tank grenade launcher from World War II. A simple yet powerful infantry weapon designed to fight armored vehicles at close range.",
+          "es": "Lanzagranadas antitanque alemán de un solo uso de la Segunda Guerra Mundial. Un arma de infantería simple y potente, creada para combatir vehículos blindados a corta distancia.",
+          "fr": "Lance-roquettes antichar jetable allemand de la Seconde Guerre mondiale. Une arme d'infanterie simple et puissante, conçue pour combattre les véhicules blindés à courte distance.",
+          "ko": "제2차 세계 대전 독일 일회용 대전차 로켓포. 근거리에서 장갑차와 싸우기 위해 만들어진 간단하고 강력한 보병 무기."
+        }
+      }
+    }
+  ]
+}

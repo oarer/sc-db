@@ -1,0 +1,77 @@
+{
+  "id": "24875",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.na_eagle.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Свободный полет»",
+      "en": "Free Flight Charm",
+      "es": "Amuleto Vuelo Libre",
+      "fr": "Breloque Vol libre",
+      "ko": "자유 낙하 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.na_eagle.description",
+        "args": {},
+        "lines": {
+          "ru": "Старый металлический орёл, найденный там, где карты предпочитают заканчиваться. Говорят, он приносит удачу.\\n\\nСудя по количеству бывших владельцев — орел сам выбирает, кому ее приносить.",
+          "en": "An old metal eagle, found where maps prefer to end.\\n\\nThey say it brings good luck.Judging by the number of former owners, the eagle decides for itself who gets it.",
+          "es": "Una vieja águila de metal encontrada allí donde los mapas prefieren terminar. Dicen que trae buena suerte.\\n\\nA juzgar por la cantidad de antiguos propietarios que ha tenido, parece que el águila elige por sí misma a quién concedérsela.",
+          "fr": "Un vieux aigle en métal, trouvé là où les cartes préfèrent s'arrêter. On dit qu'il porte chance. À en juger par le nombre d'anciens propriétaires, l'aigle choisit lui-même à qui la porter.",
+          "ko": "오래된 금속 독수리. 지도들이 끝나길 선호하는 곳에서 발견되었다. 행운을 가져다준다고들 한다.\\n\\n과거 소유자의 수를 보면, 독수리가 직접 누구에게 행운을 줄지 고르는 듯하다."
+        }
+      }
+    }
+  ]
+}

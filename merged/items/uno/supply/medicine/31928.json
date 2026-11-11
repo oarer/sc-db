@@ -1,0 +1,383 @@
+{
+  "id": "31928",
+  "category": "supply/medicine",
+  "name": {
+    "type": "translation",
+    "key": "item.med.mutant_mushroom1.name",
+    "args": {},
+    "lines": {
+      "ru": "Гриб",
+      "en": "Mushroom",
+      "es": "Seta",
+      "fr": "Champignon",
+      "ko": "버섯"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.cooldown",
+            "args": {},
+            "lines": {
+              "ru": "Время использования",
+              "en": "Usage time",
+              "es": "Tiempo de uso",
+              "fr": "Temps d'utilisation",
+              "ko": "사용 시간"
+            }
+          },
+          "value": 1,
+          "formatted": {
+            "value": {
+              "ru": "1 с",
+              "en": "1 sec",
+              "es": "1 s",
+              "fr": "1 s",
+              "ko": "1초"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.medicine.info.toxicity",
+            "args": {},
+            "lines": {
+              "ru": "Отравление",
+              "en": "Poison",
+              "es": "Veneno",
+              "fr": "Poison",
+              "ko": "독성"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0%",
+              "en": "0%",
+              "es": "0%",
+              "fr": "0%",
+              "ko": "0%"
+            },
+            "nameColor": "838383",
+            "valueColor": "EEEEEE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement",
+              "ko": "이동 속도"
+            }
+          },
+          "value": 200,
+          "formatted": {
+            "value": {
+              "ru": "200%",
+              "en": "200%",
+              "es": "200%",
+              "fr": "200%",
+              "ko": "200%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.sprint_speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость бега",
+              "en": "Running speed",
+              "es": "Velocidad de carrera",
+              "fr": "Vitesse de course",
+              "ko": "달리기 속도"
+            }
+          },
+          "value": 250,
+          "formatted": {
+            "value": {
+              "ru": "250%",
+              "en": "250%",
+              "es": "250%",
+              "fr": "250%",
+              "ko": "250%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance",
+              "ko": "스태미나"
+            }
+          },
+          "value": 250,
+          "formatted": {
+            "value": {
+              "ru": "250%",
+              "en": "250%",
+              "es": "250%",
+              "fr": "250%",
+              "ko": "250%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Восстановление выносливости",
+              "en": "Stamina regeneration",
+              "es": "Regeneración de aguante",
+              "fr": "Régénération de l'endurance",
+              "ko": "스태미나 재생"
+            }
+          },
+          "value": 80,
+          "formatted": {
+            "value": {
+              "ru": "80%",
+              "en": "80%",
+              "es": "80%",
+              "fr": "80%",
+              "ko": "80%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé",
+              "ko": "체력 회복력"
+            }
+          },
+          "value": 220,
+          "formatted": {
+            "value": {
+              "ru": "220%",
+              "en": "220%",
+              "es": "220%",
+              "fr": "220%",
+              "ko": "220%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins",
+              "ko": "치유 효율"
+            }
+          },
+          "value": 150,
+          "formatted": {
+            "value": {
+              "ru": "150%",
+              "en": "150%",
+              "es": "150%",
+              "fr": "150%",
+              "ko": "150%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.artefakt_heal",
+            "args": {},
+            "lines": {
+              "ru": "Периодическое лечение",
+              "en": "Periodic healing",
+              "es": "Curación periódica",
+              "fr": "Soins périodiques",
+              "ko": "지속 치유"
+            }
+          },
+          "value": 80,
+          "formatted": {
+            "value": {
+              "ru": "80%",
+              "en": "80%",
+              "es": "80%",
+              "fr": "80%",
+              "ko": "80%"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement",
+              "ko": "출혈"
+            }
+          },
+          "value": -80,
+          "formatted": {
+            "value": {
+              "ru": "-80%",
+              "en": "-80%",
+              "es": "-80%",
+              "fr": "-80%",
+              "ko": "-80%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.radiation_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Радиация",
+              "en": "Radiation",
+              "es": "Radiación",
+              "fr": "Radiation",
+              "ko": "방사능"
+            }
+          },
+          "value": -70,
+          "formatted": {
+            "value": {
+              "ru": "-70%",
+              "en": "-70%",
+              "es": "-70%",
+              "fr": "-70%",
+              "ko": "-70%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        },
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psyonics",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys",
+              "ko": "정신파 에미션"
+            }
+          },
+          "value": -70,
+          "formatted": {
+            "value": {
+              "ru": "-70%",
+              "en": "-70%",
+              "es": "-70%",
+              "fr": "-70%",
+              "ko": "-70%"
+            },
+            "nameColor": "C15252",
+            "valueColor": "C15252"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.med.mutant_mushroom1.description",
+        "args": {},
+        "lines": {
+          "ru": "Нет-нет! Этот гриб слишком большой и мудрый для тебя.",
+          "en": "No, no! This mushroom is far too big and wise for you.",
+          "es": "¡No, no! Esta seta es demasiado grande y sabia para ti.",
+          "fr": "Non, non ! Ce champignon est trop grand et sage pour toi.",
+          "ko": "아니, 아니! 이 버섯은 너한테는 너무 크고… 너무 “현명”하다."
+        }
+      }
+    }
+  ]
+}

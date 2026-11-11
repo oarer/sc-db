@@ -1,0 +1,77 @@
+{
+  "id": "16170",
+  "category": "other",
+  "name": {
+    "type": "translation",
+    "key": "item.16170.name",
+    "args": {},
+    "lines": {
+      "ru": "Модуль ретранслятора",
+      "en": "Relay Station Module",
+      "es": "Módulo de estación repetidora",
+      "fr": "Module de station relais",
+      "ko": "중계기 모듈"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0.2,
+          "formatted": {
+            "value": {
+              "ru": "0,2 кг",
+              "en": "0.2 kg",
+              "es": "0,2 kg",
+              "fr": "0,2 kg",
+              "ko": "0.2 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.16170.description",
+        "args": {},
+        "lines": {
+          "ru": "Фанатики часто проводят замену оборудования в своих ретрансляторах, так что у них часто можно найти подобные модули.",
+          "en": "Fanatics often change the equipment in their relay stations, so they are likely to have similar modules.",
+          "es": "Los fanáticos suelen cambiar el equipamiento de sus estaciones repetidoras, por lo que es probable que tengan módulos similares.",
+          "fr": "Les fanatiques changent souvent l'équipement de leurs stations relais, ils sont donc susceptibles d'avoir des modules similaires.",
+          "ko": "광신도 집단은 중계기지의 장비를 자주 바꾼다. 그들이 보유한 모듈도 다 거기서 거기일 가능성이 높다."
+        }
+      }
+    }
+  ]
+}

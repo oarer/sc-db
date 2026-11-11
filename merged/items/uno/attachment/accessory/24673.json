@@ -1,0 +1,77 @@
+{
+  "id": "24673",
+  "category": "attachment/accessory",
+  "name": {
+    "type": "translation",
+    "key": "item.charm.autumn24_logo.name",
+    "args": {},
+    "lines": {
+      "ru": "Брелок «Прострел»",
+      "en": "Shot Through",
+      "es": "Agujero de bala",
+      "fr": "Tiré à Travers",
+      "ko": "관통 부적"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "core.tooltip.info.weight",
+            "args": {},
+            "lines": {
+              "ru": "Вес",
+              "en": "Weight",
+              "es": "Peso",
+              "fr": "Poids",
+              "ko": "무게"
+            }
+          },
+          "value": 0,
+          "formatted": {
+            "value": {
+              "ru": "0 кг",
+              "en": "0 kg",
+              "es": "0 kg",
+              "fr": "0 kg",
+              "ko": "0 kg"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "text": {
+        "type": "translation",
+        "key": "item.charm.autumn24_logo.description",
+        "args": {},
+        "lines": {
+          "ru": "Этот брелок служит напоминанием о том, что некоторые ценные разработки представители Черного Рынка позаимствовали у «Зивкаса».",
+          "en": "This charm serves as a reminder that some valuable developments by Black Market representatives were borrowed from ZIVCAS.",
+          "es": "Este amuleto es un recordatorio de los valiosos avances de los representantes del Mercado Negro que se tomaron prestados de ZIVCAS.",
+          "fr": "Cette breloque sert de rappel au fait que certains développements de valeur de représentants du Marché noir ont été empruntés à la ZIVCAS",
+          "ko": "이 부적은 블랙 마켓 대표들이 지브카스로부터 차용해온 소중한 개발품을 상기시켜준다."
+        }
+      }
+    }
+  ]
+}
