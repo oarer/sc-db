@@ -474,6 +474,87 @@
           "ko": "전차 성게를 닮은 외형의 아티팩트.\\n\\n금속 가시와 핵으로 이루어진 독특한 구조를 가지고 있지만, 실제로는 꽤 연약하다.\\n\\n제7연구소 아티팩트학과의 초기 실험에서, 핵을 파괴하면 나머지 구조가 형태를 잃고 녹은 납으로 변하는 것으로 나타났다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.stamina_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Выносливость",
+              "en": "Stamina",
+              "es": "Aguante",
+              "fr": "Endurance"
+            }
+          },
+          "min": 3.87,
+          "max": 4.7,
+          "formatted": {
+            "value": {
+              "en": "[3.87%; 4.7%]",
+              "ru": "[3.87%; 4.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.speed_modifier",
+            "args": {},
+            "lines": {
+              "ru": "Скорость передвижения",
+              "en": "Movement speed",
+              "es": "Velocidad de movimiento",
+              "fr": "Vitesse de déplacement"
+            }
+          },
+          "min": 0.17,
+          "max": 0.2,
+          "formatted": {
+            "value": {
+              "en": "[0.17%; 0.2%]",
+              "ru": "[0.17%; 0.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.psycho_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Пси-излучение",
+              "en": "Psy-emissions",
+              "es": "Emisiones psy",
+              "fr": "Émissions psys"
+            }
+          },
+          "min": -25.6,
+          "max": -21.2,
+          "formatted": {
+            "value": {
+              "en": "[-25.6; -21.2]",
+              "ru": "[-25.6; -21.2]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

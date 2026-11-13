@@ -390,6 +390,87 @@
           "ko": "속삭임과의 전투에서 얻은 트로피 아티팩트. \\n 근수축을 연상시키는 얕은 떨림이 밀도 높은 유기 형성물 위로 이따금 이는 시원한 촉감의 아티팩트. 복합성 물체라는 사실을 상기시키듯, 내부에는 다른 아티팩트의 윤곽이 비친다. \\n 신체에 가깝게 접근할수록 딱딱한 덩어리가 혈액 속에 다형성 효소를 생성하기 시작하며, 그 과정에서 통증은 느껴지지 않았다. \\n 영향을 받은 유기체는 아티팩트와 인접한 부위에서 모세혈관 긴장 현상이 관찰된다. 아티팩트 제거 시, 피부에 가벼운 염증이 나타나지만 금방 사라진다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.max_weight_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Переносимый вес",
+              "en": "Carry weight",
+              "es": "Peso de carga",
+              "fr": "Poids maximum supporté"
+            }
+          },
+          "min": 2.38,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.38; 2.9]",
+              "ru": "[2.38; 2.9]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.health_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Живучесть",
+              "en": "Vitality",
+              "es": "Vitalidad",
+              "fr": "Vitalité"
+            }
+          },
+          "min": 0.98,
+          "max": 1.2,
+          "formatted": {
+            "value": {
+              "en": "[0.98%; 1.2%]",
+              "ru": "[0.98%; 1.2%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.58,
+          "max": 0.7,
+          "formatted": {
+            "value": {
+              "en": "[0.58%; 0.7%]",
+              "ru": "[0.58%; 0.7%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }

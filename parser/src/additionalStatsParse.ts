@@ -10,6 +10,9 @@ import type {
 } from "./type";
 
 const API_URL = "https://sctools.tech/api/exbo/items/?category=artefact";
+const API_TIMEOUT = 60_000;
+const API_RETRIES = 3;
+const API_RETRY_DELAY = 3_000;
 
 interface ApiStat {
 	isPositive?: boolean;
@@ -35,29 +38,42 @@ export async function additionalStatsParse(
 ) {
 	console.log("[AddStats] Fetching artefacts from API…");
 
-	let apiItems: ApiItem[];
+	let apiItems: ApiItem[] | undefined;
 
-	try {
-		const res = await axios.get<ApiItem[]>(API_URL, {
-			headers: {
-				accept: "application/json",
-				"User-Agent":
-					"Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0",
-			},
-			proxy: proxy ? PROXY_CONFIG : false,
-			timeout: 10000,
-		});
-		apiItems = res.data;
-		console.log(
-			`[AddStats] API items received directly: ${
-				Array.isArray(apiItems) ? apiItems.length : typeof apiItems
-			}`,
-		);
-	} catch (err: unknown) {
-		console.error(
-			"[AddStats] API fetch failed:",
-			err instanceof Error ? err.message : err,
-		);
+	for (let attempt = 1; attempt <= API_RETRIES; attempt++) {
+		try {
+			const res = await axios.get<ApiItem[]>(API_URL, {
+				headers: {
+					accept: "application/json",
+					"User-Agent":
+						"Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0",
+				},
+				proxy: proxy ? PROXY_CONFIG : false,
+				timeout: API_TIMEOUT,
+			});
+			apiItems = res.data;
+			console.log(
+				`[AddStats] API items received directly: ${
+					Array.isArray(apiItems) ? apiItems.length : typeof apiItems
+				}`,
+			);
+			break;
+		} catch (err: unknown) {
+			const message = err instanceof Error ? err.message : err;
+			console.error(
+				`[AddStats] API fetch failed (attempt ${attempt}/${API_RETRIES}):`,
+				message,
+			);
+			if (attempt < API_RETRIES) {
+				await new Promise((resolve) =>
+					setTimeout(resolve, API_RETRY_DELAY * attempt),
+				);
+			}
+		}
+	}
+
+	if (!Array.isArray(apiItems)) {
+		console.error("[AddStats] API unavailable — skipping additional stats.");
 		return;
 	}
 
@@ -212,6 +228,9 @@ export async function additionalStatsParse(
 						? "infoBlocks"
 						: "info_blocks";
 				if (!json[infoBlocksKey]) json[infoBlocksKey] = [];
+				json[infoBlocksKey] = json[infoBlocksKey].filter(
+					(block: { type?: string }) => block?.type !== "addStat",
+				);
 				json[infoBlocksKey].push(listBlock);
 				await fsPromises.writeFile(file, JSON.stringify(json, null, 2), "utf8");
 				modified++;

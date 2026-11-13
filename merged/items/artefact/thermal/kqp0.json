@@ -390,6 +390,87 @@
           "ko": "붉은 꾀꼬리는 명백히 유기적 기원을 지니며, 주로 목질 성분으로 이루어진 것으로 보인다. 그러나 제 7 연구소의 모든 분석 시도는 실패로 끝났다. 아티팩트가 조금이라도 손상될 경우, 몇 초 만에 불길에 휩싸여 재로 변해버리기 때문이다.\\n\\n해외 시장에서는 주로 피닉스라는 이름으로 유통되고 있다."
         }
       }
+    },
+    {
+      "type": "addStat",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.bleeding_accumulation",
+            "args": {},
+            "lines": {
+              "ru": "Кровотечение",
+              "en": "Bleeding",
+              "es": "Hemorragia",
+              "fr": "Saignement"
+            }
+          },
+          "min": -20,
+          "max": -17,
+          "formatted": {
+            "value": {
+              "en": "[-20; -17]",
+              "ru": "[-20; -17]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.regeneration_bonus",
+            "args": {},
+            "lines": {
+              "ru": "Регенерация здоровья",
+              "en": "Health regeneration",
+              "es": "Regeneración de salud",
+              "fr": "Régénération de la santé"
+            }
+          },
+          "min": 0.425,
+          "max": 0.5,
+          "formatted": {
+            "value": {
+              "en": "[0.425%; 0.5%]",
+              "ru": "[0.425%; 0.5%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        },
+        {
+          "type": "range",
+          "name": {
+            "type": "translation",
+            "key": "stalker.artefact_properties.factor.heal_efficiency",
+            "args": {},
+            "lines": {
+              "ru": "Эффективность лечения",
+              "en": "Healing effectiveness",
+              "es": "Eficacia de curación",
+              "fr": "Efficacité des soins"
+            }
+          },
+          "min": 2.465,
+          "max": 2.9,
+          "formatted": {
+            "value": {
+              "en": "[2.465%; 2.9%]",
+              "ru": "[2.465%; 2.9%]"
+            },
+            "nameColor": "53C353",
+            "valueColor": "53C353"
+          }
+        }
+      ]
     }
   ]
 }
