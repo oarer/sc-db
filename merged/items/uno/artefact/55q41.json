@@ -1,0 +1,58 @@
+{
+  "id": "55q41",
+  "category": "artefact",
+  "name": {
+    "type": "translation",
+    "key": "item.28052.name",
+    "args": {},
+    "lines": {
+      "ru": "Артефакт «Пустота»",
+      "en": "Void Artifact",
+      "es": "Artefacto Vacío",
+      "fr": "Artefact Vide",
+      "ko": "공허 아티팩트"
+    }
+  },
+  "color": "DEFAULT",
+  "status": {
+    "state": "NONE"
+  },
+  "infoBlocks": [
+    {
+      "type": "list",
+      "title": {
+        "type": "text",
+        "text": ""
+      },
+      "elements": [
+        {
+          "type": "numeric",
+          "name": {
+            "type": "translation",
+            "key": "stalker.tooltip.artefact.info.durability",
+            "args": {},
+            "lines": {
+              "ru": "Заряд",
+              "en": "Charge",
+              "es": "Carga",
+              "fr": "Charge",
+              "ko": "충전"
+            }
+          },
+          "value": 100,
+          "formatted": {
+            "value": {
+              "ru": "100%",
+              "en": "100%",
+              "es": "100%",
+              "fr": "100%",
+              "ko": "100%"
+            },
+            "nameColor": "838383",
+            "valueColor": "838383"
+          }
+        }
+      ]
+    }
+  ]
+}
